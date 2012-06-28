@@ -8,4 +8,9 @@ Testing:
     For differend results, the indexed sample size can be altered by using the
     -E parameter
 
-    Snippet results can be displayed using simplesnippetgen from examples.
+    Snippet results can be viewed using simplesnippet test
+
+    For compiling set INCLUDE_PATH to $XAPIAN_REPO/xapian/xapian-core/include
+                      LIBRARY_PATH to $XAPIAN_REPO/xapian/xapian-core/.libs
+    
+    For running set LD_LIBRARY_PATH to include libxapian-1.3.so

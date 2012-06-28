@@ -1,0 +1,70 @@
+
+Adaxa Suite is a fully integrated Open Source Enterprise Resource Planning (ERP) Suite
+
+==Business Model==
+
+Adaxa Suite is a General Public License GPL/GPL2 license and code is contributed back to the Open Source Community.
+
+==Integration==
+
+The core of the Adaxa Suite is ADempiere, an Open Source ERP & CRM tool that handles core business processes:
+*Financials - General Ledger, receivables and payables, multi-company, multi-currency, bank reconciliation, complex banking, financial reporting
+*Sales - Quotes, Order entry, sales reporting, purchase orders, vendor reporting
+*CRM - Contact management, sales pipeline, campaign management
+*Inventory - multiple facility, multiple location, customizable rules engine, shipment consolidation
+*Manufacturing - MRP, scheduling, infinite BOM, demand management, production control, job costing
+*Asset Management - Tracking, barcoding, fixed asset register, depreciation
+*Reporting - built-in reporting tools, customized and standard reports, exportable reports
+Integrated Touch Screen Point of Sale system, compatible with the modern touch screen based POS terminals, is also Adempiere based.
+SpagoBI, an Open Source Business Intelligence Suite, is fully integrated to take advantage of its complete feature set.
+OpenLDAP provides a central login system that manages user logins for the entire enterprise.
+Drupal is the platform for the Adaxa eCommerce web solution (eGility) and is fully integrated with the complete Adaxa Suite.
+Exo provides the document management capability with integration to email parsing and indexing through an SMPT utility and intranet functionality.
+Asterisk PBX manages all inbound calls (VOIP or trunk lines).
+PostgresSQL database provides central data storage and maintenance of data and data protection through data replication and complex Failover capabilities in local and hosted environments.
+
+==Architecture==
+
+The system is based on a J2EE architecture. It is written in Java, using Jboss as applications server and Postgres as default database. Oracle is also supported by special request. The GUI is ZKwebUI. Adaxa Suite runs on Linux and supports intelligent phone and tablet browsing.
+
+==Industries==
+
+:Electrical
+:Electronics
+:Plastics Technology
+:Services
+:eCommerce
+:Distribution
+:Supply Chain
+:Government
+:Scientific Instrument
+:Retail
+:Law
+:Banking (Peer to Peer)
+:Agricultural Chemicals Manufacture
+The following business areas are addressed by the Adaxa Suite Application:
+:Enterprise Resource Planning (ERP)
+:Supply Chain Management(SCM)
+:Customer Relationship Management(CRM)
+:Financial Performance Analysis
+:Integrated Point of Sale (POS)
+:Integrated Webstore (eGility)
+:Asset Management
+:Material Requirements Planning (MRP)
+
+== References ==
+
+Finalists in NZ open Source Awards http://wwwnzosa.org.nz
+Open Source ERP, Redhuan D Oon, Pearson Education, January 1, 2010, ISBN 967-3-49022-8
+ADempiere 3.4 ERP Solutions, Bayu Cahya Pamungkas, Packt Publishing, December 16, 2009, ISBN 1-84719-726-4
+
+== External links ==
+
+Adaxa http://www.adaxa.com
+SpagoBI http://www.spagoworld.org
+Exo http://www.exoplatform.com
+Asterix http://www.asterix.org
+OpenLDAP http://www.openldap.org
+Drupal http://drupal.org
+PostgresSQL  http://www.postgressql.org
+

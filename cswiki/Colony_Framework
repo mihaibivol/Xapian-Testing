@@ -1,0 +1,55 @@
+
+The Colony Framework is an open source plugin framework specification.Colony Specification - Guide on the Colony specification Implementations of the specification offer a runtime component model, that allows for plugins to be installed, started, stopped, updated and uninstalled without requiring the application container to be stopped. The specification relies heavily on the Inversion of control principle, in order to make it easier for application components to discover and interact with each other.
+Colony aims to eliminate the complexity typically associated with the creation of modular applications, through a simplified unified model for component development. Practical applications can range from modular enterprise software to application mashing.What can I build with Colony? - Guide with applications that could benefit from the technology
+
+==Motivation==
+
+Colony gathers inspiration from other modularity solutions such as OSGi for the Java programming language and Managed Extensibility Framework (MEF) for the .NET Framework.
+Colony aims to be a platform and language independent specification, and serve a wide range of use cases.Why Colony? - Guide motivating the need for the framework This includes use cases typically associated with OSGi, such as modularized application with a narrow core and large extensibility possibilities. This also includes use cases to which MEF caters, such as adding modularity to an existing application, without the developer having to create its own plugin infrastructure from scratch.
+The need for reducing the number of configuration steps for assembling a computing grid, as well as supporting adding nodes and distributing computation to them as quickly as possible, also drives the Colony Distributed initiative.
+
+==Key concepts==
+
+The Colony conceptual model builds on top of 6 key concepts.
+*Plugin Manager: core facility that manages the plugin lifecycle and dependency injection.
+*Plugin: an isolated piece of code and associated resources that makes sense by itself or when working together with other plugins.
+*Capability: defines what a plugin is able to do, so that it can be matched with other plugins that desire its abilities.
+*Dependency: defines that a plugin requires another plugin to function and is worthless without it.
+*Event: a message that can be broadcasted by a plugin and listened by whichever plugin wants to receive it.
+*Bundle: a set of related plugins, intended to operate together.
+The plugin lifecycle includes loading and unloading its resources, injecting it into others as a capability or dependency, as well as having capabilities and/or dependencies injected into it.Plugin lifecycle - Section of the specification describing the plugin lifecycle
+
+==Distribution==
+
+The framework proposes the concept of Viral Distribution where computation can be transparently distributed to any number of nodes, by having each node run a Colony instance. The concept takes advantage of the modularity approach, by using the plugin as the unit to be transferred between nodes. The concept also requires the availability of tools for rapid discovery of new nodes (e.g. using Zeroconf techniques such as Bonjour through Colony Bonjour Plugin).
+Viral distribution, as per the Colony interpretation, would mean that a configured Colony instance could make its computing power available to a Colony managed computing grid, by announcing its specifications, after which it would receive work units in the form of plugins, i.e., mobile code for execution on the instance.
+To set up a new Colony instance, and enabling viral distribution support, would require an operating system, basic Colony dependencies (e.g. a virtual machine for the Colony implementation language of choice) and the framework manager itself (e.g. using the installer).How to Establish your Colony in 3 Easy Steps - Guide describing the setup of the technology Adding the basic bundles required for accessing and downloading from a remote plugin repository to the instance would complete the bootstrap. The node would then announce its availability to the Distribution Server Plugin, and could begin receiving and processing work.
+
+==Notable Components==
+
+Colony framework includes a set of application components for various functions, from domain-specific sub-frameworks to providers for common protocols and services.
+Notable components include a complete web application framework, based on the MVC architecture pattern, similar to Ruby on Rails and Django.
+The web stack is supported by a modular HTTP server implementation developed from the ground up under the Colony design philosophy. In practice this implies that even core HTTP server components, such as filesystem access and socket interfaces, are provided as modules and can be hotswapped.
+The web MVC plugin also uses the modular ORM entity manager plugin.
+For managing distribution, the distribution manager component acts as a hub for the various distribution plugins that implement's Colony's viral distribution concept.
+Among other available components are a build automation component (functionally comparable to Maven); an extensible revision control facade with extensions available for Subversion, Bazaar and Mercurial; a self-contained Wiki application, leveraging the Revision control plugins. For integration with other technologies, Colony provides servers and clients for common protocols such as SMTP, BitTorrent, DNS, IRC, POP, Telnet, XMPP, LDAP as well as support for Bonjour (Apple Inc.'s implementation of Zeroconf).
+Some niche components are also included, such as clients for the Twitter API and Apple Push Notification Service.
+
+==Status==
+
+As of 2011, Colony is considered to be in alpha although production deployments exist.Official website - Reference to the current status of Colony as early alpha as of 2011
+
+==See also==
+
+* Plug-in
+* Modular programming
+* Component-based software engineering
+* OSGi
+* Managed Extensibility Framework
+
+==References==
+
+==External links==
+
+*Colony Framework website, getcolony.com
+

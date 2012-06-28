@@ -1,0 +1,25 @@
+
+MASON is a multi-agent simulation environment developed in Java. 
+
+==Development==
+
+MASON has been developed at George Mason University's Evolutionary Computation Laboratory in conjunction with the GMU Center for Social Complexity. First released in 2003, the environment continues to be maintained and kept up to date. The name, as well as referring to the parent institution, derives from the acronym Multi-Agent Simulator Of Neighborhoods (or Networks).[tpl]cite web |url=http://cs.gmu.edu/~eclab/projects/mason/ |title=MASON Multiagent Simulation Toolkit |accessdate=19 January 2011[/tpl]
+Until recently MASON was developed within the Java.net environment [tpl]cite web |url=https://mason.dev.java.net/ |title=mason: Home |accessdate=19 January 2011[/tpl], active development is now moving to Google Code. 
+Whilst MASON is less mature than other similar libraries it is designed with execution speed as a priority.[tpl]cite journal |url=http://sim.sagepub.com/content/82/9/609.abstract |title=Agent-based simulation platforms: review and development recommendations. |first1=S. F. |last1=Railsback |first2=S. L. |last2=Lytinen |first3=S. K. |last3=Jackson |journal=Simulation |month=September |year=2006 |volume=82 |issue=9 |pages=609-623[/tpl]
+
+==Applets==
+
+Applets developed using MASON include Craig Reynolds' Boids algorithm, Balls and Bands, a simulation of  Hooke's Law, an L-system generator, Conway's Game of Life, Sugarscape and autonomous multi-robot systems[tpl]cite web |url=http://www.intelligentappliances.org/multirobot/index.php?title=MASON_instructions |title=MASON instructions |author=Tucker Balch|accessdate=23 Apr 2012[/tpl].
+MASON may be used with the Eclipse Integrated development environment.
+
+==See also==
+
+*Swarm Intelligence
+*Comparison of agent-based modeling software
+
+==References==
+
+==External links==
+
+*[tpl]Official website|http://cs.gmu.edu/~eclab/projects/mason/[/tpl]
+

@@ -1,0 +1,55 @@
+
+Probability has a dual aspect: on the one hand the probability or likelihood of hypotheses given the evidence for them, and on the other hand the behavior of stochastic processes such as the throwing of dice or coins. The study of the former is historically older in, for example, the law of evidence, while the mathematical treatment of dice began with the work of Pascal and Fermat in the 1650s.
+Probability is distinguished from statistics. (See history of statistics). While statistics deals with data and inferences from it, (stochastic) probability deals with the stochastic (random) processes which lie behind data or outcomes.
+
+==Etymology==
+
+Probable and likely and their cognates in other modern languages derive from medieval learned Latin probabilis and verisimilis, deriving from Cicero and generally applied to an opinion to mean plausible or generally approved.J. Franklin, The Science of Conjecture: Evidence and Probability Before Pascal, 113, 126.
+
+==Origins==
+
+Ancient and medieval law of evidence developed a grading of degrees of proof, probabilities, presumptions and half-proof to deal with the uncertainties of evidence in court.Franklin, The Science of Conjecture, ch. 2.
+In Renaissance times, betting was discussed in terms of odds such as "ten to one" and maritime insurance premiums were estimated based on intuitive risks, but there was no theory on how to calculate such odds or premiums.Franklin, Science of Conjecture, ch. 11.
+The mathematical methods of probability arose in the correspondence of Pierre de Fermat and Blaise Pascal (1654) on such questions as the fair division of the stake in an interrupted game of chance. Christiaan Huygens (1657) gave a comprehensive treatment of the subject.Hacking, Emergence of Probability [tpl]Page needed|date=January 2012[/tpl] Franklin, Science of Conjecture, ch. 12.
+
+==Eighteenth century==
+
+Jacob Bernoulli's Ars Conjectandi (posthumous, 1713) and Abraham de Moivre's The Doctrine of Chances (1718) put probability on a sound mathematical footing, showing how to calculate a wide range of complex probabilities. Bernoulli proved a version of the fundamental law of large numbers, which states that in a large number of trials, the average of the outcomes is likely to be very close to the expected value - for example, in 1000 throws of a fair coin, it is likely that there are close to 500 heads (and the larger the number of throws, the closer to half-and-half the proportion is likely to be).
+
+==Nineteenth century==
+
+The power of probabilistic methods in dealing with uncertainty was shown by Gauss's determination of the orbit of Ceres from a few observations. The theory of errors used the method of least squares to correct error-prone observations, especially in astronomy, based on the assumption of a normal distribution of errors to determine the most likely true value. In 1812, Laplace issued his Théorie analytique des probabilités in which he consolidated and laid down many fundamental results in probability and statistics such as the moment generating function, method of least squares, inductive probability, and hypothesis testing.
+Towards the end of the nineteenth century, a major success of explanation in terms of probabilities was the Statistical mechanics of Ludwig Boltzmann and J. Willard Gibbs which explained properties of gases such as temperature in terms of the random motions of large numbers of particles.
+The field of the history of probability itself was established by Isaac Todhunter's monumental History of the Mathematical Theory of Probability from the Time of Pascal to that of Lagrange (1865).
+
+==Twentieth century==
+
+Probability and statistics became closely connected through the work on hypothesis testing of R. A. Fisher and Jerzy Neyman, which is now widely applied in biological and psychological experiments and in clinical trials of drugs. A hypothesis, for example that a drug is usually effective, gives rise to a probability distribution that would be observed if the hypothesis is true. If observations approximately agree with the hypothesis, it is confirmed, if not, the hypothesis is rejected.Salsburg, The Lady Tasting Tea.
+The theory of stochastic processes broadened into such areas as Markov processes and Brownian motion, the random movement of tiny particles suspended in a fluid. That provided a model for the study of random fluctuations in stock markets, leading to the use of sophisticated probability models in mathematical finance, including such successes as the widely-used Black–Scholes formula for the valuation of options.Bernstein, Against the Gods, ch. 18.
+The twentieth century also saw long-running disputes on the interpretations of probability. In the mid-century frequentism was dominant, holding that probability means long-run relative frequency in a large number of trials. At the end of the century there was some revival of the Bayesian view, according to which the fundamental notion of probability is how well a proposition is supported by the evidence for it.
+The mathematical treatment of probabilities, especially when there are infinitely many possible outcomes, was facilitated by Kolmogorov's axioms (1931).
+
+==Notes==
+
+==References==
+
+*[tpl]Cite book |title=Against the Gods: The Remarkable Story of Risk |last=Bernstein |first=Peter L. |authorlink=Peter L. Bernstein |coauthors= |year=1996 |publisher=Wiley |location=New York |isbn=0-471-12104-5 |page= |pages= |url= [/tpl]
+*[tpl]Cite book |title=Classical Probability in the Enlightenment |last=Daston |first=Lorraine |authorlink=Lorraine Daston |coauthors= |year=1988 |publisher=Princeton University Press |location=Princeton |isbn=0-691-08497-1 |page= |pages= |url= [/tpl]
+*[tpl]Cite book |title=The Science of Conjecture: Evidence and Probability Before Pascal |last=Franklin |first=James |authorlink=James Franklin (philosopher) |coauthors= |year=2001 |publisher=Johns Hopkins University Press |location=Baltimore, MD |isbn=0-8018-6569-7 |page= |pages= |url= [/tpl]
+*[tpl]Cite book |title=The Emergence of Probability (2nd ed) |last=Hacking |first=Ian |authorlink=Ian Hacking |coauthors= |year=2006 |publisher=Cambridge University Press |location=New York |isbn=978-0-521-86655-2 |page= |pages= |url= [/tpl]
+*[tpl]Cite book |title=A History of Probability and Statistics and Their Applications before 1750 |last=Hald |first=Anders |authorlink=Anders Hald |coauthors= |year=2003 |publisher=Wiley |location=Hoboken, NJ |isbn=0-471-47129-1 |page= |pages= |url= [/tpl]
+*[tpl]Cite book |title=A History of Mathematical Statistics from 1750 to 1930 |last=Hald |first=Anders |authorlink=Anders Hald |coauthors= |year=1998 |publisher=Wiley |location=New York |isbn=0-471-17912-4 |page= |pages= |url= [/tpl]
+*[tpl]Cite book |title=Statisticians of the Centuries |last=Heyde |first=C. C. |authorlink= |coauthors= Seneta, E. (eds) |year=2001 |publisher=Springer |location=New York |isbn=0-387-95329-9 |page= |pages= |url= [/tpl]
+*[tpl]Cite book |title=The Theory That Would Not Die: How Bayes' Rule Cracked the Enigma Code, Hunted Down Russian Submarines, and Emerged Triumphant from Two Centuries of Controversy |last=McGrayne |first=Sharon Bertsch |authorlink= |coauthors= |year=2011 |publisher=Yale University Press |location=New Haven |isbn=9780300169690 |page= |pages= |url=http://yalebooks.co.uk/display.asp?K=9780300169690 [/tpl]
+*[tpl]Cite book |title=Creating Modern Probability: Its Mathematics, Physics and Philosophy in Historical Perspective|last=von Plato |first=Jan |authorlink= |coauthors= |year=1994 |publisher=Cambridge University Press |location=New York |isbn=978-0-521-59735-7 |page= |pages= |url= [/tpl]
+* Salsburg, David (2001). The Lady Tasting Tea: How Statistics Revolutionized Science in the Twentieth Century. ISBN 0-7167-4106-7
+*
+
+==External links==
+
+* JEHPS: Recent publications in the history of probability and statistics
+* Electronic Journ@l for History of Probability and Statistics/Journ@l Electronique d'Histoire des ProbabilitÃ©et de la Statistique
+* Figures from the History of Probability and Statistics (Univ. of Southampton)
+* Probability and Statistics on the Earliest Uses Pages (Univ. of Southampton)
+*Earliest Uses of Symbols in Probability and Statistics on Earliest Uses of Various Mathematical Symbols
+

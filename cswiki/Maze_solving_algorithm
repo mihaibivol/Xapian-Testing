@@ -1,0 +1,55 @@
+
+There are a number of different maze solving algorithms, that is, automated methods for the solving of mazes. A few important maze solving algorithms are explained below. The random mouse, wall follower, Pledge, and Trémaux algorithms are designed to be used inside the maze by a traveler with no prior knowledge of the maze, whereas the dead-end filling and shortest path algorithms are designed to be used by a person or computer program that can see the whole maze at once.
+Mazes containing no loops are known as "standard", or "perfect" mazes, and are equivalent to a tree in graph theory. Thus many maze solving algorithms are closely related to graph theory. Intuitively, if one pulled and stretched out the paths in the maze in the proper way, the result could be made to resemble a tree.http://www.youtube.com/watch?v=k1tSK5V1pds
+
+== Random mouse algorithm ==
+
+This is a trivial method that can be implemented by a very unintelligent robot or perhaps a mouse. It is simply to proceed in a straight line until a junction is reached, and then to make a random decision about the next direction to follow. Although theoretically such a method would always eventually find the right solution, it is also possible that it never finds any solution. Because the random mouse might walk any path multiple times, this algorithm is extremely slow.
+
+== Wall follower ==
+
+The wall follower, the best-known rule for traversing mazes, is also known as either the left-hand rule or the right-hand rule. If the maze is simply connected, that is, all its walls are connected together or to the maze's outer boundary, then by keeping one hand in contact with one wall of the maze the player is guaranteed not to get lost and will reach a different exit if there is one; otherwise, he or she will return to the entrance.
+Another perspective into why wall following works is topological. If the walls are connected, then they may be deformed into a loop or circle.http://www.youtube.com/watch?v=IIBwiGrUgzc Then wall following reduces to walking around a circle from start to finish. To further this idea, notice that by grouping together connected components of the maze walls, the boundaries between these are precisely the solutions, even if there is more than one solution (see figures on the right).
+If the maze is not simply connected (i.e. if the start or endpoints are in the center of the structure or the pathways cross over and under each other), this method will not be guaranteed to help the goal to be reached.
+Wall-following can be done in 3D or higher dimensional mazes if its higher dimensional passages can be projected onto the 2D plane in a deterministic manner. For example, if in a 3D maze "up" passages can be assumed to lead northwest, and "down" passages can be assumed to lead southeast, then standard wall following rules can then be applied. However, unlike in 2D, this requires that the current orientation be known, to determine which direction is the first on the left or right.
+
+== Pledge algorithm ==
+
+Disjoint mazes can still be solved with the wall follower method, if the entrance and exit to the maze are on the outer walls of the maze. If however, the solver starts inside the maze, it might be on a section disjoint from the exit, and wall followers will continually go around their ring. The Pledge algorithm (named after Jon Pledge of Exeter) can solve this problem[tpl]citation|title=Turtle Geometry: the computer as a medium for exploring mathematics|last1=Abelson|last2=diSessa|year=1980[/tpl].
+The Pledge algorithm, designed to circumvent obstacles, requires an arbitrarily chosen direction to go toward. When an obstacle is met, one hand (say the right hand) is kept along the obstacle while the angles turned are counted. When the solver is facing the original direction again, and the angular sum of the turns made is 0, the solver leaves the obstacle and continues moving in its original direction.
+The hand is removed from the wall only when both "sum of turns made" and "current heading" are at zero.  This allows the algorithm to avoid traps shaped like an upper case letter "G".  Assuming the algorithm turns left at the first wall, one gets turned around a full 360 degrees by the walls.  An algorithm that only keeps track of "current heading" leads into an infinite loop as it leaves the lower rightmost wall heading left and runs into the curved section on the left hand side again.  The Pledge algorithm does not leave the rightmost wall due to the "sum of turns made" not being zero at that point.  It follows the wall all the way around, finally leaving it heading left outside and just underneath the letter shape.
+This algorithm allows a person with a compass to find his way from any point inside to an outer exit of any finite and fair two-dimensional maze, regardless of the initial position of the solver. However, this algorithm will not work in doing the reverse, namely finding the way from an entrance on the outside of a maze to some end goal within it.
+
+== Trémaux's algorithm ==
+
+Trémaux's algorithm, invented by Charles Trémaux  Public conference, december 2, 2010 - by professor Jean Pelletier-Thibert in Academie de Macon (Burgundy - France) - (Abstract published in the Annals academic, March 2011 - ISSN: 0980-6032)  Charles Tremaux (° 1859 - † 1882) Ecole Polytechnique of Paris (X:1876), french engineer of the telegraph , is an efficient method to find the way out of a maze that requires drawing lines on the floor to mark a path, and is guaranteed to work for all mazes that have well-defined passages. Edouard Lucas: Récréations Mathématiques Volume I, 1882.
+A path is either unvisited, marked once or marked twice. Every time a direction is chosen it is marked by drawing a line on the floor (from junction to junction). In the beginning a random direction is chosen (if there is more than one).
+On arriving at a junction that has not been visited before (no other marks), pick a random direction (and mark the path). When arriving at a marked junction and if your current path is marked only once then turn around and walk back (and mark the path a second time). If this is not the case, pick the direction with the fewest marks (and mark it, as always).
+When you finally reach the solution, paths marked exactly once will indicate a direct way back to the start. If there is no exit, this method will take you back to the start where all paths are marked twice.
+In this case each path is walked down exactly twice, once in each direction. The resulting walk is called a bidirectional double-tracing.H. Fleischner: Eulerian Graphs and related Topics. In: Annals of Discrete Mathematics No. 50 Part 1 Volume 2, 1991, page X20.
+Essentially, this algorithm is a variant of depth-first search.[tpl]citation|title=Graph Algorithms|first=Shimon|last=Even|authorlink=Shimon Even|edition=2nd|publisher=Cambridge University Press|year=2011|isbn=978-0-521-73653-4|pages=46–48|url=http://books.google.com/books?id=m3QTSMYm5rkC&pg=PA46[/tpl].[tpl]citation|title=Algorithms in C++: Graph Algorithms|first=Robert|last=Sedgewick|edition=3rd|publisher=Pearson Education|year=2002|isbn=978-0-201-36118-6[/tpl].
+
+== Dead-end filling ==
+
+Dead-end filling is an algorithm for solving mazes that looks at the entire maze at once. It can be used for solving mazes on paper or with a computer program, but it is not useful to a person inside an unknown maze. The method is to 1) find all of the dead-ends in the maze, and then 2) "fill in" the path from each dead-end until the first junction met. A video of dead-end filling in action can be seen here: http://www.youtube.com/watch?v=yqZDYcpCGAIhttp://www.youtube.com/watch?v=FkueaIT6RSU&NR=1. 
+Dead-end filling cannot accidentally "cut off" the start from the finish since each step of the process preserves the topology of the maze. Furthermore, the process won't stop "too soon" since the end result cannot contain any dead-ends. Thus if dead-end filling is done on a perfect maze (maze with no loops), then only the solution will remain. If it is done on a partially braid maze (maze with some loops), then every possible solution will remain but nothing more. http://www.astrolog.org/labyrnth/algrithm.htm
+
+== Shortest path algorithm ==
+
+When a maze has multiple solutions, the solver may want to find the shortest path from start to finish. One possible algorithm finds the shortest path by implementing a breadth-first search, while another, the A* algorithm, uses a heuristic technique. The breadth-first search algorithm uses a queue to visit cells in increasing distance order from the start until the finish is reached. Each visited cell needs to keep track of its distance from the start or which adjacent cell nearer to the start caused it to be added to the queue. When the finish location is found, follow the path of cells backwards to the start, which is the shortest path.
+
+==See also==
+
+* Mazes
+* Maze generation algorithm
+* "Stop or My Dog Will Shoot", an episode of The Simpsons in which Lisa uses Tremaux's algorithm
+
+== References ==
+
+==External links==
+
+* Think Labyrinth: Maze algorithms (details on these and other maze solving algorithms)
+* MazeBlog: Solving mazes using image analysis
+* Maze generation and solving Java applet
+* Video: Maze solving simulation
+

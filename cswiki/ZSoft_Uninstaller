@@ -1,0 +1,29 @@
+
+ZSoft Uninstaller is a freeware software utility from ZSoft Software for the Microsoft Windows operating system. When programs are deleted using the default program uninstaller, it may leave behind some files and registry entries. ZSoft Uninstaller provides a way to completely remove leftover data by taking a snapshot of the hard drive and registry before and after program installation.[tpl]cite web |url=http://www.softpedia.com/get/Tweak/Uninstallers/ZSoft-Uninstaller.shtml |title= Powerful yet easy-to-use uninstaller |accessdate=2011-12-24[/tpl]
+
+==Features==
+
+The main feature of ZSoft Uninstaller is to remove unnecessary files and registry entries left behind after uninstalling a program. It begins by analyzing the hard drive and registry before the program is installed. The user is then asked to install the program that they want to analyze. After the program is installed, ZSoft Uninstaller will reanalyze the same hard drive and registry, and compare the differences of the pre-installation with the post-installation. Each difference will be logged and the user can return at any time to delete the program and all of the files that were installed.[tpl]cite web |url=http://www.zsoft.dk/index/software_details/4 |title= Software Details: ZSoft Uninstaller 2.5 |accessdate=2011-12-24[/tpl]
+ZSoft Uninstaller also provides several other built-in features:
+* Temp File Finder: Searches through a given directory and lists any temporary files found[tpl]cite web |url=http://www.magnesiummedia.com/pcutilities/details20572.html |title= ZSoft Uninstaller - program details, review and download from PC Utilities |accessdate=2011-12-24[/tpl].
+* Empty Folders Finder: Scans a directory for empty folders[tpl]cite web |url=http://fileforum.betanews.com/detail/ZSoft-Uninstaller/1107791770/1 |title= ZSoft Uninstaller 2.5 |accessdate=2011-12-24[/tpl].
+* Startup Manager: List all startup programs that are located in the Startup group, Win.ini load= and run=, and the registry.
+* Badware Finder/Searcher: Searches for badware from a previous installation or by name.
+* Uninstall External Application: Any program not listed or on an external disk will be searched using keywords and the associated entries can be selected for deletion.
+* Delete registry entries from programs no longer installed.
+ZSoft Uninstaller fully supports the following languages: Chinese (Simplified), Chinese (Traditional), Danish, Dutch, English, Francais, German, Hungarian, Italian, Polish, Portuguese, Russian, Spanish, Swedish, and Valencian[tpl]cite web |url=http://www.downloadcrew.com/article/18232-zsoft_uninstaller |title= ZSoft Uninstaller 2.5 - Completely uninstall unwanted applications in a couple of clicks |accessdate=2011-12-24[/tpl].
+
+==See also==
+
+* Uninstaller
+* AppZapper
+* Revo Uninstaller
+* Windows Installer
+* Windows Installer CleanUp Utility
+
+==Footnotes==
+
+==External links==
+
+* ZSoft Uninstaller Homepage
+

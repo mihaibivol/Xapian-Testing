@@ -1,0 +1,160 @@
+
+In linguistic morphology and information retrieval, stemming is the process for reducing inflected (or sometimes derived) words to their stem, base or root form—generally a written word form. The stem need not be identical to the morphological root of the word; it is usually sufficient that related words map to the same stem, even if this stem is not in itself a valid root. Algorithms for stemming have been studied in computer science since 1968. Many search engines treat words with the same stem as synonyms as a kind of query broadening, a process called conflation.
+Stemming programs are commonly referred to as stemming algorithms or stemmers.
+
+==Examples==
+
+A stemmer for English, for example, should identify the string "cats" (and possibly "catlike", "catty" etc.) as based on the root "cat", and "stemmer", "stemming", "stemmed" as based on "stem". A stemming algorithm reduces the words "fishing", "fished", "fish", and "fisher" to the root word, "fish".
+
+==History==
+
+The first ever published stemmer was written by Julie Beth Lovins in 1968.Julie Beth Lovins (1968). Development of a stemming algorithm. Mechanical Translation and Computational Linguistics 11:22–31. This paper was remarkable for its early date and had great influence on later work in this area.
+A later stemmer was written by Martin Porter and was published in the July 1980 issue of the journal Program. This stemmer was very widely used and became the de-facto standard algorithm used for English stemming.  Dr. Porter received the Tony Kent Strix award in 2000 for his work on stemming and information retrieval.
+Many implementations of the Porter stemming algorithm were written and freely distributed; however, many of these implementations contained subtle flaws. As a result, these stemmers did not match their potential. To eliminate this source of error, Martin Porter released an official free-software implementation of the algorithm around the year 2000. He extended this work over the next few years by building Snowball, a framework for writing stemming algorithms, and implemented an improved English stemmer together with stemmers for several other languages.
+
+==Algorithms==
+
+There are several types of stemming algorithms which differ in respect to performance and accuracy and how certain stemming obstacles are overcome.
+
+===Lookup algorithms===
+
+A simple stemmer looks up the inflected form in a lookup table. The advantages of this approach is that it is simple, fast, and easily handles exceptions.  The disadvantages are that all inflected forms must be explicitly listed in the table: new or unfamiliar words are not handled, even if they are perfectly regular (e.g. iPads ~ iPad), and the table may be large.  For languages with simple morphology, like English, table sizes are modest, but highly inflected languages like Turkish may have hundreds of potential inflected forms for each root.
+A lookup approach may use preliminary part-of-speech tagging to avoid overstemming.Yatsko, V.A. Y-stemmer
+
+====The production technique====
+
+The lookup table used by a stemmer is generally produced semi-automatically. For example, if the word is "run", then the algorithm might automatically generate the forms "running", "runs", "runned", and "runly".  The last two forms are not correct, but they are also unlikely to appear in a normal English-language text.
+
+===Suffix-stripping algorithms===
+
+Suffix stripping algorithms do not rely on a lookup table that consists of inflected forms and root form relations. Instead, a typically smaller list of "rules" is stored which provides a path for the algorithm, given an input word form, to find its root form. Some examples of the rules include:
+* if the word ends in 'ed', remove the 'ed'
+* if the word ends in 'ing', remove the 'ing'
+* if the word ends in 'ly', remove the 'ly'
+Suffix stripping approaches enjoy the benefit of being much simpler to maintain than brute force algorithms, assuming the maintainer is sufficiently knowledgeable in the challenges of linguistics and morphology and encoding suffix stripping rules. Suffix stripping algorithms are sometimes regarded as crude given the poor performance when dealing with exceptional relations (like 'ran' and 'run'). The solutions produced by suffix stripping algorithms are limited to those lexical categories which have well known suffixes with few exceptions. This, however, is a problem, as not all parts of speech have such a well formulated set of rules. Lemmatisation attempts to improve upon this challenge.
+
+====Additional algorithm criteria====
+
+Suffix stripping algorithms may differ in results for a variety of reasons. One such reason is whether the algorithm constrains whether the output word must be a real word in the given language. Some approaches do not require the word to actually exist in the language lexicon (the set of all words in the language). Alternatively, some suffix stripping approaches maintain a database (a large list) of all known morphological word roots that exist as real words. These approaches check the list for the existence of the term prior to making a decision. Typically, if the term does not exist, alternate action is taken. This alternate action may involve several other criteria. The non-existence of an output term may serve to cause the algorithm to try alternate suffix stripping rules. It can be the case that two or more suffix stripping rules apply to the same input term, where there becomes an ambiguity in which rule to apply. The algorithm may assign (by human hand or stochastically) a priority to one rule or another. Or the algorithm may reject one rule application because it results in a non-existent term whereas the other overlapping rule does not. For example, given the English term friendlies, the algorithm may identify the ies suffix and apply the appropriate rule and achieve the result of friendl. friendl is likely not found in the lexicon, and therefore the rule is rejected.
+One improvement upon basic suffix stripping is the use of suffix substitution. Similar to a stripping rule, a substitution rule replaces a suffix with an alternate suffix. For example, there could exist a rule that replaces ies with y. How this affects the algorithm varies on the algorithm's design. To illustrate, the algorithm may identify that both the ies suffix stripping rule as well as the suffix substitution rule apply. Since the stripping rule results in a non-existent term in the lexicon, but the substitution rule does not, the substitution rule is applied instead. In this example, friendlies becomes friendly instead of friendl. Diving further into the details, a common technique is to apply rules in a cyclical fashion (recursively, as computer scientists would say). After applying the suffix substitution rule in this example scenario, a second pass is made to identify matching rules on the term friendly, where the ly stripping rule is likely identified and accepted. In summary, friendlies becomes (via substitution) friendly which becomes (via stripping) friend.
+This example also helps illustrate the difference between a rule-based approach and a brute force approach. In a brute force approach, the algorithm would search for friendlies in the set of hundreds of thousands of inflected word forms and ideally find the corresponding root form friend. In the rule-based approach, the three rules mentioned above would be applied in succession to converge on the same solution. Chances are that the rule-based approach would be faster.
+
+===Lemmatisation algorithms===
+
+A more complex approach to the problem of determining a stem of a word is lemmatisation. This process involves first determining the part of speech of a word, and applying different normalization rules for each part of speech. The part of speech is first detected prior to attempting to find the root since for some languages, the stemming rules change depending on a word's part of speech.
+This approach is highly conditional upon obtaining the correct lexical category (part of speech). While there is overlap between the normalization rules for certain categories, identifying the wrong category or being unable to produce the right category limits the added benefit of this approach over suffix stripping algorithms. The basic idea is that, if we are able to grasp more information about the word to be stemmed, then we are able to more accurately apply normalization rules (which are, more or less, suffix stripping rules).
+
+===Stochastic algorithms===
+
+Stochastic algorithms involve using probability to identify the root form of a word. Stochastic algorithms are trained (they "learn") on a table of root form to inflected form relations to develop a probabilistic model. This model is typically expressed in the form of complex linguistic rules, similar in nature to those in suffix stripping or lemmatisation. Stemming is performed by inputting an inflected form to the trained model and having the model produce the root form according to its internal ruleset, which again is similar to suffix stripping and lemmatisation, except that the decisions involved in applying the most appropriate rule, or whether or not to stem the word and just return the same word, or whether to apply two different rules sequentially, are applied on the grounds that the output word will have the highest probability of being correct (which is to say, the smallest probability of being incorrect, which is how it is typically measured).
+Some lemmatisation algorithms are stochastic in that, given a word which may belong to multiple parts of speech, a probability is assigned to each possible part. This may take into account the surrounding words, called the context, or not. Context-free grammars do not take into account any additional information. In either case, after assigning the probabilities to each possible part of speech, the most likely part of speech is chosen, and from there the appropriate normalization rules are applied to the input word to produce the normalized (root) form.
+
+===n-gram analysis===
+
+Some stemming techniques use the n-gram context of a word to choose the correct stem for a word.[tpl]cn|date=December 2011[/tpl]
+
+===Hybrid approaches===
+
+Hybrid approaches use two or more of the approaches described above in unison. A simple example is a suffix tree algorithm which first consults a lookup table using brute force. However, instead of trying to store the entire set of relations between words in a given language, the lookup table is kept small and is only used to store a minute amount of "frequent exceptions" like "ran => run". If the word is not in the exception list, apply suffix stripping or lemmatisation and output the result.
+
+===Affix stemmers===
+
+In linguistics, the term affix refers to either a prefix or a suffix. In addition to dealing with suffixes, several approaches also attempt to remove common prefixes. For example, given the word indefinitely, identify that the leading "in" is a prefix that can be removed. Many of the same approaches mentioned earlier apply, but go by the name affix stripping. A study of affix stemming for several European languages can be found here. [ref]Jongejan, B. and H. Dalianis. Automatic training of lemmatization rules that handle morphological changes in pre-, in- and suffixes alike. In the Proceeding of the ACL-2009, Joint conference of the 47th Annual Meeting of the Association for Computational Linguistics and the 4th International Joint Conference on Natural Language Processing of the Asian Federation of Natural Language Processing, Singapore, August 2-7, 2009, pp. 145-153
+http://www.aclweb.org/anthology/P/P09/P09-1017.pdf[/ref]
+
+===Matching algorithms===
+
+Such algorithms use a stem database (for example a set of documents that contain stem words). These stems, as mentioned above, are not necessarily valid words themselves (but rather common sub-strings, as the "brows" in "browse" and in "browsing"). In order to stem a word the algorithm tries to match it with stems from the database, applying various constraints, such as on the relative length of the candidate stem within the word (so that, for example, the short prefix "be", which is the stem of such words as "be", "been" and "being", would not be considered as the stem of the word "beside").
+
+==Language challenges==
+
+While much of the early academic work in this area was focused on the English language (with significant use of the Porter Stemmer algorithm), many other languages have been investigated.http://www.clef-campaign.org/2007/working_notes/DolamicCLEF2007.pdf Dolamic, Savoy: Stemming Approaches for East European Languages (CLEF 2007)  Savoy:  Light stemming approaches for the French, Portuguese, German and Hungarian languages (SAC 2006) ISBN 1-59593-108-2http://www3.interscience.wiley.com/cgi-bin/abstract/10049677/ABSTRACT?CRETRY=1&SRETRY=0 Popovic & Willett:  The Effectiveness of Stemming for Natural-Language Access to Slovene Textual Data (1992) Journal of the American Society for Information Sciencehttp://staff.science.uva.nl/~mdr/Publications/Files/clef2005-proc-adhoc.pdf Stemming in Hungarian at CLEF 2005http://InformationR.net/ir/12-3/paper315.html Viera, A.F.G. & Virgil, J.: Uma revisão dos algoritmos de radicalização em língua portuguesa (2007) Information Research, 12(3) paper 315.
+Hebrew and Arabic are still considered difficult research languages for stemming. English stemmers are fairly trivial (with only occasional problems, such as "dries" being the third-person singular present form of the verb "dry", "axes" being the plural of "axe" as well as "axis"); but stemmers become harder to design as the morphology, orthography, and character encoding of the target language becomes more complex. For example, an Italian stemmer is more complex than an English one (because of more possible verb inflections), a Russian one is more complex (more possible noun declensions), a Hebrew one is even more complex (due to non-catenative morphology and a writing system without vowels; and the requirement of prefix stripping.  Hebrew stems can be two, three or four characters; but not more.), and so on.
+
+===Multilingual stemming===
+
+Multilingual stemming applies morphological rules of two or more languages simultaneously instead of rules for only a single language when interpreting a search query. Commercial systems using multilingual stemming exist."Understanding Stemming". Coveo Knowledge Base (2006)
+
+==Error metrics==
+
+There are two error measurements in stemming algorithms, overstemming and understemming. Overstemming is an error where two separate inflected words are stemmed to the same root, but should not have been—a false positive. Understemming is an error where two separate inflected words should be stemmed to the same root, but are not—a false negative. Stemming algorithms attempt to minimize each type of error, although reducing one type can lead to increasing the other.
+
+==Applications==
+
+Stemming is used as an approximate method for grouping words with a similar basic meaning together. For example, a text mentioning "daffodils" is probably closely related to a text mentioning "daffodil" (without the s).  But in some cases, words with the same morphological stem have idiomatic meanings which are not closely related: a user searching for "marketing" will not be satisfied by most documents mentioning "markets" but not "marketing".
+
+===Information retrieval===
+
+Stemmers are common elements in query systems such as Web search engines. The effectiveness of stemming for English query systems were soon found to be rather limited, however, and this has led early Information retrieval researchers to deem stemming irrelevant in general.Ricardo Baeza-Yates and Berthier Ribeiro-Neto (1999). Modern Information Retrieval. ACM Press/Addison Wesley. An alternative approach, based on searching for n-grams rather than stems, may be used instead. Also, recent research has shown greater benefits for retrieval in other languages.Jaap Kamps, Christof Monz, Maarten de Rijke and Börkur Sigurbjörnsson (2004). Language-dependent and Language-independent Approaches to Cross-Lingual Text Retrieval. In: C. Peters, J. Gonzalo, M. Braschler and M. Kluck, eds. Comparative Evaluation of Multilingual Information Access Systems. Springer Verlag, pp. 152–165.Eija Airio (2006). Word normalization and decompounding in mono- and bilingual IR. Information Retrieval 9:249–271.
+
+===Domain Analysis===
+
+Stemming is used to determine domain vocabularies in domain analysis.
+Frakes, W., Prieto-Diaz, R., & Fox, C. (1998). "DARE: Domain Analysis and Reuse Environment". Annals of Software Engineering (5), , pp. 125-141.
+
+=== Use in commercial products ===
+
+Many commercial companies have been using stemming since at least the 1980s and have produced algorithmic and lexical stemmers in many languages.http://www.dtsearch.co.uk/language.htm Language Extension Packs. dtSearchhttp://technet2.microsoft.com/Office/en-us/library/87065c9d-d39d-479d-909b-02160ec6d7791033.mspx?mfr=true Building Multilingual Solutions by using Sharepoint Products and Technologies. Microsoft Technet
+The Snowball stemmers have been compared with commercial lexical stemmers with varying results.CLEF 2003: Stephen Tomlinson compared the Snowball stemmers with the Hummingbird lexical stemming (lemmatization) system.CLEF 2004: Stephen Tomlinson "Finnish, Portuguese and Russian Retrieval with Hummingbird SearchServer"
+Google search adopted word stemming in 2003.The Essentials of Google Search. Web Search Help Center. Google Inc. Previously a search for "fish" would not have returned "fishing".  Other software search algorithms vary in their use of word stemming.  Programs that simply search for substrings obviously will find "fish" in "fishing" but when searching for "fishes" will not find occurrences of the word "fish".
+
+==See also==
+
+* Root (linguistics) - linguistic definition of the term "root"
+* Stem (linguistics) - linguistic definition of the term "stem"
+* Morphology (linguistics)
+* Lemma (morphology) - linguistic definition
+* Lemmatization
+* Lexeme
+* Inflection
+* Derivation - stemming is a form of reverse derivation
+* Natural language processing - stemming is generally regarded as a form of NLP
+* Text mining - stemming algorithms play a major role in commercial NLP software
+* Computational linguistics
+
+==References==
+
+== Further reading ==
+
+ * Dawson, J.L. (1974) Suffix Removal for Word Conflation, Bulletin of the Association for Literary and Linguistic Computing, 2(3): 33–46
+* Frakes, W.B. (1984) Term Conflation for Information Retrieval, Cambridge University Press
+* Frakes, W.B. & Fox, C.J. (2003) Strength and Similarity of Affix Removal Stemming Algorithms, SIGIR Forum, 37: 26–30
+* Frakes, W. B. (1992) Stemming algorithms, Information retrieval: data structures and algorithms, Prentice-Hall, Inc., Upper Saddle River, NJ
+* Hafer, M.A. & Weiss, S.F., (1974) Word segmentation by letter successor varieties, Information Processing & Management 10 (11/12), 371–386.
+* Harman, D., (1991) How effective is suffixing? Journal of the American Society for Information Science 42 (1), 7–15.
+* Hull, D.A. (1996) Stemming Algorithms – A Case Study for Detailed Evaluation, JASIS, 47(1): 70–84
+* Hull, D.A. & Grefenstette, G. (1996) A Detailed Analysis of English Stemming Algorithms, Xerox Technical Report
+* Kraaij, W. & Pohlmann, R., 1996: Viewing stemming as recall enhancement, in H-P. Frei, D. Harman, P. Schauble & R. Wilkinson (eds.), Proceedings of the 17th ACM SIGIR conference held at Zurich, August 18–22, pp. 40–48.
+* Krovetz, R. (1993) Viewing Morphology as an Inference Process, In Proceedings of ACM-SIGIR93, pp191–203
+* Lennon, M., Pierce, D.S., Tarry, B.D. & Willett, P. (1981) An Evaluation of some Conflation Algorithms for Information Retrieval, Journal of Information Science, 3: 177–183
+* Lovins, J. (1971) Error Evaluation for Stemming Algorithms as Clustering Algorithms, JASIS, 22: 28–40
+* Lovins, J. B. "Development of a Stemming Algorithm." Mechanical Translation and Computational Linguistics 11, 1968, 22—31.
+* Marie-Claire, J. and Smith, D. (2005) Conservative stemming for search and indexing
+* Paice, C.D. (1990) Another Stemmer, SIGIR Forum, 24: 56–61
+* Paice, C.D. (1996) Method for Evaluation of Stemming Algorithms based on Error Counting, JASIS, 47(8): 632–649
+* Popovic, M. and Willett, P., (1992) The effectiveness of stemming for natural language access to Slovene textual data, Journal of the American Society for Information Science, 43(5), 384–390.
+* Porter, M.F. (1980) An Algorithm for Suffix Stripping, Program, 14(3): 130–137
+* Savoy, J., (1993) Stemming of French words based on grammatical categories Journal of the American Society for Information Science, 44(1), 1–9.
+* Ulmschneider, J.E. & Doszkocs, (1983) A practical stemming algorithm for online search assistance, Online Review, 7(4), 301–318.
+* Xu, J. & Croft, W.B., (1998) Corpus-based stemming using coocurrence of word variants, ACM Transactions on Information Systems, 16(1), 61–81.
+
+== External links ==
+
+* Themis - open source IR framework, includes Porter stemmer implementation (PostgreSQL, Java API)
+* Snowball - free stemming algorithms for many languages, includes source code, including stemmers for five romance languages
+* Snowball on C# - port of Snowball stemmers for C# (14 languages)
+* http://snowball.tartarus.org/wrappers/guide.html - Python bindings to Snowball API
+* Ruby-Stemmer - Ruby extension to Snowball API
+* PECL - PHP extension to the Snowball API
+* Oleander Porter's algorithm - stemming library in C++ released under BSD
+* Unofficial home page of the Lovins stemming algorithm - with source code in a couple of languages
+* Official home page of the Porter stemming algorithm - including source code in several languages
+* Official home page of the Lancaster stemming algorithm - Lancaster University, UK
+* Modifications to the Lancaster Stemming Algorithm - Extensions to improve the handling of errors in the rules, allow interactive testing, provide more precise stems, and add some flexibility for implementing finite state automata.
+* Official home page of the UEA-Lite Stemmer  - University of East Anglia, UK
+* Overview of stemming algorithms
+* PTStemmer - A Java/Python/.Net stemming toolkit for the Portuguese language
+* jsSnowball - open source JavaScript implementation of Snowball stemming algorithms for many languages
+* hindi_stemmer - open source stemmer for Hindi
+* czech_stemmer - open source stemmer for Czech
+

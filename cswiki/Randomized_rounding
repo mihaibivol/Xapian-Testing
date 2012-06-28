@@ -1,0 +1,186 @@
+
+Within computer science and operations research,
+many combinatorial optimization problems are computationally intractable to solve exactly (to optimality).
+Many such problems do admit fast (polynomial time) approximation algorithms—that is, algorithms that are guaranteed to return an approximately optimal solution given any input.
+Randomized rounding
+is a widely used approach for designing and analyzing such approximation algorithms.  
+The basic idea is to use the probabilistic method
+to convert an optimal solution of a relaxation
+of the problem into an approximately optimal solution to the original problem.
+
+== Overview ==
+
+The basic approach has three steps:
+# Formulate the problem to be solved as an integer linear program (ILP).
+(Although the approach is most commonly applied with linear programs,
+other kinds of relaxations are sometimes used.
+For example, see Goeman's and Williamson's semi-definite programming-based
+Max-Cut approximation algorithm.)
+The challenge in the first step is to choose a suitable integer linear program.
+(For example, the integer linear program should have a small
+integrality gap.)
+This challenge is not discussed here.
+In the second step, the optimal fractional solution can typically  be computed
+in polynomial time
+using any standard linear programming algorithm.
+In the third step, the fractional solution must be converted into an integer solution
+(and thus a solution to the original problem).
+This is called rounding the fractional solution.
+The resulting integer solution should (provably) have cost
+not much larger than the cost of the fractional solution.
+This will ensure that the cost of the integer solution
+is not much larger than the cost of the optimal integer solution.
+The main technique used to do this is to use randomization in the rounding process,
+and then to use probabilistic techniques to bound the increase in cost due to the rounding,
+following the probabilistic method from combinatorics.
+There, probabilistic arguments are used to show the existence of discrete structures with
+desired properties.  In this context, one uses such arguments to show the following:
+Finally, to make the third step computationally efficient,
+with high probability (so that the step can remain randomized)
+or one derandomizes the rounding step,
+typically using the method of conditional probabilities.
+The latter method converts the randomized rounding process
+into an efficient deterministic process that is guaranteed
+to reach a good outcome.
+
+== Comparison to other applications of the probabilistic method ==
+
+The randomized rounding step differs from most applications of the probabilistic method in two respects:
+# The computational complexity of the rounding step is important.  It should be implementable by a fast (e.g. polynomial time) algorithm.
+
+== Set Cover example ==
+
+The method is best illustrated by example.
+The following example illustrates how randomized rounding
+can be used to design an approximation algorithm for the Set Cover problem.
+For step 1, let IP be the
+for this instance.
+For step 2, let LP be the linear programming relaxation of IP,
+using any standard linear programming algorithm.
+(This takes time polynomial in the input size.)
+is at least 1, that is,
+is a feasible solution whose cost
+is as small as possible.)
+In other words, the linear program LP is a relaxation
+of the given set-cover problem.
+
+=== Step 3: The randomized rounding step ===
+
+Here is a description of the third step—the rounding step,
+As a starting point, consider the most natural rounding scheme:
+With this rounding scheme,
+the cost of the fractional cover.
+This is good.  Unfortunately the coverage is not good.
+So only a constant fraction of the elements will be covered in expectation.
+the standard rounding scheme
+first scales up the rounding probabilities
+Here is the standard rounding scheme:
+but makes coverage of all elements likely.
+as possible so that all elements are provably
+covered with non-zero probability.
+Here is a detailed analysis.
+
+==== lemma (approximation guarantee for rounding scheme) ====
+
+==== proof ====
+
+as long as none of the following "bad" events occur:
+By linearity of expectation,
+Thus, by Markov's inequality, the probability of the first bad event
+By the naive union bound,
+Thus, with positive probability there are no bad events
+QED
+
+=== Derandomization using the method of conditional probabilities ===
+
+The lemma above shows the existence of a set cover
+In this context our goal is an efficient approximation algorithm,
+not just an existence proof, so we are not done.
+a little bit, then show that the probability of success is at least, say, 1/4.
+With this modification, repeating the random rounding step a few times
+is enough to ensure a successful outcome with high probability.
+That approach weakens the approximation ratio.
+We next describe a different approach that yields
+a deterministic algorithm that is guaranteed to
+match the approximation ratio of the existence proof above.
+The approach is called the method of conditional probabilities.
+The deterministic algorithm emulates the randomized rounding scheme:
+it makes the choice deterministically, so as to
+keep the conditional probability of failure, given the choices so far, below 1.
+
+==== Bounding the conditional probability of failure ====
+
+so as to keep the conditional probability of failure below 1.
+To do this, we need a good bound on the conditional probability of failure.
+The bound will come by refining the original existence proof.
+That proof implicitly bounds the probability of failure
+by the expectation of the random variable
+where
+is the set of elements left uncovered at the end.
+but it mirrors the probabilistic proof in a systematic way.
+to bound the probability of the first bad event (the cost is too high).
+The second term
+counts the number of bad events of the second kind (uncovered elements).
+and have cost meeting the desired bound from the lemma.
+This implies (by Markov's inequality) that
+Note that the argument above is implicit already in the proof of the lemma,
+To apply the method of conditional probabilities,
+we need to extend the argument to bound the conditional probability of failure
+as the rounding step proceeds.
+Usually, this can be done in a systematic way,
+although it can be technically tedious.
+So, what about the conditional probability of failure as the rounding step iterates through the sets?
+by Markov's inequality, the conditional probability of failure
+
+==== Keeping the conditional probability of failure below 1 ====
+
+To keep the conditional probability of failure below 1,
+This is what the algorithm will do.
+By the definition of conditional expectation,
+Since a weighted average of two quantities
+is always at least the minimum of those two quantities,
+it follows that
+so as to minimize the resulting value of
+will guarantee that
+This is what the algorithm will do.
+In detail, what does this mean?
+(with all other quantities fixed)
+and 1 otherwise.  This gives the following algorithm.
+
+=== Randomized-rounding algorithm for Set Cover ===
+
+==== lemma (approximation guarantee for algorithm) ====
+
+==== proof ====
+
+Since this conditional expectation is initially less than 1 (as shown previously),
+the algorithm ensures that the conditional expectation stays below 1.
+Since the conditional probability of failure
+in this way the algorithm
+ensures that the conditional probability of failure stays below 1.
+Thus, at the end, when all choices are determined,
+the algorithm reaches a successful outcome.
+the minimum cost of any (fractional) set cover.
+
+=== Remarks ===
+
+In some cases, instead of an exact conditional expectation,
+an upper bound (or sometimes a lower bound)
+on some conditional expectation is used instead.
+This is called a pessimistic estimator.
+
+== See also ==
+
+* Method of conditional probabilities
+
+== References ==
+
+* [tpl]Citation | title= Randomized rounding: A technique for provably good algorithms and algorithmic proofs| first1 = Prabhakar| last1 = Raghavan |authorlink1=Prabhakar Raghavan | first2=Clark D.|last2 =Tompson|journal=Combinatorica|volume=7|issue=4|year=1987|pages=365–374|doi=10.1007/BF02579324[/tpl].
+* [tpl]Citation | title= Probabilistic construction of deterministic algorithms: approximating packing integer programs | first = Prabhakar | last = Raghavan | authorlink=Prabhakar Raghavan | journal=Journal of Computer and System Sciences | volume=37|issue=2|pages=130–143|year = 1988 | doi = 10.1016/0022-0000(88)90003-7[/tpl].
+
+==Further reading==
+
+* [tpl]citation|last=Althöfer|first=Ingo|title=On sparse approximations to randomized strategies and convex combinations|journal=Linear Algebra and its Applications|volume=199|year=1994|pages=339–355|mr=1274423|ref=harv|doi=10.1016/0024-3795(94)90357-3[/tpl]
+* [tpl]citation|last1=Hofmeister|first1=Thomas|last2=Lefmann|Hanno|title=Computing sparse approximations deterministically|journal=Linear Algebra and its Applications|volume=240|year=1996|pages=9–19|mr=1387283|ref=harv[/tpl]
+* [tpl]citation|last1=Lipton|first1=Richard J.|last2=Young|first2=Neal E.|chapter=Simple strategies for large zero-sum games with applications to complexity theory|title =STOC '94: Proceedings of the twenty-sixth annual ACM symposium on theory of computing|year=1994|isbn=0-89791-663-8|pages=734–740|location=Montreal, Quebec, Canada|doi=10.1145/195058.195447|publisher =ACM|address=New York, NY|ref=harv[/tpl]
+

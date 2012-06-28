@@ -1,0 +1,20 @@
+
+Opera Mail—formerly known as M2—is the email and news client built into the Opera internet suite. It has spam filtering (both automated and Bayesian), supports POP3 and IMAP, newsgroups as well as Atom and RSS feeds.
+Opera Mail uses one database that keeps an index of all mail, and sorts the messages automatically into several "views" or accesspoints. Messages are automatically sorted by type, such as mailing lists, and mail with attachments . This approach to indexing allows for quicker access to messages. For instance, a message sent to a mailing list with a word document attached will appear in both the "Documents" attachment view and in the "Mailing lists" view. Opera Mail can also use Bayesian filtering to automatically sort messages into other views. All messages in the database are accessed by opening the "Received" view.
+The Opera Mail component also provides a contact manager and simple IRC client. The IRC client allows the user to connect to multiple servers at a time. It is possible to chat in private and to transfer files between users. The chat rooms appearance can be modified by modifying a CSS file (demonstration).
+Opera Mail can display text and HTML emails and uses the Presto layout engine to display HTML.
+With the release of Opera 9.5, Opera Mail featured a new backend to increase speed and extend IMAP support.Opera Watch Interview with the lead developer of the Opera Mail Client (M2), URL accessed on July 11, 2007
+As of Opera 10, it includes message composing with rich text support and inline spell checking.Opera 10 Beta 1 for Windows Changelog, published on July 3, 2009, URL accessed on July 7, 2009
+
+== See also ==
+
+*Comparison of Usenet newsreaders
+*Comparison of email clients
+*Comparison of feed aggregators
+
+== References ==
+
+== External links ==
+
+*Opera Mail tutorial
+

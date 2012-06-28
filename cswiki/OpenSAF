@@ -1,0 +1,52 @@
+
+OpenSAF is an Open Source Project established to develop High Availability middleware consistent with Service AvailabilityTM Forum (SA Forum) specifications, under the LGPLv2.1 license. The OpenSAF Foundation was established by leading Communications and Enterprise Computing Companies to facilitate the OpenSAF Project and to accelerate the adoption of the OpenSAF code base in commercial products. In March 2010 the OpenSAF software became the de-facto standard for high availability middle-ware when Ericsson AB, the market share leading NEP, announced commercial deployment of OpenSAF in carrier networks and GoAhead Software the leading provider of COTS HA middleware announced that "...it is shifting its business model and technology strategy from its proprietary SAFfire product to an open source software model..." (based on OpenSAF).
+The OpenSAF project was launched in mid 2007 and has been under development by an informal group of supporters of the OpenSAF initiative. The OpenSAF Foundations was founded on January 22nd 2008 with Emerson Network Power, Ericsson, Nokia Siemens Networks, HP and SUN Microsystems as founding members. Since its launch Wind River, Huawei, IP Infusion, Tail-f, Aricent, GoAhead Software and Rancore Technologies have joined the foundation. Day to day operations of the foundation are managed by VTM, Inc.
+Following the release of each major version of the OpenSAF software the OpenSAF Project community hold a developer conference (Developer Days). The first conference was hosted by Nokia Siemens Networks in Munich (Germany), second conference was hosted by Huawei in Shenzhen (China), and third conference was hosted by HP in Palo Alto (USA). In 2011, the OpenSAF Conference expanded to include materials for adopters and academics in addition to developers. The event was held in May, 2011 at MIT University in Boston, MA and was sponsored by Ericsson, GoAhead Software, HP and Wind River Systems. Based on the success of the conference and positive feedback from the open source community, Ericsson hosted an OpenSAF European Symposium in September, 2011 in Stockholm, Sweden.  
+
+== Goals ==
+
+The goals of the OpenSAF project are to:
+*Create an open source reference implementation of a high availability operating environment which includes the SA Forum Application Interface Specification (AIS) 
+*Develop necessary additional complementary services necessary to deploy and manage the software
+*Accelerate the development of SA Forum specifications by proposing enhancements implemented in the OpenSAF project
+*Establish a broadly adopted high availability operating environment that can be leveraged by computing technology companies, network equipment providers, and other industries requiring high availability, and independent software vendors
+*Utilize an open source licensing model not tied to any commercial implementation
+
+== Relevant Industry groups ==
+
+=== SA ForumTM ===
+
+=== SCOPE Alliance ===
+
+=== Network equipment providers ===
+
+Network Equipment Providers will be the primary users of products based on the OpenSAF code base, integrating them into their products for network service providers, carriers and operators.
+Many network equipment providers have demonstrated their support for OpenSAF by joining the Foundation and/or contributing to the Open Source project. Current Foundation Members include:
+*Ericsson
+*HP
+*Huawei
+*Oracle
+
+=== Technology providers ===
+
+Several providers of computing and communications technology also have indicated support for the OpenSAF initiative including:
+*Emerson Network Power Embedded Computing
+*Continuous Computing
+*Wind River
+*IP Infusion
+*Tail-f
+*Aricent
+*Rancore Technologies
+*GoAhead Software
+*MontaVista Software
+
+== History ==
+
+The OpenSAF project was initiated by Motorola's Embedded Communications and Computing (ECC) business with widespread support from the telecommunications industry. Motorola Embedded Communications and Computing is now a part of Emerson Network Power
+Emerson Network Power, Ericsson, HP, Nokia Siemens Networks, and Sun Microsystems  have contributed significant resources to enhance the open source product and accelerate the development and deployment of  SA Forum specifications based on industry requirements.  Emerson Network Power has made the initial code base contribution based on NetPlane Core Service (NCS) software to the OpenSAF project. NCS is a complete operating environment that includes SA Forum services and a complementary set of required services necessary for a deployable implementation.
+
+==External links==
+
+* OpenSAF
+* SA Forum
+

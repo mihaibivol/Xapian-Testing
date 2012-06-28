@@ -1,0 +1,20 @@
+
+The Generalized vector space model is a generalization of the vector space model used in information retrieval. Wong et al.[tpl]cite | title=Generalized vector spaces model in information retrieval | url=http://doi.acm.org/10.1145/253495.253506 | first=S. K. M. | last=Wong | coauthors=Wojciech Ziarko, Patrick C. N. Wong | publisher=SIGIR ACM | date=1985[/tpl] presented an analysis of the problems that the pairwise orthogonality assumption of the Vector space model(VSM) creates. From here they extended the VSM to the generalized vector space model (GVSM).
+
+==Definitions==
+
+GVSM introduces term to term correlations, which deprecate the pairwise orthogonality assumption. More specifically, they considered a new space, where each term vector ti was expressed as a linear combination of 2n vectors mr where r = 1...2n.
+For a document dk and a query q the similarity function now becomes:
+where ti and tj are now vectors of a 2n dimensional space.
+
+==Semantic information on GVSM==
+
+There are at least two basic directions for embedding term to term relatedness, other than exact keyword matching, into a retrieval model:
+# compute semantic correlations between terms
+# compute frequency co-occurrence statistics from large corpora
+Recently Tsatsaronis[tpl]cite | title=A Generalized Vector Space Model for Text Retrieval Based on Semantic Relatedness | url=http://www.aclweb.org/anthology/E/E09/E09-3009.pdf | last= Tsatsaronis | first=George | coauthors=Vicky Panagiotopoulou | date=2009[/tpl] focused on the first approach.
+They measure semantic relatedness (SR) using a thesaurus (O) like WordNet. It considers the path length, captured by compactness (SCM), and the path depth, captured by semantic path elaboration (SPE).
+
+== References ==
+
+

@@ -1,0 +1,93 @@
+
+Autocomplete, or Word completion, is a feature provided by many web browsers, e-mail programs,  search engine interfaces, source code editors, database query tools, word processors, and command line interpreters. Autocomplete is also available for, or already integrated in, general text editors. Autocomplete involves the program predicting a word or phrase that the user wants to type in without the user actually typing it in completely. This feature is effective when it is easy to predict the word being typed based on those already typed, such as when there are a limited number of possible or commonly used words (as is the case with e-mail programs, web browsers, or command line interpreters), or when editing text written in a highly-structured, easy-to-predict language (as in source code editors). It can also be very useful in text editors, when the prediction is based on a list of words in one or more languages. For special purposes, like medical or technical texts a word list of terms in that field is used. Many autocomplete programs are also learning new words as the user has written them a few times, and can suggest alternatives based on the habits of the individual user. Autocomplete, or "word prediction", speeds up human-computer interactions in environments to which it is well suited. 
+Autocomplete or Word prediction is the provision of words that are frequently used in response to a user's keystrokes.Beukelman, D.R. & Mirenda, P. (2008). Augmentative and Alternative Communication: Supporting Children and Adults with Complex Communication Needs. (3rd Ed.) Baltimore, MD: Brookes Publishing, p. 77.   
+
+==Purpose==
+
+The original purpose of word prediction software was to help people with physical disabilities increase their typing speed,Tam, C. & Wells, D. (2009). Evaluating the Benefits of Displaying Word Prediction Lists on a Personal Digital Assistant at the Keyboard Level. Assistive Technology, 21, 105-114. as well as to help them decrease the number of keystrokes needed in order to complete a word or a sentence.Anson, D., Moist, P., Przywara, M., Wells, H., Saylor, H. & Maxime, H. (2006). The Effects of Word Completion and Word Prediction on Typing Rates Using On-Screen Keyboards. Assistive Technology, 18, 146-154.  The need to increase speed is noted by the fact that people who use speech generating devices generally produce speech at a rate that is less than 10% as fast as people who use oral speech.Trnka, K., Yarrington, J.M. & McCoy, K.F. (2007). The Effects of Word Prediction on Communication Rate for AAC. Proceedings of NAACL HLT 2007, Companion Volume, 173-176. But the function is also very useful for anybody who writes text, and especially useful for people who often use long and hard to spell technical or medical terms, like medical doctors.
+
+==Description==
+
+Autocomplete or word completion works so that when the writer writes the first letter or letters of a word, the program predicts one or more possible words as choices.  If the word he intends to write is included in the list he can select it, for example by using the number keys. If the word that the user wants is not predicted, the writer must enter the next letter of the word. At this time, the word choice(s) is altered so that the words provided begin with the same letters as those that have been selected. When the word that the user wants appears it is selected, and the word is inserted into the text.[tpl]cite book |author=Witten, I. H.; Darragh, John J. |title=The reactive keyboard |publisher=Cambridge University Press |location=Cambridge, UK |year=1992 |pages=43–44 |isbn=0-521-40375-8 |oclc= |doi= |url=http://books.google.ca/books?id=obxCY0wcaTgC&pg=PA44[/tpl] In another form of word prediction, words most likely to follow the just written one are predicted, based on recent word pairs used.  Word prediction uses language modeling, where within a set vocabulary the words are most likely to occur are calculated.Jelinek, F. (1990). Self-Organized Language Modeling for Speech Recognition. In Waibel, A. & Kai-Fulee, Ed. Morgan, M.B. Readings in Speech Recognition (pp. 450). San Mateo, California: Morgan Kaufmann Publishers, Inc.   Along with language modeling, basic word prediction on AAC devices is often coupled with a recency model, where words that are used more frequently by the AAC user are more likely to be predicted.  Word prediction software often also allows the user to enter their own words into the word prediction dictionaries either directly, or by "learning" words that have been written.
+
+== Standalone tools ==
+
+There are standalone tools that add autocomplete functionality to existing applications. These programs monitor user keystrokes and suggests a list of words based on first typed letter(s). Examples are Typingaid and Letmetype.http://www.autohotkey.com/community/viewtopic.php?f=2&t=53630 TypingAidwww.clasohm.com/lmt/en/ LetMeType LetMeType, freeware, is no longer developed, the author has published the source code and allows anybody to continue development. Typingaid, also freeware, is actively developed. Intellicomplete, both a freeware and payware version, works only in certain programs which hook into the intellicomplete server program.http://www.intellicomplete.com/ Autocomplete program with wordlist for medicine Many Autocomplete programs can also be used to create a Shorthand list.
+
+== Shorthand ==
+
+Shorthand, also called Autoreplace, is a related feature that involves automatic replacement of a particular string with another one, usually one that is longer and harder to type, as "myname" with "Lee John Nikolai François Al Rahman". This can also quietly fix simple typing errors, such as turning "teh" into "the". Several Autocomplete programs, standalone or integrated in text editors, based on word lists, also include a shorthand function for often used phrases.
+
+== Context completion ==
+
+Context completion is a text editor feature, similar to word completion, which completes words (or entire phrases) based on the current context and context of other similar words within the same document, or within some training data set. The main advantage of context completion is the ability to predict anticipated words more precisely and even with no initial letters. The main disadvantage is the need of a training data set, which is typically larger for context completion than for simpler word completion. Most common use of context completion is seen in advanced programming language editors and IDEs[tpl]dn|date=June 2012[/tpl], where training data set is inherently available and context completion makes more sense to the user than broad word completion would.
+Line completion is a type of context completion, first introduced by Juraj Simlovic in TED Notepad, in July 2006. The context in line completion is the current line, while current document poses as training data set. When user begins a line which starts with a frequently-used phrase, the editor automatically completes it, up to the position where similar lines differ, or proposes a list of common continuations.
+
+==Research==
+
+Although research has shown that word prediction software does decrease the number of keystrokes needed and improves the written productivity of children with disabilities, there are mixed results as to whether or not word prediction actually increases speed of output.Dabbagh, H. H. & Damper, R. I. (1985). Average Selection Length and Time as Predictors of Communication Rate. Proceedings of the RESNA 1985 Annual Conference, RESNA Press, 104-106.Goodenough-Trepagnier, C., & Rosen, M.J. (1988). Predictive Assessment for Communication Aid Prescription: Motor-Determined Maximum Communication Rate. In L.E. Bernstein (Ed.), The vocally impaired: Clinical Practice and Research (pp. 165-185).Philadelphia: Grune & Stratton.; as cited in Tam & Wells (2009), pp. 105-114.   It is thought that the reason why word prediction does not always increase the rate of text entry is because of the increased cognitive load and requirement to move eye gaze from the keyboard to the monitor. 
+In order to reduce this cognitive load, parameters such as reducing the list to five likely words, and having a vertical layout of those words may be used.  The vertical layout is meant to keep head and eye movements to a minimum, and also gives additional visual cues because the word length becomes apparent.Swiffin, A. L., Arnott, J. L., Pickering, J. A., & Newell, A. F. (1987). Adaptive and predictive techniques in a communication prosthesis. Augmentative and Alternative Communication, 3, 181–191; as cited in Tam & Wells (2009).   Although many software developers believe that if the word prediction list follows the cursor, that this will reduce eye movements, in a study of children with Spina Bifida by Tam, Reid, O'Keefe & Nauman (2002) it was shown that typing was more accurate, and that the children also preferred when the list appeared at the bottom edge of the screen, at the midline. Several studies have found that word prediction performance and satisfaction increases when the word list is closer to the keyboard, because of the decreased amount of eye-movements needed.Tam, C., Reid, D., Naumann, S., & O’ Keefe, B. (2002). Perceived benefits of word prediction intervention on written productivity in children with Spina Bifida and hydrocephalus. Occupational Therapy International, 9, 237–255; as cited in Tam & Wells (2009). 
+Software with word prediction is produced by multiple manufacturers. The software can be bought as an add-on to common programs such as Microsoft Word (for example, WordQ+SpeakQ, Typing Assistant, Co:Writer, Wivik), or as one of many features on an AAC device (PRC's Pathfinder, Dynavox Systems, Saltillo’s ChatPC products). Some well known programs: Intellicomplete, which is available in both a freeware and a payware version, but works only with programs which are made to work with it. Letmetype and Typingaid are both freeware programs which work in any text editor.
+
+== In web browsers ==
+
+In web browsers, autocomplete is done in the address bar (using items from the browser's history) and in text boxes on frequently used pages, such as a search engine's search box. Autocomplete for web addresses is particularly convenient because the full addresses are often long and difficult to type correctly. HTML5 has an autocomplete form attribute.
+
+== In e-mail programs ==
+
+In e-mail programs autocomplete is typically used to fill in the e-mail addresses of the intended recipients. Generally, there are a small number of frequently used e-mail addresses, hence it is relatively easy to use autocomplete to select between them. Like web addresses, e-mail addresses are often long, hence typing them completely is inconvenient.
+For instance,
+*Microsoft Outlook Express will find addresses based on the name that is used in the address book.  Google's Gmail will find addresses by any string that occurs in the address or stored name.
+*BBDB[tpl]cite web |url=http://bbdb.sourceforge.net/ |title=The Insidious Big Brother Database |accessdate=2008-02-23| archiveurl= http://web.archive.org/web/20080221184652/http://bbdb.sourceforge.net/| archivedate= 21 February 2008 | deadurl= no[/tpl] runs in emacs.
+
+== In search engines ==
+
+In search engines, autocomplete user interface features provide users with suggested queries or results as they type their query in the search box.  This is also commonly called autosuggest or incremental search.  This type of search often relies on matching algorithms that forgive entry errors such as phonetic Soundex algorithms or the language independent Levenshtein algorithm.  The challenge remains to search large indices or popular query lists in under a few milliseconds so that the user sees results pop up while typing.
+
+== In source code editors ==
+
+Autocomplete of source code is also known as code completion. In a source code editor autocomplete is greatly simplified by the regular structure of the programming languages. There are usually only a limited number of words meaningful in the current context or namespace, such as names of variables and functions. An example of code completion is the Microsoft's IntelliSense design. It involves showing a pop-up list of possible completions for the currently input prefix to allow the user to choose the right one. This is particularly useful in object-oriented programming because often the programmer will not know exactly what members a particular class has. Therefore, autocomplete then serves as a form of convenient documentation as well as an input method. Another beneficial feature of autocomplete for source code is that it encourages the programmers to use longer, more descriptive variable names incorporating both lower and upper case letters (CamelCase), hence making the source code more readable. Typing large words with many mixed cases like "numberOfWordsPerParagraph" can be difficult, but Autocomplete allows one to complete typing the word using a fraction of the keystrokes.
+
+== In database query tools ==
+
+Autocompletion in database query tools allows the user to autocomplete the table names in an SQL statement and column names of the tables referenced in the SQL statement. As text is typed into the editor, the context of the cursor within the SQL statement provides an indication of whether the user needs a table completion or a table column completion.  The table completion provides a list of tables available in the database server the user is connected to. The column completion provides a list of columns for only tables referenced in the SQL statement.  Aqua Data Studio and SQL Server Management Studio are applications that provide autocomplete in query tools.
+
+== In word processors ==
+
+In many word processing programs, autocompletion decreases the amount of time spent typing repetitive words and phrases. The source material for autocompletion is either gathered from the rest of the current document or from a list of common words defined by the user. Currently OpenOffice.org, StarOffice, Microsoft Office, and KOffice include support for this kind of autocompletion, as do advanced text editors such as Emacs and Vim.
+*OpenOffice.org Writer has a working word completion program that proposes words previously typed in the text, rather than from the whole dictionary
+*Microsoft Excel spreadsheet application has a working word completion program that proposes words previously typed in upper cells
+
+== In command-line interpreters ==
+
+In a command-line interpreter, such as Unix's sh or bash, or Windows's cmd.exe or PowerShell, or in similar command line interfaces, autocomplete of command names and file names may be accomplished by keeping track of all the possible names of things the user may access. Here autocomplete is usually done by pressing the [tpl]keypress|Tab[/tpl] key after typing the first several letters of the word. For example, if the only file in the current directory that starts with x is xLongFileName, the user may prefer to type x and autocomplete to the complete name. If there were another file name or command starting with x in the same scope, the user would type more letters or press the Tab key repeatedly to select the appropriate text.
+
+==The efficiency of word completion==
+
+The efficiency of word completion is based on the average length of the words typed. If, for example, the text consists of programming languages which often have LongNamesForSpecialFunctions(), completion is both useful and generally applied in editors specially geared towards programmer such as Vim.
+In different languages, word lengths can differ dramatically. Picking up on the above example, a soccer player in German is translated as a "Fussballspieler", with a length of 15 characters. This example illustrates that English is not the most efficient language for WC; this study http://www.tug.org/TUGboat/Articles/tb16-3/tb48soj2.pdf shows an average length for English words in a corpus of over 100,000 words to be 8.9, for Hungarian to be 10.5 and for German to be 13.2.  In addition, in some languages like German called fusional languages as well as agglutinative languages, words can be combined, creating even longer words.
+Authors who often use very long words, like medical doctors and chemists, obviously have even more use for Autocomplete (Word completion) software than other authors.
+
+==See also==
+
+*Autocorrect, automatic correction of misspelled words.
+*Shorthand, history of shorthand methods, like stenography.
+*Predictive text This article is about very small keyboards, like on mobile phones.
+*Autofill
+*Incremental search
+*Snippet
+*Context sensitive user interface
+*Combo box
+*Search suggest drop-down list
+
+==References==
+
+== External links ==
+
+* TypingAid, freeware
+* LetMeType, freeware
+* Intellicomplete, freeware and payware
+* Typing Assistant - A Word Prediction Software, payware 
+* Shabd Bhavishyavani - A freeware online Hindi Word Prediction Utility.
+*Live Search Explained -- Examples and explanations of working web examples plus a discussion of the usability benefits compared to traditional search
+

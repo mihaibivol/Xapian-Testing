@@ -1,0 +1,34 @@
+
+In physics and chemistry and related fields, a kinetic scheme is a network of states and connections among the states representing the scheme of a dynamical process. Usually, a kinetic scheme represents a Markovian process, where when the process is not Markovian, the scheme is a generalized kinetic scheme. See Fig. 1 for an illustration of a kinetic scheme.
+
+==A Markovian kinetic scheme==
+
+===Description of the form of a kinetic scheme===
+
+===Mathematical description===
+
+===Specific Markovian kinetic schemes===
+
+* A birth-death process is a linear one-dimensional Markovian kinetic scheme.
+* Michaelis–Menten kinetics are a type of a Markovian kinetic scheme when solved with the steady state assumption for the creation of intermediates in the reaction pathway.
+
+==Generalizations of Markovian kinetic schemes==
+
+An example for such a process is a reduced dimensions form. 
+* The Fokker Planck equation: when expanding the master equation of the kinetic scheme in a continuous space coordinate, one finds the Fokker Planck equation.
+
+==See also==
+
+* Markov process
+* Continuous-time Markov process
+* Master equation
+* Detailed balance
+* Graph theory
+* Semi-Markov process
+
+==References==
+
+*[tpl]cite book | author=van Kampen, N. G. | title=Stochastic processes in physics and chemistry | publisher=North Holland |year=1981 |isbn=0-444-52965-9 |isbn=978-0-444-52965-7[/tpl]
+*[tpl]cite book | author=Gardiner, C. W. | title=Handbook of Stochastic Methods | publisher=Springer |year=1985 |isbn=3-540-20882-8[/tpl]
+*[tpl]cite book | author=Risken, H. | title=The Fokker-Planck Equation | publisher=Springer |year=1984 |isbn=3-450-61530-X [tpl]Please check ISBN|reason=Check digit (X) does not correspond to calculated figure.[/tpl][/tpl]
+

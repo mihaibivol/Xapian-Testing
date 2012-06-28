@@ -1,0 +1,79 @@
+
+An explosively pumped flux compression generator (EPFCG) is a device used to generate a high-power electromagnetic pulse by compressing magnetic flux using high explosive.
+An EPFCG can be used only once as a pulsed power supply since the device is physically destroyed during operation. An EPFCG package that could be easily carried by a person can produce pulses in the millions of amperes and tens of terawatts, exceeding the power of a lightning strike by orders of magnitude.[tpl]Citation needed|date=April 2008[/tpl] They require a starting current pulse to operate, usually supplied by capacitors.
+Explosively pumped flux compression generators are popular as power sources for electronic warfare devices known as transient electromagnetic devices that generate an electromagnetic pulse without the costs and side effects of a nuclear weapon. They also can be used to accelerate objects to extreme velocities, and compress objects to very high pressures and densities; this gives them a role as a physics research tool.
+The first work on these generators was conducted by the VNIIEF center for nuclear research in Sarov at the beginning of the 1950s followed by Los Alamos National Laboratory in the United States.
+
+== History ==
+
+At the start of the 1950s, the need for very short and powerful electrical pulses became evident to Soviet scientists conducting nuclear fusion research. The Marx generator, which stores energy in capacitors, was the only device capable at the time of producing such high power pulses. The prohibitive cost of the capacitors required to obtain the desired power motivated the search for a more economical device. The first magneto-explosive generators, which followed from the ideas of Andrei Sakharov, were designed to fill this role.
+
+== Principles of function  ==
+
+Magneto-explosive generators use a technique called "magnetic flux compression", which will be described in detail later. The technique is made possible when the time scales over which the device operates are sufficiently brief that resistive current loss is negligible, and the magnetic flux on any surface surrounded by a conductor (copper wire, for example) remains constant, even though the size and shape of the surface may change.
+This flux conservation can be demonstrated from Maxwell's equations. The most intuitive explanation of this conservation of enclosed flux follows from the principle that any change in an electromagnetic system provokes an effect in order to oppose the change. For this reason, reducing the area of the surface enclosed by a conductor, which would reduce the magnetic flux, results in the induction of current in the electrical conductor, which tends to return the enclosed flux to its original value. In magneto-explosive generators, this phenomenon is obtained by various techniques which depend on powerful explosives.Other techniques exist which do not depend on explosives. Notably, see: Flux compression scheme used at the Gramat centre of study, doctoral thesis, Mathias Bavay, 8 July 2002 The compression process allows the chemical energy of the explosives to be (partially) transformed into the energy of an intense magnetic field surrounded by a correspondingly large electric current. 
+=== Elementary description of flux compression ===
+
+An external magnetic field (blue lines) threads a closed ring made of a perfect conductor (with zero resistance). The nine field lines represent the magnetic flux threading the ring. After the ring's diameter is reduced, the magnetic flux threading the ring, represented by five field lines, is reduced by the same ratio as the area of the ring. The variation of the magnetic flux induces a current in the ring (red arrows), which in turn creates a new magnetic field, so that the total flux in the interior of the ring is maintained (four green field lines added to the five blue lines give the original nine field lines). By adding together the external magnetic field and the induced field, the final configuration after compression can be obtained; the total magnetic flux through the ring has been conserved (even though the distribution of the magnetic flux has been modified), and a current has been created in the conductive ring. 
+== The various types of generators ==
+
+The simple basic principle of flux compression can be applied in a variety of different ways. Soviet scientists at the VNIIEF in Sarov, pioneers in this domain, conceived of three different types of generatorsA description is provided in this document from LANL and, for the first two types, in the Scientific publications of A.D. Sakharov, with the corresponding chapters accessible here.
+* In the first type of generator (MK-1, 1951) developed by Robert Lyudaev, the magnetic flux produced by a wound conductor is confined to the interior of a hollow metallic tube surrounded by explosives, and submitted to a violent compression when the explosives are fired; a device of the same type was developed in the USA a dozen years later by C.M. (Max) Fowler's team at Los Alamos;
+* The next type of generator (MK-2, 1952), the magnetic flux, confined between the windings of the external conductor and a central conductive tube filled with explosive, is compressed by the conical 'piston' created by the deformation of the central tube as the detonation wave travels across the device.
+* A third type of generator (DEMG), developed by Vladimir Chernyshev, is cylindrical, and contains a stack of concave metallic disks, facing each other in pairs, to create hollow modules (with the number varying according to the desired power), and separated by explosives; each module functions as an independent generator.
+Such generators can, if necessary, be utilised independently, or even assembled in a chain of successive stages: the energy produced by each generator is transferred to the next, which amplifies the pulse, and so on. For example, it is foreseen that the DEMG generator will be supplied by a MK-2 type generator.
+
+=== Hollow tube generators ===
+
+In the spring of 1952, R.Z. Lyudaev, E.A. Feoktistova, G.A. Tsyrkov, and A.A. Chvileva
+undertook the first experiment with this type of generator, with the goal of obtaining a very high magnetic field.
+The MK-1 generator functions as follows:
+* A longitudinal magnetic field is produced inside a hollow metallic conductor, by discharging a bank of capacitors into the solenoid that surrounds the cylinder. To ensure a rapid penetration of the field in the cylinder, there is a slit in the cylinder, which closes rapidly as the cylinder deforms;
+* The explosive charge placed around the tube is detonated in a manner that ensures that the compression of the cylinder commences when the current through the solenoid is at its maximum;
+* The convergent cylindrical shock wave unleashed by the explosion produces a rapid contraction (greater than 1 km/s) of the central cylinder, compressing the magnetic field, and creating an inductive current, as per the explanation above (the speed of contraction permits, to first approximation, the neglect of Joule losses and the consideration of the cylinder as a perfect conductor).
+The first experiments were able to attain magnetic fields of millions of gauss (hundreds of teslas, given an initial field of 30 kG (3 T which is in the free space "air" same as B/u0 = H --> 3 Vs/m^2 / 4pi10^-7 Vs/Am = 2.387x10^6 A/m so it is about 2.4 M A/m).
+
+=== Helical generators ===
+
+Helical generators were principally conceived to deliver an intense current to a load situated at a safe distance. They are frequently used as the first stage of a multi-stage generator, with the exit current used to generate a very intense magnetic field in a second generator.
+The MK-2 generators function as follows:
+* A longitudinal magnetic field is produced in between a metallic conductor and a surrounding solenoid, by discharging a battery of capacitors into the solenoid;
+* After the charge is ignited, a detonation wave propagates in the explosive charge placed in the interior of the central metallic tube (from left to right on the figure);
+* Under the effect of the pressure of the detonation wave, the tube deforms and becomes a cone which contacts the helically wrapped coil, diminishing the number of turns not short-circuited, compressing the magnetic field and creating an inductive current;
+* At the point of maximal flux compression, the load switch is opened, which then delivers the maximal current to the load.
+The MK-2 generator is particularly interesting for the production of intense currents, up to 108 A (100 MA), as well as a very high energy magnetic field, as up to 20% of the explosive energy can be converted to magnetic energy, and the field strength can attain 2 × 106 gauss (200 T).
+The practical realization of high performance MK-2 systems required the pursuit of fundamental studies by a large team of researchers; this was effectively achieved by 1956, following the production of the first MK-2 generator in 1952, and the achievement of currents over 100 megaamperes from 1953.
+
+=== Disc generators ===
+
+A DEMG generator functions as follows:
+* Conductive metallic discs, assembled in facing pairs to create hollow modules having the form of a lined torus, with explosive packed between pairs of modules, are stacked inside a cylinder;In practice, each prefabricated element, destined to be assembled into a cylinder, corresponds to an explosive device surrounded by two discs, which explains why the line of disks is terminated at each end by a hollow half module. the number of modules can vary according to the desired power (the figure shows a device of 15 modules), as well as the radius of the discs (of the order of 20 to 40 cm).
+* Current runs through the device, supplied by a MK-2 generator, and an intense magnetic field is created inside each module.
+* When initiated, the explosion begins on the axis and propagates radially outwards, deforming the disc shaped protuberances with triangular section and pushing them away from the axis. The outward movement of this section of conductor plays the role of a piston.
+* As the explosion proceeds, the magnetic field is compressed in the inside of each module by the conductive piston and the simultaneous drawing together of the inner faces, also creating an inductive current.
+* As the induced current attains its maximum, the fuse opening switch fuses and the load switch simultaneously closes, allowing the current to be delivered to the load (the mechanism for the operation of the load switch is not explained in available documentation).
+Systems using up to 25 modules have been developed at VNIIEF. Output of 100 MJ at 256 MA have been produced by a generator a metre in diameter composed of three modules.
+
+== See also ==
+
+* Andrei Sakharov
+* Clarence Max Fowler
+* Pulsed power
+* Marx generator
+* Los Alamos National Laboratory
+* Pinch (plasma physics)
+* Explosive-driven ferroelectric generator
+* Explosive-driven ferromagnetic generator
+* Explosively pumped gas dynamic laser
+
+== References ==
+
+== External links ==
+
+* Scientific Collaborations Between Los Alamos and Arzamas-16 Using Explosive-Driven Flux Compression Generators
+* An Introduction to Explosive Magnetic Flux Compression Generators
+* Generation of Ultra-High Magnetic Fields for AGEX (LANL)
+* Superpower explosive magnetic energy sources (V.K. Chernyshev, VNIIEF)
+* High-Strain-Rate Experiments to Determine the Dynamic Yield Strength of Copper
+* Magnetized target fusion — an ultra high energy approach in a unexplored parameter space
+

@@ -1,0 +1,32 @@
+
+Bandizip is a free file archiver and compressor for Microsoft Windows, developed by Bandisoft."Bandisoft Announce That Bandizip, Fully Featured Free Archiving Software Has Released in This Month." - free-press-release-center.info September 8, 2011  Key features for Bandizip include the ability to preview archives from the right click context menu, selectively compress files based on high compressibility versus poor compressibility, and create multiple archives from multiple files and folders automatically.
+
+==Features==
+
+*Supported Input Formats: ZIP, RAR, 7z, ARJ, LZH, TAR, GZ, BZ2, JAR, ISO, EGG, CAB, WIM, Xz, and Z archives[tpl]cite web|url=http://www.bandicam.com/bandizip |title=Bandizip features[/tpl]
+*Support unicode to display international characters which display for filenames in archives
+*Files with poor compressibility are merely added to archives without compression when using the High Speed Archiving function."Zippy zipping with BandiZip" - Product Review by CNET staff October 17, 2011
+*Files can be directly extracted to a destination folder, which bypasses a temporary directory, when using the Fast Drag & Drop function.  This results in less drive accessing and writing and decreased wait time during extraction.
+*Create self-extracting file (.EXE) and multi-volume (split) archives "Preview and open Self-Extracting Archive Files with Bandizip" - Ghacks Technology News September 13, 2011
+*Context Menu access to archives from windows explorer
+*Encrypt archive using ZipCrypto
+*Create or extract multiple zip files simultaneously from windows explorer.
+*Archives can be previewed via right click context menu, which is useful for determining whether an archive can be extracted to the current folder or a subfolder.
+
+==Limitations==
+
+*Does not support LZMA compression and more advanced compression methods.
+*Only supports Deflate compression.
+*Speed potential of High Speed Archiving is marginal to non-existent.[tpl]Citation needed|date=September 2011[/tpl]
+*Bandizip has less than adequate compression speeds (compared to 7-zip) when using the default normal compression preset, even when using Bandizip's High Speed Archiving function.[tpl]Citation needed|date=September 2011[/tpl]
+
+== See also ==
+
+*Comparison of file archivers
+
+==References==
+
+==External links==
+
+* Official Bandizip website
+

@@ -1,0 +1,165 @@
+
+G.hn is the common name for a home network technology family of standards developed under the International Telecommunication Union's Telecommunication Standardization sector (the ITU-T) and promoted by the HomeGrid Forum.HomeGrid Forum and several other organizations.
+The G.hn specification defines networking over power lines, phone lines and coaxial cables with data rates up to 1 Gbit/s.
+ITU-T Recommendation (the ITU's term for standard) G.9960, which received approval on October 9, 2009,New ITU standard opens doors for unified 'smart home' network, ITU Press Release specifies the Physical Layer and the architecture of G.hn. The Data Link Layer (Recommendation G.9961) was approved on June 11, 2010.United Nations ITU-T's G.hn Approved as Global Standard for Wired Home Networking The work was done in the ITU Telecommunication Standardization Sector, Study Group 15, Question 4. About 20 companies participated in the work, including telephone, communication equipment, and home networking technology companies.
+
+==Unified communication==
+
+G.hn is a specification for existing-wire home networking. It is a complementary counterpart to Wi-Fi.[tpl]citation needed|date=March 2012[/tpl] G.hn targets gigabit per second data ratesDS2 Blog: How fast can G.hn be? and operation over three types of legacy home wires: telephone wiring, coaxial cables and power lines. A single G.hn semiconductor device is able to network over any of the supported home wire types. Some benefits of a multi-wire standard are lower equipment development costs and lower deployment costs for service providers (by allowing customer self-install).
+The majority of devices in which G.hn may become embedded (such as televisions, set-top boxes, residential gateways, personal computers or network-attached storage devices) will be AC-powered, so configurations that have at least one power line networking interface are likely to become the most common. This [tpl]clarify|date=March 2012[/tpl] will also facilitate integration with home control and demand side management applications for AC-powered appliances.
+The ITU-T extended the technology [tpl]clarify|date=March 2012[/tpl] with multiple input, multiple output (MIMO) technology to increase data rates and signalling distance[tpl]Citation needed|date=May 2011[/tpl]. The work on MIMO for G.hn at ITU-T is under the G.9963 standard.
+By developing dual mode devices [tpl]clarify|date=March 2012[/tpl], G.hn proponents believe [tpl]opinion|date=March 2012[/tpl] it can provide an evolution path from other wired home networking technologies such as Multimedia over Coax Alliance (MoCA), HomePNA 3.1 over coax and phone wires (already an ITU standard G.9954), and HomePlug AV, Universal Powerline Association (UPA) and HD-PLC over powerline. In February 2009 the key promoters [tpl]who|date=March 2012[/tpl] of two of these interfaces united behind the latest version of the standard.
+
+==Technical specifications==
+
+===Technical overview===
+
+G.hn specifies a single Physical Layer based on fast Fourier transform (FFT) orthogonal frequency-division multiplexing (OFDM) modulation and low-density parity-check code (LDPC) forward error correction (FEC) code. G.hn includes the capability to notch specific frequency bands to avoid interference with amateur radio bands and other licensed radio services. G.hn includes mechanisms to avoid interference with legacy home networking technologiesHomeGrid Forum White-paper: G.hn Compatibility with Existing Home Networking Technologies, HomeGrid Forum Blog and also with other wireline systems such as VDSL2 or other types of DSL used to access the home.
+OFDM systems split the transmitted signal into multiple orthogonal sub-carriers. In G.hn each one of the sub-carriers is modulated using QAM. The maximum QAM constellation supported by G.hn is 4096-QAM (12-bit QAM).
+The G.hn Media Access Control is based on a time division multiple access (TDMA) architecture, in which a "domain master" schedules Transmission Opportunities (TXOPs) that can be used by one or more devices in the "domain". There are two types of TXOPs:
+* Contention-Free Transmission Opportunities (CFTXOP), which have a fixed duration and are allocated to a specific pair of transmitter and receiver. CFTXOP are used for implementing TDMA Channel Access for specific applications that require quality of service (QoS) guarantees.
+* Shared Transmission Opportunities (STXOP), which are shared among multiple devices in the network. STXOP are divided into Time Slots (TS). There are two types of TS:
+** Contention-Free Time Slots (CFTS), which are used for implementing "implicit" token passing Channel Access. In G.hn, a series of consecutive CFTS is allocated to a number of devices. The allocation is performed by the "domain master" and broadcast to all nodes in the network. There are pre-defined rules that specify which device can transmit after another device has finished using the channel. As all devices know "who is next", there is no need to explicitly send a "token" between devices. The process of "passing the token" is implicit and ensures that there are no collisions during Channel access.
+** Contention-Based Time Slots (CBTS), which are used for implementing CSMA/CARP Channel Access. In general, CSMA systems cannot completely avoid collisions, so CBTS are only useful for applications that do not have strict Quality of Service requirements.
+
+====Optimization for each medium====
+
+Although most elements of G.hn are common for all three media supported by the standard (power lines, phone lines and coaxial cable), G.hn includes media-specific optimizations that ensure that performance is maximized when operating over each media. Some of these media-specific parameters includeHomeGrid Forum - G.hn Technology Overview, (registration required):
+* OFDM Carrier Spacing: 195.31 kHz in coaxial, 48.82 kHz in phone lines, 24.41 kHz in power lines.
+* FEC Rates: G.hn's FEC can operate with code rates 1/2, 2/3, 5/6, 16/18 and 20/21. Although these rates are not media specific, it is expected that the higher code rates will be used in cleaner media (such as coaxial) while the lower code rates will be used in noisy environments such as power lines.
+* Automatic repeat request (ARQ) mechanisms: G.hn supports operation both with and without ARQ (re-transmission). Although this is not media specific, it is expected that ARQ-less operation is sometimes appropriate for cleaner media (such as coaxial) while ARQ operation is appropriate for noisy environments such as power lines.
+* Power levels and frequency bands: G.hn defines different power masks for each media.
+* MIMO support: Recommendation G.9963 includes provisions for transmitting G.hn signals over multiple AC wires (phase, neutral, ground), if they are physically available.
+
+====Security====
+
+G.hn uses the AES encryption algorithm (with a 128-bit key length) using the CCMP protocol to ensure confidentiality and message integrity. Authentication and key exchange is done following ITU-T Recommendation X.1035.Top Ten Things You Need to Know About the New G.hn Standard
+G.hn specifies point-to-point security inside a domain, which means that each pair of transmitter and receiver uses a unique encryption key which is not shared by other devices in the same domain. For example, if node Alice sends data to node Bob, node Eve (in the same domain as Alice and Bob) will not be able to eavesdrop their communication.An introduction to G.hn security
+G.hn supports the concept of relays, in which one device can receive a message from one node and deliver it to another node further away in the same domain. Relaying provides extended range for large networks. To ensure security in scenarios with relays, G.hn specifies end-to-end encryption, which means that if node Alice sends data to node Bob using node Mallory as an intermediate relay, the data is encrypted in such a way that Mallory cannot decrypt it or modify it.
+
+====Profiles====
+
+The G.hn architecture includes the concept of profiles. Profiles are intended to address G.hn nodes with significantly different levels of complexity. In G.hn the higher complexity profiles are proper supersets of lower complexity profiles, so that devices based on different profiles can interoperate with each other.Updated Issues List for G.hn - Geneva May 2009, (ITU membership required)
+Examples of G.hn devices based on high complexity profiles are Residential Gateways or Set-Top Boxes. Examples of G.hn devices based on low complexity profiles are home automation, home security and Smart Grid devices.
+
+===Protocol stack===
+
+G.hn specifies the Physical Layer and the Data Link Layer, according to the OSI model.
+*The G.hn Data Link Layer (Recommendation G.9961) is divided into three sub-layers:
+** The Application Protocol Convergence (APC) Layer, which accepts frames (usually in Ethernet format) from the upper layer (Application Entity) and encapsulates them into G.hn APC Protocol data units (APDUs). The maximum payload of each APDU is 214 bytes.
+** The Logical Link Control (LLC), which is responsible for encryption, aggregation, segmentation and Automatic repeat-request. This sub-layer is also responsible for "relaying" of APDUs between nodes that may not be able to communicate through a direct connection.
+** The Medium Access Control (MAC), which schedules Channel Access.
+*The G.hn Physical Layer (Recommendation G.9960) is divided into three sub-layers:
+** The Physical Coding Sub-layer (PCS), responsible for generating PHY headers.
+** The Physical Medium Attachment (PMA), responsible for scrambling and FEC coding/decoding.
+** The Physical Medium Dependent (PMD), responsible for bit-loading and OFDM modulation.
+The PMD sub-layer is the only sub-layer in the G.hn stack that is "medium dependent" (i.e., some parameters may have different values for each media -  power lines, phone lines and coaxial cable). The rest of sub-layers (APC, LLC, MAC, PCS and PMA) are "medium independent".
+The interface between the Application Entity and the Data Link Layer is called A-interface. The interface between the Data Link Layer and the Physical Layer is called Medium Independent Interface (MII). The interface between the Physical Layer and the actual transmission medium is called Medium Dependent Interface (MDI).
+
+==Status==
+
+Recommendation G.9960 (Physical Layer) was granted Approval at the October 2009 Study Group 15 plenary meeting.UNITED NATIONS ITU-T RATIFIES G.HN STANDARD FOR WIRED HOME NETWORKING
+Recommendation G.9961 received Approval on June 11, 2010.  During that meeting, concerns about regulatory conformance were raised and an amendment to the G.hn standard was proposed that eliminated the passband (100 MHz to 200 MHz) and reduced the baseband operational spectrum (from 100 MHz to 80 MHz).  Other changes included in the amendment included a reduction of transmit power to meet regulatory complaints raised at the meeting. In June 2011, during a joint Forum held by ITU-T, ITU-R and other organizations, it was recognized that "ITU-T G.hn was considered to have electromagnetic compatibility (EMC)  and mitigation techniques that go well beyond those considered essential for protecting radio services", and that "Non-ITU compliant home network equipment may cause problems".Forum highlights radio interference fears
+In October 2010, Sigma Designs announced the first G.hn-compliant chipset, called CG5110.Sigma Designs Unveils Industry’s First G.hn Chipset In January 2011, Lantiq introduced a family of G.hn-compliant chips, called HNX176 and HNX156.Lantiq Introduces Family of Chips Supporting Global ITU-T G.hn Standard for Home Networking Applications
+In June 2011, four silicon vendors (Lantiq, Marvell Semiconductor, Metanoia and Sigma Designs) announced their participation in an open interoperability plugfest in Geneva, hosted by Homegrid Forum, Broadband Forum and ITU.G.hn Moves from Specification to Reality
+The HomeGrid Forum showcased the world’s first live public demonstration of G.hn interoperability at CES, January 10–13, 2012. HomeGrid Forum members Lantiq, Marvell, Metanoia, and Sigma Designs joined together to highlight real-world G.hn capabilities.http://www.homegridforum.org/content/pages.php?pg=news_press_releases_item&rec_id=161
+In January 2012, Tangotec Ltd. announced that it will have a fully compliant ITU-T G.hn chipset family available in 2012. Tangotec demonstrated G.hn capabilities over all three media at CES 2012.http://www.businesswire.com/news/home/20120103005223/en/Tangotec-Announces-ITU-T-G.hn-chipset
+
+==Industry Support==
+
+===HomeGrid Forum===
+
+The HomeGrid Forum is a global, non-profit trade group promoting the International Telecommunication Union’s G.hn standardization efforts for next-generation home networking.ITU-T G.hn Specification Achieves Key Milestone with Successful Consent at Geneva ITU-T Meeting, Significant Progress Towards Unified Standard for Home Networking Endorsed by HomeGrid Forum HomeGrid Forum promotes adoption of G.hn through technical and marketing efforts,HomeGrid Forum Webinar: In-Stat's Perspective on Integrated, Segregated & Next-Generation Wired In-Home Networks addresses certification and interoperability of G.hn-compliant products, and cooperates with complementary industry alliances.Technology Organizations Align to Support United Nations' ITU-T G.hn Standard, CEPCA, HomePNA, and UPA Unite with HomeGrid Forum to Promote Next-Generation Home Networking Technology
+HomeGrid Forum members are Allion Test Labs, Inc., AT&T, BC Institute of Technology, Best Buy, British Telecom, Chunghwa Telecom, COMTREND Corporation, Continental Automated Buildings Association (CABA), Corinex, Demand Response and Smart Grid Coalition (DRSG), Digital Living Network Alliance (DLNA), Holland Electronics, LLC, HomePNA Alliance, Institute for Information Industry (III), Intel Corporation, Kawasaki Microelectronics, Korea Electrotechnology Research Institute (KERI), Korea Polytechnic University (KPU), Kwangwoon University, LAN S.A.R.L, Lantiq, Marvell, Metanoia Communications, Inc., MitraStar, Motorola, NESS Czech s.r.o, Panasonic Corporation, Sigma Designs, TangoTec Ltd., Teleconnect GmbH, Telefónica, The University of British Columbia, TRaC Global, University of New Hampshire InterOperability Laboratory (UNH-IOL), Xingtera Inc., ZigBee Alliance, and Z-Wave Alliance.
+
+===Silicon and IP Vendors===
+
+Immediately after G.hn's consent five vendors, Aware, CopperGate, DS2, Ikanos and TangoTec announced support for the new G.hn standard.[tpl]Citation needed|date=March 2011[/tpl]
+Other silicon vendors actively involved in the development of G.hn include DSL vendors Lantiq and Metanoia, microprocessor manufacturer Intel (which on June 2009 said "... a single networking technology for all three types of existing home wiring will make it easier to expand the market for Intel’s home networking products"),Intel publishes white-paper on G.hn standard and SoC vendor Sigma Designs, which on July 2009 said "Sigma intends to support the proliferation of G.hn-based products starting with reference platforms that will power the next-generation of home content delivery".SIGMA DESIGNS JOINS HOMEGRID FORUM BOARD OF DIRECTORS
+The world’s first live public demonstration of G.hn interoperability was shown at CES, January 10–13, 2012. HomeGrid Forum members Lantiq, Marvell, Metanoia, and Sigma Designs joined together to highlight real-world G.hn capabilities.
+
+===Service providers===
+
+On February 26, 2009, as part of a HomePNA press release, AT&T (which makes extensive use of wireline home networking as part of its U-Verse IPTV service) expressed support for the work developed by ITU-T creating standards for home networking, including G.hn.HomePNA and HomeGrid Sign Liaison Agreement, Groups Work to Promote New ITU G.hn Global Wired Home Networking Standard
+Service providers like AT&T will benefit from G.hn for several reasonsHomeGrid Forum Webinar: A Service Provider's Perspective on G.hn, Tom Starr, AT&T:* Connect to any room no matter what the wiring type may be.
+* Enable customer self-install
+* Built-in diagnostic information and remote management
+* Multiple silicon and equipment suppliers
+Other Service Providers that are active contributors to the work being done by ITU-T Study Group include  British Telecom,BT Joins HomeGrid Forum Board of Directors Telefónica, and AT&T. Vernon Reed, Lead Technical Staff at AT&T Test Labs, who has long been involved in home networking technologies, is impressed with G.hn capabilities.http://www.homegridforum.typepad.com/
+Mon, Feb 20, 2012: Chunghwa Telecom Labs Joins HomeGrid Forum As Promoter Member
+“G.hn is a highly attractive and helpful solution to reduce home wiring deployment obstacles while we promote diverse digital home services to our customers,” said Yuan-Kuang Tu, President of CHT-TL. “Joining the HomeGrid Forum will allow us to participate and help promote this high-speed technology in Taiwan.” http://www.homegridforum.org/content/pages.php?pg=news_press_releases_item&id=163
+
+===Equipment vendors===
+
+On April 2008, during the first announcement of HomeGrid Forum, Echostar, a manufacturer of set-top boxes for the service provider market, expressed its support for the unified standard:Industry Creates HomeGrid Forum to Develop Technology for Enjoying Multimedia Anywhere in the Home
+On Jan 9, 2012, Motorola Mobility Adds Momentum to Growing G.hn Adoption. Wireline home networking gains giant global consumer voice. “Our membership is growing in numbers and also in stature,” said HomeGrid Forum President Matthew Theall. “Motorola is one of many major equipment manufacturers and global players to recognize the potential of G.hn for its customers and we are delighted that they have chosen to step in at this critical point as Certification is being finalized along with silicon ready for deployments.http://www.homegridforum.org/content/pages.php?pg=news_press_releases_item&rec_id=160
+
+===Consumer Electronics===
+
+On March 2009, Best Buy (which is the largest retailer of consumer electronics in the United States) joined the board of directors of HomeGrid Forum and expressed its support for G.hn technology as the single standard for wired home networks:HomeGrid Forum Adds New Members, Best Buy Joins Board Of Directors, Consumer Electronics Retailer to Help Drive G.hn Technology
+Panasonic, one of the largest manufacturers of consumer electronics, is also a contributor member of HomeGrid Forum.
+
+===Industry Analysts===
+
+On April 2012 Jeff Heynen with Infonetics said:[tpl]cquote|"HomeGrid Certified G.hn was built from the ground up with Service Provider contributions around manageability, robustness, quality, and coverage in the home.  All these issues are being addressed with G.hn.  It offers whole home coverage for multiple HD IPTV streaming and no new wires need to be installed in the home. It could be a real game changer for Service Providers.”[/tpl]
+-Jeff Heynen, Directing Analyst, Broadband and Video, Infonetics 
+On June 2008, Michael Wolf, director at ABI Research said:New G.hn Home Networking Standard Has Significant Potential, ABI Research
+On December 2008, Kurt Scherf, analyst with market research firm Parks Associates, said:New global standard for fully networked home
+On December 2008, Steve Rago, principal analyst at market researcher iSuppli, saidCopperGate Communications Commits to G.hn:
+
+===Other organizations===
+
+On February 25, 2009, three home networking organizations that promoted previously incompatible technologies (CEPCA, HomePNA and the Universal Powerline Association), announced that they had agreed to work with Homegrid Forum to promote G.hn as the single next-generation standard for wired home networking, and to work to ensure coexistence with existing products in the market.
+On October 2008, the Continental Automated Buildings Association (CABA) and HomeGrid Forum signed a liaison agreement to support HomeGrid Forum’s efforts in conjunction with ITU-T G.hn to make it easy for consumers worldwide to connect devices and enjoy innovative applications using existing home wiring.HomeGrid Forum and CABA Ink Liaison Agreement to Promote Development and Deployment of Advanced Intelligent Home Networks
+On July 2009, HomeGrid Forum and DLNA signed a liaison agreement "setting the stage for collaboration between the two organizations and the approval of G.hn as a DLNA-recognized Physical Layer technology".HOMEGRID FORUM SIGNS LIAISON AGREEMENT WITH DIGITAL LIVING NETWORK ALLIANCE
+On June 2010, Broadband Forum and HomeGrid Forum signed an agreement to deliver a global compliance and interoperability testing program for products using G.hn technology. The Broadband Forum will support HomeGrid Forum's validation of G.hn products, their promotion of product conformance and interoperability, and help expedite the total time to market for HomeGrid Forum Certified products.Broadband Forum and HomeGrid Forum Reach Definitive Collaboration Agreement With the Aim of Enabling Conformance and Interoperability of G.hn Products On May 2011, both organizations jointly announced the first open G.hn plugfest.HomeGrid Forum and Broadband Forum Announce First Open G.hn Chipset Interoperability Plugfest 
+
+===Related standards===
+
+ITU G.9970 (also known as G.hnta) is a Recommendation developed by ITU-T that describes the generic architecture for home networks and their interfaces to the operators' broadband access networks.
+ITU G.9972 (also known as G.cx) is a Recommendation developed by ITU-T that specifies a coexistence mechanism for home networking transceivers capable of operating over power line wiring. The coexistence mechanism would allow G.hn devices which implement G.9972 to coexist with other devices implementing G.9972 and operating on the same power line wiring.
+
+==Potential Applications==
+
+Although the major driver for wired home networking technologies has been IPTV (especially IPTV offered by a service provider as part of a triple play service, voice and data service offering (such as AT&T's U-Verse)), it is  expected that G.hn will also become the dominant wired networking standard for other markets such as the PC and CE industries.Multiple industries converging around the G.hn standard, HomeGrid Forum Blog Smart Grid applications like home automation or demand side management can also be targeted by G.hn-compliant devices that implement low-complexity profiles.
+
+=== IPTV Home Networks ===
+
+One of the problems faced by most providers of IPTV services is that in many customers' homes the Residential gateway that provides connectivity with the Broadband access network is not located in close proximity to the IPTV Set-top box. This scenario becomes very common as service providers start to offer service packages with multiple Set-Top Boxes per subscriber.
+G.hn solves the problem of connecting the Residential Gateway to one or more Set-top boxes, by using the existing home wiring. Using G.hn, IPTV service providers don't need to install new Ethernet wires, and don't need to use 802.11 wireless networks, which usually don't provide the Quality of Service and Security required for IPTV. Because G.hn supports any kind of home wiring, end users will often be able to install the IPTV home network by themselves, thus reducing the cost to the service provider."Why do we need a unified standard at all?", HomeGrid Forum Blog
+
+=== Consumer Home Networks ===
+
+Although Wi-Fi technology is today the most popular choice for consumer home networks, G.hn is also intended for use in this application. G.hn is an adequate solution for consumers in situations in which using wireless is not needed (for example, to connect a stationary device like a TV or a NAS device), or is not desired (due to security concerns) or is not feasible (for example, due to limited range of wireless signals).
+
+=== Consumer Electronics devices ===
+
+A recent trend in many types of Consumer Electronics (CE) is connectivity. It is usual for many CE products to include Internet connectivity using technologies such as Wi-Fi, Bluetooth or Ethernet. Many products not traditionally associated with computer use (such as TVs or Hi-Fi equipment) now provide options to connect to the Internet or to a computer using a home network to provide access to digital content.
+G.hn is intended to provide high-speed connectivity to CE products capable of displaying High definition (HD).
+Integrating the power connection and the data connection provides potential energy savings in CE devices. Given that CE devices (such as Home theater receivers) very often run on standby or "vampire power", they represent major savings to homeowners if their power connection is also their data connection - the device could reliably be turned off when it is not displaying any source.
+
+===Smart Grid===
+
+Because G.hn can operate over any type of wire (including AC and DC power lines), it can provide the communication infrastructure required for Smart Grid applications in residential, commercial and industrial environments. A comprehensive Smart Grid system requires reaching into every AC outlet in a home or building so that all devices can participate in energy conserving strategies.
+On September 2009, NIST included G.hn as one of the "Standards Identified for Implementation" for the Smart Grid "for which it believed there
+was strong stakeholder consensus", as part of an early draft of the "NIST Framework and Roadmap for Smart Grid Interoperability Standards".Commerce Secretary Unveils Plan for Smart Grid Interoperability In January 2010 this "strong stakeholder consensus" collapsed when G.hn was removed from the final version of the "Standards Identified for Implementation".NIST Smart Grid Interoperability Standards Roadmap Additional standards which are relevant to integrating G.hn with the Smart Grid are mentioned in the NIST report.
+The broad concept of Smart Grid includes applications with overlapping scopes such as Demand side management (DSM), Energy conservation measures (ECM), Advanced Metering Infrastructure (AMI) and Home Area Networks.Demand-Side Management: Now More than Ever
+Because G.hn natively supports popular protocols like Ethernet, IPv4 and IPv6, G.hn-based Smart Grid networks can easily be integrated with IP-based networks.Why the Smart Grid must be based on IP standards Well-known network management protocols like SNMP can be used to manage large-scale IP networks including G.hn devices.
+
+==See also==
+
+* IEEE 1901
+
+==References==
+
+==External links==
+
+*ITU-T Study Group 15 Question 4
+*ITU-T Recommendation G.9960
+*ITU-T Recommendation G.9961
+*ITU-T Recommendations: Series G
+*The HomePNA Blog contains general information about home networking and G.hn
+*The HomeGrid Forum Blog, A forum for discussion of ITU-T G.hn
+*Everywire, Your Definitive Source for All Things G.hn
+*Bluehelmets care for homenetworks - a translated report from Tom's Networking Guide Germany
+

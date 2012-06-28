@@ -1,0 +1,22 @@
+
+This page is about proof of O(log*n) Amortized Time Raimund Seidel, Micha Sharir. "Top-down analysis of path compression", SIAM J. Computing 34(3):515–525, 2005 of Union Find[tpl]cite journal |last1=Tarjan |first1=Robert Endre |year=1975 |title=Efficiency of a Good But Not Linear Set Union Algorithm |journal=Journal of the ACM |volume=22 |issue=2 |pages=215–225 |url=http://portal.acm.org/citation.cfm?id=321884 |doi=10.1145/321879.321884 [/tpl][tpl]cite journal |last1=Hopcroft |first1=J. E. |last2=Ullman |first2=J. D. |year=1973 |title=Set Merging Algorithms |journal=SIAM Journal on Computing |volume=2 |issue=4 |pages=294–303 |doi=10.1137/0202024[/tpl]Robert E. Tarjan and Jan van Leeuwen. Worst-case analysis of set union algorithms. Journal of the ACM, 31(2):245–281, 1984.
+Statement: if m operations, either Union or Find, are applied on n elements, the total run time is O(m\log*n).
+
+==Proof==
+
+Fact1: As the find function follows the path along to the root, the rank of node it encounters is strictly increasing
+:Proof: claim that as Find and Union operations are applied to the data set, this fact remains true over time. Initially when each node is the root of its own tree, it's trivially true. The only case when the rank of a node might be changed is when the Union by Rank operation is applied. In this case, a tree with smaller rank will be attached to a tree with greater rank, rather than vice versa. And during the find operation, all nodes visited along the path will be attached to the root, which has larger rank than its children, so this operation won't change this fact either. Fact2: A node u which is root of a subtree with rank r has at least 2r nodes.
+:Proof:  Initially when each node is the root of its own tree, it's trivially true. Assume that a node u with rank r has at least 2r nodes. Then when two tree with rank r Unions by Rank and form a tree with rank r + 1, the new node has at least 2r + 2r = 2r + 1 nodesFact3: The maximum number of nodes of rank r is ≤ n/2r.
+:Proof:  Since from fact2 we know that  a node u which is root of a subtree with rank r has at least 2r nodes. We will get the maximum number of nodes of rank r when all nodes with rank r is root of a tree that has exactly 2r nodes. In this case, the number of nodes of rank r is n/2rFor convenince, we define "bucket" here: a bucket is a set that contains vertices with particular ranks.
+We create some buckets and put vertices into buckets according to their ranks. That is, vertices with rank 0 goes into the zeroth bucket, vertices with rank 1 goes into the first bucket, vertices with rank 2 and 3 goes into the second bucket, vertices with rank B to 2B - 1 goes into the Bth bucket.
+We can make two observations about the buckets.
+:1. The total number of buckets is ≤ log*n
+::Proof: When we go from one bucket to the next, we add one more two to the power, that is, the next bucket to 2B - 1 will be 22B - 1:2. The maximum number of elements in bucket 2B – 1 is ≤ 2 * n/2B::Proof: The maximum number of elements in bucket 2B – 1 is ≤ n/2B + n/2B+1 + n/2B+2 + … + n/22^B – 1 ≤ 2 * n/2BThen the total cost of m finds T = T1 + T2 + T3
+Since each find operation makes exactly one traversal that leads to a root, we have T1 = O(m). 
+Also, from the bound above on the number of buckets, we have T2 = O(mlog*n).
+For T3, suppose we are traversing from u to v, where u and v have rank in the bucket 2B - 1. From fact1, we know that the number of times we traversed a link (u,v) where u and v were in the same bucket is B - 1 - B, which is B.
+Therefore, T = T1 + T2 + T3 = O(mlog*n)
+
+== References ==
+
+

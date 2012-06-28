@@ -1,0 +1,25 @@
+
+Absolute Manage (formerly LANrev LP) InstallEase is a software utility from LANrev LP for creating installers and uninstallers for Mac OS X. Its purpose is to allow software developers and IT administrators to create their own installers and uninstallers to deploy files, and software with minimal end-user interaction such as entering license information and configurations.
+
+== Features ==
+
+Package creation methods:
+* Before and after snapshots
+* Manual drag and drop 
+Options:
+* Install to the current user directory for files and applications that you want only available to a specific user.
+* Install files into every home directory of all users on the target machines.
+* Set file permissions
+* Output to:
+** Apple Installer (.pkg)
+** Uninstaller package for Apple Installer (.pkg)
+** Iceberg project (.packproj)
+** Disk image with added files and folders (.dmg)
+
+==References==
+
+==External links==
+
+* LANrev InstallEase page on LANrev website
+* AFP548
+

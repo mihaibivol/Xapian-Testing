@@ -1,0 +1,67 @@
+
+The National Transportation Communications for Intelligent Transportation System Protocol (NTCIP) is a family of standards designed to achieve interoperability and interchangeability between computers and electronic traffic control equipment from different manufacturers.
+The protocol is the product of a joint standardization project guided by the Joint Committee on the NTCIP, which is composed of six representatives each from the National Electrical Manufacturers Association (NEMA), the American Association of State Highway and Transportation Officials (AASHTO), and the Institute of Transportation Engineers (ITE).  The Joint Committee has in turn formed 14 technical working groups to develop and maintain the standards, and has initiated or produced over 50 standards and information reports.NEMA - NTCIP
+The project receives funding under a contract with the United States Department of Transportation (USDOT) and is part of a wider effort to develop a comprehensive family of Intelligent Transportation System (ITS) standards.US Department of Transportation ITS Standards Program
+
+==History of the NTCIP Development==
+
+NEMA initiated the development of the NTCIP in 1992.  In early 1993, the US Federal Highway Administration (FHWA) brought together transportation industry representatives to discuss obstacles to installing field equipment for new Intelligent Transportation Systems (ITS).  The representatives said that the number one priority was the need for an industry-wide standard data communications protocol.  Since the NEMA Transportation Section members had already started work on a new industry standard, they offered to expedite and expand the scope of their activities.
+The key objectives of the new NTCIP protocol were the interchangeability of similar roadside devices, and the interoperability of different types of devices on the same communications channel.
+In 1996, the FHWA suggested a partnership of standards developing organizations to expand both user and industry involvement.  AASHTO and ITE signed an agreement with NEMA to establish the Joint Committee on the NTCIP, and to work together on developing and maintaining the NTCIP standards.
+
+==NTCIP Communications Standards==
+
+===Center to Field Device Communications===
+
+NTCIP has enabled the center to field communication and command/control of equipment from different manufacturers to be specified, procured, deployed, and tested.  NTCIP communications standards for field devices are listed below: (the corresponding NTCIP document number is shown in parentheses):The NTCIP Guide  
+* Traffic signals (NTCIP 1202)
+* Dynamic message signs (NTCIP 1203)
+* Environmental sensor stations (NTCIP 1204)
+* Closed circuit television cameras (NTCIP 1205)
+* Vehicle count stations (NTCIP 1206)
+* Freeway ramp meters (NTCIP 1207)
+* Video switches (NTCIP 1208)
+* Transportation sensor systems (NTCIP 1209)
+* Field master stations for traffic signals (NTCIP 1210)
+* Transit priority at traffic signals (NTCIP 1211)
+* Street lights (NTCIP 1213)
+
+===Center to Center Communications===
+
+Center to center (C2C) communication involves peer-to-peer communications between computers involved in information exchange in real-time transportation management in a many-to-many network. This type of communication is similar to the Internet, in that any center can request information from, or provide information to, any number of other centers.
+An example of center to center communications is two traffic management centers that exchange real-time information about the inventory and status of traffic control devices. This allows each center system to know what timing plan, for example, the other center system is running to allow traffic signal coordination across center geographic boundaries. Other examples of this type of communication include:
+* Two or more traffic signal systems exchanging information (including second-by-second status changes) to achieve coordinated operation of traffic signals managed by the different systems and to enable personnel at one center to monitor the status of signals operated from another center;
+* A transit system reporting schedule adherence exceptions to a transit customer information system and to a regional traveler information system, while also asking a traffic signal management system to instruct its signals to give priority to a behind-schedule transit vehicle;
+* An emergency management system reporting an incident to a freeway management system, to a traffic signal management system, to two transit management systems and to a traveler information system;
+* A freeway management system informing an emergency management system of a warning message just posted on a dynamic message sign on the freeway in response to its notification of an incident; and
+* A weather monitoring system (environmental sensors) informing a freeway management system of ice forming on the roadway so that the freeway management system is able to post warning messages on dynamic message signs as appropriate.
+NTCIP communications standards for center to center communications are listed below: (the corresponding NTCIP document number is shown in parentheses):  
+* Data Exchange - DATEX-ASN (NTCIP 2304)
+* Web Services  - XML (NTCIP 2306)
+The NTCIP has coordinated with other information level standards development organizations during development of the center-to-center application profiles and supports the: ITE Traffic Management Data Dictionary (ITE TMDD), IEEE 1512 Incident Management (IEEE 1512), APTA Transit Communications Interface Profiles (APTA TCIP), and SAE J2354 Advanced Traveler Information Systems standards.
+
+===NTCIP Standards Framework===
+
+The NTCIP Framework is based primarily on the open standards of the Internet Engineering Task Force (IETF), World Wide Web Consortium (W3C), and ISO, plus NTCIP data dictionary standards specific for the task of ITS device communications.  A layered, or modular, approach to communications standards, is used to represent data communications between two computers or other electronic devices.  
+NTCIP refers to “levels” in NTCIP, rather than “layers” to distinguish the hierarchical architecture applied from those defined by the Open System Interconnection Reference Model (OSI Model) of ISO and the Internet Engineering Task Force (IETF). The five NTCIP levels are:  information level, application level, transport level, subnetwork level, and plant level.
+The figure below (used with permission) shows the structure of the NTCIP Information, Application, Transport, Subnetwork, and Plant Levels.
+To ensure a working system, deployers should select and specify at least one NTCIP protocol or profile at each level. A discussion of each level, and NTCIP standards that apply at that level, follows:
+* NTCIP Information Level — Information standards define the meaning of data and messages and generally deal with ITS information (rather than information about the communications network). This is similar to defining a dictionary and phrase list within a language. These standards are above the traditional ISO seven-layer OSI model. Information level standards represent the functionality of the system to be implemented.
+* NTCIP Application Level — Application standards define the rules and procedures for exchanging information data. The rules may include definitions of proper grammar and syntax of a single statement, as well as the sequence of allowed statements. This is similar to combining words and phrases to form a sentence, or a complete thought, and defining the rules for greeting each other and exchanging information. These standards are roughly equivalent to the Session, Presentation and Application Layers of the OSI model.
+* NTCIP Transport Level — Transport standards define the rules and procedures for exchanging the Application data between point 'A' and point 'X' on a network, including any necessary routing, message disassembly/re-assembly and network management functions. This is similar to the rules and procedures used by the telephone company to connect two remotely located telephones. Transportation level standards are roughly equivalent to the Transport and Network Layers of the OSI model.
+* NTCIP Subnetwork Level — Subnetwork standards define the rules and procedures for exchanging data between two 'adjacent' devices over some communications media. This is equivalent to the rules used by the telephone company to exchange data over a cellular link versus the rules used to exchange data over a twisted pair copper wire. These standards are roughly equivalent to the Data Link and Physical Layers of the OSI model.
+* NTCIP Plant Level — The Plant Level is shown in the NTCIP Framework only as a means of providing a point of reference to those learning about NTCIP. The Plant Level includes the communications infrastructure over which NTCIP communications standards are to be used and has a direct impact on the selection of an appropriate Subnetwork Level for use over the selected communications infrastructure. The NTCIP standards do not prescribe any one media type over another. In most cases, communications media selections are made early in the design phase.
+The NTCIP Framework does not preclude combinations beyond those expressly indicated on the diagram.
+
+==References==
+
+==External links==
+
+*NTCIP (Official website)
+*The NTCIP Guide (NTCIP 9001 v04)
+*Testing Guide for NTCIP Center-to-Field Communications (NTCIP 9012 v01)
+*US Department of Transportation ITS Standards Program (USDOT)
+*National Electrical Manufacturers Association (NEMA)
+*American Association of State Highway and Transportation Officials (AASHTO)
+*Institute of Transportation Engineers (ITE)
+

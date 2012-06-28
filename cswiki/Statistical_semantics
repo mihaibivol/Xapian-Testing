@@ -1,0 +1,76 @@
+
+Statistical semantics is the study of "how the statistical patterns of human word usage can be used to figure out what people mean, at least to a level sufficient for information access" (Furnas, 2006). How can we figure out what words mean, simply by looking at patterns of words in huge collections of text? What are the limits to this approach to understanding words?
+
+==History==
+
+The term Statistical Semantics was first used by Weaver (1955) in his well-known paper on machine translation. He argued that word sense disambiguation for machine translation should be based on the co-occurrence frequency of the context words near a given target word. The underlying assumption that "a word is characterized by the company it keeps" was advocated by J.R. Firth (1957). This assumption is known in Linguistics as the Distributional Hypothesis. Delavenay (1960) defined Statistical Semantics as "Statistical study of meanings of words and their frequency and order of recurrence." Furnas et al. (1983) is frequently cited as a foundational contribution to Statistical Semantics.  An early success in the field was Latent Semantic Analysis.
+
+==Applications of statistical semantics==
+
+Research in Statistical Semantics has resulted in a wide variety of algorithms that use the Distributional Hypothesis to discover many aspects of semantics, by applying statistical techniques to large corpora:
+* Measuring the similarity in word meanings (Lund et al., 1995; Landauer and Dumais, 1997; McDonald and Ramscar, 2001, Terra and Clarke, 2003)
+* Measuring the similarity in word relations (Turney, 2006)
+* Modeling similarity-based generalization (Yarlett, 2008)
+* Discovering words with a given relation (Hearst, 1992)
+* Classifying relations between words (Turney and Littman, 2005)
+* Extracting keywords from documents (Frank et al., 1999; Turney, 2000)
+* Measuring the cohesiveness of text (Turney, 2003)
+* Discovering the different senses of words (Pantel and Lin, 2002)
+* Distinguishing the different senses of words (Turney, 2004)
+* Subcognitive aspects of words (Turney, 2001)
+* Distinguishing praise from criticism (Turney and Littman, 2003)
+
+==Related fields==
+
+Statistical Semantics focuses on the meanings of common words and the relations between common words, unlike text mining, which tends to focus on whole documents, document collections, or named entities (names of people, places, and organizations). Statistical Semantics is a subfield of computational semantics, which is in turn a subfield of computational linguistics and natural language processing.
+Many of the applications of Statistical Semantics (listed above) can also be addressed by lexicon-based algorithms, instead of the corpus-based algorithms of Statistical Semantics. One advantage of corpus-based algorithms is that they are typically not as labour-intensive as lexicon-based algorithms. Another advantage is that they are usually easier to adapt to new languages than lexicon-based algorithms. However, the best performance on an application is often achieved by combining the two approaches (Turney et al., 2003).
+
+==See also==
+
+*Latent semantic analysis
+*Latent semantic indexing
+*Text mining
+*Information retrieval
+*Natural language processing
+*Computational linguistics
+*Web mining
+*Semantic similarity
+*Co-occurrence
+*Text corpus
+*Semantic Analytics
+
+==External links==
+
+*George Furnas
+*Susan Dumais
+*Thomas Landauer
+*Peter Turney
+*Michael Ramscar
+*Dekang Lin's Demos
+*Patrick Pantel's Demos
+*Kea keyphrase extraction
+*Online keyphrase extractor
+
+==References==
+
+* Delavenay, E. (1960). An Introduction to Machine Translation, New York, NY: Thames and Hudson.
+* Firth, J.R. (1957). A synopsis of linguistic theory 1930-1955. In Studies in Linguistic Analysis, pp. 1–32. Oxford: Philological Society. Reprinted in F.R. Palmer (ed.), Selected Papers of J.R. Firth 1952-1959, London: Longman (1968).
+* Frank, E., Paynter, G.W., Witten, I.H., Gutwin, C., and Nevill-Manning, C.G. (1999). Domain-specific keyphrase extraction. In Proceedings of the Sixteenth International Joint Conference on Artificial Intelligence (IJCAI-99), pp. 668–673. California: Morgan Kaufmann.
+* Furnas, G.W., Landauer, T.K., Gomez, L.M., and Dumais, S.T. (1983). Statistical semantics: Analysis of the potential performance of keyword information systems. Bell System Technical Journal, 62(6):1753-1806.
+* Furnas, G.W. (2006). Faculty Profile: George Furnas, University of Michigan, School of Information, URL verified on October 2, 2006.
+* Hearst, M.A. (1992). Automatic acquisition of hyponyms from large text corpora. In Proceedings of the Fourteenth International Conference on Computational Linguistics, pages 539–545, Nantes, France.
+* Landauer, T.K., and Dumais, S.T. (1997). A solution to Plato's problem: The latent semantic analysis theory of the acquisition, induction, and representation of knowledge. Psychological Review, 104(2):211–240.
+* Lund, K., Burgess, C., and Atchley, R.A. (1995). Semantic and associative priming in high-dimensional semantic space. In Proceedings of the 17th Annual Conference of the Cognitive Science Society, pages 660-665.
+* McDonald, S., and Ramscar, M. (2001). Testing the distributional hypothesis: The influence of context on judgements of semantic similarity. In Proceedings of the 23rd Annual Conference of the Cognitive Science Society, pages 611-616.
+* Pantel, P., and Lin, D. (2002). Discovering word senses from text. In Proceedings of ACM SIGKDD Conference on Knowledge Discovery and Data Mining, pages 613–619.
+* Terra, E., and Clarke, C.L.A. (2003). Frequency estimates for statistical word similarity measures. In Proceedings of the Human Language Technology and North American Chapter of Association of Computational Linguistics Conference 2003 (HLT/NAACL 2003), pages 244–251.
+* Turney, P.D. (2000). Learning algorithms for keyphrase extraction. Information Retrieval, 2(4), 303-336. OAI arXiv.org:cs/0212020
+* Turney, P.D. (2001). Answering subcognitive Turing Test questions: A reply to French. Journal of Experimental and Theoretical Artificial Intelligence, 13(4), 409-419. OAI arXiv.org:cs/0212015
+* Turney, P.D. (2003). Coherent keyphrase extraction via Web mining, In Proceedings of the Eighteenth International Joint Conference on Artificial Intelligence (IJCAI-03), Acapulco, Mexico, 434-439. OAI arXiv.org:cs/0308033
+* Turney, P.D. (2004). Word sense disambiguation by Web mining for word co-occurrence probabilities. In Proceedings of the Third International Workshop on the Evaluation of Systems for the Semantic Analysis of Text (SENSEVAL-3), Barcelona, Spain, pp. 239–242. OAI arXiv.org:cs/0407065
+* Turney, P.D. (2006), Similarity of semantic relations. Computational Linguistics, 32(3), 379-416. OAI arXiv.org:cs/0608100
+* Turney, P.D., and Littman, M.L. (2003). Measuring praise and criticism: Inference of semantic orientation from association, ACM Transactions on Information Systems (TOIS), 21(4), 315-346. OAI arXiv.org:cs/0309034
+* Turney, P.D., and Littman, M.L. (2005). Corpus-based learning of analogies and semantic relations. Machine Learning, 60(1–3):251–278. OAI arXiv.org:cs/0508103
+* Turney, P.D., Littman, M.L., Bigham, J., and Shnayder, V. (2003). Combining independent modules to solve multiple-choice synonym and analogy problems. In Proceedings of the International Conference on Recent Advances in Natural Language Processing (RANLP-03), Borovets, Bulgaria, pp. 482–489. OAI arXiv.org:cs/0309035
+* Weaver, W. (1955). Translation. In W.N. Locke and D.A. Booth (eds.), Machine Translation of Languages, Cambridge, MA: MIT Press. ISBN 0-8371-8434-7
+

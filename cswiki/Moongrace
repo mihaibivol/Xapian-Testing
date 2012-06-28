@@ -1,0 +1,16 @@
+
+Moongrace is an open-source PHP Web Application Framework, released under the MIT License. The project was inspired by the Arch Way and Ruby On Rails, granting both minimalism and ultimate control over the development process.
+
+== Stones ==
+
+The main platform is built to be as light as possible. By applying the base, the developer will get a basic MVC skeleton, that can be extended using Stones. Moonstones or simply stones are inspired from Gems (Ruby on Rails). They are bundled actions, that work on the same basis as Linux Software Packages, highly dependent on one another.
+
+== Moongrace Core Features ==
+
+* All functions except for routing, controller loading are separated into stones.
+* Basic Routing System.
+* Hook system.
+* Representational state transfer (RESTful)
+** You can treat put, get, post, delete requests independently. All you have to do is add the method prefix, to your function names in the controller. For example, post_index handles POST requests that come to the index page.
+** Using the Response stone (that is bundled with Moongrace), you can send header codes and read PUT/DELETE method requests.
+

@@ -1,0 +1,105 @@
+
+In computing, the Advanced Configuration and Power Interface (ACPI) specification provides an open standard for device configuration and power management by the operating system. 
+First released in December 1996, ACPI defines platform-independent interfaces for hardware discovery, configuration, power management and monitoring. The specification is central to Operating System-directed configuration and Power Management (OSPM), a term used to describe a system implementing ACPI, which removes device management responsibilities from legacy firmware interfaces. 
+The standard was originally developed by Intel, Microsoft, and Toshiba, then later joined by HP, and Phoenix.  The latest version is "Revision 5.0," published on November 23, 2011.
+
+== Overview ==
+
+ACPI aims to consolidate, check and improve upon existing power and configuration standards for hardware devices. It provides a transition from earlier standards to entirely ACPI-compliant hardware, with some ACPI operating systems already removing support for legacy hardware. With the intention of replacing Advanced Power Management, the MultiProcessor Specification and the Plug and Play BIOS Specification,ACPI Overview the standard brings power management under the control of the operating system (OSPM), as opposed to the previous BIOS-central system, which relied on platform-specific firmware to determine power management and configuration policy.
+The ACPI specification contains numerous related components for hardware and software programming, as well as a unified standard for device/power interaction and for bus configuration. Some software developers have trouble implementing ACPI, and express concerns about the requirements that bytecode from an external source must be run by the system with full privileges.
+Linus Torvalds, creator of the Linux kernel, once described it as "a complete design disaster in every way" in relation to his view that "modern PCs are horrible".
+Microsoft's Windows 98 became the first operating system with full support for ACPI[tpl]Citation needed|date=July 2010[/tpl], with Windows 2000, Windows XP, Windows Vista, Windows 7, eComStation, FreeBSD, NetBSD, OpenBSD, HP-UX, OpenVMS, Linux, and PC versions of SunOS all having at least some support for ACPI.
+
+== OSPM responsibilities ==
+
+ACPI requires that once an OSPM-compatible operating system has activated ACPI on a computer, it then takes over and has exclusive control of all aspects of power management and device configuration. The OSPM implementation must expose an ACPI-compatible environment to device drivers, which exposes certain system, device and processor states.
+
+=== Power states ===
+
+==== Global states ====
+
+The ACPI specification defines the following four Global "Gx" states and six Sleep "Sx" states for an ACPI-compliant computer-system:
+* G0 (S0): Working. "Awaymode" is a subset of S0, where monitor is off but background tasks are running.
+* G1, Sleeping subdivides into the four states S1 through S4:
+** S1: All processor caches are flushed, and the CPU(s) stops executing instructions. Power to the CPU(s) and RAM is maintained; devices that do not indicate they must remain on may be powered down.
+** S2: CPU powered off. Dirty cache is flushed to RAM.
+** S3: Commonly referred to as  Standby, Sleep, or Suspend to RAM. RAM remains powered
+** S4: Hibernation or Suspend to Disk. All content of main memory is saved to non-volatile memory such as a hard drive, and is powered down.
+* G2 (S5), Soft Off: G2/S5 is almost the same as G3 Mechanical Off, except that the PSU still supplies power, at a minimum, to the power button to allow return to S0. A full reboot is required.  No previous content is retained. Other components may remain powered so the computer can "wake" on input from the keyboard, clock, modem, LAN, or USB device.
+* G3, Mechanical Off: The computer's power has been totally removed via a mechanical switch (as on the rear of a PSU). The power cord can be removed and the system is safe for dis-assembly (typically, only the real-time clock continues to run - using its own small battery).ACPI Spec Rev 5.0 - dated December 6, 2011
+Furthermore, the specification defines a Legacy state: the state on an operating system which does not support ACPI. In this state, the hardware and power are not managed via ACPI, effectively disabling ACPI.
+
+==== Device states ====
+
+The device states D0-D3 are device-dependent:
+* D0 Fully On is the operating state.
+* D1 and D2 are intermediate power-states whose definition varies by device.
+* D3 Off has the device powered off and unresponsive to its bus.
+
+=== Processor states ===
+
+The CPU power states C0-C3 are defined as follows:
+* C0 is the operating state.
+* C1 (often known as Halt) is a state where the processor is not executing instructions, but can return to an executing state essentially instantaneously. All ACPI-conformant processors must support this power state. Some processors, such as the Pentium 4, also support an Enhanced C1 state (C1E or Enhanced Halt State) for lower power consumption.
+* C2 (often known as Stop-Clock) is a state where the processor maintains all software-visible state, but may take longer to wake up. This processor state is optional.
+* C3 (often known as Sleep) is a state where the processor does not need to keep its cache coherent, but maintains other state. Some processors have variations on the C3 state (Deep Sleep, Deeper Sleep, etc.) that differ in how long it takes to wake the processor. This processor state is optional.
+
+=== Performance states ===
+
+While a device or processor operates (D0 and C0, respectively), it can be in one of several power-performance states. These states are implementation-dependent. Though, P0 is always the highest-performance state; with P1 to Pn being successively lower-performance states, up to an implementation-specific limit of n no greater than 16.
+P-states have become known as SpeedStep in Intel processors, as PowerNow! or Cool'n'Quiet in AMD processors, and as PowerSaver in VIA processors.
+* P0 max power and frequency
+* P1 less than P0, voltage/frequency scaled
+* P2 less than P1, voltage/frequency scaled
+* ...
+* Pn less than P(n-1), voltage/frequency scaled
+
+== Hardware interface ==
+
+ACPI-compliant systems interact with hardware through either a "Function Fixed Hardware (FFH) Interface", or a platform-independent hardware programming model which relies on platform-specific ACPI Machine Language (AML) provided by the original equipment manufacturer (OEM).
+Function Fixed Hardware interfaces are platform-specific features, provided by platform manufacturers for the purposes of performance and failure recovery. Standard Intel-based PCs have a fixed function interface defined by Intel, which provides a set of core functionality that reduces an ACPI-compliant system's need for full driver stacks for providing basic functionality during boot time or in the case of major system failure.
+
+== Firmware interface ==
+
+ACPI defines a large number of tables that provide the interface between an ACPI-compliant operating system, and system firmware. For example:
+* DSDT – Differentiated System Description Table
+* SSDT – Secondary System Description Table
+* SRAT – System Resource Affinity Table
+The tables allow description of system hardware in a platform-independent manner, and are presented as either fixed-formatted data structures or in AML. The main AML table is the DSDT (differentiated system description table).
+The Root System Description Pointer is located in a platform-dependent manner, and describes the rest of the tables.
+
+== ACPI Component Architecture (ACPICA) ==
+
+The ACPI Component Architecture (ACPICA) provides an open-source OS-independent reference implementation of the ACPI specification.ACPICA
+
+== ACPI Platform Error Interface (APEI) ==
+
+A specification for reporting of hardware errors e.g. from the chipset, to the operating system.
+
+== History ==
+
+The first revision of the ACPI specification was released in December 1996, supporting 16 and 32-bit addressing spaces.  It wasn't until August 2000 that ACPI received 64-bit address support as well as support for multiprocessor workstations and servers with revision 2.0.  In September 2004, revision 3.0 gave the ACPI specification support for SATA connectors, PCI Express bus, >256 multiprocessor support, ambient light sensors and user-presence devices, as well as extending the Thermal model beyond the previous processor-centric support. In June 2009, the 4.0 specification added many new features to the design; most notable are USB 3.0 support, logical processor idling support, and x2APIC support. The latest of the major publications is revision 5.0, released in November 2011.
+
+== See also ==
+
+* Active State Power Management - hardware power management protocol for PCI Express
+* Advanced Power Management (APM)
+* Green computing
+* Power management keys - Keyboard related
+* Wake-on-LAN
+* Wake-on-Ring
+* Simple Firmware Interface (SFI)
+* Unified Extensible Firmware Interface (UEFI)
+
+== References ==
+
+== External links ==
+
+* Advanced Configuration and Power Interface Specification
+* ACPI home page
+* Intel's ACPI page
+* Intel's ACPI Component Architecture
+* How Linux Suspend and Resume works in the ACPI age
+* Using and Debugging FreeBSD ACPI
+* Everything You Need to Know About the CPU C-States Power Saving Modes
+

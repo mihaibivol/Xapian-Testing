@@ -1,0 +1,88 @@
+
+SCO Skunkware, often referred to as simply "Skunkware", is a collection of Open Source software projects ported, compiled, and packaged for free redistribution on SCO operating environments. SCO Skunkware packaged components exist for SCO Xenix, SCO UNIX, SCO OpenServer 5, SCO OpenServer 6, UnixWare 2, Caldera OpenLinux, Open UNIX 8, and UnixWare 7.SCO Skunkware website SCO Skunkware was an early pioneering effort to bring open source software into the realm of business computing and, as such, provided an important initial impetus to the acceptance and adoption of open source software in the small and medium business market. An extensive SCO Skunkware download areaThe SCO Skunkware FTP download area contains over 1200 packages and 28 Gigabytes of free downloads has been maintained since 1993 and SCO Skunkware components were shipped with operating system distributions as far back as 1983 when Xenix for the IBM XT was released by The Santa Cruz Operation.SCO Forum 2000 slide presentation Later additional open source distributions for operating platforms such as the FreeBSD Ports collection and the Solaris Freeware repository[ref]
+</ref> would lend additional momentum to the adoption of open source in the business community.
+
+==Release history==
+
+SCO Skunkware has been released frequently on CD-ROM and as a downloadable CD ISO image. Individual packages are distributed via FTP. The Skunkware CD release history is as follows:Open Source BOF SCO Forum 2002
+* 1983 - First SCO Xenix Games Diskette
+* 1993 - Skunkware (SCO UNIX 3.2)
+* 1994 - Skunkware 2.0 (OpenDesktop)
+* 1995 - Skunkware 5 (OpenServer 5)
+* 1996 - Skunkware 96 (OpenServer 5)
+* 1997 - Skunkware 97 (OSR5 + UW2)
+* 1998 - Skunkware 7 (UnixWare 7)
+* 1998 - Skunkware 98 (OpenServer 5)
+* 1999 - Skunkware 7.1 (UnixWare 7)
+* 1999 - Skunkware 99 (OpenServer 5 and UnixWare 7)
+* 2000 - Skunkware 2000 (OpenServer 5)
+* 2000 - Skunkware 7.1.1 (UnixWare 7)
+* 2001 - Skunkware 8.0.0 (Open UNIX 8)
+* 2001 - SOSS 3.1 (OpenLinux 3.1)Skunkware was temporarily renamed to "Supplemental Open Source Software" after the purchase of the SCO server division by Caldera. SOSS is the acronym used for this.
+* 2002 - Skunkware 8.0.1 (Open UNIX 8)
+* 2002 - SOSS 3.1.1 (OpenLinux 3.1.1)
+* 2006 - Skunkware 2006 (OpenServer 6)
+
+==Licensing==
+
+SCO Skunkware components are licensed under a variety of terms. Most components are licensed under an OSI approved Open Source license. Many are licensed under the terms of either the GNU General Public License or the GNU Library General Public License.
+Licenses used by SCO Skunkware components include or are similar to:
+* GNU General Public License
+* GNU Library General Public License
+* Artistic License
+* Mozilla Public License
+* Netscape Public License
+* The Open Group Public License
+* The AST Open Source License
+* X Consortium License
+* Berkeley Based Licenses
+A few of the components are "freeware" with no restrictions on their redistribution. Some components may restrict their use to non-commercial purposes or require a license fee for commercial use (e.g. MBROLA). Some components may be redistributed with special permission from the author(s) as is the case with KISDN.
+
+==Packaging Formats==
+
+SCO Skunkware packages are typically distributed in the native packaging format of the operating system release for which they are intended. Package management systems used by SCO Skunkware include the following:
+* Old SCO Custom installable floppy images (SCO Xenix & UNIX 3.2v4)
+* New Custom SSO architecture media images (SCO OpenServer 5 and 6)
+* SysV pkgadd datastreams (UnixWare 2, UnixWare 7, Open UNIX 8)
+* RPM (OpenLinux 3, UnixWare 7, OpenServer 5 & 6))
+* Compressed tar and cpio archives (all platforms)
+
+==Notes==
+
+==See also==
+
+*Open Source
+*List of open source software packages
+*The Cathedral and the Bazaar
+
+==References==
+
+*SCO Skunkware website
+*SCO Skunkware SCO Forum 1998
+*Open Source and SCO SCO Forum 2000
+*Open Source BOF SCO Forum 2002
+*Open Source Components in SCO OpenServer and SCO UnixWare SCO Forum 2004
+*Open Source and SCO SCO Forum 2005
+*Open Source at SCO SCO Forum 2006
+*
+
+*SCO, Skunkware, and the Open Source Movement SCO World magazine February 1, 1999
+*Porting Open Source Software to SCO SCO World magazine November 1, 1999
+*
+
+*About SCO World magazine at archive.org
+*
+
+* 
+
+* 
+
+* 
+
+* 
+ [tpl]Dead link|date=October 2010|bot=H3llBot[/tpl]
+
+==External links==
+
+*SCO Skunkware FTP download area
+

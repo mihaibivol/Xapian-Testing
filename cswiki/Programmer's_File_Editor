@@ -1,0 +1,20 @@
+
+Programmer's File Editor (PFE) is a freeware text editor targeted particularly to the needs of software programmers. It was written by Alan Phillips of Lancaster University in the north of England.
+Development of Programmer's File Editor ceased in 1999, but the program is still in use by some programmers.
+Strengths of the editor include:
+* easy macro recorder and editor; macros can be saved and assembled into "libraries"
+* line breaks, tabs, and other special characters allowed in search and replace
+* file type recognition
+* using batch files to perform compilation tasks from within the editor
+* Customizable screen display; display and other characteristics can be set for specific file types, both pre-fab and user determined
+* Multiple document interface (MDI) with tiling and minimizing supported
+* Keyboard remapping
+Weaknesses of the editor include:
+* unique default keyboard shortcuts for search and replace (F2 for search, Shift-F2 for repeat search, F3 for search and replace)
+* Tends to lock up when opening unusually long files, or files with excessively long lines (above 16k characters)
+* Lack of Unicode support (although this does mean that the characters shown are an accurate representation of the file's actual bytes).
+
+==External links==
+
+*Programmer's File Editor Home Page
+

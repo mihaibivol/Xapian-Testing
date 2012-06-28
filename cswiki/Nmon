@@ -1,0 +1,51 @@
+
+nmon (short for Nigel's Monitor) is a popular system monitor tool for the AIX and Linux operating systems.
+
+== Description ==
+
+The original nmon was a freely downloadable tool for AIX 4.3 from the AIX wiki. It was also rewritten for the Linux operating system running on IA-32, x86-64, RS/6000 and Power processor and Mainframe and released by IBM to open source in July 2009. Its features were then bundled as part of the AIX operating systems from AIX 5.3 TL09 and AIX 6.1 TL02 within the topas command. It is used by AIX and Linux Systems Administrators and performance tuning specialists around the world.
+
+==Features==
+
+The features that make nmon unique are:
+* It is free and available for download from the IBM AIX Wiki website.
+* It is a single binary (one for each OS release), so installation is very simple.
+* There are two modes available:
+# In Online Mode it uses curses for efficient screen handling, which updates the terminal frequently for real-time monitoring.
+# In Capture Mode, the data is saved to a file in CSV format for later processing and graphing.  The file also includes important configuration details that are useful for recommending tuning.
+* nmon takes very little CPU time to run but captures the key performance numbers.
+* Has been in development for 10 years and includes many features requested by performance monitoring and systems administrator users.
+* nmon concentrates on useful performance information for the performance tuner and in a concise layout to aim understanding. This includes: CPU, memory, disks, adapters, networks, NFS, Kernel statistics, File-systems, Workload Manger (AIX), Workload Partitions (AIX) and Top Processes.
+* There are three main post processing tools, which are all available for free:
+# nmon Analyser is an Excel spreadsheet for graphing the collected data.
+# nmon2rrd creates Round-Robin Database (RRD) files via the Open Source RRDtool and then generates graphs and html files to display the data and graphs on a website.
+# nmon2web is similar to nmon2rrd but based on Perl.
+* These tools make it simple to produce reports with the key performance graphs or to automate the collection of performance data and create a website to aid tuning.
+* Because nmon includes support for older AIX releases, Linux running on x86, POWER and Mainframe platforms nmon is a tool that can be used to monitor them all.
+* Discussion, hints and tips are hosted on the IBM Performance tools Forum
+* nmon has been presented at many IT conferences including the UK UNIX User Group 2006 and IBM Power Systems Technical Universities held in the USA, European and Asia.
+
+== Screenshots ==
+
+Image:nmon network.png|NFS and Filesystem Statistics
+Image:nmon top.png|Processes sorted by CPU Used
+
+== Alternatives ==
+
+On AIX there is the topas command that can output reports to a file but this is not in a format that can be used easily as a source for a spread sheet or web tools like rrdtool.
+On Linux there is the  top command which is good for CPU and processes but does not cover disks and networks. For disk I/O, the iostat command can give you the details. But neither of these commands allow saving data in a format suitable for a spreadsheet or simple further processing.  Linux utility dstat can be used to produce text data, even in comma separated value format, which is quite suitable for spreadsheet programs.
+For monitoring many systems at a higher level the Ganglia open source tool is a good addition to lower detailed level. nmon and Ganglia both support UNIX (including AIX) and Linux systems.
+
+== External links ==
+
+* Updated Link to Wiki and Download Web page 
+* nmon (Performance Tools) Forum
+* nmon Analyser Webpage
+* Other similar free Performance tools for AIX
+* Older but useful nmon Article 
+* Ganglia open source project home website
+* nmon for Linux website - for the source code and Linux binaries for Intel, AMD, Power and Mainframe.
+* nmon manual page in the AIX Operating System
+* IBM Systems magazine article including nmon
+* NMON : A tool to analyze AIX and Linux performance
+

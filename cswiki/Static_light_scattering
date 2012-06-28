@@ -1,0 +1,50 @@
+
+Static light scattering is a technique in physical chemistry that measures the intensity of the scattered light to obtain the average molecular weight Mw of a macromolecule like a polymer or a protein. Measurement of the scattering intensity at many angles allows calculation of the root mean square radius, also called the radius of gyration Rg. By measuring the scattering intensity for many samples of various concentrations, the second virial coefficient A2, can be calculated.[tpl]cite journal|author=A. Einstein|journal=Ann. Phys.|volume=33|year=1910|page=1275|bibcode = 1910AnP...338.1275E |doi = 10.1002/andp.19103381612 [/tpl][tpl]cite journal|author=C.V. Raman|journal=Indian J. Phys.|volume=2|year=1927|page=1[/tpl][tpl]cite journal|author=P.Debye|journal=J. Appl. Phys.|volume=15|year=1944|page=338|doi=10.1063/1.1707436|title=Light Scattering in Solutions|issue=4|bibcode = 1944JAP....15..338D [/tpl][tpl]cite journal|author=B.H. Zimm|journal=J. Chem. Phys.|volume=13|year=1945|page=141|doi=10.1063/1.1724013|title=Molecular Theory of the Scattering of Light in Fluids|issue=4|bibcode = 1945JChPh..13..141Z [/tpl][tpl]cite journal|author=B.H. Zimm|journal=J. Chem. Phys.|volume=16|year=1948|page=1093|doi=10.1063/1.1746738|title=The Scattering of Light and the Radial Distribution Function of High Polymer Solutions|issue=12|bibcode = 1948JChPh..16.1093Z [/tpl]
+For static light scattering experiments, a high intensity monochromatic light, usually a laser, is launched in a solution containing the macromolecules. One or many detectors are used to measure the scattering intensity at one or many angles.
+In order to measure the weight average molecular weight directly, without calibration, from the light scattering intensity, the laser intensity, the quantum efficiency of the detector and the full scattering volume and solid angle of the detector needs to be known. Since this is impractical, all commercial instruments are calibrated using a strong, known scatterer like toluene since the Rayleigh Ratio of toluene and a few other solvents were measured using an absolute light scattering instrument.
+
+==Theory==
+
+For a light scattering instrument composed of many detectors placed at various angles, all the detectors need to respond the same way. Usually detectors will have slightly different quantum efficiency, different gains and are looking at different geometrical scattering volumes. In this case a normalization of the detectors is absolutely needed. To normalize the detectors, a measurement of a pure solvent is made first. Then an isotropic scatterer is added to the solvent. Since isotropic scatterers scatter the same intensity at any angle, the detector efficiency and gain can be normalized with this procedure. It is convenient to normalize all the detectors to the 90° angle detector.
+where IR(90) is the scattering intensity measured for the Rayleigh scatterer by the 90° angle detector.
+The most common equation to measure the weight average molecular weight, Mw, is the Zimm equation:
+where 
+and
+with
+and the scattering vector for vertically polarized light is
+with n0 the refractive index of the solvent, λ the wavelength of the light source, dn/dc the refractive index increment of the solution, NA is Avogadro's number (6.023x1023) and c the solution concentration. The intensity of the analyte measured at an angle is IA(θ). In these equation the subscript A is for analyte (the solution) and T is for the toluene with the Rayleigh Ratio of toluene, RT being 1.35x10−5 cm−1 for a HeNe laser. As described above, the radius of gyration, Rg, and the second virial coefficient, A2, are also calculated from this equation. The  refractive index increment dn/dc characterizes the change of the refractive index n with the concentration c, and can be measured with a differential refractometer. 
+A Zimm plot is built from a double extrapolation to zero angle and zero concentration from many angle and many concentration measurements. In the most simple form, the Zimm equation is reduced to:
+for measurements made at low angle and infinite dilution since P(0) = 1.
+There are typically a number of analyses developed to analyze the scattering of particles in solution to derive the above named physical characteristics of particles. A simple static light scattering experiment entails the average intensity of the sample that is corrected for the scattering of the solvent will yield the Rayleigh ratio, R as a function of the angle or the wave vector q as follows:
+
+== Data Analyses ==
+
+===Guinier plot===
+
+The scattered intensity can be plotted as a function of the angle to give information on the Rg which can simply be calculated using the Guinier approximation as follows:
+where ln(ΔR(θ)) = lnP(θ) also known as the form factor with q = 4πn0sin(θ/2)/λ. Hence a plot of the corrected Rayleigh ratio, ΔR(θ) vs sin2(θ/2) or q2 will yield a slope Rg2/3. However, this approximation is only true for qRg
+===Kratky plot===
+
+The Kratky plot is typically used to analyze the conformation of proteins, but can be used to analyze the random walk model of polymers. A Kratky plot can be made by plotting sin2(θ/2)ΔR(θ) vs sin(θ/2) or q2ΔR(θ) vs q.
+
+===Debye plot===
+
+This method is used to derive the molecular mass and 2nd virial coefficient, A2, of the polymer or polymer complex system. The difference to the Zimm plot is that the experiments are performed using a single angle. Since only one angle is used (typically 90°), the Rg cannot be determined as can be seen from the following equation:
+
+===Zimm plot===
+
+One must note that if the material constant K defined above is not implemented, a Zimm plot will only yield Rg. Hence implementing K will yield the following equation:
+
+===Multiple Scattering===
+
+Because static light scattering assumes that each detected photon has only been scattered exactly once, analysis according to the calculations stated above will only be correct, if the sample has been diluted sufficiently to ensure that photons are not scattered multiple times by the sample before being detected. Accurate interpretation becomes exceedingly difficult for systems with non-negligible contributions from multiple scattering. In many commercial instruments where analysis of the scattering signal is automatically performed, the error may never be noticed by the user. Particular for larger particles and those with high refractive index contrast, this limits the application of standard static light scattering to very low particle concentrations. Samples that change their properties after dilution are basically excluded from investigation. 
+However, as shown by Schaetzel [tpl]cite journal|last=Schaetzel|first=K.|title=Suppression of multiple-scattering by photon cross-correlation techniques|journal=J. Mod. Opt.|year=1991|volume=38|doi=10.1088/0953-8984/2/S/062[/tpl], it is possible to suppress multiple scattering in static light scattering experiments via a cross-correlation approach. The general idea is to isolate singly scattered light and suppress undesired contributions from multiple scattering in a static light scattering experiment. Different implementations of cross-correlation light scattering have been developed and applied. Currently, the most widely used scheme is the so called 3D-dynamic light scattering method [tpl]cite journal|author=Urban, C.; Schurtenberger, P. |title=Characterization of turbid colloidal suspensions using light scattering techniques combined with cross-correlation methods|journal=J. Colloid Interface Sci. |year=1998|volume= 207 |issue=1|pages= 150–158|doi=10.1006/jcis.1998.5769 [/tpl],[tpl]cite journal|author=Block, I.; Scheffold, F.|title=Modulated 3D cross-correlation light scattering: Improving turbid sample characterization|year=2010|journal=Rev. Sci. Instruments|volume=81|pages=123107|doi=10.1063/1.3518961|bibcode = 2010RScI...81l3107B|issue=12 [/tpl]. The same method can also be used to correct dynamic light scattering data for multiple scattering contributions [tpl]cite journal|author=Pusey, P.N. |title=Suppression of multiple scattering by photon cross-correlation techniques|journal= Curr. Opin. Colloid Interface Sci |year=1999|volime= 4|pages= 177|doi=10.1016/S1359-0294(99)00036-9[/tpl].
+
+== References ==
+
+== See also ==
+
+* Dynamic light scattering
+* Light scattering 
+* Protein-protein interactions
+

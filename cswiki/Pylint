@@ -1,0 +1,21 @@
+
+Pylint is a source code bug and quality checker for the Python programming language. It follows the style recommended by PEP 8, the Python style guide.Style Guide for Python Code
+It is similar to Pychecker but offers the following features (not limited to): 
+* Checking a line-code's Length
+* Checking if variable names are well-formed according to your coding standard
+* Checking if declared interfaces are truly implemented, and so on.http://www.logilab.org/857
+It is highly configurable and can be customized as needed. It is also equipped with the module Pyreverse that allows UML diagrams to be generated from python code.
+
+== See also ==
+
+* Pychecker
+* PyUnit
+
+== References ==
+
+== External links ==
+
+* Home site
+* Pylint: The Python Code bug/quality checker
+* pychecker vs pylint vs Django
+

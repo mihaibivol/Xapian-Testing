@@ -1,0 +1,8 @@
+
+The iSCSI Boot Firmware Table (iBFT) is a component of the ACPI 3.0b standard that provides operating systems a standard way to boot from software-initiated iSCSI protocol.
+
+== External links ==
+
+* The latest ACPI Specification
+* A Microsoft technical document describing the iBFT format in detail
+

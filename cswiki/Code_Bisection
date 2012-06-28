@@ -1,0 +1,34 @@
+
+Code Bisection is a method used in software development to identify change sets that result in a specific behavior change. It is mostly employed for finding the patch that introduced a bug. Another application area is finding the patch that indirectly fixed a bug.
+
+==Overview==
+
+Code bisection has the goal of minimizing the effort to find a specific change set.
+It employs a divide and conquer algorithm that
+depends on having access to the code history which is usually preserved by
+revision control in a code repository.
+
+==The Bisection Method==
+
+===Code Bisection Algorithm===
+
+Code history has the structure of an acyclic directed graph which can be topologically sorted. This makes it possible to use a divide and conquer search algorithm which
+* splits up the search space of candidate revisions
+* tests for the behavior in question
+* reduces the search space depending on the test result
+* re-iterates the steps above until at most one patch candidate remains
+
+===Algorithmic complexity===
+
+===Desirable Repository Properties===
+
+For code bisection it is desirable that each revision in the search space can be compiled and tested independently.
+
+==Support by Revision Control Systems==
+
+Revision control systems like Git or Mercurial directly support http://www.kernel.org/pub/software/scm/git/docs/v1.7.10/git-bisect.htmlhttp://www.selenic.com/mercurial/hg.1.html#bisect code bisection.
+Other revision control systems like Bazaar or Subversion support it indirectly employing pluginshttp://doc.bazaar.canonical.com/plugins/en/bisect-plugin.html or external scriptshttp://search.cpan.org/dist/App-SVN-Bisect/bin/svn-bisect.
+
+==References==
+
+

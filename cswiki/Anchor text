@@ -1,0 +1,22 @@
+
+The anchor text, link label, link text, or link title is the visible, clickable text in a hyperlink. The words contained in the anchor text can determine the ranking that the page will receive by search engines. Since 1998, some web browsers have added the ability to show a tooltip for a hyperlink before it is selected. Not all links have anchor texts because it may be obvious where the link will lead due to the context in which it is used. Anchor texts normally remain below 60 characters. Different browsers will display anchor texts differently. Usually, Web Search Engines analyze anchor text from hyperlinks on web pages. However, also other services apply the basic principles of anchor text analysis. For instance, academic search engines may use citation context to classify academic articles,[tpl]cite web|last=Bader Aljaber, Nicola Stokes, James Bailey and Jian Pei|url=http://www.springerlink.com/content/p278617582u5x3x1/|title=Document clustering of scientific texts using citation contexts |date=2010-04-01|publisher=Springer[/tpl] and anchor text from documents linked in mind maps may be used too.
+
+==Overview==
+
+Anchor text usually gives the user relevant descriptive or contextual information about the content of the link's destination. The anchor text may or may not be related to the actual text of the URL of the link. For example, a hyperlink to the English-language Wikipedia's homepage might take this form:
+:The anchor text in this example is "Wikipedia"; the unwieldy URL  displays on the web page as [tpl]srlink|Main Page|Wikipedia[/tpl], contributing to clean, easy-to-read text.
+
+==Common misunderstanding of the concept==
+
+This proper method of linking is beneficial to users and webmasters as anchor text holds significant weight in search engine rankings. The limit of the concept is building sentences only composed with linked words.[tpl]fact|date=September 2011[/tpl]
+
+==Search engine algorithms==
+
+Anchor text is weighted (ranked) highly in search engine algorithms, because the linked text is usually relevant to the landing page. The objective of search engines is to provide highly relevant search results; this is where anchor text helps, as the tendency was, more often than not, to hyperlink words relevant to the landing page.
+Webmasters may use anchor text to procure high results in search engine results pages. Google's Webmaster Tools facilitate this optimization by letting website owners view the most common words in anchor text linking to their site.
+In the past, Google bombing was possible through anchor text manipulation; however, in January, 2007, Google announced it had updated its algorithm to minimize the impact of Google bombs.
+In April 2012, Google announced in its March "Penguin" update that it would be changing the way it handled anchor text.  Inferring that anchor text would no longer be as an important of an element for their ranking metrics.[tpl]cite web|url=http://insidesearch.blogspot.co.uk/2012/04/search-quality-highlights-50-changes.html|title=Google's March Update|publisher=Google[/tpl][tpl]cite web|first=Simon|last=Dalley||accessdate=2012-04-04|date=2012-04-04|url=http://www.growtraffic.co.uk/google-changes-the-way-it-handles-anchor-text|title=Google Changes The way It Handles Anchor Text|publisher=Grow Traffic|author=Simon Dalley[/tpl]
+
+==References==
+
+

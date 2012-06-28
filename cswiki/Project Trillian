@@ -1,0 +1,9 @@
+
+Project Trillian was an effort by an industry consortium to port the Linux operating system to the Itanium processor. The project started in May 1999 with the goal of releasing the distribution in time for the initial release of Itanium, then scheduled for early 2000. By the end of 1999, the project included Caldera, CERN, Cygnus Solutions, Hewlett Packard, IBM, Intel, Red Hat, SGI, SuSE, TurboLinux and VA Linux Systems. The project released the resulting code in February 2000. The code then became part of the Linux baseline kernel more than a year before the release of the first Itanium processor. The Trillian project was able to do this for two reasons:
+*the free and open source GCC compiler had already been enhanced to support the Itanium architecture.
+*a free and open source simulator had been developed to simulate an Itanium processor on an existing computer.IATO simulation environment 
+After the successful completion of Project Trillian, the resulting Linux kernel was used by all of the manufacturers of Itanium systems (HP, IBM, DELL, SGI, Fujitsu, Unisys, Hitachi, and Groupe Bull.) With the notable exception of HP, Linux is either the primary OS or the only OS the manufacturer supports for Itanium. Ongoing free and open source software support for Linux on Itanium subsequently coalesced at Gelato.
+
+== References ==
+
+

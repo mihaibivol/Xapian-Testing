@@ -1,0 +1,63 @@
+
+The Common Information Model (CIM) is an open standard that defines how managed elements in an IT environment  are represented as a common set of objects and relationships between them. This is intended to allow consistent management of these managed elements, independent of their manufacturer or provider.
+
+==Overview==
+
+One way to describe CIM is to say that it allows multiple parties to exchange management information about these managed elements. However, this falls short in expressing that CIM not only represents these managed elements and the management information, but also provides means to actively control and manage these elements. By using a common model of information, management software can be written once and work with many implementations of the common model without complex and costly conversion operations or loss of information.
+The CIM standard is defined and published by the Distributed Management Task Force (DMTF). A related standard is Web-Based Enterprise Management (WBEM, also defined by DMTF) which defines a particular implementation of CIM, including protocols for discovering and accessing such CIM implementations.
+
+==Schema and specifications==
+
+The CIM standard includes the CIM Infrastructure Specification and the CIM Schema:
+*CIM Infrastructure Specification
+:The CIM Infrastructure Specification defines the architecture and concepts of CIM, including a language by which the CIM Schema (including any extension schema) is defined, and a method for mapping CIM to other information models, such as SNMP. The CIM architecture is based upon UML, so it is object-oriented: The managed elements are represented as CIM classes and any relationships between them are represented as CIM associations. Inheritance allows specialization of common base elements into more specific derived elements.
+*CIM Schema
+:The CIM Schema is a conceptual schema which defines the specific set of objects and relationships between them that represent a common base for the managed elements in an IT environment. The CIM Schema covers most of today's elements in an IT environment, for example computer systems, operating systems, networks, middleware, services and storage. The CIM Schema defines a common basis for representing these managed elements. Since most managed elements have product and vendor specific behavior, the CIM Schema is extensible in order to allow the producers of these elements to represent their specific features seamlessly together with the common base functionality defined in the CIM Schema.
+CIM is the basis for most of the other DMTF standards (e.g. WBEM or SMASH). It is also the basis for the SMI-S standard for storage management.
+
+==Versions==
+
+*The latest version (2.29.0) of the CIM Schema was published on May 3, 2011.
+*Version 2.28.0 of the CIM Schema was published on February 2, 2011.
+*Version 2.27.0 of the CIM Schema was published on November 15, 2010.
+*Version 2.26.0 of the CIM Schema was published on July 21, 2010.
+*Version 2.25.0 of the CIM Schema was published on March 31, 2010.
+*Version 2.6 of the CIM Infrastructure Specification was published on March 31, 2010.
+*Version 1.1 of the CIM Compliance Specification was published on December 15, 2003.
+*Version 2.2 of the CIM Specification was published on June 14, 1999.
+
+==Implementations==
+
+Many vendors provide implementations of CIM in various forms:
+* Some operating systems provide a CIM implementation, for example:
+** the Windows Management Instrumentation (WMI) API available in Microsoft Windows 2000 and higher
+** some GNU/Linux distributions with the SBLIM project[tpl]citation | url = http://sourceforge.net/projects/sblim | title = SBLIM | publisher = Sourceforge[/tpl]
+* The Storage Networking Industry Association (SNIA) has heavily bought into using CIM and WBEM: their usage of CIM is called Storage Management Initiative – Specification (SMI-S) which is a standard defined by the SNIA.
+* Some server manufacturers collaborate in the DMTF under the SMASH initiative to define CIM based management of servers.
+* The DASH initiative in the DMTF attempts to define CIM based management of desktop computers.
+There is also a growing tools market around CIM.
+
+===CIM-XML===
+
+CIM-XML is a protocol for performing sending CIM messages on top of HTTP. It has two message types: Operational messages, which provoke a response from the receiver (RPC), and Export Messages, which are indications/events. It is a part of the WBEM protocol family, and is standardised by the DMTF.
+CIM-XML is made up of 3 specifications
+*CIM Operations over HTTP [tpl]citation | url = http://www.dmtf.org/sites/default/files/standards/documents/DSP0200_1.3.1.pdf | title = CIM Operations over HTTP | publisher = DMTF[/tpl]
+*Representation of CIM using XML [tpl]citation | url = http://www.dmtf.org/sites/default/files/standards/documents/DSP0201_2.3.1.pdf | title = Representation of CIM using XML | publisher = DMTF[/tpl]
+*CIM DTD [tpl]citation | url = http://www.dmtf.org/sites/default/files/standards/documents/DSP0203.dtd | title = CIM-XML DTD | publisher = DMTF[/tpl]
+
+==See also==
+
+*IBM Common User Access
+
+==References==
+
+==External links==
+
+*[tpl]citation | url = http://www.dmtf.org/standards/cim/ | publisher = DMTF | title = CIM | series = Standards[/tpl], including CIM Schema and CIM Infrastructure Specification.
+*[tpl]citation | url = http://www.linktionary.com/c/cim.html | title = CIM definition | publisher = Linktionary[/tpl].
+*[tpl]citation | url = http://www.networkcomputing.com/912/912ws1.html | title = CIM definition | publisher = Networkcomputing[/tpl].
+*[tpl]citation | url = http://searchstorage.techtarget.com/sDefinition/0,,sid5_gci875993,00.html | title = CIM definition | series = Searchstorage | publisher = Techtarget[/tpl].
+*[tpl]citation | url = http://www.wbemsolutions.com/tutorials/CIM/cim.html | title = CIM | series = Tutorials | publisher = WBEM Solutions[/tpl].
+*[tpl]citation | url = http://sourceforge.net/projects/sblim | title = SBLIM | publisher = Sourceforge[/tpl].
+*[tpl]citation | url = http://www.opendrim.org/ | title = OpenDRIM project[/tpl].
+

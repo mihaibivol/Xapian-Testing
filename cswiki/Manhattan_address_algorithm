@@ -1,0 +1,19 @@
+
+The Manhattan address algorithm is used to estimate the number of the closest cross street for a given building number on the island of Manhattan. The algorithm is given in any print telephone directory Manhattan Address Locator as well as on numerous web pages and in New York City guide books Frommer's New York City 2010.
+
+==Algorithm==
+
+To find the approximate number of the closest cross street, divide the building number by 20 and add (or subtract) the "magic number" from the table below:
+
+===Special cases===
+
+Some streets are special cases:
+
+==See also==
+
+*List of streets in Manhattan
+*Numbered street
+
+==References==
+
+

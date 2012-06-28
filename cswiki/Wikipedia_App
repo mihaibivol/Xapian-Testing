@@ -1,0 +1,37 @@
+
+A variety of mobile apps provide access to Wikipedia on hand-held devices. These apps are accessed via App Store (iOS),Windows Store and Google Play. Some apps load content from the Wikipedia site and process it; other apps use the MediaWiki API. 
+For each listing, to give a flavor of the app, 1-2 sentences from the app developer's promotional blurbs are listed for each. To limit this list to only notable apps, only currently available apps listed in major app blogs like "148 Apps"http://www.148apps.com/search/wikipedia or traditional news/media are included, with closely similar apps condensed to one. Also, only English-language apps are listed. 
+
+== Reading and browsing apps ==
+
+These apps' primary objective is to display articles. Typical features include searching for articles, bookmarks, sharing, or enlarging images. They differ in details of their user interface. 
+* "Aard Dictionary", a free cross-platform (Android, Linux, Mac, Windows) offline dictionary readerhttp://aarddict.org
+* "All Of Wikipedia - Offline", by Brilliant(ish) Softwarehttp://www.appscout.com/2011/06/all_of_wikipedia_-_on_or_offli.php
+* "Discover — Wikipedia in a Magazine", by Cooliris, Inc.http://wassapps.com/2011/03/29/discover-a-new-wikipedia/http://techcrunch.com/2011/02/14/cooliris/
+* "Simplepedia for iPad — Simple Wikipedia Reader", by realazy (this is a suite of apps with different prices)
+* "Wiki² - Wikipedia Reader for iPad", by BananaGlue GmbH
+* "Wikibot -- A Wikipedia Articles Reader", by Avocado Hills
+* "WikiNodes" by Institute for Dynamic Educational Advancement (IDEA)http://www.148apps.com/news/wikinodes-brings-perspective-knowledge/http://ipadinsight.com/ipad-app-reviews/wikinodes-for-ipad-making-wikipedia-fun-to-explorehttp://ipad.appfinders.com/wikinodes-for-ipad/
+* "Wiki Offline -- A Wikipedia Experience" by Avocado Hills - stores the full text of all Wikipedia articles on the device
+* "Wikipedia Mobile", by Wikimedia Foundationhttp://www.smartcompany.com.au/information-technology/20110617-iphone-app-of-the-week-wikipedia-mobile.html
+* "Articles", by Sophiestication Softwarehttp://developer.apple.com/wwdc/ada/ada2010winners.html
+
+=== iOS application ===
+
+The official iPhone application from the Wikimedia Foundation is Wikipedia Mobile. It is free and provides a read-only version of Wikipedia, that is very similar to the mobile web version of Wikipedia. It also allows you to find geotagged articles near your current location.
+* Download Wikipedia Mobile
+* Support and Development at Wikitech
+
+=== Android application ===
+
+The official Android application from the Wikimedia Foundation is Wikipedia Mobile. It is free and provides a read-only version of Wikipedia, that is very similar to the mobile web version of Wikipedia. It also allows you to find geotagged articles near your current location.
+* Download Wikipedia Mobile
+* Support and Development at GitHub
+
+=== Windows application ===
+
+Can be download from Windows Store.
+
+==References==
+
+

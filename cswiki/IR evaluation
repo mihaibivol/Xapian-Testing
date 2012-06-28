@@ -1,0 +1,20 @@
+
+== IR Evaluation ==
+
+The evaluation of information retrieval system is the process of assessing how well a system meets the information needs of its users. Traditional evaluation metrics, designed for Boolean retrieval or top-k retrieval, include precision and recall.
+*Precision is the fraction of retrieved documents that are relevant to the query:
+*Recall is the fraction of the documents relevant to the query that are successfully retrieved:
+For modern (Web-scale) information retrieval, recall is no longer a meaningful metric, as many queries have thousands of relevant documents, and few users will be interested in reading all of them. Precision at k documents (P@k) is still a useful metric (e.g., P@10 corresponds to the number of relevant results on the first search results page), but fails to take into account the positions of the relevant documents among the top k.
+Virtually all modern evaluation metrics (e.g., mean average precision, discounted cumulative gain) are designed for ranked retrieval without any explicit rank cutoff, taking into account the relative order of the documents retrieved by the search engines and giving more weight to documents returned at higher ranks.
+
+==See also==
+
+* Information retrieval
+* Precision and recall
+* Web search engine
+
+==Further reading==
+
+* Christopher D. Manning, Prabhakar Raghavan, and Hinrich Schütze. Introduction to Information Retrieval. Cambridge University Press, 2008.
+*Stefan Büttcher, Charles L. A. Clarke, and Gordon V. Cormack. Information Retrieval: Implementing and Evaluating Search Engines. MIT Press, Cambridge, Mass., 2010.
+

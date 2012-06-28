@@ -1,0 +1,163 @@
+
+Hinemos is a popular open source software in Japan, which can manage several servers, computers, and other devices, as if you were only managing one single computer. Servers and computers are to be grouped, to meet the operational and management needs, and in those groups, you can monitor resources, service status, and even operate and manage jobs executed on monitored servers.
+
+== Features ==
+
+=== Basic features ===
+
+Features which can be used for free are listed below.
+*Integrated Operation Feature
+*:A feature which can show several operational management interfaces (perspectives) in one screen.
+*Access User Management Feature
+*:A feature to manage (to create, edit, delete) users of Hinemos Application.
+*Repository Management Feature
+*:A feature to create and manage groups of servers and computers.
+*General Feature
+*:Features (and Settings) which are used by Hinemos in general.
+**Notification Settings
+**Mail Template
+**Information Level Judgement (ex. info-error-warning-unknown)
+**Calendar Settings
+**Log Transfer Settings
+*Batch Control Features
+*:A feature to operate a batch in several computers and servers at once.
+*Monitor Management Features
+*:A feature to monitor servers, computers and other devices. Servers and Computers can be monitored in many different ways listed below.
+**syslog-ng Monitoring
+**HTTP Monitoring
+**ping Monitoring
+**Process Monitoring
+**SNMP Monitoring
+**SQL Monitoring
+**Resource Monitoring
+**SNMPTRAP Monitoring
+**Application Log Monitoring
+**Service Port Monitoring
+*Resource Management Feature
+*:Collects CPU、Memory、Disk、Network resource informations and visualises in graph format.
+*Job Management Feature
+*:A feature to operate and manage jobs executed on managed computers and servers.
+*Maintenance Feature
+*:A feature to maintenance databases used by Hinemos.
+*Web Service API
+*:A feature which makes Hinemos accessible (and usable) from outside programs through SOAP.
+
+=== Optional features ===
+
+Functions which can be added as options are listed below
+*HA Option
+*:An option to create HA Clouster, to increase Hinemos's reliance.
+*VM Management Option
+*:An option specialized in VM Management. Available for VMWare ESX/ESXi, Xen and Oracle VM
+*Utility Option
+*:An option which makes monitor settings more efficient.
+*Node Map Option
+*:An option which shows managed servers and its relation in visualized format (map).
+*UNIX Agent Pack
+*:Hinemos Agent packages for UNIX
+Many other options and services are available from Hinemos Partner Companies. 
+*SAP Monitoring coordination solution
+*:A Solution (Option) which makes Hinemos monitor SAP systemsQUNIE：Integrated Monitoring Solution for SAP Products http://www.qunie.com/press/pre100705.html (Japanese)（ Qunie corp）
+*ITIL Service Management Solution
+*:An coordination of Hinemos and "Redmine for ITIL" an operational process management and incident management tool following ITIL (IT Infrastructure Library) framework.(Holon Technology)
+*Hinemos Chinese Edition
+*:Hinemos available in Chinese Language （Atomitech Corp.）Official Page of Hinemos Chinese Edition http://hinemos-zh.com/ (Chinese)
+*Hinemos for Windows
+*: Optional product which makes Hinemos Manager available on Windows Platform (Holon Technology)
+
+== Features ==
+
+*Open Source Software Made in Japan.
+*Easy to grupe and organize monitored servers, computers and other devices.
+*Not only server management feature, but also Job Management Feature is available, which is a rare case in Open Source Monitor Management Products.IPA：クラウド構築のためのソフトウェアカタログ　 http://www.ipa.go.jp/about/pubcomme/201009/201009softcatalog.pdf (Japanese)
+*Many basic monitoring and resource management functions could be used without installing any agent applications.
+
+== Framework ==
+
+Hinemos consists from 3 components listed below.
+* Hinemos Manager
+* Hinemos Agent
+* Hinemos Client
+Hinemos Manager installed in management server will manage monitored servers, and keeps information in database.
+Hinemos Agent is installed in the monitored servers, when job management function and log transfer function is to be used.
+Operator will use Hinemos Client, and will see the information stored in the Hinemos Manager's Database.
+Hinemos uses open source products listed below internally
+* JBoss
+* PostgreSQL
+* syslog-ng
+* NTSyslog
+till ver3.1 OpenLDAP was also used, but was removed in ver3.2
+
+== Supported OS ==
+
+*Hinemos Manager
+**Red Hat Enterprise Linux 5 32bit
+**Red Hat Enterprise Linux 5 64bit
+**Red Hat Enterprise Linux 6 32bit
+**Red Hat Enterprise Linux 6 64bit
+**Oracle Enterprise Linux 5 32bit
+**Oracle Enterprise Linux 5 64bit
+**Oracle Linux 6 32bit
+**Oracle Linux 6 64bit
+*Hinemos Agent
+**Red Hat Enterprise Linux 4 32bit
+**Red Hat Enterprise Linux 4 64bit
+**Red Hat Enterprise Linux 5 32bit
+**Red Hat Enterprise Linux 5 64bit
+**Red Hat Enterprise Linux 6 32bit
+**Red Hat Enterprise Linux 6 64bit
+**Oracle Enterprise Linux 5 32bit
+**Oracle Enterprise Linux 5 64bit
+**Oracle Linux 6 32bit
+**Oracle Linux 6 64bit
+**Windows 2000 Server
+**Windows Server 2003 32bit
+**Windows Server 2003 64bit
+**Windows Server 2008 32bit
+**Windows Server 2008 64bit
+**Solaris 10 (SPARC, x86)
+**HP-UX 11iv3
+**AIX 5L 5.3、AIX 6.1
+*Hinemos Client
+**Windows XP
+**Windows Vista
+**Windows 7
+**Windows Server 2008
+
+== History ==
+
+Hinemos was developed under the commission of Information-technology Promotion Agency（IPA） Open Source Software utilizing foundation preparation project 2004(second half) .情報処理推進機構(IPA)：2004年度下期オープンソースソフトウェア活用基盤整備事業　http://www.ipa.go.jp/software/open/2004/result.html (Japanese) In 2007
+Hinemos was selected was Software Product of the Year 2007 (SPOTY2007)情報処理推進機構：SPOTY2007　http://www.ipa.go.jp/software/oftheyear/SP003.html#2007 (Japanese) In September 2010, the latest version of Hinemos (Hinemos ver3.2) was released.クラウドWatch：NTTデータ、OSSの運用管理ソフト「Hinemos 3.2」～大規模環境に対応　http://cloud.watch.impress.co.jp/docs/news/20101001_397107.html (Japanese)
+
+== Internationalization ==
+
+Hinemos is localized in Chinese Language (Software Package, and Manuals) and distributed within China.
+Atomitech：Information of Hinemos Chinese Version http://hinemos-zh.com/ (Chinese)
+[ref]NTT DATA to Collaborate with Atomitech on Developing of Chinese Edition of Hinemos®
+- Atomitech Ltd. making Hinemos available in Chinese language - 
+ http://www.nttdata.co.jp/en/media/2010/021000.html (English)</ref>
+
+== See also ==
+
+*Related Products
+*:Hinemos Light（Special Application for OpenBlockS）Plat'Home Co.,Ltd：OpenBlockS 600　http://openblocks.plathome.co.jp/products/600/software/hinemos/ (Japanese)
+*:Redmine for ITIL Holon Technology：Redmine for ITIL http://www.holontec.co.jp/contents/itil/ (Japanese)
+*Competing Products
+*:Zabbix
+*:Nagios
+*:Xymon
+*:GroundWork Monitor
+*:JP1：Hitachi
+*:Systemwalker：Fujitu
+*:Tivoli：IBM
+*:Senju：NRI[tpl]Disambiguation needed|date=February 2012[/tpl]
+
+==References==
+
+== Links ==
+
+* Official Site (Japanese)
+* SourceForge.JP HinemosProject Page (Japanese)
+* Hinemos Developers Diary (Japanese)
+* Wikipedia of Hinemos in Japanese(Japanese)
+

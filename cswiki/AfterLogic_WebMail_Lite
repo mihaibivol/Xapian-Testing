@@ -1,0 +1,40 @@
+
+AfterLogic WebMail Lite is a free POP3, IMAP and SMTP webmail script with Ajax interface. AfterLogic WebMail Lite is available for both ASP.NET and PHP platforms. ASP.NET edition is released under freeware software license and PHP edition is released under GPLv3 license.
+
+==Main features==
+
+* PHP and ASP.NET based
+* Cpanel, Plesk and DirectAdmin integration (PHP version only)
+* Ajax supported (classic HTML mode also available)
+* Reply/Forward/Delete/Save Locally/Print features
+* Can block embedded JavaScript and external images in viewing messages
+* Preview Pane
+* WebMail administration via web interface
+* Source code can be modified
+* Multilingual capabilities (18 languages are supported)
+* Integration API (other applications on the web server can control WebMail Lite)
+* SSL support
+
+==Localization==
+
+AfterLogic WebMail Lite is available in 18 languages including English, Spanish, German, French, Japanese, Hebrew, Russian and others.
+
+==Technology==
+
+AfterLogic WebMail Lite works with a mail server through POP3, IMAP4, SMTP and SSL. The front end uses Ajax.
+
+==See also==
+
+* Webmail
+* RoundCube Webmail
+* Atmail
+* Zimbra
+* Ajax
+
+==External links==
+
+* AfterLogic WebMail Lite on SourceForge
+* 10 AJAX-based & PHP WebMail Clients For a Great User Experience
+* 3 SquirrelMail/Horde Alternatives
+* AfterLogic WebMail Lite page on the developer's web site
+

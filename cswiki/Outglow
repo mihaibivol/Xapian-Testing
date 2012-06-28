@@ -1,0 +1,39 @@
+
+Outglow is Lightweight OpenSource MVC-Based PHP framework that allows you to create dynamic web applications in a short amount of time. Currently it is a very compact framework that makes it very easy for developers to improve it as they create their application within it.
+It uses a different terminology in comparison to other frameworks out there, but still uses the same fundamental principles.
+
+== History ==
+
+The first release of the Outglow framework was on June 27, 2010, and since then has changed a lot, not only the main classes that build the core of it, but the way in which URLs are structured and the way requests are called to other parts of the application. There have not been many stable releases since it started, the most stable version (to this day) was released almost 1 year after development first started.
+
+== Structure ==
+
+The framework is structured into 3 main parts. Bridges, oModules and Views. Bridges are very much like Controllers in terms of MVC, oModules are used to communicate with a data base and/or dynamically load data into your app.
+
+=== Example Code ===
+
+==== Bridge ====
+
+===== welcome.php =====
+
+This code will simply output text to your browser. However with the $render object, you can pull in views, e.g. HTML files. Data can then be passed from the Bridge, into a View.
+
+==== View ====
+
+===== welcome.html.php =====
+
+This is how data can be passed through to a View, from a Bridge.
+
+=== Classes ===
+
+The classes are fairly simple to use, and are split up in the framework so they are easier to find, if needed to check how a method works. There are few classes up to date, but by the looks of it, there will be more added in future releases.
+
+=== Data ===
+
+Outglow currently supports use of a MySQL DBMS, and with its built-in database class, uses the mysqli driver. There are changes made often to the way data can be accessed.
+
+==== Mapping ====
+
+If a table is created in a MySQL database, Outglow can automatically map that table to an object in the framework. This means that you will be able to create queries, using minimal code, and the database class does all the work behind the scene.
+These kind of methods are found in the omod.php and omod_index.php libs, within the og_com directory.
+

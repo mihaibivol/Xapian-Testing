@@ -1,0 +1,22 @@
+
+PeerBlock is a Free and open source software firewall application. PeerBlock is the successor to PeerGuardian (which is only actively maintained in Linux[tpl]cite web |url=http://www.peerblock.com/docs/faq#peerblock_vs_pg2|title=What is PeerBlock's relationship with the old PeerGuardian program?|accessdate=July 18, 2010[/tpl]). It blocks incoming and outgoing connections to Internet IP addresses that are included on blocklists accessible over the Internet which may be selected by the user, but also any addresses manually specified by the user. PeerBlock mainly works in tandem with the blocklist provider iblocklist.com.
+
+==Development==
+
+PeerBlock 1.0 is based on the same code as PeerGuardian 2 RC1 Test3 Vista version. It adds support for 32- and 64-bit Windows Vista and Windows 7. When the PeerGuardian project ended, its developer Phoenix Labs encouraged current PeerGuardian users to migrate to PeerBlock.PeerBlock 1.0 Released
+PeerBlock is under development by a small team of developers led by Mark Bulas.About us Hosting, as well as the signed driver, is funded by donations from the public. Future donations are intended to contribute to future signed drivers, hosting and to possibly rent a virtual private server on which the team should be able to build a "real" online-update feature for future releases of PeerBlock.
+
+==Features==
+
+PeerBlock has multiple features in the latest version of the program. These include a constantly updating blocklist managed by the home site and a manager that lets you choose which lists to include in the block. The program allows for a user to turn on and off both IP and HTTP trackers as well as including a log showing the time, source, IP address, destination, and protocol of the tracker.  A list of settings allows users to both customize their program's interface as well as its operations.
+
+==References==
+
+==External links==
+
+*[tpl]Official website|http://www.peerblock.com/[/tpl]
+*[tpl]SourceForge|peerblock|PeerBlock[/tpl]
+*[tpl]Google Code|peerblock|PeerBlock[/tpl]
+* #peerblock on freenode
+*PeerBlock Helps You Surf the Web in Secret, PC World, 6 November 2009
+

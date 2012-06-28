@@ -1,0 +1,13 @@
+
+Scribe is a server for aggregating log data streamed in real-time from a large number of servers. It is designed to be scalable, extensible without client-side modification, and robust to failure of the network or any specific machine.
+Scribe was developed at Facebook and released as open source.[tpl]Cite web| url=http://blog.facebook.com/blog.php?post=35548642130 | title=Scribe Makes Its Open Source Debut | author=Robert Johnson | accessdate=2009-01-27[/tpl][tpl]Cite web| url=http://news.cnet.com/8301-17939_109-10075489-2.html | title=Facebook to developers: Here, have some code! | author=Caroline McCarthy | accessdate=2009-01-27[/tpl]
+
+==Notes and references==
+
+==External links==
+
+*Open Source - Facebook Developers
+*Facebook's Scribe technology now open source
+*The real value of Scribe for open source
+*Scribe project on GitHub
+

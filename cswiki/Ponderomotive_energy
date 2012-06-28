@@ -1,0 +1,15 @@
+
+In strong field laser physics, the term Ponderomotive Energy refers to the cycle averaged quiver energy of a free electron in an E-field as given by,
+The formula for the ponderomotive energy can be easily derived. A free electron of charge
+The acceleration of the electron is 
+Because the electron executes harmonic motion, the electron's position is 
+For a particle experiencing harmonic motion, the time-averaged energy is 
+*Atomic units
+Converting between SI units and atomic units is more subtle than the introduction suggests. As presented, the Ponderomotive energy in atomic units appears to have some issues. If one uses the atomic unit of electric field, then the ponderomotive enrgy is just
+
+==See also==
+
+*Ponderomotive force
+*Harmonic generation
+*List of laser articles
+

@@ -1,0 +1,18 @@
+
+Proxi is a free utility from Griffin Technology for Mac OS X. It allows the assignment of automated events called "tasks" to a variety of "triggers" such as hotkeys, email, iTunes, RSS feeds, as well as hardware available from Griffin such as the PowerMate, AirClick or radio SHARK. These tasks can do such things as display messages on the computer screen, play a sound, write to a file, execute an AppleScript, control iTunes or iChat. 
+Proxi is similar to other Mac OS X applications such as Quicksilver, Butler and Apple's own Automator. Proxi differs from these in that it is focused on exposing information provided by each trigger to allow not only custom notifications, but also the ability to filter out triggers that don't meet criteria specified by the user. As an example, the user might configure Proxi to notify on new email with a blue window containing the subject. Email sent from the user's boss or spouse might instead be presented in a red window with 72pt text while playing an alert sound and/or speaking the text of the message.
+Sharing sets of triggers and tasks with other Proxi users is possible through files known as "blueprints".
+
+==Similar==
+
+* Quicksilver for Mac OS X
+* Butler for Mac OS X
+* LaunchBar for Mac OS X
+* Growl for Mac OS X
+* Automator for Mac OS X
+
+== External links ==
+
+*Proxi homepage
+*Proxi wiki
+

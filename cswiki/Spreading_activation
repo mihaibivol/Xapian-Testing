@@ -1,0 +1,40 @@
+
+Spreading activation is a method for searching associative networks, neural networks, or semantic networks. The search process is initiated by labeling a set of source nodes (e.g. concepts in a semantic network) with weights or "activation" and then iteratively propagating or "spreading" that activation out to other nodes linked to the source nodes.  Most often these "weights" are real values that decay as activation propagates through the network.  When the weights are discrete this process is often referred to as marker passing. Activation may originate from alternate paths, identified by distinct markers, and terminate when two alternate paths reach the same node.
+Spreading activation models are used in cognitive psychologyCollins, Allan M.; Loftus, Elizabeth F., "A spreading-activation theory of semantic processing", Psychological Review. 1975 Nov Vol 82(6) 407-428 http://psycnet.apa.org/index.cfm?fa=search.displayRecord&uid=1976-03421-001John R. Anderson. "A spreading activation theory of memory." Journal of Verbal Learning and Verbal Behavior, 1983 to model the fan out effect.
+Spreading activation can also be applied in information retrieval,S. Preece, A spreading activation network model for information retrieval. PhD thesis, University of Illinois, Urbana-Champaign, 1981.Fabio Crestani. "Application of Spreading Activation Techniques in Information Retrieval". Artificial Intelligence Review, 1997 by means of a network of nodes representing documents and terms contained in those documents.
+
+==Algorithm==
+
+A directed graph is populated by Nodes  each having an associated activation value A  which is a real number in the range ... 1.0.  A Linkj  connects source node with target node.  Each link has an associated weight W j  usually a real number in the range ... 1.0.[ref]Boosting item keyword search with spreading activation Aswath, D.; Ahmed, S.T.; Dapos;cunha, J.; Davulcu, H., Web Intelligence, 2005. Proceedings. The 2005 IEEE/WIC/ACM International Conference on
+Volume , Issue , 19-22 Sept. 2005 Page(s): 704 - 707[/ref] 
+Parameters:
+* Firing threshold F, a real number in the range ... 1.0
+* Decay factor D, a real number in the range ... 1.0
+Steps:
+# Initialize the graph setting all activation values A  to zero.   Set one or more origin nodes to an initial activation value greater than the firing threshold F.  A typical initial value is 1.0.
+# For each unfired node  in the graph having an activation value A  greater than the node firing threshold F:
+# For each Link , j  connecting the source node  with target node , adjust A  = A  + (A  * W j  * D) where D is the decay factor.
+# If a target node receives an adjustment to its activation value so that it would exceed 1.0, then set its new activation value to 1.0.  Likewise maintain 0.0 as a lower bound on the target node's activation value should it receive an adjustment to below 0.0.
+# Once a node has fired it may not fire again, although variations of the basic algorithm permit repeated firings and loops through the graph.
+# Nodes receiving a new activation value that exceeds the firing threshold F are marked for firing on the next spreading activation cycle.
+# If activation originates from more than one node, a variation of the algorithm permits marker passing to distinguish the paths by which activation is spread over the graph
+# The procedure terminates when either there are no more nodes to fire or in the case of marker passing from multiple origins, when a node is reached from more than one path. Variations of the algorithm that permit repeated node firings and activation loops in the graph, terminate after a steady activation state, with respect to some delta, is reached, or when a maximum number of iterations is exceeded.
+
+==See also==
+
+* Connectionism
+
+==Examples==
+
+==Notes==
+
+==References==
+
+* Nils J. Nilsson. "Artificial Intelligence: A New Synthesis". Morgan Kaufmann Publishers, Inc., San Francisco, California, 1998, pages 121-122
+* Rodriguez, M.A., " Grammar-Based Random Walkers in Semantic Networks", Knowledge-Based Systems, 21(7), 727-739, [tpl]doi|10.1016/j.knosys.2008.03.030[/tpl], 2008.
+
+==External links==
+
+* JMaPSS The Java Marker-Passing Search Service, a relevance search engine employing a family of marker-passing algorithms based on spreading activation theory.
+* Texai An open source project to create artificial intelligence that provides a Java spreading activation class library.
+

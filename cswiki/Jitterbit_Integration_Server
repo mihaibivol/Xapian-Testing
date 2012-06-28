@@ -1,0 +1,12 @@
+
+Jitterbit is a commercial open-source enterprise integration software product. 
+Jitterbit is a graphical tool that allows for the transport and transformation between data types and sources, including web services, XML files, ODBC and JDBC databases, EDI files, flat and hierarchic file structures.  The server supports connectivity to protocols including FTP, HTTP/HTTPS, SMB file shares, POP3, SMTP, SOAP, REST and JMS. It has client and server components.  The client allows integration operations to be mapped/defined and edited via a graphical interface.  This metadata is deployed to the Server which handles the actual processing of the integration jobs. 
+Jitterbit is available for download on Linux and Windows operating systems and is also offered in the cloud via Amazon Elastic Compute Cloud.
+Jitterbit, the company behind the software, is based in Oakland, California.
+
+==External links==
+
+* Jitterbit main website
+* Data integration specifics for Jitterbit
+* Product comparison and download information
+

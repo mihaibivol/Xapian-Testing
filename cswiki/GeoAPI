@@ -1,0 +1,15 @@
+
+GeoAPI is a free software providing a set of Java interfaces for GIS applications. GeoAPI interfaces are derived from the abstract model and concrete specifications published collaboratively by the International Organization for Standardization (ISO) in its 19100 series of documents and the Open Geospatial Consortium (OGC) in its abstract and implementation specifications. GeoAPI provides an interpretation and adaptation of these standards to match the constraints and usages of the target programming language.
+GeoAPI 3.0 has been approved as an OGC standard and is published as an OGC implementation specification.GeoAPI specification The Java Archive Files are available from the Apache Maven central repository.GeoAPI on Maven repository
+
+==See also==
+
+* Open Geospatial Consortium – a standards organization
+
+== References ==
+
+==External links==
+
+* GeoAPI home page
+* Open Geospatial Consortium home page
+

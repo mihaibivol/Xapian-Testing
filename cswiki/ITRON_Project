@@ -1,0 +1,34 @@
+
+The ITRON project is the first of several sub-architectures of the TRON Project.
+Originally undertaken in 1984, ITRON is a Japanese open standard for a real-time operating system (RTOS) initiated under guidance of Ken Sakamura. This project aims to standardize the RTOS and related specifications for embedded systems, particularly small-scale embedded systems. The ITRON RTOS is targeted for consumer electronic devices, such as mobile phones and fax machines. Various vendors sell their own implementations of the RTOS. Wipro has largely contributed to its design and development.
+
+==Details==
+
+ITRON, and uITRON (or microITRON) are the name of RTOS specifications coming out of ITRON Projects. `u' or `micro' means that
+the particular specification is meant for the smaller 8-bit or 16-bit CPU targets. Specifications are available for free. Commercial
+implementations are available, and offered under many different licenses.
+A few sample sources exist, and there are many commercial source offerings, too.
+Examples of open source RTOS that incorporates API based on uITRON specification are eCos, and RTEMS which are mentioned in the List of real-time operating systems. 
+ITRON specification is meant for hard real-time embedded RTOS. 
+It is very popular in the embedded market, as there are many applications for it, i.e., devices with the OS embedded inside.
+For example, there is an ACM Queue Interview with Jim Ready, founder of MontaVista (realtime linux company), "Interview with Jim Reddy", April 2003, ACM Queue http://queue.acm.org/detail.cfm?id=644261. He says in the interview, "The single, most successful RTOS in Japan historically is micro iTRON. This is an indigenous open specification led by Dr. Ken Sakamura of the University of Tokyo. It is an industry standard there."  
+Many Japanese digital cameras, for example, have use ITRON specification OS. Toyota automobile has used ITRON specification OS for engine control.
+Supported CPUs are numerous. ARM, MIPS, x86, FR-V and many others including CPUs supported by open source RTOS eCos and RTEMS, both of which include the support for uITRON compatible APIs.
+ITRON's popularity comes from many factors, but one factor is the notion of "loose standardization": the API specification is at the source level, and does not specify binary API compatibility. This makes it possible for implementers to make use of features of the particular CPU model to which the implementation is targeted. The developer even has the freedom of choosing to pass the parameters using a consolidated packet, or separate parameters to API (system call, library call, etc.). Such freedom is important to make the best use of not so powerful 8-bit or 16-bit CPUs.  This makes keeping the binary compatibility among different implementations impossible. This led to the development of T-Kernel in the 2000s in order to promote binary compatibility for middleware distribution.
+ITRON specification promotion was done by the various companies which sell the commercial implementations. There was also an NPO TRON Association http://www.tron.org/ that promoted the specification by publishing it as well as other TRON specification OSs. But since the first quarter of 2010, it has become part of T-Engine Forum http://www.t-engine.org/, another non-profit organization that promotes other operating system such as the next generation RTOS, T-Kernel.
+T-Kernel is the name of the specification and at the same time refers to the single implementation based on the authorized source code available from T-Engine Forum for free under T-License. So T-Kernel doesn't suffer from the binary API compatibility.
+
+==See also==
+
+* TOPPERS project
+* Nikon EXPEED
+* Fujitsu Softune
+
+==External links==
+
+* The Most Popular Operating System in the World
+* Dr Ken Sakamura home page
+* ITRON Project Archive
+* TRON Project from T-Engine.Org
+* Fair on TRON Technology Showcase that takes place yearly (in Japanese only)
+

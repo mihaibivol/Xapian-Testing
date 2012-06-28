@@ -1,0 +1,63 @@
+
+The Text REtrieval Conference (TREC) is an on-going series of workshops focusing on a list of different information retrieval (IR) research areas, or tracks. It is co-sponsored by the National Institute of Standards and Technology (NIST) and the Intelligence Advanced Research Projects Activity (part of the office of the Director of National Intelligence), and began in 1992 as part of the TIPSTER Text program. Its purpose is to support and encourage research within the information retrieval community by providing the infrastructure necessary for large-scale evaluation of text retrieval methodologies and to increase the speed of lab-to-product transfer of technology.
+Each track has a challenge wherein NIST provides participating groups with data sets and test problems. Depending on track, test problems might be questions, topics, or target extractable features. Uniform scoring is performed so the systems can be fairly evaluated. After evaluation of the results, a workshop provides a place for participants to collect together thoughts and ideas and present current and future research work.
+
+== Tracks ==
+
+===Current Tracks===
+
+New tracks are added as new research needs are identified, this list is current for TREC 2011.
+* Chemical Track - Goal: to develop and evaluate technology for large scale search in chemistry-related documents, including academic papers and patents, to better meet the needs of professional searchers, and specifically patent searchers and chemists.
+* Crowdsourcing Track - Goal: to provide a collaborative venue for exploring crowdsourcing methods both for evaluating search and for performing search tasks.  New for 2011.
+* Entity Track - Goal: to perform entity-related search on Web data. These search tasks (such as finding entities and properties of entities) address common information needs that are not that well modeled as ad hoc document search.
+* Legal Track - Goal: to develop search technology that meets the needs of lawyers to engage in effective discovery in digital document collections.
+* Medical Records Track - Goal: to explore methods for searching unstructured information found in patient medical records.  New for 2011.
+* Microblog Track - Goal: to explore information seeking behavior in microblogs.  New for 2011.
+* Session Track - Goal: to develop methods for measuring multiple-query sessions where information needs drift or get more or less specific over the session.
+* Web Track - Goal: to explore information seeking behaviors common in general web search.
+
+===Past tracks===
+
+* Genomics Track - Goal: to study the retrieval of genomic data, not just gene sequences but also supporting documentation such as research papers, lab reports, etc. Last ran on TREC 2007.
+* Enterprise Track - Goal: to study search over the data of an organization to complete some task. Last ran on TREC 2008.
+* Cross-Language Track - Goal: to investigate the ability of retrieval systems to find documents topically regardless of source language.
+* Filtering Track - Goal: to binarily decide retrieval of new incoming documents given a stable information need.
+* HARD Track - Goal: to achieve High Accuracy Retrieval from Documents by leveraging additional information about the searcher and/or the search context.
+* Interactive Track - Goal: to study user interaction with text retrieval systems.
+* Novelty Track - Goal: to investigate systems' abilities to locate new (i.e., non-redundant) information.
+* Question Answering Track - Goal: to achieve more information retrieval than just document retrieval by answering factoid, list and definition-style questions.
+* Robust Retrieval Track - Goal: to focus on individual topic effectiveness.
+* Relevance Feedback Track - Goal: to further deep evaluation of relevance feedback processes.
+* Spam Track - Goal: to provide a standard evaluation of current and proposed spam filtering approaches.
+* Terabyte Track - Goal: to investigate whether/how the IR community can scale traditional IR test-collection-based evaluation to significantly large collections.
+* Video Track - Goal: to research in automatic segmentation, indexing, and content-based retrieval of digital video.
+:In 2003, this track became its own independent evaluation named TRECVID.
+
+===Related Events===
+
+In 1997, a Japanese counterpart of TREC was launched (first workshop in 1999), called NTCIR (NII Test Collection for IR Systems), and in 2000, a European counterpart was launched, called CLEF (Cross Language Evaluation Forum).
+
+== Conference Contributions ==
+
+TREC claims that within the first six years of the workshops, the effectiveness of retrieval systems approximately doubledFrom TREC homepage: "... effectiveness approximately doubled in the first six years of TREC". The conference was also the first to hold large-scale evaluations of non-English documents, speech, video and retrieval across languages. Additionally, the challenges have inspired a large body of publications. Technology first developed in TREC is now included in many of the world's commercial search engines.  An independent report by RTII found that "about one-third of the improvement in web search engines from 1999 to 2009 is attributable to TREC. Those enhancements likely saved up to 3 billion hours of time using web search engines. ... Additionally, the report showed that for every $1 that NIST and its partners invested in TREC, at least $3.35 to $5.07 in benefits were accrued to U.S. information retrieval researchers in both the private sector and academia."
+[tpl]cite web|url=http://rti.org/page.cfm?objectid=75E125DC-5056-B100-31A5A6BDE897DE6D |title=NIST Investment Significantly Improved Search Engines |publisher=Rti.org |date= |accessdate=2012-01-19[/tpl]
+http://www.nist.gov/director/planning/upload/report10-1.pdf
+While one study suggests that the state of the art for "ad-hoc" search  has not advanced substantially in the past decadeTimothy G. Armstrong, Alistair Moffat, William Webber, Justin Zobel.  Improvements that don't add up: ad-hoc retrieval results since 1998.  CIKM 2009.  ACM., it is referring just to search for topically relevant documents in small news and web collections of a few gigabytes.  There have been advances in other types of ad-hoc search in the past decade.  For example, test collections were created for known-item web search which found improvements from the use of anchor text, title weighting and url length, which were not useful techniques on the older ad-hoc test collections.  In 2009, a new billion-page web collection was introduced, and spam filtering was found to be a useful technique for ad-hoc web search, unlike in past test collections.
+The test collections developed at TREC are useful not just for (potentially) helping researchers advance the state of the art, but also for allowing developers of new (commercial) retrieval products to evaluate their effectiveness on standard tests.  In the past decade, TREC has created new tests for enterprise e-mail search, genomics search, spam filtering, e-Discovery, and several other retrieval domains.
+TREC systems often provide a baseline for further research.  Examples include:
+* Hal Varian, Chief Economist at Google, says ''Better data makes for better science. The history of information retrieval illustrates this principle well," and describes TREC's contribution.Why Data Matters
+* TREC's Legal track has influenced the e-Discovery community both in research and in evaluation of commercial vendors. The 451 Group: Standards in e-Discovery -- walking the walk
+* The IBM researcher team building IBM Watson (aka DeepQA), which recently beat the world's best Jeopardy! playersIBM and Jeopardy! Relive History with Encore Presentation of Jeopardy!: The IBM Challenge, used data and systems from TREC's QA Track as baseline performance measurementsDavid Ferrucci, Eric Brown, Jennifer Chu-Carroll, James Fan, David Gondek, Aditya A. Kalyanpur, Adam Lally, J. William Murdock, Eric Nyberg, John Prager, Nico Schlaefer, and Chris Welt. Building Watson:  An Overview of the DeepQA Project.
+
+== Participation ==
+
+The conference is made up of a varied, international group of researchers and developers[tpl]cite web|url=https://wiki.ir-facility.org/index.php/Participants |title=Participants - IRF Wiki |publisher=Wiki.ir-facility.org |date=2009-12-01 |accessdate=2012-01-19[/tpl]http://trec.nist.gov/pubs/trec17/papers/LEGAL.OVERVIEW08.pdf[tpl]cite web|url=http://trec.nist.gov/pubs/trec17/appendices/million.query.results.html |title=Text REtrieval Conference (TREC) TREC 2008 Million Query Track Results |publisher=Trec.nist.gov |date= |accessdate=2012-01-19[/tpl]. In 2003, there were 93 groups from both academia and industry from 22 countries participating.
+
+==References==
+
+== External links ==
+
+*TREC website at NIST
+*TIPSTER
+*The TREC book (at Amazon)
+

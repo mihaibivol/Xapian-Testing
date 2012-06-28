@@ -1,0 +1,105 @@
+
+Yahoo! Messenger (sometimes abbreviated YIM or YM) is an advertisement-supported instant messaging client and associated protocol provided by Yahoo!.  Yahoo! Messenger is provided free of charge and can be downloaded and used with a generic "Yahoo! ID" which also allows access to other Yahoo! services, such as Yahoo! Mail, where users can be automatically notified when they receive new email.  Yahoo! also offers PC-PC, PC-Phone and Phone-to-PC service, file transfers, webcam hosting, text messaging service, and chat rooms in various categories.
+Yahoo! Messenger was originally launched under the name Yahoo! Pager on March 9, 1998.
+In addition to instant messaging features similar to those offered by ICQ, it also offers (on Microsoft Windows) features such as: IMVironments (customizing the look of Instant Message windows, some of which include authorized themes of famous cartoons such as Garfield or Dilbert), address-book integration and Custom Status Messages.[tpl]cite web|url=http://messenger.yahoo.com/features.php |title=Features - Yahoo! Messenger |accessdate=12 February 2008[/tpl] It was also the first major IM client to feature BUZZing and music-status. Another recently added feature is customized avatars.  Yahoo! Messenger also allows users to access Yahoo! Chat Rooms.
+
+==Features==
+
+===Voicemail and file sharing===
+
+Yahoo! added voicemail and file sending capabilities to anywone. File-sharing of sizes up to 2GB was added to Yahoo Messenger.[tpl]Citation needed|date=January 2010[/tpl]
+
+===Plug-ins===
+
+As of 8.0, Yahoo! Messenger has added the ability for users to create plug-ins (via the use of the freely available Yahoo! Messenger Plug-in SDK), which are then hosted and showcased on the Yahoo! Plug-in gallery. Yahoo now no longer provides plugin development SDK.[tpl]cite web|url=http://developer.yahoo.net/forum/index.php?showtopic=2027 |title=YDN forum - Yahoo Reply to SDK query |publisher=Developer.yahoo.net |date= |accessdate=2012-06-09[/tpl]
+
+====Yahoo! Music Radio====
+
+Yahoo! Messenger users can listen to free and paid Internet radio services, using the official Yahoo! Music Radio plug-in from within the messenger window. The plug-in also player functionality, such as play, pause, skip and rate this song.
+
+===Webcam===
+
+Yahoo's software now allows users with the most current updated versions (messenger 8 through 10) to utilize its webcam service. This option enables users from distances all over the world to view others who have installed a webcam on their end. The service is free with provided speeds averaging from a range in between 1 to 2 frames per second. The resolution of the images can be seen starting at 320 x 240 pixels or 160 x 120.
+
+===URI scheme===
+
+Yahoo! Messenger's installation process automatically installs an extra URI scheme ("protocol") handler into some web browsers, so that URIs beginning "ymsgr:" can open a new Yahoo! Messenger window with specified parameters. This is similar in function to the mailto: URI scheme, which creates a new e-mail message using the system's default mail program. For instance, a web page might include a link like the following in its HTML source to open a window for sending a message to the YIM user notarealuser:
+ &lt;a href="'''ymsgr:sendim?notarealuser'''"&gt;Send Message&lt;/a&gt;
+To specify a message body, the m parameter is used, so that the link location might look like this:
+ ymsgr:sendim?notarealuser&m='''This+is+my+message'''
+Other commands are:
+* ymsgr:sendim?yahooid* ymsgr:addfriend?yahooid* ymsgr:sendfile?yahooid* ymsgr:call?yahooid* ymsgr:callPhone?phonenumber* ymsgr:chat - opens chat room list
+* ymsgr:im - opens the "Send an IM" window
+* ymsgr:customstatus?A+custom+status - changes the status message
+* ymsgr:getimv?imvname - loads an IMVironment (example: ymsgr:getimv?doodle, ymsgr:getimv?yfighter)
+
+===Interoperability===
+
+On October 13, 2005, Yahoo! and Microsoft announced plans to introduce interoperability between their two messengers, creating the second-largest real-time communications service userbase worldwide: 40 percent of all users (AIM currently holds 56 percent). The announcement comes after years of third-party interoperability success (most notably, Trillian, Pidgin) and criticisms that the major real-time communications services were locking their networks.  Microsoft has also had talks with AOL in an attempt to introduce further interoperability, but so far, AOL seems unwilling to participate.
+Interoperability between Yahoo! and Windows Live Messenger was launched July 12, 2006. This allows Yahoo! and Windows Live Messenger users to chat to each other without the need to create an account on the other service, provided both contacts use the latest versions of the clients. For now, it's impossible to talk using the voice service among both messengers.
+
+===Games===
+
+There are various games and applications available that can be accessed via the conversation window by clicking the games icon and challenging your current contact. It requires Java to work.
+
+===Chat===
+
+All versions of Yahoo! Messenger can access Yahoo! chat rooms.
+In June 2005, with no advance warning, Yahoo! disabled users' ability to create their own chat rooms. The move came after KPRC-TV in Houston, Texas reported that many of the user-created rooms were geared toward pedophilia.  The story prompted several advertisers, including Pepsi and Georgia-Pacific, to pull their ads from Yahoo!.[tpl]cite web |last=Stith |last=John |url=http://www.webpronews.com/yahoo-yanks-pedophile-chat-after-ads-get-yanked-2005-06 |title=Yahoo Yanks Pedophile Chat After Ads Get Yanked |publisher=Webpronews.com |date= 2005-06-24[/tpl]  
+Yahoo! has since closed down the chat.yahoo.com site (which is now a redirect to a section of the Yahoo! Messenger page) because the great majority of chat users accessed it through Messenger.  The company is still working on a way to allow users to create their own rooms while providing safeguards against abuse.  A greyed-out option to "create a room" was available until the release of version 11.
+The remaining Yahoo Chat rooms are largely dominated by bots trolling for sex sites, and is practically impossible to use to meet real people.
+
+===Facebook===
+
+A recently added feature in Yahoo! Messenger allows users to connect with their Facebook friends through the messenger.
+
+==SPIM==
+
+Yahoo! Messenger users are subject to unsolicited messages (SPIM) and the problem remains unresolved. Blogs and websites addressing this issue are supportive of the chat environment, and writers genuinely want to continue using the service, yet express frustration about Yahoo's apparent failure to address spam and other related problems. User queries are met with forms and replies that Yahoo is "working to resolve the problem," yet there is no evident progress.[tpl]cite web|url=http://news.softpedia.com/news/Tired-of-Yahoo-Messenger-Spam-69788.shtml |title=Tired of Yahoo! Messenger Spam? |publisher=News.softpedia.com |date= |accessdate=2012-06-09[/tpl]Larry Dignan of Zdnet described the spam as becoming insufferable. As of 2007 it is estimated that at least 75% of all users who use Yahoo chat rooms are bots.[tpl]cite web|title=SPAM Statistics for March 2007 |last=Simpson |first=Chet |publisher=Instant Messenger Anti-Spam Resource Center |url=http://www.chatspam.org/index.php?option=com_content&task=view&id=25&Itemid=2 |accessdate=13 January 2010[/tpl] Yahoo has introduced a CAPTCHA system to help filter out bots from joining chat rooms but it has done little to actually stop the problem and has only inconvenienced human users.[tpl]cite web|title=Measurement and Classification of Humans and Bots in Internet Chat|url=http://www.usenix.org/events/sec08/tech/full_papers/gianvecchio/gianvecchio_html/index.html|accessdate=13 January 2010[/tpl] 
+
+==Release history==
+
+* Windows - 11.5.0.228 - May 31, 2012
+* Mac OS X - 3.0.1 Beta (build 35554) - January 10, 2011
+* Unix -  1.0.4 -  September 2003. It can still be downloaded from Softpedia.
+** Version 1.0.6 can be downloaded from the Unix Beta page: http://public.yahoo.com/~mmk/
+Yahoo! released a preview version of Yahoo! Messenger: Yahoo! Messenger for Windows Vista. It had been designed to exploit the new design elements of Vista's Windows Presentation Foundation and entitled a whole new user interface and features. It lacked some basic functions such as webcam support. It has been discontinued.
+
+==Compatible software==
+
+* Adium
+* BitlBee
+* Centericq
+* Empathy (software)
+* Fire
+* imeem
+* IMVU
+* Kopete
+* meebo
+* Meetro
+* Miranda IM
+* Paltalk
+* Pidgin (formerly Gaim)
+* PlayXpert
+* Qnext
+* Tokbox
+* Trillian
+* Trillian Astra
+* Trillian Pro
+* Windows Live Messenger
+
+==See also==
+
+*Comparison of instant messaging clients
+*Comparison of instant messaging protocols
+*Comparison of IRC clients
+*Instant messaging
+
+==References==
+
+==External links==
+
+* Yahoo! Messenger
+* Yahoo! Messenger - Official Blog
+* [tpl]dmoz|/Computers/Internet/Chat/Instant_Messaging/Yahoo_Messenger/[/tpl]
+

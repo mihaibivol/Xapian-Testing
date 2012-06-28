@@ -1,0 +1,28 @@
+
+The PKP Open Archives Harvester is software used to accumulate and index freely available metadata, providing a searchable, web-based interface. It is open source, released under the GNU General Public License. It was created and is maintained by the Public Knowledge Project, in Vancouver, Canada.
+Originally developed to harvest the metadata from Open Journal Systems articles and Open Conference Systems proceedings, the Harvester can by used with any OAI-PMH-compliant resource.
+It can harvest metadata in a variety of schemas (including unqualified Dublin Core, the PKP Dublin Core extension, the Metadata Object Description Schema (MODS), and MARCXML). Additional schema are supported via plugins.
+The PKP OA Harvester allows any institution to create their own metadata harvester, which can be focused specifically on gathering information from or for their research community.
+
+== Examples ==
+
+*AmericanSouth
+*Canadian Association of Research Libraries Harvester
+*Digital Library for Information Science and Technology OAI Harvester
+*DRTC's Search Digital Libraries
+*IBICT - OASIS Harvester
+*Petroleum Journals Online's Metadata Archive.
+*PKP OA Harvester
+*University of Glasgow's Harvester service for ePrints
+*UTS Press Harvester
+
+== References ==
+
+*Coleman, A. & Roback, J. (2005). "Open Access Federation for Library and Information Science." D-Lib Magazine, 11 (12). Retrieved November 30, 2006.
+*Jordan, M. (2006). "The CARL metadata harvester and search service." Library Hi Tech, 24(2), 197-210. Retrieved December 18, 2006,
+*Kellogg, D. (2004). Open Source OAI Metadata Harvesting Tools. Retrieved November 30, 2006.
+
+==External links==
+
+*Official website
+

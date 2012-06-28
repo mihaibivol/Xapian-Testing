@@ -1,0 +1,35 @@
+
+co-ment is an online word processor allowing collaborative work on text writing. It's the descendant of the toolStet (software) created to handle the GNU GPL version 3http://www.co-ment.com/2010/02/25/co-ment%C2%AE-for-licenses-and-contracts/ online revision. It is freely available under Affero GPL.
+
+== Description ==
+
+Co-ment allows many to collaboratively elaborate online texts. It offers a
+wiki-style editing environment, supporting many syntaxes[ref]Markdown,
+ReStructuredText or HTML[/ref], and allows some finely controlled
+layouts, including table or images.
+Its main interest is its comment feature, allowing users to
+attach their remarks to sharp extracts of text, leading to a text
+building procedure based on strong and equipped debates.
+Advanced comment navigation features are also provided to help discover
+new annotations or go through the history of a debate. It's also
+possible to set up email alerts on text edits or new comments.
+Co-ment is fitted with many import/export formats support : TXT, DOC, ODT,
+HTML. Co-ment has a special focus on layout respect of exported file types.
+
+== Sources ==
+
+It is available as a free web service, extended by pro accounts following
+the WordPress model.
+Source code is available on the co-ment.org website, and it's also bundled
+as a Drupal module.
+
+== Usages ==
+
+Some of the greatest use cases of co-ment are for education, in
+particular first language and literature teaching in secondary education.
+As stated in the introduction, co-ment is inspired by the tool created to handle the online revision of the GPL v3, and have been since used for other licenses such as : Mozilla Public License, Creative Commons…
+Co-ment is also used for legal worksSuch as the french law project about net neutrality, lead by Christian Paul, for administrative works Such as the energy saving debates lead by french administrative entity ADEME or for advocacy works Such as Bits of Freedom, or La Quadrature du Net…
+
+== References ==
+
+

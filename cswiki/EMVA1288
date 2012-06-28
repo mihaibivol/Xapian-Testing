@@ -1,0 +1,32 @@
+
+EMVA1288 is an electronic measurement standard developed by the European Machine Vision Association (EMVA). Its purpose is to define the methods to measure and characterize image sensors and cameras that are used in machine vision. It also provides rules and guidelines on how to report results and how to write device datasheets.
+The main goal of the standard is to characterize industrial cameras. Therefore, photography and television standards are not applicable. It was necessary to define a new standard specific to machine vision applications.
+The standard is free to use and free to download but the user must register to EMVA to have the right to use the "EMVA1288 compliant" logo on their publications.
+The current version of the standard is version 3.0 EMVA1288 standard Release 3.0 and is dated from end November 2010.
+
+== Principles ==
+
+=== Main principles ===
+
+The standard only uses radiometric units like watts, joules, number of photons, volts, etc. There is no use of photometric units like lux.
+The standard is made of various modules. Some modules being mandatory, others being optional. For each module, a simple mathematical model of the phenomenon or parameter to be described is built. Then, a method to acquire specific image data is defined. Finally, out of the measured data, the parameter is computed using simple formulas.
+
+=== Response method ===
+
+The response is a plot of the camera's output (in digital numbers) versus the impinging light (as amount of photons). The slope of this plot is the response of the camera.
+
+=== Photon transfer method ===
+
+The photon transfer is a plot of the variance of the camera's output (in digital numbers squared) versus the output of the camera for the same amount of impinging photons (in digital numbers). The maximum of this curve defines the saturation capacity. The leftmost point defines the dark noise and the slope defines the noise caused by the light itself.
+
+== References ==
+
+== Related documents ==
+
+* Glossary of machine vision
+
+== External links ==
+
+* Official website of the EMVA1288 standard 
+* EMVA1288 compliant test equipment
+

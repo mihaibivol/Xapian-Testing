@@ -1,0 +1,48 @@
+
+Multimedia Information Retrieval (MMIR) is a research discipline of computer science that aims at extracting semantic information from multimedia data sources.H Eidenberger. " Fundamental Media Understanding ", atpress, 2011, p. 1. Data sources include directly perceivable media such as audio, image and video, indirectly perceivable sources such as text, biosignals as well as not perceivable sources such as bioinformation, stock prices, etc. The methodology of MMIR can be organized in three groups:
+# Methods for the summarization of media content (feature extraction). The result of feature extraction is a description.
+# Methods for the filtering of media descriptions (for example, elimination of redundancy)
+# Methods for the categorization of media descriptions into classes.
+
+== Feature Extraction Methods ==
+
+Feature extraction is motivated by the sheer size of multimedia objects as well as their redundancy and, possibly, noisiness.H Eidenberger. " Fundamental Media Understanding ", atpress, 2011, p. 2. Generally, two possible goals can be achieved by feature extraction:
+* Summarization of media content. Methods for summarization include in the audio domain, for example, Mel Frequency Cepstral Coefficients, Zero Crossings Rate, Short-Time Energy. In the visual domain, color histogramsA Del Bimbo. " Visual Information Retrieval ", Morgan Kaufmann, 1999. such as the MPEG-7 Scalable Color Descriptor can be used for summarization.
+* Detection of patterns by auto-correlation and/or cross-correlation. Patterns are recurring media chunks that can either be detected by comparing chunks over the media dimensions (time, space, etc.) or comparing media chunks to templates (e.g. face templates, phrases). Typical methods include Linear Predictive Coding in the audio/biosignal domain,HG Kim , N Moreau, T Sikora. " MPEG-7 Audio and Beyond", Wiley, 2005. texture description in the visual domain and n-grams in text information retrieval.
+
+== Merging and Filtering Methods ==
+
+Multimedia Information Retrieval implies that multiple channels are employed for the understanding of media content.MS Lew (Ed.). " Principles of Visual Information Retrieval ", Springer, 2001. Each of this channels is described by media-specific feature transformations. The resulting descriptions have to be merged to one description per media object. Merging can be performed by simple concatenation if the descriptions are of fixed size. Variable-sized descriptions - as they frequently occur in motion description - have to be normalized to a fixed length first.
+Frequently used methods for description filtering include factor analysis (e.g. by PCA), singular value decomposition (e.g. as latent semantic indexing in text retrieval) and the extraction and testing of statistical moments. Advanced concepts such as the Kalman filter are used for merging of descriptions.
+
+== Categorization Methods ==
+
+Generally, all forms of machine learning can be employed for the categorization of multimedia descriptionsH Eidenberger. " Fundamental Media Understanding ", atpress, 2011,p. 125. though some methods are more frequently used in one area than another. For example, Hidden Markov models are state-of-the-art in speech recognition, while Dynamic Time Warping - a semantically related method - is state-of-the-art in gene sequence alignment. The list of applicable classifiers includes the following:
+* Metric approaches (Cluster Analysis, Vector Space Model, Minkowski Distances, Dynamic Alignment)
+* Nearest Neighbor methods (K-Nearest Neighbor, K-Means, Self-Organizing Map)
+* Risk Minimization (Support Vector Regression, Support Vector Machine, Linear Discriminant Analysis)
+* Density-based Methods (Bayes Nets, Markov Processes, Mixture Models)
+* Neural Networks (Perceptron, Associative Memories, Spiking Nets)
+* Heuristics (Decision Trees, Random Forests, etc.)
+The selection of the best classifier for a given problem (test set with descriptions and class labels, so-called ground truth) can be performed automatically, for example, using the Weka Data Miner.
+
+== Open Problems ==
+
+The quality of MMIR SystemsJC Nordbotten. "Multimedia Information Retrieval Systems". Retrieved 14 October 2011. depends heavily on the quality of the training data. Discriminative descriptions can be extracted from media sources in various forms. Machine learning provides categorization methods for all types of data. However, the classifier can only be as good as the given training data. On the other hand, it requires considerable effort to provide class labels for large databases. The future success of MMIR will depend on the provision of such data.H Eidenberger. " Professional Media Understanding ", atpress, 2012. The annual TRECVID competition is currently one of the most relevant sources of high-quality ground truth.
+
+== Related Areas ==
+
+MMIR provides an overview over methods employed in the areas of information retrieval.H Eidenberger. " Professional Media Understanding ", atpress, 2012. Methods of one area are adapted and employed on other types of media. Multimedia content is merged before the classification is performed. MMIR methods are, therefore, usually reused from other areas such as:
+* Bioinformation Analysis
+* Biosignal Processing
+* Content-based Image and Video Retrieval
+* Face Recognition
+* Audio and Music Classification
+* Speech Recognition
+* Technical Chart Analysis
+* Text Information Retrieval
+The new Journal of Multimedia Information Retrieval"Journal of Multimedia Information Retrieval", Springer, 2011, Retrieved 21 October 2011. should help the development of MMIR as a research discipline independent of these areas.
+
+==References==
+
+

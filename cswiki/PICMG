@@ -1,0 +1,101 @@
+
+The PCI Industrial Computer Manufacturers Group (PICMG) is a consortium of over 227 companiesRefer to PICMG website metadata and Member Lists. The group, founded in 1994, was originally formed to adapt PCI technology for use in high-performance telecommunications, military and industrial computing applications but its work has now grown to include newer technologies.  
+PICMG currently focuses on developing and implementing specifications and guidelines for open standards based computer architectures from a wide variety of interconnects.
+On October 25, 2011 PICMG completed of the transfer of assets from the Communications Platforms Trade Association (CP-TA). PICMG will form an xTCA promotional subcommittee to carry on the educational and marketing outreach formerly conducted by members of the CP-TA marketing work group.
+
+==Specification naming convention==
+
+For many years, PICMG used a numerical naming convention with specification being referred to as “PICMG X.YY”.   Where X was used denoted differing form factors (“1” for slot card based single board computers, “2” for CompactPCI and “3” for AdvancedTCA) while YY was used to indicate incremental changes, option definitions or slight variation of a specification form its core specification.  In 2003, PICMG added an acronym-based naming convention for its specifications to yield better results from internet search engines.   Specifications are now often named ABCD.X  where ABCD is an acronym of the specification.   In this naming convention, base or main specification are denote with X=0 (i.e. ABCD.0) and PICMG subsidiary specifications are denoted X>0. PICMG subsidiary specifications represent how various options or variations of a based specification should be handled.
+
+== Adopted specifications ==
+
+:PICMG 1.0 - PCI/ISA
+:PICMG 1.1 - PCI/ISA Bridging
+:PICMG 1.2 - PCI only
+:PICMG 1.3 - SHB Express
+:PICMG 2.0 - CompactPCI
+:PICMG 2.1 - CompactPCI Hotswap
+:PICMG 2.2 - CompactPCI VME64x
+:PICMG 2.3 - CompactPCI PMC I/O
+:PICMG 2.4 - CompactPCI IP I/O
+:PICMG 2.5 - CompactPCI Telephony
+:PICMG 2.7 - Dual CompactPCI
+:PICMG 2.9 - CompactPCI Management
+:PICMG 2.10 - CompactPCI Keying
+:PICMG 2.11 - CompactPCI Power Interface
+:PICMG 2.12 - CompactPCI Software Interoperability
+:PICMG 2.14 - CompactPCI Multicomputing
+:PICMG 2.15 - CompactPCI PTMC
+:PICMG 2.16 - CompactPCI Packet Switching Backplane (PSB)
+:PICMG 2.17 - CompactPCI Starfabric
+:PICMG 2.18 - CompactPCI RapidIO
+:PICMG 2.20 - CompactPCI Serial Mesh
+:PICMG 2.30 - CompactPCI PlusIO
+:CPCI-S.0 - CompactPCI Serial
+:PICMG 3.0 - AdvancedTCA Base
+:PICMG 3.1 - AdvancedTCA Ethernet
+:PICMG 3.2 - AdvancedTCA Infiniband
+:PICMG 3.3 - AdvancedTCA StarFabric
+:PICMG 3.4 - AdvancedTCA PCI Express
+:PICMG 3.5 - AdvancedTCA RapidIO
+:AMC.0 - AdvancedMC Mezzanine Module
+:AMC.1 - AdvancedMC PCI Express and AS
+:AMC.2 - AdvancedMC Ethernet
+:AMC.3 - AdvancedMC Storage
+:AMC.4 - AdvancedMC Serial RapidIO
+:IRTM.0 - Intelligent Rear Transition Module
+:SFP.0 - System Fabric Plane
+:SFP.1 - iTDM
+:EXP.0 - CompactPCI Express
+:COM.0 - Computer on Module
+:CDG - COM Design Guide
+:MTCA.0 - MicroTCA
+:MTCA.1 - Air-cooled rugged MicroTCA
+:MTCA.3 - Hardened conduction-cooled MicroTCA
+:HPM.1 - HPMI.1
+
+==Current standing committees==
+
+These groups represent standing committees which may result in new subsidiary specification, revisions to existing specification, reference materials for future PICMG committees or new PICMG specifications. 
+:AdvancedTCA Extensions
+:IntelligentRTM
+:COM Express Rev 2.0
+:CompactPCI PlusIO
+:CompactPCI Serial
+:Conduction Cooled MicroTCA
+:PICMG 3.1 - AdvancedTCA Ethernet Rev 2.0
+:Interconnect Channel Characterization 
+:xTCA for Physics. This committee has two sub committees: 
+::Physics Software Architectures and Protocols
+::Physics Timing and Synchronization
+
+==ASI specifications==
+
+The following specifications were developed by the ASI SIG which has now disbanded and has transferred these documents to PICMG.  
+:ASI Core - Advanced Switching Core Architecture Specification
+:ASI PI-8 - ASI Protocol Interface #8
+:ASI SDT - ASI Socket Data Interface
+:ASI SQP - ASI Simple Queuing Protocol
+:ASI SLS - ASI Simple Load/Store (SLS) Specification
+:ASI Portal - ASI Portal Specification
+
+== Joint projects ==
+
+The PICMG has active liaisons with several industry bodies including the Service Availability Forum.
+
+==References==
+
+==See Also==
+
+* PCI-SIG
+* Eurocard (printed circuit board)
+
+==External links==
+
+* PICMG website
+* PICMG-Europe
+* CompactPCI.org website by PICMG-Europe
+* PICMG-Japan
+* PICMG-China
+* Recently released PICMG specifications
+

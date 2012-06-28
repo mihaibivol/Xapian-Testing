@@ -1,0 +1,32 @@
+
+Macbuntu is a SourceForge project that transforms the look and feel of Linux operating systems to that similar to Mac OS X. Macbuntu is an open source program, designed to transform Linux’s appearance and layout into a Mac OS X environment. Although Macbuntu is dedicated to Ubuntu Linux OS, it could be used in other OS based on Debian/GTK. The script significantly changes the desktop.
+This is not to be confused with OSx86 Project (Hackintosh).
+File:Unixmen_com.jpg| Screenshot of Genie Effect
+
+== License ==
+
+Macbuntu is under the GNU General Public License v3 and means that derived works can only be distributed under the same license terms.
+
+== Installation ==
+
+Installation of Macbuntu is fairly simple. It can (and should) be downloaded from  Macbuntu homepage . The instructions can be found in the support page of the website. Macbuntu is available for download from various other sources but may be edited and modified and running scripts from such sources with root privileges is dangerous. Macbuntu can also be installed directly from the internet using terminal commands.
+Macbuntu comprises many different third party software, which can also be installed independently to give a look and feel similar to that with Macbuntu, but would involve a lot of time and independent downloads and installations.
+
+== Development ==
+
+Macbuntu was first released as v1.0. It was a very basic package that added Mac OS X icons, cursors, backgrounds and themes. The software was gradually given more features. Features like Reboot service Mac OS X fonts, Login Screen settings, Global Menu (common Mac OS like Menu Bar), Compositing Manager settings, window animations (Compiz Extras) and a Mac OS like Dock were added in v1.1.
+The next major update was v2.0 which added a host of Mac OS like features namely theme-packs for many third party software and browsers, Apple logo on login screen, and the most eye-catching feature, the Mac OS X like Genie Effect (Compiz customized animation library). The future updates majorly solved compatibility issues and fixed various bugs.
+
+== References ==
+
+1.  http://ubuntuguide.net/install-macbuntu-to-make-ubuntu-11-04-unity-look-like-mac-os-x . Ubuntu Sharing Guide. Retrieved 22 September 2011.
+2.  http://gnome-look.org/content/show.php/Macbuntu?content=129021 . Gnome-look page. Retrieved 22 September 2011.
+3.  http://lifehacker.com/5665765/macbuntu-makes-your-linux-desktop-look-like-mac-os-x . LifeHacker. Retrieved 22 September 2011.
+4.  http://linuxers.org/article/macbuntu-change-your-ubuntus-theme-look-exactly-apples-macos-x Linuxers. Retrieved 22 September 2011.
+5.  http://www.techdrivein.com/2010/11/macbuntu-mac-osx-look-and-feel-for.html . Retrieved 22 September 2011.
+6.  http://www.unixmen.com/linux-tutorials/linux-distributions/linux-distributions4-ubuntu/1119-macbuntu-a-mac-os-x-transformation-pack-for-ubuntu . Unixmen Unix Tutorials. Retrieved 22 September 2011.
+
+== External links ==
+
+* [tpl]Official website|http://macbuntu.sourceforge.net/[/tpl]
+

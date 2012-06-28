@@ -1,0 +1,18 @@
+
+In experimental physics, a wetting layer is an initial layer of atoms that is epitaxially grown on a surface upon which self-assembled quantum dots or thin films are created.  The atoms composing a wetting layer can be semimetallic elements/compounds (usually InAs in the case of self-assembled quantum dots) or metallic alloys (for thin films).  This article refers to the wetting layer used for quantum dot applications.  By spraying a surface with layers of these atoms under high temperature, this wetting layer residue is produced on the surface.  Wetting layers  control the artificial atomic states of the quantum dot for uses in quantum information processing and quantum computation.
+
+==Process==
+
+The wetting layer is epitaxially grown onto a surface using a molecular beam epitaxy (MBE) chamber at high temperatures.  The temperatures required for wetting layer growth usually range from 400-500 degrees Celsius.  If a self-assembled quantum dot is to form, an initial layer of atoms must first be placed on a surface.  Due to the high elastic potential energy once a certain critical thickness is achieved, additional atoms group together to form the quantum dot to reduce this elastic energy"Seungwon Lee, Olga L. Lazarenkova, Paul von Allmen, Fabiano Oyafuso, and Gerhard Klimeck, "Effect of wetting layers on the strain and electronic structure of InAs self-assembled quantum dots ", 2008.. If further annealing of the quantum dot/wetting layer system is necessary, higher temperatures of up to 1100 degrees may be used.
+
+==Properties==
+
+The wetting layer serves as another parameter that can change the physics of a quantum dot.  The thickness and composition determine the effect of the wetting layer on the quantum dot, however the thickness is usually roughly 0.5 nanometers.  The electronic structure and strain of the quantum dot change as a result of the wetting layer.  Theoretically, due to the lattice mismatch, finite thickness wetting layers are not stable and therefore admit some strain on the quantum dot.  The theoretical electronic structure of the quantum dot can change significantly with the consideration of the wetting layer.
+
+==Applications==
+
+The wetting layer serves as another parameter which can interfere with the quantum dots in order to control their state for quantum computation and other applications of quantum dots. 
+
+==Notes==
+
+

@@ -1,0 +1,63 @@
+
+The BlackDog is a pocket-sized, self-contained computer with a built-in biometric fingerprint reader which was developed in 2005http://gizmodo.com/116696/black-dog-usb-key-linux-server by Realm Systems, which is plugged into and powered by the USB port of a host computer using its peripheral devices for input and output.
+It is a mobile personal server which allows a user to use Linux, ones applications and data on any computer with a USB port. The host machine’s monitor, keyboard, mouse, and Internet connection are used by the BlackDog for the duration of the session. As the system is self-contained and isolated from the host, requiring no additional installation, it is possible to make use of untrusted computers, yet using a secure system.  Various hardware iterations exist, and the original developer Realm Systems closed down in 2007, being picked up by the successor Inaura, Inc.
+
+== Hardware history ==
+
+===Original Black Dog & Project BlackDog Skills Contest===
+
+Identified as the BlackDog, the Project BlackDog, or Original BlackDog, the first hardware version was touted as "unlike any other mobile computing device, BlackDog contains its own processor, memory and storage, and is completely powered by the USB port of a host computer with no external power adapter required."http://www.prnewswire.com/news-releases/realm-systems-announces-winners-in-blackdogtm-skills-contest-55225837.html
+It was created in conjunction with Realm System's Project BlackDog Skills Contest (announced on Oct 27, 2005)http://www.prnewswire.com/news-releases/project-blackdogtm-contest-begins---50000-grand-prize-to-be-awarded-55615437.html which was supposed to raise interest, and create a developer community surrounding the product. The BlackDog was publicly available for purchase from the Project BlackDog website in September 2005 for those who wished to enter the contest or to experiment with the platform. Production ended in mid January 2006 when the contest closed. 
+On 7 February 2006, the winners of the contest were announced for the categories: Security (the Michael Chenetz), Entertainment (Michael King), Productivity (Terry Bayne) and "Dogpile"  (Paul Chandler).http://www.prnewswire.com/news-releases/realm-systems-announces-winners-in-blackdogtm-skills-contest-55225837.html On Feb 15, 2006, during the Open Source Business Conference, San Franscisco, Terry Bayne was announced the grand prize winner of the contest and received USD50,000 for his creation "Kibble," a tool for building integration solutions between the host PC and the BlackDog device using a SOAP-based RPC mechanism to send arbitrary LUA code to be executed on the host PC from the BlackDog.http://www.tbayne.net/article.php?story=20060317144515848 At this conference, the second iteration of the BlackDog, the K9 was publicly announced.
+
+=== K9 ===
+
+Identified as the K9 Ultra-Mobile Server, or K9, this version was announced at the Open Source Business Conference in February 2006 with expected availability in the third quarter of 2006. However, company turbulences (see Company History below) prevented the K9 from being sold until early 2009 by Inaura, Inc.
+Promotional literature shows the form factor to be the same as the intermediate iD3 prototype a very thin chrome model resembling an iPod Nano, but all black with a rubberized exterior. Before Realm Systems shut down, there were working prototypes of the K9, the hardware design seemed to be finished, and the software was functional.
+In terms of hardware, it differed from the Original BlackDog in these aspects:
+* 128 MB RAM
+* 1GB Flash NAND Memory
+* 60 pin Hiroshi connector replaces MMC slot (intended for a USB connection cable, as well as custom cables to support additional peripherals)
+* OLED display replaces indicator LED of first version (1.1 inch display, 96x64 resolution, 4 bit grayscale Black and White)
+* Dimensions: H: .50” W: 2.0” L: 3.75”
+
+=== iD3 ===
+
+The iD3 was a variant of the K9, using the same hardware specifications, intended for corporate use with a matching management router/server identified as the iD1200. It was announced as being part of the iDentity product series and was, for instance, showcased on the Embedded Systems Conference in San Jose, CA (April 3–7, 2006).http://www.vodkronikals.com/pc-repair/realm-systems-to-showcase-identity-series-at-embedded-systems-conference.html The final Realm Systems iD3 form factor resembled a small Nokia cellphone.
+
+== Software ==
+
+The software was originally based on Debian until 2008. The project switched to using Olmec Linux.
+
+=== Debian Linux (pre-2008) ===
+
+When plugged into a USB port of a Windows XP machine, the BlackDog initially presented itself to the host as a virtual CD-ROM drive. Via an autorun application the BlackDog then automatically launched the X Window system for Windows Xming and a software NAT router. Once those applications were running, the virtual USB CD-ROM drive disconnected, and the USB presented itself as a virtual Ethernet adapter, enabling network access. Without requiring any installations or user interactions, the user could access the contained applications and data from any Windows computer. With further configuration steps, it was possible to also run the BlackDog on Linux and Mac computers.
+A short Engadget review stated that "it runs Firefox fine, and should be great for taking your own browser, e-mail, and chat clients for use wherever \are\, though that will probably be about all this little 400MHz guy can handle."http://www.engadget.com/2005/11/08/blackdog-usb-linux-pc-reviewed/
+The first software version was based on Debian Sid running a 2.6.10 Kernel. It contained some sample default applications such as xterm, XBlast, and XGalaga and allowed installation of the Firefox webbrowser, an email client and other additional software available through official and community APT repositories hosted by the project.http://www.geek.com/articles/xyzcomputing/realm-systems-blackdog-portable-linux-server-20051215/
+It was attempted to stimulate the creation of further applications and use cases for the BlackDog by building up a community. The project and discussion infrastructure, termed DogPound, used an installation of the project hosting software (SourceForge). A SDK with a QEMU emulator environment for Windows XP, Linux and Mac OS X was released to facilitate the creation and porting of applications to the BlackDog system.
+Although most of the BlackDog software was free software, the device contained some proprietary technology and intellectual property developed by Realm Systems Inc., which was later transferred to Echo Identity Systems and finally ended up belonging to Inaura Corporation.
+The official repository for the project disappeared in mid-February 2007 due to Realm Systems Inc. closing and was reactivated by its successor Inaura Inc. as of late-June 2007. (There does not seem to be a repository in Nov. 2011)
+
+=== Olmec Linux (2008 onwards) ===
+
+Starting in late 2007, Olmec Linux was ported to the Blackdog and K9 devices.,http://www.tbayne.net/article.php?story=20080324165018115 which is a Debian-derived Linux distribution geared for small embedded platforms such as the gumstix. When sold as part of the Inaura Inc. product offering, BlackDog/K9 was using the Olmec-based version.http://www.inaura.com/inaura-products/black-dog/
+
+== Realm Systems Corporate history ==
+
+Realm Systems Inc. was founded in 2002, based in Salt Lake City, Utah, raising $8.5 million led by GMG Capital in its Round A, with CEO Rick White, describing itself as "provid\ing\ a next generation Mobile Enterprise Platform that simplifies the delivery of applications and services to end-users across the distributed enterprise."http://investing.businessweek.com/research/stocks/private/snapshot.asp?privcapId=13512267http://www.prnewswire.com/news-releases/realm-systems-appoints-frank-artale-as-chairman-david-mimran-joins-board-as-director-54046477.html
+During 2006, Realm Systems focuses on their iD3 line of products and the K9 product launch was put off indefinitely. In January 2007, two then-unidentified groups containing former Realm Systems employees and investors attempted, independently, to license or move the K9 hardware and software to a separate company to continue development and production, due to the dissolution of Realm Systems and continued developer community interest in the concept, as well as rumored successful pilot programs.
+One of Realm Systems' backers then posted a public foreclosure notice, and in a court-supervised foreclosure hearing a number of investors bid on the company's assets in a closed bid. As a result, all of Realm's assets, including the iD3 and K9-series hardware, their operating systems, and the enterprise management router code, were bought out by a new firm, Echo Identity Systems, which was registered as a Salt Lake City company on February 1, 2007.https://secure.utah.gov/bes/action/details?entity=6476918-0142 This company claimed to be continuing the enterprise product line, and re-used nearly all of the old Realm Systems website layout and graphics. No mention of the K9 product line was made anywhere on the Echo Identity Systems website. The former Realm Systems website redirected iD3 and BlackDog customers to a transitional support website informing about the asset change, Realm Systems closing, and that product support would be done by Echo Identity Systems (though no explanation as to the extent of the support is provided).
+It appears that assets were soon bought back from Echo Identity Systems to a group of investors backed by former Realm Systems employees and investors. Based on unconfirmed community reports (September 2007), it appears new developer prototypes of the K9 have been seeded to the Project BlackDog contest winners. In November 2007, the new owners emerged as Inaura Inc, with CEO and president Peter Bookman,http://www.inaura.com/about-inaura/management-team/ who is one of the original co-founders of Realm Systems. CFO of the new company is Rodney Rasmussen, who had both registered Echo Identity Systems and Inaura as a Utah companyhttps://secure.utah.gov/bes/action/details?entity=6476918-0142
+.https://secure.utah.gov/bes/action/details?entity=6699041-0143 They set up a sparse web site lacking specific product descriptions.http://web.archive.org/web/20071215003859/http://inaura.com/ Inaura Inc. describes itself as "formerly known as" Real Systems Inc.http://investing.businessweek.com/research/stocks/private/snapshot.asp?privcapId=13512267 and Echo Identity Systems expired as a company in June 2008.https://secure.utah.gov/bes/action/details?entity=6476918-0142
+In 2008, the Aurora Inc. website was updated to provide details on the company and product. The K9 device is now being branded as the K9 Ultra Mobile Authentication Key (UMAK) and marketed as "solving the problem of trust within all computing environments". It refers to "the two iterations of UMAKs" as "the K9 and the BlackDog"http://www.inaura.com/inaura-products/
+The K9 product seems to have been publically sold since early 2009.http://fingerchip.pagesperso-orange.fr/biometrics/types/fingerprint_products_drives_flash.htm
+In February 2010, the company name expired "failing to file for renewal"https://secure.utah.gov/bes/action/details?entity=7162799-0143 and was only re-registered September 2011.https://secure.utah.gov/bes/action/details?entity=8096999-0143
+
+==References==
+
+== External links ==
+
+* Inaura Company Homepage
+* PC Plus (UK) Review of the Blackdog inc. picture
+* Geek.com review
+

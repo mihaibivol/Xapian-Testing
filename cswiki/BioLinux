@@ -1,0 +1,78 @@
+
+BioLinux is a term used in a variety of projects involved in making access to bioinformatics software on a Linux platform easier using one or more of the following methods:
+* Provision of complete systems
+* Provision of bioinformatics software repositories
+* Addition of bioinformatics packages to standard distributions
+* Live DVD/CDs with bioinformatics software added
+* Community building and support systems
+There are now various projects with similar aims, on both Linux systems and other Unices, and a selection of these are given below. There is also an overview in the Canadian Bioinformatics Helpdesk Newsletteroverview in the Canadian Bioinformatics Helpdesk Newsletter that details some of the Linux-based projects.
+
+== Complete systems ==
+
+Various complete distributions that integrate bioinformatics software are available, in various stages of development.
+* BioBrewBioBrew
+* BioLandBioLand
+* BioLinuxBRBioLinuxBR
+* BioSLAXBioSLAX
+* Debian MedDebian Med
+* NEBC Bio-LinuxNEBC Bio-Linux
+
+== Package repositories ==
+
+=== Red Hat ===
+
+Package repositories are generally specific to the distribution of Linux the bioinformatician is using.  A number of Linux variants are prevalent in bioinformatics work.  Fedora is a freely-distributed version of the commercial Red Hat system. Red Hat is widely used in the corporate world as they offer commercial support and training packages.  Fedora Core is a community supported derivative of Red Hat and is popular amongst those who like Red Hat's system but don't require commercial support. Many users of bioinformatics applications have produced RPMs (Red Hat's package format) designed to work with Fedora, which you can potentially also install on Red Hat Enterprise Linux systems.  Other distributions such as Mandriva and SUSE use RPMs, so these packages may also work on these distributions.
+* BioRPMsBioRPMs (RedHat and Fedora)
+* RPMfind.netRPMfind.net (Various RPM-based distributions, indexed by category)
+
+=== Debian ===
+
+Debian is another very popular Linux distribution in use in many academic institutions, and some bioinformaticians have made their own software packages available for this distribution in the  deb format.
+* Debian MedDebian Med (Debian contains a lot of medical software internally)
+* NEBC Bio-LinuxNEBC Bio-Linux (Non-standard Debian)
+
+=== Slackware ===
+
+Slackware is one of the less used Linux distributions. It is popular with those who have better knowledge of the Linux operating system and who prefer the command line over the various GUIs available. Packages are in the tgz or tgx format. The most widely known live distribution based on Slackware is Slax and it has been used as a base for many of the bioinformatics distributions.
+* BioSLAX
+
+=== Apple/Mac ===
+
+Many Linux packages are compatible with Mac OS X and there are several projects which attempt to make it easy to install selected Linux packages (including bioinformatics software) on a computer running Mac OS X. These include:
+* Fink scientific packagesFink scientific packages
+* HomebrewHomebrew
+Similarly, eBioinformaticseBioinformatics provides a Mac OS GUI for over 300 open source bioinformatics programs.
+
+== Live DVDs/CDs ==
+
+Live DVDs or CDs are not an ideal way to provide bioinformatics computing, as they run from a CD/DVD drive.  This means they are slower than a traditional hard disk installation and have limited ability to be configured. However, they can be suitable for providing ad-hoc solutions where no other Linux access is available, and may even be used as the basis for a Linux installation (e.g. BioKnoppix).
+* BioKnoppixBioKnoppix
+* DNALinuxDNALinux
+* QuantianQuantian
+* VigyaanVigyaan
+* VLinuxVLinux
+* NEBC Bio-LinuxNEBC Bio-Linux
+* BioSlaxBioSlax
+
+== Standard distributions with good bioinformatics support ==
+
+In general, Linux distributions have a wide range of official packages available, but this does not usually include much in the way of scientific support. There are exceptions, such as those detailed below.
+; Gentoo Linux
+Gentoo Linux provides over 50 bioinformatics applications (see packages.gentoo.org and Gentoo Science Overlay) in the form of  ebuilds, which build the applications from source code.
+Although a very flexible system with excellent community support, the requirement to install from source means that Gentoo systems are often slow to install, and require considerable maintenance. It is possible to reduce some of the compilation time by using a central server to generate binary packages.
+; FreeBSD
+FreeBSD is not a Linux distribution, but as it is a version of  Unix it is very similar. Its  ports are like Gentoo's ebuilds, and the same caveats apply. However, there are also pre-complied binary packages available. There are over 60 biological sciences applications, and they're listed on the Fresh PortsFresh Ports site.
+; Debian
+There are more than a hundred bioinformatics packages provided as part of the standard Debian installation. NEBC Bio-LinuxNEBC Bio-Linux packages can also be installed on a standard Debian system as long as the bio-linux-base package is also installed. This creates a /usr/local/bioinf directory where our other packages install their software. Debian packages may also work on Ubuntu Linux or other Debian-derived installations.
+
+== Community building and support systems ==
+
+Providing support and documentation should be an important part of any BioLinux project, that scientists who are not IT specialists may quickly find answers to their specific problems. Support forums or mailing lists are also useful to disseminate knowledge within the research community. Some of these resources are linked to here.
+* Bio-Linux BRBio-Linux BR
+* BioLinux GrupoBioLinux Grupo
+* NEBC Bio-LinuxNEBC Bio-Linux
+* EMBnet.NewsEMBnet.News Two issues (2007) dedicated to Bioinformatics Linux distributions
+
+== References ==
+
+

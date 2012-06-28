@@ -1,0 +1,69 @@
+
+Scientific data archiving refers to the long-term storage of scientific data and methods. The various scientific journals have differing policies regarding how much of their data and methods scientists are required to store in a public archive, and what is actually archived varies widely between different disciplines. Similarly, the major grant-giving institutions have varying attitudes towards public archival of data. In general, the tradition of science has been for publications to contain sufficient information to allow fellow researchers to replicate and therefore test the research. In recent years this approach has become strained as increasingly research in some areas depends on large datasets which cannot easily be replicated independently.
+Data archiving is more important in some fields than others.  In a few fields, all of the data necessary to replicate the work is already available in the journal article.  In drug development, a great deal of data is generated and must be archived so researchers can verify that the reports the drug companies publish accurately reflect the data.
+The requirement of data archiving is a recent development in the history of science.  It was made possible by advances in information technology allowing large amounts of data to be stored and accessed from central locations.  For example, the American Geophysical Union (AGU) adopted their first policy on data archiving in 1993, about three years after the beginning of the WWW.”Policy on Referencing Data in and Archiving Data for AGU Publications” http://www.agu.org/pubs/data_policy.html. This policy mandates that datasets cited in AGU papers must be archived by a recognised data center; it permits the creation of "data papers"; and it establishes AGU's role in maintaining data archives. But it makes no requirements on paper authors to archive their data. 
+Prior to data archiving, researchers who wanted to evaluate or replicate a paper would have to request data and methods information from the author.  The science community expects authors to share supplemental data.  This process was recognized as wasteful of time and energy and obtained mixed results.  Information could become lost or corrupted over the years.  In some cases, authors simply refuse to provide the information.  
+The need for data archiving and due diligence is greatly increased when the research deals with health issues or public policy formation."The Case for Due Diligence When Empirical Research is Used in Policy Formation" by Bruce McCullough and Ross McKitrick. http://economics.ca/2006/papers/0685.pdf "Data Sharing and Replication" a website by Gary King http://gking.harvard.edu/replication.shtml
+
+==Policies by journals==
+
+===The American Naturalist===
+
+===Journal of Heredity===
+
+===Molecular Ecology===
+
+===Nature===
+
+''Such material must be hosted on an accredited independent site (URL and accession numbers to be provided by the author), or sent to the Nature journal at submission, either uploaded via the journal's online submission service, or if the files are too large or in an unsuitable format for this purpose, on CD/DVD (five copies). Such material cannot solely be hosted on an author's personal or institutional web site."Availability of Data and Materials: The Policy of Nature Magazinehttp://www.nature.com/authors/editorial_policies/availability.html
+Nature requires the reviewer to determine if all of the supplementary data and methods have been archived.  The policy advises reviewers to consider several questions, including: "Should the authors be asked to provide supplementary methods or data to accompany the paper online? (Such data might include source code for modelling studies, detailed experimental protocols or mathematical derivations.)""Guide to Publication Policies of the Nature Journals," published March 14, 2007.http://www.nature.com/authors/gta.pdf
+
+===Science===
+
+‘’’Database deposition policy’’’ – Science supports the efforts of databases that aggregate published data for the use of the scientific community. Therefore, before publication, large data sets (including microarray data, protein or DNA sequences, and atomic coordinates or electron microscopy maps for macromolecular structures) must be deposited in an approved database and an accession number provided for inclusion in the published paper."General Policies of Science Magazine" http://www.sciencemag.org/about/authors/prep/gen_info.dtl#datadep
+‘’’Materials and methods’’’ – Science now requests that, in general, authors place the bulk of their description of materials and methods online as supporting material, providing only as much methods description in the print manuscript as is necessary to follow the logic of the text. (Obviously, this restriction will not apply if the paper is fundamentally a study of a new method or technique.)”Preparing Your Supporting Online Material” http://www.sciencemag.org/about/authors/prep/prep_online.dtl
+
+==Policies by funding agencies==
+
+In the United States, the National Science Foundation (NSF) is tightening requirements on data archiving.   Researchers seeking funding from NSF will be required to file a data management plan as a two-page supplement to the grant application. ”NSF to Ask Every Grant Applicant for Data Management Plan” http://news.sciencemag.org/scienceinsider/2010/05/nsf-to-ask-every-grant-applicant.html
+The NSF Datanet initiative has resulted in funding of the Data Observation Network for Earth (DataONE) project, which will provide scientific data archiving for ecological and environmental data produced by scientists worldwide. DataONE's stated goal is to preserve and provide access to multi-scale, multi-discipline, and multi-national data. The community of users for DataONE includes scientists, ecosystem managers, policy makers, students, educators, and the public.
+
+== Problems caused by lack of data archiving==
+
+===In heart research ===
+
+Dr. Ram Singh, a cardiologist practicing in India, has published research in many prestigious journals including The Lancet and American Journal of Cardiology.  In 1992, Singh published research on heart attack victims in BMJ, The British Medical Association's flagship journal.  The study was cited more than 200 times in scientific journals and in recommendations to doctors.  His research was questioned in 1994.  Dr. Richard Smith, BMJ's editor, wanted to investigate and consulted a statistician named Stephan Evans.  Evans said a full review could only be done if he had the raw (i.e. unprocessed) data.  Smith feared that Singh would refuse to provide raw data.  However, Smith did ask for raw data on a study submitted by Singh in 1994.  Eight months later a box of papers arrived.  Evans statistical analysis showed Singh's work to be full of inconsistencies and errors and should be retracted.  The medical journal investigation lasted for 12 years before deciding the research was probably fraudulent. The Alliance for Human Research Protection looked into the matter and recommended that journal editors must "adopt a PUBLICATION REQUIREMENT for all authors submitting clinical trial reports if they want to protect the integrity of both the journals and the scientific literature. Authors should be REQUIRED to submit ALL RAW DATA along with their research report." (emphasis in the original)"Medical Journal Editor Finds Truth Hard to Track Down" published by Alliance for Human Research Protection" http://www.ahrp.org/cms/content/view/16/27/
+
+==Data archives==
+
+* CISL Research Data Archive
+* Dryad
+* ESO/ST-ECF Science Archive Facility
+* International Tree-Ring Data Bank
+* Knowledge Network for Biocomplexity
+* National Archive of Computerized Data on Aging
+* National Archive of Criminal Justice Data http://www.icpsr.umich.edu/nacjd
+* National Climatic Data Center
+* National Geophysical Data Center
+* National Snow and Ice Data Center
+* National Oceanographic Data Center
+* Oak Ridge National Laboratory Distributed Active Archive Center
+* Pangaea - Data Publisher for Earth & Environmental Science
+* World Data Center
+* DataONE
+
+==References==
+
+==External links==
+
+* Statistical checklist required by Nature http://www.nature.com/nature/authors/gta/Statistical_checklist.doc
+* Policies of Proceedings of the National Academy of Sciences (U.S.) http://www.pnas.org/misc/iforc.shtml#policies
+* The US National Committee for CODATA http://www7.nationalacademies.org/usnc-codata/Archiving.html
+* The Role of Data and Program Code Archives in the Future of Economic Research  http://research.stlouisfed.org/wp/2005/2005-014.pdf
+* Data sharing and replication – Gary King website http://gking.harvard.edu/replication.shtml
+* The Case for Due Diligence When Empirical Research is Used in Policy Formation by McCullough and McKitrick http://economics.ca/2006/papers/0685.pdf
+* Thoughts on Refereed Journal Publication by Chuck Doswell http://www.cimms.ou.edu/~doswell/pubreviews.html
+* “How to encourage the right behaviour” An opinion piece published March, 2002.http://www.nature.com/nature/journal/v416/n6876/full/416001b.html
+* NASA Astrophysics Data System http://cdsads.u-strasbg.fr/
+* Panton Principles for Open Data in Science, at Citizendium http://en.citizendium.org/wiki/Panton_Principles
+

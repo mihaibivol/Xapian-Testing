@@ -1,0 +1,38 @@
+
+A web search query is a query that a user enters into web search engine to satisfy his or her information needs. Web search queries are distinctive in that they are often plain text or hypertext with optional search-directives (such as "and"/"or" with "-" to exclude). They vary greatly from standard query languages, which are governed by strict syntax rules as command languages with keyword or positional parameters.
+
+== Types ==
+
+There are four broad categories that cover most web search queries: Christopher D. Manning, Prabhakar Raghavan, and Hinrich Schutze (2007), Introduction to Information Retrieval, Ch. 19
+* Informational queries – Queries that cover a broad topic (e.g., colorado or trucks) for which there may be thousands of relevant results.
+* Navigational queries – Queries that seek a single website or web page of a single entity (e.g., youtube or delta air lines).
+* Transactional queries – Queries that reflect the intent of the user to perform a particular action, like purchasing a car or downloading a screen saver.
+Search engines often support a fourth type of query that is used far less frequently:
+* Connectivity queries – Queries that report on the connectivity of the indexed web graph (e.g., Which links point to this URL?, and How many pages are indexed from this domain name?).
+
+== Characteristics ==
+
+Most commercial web search engines do not disclose their search logs, so information about what users are searching for on the Web is difficult to come by.Dawn Kawamoto and Elinor Mills (2006), AOL apologizes for release of user search data Nevertheless, a study in 2001[tpl]cite journal|author = Amanda Spink, Dietmar Wolfram, Major B. J. Jansen, Tefko Saracevic | year = 2001 | title = Searching the web: The public and their queries | journal = Journal of the American Society for Information Science and Technology | volume = 52 | issue = 3 | pages = 226–234 | doi = 10.1002/1097-4571(2000)9999:99993.3.CO;2-I [/tpl] analyzed the queries from the Excite search engine showed some interesting characteristics of web search:
+* The average length of a search query was 2.4 terms. 
+* About half of the users entered a single query while a little less than a third of users entered three or more unique queries. 
+* Close to half of the users examined only the first one or two pages of results (10 results per page).
+* Less than 5% of users used advanced search features (e.g., boolean operators like AND, OR, and NOT).
+* The top four most frequently used terms were , '' (empty search), and, of, and sex.
+A study of the same Excite query logs revealed that 19% of the queries contained a geographic term (e.g., place names, zip codes, geographic features, etc.).[tpl]cite conference | author = Mark Sanderson and Janet Kohler | year = 2004 | title = Analyzing geographic queries | booktitle = Proceedings of the Workshop on Geographic Information (SIGIR '04) | url =http://www.geo.unizh.ch/~rsp/gir/abstracts/sanderson.pdf [/tpl]
+A 2005 study of Yahoo's query logs revealed 33% of the queries from the same user were repeat queries and that 87% of the time the user would click on the same result.[tpl]cite conference | author = Jaime Teevan, Eytan Adar, Rosie Jones, Michael Potts | year = 2005 | title = History repeats itself: Repeat Queries in Yahoo's query logs | booktitle = Proceedings of the 29th Annual ACM Conference on Research and Development in Information Retrieval (SIGIR '06) | pages = 703–704 | url =http://www.csail.mit.edu/~teevan/work/publications/posters/sigir06.pdf | doi=10.1145/1148170.1148326 [/tpl] This suggests that many users use repeat queries to revisit or re-find information. This analysis is confirmed by a Bing search engine blog post telling about 30% queries are navigational queries http://www.bing.com/community/site_blogs/b/search/archive/2011/02/10/making-search-yours.aspx
+In addition, much research has shown that query term frequency distributions conform to the power law, or long tail distribution curves. That is, a small portion of the terms observed in a large query log (e.g. > 100 million queries) are used most often, while the remaining terms are used less often individually.[tpl]cite journal | author = Ricardo Baeza-Yates | year = 2005 | title = Applications of Web Query Mining | booktitle = Lecture Notes in Computer Science | pages = 7–22 | volume = 3408 | publisher = Springer Berlin / Heidelberg | url = http://www.springerlink.com/content/kpphaktugag5mbv0/ | ISBN = 978-3-540-25295-5[/tpl] This example of the Pareto principle (or 80–20 rule) allows search engines to employ optimization techniques such as index or database partitioning, caching and pre-fetching.
+But in a recent study in 2011 it was found that the average length of queries has grown steadily over time and average length of non-English languages queries had increased more than English queries. [tpl]cite journal | author = Mona Taghavi, Ahmed Patel, Nikita Schmidt, Christopher Wills, Yiqi Tew | year = 2011 | title = An analysis of web proxy logs with query distribution pattern approach for search engines | booktitle = Journal of Computer Standards & Interfaces | pages = 162–170 | volume = 34 | issue = 1 |publisher = Elsevier  | url = http://www.sciencedirect.com/science/article/pii/S0920548911000808 [/tpl]
+
+== Structured queries ==
+
+With search engines that support Boolean operators and parentheses, a technique traditionally used by librarians can be applied. A user who is looking for documents that cover several topics or facets may want to describe each of them by a disjunction of characteristic words, such as vehicles OR cars OR automobiles. A faceted query is a conjunction of such facets; e.g. a query such as (electronic OR computerized OR DRE) AND (voting OR elections OR election OR balloting OR electoral) is likely to find documents about electronic voting even if they omit one of the words "electronic" and "voting", or even both.
+
+== See also ==
+
+* Information retrieval
+* Search engine
+* Web query classification
+
+== References ==
+
+

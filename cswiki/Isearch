@@ -1,0 +1,35 @@
+
+Isearch is open-source text retrieval software first developed in 1994 as part of the Isite Z39.50 information framework. The project started at the Clearinghouse for Networked Information Discovery and Retrieval (CNIDR) of the North Carolina supercomputing center MCNC and funded by the National Science Foundation to follow in the track of WAIS and develop prototype systems for distributed information networks encompassing Internet applications, library catalogs and other information resources.
+The main features of Isearch include full text and field searching, relevance ranking, Boolean queries, and support for many document types such as HTML, mail folders, list digests, MEDLINE, BibTeX, SGML/XML, FGDC Metadata, NASA DIF, ANZLIC metadata, ISO 19115 metadata and many other resource types and document formats.
+It was the first search engine to be designed from the ground up to support SGML and ISO 23950 search and retrieval. It included many innovations including the "document type" model—which is simply a (object oriented) method of associating each document with a class of functions providing a standard interface for accessing the document. It was one of the first engines (if not the first) to ever support XML.
+The Isearch search/indexing text algorithms were based on Gaston Gonnet's seminal work into PAT arrays and trees for text retrieval--- ideas that were developed for the New Oxford English Dictionary Project at the Univ. of Waterloo, and provided the seeds for Tim Bray's PAT SGML engine that formed the basis of Open Text. One of the limiting factors, however, of the  Isearch design was that it was not well suited to handle the extremely large data sets that became popular in the mid to late 1990s. In many cases Isearch was adapted or modified to use different algorithms but usually retained the document type model and the architectural relationship with Isite.
+Isearch was widely adopted and used in hundreds of public search sites, including  many high profile projects such as the U.S. Patent and Trademark Office (USPTO) patent search,the Federal Geographic Data Clearinghouse (FGDC), the NASA Global Change Master Directory, the NASA EOS Guide System, the NASA Catalog Interoperability Project, the Astronomical pre-print service based at the Space Telescope Science Institute, The PCT Electronic Gazette at the World Intellectual Property Organization (WIPO), Linsearch (a search engine for Open Source Software designed by Miles Efron), the SAGE Project of the Special Collections Department at Emory University, Eco Companion Australasia (an environmental geospatial resources catalog), Australian National Genomic Information Service (ANGIS), the Open Directory Project and numerous governmental portals in the context of the Government Information Locator Service (GILS) GPO mandate (ended in 2005?).
+From 1994 to 1998 most of the development was centered around the Clearinghouse for Networked Information Discovery and Retrieval (CNIDR) in North Carolina (Engine core) and BSn in Germany (Doctypes). By 1998 much of the open-source Isearch core developers re-focused development into several spin-offs. In 1998 it became part of the Advanced Search Facility reference software platform funded by the U.S. Department of Commerce. 
+A/WWW Enterprises now maintains the open source version for public usage, supported by paying government clients, such as the U.S. Patent and Trademark Office, NASA, and the FGDC who have provided support to enhance the functionality and reliability of the software. The software suite is considered a reference implementation of catalog service software.
+As of 2010, the open source version of Isearch is still used on 250+ nodes of FGDC, and by ANZLIC in Australia and selected Geospatial OneStop contributors to facilitate harvesting by GOS, including NOAA, Census Bureau and the Tenn. Field Office of the US Fish and Wildlife Service, among others.
+
+==References==
+
+*Application of Metadata Concepts to Discovery of Internet Resources
+*An Operational Metadata Framework for Searching, Indexing, and Retrieving Distributed Geographic Information Services on the Internet
+* The UNIX Web Server Book, Second Edition, by R. Douglas Matthews et al. (Ventana Press, 1997).
+* "Searching With Isearch". May 1997, Web Techniques
+* FIPS-192: APPLICATION PROFILE FOR THE GOVERNMENT INFORMATION LOCATOR SERVICE (GILS)
+* Clearinghouse and Metadata Concepts, Danel Behanu, U.N. Economic Commission for Africa,  2004
+* M-98-05 Guidance on the Government Information Locator Service published by the OMB
+* 01/1995 Press Release: Patent Office Launch Internet AIDS Patent Library
+
+==External links==
+
+*U.S. Federal Geographic Data Committee Isite
+*Isite/Isearch2 Documentation Site
+*Current Isearch download site
+*Etymon: Isearch
+*BSn/NONMONOTONIC Lab: IB Search Engine, embeddable search engine. A commercial spin-off from the Isearch project.
+
+===Comparisons===
+
+* Product Comparison: Information Gateway Software
+* A Comparison of Open Source Search Engines, Christian Middleton, Ricardo Baeza-Yates
+* Comparing Open Source Indexers
+

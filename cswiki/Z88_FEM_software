@@ -1,0 +1,46 @@
+
+Z88 is a free (Open Source) finite element software package available for Microsoft Windows, Mac OS X and Unix/Linux computers. Versions are available for 32-bit and 64-bit operating systems.
+There are two versions of Z88 available: the Open Source Version Z88 V13 (without preprocessing) and the freeware system Z88Aurora (pre-&post processing). Now Z88 features static calculations in mechanical engineering and building & construction industries. More features like frequency analysis, thermo-mechanical analysis and non-linear behavior will be developed. The complete program is freeware, small, easy to use and built for the use on desktop computers with different operating systems and due to users' feedback constantly being improved. Z88 is coded in ANSI-C.
+
+==Development and Contents==
+
+Z88 is developed and maintained by Professor Dr.-Ing. Frank Rieg holding the chair of engineering design and CAD at the University of Bayreuth in Germany and his crew. The Open Source Z88 V13 features over 20 different types of finite elements (2D: truss, beam, torus, plane stress elements; 3D: truss, beam, tetrahedron with 4 or 10 nodes, hexahedron with 8 or 20 nodes) a graphical interface and a plot program. Input and output are transparent text files. Several solvers (Cholesky, SICCG, SORCG, Sparse-solver) with multi domain feasibility are included.
+Since 2009 a new pre- and post processor called Z88Aurora is developed by a team around Prof. Rieg and was released in June 2010. Z88Aurora uses the technology of Z88 V13.0 combined with an intuitive user prompting (contains boundary conditions, several free FE-mesher, material database with data fitting). 
+Additional features of Z88Aurora compared with Z88V13:
+* shell elements, 
+* import of fe data: ANSYS, NASTRAN, COSMOS, ABAQUS 
+* import of geometry data: STL, STEP 
+* different free and mapped mesher with adjustable options (tetrahedron, hexahedron)
+* picking function for loads and constraints (pressure, force, displacements)
+* multi core parallel solver
+* detailed documentation (user guide, videos, theory guide, ready-to-run examples) 
+file: Z88aurora snap.png|Z88 Aurora
+file: Z88aurora snap1.jpg|Preprocessing
+file: Z88aurora snap2.jpg|Postprocessing
+file: Z88aurora snap4.jpg|Workflow
+
+==Use in research and development==
+
+Since 1998 the program is used for engineering design lectures at different universities like the TU Dresden, the University of Applied Sciences Ravensburg-Weingarten, the University of Ioannina, the Penn State University, the Universidad de Buenos Aires,  the L´Universita Di Cagliari, the University of Maribor and the Zonguldak Karaelmas University.
+
+== Application in industry ==
+
+Due to the open source approach many applications use Z88 solvers, the plot programs or the complete software package. Often the possibility of adaption z88 for unique FE-problems is used (calculation of glass plates for architecture, mechanical behavior of wood, computation of pressure vessels, comparison to other fe software etc.) Z88 is used by Boeing Missile and Defense/USA, Teledyne Brown Engineering/USA, Winimac Coil Spring Inc./USA, Double D Design Ltd/New Zealand, RINGSPANN GmbH/Germany, KTR Kupplungstechnik GmbH/Germany, etc.
+
+==Literature==
+
+* Frank Rieg: „Z88 – The compact Finite Element System“http://www.z88.uni-bayreuth.de/download/z88mane.pdf.
+*Frank Rieg, Reinhard Hackenschmidt: „Finite Elemente Analyse für Ingenieure: Eine leicht verständliche Einführung“. Hanser Fachbuchverlag, München, Wien, 2009, ISBN 978-3-446-40215-7.
+* Karl-Heinz Decker: „Maschinenelemente – Funktion, Gestaltung und Berechnung“. Hanser Fachbuchverlag, München, Wien, 2009, 17. Auflage, ISBN 978-3-446-41759-5.
+
+==References==
+
+[tpl]reflist[/tpl]http://www.epochtimes.de/articles/2010/07/07/595334.html
+
+==External links==
+
+* Official Website
+* Z88 Userboard
+* Department of Engineering Design and CAD/ Prof. Frank Rieg University of Bayreuth
+* Independent newsgroup on CAD.de
+

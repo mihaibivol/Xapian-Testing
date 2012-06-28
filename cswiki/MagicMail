@@ -1,0 +1,87 @@
+
+The MagicMail[tpl]Cite web|url=http://magicmail.linuxmagic.com|title=Registered Trademark[/tpl] email server is a turn-key carrier grade email platform designed specifically for the tier-2 Internet service provider and telco market.[tpl]cite web | title=MagicMail: Features | accessdate=2011-07-15 |url=http://magicmail.linuxmagic.com/features.php[/tpl] It is built to run on a custom LinuxMagic-built operating system based on Linux. MagicMail utilizes open source technologies blended with proprietary technologies to create a mail server supporting SMTP, ESMTP, IMAP, and POP3 protocols. It has integrated antivirus, antispam, management interfaces, and webmail interfaces. It offers full service clustering capabilities resulting in a scalable solution. MagicMail is designed to integrate with current ISP billing solutions and has tools to assist with CALEA compliance. This commercial offering consists of unlimited user licenses and is often combined with plug-ins.
+
+==Main Features==
+
+The software has 4 main features:
+
+===MagicMail Server===
+
+Uses a blend of open-source and proprietary technology written on a Linux based operating system, with a web-based GUI administration system. Support for IMAP/POP3/SSL/SMTP is included. MagicMail can be directly integrated to supported billing platforms.
+
+===Webmail===
+
+Two versions of webmail for different user experiences: Tuxedo and Webmail Lite.
+* Tuxedo - AJAX webmail based on Roundcube but specially engineered for high volume, high availability environments. Intended to emulate the look and feel of a complete desktop email client. Apache/PHP5, and IMAP compatible. Supports drag & drop folders and files.
+* Webmail Lite - Uses secure SSL connections with built-in calendar, spell checker, and various other tools in a minimalistic design.
+
+===Anti-Spam===
+
+Antispam technology based on proprietary MagicSpam technology.
+* Spam Template feature
+* SMTP Mail Server Profiling
+* Blocks spam at SMTP layer to eliminate backscatter
+* Content filtering
+* Global & individual spam setting controls
+* Integrated Blacklist Mastering System (BMS)
+* Inbound/Outbound Rate limiting and blocking
+* Denial of Service protection
+* Quarantine tools such as search, whitelisting, blacklisting, etc.
+
+===Anti-Virus===
+
+Built-in antivirus technology.
+
+==Protocols==
+
+* POP3, POP3-SSL
+* SMTP, SMTP-Authentication, SMTP-SSL
+* IMAP
+* TLS Encryption
+
+==Supported Billing Solutions==
+
+The following is an incomplete list of telecommunication billing platforms that are compatible with the MagicMail platform.
+* Atlas
+* BillMax
+* Emerald
+* Freeside
+* Great Lakes
+* Innovation Solutions
+* iView
+* Martin Group
+* NISC / Quintrex
+* Optigold
+* Orchard
+* Peachtree
+* Playtpus
+* PowerNOC
+* Quickbooks
+* Quintrex
+* Rodopi
+
+==Plugins==
+
+* DNS Administration
+* RADIUS Plugin
+* DHCP Plugin to support IP address assignments from MagicMail
+* ISP Billing integration
+* MyPages Personal Webspace Plugin
+* EZMLM Mailing List Plugins
+
+==See also==
+
+*Comparison of mail servers
+*List of mail servers
+*MagicSpam
+*RoundCube
+
+== References ==
+
+== External links ==
+
+* MagicMail.com
+* MagicMail.Linuxmagic.com
+* LinuxMagic.com
+* Blacklist Mastering System
+

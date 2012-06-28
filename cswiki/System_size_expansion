@@ -1,0 +1,22 @@
+
+The system size expansion, also known as van Kampen's expansion or the Ω-expansion, is a technique pioneered by van Kampenvan Kampen, N. G. (2007) "Stochastic Processes in Physics and Chemistry", North-Holland Personal Library used in the analysis of stochastic processes. Specifically, it allows one to find an approximation to the solution of a nonlinear master equation. This approximation is often formulated in the linear noise approximation, in which the master equation is represented by a Fokker–Planck equation with coefficient matrices determined by the transition rates and stochiometry of the system.
+Less formally, it is normally straightforward to write down a mathematical description of a system where processes happen randomly (for example, radioactive atoms randomly decay in a physical system, or genes are randomly expressed in a biological system). However, these mathematical descriptions are often complicated and difficult to solve for interesting properties of the system (for example, the mean and variance of the number of atoms or genes as a function of time). The system size expansion allows us to approximate a complicated mathematical description by a simpler one that is guaranteed to provide (approximate) results for these properties.
+
+== Preliminaries ==
+
+== Example ==
+
+Then the master equation reads:
+
+== System size expansion ==
+
+If the master equation is nonlinear, it may be impossible to solve analytically. The system size expansion utilises the ansatz that the variance of the steady-state probability distribution of constituent numbers in a population scales like the system size. This ansatz is used to recast the master equation in terms of a linearised expansion in this variance.
+We are now in a position to recast the master equation.
+These terms cancel, due to the macroscopic reaction equation
+which can be written as
+where
+and
+
+== References ==
+
+

@@ -1,0 +1,111 @@
+
+Google requires large computational resources in order to provide their services. This article describes the technological infrastructure behind Google's websites, as presented in the company's public announcements.
+
+==Hardware==
+
+===Original hardware===
+
+The original hardware (circa 1998) that was used by Google when it was located at Stanford University included:"Google Stanford Hardware." Stanford University (provided by Internet Archive). Retrieved on July 10, 2006.
+*Sun Ultra II with dual 200 MHz processors, and 256 MB of RAM. This was the main machine for the original Backrub system.
+*2 × 300 MHz Dual Pentium II Servers donated by Intel, they included 512 MB of RAM and 10 × 9 GB hard drives between the two. It was on these that the main search ran.
+*F50 IBM RS/6000 donated by IBM, included 4 processors, 512 MB of memory and 8 × 9 GB hard drives.
+*Two additional boxes included 3 × 9 GB hard drives and 6 x 4 GB hard drives respectively (the original storage for Backrub). These were attached to the Sun Ultra II.
+*IBM disk expansion box with another 8 × 9 GB hard drives donated by IBM.
+*Homemade disk box which contained 10 × 9 GB SCSI hard drives.
+
+===Current hardware===
+
+Servers are commodity-class x86 PCs running customized versions of Linux. The goal is to purchase CPU generations that offer the best performance per dollar, not absolute performance. How this is measured is unclear but is likely to incorporate running costs of the entire server and CPU power consumption could be significant factor.[tpl]cite book|title=Strategies for E-business|author=Tawfik Jelassi and Albrecht Enders|chapter=Case study 16 — Google|publisher=Pearson Education|year=2004|isbn=0-273-68840-5|isbn=978-0-273-68840-2|page=424[/tpl] Servers as of 2009-2010 consisted of a custom made open top systems containing two processors (each with an 2 cores) a considerable amount of RAM spread over 8 DIMM slots housing double height DIMMS and two SATA hard drives connected through a non-standard ATX sized power supply.Google's secret power supplies According to CNET and to book by Hennessy, each server has a novel 12 volt battery to reduce costs and improve power efficiency Google on-server 12V UPS, 1 April 2009.Computer Architecture, Fifth Edition: A Quantitative Approach, ISBN  978-0123838728; Chapter Six; 6.7 "A Google Warehouse-Scale Computer" page 471 "Designing motherboards that only need a single 12-volt supply so that the UPS function could be supplied by standard batteries associated with each server"
+According to Google their global data center operation electrical power ranges between 500 and 681 megawatts.Google Green infographicsAnalytics Press Growth in data center electricity use 2005 to 2010
+The combined processing power of these servers might reach from 20 to 100 petaflops.Google Surpasses Supercomputer Community, Unnoticed?, May 20, 2008.
+
+===Hardware details considered sensitive===
+
+In a 2008 book,[tpl]cite book|author=Randall Stross|title=Planet Google|isbn=1-4165-4691-X|publisher=Free Press|location=New York|year=2008|page=61[/tpl] reporter Randall Stross wrote: "Google's executives have gone to extraordinary lengths to keep the company's hardware hidden from view. The facilities are not open to tours, not even to members of the press." He wrote this based on interviews with staff members and his experience of visiting the company.
+
+===Network topology===
+
+Details of the Google world wide private networks are not publicly available but Google publications Fiber Optic Communication Technologies: What’s Needed for Datacenter Network OperationsFTTH look ahead — technologies & architectures make references to the "Atlas Top 10" report that ranks Google as the 3rd largest ISP behind Level 3 and Global Crossing.
+In order to run such a large network with direct connections to as many ISP as possible at the lower possible cost Google has a very open peering policy Google ASN15169 on Peering DB and created the peeringdb web-site to simplify the process.Google LACNIC peering policy
+From this site we can see that the Google network can be accessed from 67 public exchange points and 69 different locations across the world. As of May 2012 Google has 882 Gbit/s of public connectivity (which doesn't account for the private peering agreements that Google has with the largest ISP's). This public network is used to distribute content to Google users as well as to crawl the internet to build its search indexes.
+The private side of the network is very secret but recent disclosure from Google Urs Holzle at the Open Network Summit indicate that they use custom built high-radix switch-routers (with a capacity of 128 x 10 Gigabit Ethernet port) for the WAN. Running no less than two routers per datacenter (for redundancy) we can conclude that the Google network scales in the terabit per second range (with two fully loaded routers the bi-sectional bandwidth amount to 1,280 Gbit/s).
+These custom switch-routers are connected to DWDM devices to interconnect data centers and point of presences (PoP) via dark fibre.
+From a datacenter view the network start at the rack level, where Racks are custom-made and contain 40 to 80 servers (20 to 40 1U servers on either side, while new servers are 2U Rackmount systems.Web Search for a Planet: The Google Cluster Architecture (Luiz André Barroso, Jeffrey Dean, Urs Hölzle) Each rack has a switch). Servers are connected via a 1 Gbit/s Ethernet link to the top of rack switch (TOR). TOR switches are then connected to a gigabit cluster switch using multiple gigabit or ten gigabit uplinks.Warehouse size computers The cluster switches themselves are interconnected and form the datacenter interconnect fabric (most likely using a dragonfly design rather than a classic butterfly or flattened butterfly layout Denis Abt High Performance Datacenter Networks: Architectures, Algorithms, and Opportunities).
+From an operation standpoint when a client computer attempts to connect to Google, several DNS servers resolve www.google.com into multiple IP addresses via Round Robin policy. Furthermore, this acts as the first level of load balancing and directs the client to different Google clusters. A Google cluster has thousands of servers and once the client has connected to the server additional load balancing is done to send the queries to the least loaded web server. This makes Google one of the largest and most complex content delivery networks.[tpl]cite book|title=Network Programming in .NET|author=Fiach Reid|pages=251–253|chapter=Case Study: The Google search engine|publisher=Digital Press|year=2004|isbn=978-1-55558-315-6[/tpl]
+
+== Data centers ==
+
+Google now officially discloses location and some details on their production data centers.Google data center landing pageGoogle Data center locations
+Google has numerous data centers scattered around the world. At least 12 significant Google data center installations are located in the United States. The largest known centers are located in The Dalles, Oregon; Atlanta, Georgia; Reston, Virginia; Lenoir, North Carolina; and Moncks Corner, South Carolina.[tpl]cite web| url = http://www.datacenterknowledge.com/archives/2008/03/27/google-data-center-faq/ | title =Google Data Center FAQ | author = Rich Miller| work = Data Center Knowledge | date= March 27, 2008 | accessdate = 2009-03-15[/tpl] In Europe, the largest known centers are in Eemshaven and Groningen in the Netherlands and Mons, Belgium.  Google's Oceania Data Center is claimed to be located in Sydney, Australia.
+[tpl]cite web| url = http://www.itnews.com.au/News/168772,found-google-australias-secret-data-network.aspx | title =Found: Google Australia's secret data network | author = Brett Winterford| work = ITNews | date= March 5, 2010 | accessdate = 2010-03-20[/tpl]
+
+===Project 02===
+
+One of the larger Google data centers is located in the town of The Dalles, Oregon, on the Columbia River, approximately 80 miles from Portland. Codenamed "Project 02", the $600 millionGoogle "The Dalles, Oregon Data Center" Retrieved on January 3, 2011. complex was built in 2006 and is approximately the size of two football fields, with cooling towers four stories high.Markoff, John; Hansell, Saul. "Hiding in Plain Sight, Google Seeks More Power." New York Times. June 14, 2006. Retrieved on October 15, 2008. The site was chosen to take advantage of inexpensive hydroelectric power, and to tap into the region's large surplus of fiber optic cable, a remnant of the dot-com boom. A blueprint of the site has appeared in print.[ref]Strand, Ginger.
+"Google Data Center" Harper's Magazine. March 2008. Retrieved on  October 15, 2008.[/ref]
+
+=== Summa papermill ===
+
+In February 2009, Stora Enso announced that they had sold the Summa paper mill in Hamina, Finland to Google for 40 million Euros.[tpl]cite web| url = http://www.storaenso.com/media-centre/press-releases/2009/02/Pages/stora-enso-divests-summa-mill.aspx | title = Stora Enso divests Summa Mill premises in Finland for EUR 40 million | publisher = Stora Enso | date= 2009-02-12 | accessdate = 12.02.2009[/tpl][tpl]Cite journal | url = http://www.kauppalehti.fi/5/i/talous/uutiset/etusivu/uutinen.jsp?oid=2009/02/18987 | title = Stooora yllätys: Google ostaa Summan tehtaan | journal = Kauppalehti | date = 2009-02-12 | place =Helsinki | accessdate = 2009-02-12 | language = [tpl]fi[/tpl][/tpl] Google plans to invest 200 million euros on the site to build a data center.[tpl]Cite journal | url = http://www.taloussanomat.fi/talous/2009/03/04/google-investoi-200-miljoonaa-euroa-haminaan/20095951/133 | title = Google investoi 200 miljoonaa euroa Haminaan | journal = Taloussanomat | date = 2009-02-04 | place = Helsinki | accessdate = 2009-03-15 | language = [tpl]fi[/tpl][/tpl] For Google the reason to choose this location was the availability of renewable energy close by.Finland - First Choice for Siting Your Cloud Computing Data Center. Accessed 4 August 2010.
+
+=== Modular Container Data Centers ===
+
+Since 2005,http://www.theregister.co.uk/2009/04/10/google_data_center_video Google has been moving to a containerized modular data center. Google filed a patent application for this technology in 2003.[tpl]cite web|url=http://patft.uspto.gov/netacgi/nph-Parser?Sect2=PTO1&Sect2=HITOFF&p=1&u=/netahtml/PTO/search-bool.html&r=1&f=G&l=50&d=PALL&RefSrch=yes&Query=PN/7278273 |title=United States Patent: 7278273 |publisher=Patft.uspto.gov |date= |accessdate=2012-02-17[/tpl]
+
+==Software==
+
+Most of the software stack that Google uses on their servers was developed in-house.[tpl]cite book|title=An Introduction to Search Engines and Web Navigation|author=Mark Levene|publisher=Pearson Education|year=2005|isbn=0-321-30677-5|isbn=978-0-321-30677-7|page=73[/tpl] It is believed that C++, Java, and Python are favored over other programming languages.[tpl]cite web|url=http://www.artima.com/weblogs/viewpost.jsp?thread=143947 |title=Python Status Update |publisher=Artima.com |date=2006-01-10 |accessdate=2012-02-17[/tpl] For example, the back-end of Gmail is written in Java and the back-end of Google Search is written in C++.[tpl]cite web|url=http://panela.blog-city.com/python_at_google_greg_stein__sdforum.htm |title=Warning |publisher=Panela.blog-city.com |date= |accessdate=2012-02-17[/tpl]  Google has acknowledged that Python has played an important role from the beginning, and that it continues to do so as the system grows and evolves.[tpl]cite web|url=http://python.org/about/quotes/ |title=Quotes about Python |publisher=Python.org |date= |accessdate=2012-02-17[/tpl]
+The software that runs the Google infrastructure includes:[tpl]cite web|author=Saturday |url=http://highscalability.com/google-architecture |title=Google Architecture |publisher=High Scalability |date=2008-11-22 |accessdate=2012-02-17[/tpl]
+* Google Web Server (GWS) — Custom Linux-based Web server that Google uses for its online services.
+* Storage systems:
+** Google File System and its successor, ColossusAndrew Fikes. Storage Architecture and Challenges. Google TechTalk. July 29, 2010.
+** BigTable — structured storage built upon GFS/Colossus
+** Spanner — planet-scale structured storage system, next generation of BigTable stackJeff Dean. (2009). Design, Lessons and Advice from Building Large Distributed Systems.
+* Chubby lock service
+* Borg — job scheduling and monitoring systemIntel Corp. Seizing the Open Source Cloud Stack Opportunity. See slide "Proprietary Cloud Computing Stacks".
+* MapReduce and Sawzall programming language
+* Indexing/search systems:
+** TeraGoogle — Google's large search index (launched in early 2006), designed by Anna Paterson of Cuil fame.[tpl]cite web|url=http://www.crunchbase.com/person/anna-patterson |title=Anna Patterson - CrunchBase Profile |publisher=Crunchbase.com |date= |accessdate=2012-02-17[/tpl]
+** Caffeine (Percolator) — continuous indexing system (launched in 2010).
+Google has developed several abstractions which it uses for storing most of its data:[tpl]cite web|url=http://www.eweekeurope.co.uk/news/news-it-infrastructure/google-developing-caffeine-storage-system-1620 |title=Google Developing Caffeine Storage System | TechWeekEurope UK |publisher=Eweekeurope.co.uk |date=2009-08-18 |accessdate=2012-02-17[/tpl]
+* Protocol buffers — "Google's lingua franca for data",[tpl]cite web|url=http://code.google.com/apis/protocolbuffers/docs/overview.html |title=Developer Guide - Protocol Buffers - Google Code |publisher=Code.google.com |date= |accessdate=2012-02-17[/tpl] a binary serialization format which is widely used within the company.
+* SSTable (Sorted Strings Table) — a persistent, ordered, immutable map from keys to values, where both keys and values are arbitrary byte strings. It is also used as one of the building blocks of BigTable.[tpl]dead link|date=February 2012[/tpl]
+* RecordIO — a sequence of variable sized records.[tpl]cite web|author=Posted by windley on June 24, 2008 1:10 PM |url=http://www.windley.com/archives/2008/06/velocity_08_storage_at_scale.shtml |title=Phil Windley's Technometria | Velocity 08: Storage at Scale |publisher=Windley.com |date=2008-06-24 |accessdate=2012-02-17[/tpl][tpl]cite web|url=http://groups.google.com/group/protobuf/browse_thread/thread/ee27572aef9da70a |title=Message limit - Protocol Buffers | Google Groups |publisher=Groups.google.com |date= |accessdate=2012-02-17[/tpl]
+
+===Software development practices===
+
+Most operations are read-only. When an update is required, queries are redirected to other servers, so as to simplify consistency issues. Queries are divided into sub-queries, where those sub-queries may be sent to different ducts in parallel, thus reducing the latency time.
+To lessen the effects of unavoidable hardware failure, software is designed to be fault tolerant. Thus, when a system goes down, data is still available on other servers, which increases reliability.
+
+==Search infrastructure==
+
+===Index===
+
+Like most search engines, Google indexes documents by building a data structure known as inverted index. Such an index allows obtaining a list of documents by a query word. The index is very large due to the number of documents stored in the servers.
+The index is partitioned by document IDs into many pieces called shards. Each shard is replicated onto multiple servers. Initially, the index was being served from hard disk drives, like it's done in traditional information retrieval (IR) systems. Google dealt with increasing volume of queries by increasing number of replicas of each shard and thus increasing number of servers. Soon they had found that they had enough servers to keep a copy of the whole index in main memory (although with low replication or no replication at all), and in early 2001 Google switched to an in-memory index system. This switch had "radically changed many design parameters" of their search system, and allowed them to enjoy a big increase in throughput and a big decrease in latency of queries.[tpl]cite web|url=http://research.google.com/people/jeff/WSDM09-keynote.pdf |title=Jeff Dean's keynote at WSDM 2009 |format=PDF |date= |accessdate=2012-02-17[/tpl]
+In June 2010 Google rolled out a next-generation indexing and serving system called "Caffeine" which can continuously crawl and update search index. Previously, Google updated its search index in batches using a series of MapReduce jobs. The index was separated into several layers, some of which were updated faster than the others, and the main layer wouldn't be updated for as long as two weeks. With Caffeine the entire index is updated incrementally on a continuous basis. Later Google revealed a distributed data processing system called "Percolator"Daniel Peng, Frank Dabek. (2010). Large-scale Incremental Processing Using Distributed Transactions and Notifications. Proceedings of the 9th USENIX Symposium on Operating Systems Design and Implementation. which is said to be the basis of Caffeine indexing system.The Register. Google Caffeine jolts worldwide search machineThe Register. Google Percolator – global search jolt sans MapReduce comedown
+Some details about Google's inverted index compression schemes have been made public.GroupVarInt encoding from Jeff's talk is also described in the following sources:  1) U.S. patent 7068192, filed in 2004, issued in 2006;  2) Boulos Harb, Ciprian Chelba, Jeffrey Dean, Sanjay Ghemawat. (2009). Back-Off Language Model Compression. Proceedings of Interspeech 2009, pp. 325-355.
+
+===Server types===
+
+Google's server infrastructure is divided in several types, each assigned to a different purpose:[tpl]cite book|title=Future of Google Earth|author=Chandler Evans|chapter=Google Platform|publisher=Madison Publishing Company|year=2008|isbn=1-4196-8903-7|isbn=978-1-4196-8903-1|page=299[/tpl][tpl]cite book|title=Google Power|author=Chris Sherman|pages=10–11|publisher=McGraw-Hill Professional|year=2005|isbn=0-07-225787-3|isbn=978-0-07-225787-8|chapter=How Google Works[/tpl][tpl]cite book|chapter=How Google Works|pages=17–18|title=Googlepedia|author=Michael Miller|publisher=Pearson Technology Group|year=2007|isbn=0-7897-3639-X|isbn=978-0-7897-3639-0[/tpl]
+*Google web servers coordinate the execution of queries sent by users, then format the result into an HTML page. The execution consists of sending queries to index servers, merging the results, computing their rank, retrieving a summary for each hit (using the document server), asking for suggestions from the spelling servers, and finally getting a list of advertisements from the ad server.
+*Data-gathering servers are permanently dedicated to spidering the Web. Google's web crawler is known as GoogleBot.  They update the index and document databases and apply Google's algorithms to assign ranks to pages.
+*Each index server contains a set of index shards. They return a list of document IDs ("docid"), such that documents corresponding to a certain docid contain the query word. These servers need less disk space, but suffer the greatest CPU workload.
+*Document servers store documents. Each document is stored on dozens of document servers. When performing a search, a document server returns a summary for the document based on query words. They can also fetch the complete document when asked. These servers need more disk space.
+*Ad servers manage advertisements offered by services like AdWords and AdSense.
+*Spelling servers make suggestions about the spelling of queries.
+
+==References==
+
+== Further reading ==
+
+* [tpl]cite journal|journal=IEEE Micro|volume=23|pages=22–28|date=March/April 2002|author=L.A. Barroso, J. Dean, and U. Hölzle|title=Web search for a planet: The Google cluster architecture|doi=10.1109/MM.2003.1196112|format=PDF|url=http://dcagency.netfirms.com./m2022.pdf|issue=2[/tpl]
+* Shankland, Stephen, CNET news "Google uncloaks once-secret server." April 1, 2009.
+
+==External links==
+
+*Google Research Publications
+*Web Search for a Planet: The Google Cluster Architecture (Luiz André Barroso, Jeffrey Dean, Urs Hölzle)
+*Underneath the Covers at Google: Current Systems and Future Directions (Talk given by Jeff Dean at Google I/O conference in May 2008)
+

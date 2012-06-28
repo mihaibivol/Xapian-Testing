@@ -1,0 +1,23 @@
+
+Meerkat is a BitTorrent Client written in C++ and C#. Meerkat is freeware and closed source, it was written and released by '47 Software'.
+
+==History==
+
+==Release History==
+
+== Features ==
+
+*Full implementation of the BitTorrent specification
+*BitTorrent protocol encryption
+*All connections encrypted by default
+*Port forwarding via UPnP and NAT PMP
+*DHT
+*Stop on completion (do not seed mode)
+
+==External links==
+
+*The Meerkat web site
+
+==References==
+
+

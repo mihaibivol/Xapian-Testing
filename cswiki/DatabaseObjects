@@ -1,0 +1,24 @@
+
+==Database Objects==
+
+The DatabaseObjects library is an open source tool for mapping relation database systems (MySQL, SQL Server, SQL Server Compact Edition, Microsoft Access, Pervasive and EffiProz) to an object-oriented structure. The library can simplify the development and maintenance of small and large systems by providing a mechanism to consolidate business logic, maintain data integrity, increasing productivity and minimise errors. The library is available for VB6 and .NET development environments.
+
+===How Does it Work===
+
+The DatabaseObjects library contains a large set of classes that interface to the underlying database system automatically generating the required SELECT, UPDATE, INSERT and DELETE commands. It also supports CREATE/ALTER TABLE, CREATE/ALTER INDEX, table joins, arithmetic expressions, aggregates, grouping, ordering, unions, support for all common data types and more. The .NET and VB6 versions of the library both support access to Microsoft Access, SQL Server and MySQL database systems. The Pervasive database system is only supported in the .NET version of the library.
+
+===Using the Library===
+
+Implementing a database table using classes and the DatabaseObjects library involves creating two classes. The first class, represents a database table, while the second class represent each database record in the table. For the classes to "hook into" the library the first class (or collection class) must inherit from DatabaseObjects while the second class must inherit from DatabaseObject. By inheriting from DatabaseObjects the collection class can specify which table it is tied to, the table's unique field, whether it should only represent a subset of the table, how the table should be sorted, if there are any related tables, etc. while the second class can specify how a database record is to be copied to and from the class. The MustOverride functions in the DatabaseObjects class are used to automatically generate the appropriate SQL statements for common database functions such as inserting a new record, updating an existing record, searching through a table, enumerating through a set of records, returning the number of records in a table, etc.
+The diagram below depicts how a Products database table might be implemented using the library. Two classes would be required; a Products class that inherits from DatabaseObjects and a Product class that inherits from DatabaseObject. Once the MustOverride functions have been implemented the library can then be used with the DatabaseObjects library's set of predefined, generic functions to automatically generate and execute the necessary SQL statements. For example, the Count property in the Products class could call one of the predefined DatabaseObjects functions: DatabaseObjects.ObjectsCount. This function creates an SQL statement using the value returned from DatabaseObjects.TableName (in this case "Products") to generate the following:
+ SELECT COUNT(*)
+ FROM Products
+The SQL statement is then executed and the result returned. If the DatabaseObjects.ObjectsCount function was called by passing a Customers class which had implemented DatabaseObjects.TableName to return "Customers" then the DatabaseObjects.ObjectsCount function would generate and execute the statement:
+ SELECT COUNT(*)
+ FROM Customers
+This technique is used by the DatabaseObjects library and it's set of generic functions to provide the mapping between a relational database and an object-oriented structure.
+
+==External links==
+
+* DatabaseObjects
+

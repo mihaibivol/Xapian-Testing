@@ -1,0 +1,22 @@
+
+Literature-based discovery refers to the use of papers and other academic publications (the "literature") to find new relationships between existing knowledge (the "discovery"). The technique was pioneered by Don R. Swanson in the 1980s and has since seen widespread use. 
+Literature-based discovery does not generate new knowledge through laboratory experiments, as is customary for empirical sciences. Instead it seeks to connect existing knowledge from empirical results by bringing to light relationships that are implicated and "neglected".[tpl]cite journal | last1 = Swanson | first1 = Don | year = 1988 | title = Migraine and Magnesium: Eleven Neglected Connections | url = | journal = Perspectives in Biology and Medicine | volume = 31 | issue = 4| pages = 526–557 [/tpl] It is marked by empiricism and rationalism in concert or consilience.
+
+==Swanson linking==
+
+Swanson linking is a term proposed in 2003Stegmann J, Grohmann G. Hypothesis generation guided by co-word clustering. Scientometrics. 2003;56:111–135. As quoted by Bekhuis that refers to connecting two pieces of knowledge previously thought to be unrelated.[tpl]cite journal|last=Bekhuis|first=Tanja|title=Conceptual biology, hypothesis discovery, and text mining: Swanson's legacy|publisher=BioMed Central Ltd.|year=2006|pmc=1459187|pmid=16584552|doi=10.1186/1742-5581-3-2|volume=3|journal=Biomed Digit Libr|pages=2[/tpl] For example, it may be known that illness A is caused by chemical B, and that drug C is known to reduce the amount of chemical B in the body. However, because the respective articles were published separately from one another (called "disjoint data"), the relationship between illness A and drug C may be unknown. Swanson linking aims to find these relationships and report them.
+
+==See also==
+
+*Implicature
+*Latent semantic indexing
+*Metaphor
+
+==References==
+
+* Chen, Ran; Hongfei Lin & Zhihao Yang (2011). "Passage retrieval based hidden knowledge discovery from biomedical literature." Expert Systems with Applications: An International Journal (August, 2011), vol. 38, no. 8, pp. 9958–9964.
+*:  Abstract: ... automatic extraction of the implicit biological relationship from biomedical literature contributes to building the biomedical hypothesis that can be explored further experimentally. This paper presents a passage retrieval based method which can explore the hidden connection from MEDLINE records. ... Experimental results show this method can significantly improve the hidden knowledge discovery performance. @ ACM DL
+; Further readings
+* Wilson, Patrick (1977). Public Knowledge, Private Ignorance: Toward a Library and Information Policy. Greenwood Publishing Group. p. 156. ISBN 0-8371-9485-7.
+; Footnotes
+

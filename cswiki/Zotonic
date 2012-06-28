@@ -1,0 +1,32 @@
+
+Zotonic is an open source CMS and web framework built in Erlang and released under the terms of the Apache License 2.0. The CMS part of Zotonic is designed to be user friendly and hides development tasks from the user. One of Zotonic's primary goals is speed, and it claims to be up to ten times faster than PHP-based frameworks. It's also easily extended with modules, scomps, filters and models.
+
+== Features ==
+
+* Fast: Zotonic claims to be 10 times faster than PHP-based content management systems.
+* Simple user interface
+* Easy to design through a templating system
+* Extensible
+* Event-driven: It is possible to build event-driven Ajax websites without writing JavaScript.
+* Plugabble access control modules. 
+
+==Used technologies and methods==
+
+* Erlang (programming language)
+* Comet
+* PostgreSQL
+* jQuery
+* ErlyDTL (an improved version there of)
+* Model–view–controller (MVC)
+* Modular design
+
+==External links==
+
+* Zotonic — Zotonic homepage
+* Google Code project
+* Linux Journal, Issue 204, p. 58 (June 2011) "Zotonic: The Erlang CMS" 
+* ReadWriteWeb, 10 May 2011, The Next Drupal? Zotonic: a modern CMS written in Erlang
+
+==References==
+
+

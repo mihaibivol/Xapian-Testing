@@ -1,0 +1,41 @@
+
+The openPDC is a complete set of applications for processing streaming time-series data in real-time. The name stands for "open source phasor data concentrator" and was originally designed for the concentration and management of real-time streaming synchrophasors. Due to the system's modular design, the openPDC can be classified as a generic event stream processor.
+
+==History==
+
+The openPDC is based on the SuperPDC which was developed by the Tennessee Valley Authority starting in 2004. The openPDC officially launched on October 7, 2009.Jim Allen (7 October 2009). TVA Opens Data Collection Software for Industry Use. Retrieved 8 June 2010. The first stable release of the openPDC was made available on January 28, 2010.openPDC v1.0 Release. Retrieved 8 June 2010. Then on February 23, 2010, AREVA T&D announced that they would be providing commercial support for the openPDC. Finally, on April 1, 2010, the Grid Protection Alliance inherited development of the openPDC and entered into a contract with the North American Electric Reliability Corporation in an effort to further enable its use as a distributed system.
+
+==Operation==
+
+The phasor data concentrator runs as a Windows service. The service is responsible for managing the life cycle of adapters that create and process the streaming phasor measurements. Adapters are split into three layers:openPDC Single Page Overview. Retrieved 8 June 2010.How to Create a Custom Adapter. Retrieved 9 June 2010.
+# The input adapter layer is typically responsible for receiving data from an outside source such as a phasor measurement unit. That data is used to create measurements which are sent to other adapters to be processed or archived.
+# The action adapter layer is typically responsible for concentration and processing of the input measurements. Adapters in this layer can also introduce new measurements to the system, just like adapters in the input adapter layer.
+# The output adapter layer is typically responsible for archival of measurements received from the input adapter layer and the action adapter layer.
+These adapters can be configured using any one of three supported database systems: Microsoft SQL Server, MySQL, and Microsoft Access.openPDC Getting Started: Set up the database. Retrieved 9 June 2010.
+
+==Features==
+
+The openPDC implements a number of standard phasor protocols which can be used to receive data from devices. The supported protocols are IEEE C37.118 (v1.0 and Draft 6), IEEE 1344, BPA PDCstream, FNET, SEL Fast Message, and Macrodyne. There is also a built-in concentration engine which sorts the real-time data into frames based on the timestamp associated with each measurement. The sorted measurements can then be streamed to other applications using either IEEE C37.118 or BPA PDCstream.How to Use the openPDC Manager: Configuring outputs. Retrieved 10 June 2010. The system is capable of concentrating over one billion measurements per day coming from over 100 phasor measurement units across the Eastern Interconnection.James Ritchie Carroll (May 2007). TVA SPDC Update, page 8. Retrieved 15 June 2010.Josh Patterson (2 June 2009). The Smart Grid: Hadoop at the Tennessee Valley Authority (TVA). Retrieved 15 June 2010.
+The project includes a historian for data archival. The files produced by the historian can later be analyzed using Hadoop. The historian is also designed to be used in distributed systems, having a single node dedicated to archival and several others sending concentrated measurements to the central archive. This design even allows for its use in any distributed system enabling one PDC to filter measurements to another that is running a resource intensive adapter.James Ritchie Carroll. Updates for Simplification of of Scale-Out. Retrieved 11 June 2010. The local historian provides web services which can be used to monitor the data being archived in real-time.openPDC Getting Started: Using the in-process historian adapter. Retrieved 10 June 2010.How to Use the openPDC Manager: Viewing real-time data. Retrieved 10 June 2010.
+The data quality monitoring adapters provide information about measurements entering the concentrator that have flat-lined, gone out of a specified range, or entered the concentrator with a bad timestamp.Data Quality Monitoring Adapters. Retrieved 10 June 2010.
+
+==Applications==
+
+Applications included in the openPDC project:
+* The openPDC Console is an application that can be used to send and receive messages between the openPDC service and a client machine.openPDC Getting Started: Using the openPDC Console. Retrieved 9 June 2010.Introducing the openPDC Management System. Retrieved 9 June 2010.
+* The openPDC Manager is a utility intended to allow remote access and simplify adapter configurations in the database.
+* The PMU Connection Tester can be used to view a live stream of data in one of the supported protocols in order to test that the stream is being received.openPDC Getting Started: Running the PMU Connection Tester. Retrieved 9 June 2010.PMU Connection Tester. Retrieved 9 June 2010. This tool has been used around the globe and can be installed separately from the rest of the suite.Board Technology Committee (23 October 2008). NERC Conference Call Agenda. Retrieved 7 July 2010.June 2010 openPDC v1.1 Release. Retrieved 7 July 2010.
+* The NASPI PMU Registry allows users to register phasor-related devices to one central location to allow access to information about existing devices and their configurations.NASPI PMU Registry. Retrieved 14 June 2010.
+* ConfigCrypter is a utility for encrypting options in the configuration files.openPDC Getting Started: Encrypt the configuration settings. Retrieved 9 June 2010.
+* ConfigurationEditor provides a simple GUI based application used to modify the XML configuration files.
+
+==See also==
+
+* Complex event processing
+
+==References==
+
+==External links==
+
+* openPDC project homepage
+

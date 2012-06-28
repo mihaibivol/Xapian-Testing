@@ -1,0 +1,35 @@
+
+In physics, the word system has a technical meaning, namely, it is the portion of the physical universe chosen for analysis.  Everything outside the system is known as the environment, which in analysis is ignored except for its effects on the system. The cut between system and the world is a free choice, generally made to simplify the analysis as much as possible.  An isolated system is one which has negligible interaction with its environment.
+Often a system in this sense is chosen to correspond to the more usual meaning of system, such as a particular machine. But physical systems are often more esoteric: an atom, the water in a lake, or indeed the water in the left-hand half of a lake can all be considered as physical systems.  In the study of quantum decoherence the "system" may refer to the macroscopic properties of an object (e.g. the position of a pendulum bob), while the relevant "environment" may be the internal degrees of freedom, described classically by the pendulum's thermal vibrations.
+
+== Complexity in physical systems ==
+
+The complexity of a physical system is equal to the probability of it being in a particular state vector.
+If one considers a classical Newtonian ball situation with a number of perfectly moving physical bodies bouncing off the walls of a container, the system-state probability does not change over time. The entropy of the system changes over time, but the probability of the state vector does not change. One can periodically evaluate the complexity of this system, and the complexity of this system does not change.
+In a physical system, a lower probability state vector is equivalent to a higher complexity. A self sustaining low probability state vector allows the physical system to remain in a higher complexity state. The study of such systems as applied to our universe is in its infancy and speculative in nature, but it appears that there are some low probability systems that are able to sustain themselves through time.
+In mathematical systems, one can consider the complexity of particular states more easily. For example, if one considers a Turing machine that generates random symbols and then uses them to create a new sequences of symbols, the complexity of the final string of symbols is nearly mathematically equivalent to the minimum size of a string required to produce a larger string on a Turing machine as defined by algorithmic information theory.
+
+== The closed systems of concepts in physics ==
+
+Heisenberg notes that in physics, there are actually four, possibly five, different conceptual developments of closed systems of concepts:
+* the first began with reference to Newtonian mechanics, 
+* the second with nineteenth-century thermodynamics, 
+* the third throughout the twentieth century with Hendrik Lorentz, Einstein, and Hermann Minkowski, 
+* and finally with conceptual developments in quantum mechanics.
+The third and fourth stages eventually led to more open systems concepts,Heisenberg (1999) Physics and Philosophy, New York:  Prometheus Books, pp. 93-109. but closed/open system concepts really need to be considered in relation to work since that time if one were to define further conceptual developments.
+
+== See also ==
+
+* Conceptual system
+* Phase space
+* Physical phenomenon
+* Thermodynamic system
+*Physical ontology
+
+== References ==
+
+== External links ==
+
+* Conceptual vs Physical Systems
+* Research in simulation and modeling of various physical systems
+

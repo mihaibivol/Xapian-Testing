@@ -1,0 +1,39 @@
+
+XML Retrieval, or XML Information Retrieval, is the content-based retrieval of documents structured with XML (eXtensible Markup Language). As such it is used for computing relevance of XML documents.[tpl]Cite web|url=ftp://ftp.tm.informatik.uni-frankfurt.de/pub/papers/ir/An%20Architecture%20for%20XML%20Information%20Retrieval%20in%20a%20Peer-to-Peer%20Environment_2007.pdf|title=An Architecture for XML Information Retrieval in a Peer-to-Peer Environment|last=Winter|first=Judith|coauthors=Drobnik, Oswald|date=November 9, 2007|publisher=ACM|accessdate=2009-02-10[/tpl]
+
+==Queries==
+
+Most XML retrieval approaches do so based on techniques from the information retrieval (IR) area, e.g. by computing the similarity between a query consisting of keywords (query terms) and the document. However, in XML-Retrieval the query can also contain structural hints. So-called "content and structure" (CAS) queries enable users to specify what structure the requested content can or must have.
+
+==Exploiting XML structure==
+
+Taking advantage of the self-describing structure of XML documents can improve the search for XML documents significantly. This includes the use of CAS queries, the weighting of different XML elements differently and the focused retrieval of subdocuments.
+
+==Ranking==
+
+Ranking in XML-Retrieval can incorporate both content relevance and structural similarity, which is the resemblance between the structure given in the query and the structure of the document. Also, the retrieval units resulting from an XML query may not always be entire documents, but can be any deeply nested XML elements, i.e. dynamic documents. The aim is to find the smallest retrieval unit that is highly relevant. Relevance can be defined according to the notion of specificity, which is the extent to which a retrieval unit focuses on the topic of request.[tpl]Cite web|url=http://www.cs.otago.ac.nz/homepages/andrew/2006-10.pdf|title=Overview of INEX 2006|last=Malik|first=Saadia|coauthors=Trotman, Andrew; Lalmas, Mounia; Fuhr, Norbert|year=2007|work=Proceedings of the Fifth Workshop of the INitiative for the Evaluation of XML Retrieval|accessdate=2009-02-10[/tpl]
+
+==Existing XML search engines==
+
+An overview of two potential approaches is available.[tpl]Cite web|url=http://www.sigmod.org/record/issues/0612/p16-article-yahia.pdf|title=XML Search: Languages, INEX and Scoring|last=Amer-Yahia|first=Sihem|coauthors=Lalmas, Mounia|year=2006|publisher=SIGMOD Rec. Vol. 35, No. 4|accessdate=2009-02-10[/tpl] [tpl]Dead link|date=October 2010|bot=H3llBot[/tpl][tpl]Cite web|url=http://66.102.1.104/scholar?q=cache:R6ZYFNoTRrUJ:citeseerx.ist.psu.edu/viewdoc/download%3Fdoi%3D10.1.1.109.5986%26rep%3Drep1%26type%3Dpdf|title=XML Retrieval: A Survey|last=Pal|first=Sukomal|date=June 30, 2006|publisher=Technical Report, CVPR|accessdate=2009-02-10[/tpl] The INitiative for the Evaluation of XML-Retrieval (INEX) was founded in 2002 and provides a platform for evaluating such algorithms. Three different areas influence XML-Retrieval:[tpl]Cite web|url=http://www.is.informatik.uni-duisburg.de/bib/pdf/ir/Fuhr_etal:02a.pdf|title=INEX: Initiative for the Evaluation of XML Retrieval|last=Fuhr|first=Norbert|coauthors=Gövert, N.; Kazai, Gabriella; Lalmas, Mounia|year=2003|work=Proceedings of the First INEX Workshop, Dagstuhl, Germany, 2002|publisher=ERCIM Workshop Proceedings, France|accessdate=2009-02-10[/tpl]
+
+===Traditional XML query languages===
+
+Query languages such as the W3C standard XQuery[tpl]Cite web|url=http://www.w3.org/TR/2007/REC-xquery-20070123/|title=XQuery 1.0: An XML Query Language|last=Boag|first=Scott|coauthors=Chamberlin, Don; Fernández, Mary F.; Florescu, Daniela; Robie, Jonathan; Siméon, Jérôme|date=23 January 2007|work=W3C Recommendation|publisher=World Wide Web Consortium|accessdate=2009-02-10[/tpl] supply complex queries, but only look for exact matches. Therefore, they need to be extended to allow for vague search with relevance computing. Most XML-centered approaches imply a quite exact knowledge of the documents' schemas.[tpl]Cite journal|url=http://google.com/search?q=cache:KHBo9BRjO7QJ:www.cis.uni-muenchen.de/people/Meuss/Pub/JASIS02.ps.gz|title=Querying and Ranking XML Documents|last=Schlieder|first=Torsten|coauthors=Meuss, Holger|year=2002|work= Journal of the American Society for Information Science and Technology, Vol. 53, No. 6|accessdate=2009-02-10[/tpl]
+
+===Databases===
+
+Classic database systems have adopted the possibility to store semi-structured data and resulted in the development of XML databases. Often, they are very formal, concentrate more on searching than on ranking, and are used by experienced users able to formulate complex queries.
+
+===Information retrieval===
+
+Classic information retrieval models such as the vector space model provide relevance ranking, but do not include document structure; only flat queries are  supported. Also, they apply a static document concept, so retrieval units usually are entire documents. They can be extended to consider structural information and dynamic document retrieval. Examples for approaches extending the vector space models are available: they use document subtrees (index terms plus structure) as dimensions of the vector space.[tpl]Cite web|url=http://www.cobase.cs.ucla.edu/tech-docs/sliu/SIGIR04.pdf|title=Configurable Indexing and Ranking for XML Information Retrieval|last=Liu|first=Shaorong|coauthors=Zou, Qinghua; Chu, Wesley W.|year=2004|work=SIGIR'04|publisher=ACM|accessdate=2009-02-10[/tpl]
+
+==See also==
+
+*Document retrieval
+*Information retrieval applications
+
+==References==
+
+

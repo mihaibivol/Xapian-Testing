@@ -1,0 +1,15 @@
+
+As Easy As was a shareware spreadsheet for MS-DOS developed in the mid 1980s which endured until the end of the MS-DOS era of computing. (The software was also rewritten for Windows.) The name is a play on the phrase "as easy as 1-2-3", a reference to the dominant MS-DOS spreadsheet, Lotus 1-2-3. The program was sold by Trius, Inc. (Not to be confused with Tritus, the makers of the Tritus SPF clone of the mainframe ISPF interface and editor.)
+As Easy As is historically significant as one of the earliest and most useful shareware programs that competed with commercial software on the basis of both price and features. For small businesses and personal users, the price of Lotus 1-2-3 was prohibitive, and As Easy As provided basic spreadsheet functionality for about a tenth of the price. This paradigm of undercutting the spreadsheet market leader would be adopted by Borland's Quattro Pro (which was not released until 1990). Subsequent versions of As Easy As became as powerful as any MS-DOS spreadsheet. Like Quattro Pro, As Easy As combined some elements of the 1-2-3 user interface, while modernizing them. (One such modernization is the use of pull-down menus.)
+Cell formulas are very similar to Lotus 1-2-3, including the letter-number addressing scheme (A1, B2, etc.) and the @function syntax (e.g.,@SUM(A1..A10) using the ".." range separator syntax also like Lotus 1-2-3.)
+The product included a detailed electronic manual describing the spreadsheet's functions and some basic MS-DOS operations.
+Updated versions of As Easy As were made available at frequent intervals.  Because these new versions often included valuable new capabilities, users were encouraged to support the continuing development of the program.  It is also worth mentioning that the graphic defaults were more attuned to science and engineering users than to business users.  This enabled a user to rapidly create x-y graphs of data, whereas the major commercial spreadsheets of the Dos era (Lotus 1-2-3 and Quattro) by default produced more business-oriented graphs.  A great many of the calculation functions also were appealing to the science and engineering markets, such as improved capabilities for regression analysis and matrix operations.
+The earliest preserved historical version on the Internet from the MS-DOS shareware era is version 3 from 1987. (See link below.)
+
+==External links==
+
+* A Windows version is still available as a free product. (No longer available except here.)
+* DOS version and Draft Choice 2 are also  free products now.
+* As-Easy-As support forum
+* Version 3.0 from 1987 is at the abandonware website Vetusware, along with a later version. (Assuming that, if the Windows version is free, then the historical versions would also be free.)
+

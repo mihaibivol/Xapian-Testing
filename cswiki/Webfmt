@@ -1,0 +1,49 @@
+
+Webfmt, is a platform-independent web-based Ajax File Manager for website, released as open source software under the GPL, LGPL, MPL by Fbis source.  Webfmt is designed to easily integrate with TinyMce,CKEditor,etc.
+
+==Features==
+
+* Folders tree navigation:intuitive for all users
+* Quality image thumbnails,makes it quickly to find file.
+* Full source code included for the server side
+* Multiple files upload at once in firefox4.0+,Chrome12.0+
+* Drag-and-drop file upload in firefox4.0+,Chrome12.0+
+* Uploads are cancellable
+* No external dependencies
+* Doesn't use Flash
+* Support single or multiple files selected by configuration or params
+* Support to show "ok,cancel" button by params
+* No page refreshes:quick responses
+* Sensitive context menus for files and folders
+* Full user control:create, rename, copy, move and delete folders and files
+* Full developer control:customized interfaces are provided for developer
+* Lightweight interface
+* Fully working with http
+* Easy to integrate with web editors (CKEditor,TinyMCE)
+* Secure: All uploaded files are checked by configure, uploaded files can be renamed automatically, upload file size and type can be restricted by configure. All file operations are limited in the base dir.User does't switch other. Can filer before and after creating,deleting,renaming files or folders by HOOK API.
+
+==Browser compatibility==
+
+Webfmt is compatible with multiple browsers across multiple operating systems including Internet Explorer7.0+, Mozilla Firefox3.5+, Safari3.5+, Google Chrome12.0+,and Opera10.0+.[tpl]cite web|url=http://www.webfmt.com/index.html |title=Ajax File Manager[/tpl]
+
+==API==
+
+Webfmt v1.0 includes an extensive API for custom integration.[tpl]cite web|url=http://www.webfmt.com/doc/en/developerguide.html |title=Webfmt:API [/tpl]
+
+== Open source ==
+
+* ajax file manager for website
+* Webfmt - webfmt Code
+
+==Language support==
+
+* Multi-language support[tpl]cite web|url=http://www.webfmt.com/doc/en/developerguide.html#local |title=Webfmt:Interface Localization[/tpl]
+
+==References==
+
+==External links==
+
+* [tpl]Official website|http://www.webfmt.com/[/tpl]
+* Webfmt official documentation web site
+* [tpl]SourceForge|webfmt[/tpl]
+

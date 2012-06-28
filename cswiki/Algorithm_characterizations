@@ -1,0 +1,327 @@
+
+The word algorithm does not have a generally accepted definition.  Researchers are actively working in formalizing this term.  This article will present some of the "characterizations" of the notion of "algorithm" in more detail.
+This article is a supplement to the article Algorithm.
+
+== The problem of definition ==
+
+There is no generally accepted definition of algorithm. Over the last 200 years the definition has become more complicated and detailed as researchers have tried to pin down the term. Indeed there may be more than one type of "algorithm".  But most agree that algorithm has something to do with defining generalized processes for the creation of "output" integers from other "input" integers -- "input parameters" arbitrary and infinite in extent, or limited in extent but still variable—by the manipulation of distinguishable symbols (counting numbers) with finite collections of rules that a person can perform with paper and pencil.
+The most common number-manipulation schemes—both in formal mathematics and in routine life—are: (1) the recursive functions calculated by a person with paper and pencil, and (2) the Turing machine or its Turing equivalents—the primitive register machine or "counter machine" model, the Random Access Machine model (RAM), the Random access stored program machine model (RASP) and its functional equivalent "the computer".
+The reader is probably unfamiliar with the notion of a "recursive function". But when we are doing "arithmetic" we are really calculating by the use of "recursive functions" in the shorthand algorithms we learned in grade-school, for example, adding and subtracting.
+The proofs that every "recursive function" we can calculate by hand we can compute by machine and vice versa—note the usage of the words calculate versus compute -- is remarkable. But this equivalence together with the thesis (hypothesis, unproven assertion) that this includes every calculation/computation indicates why so much emphasis has been placed upon the use of Turing-equivalent machines in the definition of specific algorithms, and why the definition of "algorithm" itself often refers back to "the Turing machine". This is discussed in more detail under Stephen Kleene's characterization.
+The following are summaries of the more famous characterizations (Kleene, Markov, Knuth) together with those that introduce novel elements—elements that further expand the definition or contribute to a more precise definition.
+==Chomsky hierarchy== 
+There is more consensus on the "characterization" of the notion of "simple algorithm".
+All algorithms need to be specified in a formal language, and the "simplicity notion" arises from the simplicity of the language. The Chomsky (1956) hierarchy is a containment hierarchy of classes of formal grammars that generate formal languages. It is used for classifying of programming languages and abstract machines.
+From the Chomsky hierarchy perspective, if the algorithm can be specified on a simpler language (than  unrestricted), it can be  characterized by this kind of language, else it is a typical "unrestricted algorithm".
+Examples: a "general purpose" macro language, like M4 is unrestricted (Turing complete), but the C preprocessor macro language is not, so any algorithm expressed in C preprocessor is a "simple algorithm".
+See also Relationships between complexity classes.
+
+= Characterizations of the notion of "algorithm" =
+
+== 1881 John Venn's negative reaction to W. Stanley Jevons's Logical Machine of 1870 ==
+
+In early 1870 W. Stanley Jevons presented a "Logical Machine" (Jevons 1880:200) for analyzing a syllogism or other logical form e.g. an argument reduced to a Boolean equation. By means of what Couturat (1914) called a "sort of logical piano , ... the equalities which represent the premises ... are "played" on a keyboard like that of a typewriter. ... When all the premises have been "played", the panel shows only those constituents whose sum is equal to 1, that is, ... its logical whole. This mechanical method has the advantage over VENN's geometrical method..." (Couturat 1914:75).
+For his part John Venn, a logician contemporary to Jevons, was less than thrilled, opining that "it does not seem to me that any contrivances at present known or likely to be discovered really deserve the name of logical machines" (italics added, Venn 1881:120). But of historical use to the developing notion of "algorithm" is his explanation for his negative reaction with respect to a machine that "may subserve a really valuable purpose by enabling us to avoid otherwise inevitable labor":
+:(1) "There is, first, the statement of our data in accurate logical language",
+:(2) "Then secondly, we have to throw these statements into a form fit for the engine to work with -- in this case the reduction of each proposition to its elementary denials",
+:(3) "Thirdly, there is the combination or further treatment of our premises after such reduction,"
+:(4) "Finally, the results have to be interpreted or read off. This last generally gives rise to much opening for skill and sagacity."
+He concludes that "I cannot see that any machine can hope to help us except in the third of these steps; so that it seems very doubtful whether any thing of this sort really deserves the name of a logical engine."(Venn 1881:119-121).
+
+== 1943, 1952 Stephen Kleene's characterization ==
+
+This section is longer and more detailed than the others because of its importance to the topic: Kleene was the first to propose that all calculations/computations—of every sort, the totality of—can equivalently be (i) calculated by use of five "primitive recursive operators" plus one special operator called the mu-operator, or be (ii) computed by the actions of a Turing machine or an equivalent model.
+Furthermore he opined that either of these would stand as a definition of algorithm.
+A reader first confronting the words that follow may well be confused, so a brief explanation is in order. Calculation means done by hand, computation means done by Turing machine (or equivalent).  (Sometimes an author slips and interchanges the words).  A "function" can be thought of as an "input-output box" into which a person puts natural numbers called "arguments" or "parameters" (but only the counting numbers including 0—the positive integers) and gets out a single positive integer (including 0) (conventionally called "the answer"). Think of the "function-box" as a little man either calculating by hand using "general recursion" or computing by Turing machine (or an equivalent machine).
+"Effectively calculable/computable" is more generic and means "calculable/computable by some procedure, method, technique ... whatever...".  "General recursive" was Kleene's way of writing what today is called just "recursion"; however, "primitive recursion" -- calculation by use of the five recursive operators—is a lesser form of recursion that lacks access to the sixth, additional, mu-operator that is needed only in rare instances. Thus most of life goes on requiring only the "primitive recursive functions."
+
+=== 1943 "Thesis I", 1952 "Church's Thesis" ===
+
+In 1943 Kleene proposed what has come to be known as Church's thesis:
+: "Thesis I. Every effectively calculable function (effectively decidable predicate) is general recursive" (First stated by Kleene in 1943 (reprinted page 274 in Davis, ed. The Undecidable; appears also verbatim in Kleene (1952) p.300)
+In a nutshell: to calculate any function the only operations a person needs (technically, formally) are the 6 primitive operators of "general" recursion (nowadays called the operators of the mu recursive functions).
+Kleene's first statement of this was under the section title "12. Algorithmic theories". He would later amplify it in his text (1952) as follows:
+:"Thesis I and its converse provide the exact definition of the notion of a calculation (decision) procedure or algorithm, for the case of a function (predicate) of natural numbers" (p. 301, boldface added for emphasis)
+(His use of the word "decision" and "predicate" extends the notion of calculability to the more general manipulation of symbols such as occurs in mathematical "proofs".)
+This is not as daunting as it may sound -- "general" recursion is just a way of making our everyday arithmetic operations from the five "operators" of the primitive recursive functions together with the additional mu-operator as needed. Indeed, Kleene gives 13 examples of primitive recursive functions and Boolos-Burgess-Jeffrey add some more, most of which will be familiar to the reader—e.g. addition, subtraction, multiplication and division, exponentiation, the CASE function, concatenation, etc, etc; for a list see Some common primitive recursive functions.
+Why general-recursive functions rather than primitive-recursive functions?
+Kleene et al. (cf §55 General recursive functions p. 270 in Kleene 1952) had to add a sixth recursion operator called the minimization-operator (written as μ-operator or mu-operator) because Ackermann (1925) produced a hugely growing function—the Ackermann function -- and Rózsa Péter (1935) produced a general method of creating recursive functions using Cantor's diagonal argument, neither of which could be described by the 5 primitive-recursive-function operators. With respect to the Ackermann function:
+: "...in a certain sense, the length of the computation sic algorithm of a recursive function which is not also primitive recursive grows faster with the arguments than the value of any primitive recursive function" (Kleene (1935) reprinted p. 246 in The Undecidable, plus footnote 13 with regards to the need for an additional operator, boldface added).
+But the need for the mu-operator is a rarity. As indicated above by Kleene's list of common calculations, a person goes about their life happily computing primitive recursive functions without fear of encountering the monster numbers created by Ackermann's function (e.g. super-exponentiation ).
+
+=== 1952 "Turing's thesis" ===
+
+Turing's Thesis hypothesizes the computability of "all computable functions" by the Turing machine model and its equivalents.
+To do this in an effective manner, Kleene extended the notion of "computable" by casting the net wider—by allowing into the notion of "functions" both "total functions" and "partial functions". A total function is one that is defined for 'all' natural numbers (positive integers including 0). A partial function is defined for some natural numbers but not all—the specification of "some" has to come "up front". Thus the inclusion of "partial function" extends the notion of function to "less-perfect" functions. Total- and partial-functions may either be calculated by hand or computed by machine.
+:Examples:
+::"Functions": include "common subtraction m-n" and "addition m+n"
+::"Partial function": "Common subtraction" m-n is undefined when only natural numbers (positive integers and zero) are allowed as input -- e.g. 6-7 is undefined
+::Total function: "Addition" m+n is defined for all positive integers and zero.
+We now observe Kleene's definition of "computable" in a formal sense:
+: Definition: "A partial function φ is computable, if there is a machine M which computes it" (Kleene (1952) p. 360)
+: "Definition 2.5. An n-ary function f(x1,... xn) is partially computable if there exists a Turing machine Z such that
+:: f(x1,... xn) = ΨZ(n)(x1,... xn)
+: In this case we say that machine Z computes f. If, in addition, f(x1,... xn) is a total function, then it is called computable" (Davis (1958) p. 10)
+Thus we have arrived at Turing's Thesis:
+:"Every function which would naturally be regarded as computable is computable ... by one of his machines..." (Kleene (1952) p.376)
+Although Kleene did not give examples of "computable functions" others have. For example, Davis (1958) gives Turing tables for the Constant, Successor and Identity functions, three of the five operators of the primitive recursive functions:
+:Computable by Turing machine:
+:: Addition (also is the Constant function if one operand is 0)
+:: Increment (Successor function)
+:: Common subtraction (defined only if x ≥ y). Thus "x - y" is an example of a partially computable function.
+:: Proper subtraction x┴y (as defined above)
+:: The identity function: for each i, a function UZn =  ΨZn(x1,... xn) exists that plucks xi out of the set of arguments (x1,... xn)
+:: Multiplication
+Boolos-Burgess-Jeffrey (2002) give the following as prose descriptions of Turing machines for:
+:: Doubling: 2*p
+:: Parity
+:: Addition
+:: Multiplication
+With regards to the counter machine, an abstract machine model equivalent to the Turing machine:
+:Examples Computable by Abacus machine (cf Boolos-Burgess-Jeffrey (2002))
+:: Addition
+:: Multiplication
+:: Exponention: (a flow-chart/block diagram description of the algorithm)
+Demonstrations of computability by abacus machine (Boolos-Burgess-Jeffrey (2002)) and by counter machine (Minsky 1967):
+: The six recursive function operators:
+::# Zero function
+::# Successor function
+::# Identity function
+::# Composition function
+::# Primitive recursion (induction)
+::# Minimization
+The fact that the abacus/counter machine models can simulate the recursive functions provides the proof that: If a function is "machine computable" then it is "hand-calculable by partial recursion". Kleene's Theorem XXIX :
+: "Theorem XXIX: "Every computable partial function φ is partial recursive..." (italics in original, p. 374).
+The converse appears as his Theorem XXVIII. Together these form the proof of their equivalence, Kleene's Theorem XXX.
+
+=== 1952 Church-Turing Thesis ===
+
+With his Theorem XXX Kleene proves the equivalence of the two "Theses" -- the Church Thesis and the Turing Thesis. (Kleene can only hypothesize (conjecture) the truth of both thesis -- these he has not proven):
+:THEOREM XXX: The following classes of partial functions ... have the same members: (a) the partial recursive functions, (b) the computable functions ..."(p. 376)
+:: Definition of "partial recursive function": "A partial function φ is partial recursive in partial functions ψ1, ... ψn if there is a system of equations E which defines φ recursively from functions ψ1, ... ψn" (p. 326)
+Thus by Kleene's Theorem XXX: either method of making numbers from input-numbers—recursive functions calculated by hand or computated by Turing-machine or equivalent—results in an "effectively calculable/computable function". If we accept the hypothesis that every calculation/computation can be done by either method equivalently we have accepted both Kleene's Theorem XXX (the equivalence) and the Church-Turing Thesis (the hypothesis of "every").
+
+=== A note of dissent: "There's more to algorithm..." Blass and Gurevich (2003) ===
+
+The notion of separating out Church's and Turing's theses from the "Church-Turing thesis" appears not only in Kleene (1952) but in Blass-Gurevich (2003) as well. But while there are agreements, there are disagreements too:
+:"...we disagree with Kleene that the notion of algorithm is that well understood. In fact the notion of algorithm is richer these days than it was in Turing's days. And there are algorithms, of modern and classical varieties, not covered directly by Turing's analysis, for example, algorithms that interact with their environments, algorithms whose inputs are abstract structures, and geometric or, more generally, non-discrete algorithms" (Blass-Gurevich (2003) p. 8, boldface added)
+
+== 1954 A. A. Markov's characterization ==
+
+A. A. Markov (1954) provided the following definition of algorithm:
+:"1. In mathematics, "algorithm" is commonly understood to be an exact prescription, defining a computational process, leading from various initial data to the desired result...."
+:"The following three features are characteristic of algorithms and determine their role in mathematics:
+::"a) the precision of the prescription, leaving no place to arbitrariness, and its universal comprehensibility -- the definiteness of the algorithm;
+::"b) the possibility of starting out with initial data, which may vary within given limits -- the generality of the algorithm;
+::"c) the orientation of the algorithm toward obtaining some desired result, which is indeed obtained in the end with proper initial data -- the conclusiveness of the algorithm." (p.1)
+He admitted that this definition "does not pretend to mathematical precision" (p. 1). His 1954 monograph was his attempt to define algorithm more accurately; he saw his resulting definition—his "normal" algorithm—as "equivalent to the concept of a recursive function" (p. 3). His definition included four major components (Chapter II.3 pp. 63ff):
+:"1. Separate  elementary steps, each of which will be performed according to one of substitution rules... given at the outset
+:"2. ... steps of local nature ... the algorithm won't change more than a certain number of symbols to the left or right of the observed word/symbol
+:"3. Rules for the substitution formulas ... called the list of these "the scheme" of the algorithm
+:"4. ...a means to distinguish a "concluding substitution" a distinguishable "terminal/final" state or states
+In his Introduction Markov observed that "the entire significance for mathematics" of efforts to define algorithm more precisely would be "in connection with the problem of a constructive foundation for mathematics" (p. 2). Ian Stewart (cf Encyclopædia Britannica) shares a similar belief: "...constructive analysis is very much in the same algorithmic spirit as computer science...". For more see constructive mathematics and Intuitionism.
+Distinguishability and Locality: Both notions first appeared with Turing (1936–1937) --
+:"The new observed squares must be immediately recognizable by the computer a computer was a person in 1936. I think it reasonable to suppose that they can only be squares whose distance from the closest of the immediately observed squares does not exceed a certain fixed amount. Let us stay that each of the new observed squares is within L squares of one of the previously observed squares." (Turing (1936) p. 136 in Davis ed. Undecidable)
+Locality appears prominently in the work of Gurevich and Gandy (1980) (whom Gurevich cites). Gandy's "Fourth Principle for Mechanisms" is "The Principle of Local Causality":
+:"We now come to the most important of our principles. In Turing's analysis the requirement that the action depend only on a bounded portion of the record was based on a human limitiation. We replace this by a physical limitation which we call the principle of local causation. Its justification lies in the finite velocity of propagation of effects and signals: contemporary physics rejects the possibility of instantaneous action at a distance." (Gandy (1980) p. 135 in J. Barwise et al.)
+
+== 1936, 1963, 1964 Gödel's characterization ==
+
+1936: A rather famous quote from Kurt Gödel appears in a "Remark added in proof the original German publication in his paper "On the Length of Proofs" translated by Martin Davis appearing on pp. 82–83 of The Undecidable. A number of authors—Kleene, Gurevich, Gandy etc. -- have quoted the following:
+:"Thus, the concept of "computable" is in a certain definite sense "absolute," while practically all other familiar metamathematical concepts (e.g. provable, definable, etc.) depend quite essentially on the system with respect to which they are defined." (p. 83)
+1963: In a "Note" dated 28 August 1963 added to his famous paper On Formally Undecidable Propostions (1931) Gödel states (in a footnote) his belief that "formal systems" have "the characteristic property that reasoning in them, in principle, can be completely replaced by mechanical devices" (p. 616 in van Heijenoort). ". . . due to "A. M. Turing's work a precise and unquestionaly adequate definition of the general notion of formal system can now be given and a completely general version of Theorems VI and XI is now possible." (p. 616). In a 1964 note to another work he expresses the same opinion more strongly and in more detail.
+1964: In a Postscriptum, dated 1964, to a paper presented to the Institute for Advanced Study in spring 1934, Gödel amplified his conviction that "formal systems" are those that can be mechanized:
+: "In consequence of later advances, in particular of the fact that, due to A. M. Turing's work, a precise and unquestionably adequate definition of the general concept of formal system can now be given . . . Turing's work gives an analysis of the concept of "mechanical procedure" (alias "algorithm" or "computational procedure" or "finite combinatorial procedure"). This concept is shown to be equivalent with that of a "Turing machine".* A formal system can simply be defined to be any mechanical procedure for producing formulas, called provable formulas . . . ." (p. 72 in Martin Davis ed. The Undecidable: "Postscriptum" to "On Undecidable Propositions of Formal Mathematical Systems" appearing on p. 39, loc. cit.)
+The * indicates a footnote in which Gödel cites the papers by Allan Turing (1937) and Emil Post (1936) and then goes on to make the following intriguing statement:
+: "As for previous equivalent definitions of computability, which however, are much less suitable for our purpose, see Alonzo Church, Am. J. Math., vol. 58 (1936) in The Undecidable pp. 100-102).
+Church's definitions encompass so-called "recursion" and the "lambda calculus" (i.e. the λ-definable functions). His footnote 18 says that he discussed the relationship of "effective calculatibility" and "recursiveness" with Gödel but that he independently questioned "effectively calculability" and "λ-definability":
+:"We now define the notion . . . of an effectively calculable function of positive integers by identifying it with the notion of a recursive function of positive integers18 (or of a λ-definable function of positive integers.
+:"It has already been pointed out that, for every function of positive integers which is effectively calculable in the sense just defined, there exists an algorithm for the calculation of its value.
+:"Conversely it is true . . ." (p. 100, The Undecidable).
+It would appear from this, and the following, that far as Gödel was concerned, the Turing machine was sufficient and the lambda calculus was "much less suitable." He goes on to make the point that, with regards to limitations on human reason, the jury is still out:
+:("Note that the question of whether there exist finite non-mechanical procedures** not equivalent with any algorithm, has nothing whatsoever to do with the adequacy of the definition of "formal system" and of "mechanical procedure.") (p. 72, loc. cit.)
+:"(For theories and procedures in the more general sense indicated in footnote ** the situation may be different. Note that the results mentioned in the postcript do not establish any bounds for the powers of human reason, but rather for the potentialities of pure formalism in mathematics.) (p. 73 loc. cit.)
+:Footnote **: "I.e., such as involve the use of abstract terms on the basis of their meaning. See my paper in Dial. 12(1958), p. 280." (this footnote appears on p. 72, loc. cit).
+
+== 1967 Minsky's characterization ==
+
+Minsky (1967) baldly asserts that "an algorithm is "an effective procedure" and declines to use the word "algorithm" further in his text; in fact his index makes it clear what he feels about "Algorithm, synonym for Effective procedure"(p. 311):
+::"We will use the latter term effective procedure in the sequel. The terms are roughly synonymous, but there are a number of shades of meaning used in different contexts, especially for 'algorithm'" (italics in original, p. 105)
+Other writers (see Knuth below) use the word "effective procedure". This leads one to wonder: What is Minsky's notion of "an effective procedure"? He starts off with:
+:"...a set of rules which tell us, from moment to moment, precisely how to behave" (p. 106)
+But he recognizes that this is subject to a criticism:
+:"... the criticism that the interpretation of the rules is left to depend on some person or agent" (p. 106)
+His refinement? To "specify, along with the statement of the rules, the details of the mechanism that is to interpret them". To avoid the "cumbersome" process of "having to do this over again for each individual procedure" he hopes to identify a "reasonably uniform family of rule-obeying mechanisms". His "formulation":
+::"(1) a language in which sets of behavioral rules are to be expressed, and
+::"(2) a single machine which can interpret statements in the language and thus carry out the steps of each specified process." (italics in original, all quotes this para. p. 107)
+In the end, though, he still worries that "there remains a subjective aspect to the matter. Different people may not agree on whether a certain procedure should be called effective" (p. 107)
+But Minsky is undeterred. He immediately introduces "Turing's Analysis of Computation Process" (his chapter 5.2). He quotes what he calls "Turing's thesis"
+:"Any process which could naturally be called an effective procedure can be realized by a Turing machine" (p. 108. (Minsky comments that in a more general form this is called "Church's thesis").
+After an analysis of "Turing's Argument" (his chapter 5.3)
+he observes that "equivalence of many intuitive formulations" of Turing, Church, Kleene, Post, and Smullyan "...leads us to suppose that there is really here an 'objective' or 'absolute' notion. As Rogers 1959 put it:
+::"In this sense, the notion of effectively computable function is one of the few 'absolute' concepts produced by modern work in the foundations of mathematics'" (Minsky p. 111 quoting Rogers, Hartley Jr (1959) The present theory of Turing machine computability, J. SIAM 7, 114-130.)
+
+== 1967 Rogers' characterization ==
+
+In his 1967 Theory of Recursive Functions and Effective Computability Hartley Rogers' characterizes "algorithm" roughly as "a clerical (i.e., deterministic, bookkeeping) procedure . . . applied to . . . symbolic inputs and which will eventually yield, for each such input, a corresponding symbolic output"(p. 1). He then goes on to describe the notion "in approximate and intuitive terms" as having 10 "features", 5 of which he asserts that "virtually all mathematicians would agree to" (p. 2). The remaining 5 he asserts "are less obvious than *1 to *5 and about which we might find less general agreement" (p. 3).
+The 5 "obvious" are:
+*1 An algorithm is a set of instructions of finite size,
+*2 There is a capable computing agent,
+*3 "There are facilities for making, storing, and retrieving steps in a computation"
+*4 Given #1 and #2 the agent computes in "discrete stepwise fashion" without use of continuous methods or analogue devices",
+*5 The computing agent carries the computation forward "without resort to random methods or devices, e.g. , dice" (in a footnote Rogers wonders if #4 and #5 are really the same)
+The remaining 5 that he opens to debate, are:
+*6 No fixed bound on the size of the inputs,
+*7 No fixed bound on the size of the set of instructions,
+*8 No fixed bound on the amount of memory storage available,
+*9 A fixed finite bound on the capacity or ability of the computing agent (Rogers illustrates with example simple mechanisms similar to a Post-Turing machine or a counter machine),
+*10 A bound on the length of the computation -- "should we have some idea, 'ahead of time', how long the computationwill take?" (p. 5). Rogers requires "only that a computation terminate after some finite number of steps; we do not insist on an a priori ability to estimate this number." (p. 5).
+
+== 1968, 1973 Knuth's characterization ==
+
+Knuth (1968, 1973) has given a list of five properties that are widely accepted as requirements for an algorithm:
+# Finiteness: "An algorithm must always terminate after a finite number of steps ... a very finite number, a reasonable number"
+# Definiteness: "Each step of an algorithm must be precisely defined; the actions to be carried out must be rigorously and unambiguously specified for each case"
+# Input: "...quantities which are given to it initially before the algorithm begins. These inputs are taken from specified sets of objects"
+# Output: "...quantities which have a specified relation to the inputs"
+# Effectiveness: "... all of the operations to be performed in the algorithm must be sufficiently basic that they can in principle be done exactly and in a finite length of time by a man using paper and pencil"
+Knuth offers as an example the Euclidean algorithm for determining the greatest common divisor of two natural numbers (cf. Knuth Vol. 1 p. 2).
+Knuth admits that, while his description of an algorithm may be intuitively clear, it lacks formal rigor, since it is not exactly clear what "precisely defined" means, or "rigorously and unambiguously specified" means, or "sufficiently basic", and so forth. He makes an effort in this direction in his first volume where he defines in detail what he calls the "machine language" for his "mythical MIX...the world's first polyunsaturated computer" (pp. 120ff). Many of the algorithms in his books are written in the MIX language. He also uses tree diagrams, flow diagrams and state diagrams.
+"Goodness" of an algorithm, "best" algorithms: Knuth states that "In practice, we not only want algorithms, we want good algorithms...." He suggests that some criteria of an algorithm's goodness are the number of steps to perform the algorithm, its "adaptability to computers, its simplicity and elegance, etc." Given a number of algorithms to perform the same computation, which one is "best"? He calls this sort of inquiry "algorithmic analysis: given an algorithm, to determine its performance characteristcis" (all quotes this paragraph: Knuth Vol. 1 p. 7)
+
+== 1972 Stone's characterization ==
+
+Stone (1972) and Knuth (1968, 1973) were professors at Stanford University at the same time so it is not surprising if there are similarities in their definitions (boldface added for emphasis):
+:"To summarize ... we define an algorithm to be a set of rules that precisely defines a sequence of operations such that each rule is effective and definite and such that the sequence terminates in a finite time." (boldface added, p. 8)
+Stone is noteworthy because of  his detailed discussion of what constitutes an “effective” rule – his robot, or person-acting-as-robot, must have some information and abilities within them, and if not the information and the ability must be provided in "the algorithm":
+:"For people to follow the rules of an algorithm, the rules must be formulated so that they can be followed in a robot-like manner, that is, without the need for thought... however, if the instructions solve the quadratic equation, his example are to be obeyed by someone who knows how to perform arithmetic operations but does not know how to extract a square root, then we must also provide a set of rules for extracting a square root in order to satisfy the definition of algorithm" (p. 4-5)
+Furthermore "...not all instructions are acceptable, because they may require the robot to have abilities beyond those that we consider reasonable.” He gives the example of a robot confronted with the question is “Henry VIII a King of England?” and to print 1 if yes and 0 if no, but the robot has not been previously provided with this information. And worse, if the robot is asked if Aristotle was a King of England and the robot only had been provided with five names, it would not know how to answer. Thus:
+:“an intuitive definition of an acceptable sequence of instructions is one in which each instruction is precisely defined so that the robot is guaranteed to be able to obey it” (p. 6)
+After providing us with his definition, Stone introduces the Turing machine model and states that the set of five-tuples that are the machine’s instructions are “an algorithm ... known as a Turing machine program” (p. 9).  Immediately thereafter he goes on say that a “computation of a Turing machine is described by stating:
+:"1. The tape alphabet
+:"2. The form in which the input parameters are presented on the tape
+:"3. The initial state of the Turing machine
+:"4. The form in which answers output will be represented on the tape when the Turing machine halts
+:"5. The machine program" (italics added, p. 10)
+This precise prescription of what is required for "a computation" is in the spirit of what will follow in the work of Blass and Gurevich.
+
+== 1995 Soare's characterization ==
+
+:"A computation is a process whereby we proceed from initially given objects, called inputs, according to a fixed set of rules, called a program, procedure, or algorithm, through a series of steps and arrive at the end of these steps with a final result, called the output. The algorithm, as a set of rules proceeding from inputs to output, must be precise and definite with each successive step clearly determined. The concept of computability concerns those objects which may be specified in principle by computations . . ."(italics in original, boldface added p. 3)
+
+== 2000 Berlinski's characterization ==
+
+While a student at Princeton in the mid-1960s, David Berlinski was a student of Alonzo Church (cf p. 160). His year-2000 book The Advent of the Algorithm: The 300-year Journey from an Idea to the Computer contains the following definition of algorithm:
+:"'In the logician's voice:
+::: "''an algorithm is
+::: ''a finite procedure,
+::: ''written in a fixed symbolic vocabulary,
+::: ''governed by precise instructions,
+::: ''moving in discrete steps, 1, 2, 3, . . .,
+::: ''whose execution requires no insight, cleverness,
+::: ''intuition, intelligence, or perspicuity,
+::: and that sooner or later comes to an end.'" (boldface and italics in the original, p. xviii)
+
+== 2000, 2002 Gurevich's characterization ==
+
+A careful reading of Gurevich 2000 leads one to conclude (infer?) that he believes that "an algorithm" is actually "a Turing machine" or "a pointer machine" doing a computation. An "algorithm" is not just the symbol-table that guides the behavior of the machine, nor is it just one instance of a machine doing a computation given a particular set of input parameters, nor is it a suitably programmed machine with the power off; rather an algorithm is the machine actually doing any computation of which it is capable. Gurevich does not come right out and say this, so as worded above this conclusion (inference?) is certainly open to debate:
+:" . . . every algorithm can be simulated by a Turing machine . . . a program can be simulated and therefore given a precise meaning by a Turing machine." (p. 1)
+:" It is often thought that the problem of formalizing the notion of sequential algorithm was solved by Church 1936 and Turing 1936. For example, according to Savage 1987, an algorithm is a computational process defined by a Turing machine.  Church and Turing did not solve the problem of formalizing the notion of sequential algorithm. Instead they gave (different but equivalent) formalizations of the notion of computable function, and there is more to an algorithm than the function it computes. (italics added p. 3)
+:"Of course, the notions of algorithm and computable function are intimately related: by definition, a computable function is a function computable by an algorithm. . . . (p. 4)
+In Blass and Gurevich 2002 the authors invoke a dialog between "Quisani" ("Q") and "Authors" (A), using Yiannis Moshovakis as a foil, where they come right out and flatly state:
+:"A: To localize the disagreement, let's first mention two points of agreement. First, there are some things that are obviously algorithms by anyone's definition -- Turing machines , sequential-time ASMs State Machines, and the like. . . .Second, at the other extreme are specifications that would not be regarded as algorithms under anyone's definition, since they give no indication of how to compute anything . . . The issue is how detailed the information has to be in order to count as an algorithm. . . . Moshovakis allows some things that we would call only declarative specifications, and he would probably use the word "implementation" for things that we call algorithms." (paragraphs joined for ease of readability, 2002:22)
+This use of the word "implementation" cuts straight to the heart of the question. Early in the paper, Q states his reading of Moshovakis:
+: "...He would probably think that your practical work works for Microsoft forces you to think of implementations more than of algorithms. He is quite willing to identify implementations with machines, but he says that algorithms are something more general. What it boils down to is that you say an algorithm is a machine and Moschovakis says it is not." (2002:3)
+But the authors waffle here, saying "Let's stick to "algorithm" and "machine", and the reader is left, again, confused. We have to wait until Dershowitz and Gurevich 2007 to get the following footnote comment:
+:" . . . Nevertheless, if one accepts Moshovakis's point of view, then it is the "implementation" of algorithms that we have set out to characterize."(cf Footnote 9 2007:6)
+
+== 2003 Blass and Gurevich's characterization ==
+
+Blass and Gurevich describe their work as evolved from consideration of Turing machines and pointer machines, specifically Kolmogorov-Uspensky machines (KU machines), Schönhage Storage Modification Machines (SMM), and linking automata as defined by Knuth. The work of Gandy and Markov are also described as influential precursors.
+Gurevich offers a 'strong' definition of an algorithm (boldface added):
+:"...Turing's informal argument in favor of his thesis justifies a stronger thesis: every algorithm can be simulated by a Turing machine....In practice, it would be ridiculous...Nevertheless, can one generalize Turing machines so that any algorithm, never mind how abstract, can be modeled by a generalized machine?...But suppose such generalized Turing machines exist. What would their states be?...a first-order structure ... a particular small instruction set suffices in all cases ... computation as an evolution of the state ... could be nondeterministic... can interact with their environment ... be parallel and multi-agent ... have dynamic semantics ... two underpinings of their work are: Turing's thesis ...and the notion of (first order) structure of 1933" (Gurevich 2000, p. 1-2)
+The above phrase computation as an evolution of the state differs markedly from the definition of Knuth and Stone—the "algorithm" as a Turing machine program. Rather, it corresponds to what Turing called the complete configuration (cf Turing's definition in Undecidable, p. 118) -- and includes both the current instruction (state) and the status of the tape. Kleene (1952) p. 375 where he shows an example of a tape with 6 symbols on it—all other squares are blank—and how to Gödelize its combined table-tape status.
+In Algorithm examples we see the evolution of the state first-hand.
+
+== 1995 – Daniel Dennett: evolution as an algorithmic process==
+
+Philosopher Daniel Dennett analyses the importance of evolution as an algorithmic process in his 1995 book Darwin's Dangerous Idea. Dennett identifies three key features of an algorithm:
+*Substrate neutrality: an algorithm relies on its logical structure. Thus, the particular form in which an algorithm is manifested is not important (Dennett's example is long division: it works equally well on paper, on parchment, on a computer screen, or using neon lights or in skywriting). (p. 51)
+*Underlying mindlessness: no matter how complicated the end-product of the algorithmic process may be, each step in the algorithm is sufficiently simple to be performed by a non-sentient, mechanical device. The algorithm does not require a "brain" to maintain or operate it. "The standard textbook analogy notes that algorithms are recipes of sorts, designed to be followed by novice cooks."(p. 51)
+*Guaranteed results: If the algorithm is executed correctly, it will always produce the same results. "An algorithm is a foolproof recipe."(p. 51)
+It is on the basis of this analysis that Dennett concludes that "According to Darwin, evolution is an algorithmic process" (p. 60).
+However, in the previous page he has gone out on a much-further limb. In the context of his chapter titled "Processes as Algorithms" he states:
+:"But then . .  are there any limits at all on what may be considered an algorithmic process? I guess the answer is NO; if you wanted to, you can treat any process at the abstract level as an algorithmic process. . . If what strikes you as puzzling is the uniformity of the ocean's sand grains or the strength of the tempered-steel blade, an algorithmic explanation is what will satisfy your curiosity -- and it will be the truth. . . .
+:"No matter how impressive the products of an algorithm, the underlying process always consists of nothing but a set of [tpl]sic|individualy[/tpl] mindless steps succeeding each other without the help of any intelligent supervision; they are 'automatic' by definition: the workings of an automaton." (p. 59)
+It is unclear from the above whether Dennett is stating that the physical world by itself and without observers is intrinsically algorithmic (computational) or whether a symbol-processing observer is what is adding "meaning" to the observations.
+
+== 2002 John Searle adds a clarifying caveat to Dennett's characterization ==
+
+John R. Searle and Daniel Dennett having been poking at one-another's philosophies of mind (cf philosophy of mind) for the past 30 years. Dennett hews to the Strong AI point of view that the logical structure of an algorithm is sufficient to explain mind; Searle, of Chinese room fame claims that logical structure is not sufficient, rather that: "Syntax logical structure is by itself not sufficient for semantic content meaning" (italics in original, Searle 2002:16). In other words, the "meaning" of symbols is relative to the mind that is using them; an algorithm—a logical construct—by itself is insufficient for a mind.
+Searle urges a note of caution to those who want to define algorithmic (computational) processes as intrinsic to nature (e.g. cosmology, physics, chemistry, etc.):
+:"Computation . . . is observer-relative, and this is because computation is defined in terms of symbol manipulation, but the notion of a 'symbol' is not a notion of physics or chemistry. Something is a symbol only if it is used, treated or regarded as a symbol. The chinese room argument showed that semantics is not intrinsic to syntax. But what this shows is that syntax is not intrinsic to physics.  . . . Something is a symbol only relative to some observer, user or agent who assigns a symbolic interpretation to it. . . you can assign a computational interpretation to anything. But if the question asks, 'Is consciousness intrinsically computational?' the answer is: nothing is intrinsically computational. Computation exists only relative to some agent or observer who imposes a computational interpretation on some phenomenon. This is an obvious point. I should have seen it ten years ago but I did not." (italics added, p. 17)
+
+== 2002: Boolos-Burgess-Jeffrey specification of Turing machine calculation ==
+
+:For examples of this specification-method applied to the addition algorithm "m+n" see Algorithm examples.
+An example in Boolos-Burgess-Jeffrey (2002) (pp. 31–32) demonstrates the precision required in a complete specification of an algorithm, in this case to add two numbers: m+n. It is similar to the Stone requirements above.
+(i) They have discussed the role of "number format" in the computation and selected the "tally notation" to represent numbers:
+:: "Certainly computation can be harder in practice with some notations than others... But... it is possible in principle to do in any other notation, simply by translating the data... For purposes of framing a rigorously defined notion of computability, it is convenient to use monadic or tally notation" (p. 25-26)
+(ii) At the outset of their example they specify the machine to be used in the computation as a Turing machine. They have previously specified (p. 26) that the Turing-machine will be of the 4-tuple, rather than 5-tuple, variety. For more on this convention see Turing machine.
+(iii) Previously the authors have specified that the tape-head's position will be indicated by a subscript to the right of the scanned symbol. For more on this convention see Turing machine. (In the following, boldface is added for emphasis):
+:"We have not given an official definition of what it is for a numerical function to be computable by a Turing machine, specifying how inputs or arguments are to be represented on the machine, and how outputs or values represented. Our specifications for a k-place function from positive integers to positive integers are as follows:
+:"(a) number format:''' The arguments m1, ... mk,  ... will be represented in monadic unary notation by blocks of those numbers of strokes, each block separated from the next by a single blank, on an otherwise blank tape.
+:: Example: 3+2, 111B11
+:"(b) head location, initial state:''' Initially, the machine will be scanning the leftmost 1 on the tape, and will be in its initial state, state 1.
+:: Example: 3+2, 11111B11
+:"(c) computation -- number format at Halt:''' If the function to be computed assigns a value n to the arguments that are represented initially on the tape, then the machine will eventually halt on a tape containing a block of strokes, and otherwise blank...
+:: Example: 3+2, 11111
+:"(d) computation -- head location at Halt:''' In this case c the machine will halt scanning the left-most 1 on the tape...
+:: Example: 3+2, 1n1111
+:"(e) computation -- failure to Halt or Halt with non-standard number format:''' If the function that is to be computed assigns no value to the arguments that are represented initially on the tape, then the machine either will never halt, or will halt in some nonstandard configuration..."(ibid)
+:: Example: Bn11111 or B11n111 or B11111nThis specification is incomplete: it requires the location of where the instructions are to be placed and their format in the machine--
+:(iv) in the finite state machine's TABLE or, in the case of a Universal Turing machine on the tape, and
+:(v) the Table of instructions in a specified format
+This later point is important. Boolos-Burgess-Jeffrey give a demonstration (p. 36) that the predictability of the entries in the table allow one to "shrink" the table by putting the entries in sequence and omitting the input state and the symbol. Indeed the example Turing machine computation required only the 4 columns as shown in the table below (but note: these were presented to the machine in rows):
+
+== 2006: Sipser's assertion and his three levels of description ==
+
+:For examples of this specification-method applied to the addition algorithm "m+n" see Algorithm examples.
+Sipser begins by defining '"algorithm" as follows:
+:"Informally speaking, an algorithm is a collection of simple instructions for carrying out some task. Commonplace in everyday life, algorithms sometimes are called procedures or recipes (italics in original, p. 154)
+:"...our real focus from now on is on algorithms. That is, the Turing machine merely serves as a precise model for the definition of algorithm .... we need only to be comfortable enough with Turing machines to believe that they capture all algorithms" ( p. 156)
+Does Sipser mean that "algorithm" is just "instructions" for a Turing machine, or is the combination of "instructions + a (specific variety of) Turing machine"? For example, he defines the two standard variants (multi-tape and non-deterministic) of his particular variant (not the same as Turing's original) and goes on, in his Problems (pages 160-161), to describes four more variants (write-once, doubly infinite tape (i.e. left- and right-infinite), left reset, and "stay put instead of left). In addition, he imposes some constraints. First, the input must be encoded as a string (p. 157) and says of numeric encodings in the context of complexity theory:
+:"But note that unary notation for encoding numbers (as in the number 17 encoded by the uary string 11111111111111111) isn't reasonable because it is exponentially larger than truly reasonable encodings, such as base k notation for any k ≥ 2."(p. 259)
+van Emde Boas comments on a similar problem with respect to the random access machine (RAM) abstract model of computation sometimes used in place of the Turing machine when doing "analysis of algorithms":
+"The absence or presence of multiplicative and parallel bit manipulation operations is of relevance for the correct understanding of some results in the analysis of algorithms.
+". . . There hardly exists such as a thing as an "innocent" extension of the standard RAM model in the uniform time measures; either one only has additive arithmetic or one might as well include all reasonable multiplicative and/or bitwise Boolean instructions on small operands." (van Emde Boas, 1990:26)
+With regards to a "description language" for algorithms Sipser finishes the job that Stone and Boolos-Burgess-Jeffrey started (boldface added). He offers us three levels of description of Turing machine algorithms (p. 157):
+: High-level description: "wherein we use ... prose to describe an algorithm, ignoring the implementation details. At this level we do not need to mention how the machine manages its tape or head."
+: Implementation description: "in which we use ... prose to describe the way that the Turing machine moves its head and the way that it stores data on its tape. At this level we do not give details of states or transition function."
+: Formal description: "... the lowest, most detailed, level of description... that spells out in full the Turing machine's states, transition function, and so on."
+
+== References ==
+
+*David Berlinski (2000), The Advent of the Algorithm: The 300-Year Journey from an Idea to the Computer, Harcourt, Inc., San Diego, ISBN 0-15-601391-6 (pbk.)
+*George Boolos, John P. Burgess, Richard Jeffrey (2002), Computability and Logic: Fourth Edition, Cambridge University Press, Cambridge, UK. ISBN 0-521-00758-5 (pbk).
+*Andreas Blass and Yuri Gurevich (2003), Algorithms: A Quest for Absolute Definitions, Bulletin of European Association for Theoretical Computer Science 81, 2003. Includes an excellent bibliography of 56 references.
+* Burgin, M. Super-recursive algorithms, Monographs in computer science, Springer, 2005. ISBN 0-387-95569-0
+*[tpl]cite book|last=Davis|first=Martin|authorlink=Martin Davis|title=Computability & Unsolvability|publisher=McGraw-Hill Book Company, Inc.|location=New York|year=1958[/tpl]. A source of important definitions and some Turing machine-based algorithms for a few recursive functions.
+*[tpl]cite book|last=Davis|first=Martin|authorlink=Martin Davis|title=The Undecidable: Basic Papers On Undecidable Propostions, Unsolvable Problems and Computable Functions|publisher=Raven Press|location=New York|year=1965[/tpl] Davis gives commentary before each article. Papers of Gödel, Alonzo Church, Turing, Rosser, Kleene, and Emil Post are included.
+*[tpl]cite book|last=Dennett|first=Daniel|authorlink=Daniel Dennett|title=Darwin's Dangerous Idea|publisher=Touchstone/Simon & Schuster|location=New York|year=1995[/tpl]
+*Robin Gandy, Church's Thesis and principles for Mechanisms, in J.Barwise, H.J. Keisler and K.Kunen, eds., The Kleene Symposium, North-Holland Publishing Company 1980) pp. 123–148. Gandy's famous "4 principles of computational mechanisms" includes "Principle IV -- The Principle of Local Causality".
+*Yuri Gurevich, Sequential Abstract State Machines Capture Sequential Algorithms, ACM Transactions on Computational Logic, Vol 1, no 1 (July 2000), pages 77–111. Includes bibliography of 33 sources.
+*[tpl]cite journal|last=Kleene C.|first=Stephen|authorlink=Stephen Kleene |title= Recursive Predicates and Quantifiers|journal=American Mathematical Society Transactions|volume=  54| issue =  1 |pages=41–73|year=1943 |doi= 10.2307/1990131|jstor=1990131|publisher=Transactions of the American Mathematical Society, Vol. 53, No. 1[/tpl] Reprinted in The Undecidable, p. 255ff. Kleene refined his definition of "general recursion" and proceeded in his chapter "12. Algorithmic theories" to posit "Thesis I" (p. 274); he would later repeat this thesis (in Kleene 1952:300) and name it "Church's Thesis"(Kleene 1952:317) (i.e., the Church Thesis).
+*[tpl]cite book|last=Kleene|first=Stephen C.|authorlink=Kleene|title=Introduction to Metamathematics|edition=Tenth Edition 1991|publisher=North-Holland Publishing Company|year=First Edition 1952[/tpl] Excellent — accessible, readable — reference source for mathematical "foundations".
+*[tpl]cite book|last=Knuth|first=Donald E..|authorlink=Donald Knuth|title=The Art of Computer Programming Second Edition, Volume 1/Fundamental Algorithms|edition= 2nd, 1973|publisher=Addison-Wesley Publishing Company|year=First Edition 1968[/tpl] The first of Knuth's famous series of three texts.
+*Lewis, H.R. and Papadimitriou, C.H. Elements of the Theory of Computation, Prentice-Hall, Uppre Saddle River, N.J., 1998
+*A. A. Markov (1954) Theory of algorithms. by Jacques J. Schorr-Kon and PST staff Imprint Moscow, Academy of Sciences of the USSR, 1954 Jerusalem, Israel Program for Scientific Translations, 1961; available from the Office of Technical Services, U.S. Dept. of Commerce, Washington Description 444 p. 28 cm. Added t.p. in Russian Translation of Works of the Mathematical Institute, Academy of Sciences of the USSR, v. 42. Original title: Teoriya algerifmov. Dartmouth College library. U.S. Dept. of Commerce, Office of Technical Services, number OTS 60-51085.
+*[tpl]cite book|last=Minsky|first=Marvin|authorlink=Marvin Minsky|title=Computation: Finite and Infinite Machines|edition=First|publisher=Prentice-Hall, Englewood Cliffs, NJ|year=1967[/tpl] Minsky expands his "...idea of an algorithm — an effective procedure..." in chapter 5.1 ''Computability, Effective Procedues and Algorithms. Infinite machines."
+*Hartley Rogers, Jr, (1967), Theory of Recursive Functions and Effective Computability, MIT Press (1987), Cambridge MA, ISBN 0-262-68052-1 (pbk.)
+*John R. Searle, (2002), ''Consciousness and Language, Cambridge University Press, Cambridge UK, ISBN 0-521-59744-7 paperback.
+*Robert Soare, (1995 to appear in Proceedings of the 10th International Congress of Logic, Methodology, and Philosophy of Science, August 19–25, 1995, Florence Italy), Computability and Recursion), on the web at ??.
+*Michael Sipser, (2006), Introduction to the Theory of Computation: Second Edition, Thompson Course Technology div. of Thompson Learning, Inc. Boston, MA. ISBN 978-0-534-95097-2.
+*Ian Stewart, Algorithm, Encyclopædia Britannica 2006.
+*[tpl]cite book|last=Stone|first=Harold S.|title=Introduction to Computer Organization and Data Structures|edition=1972|publisher=McGraw-Hill, New York[/tpl] Cf in particular the first chapter titled: Algorithms, Turing Machines, and Programs. His succinct informal definition: "...any sequence of instructions that can be obeyed by a robot, is called an algorithm" (p. 4).
+*Peter van Emde Boas (1990), "Machine Models and Simulations" pp 3–66, appearing in Jan van Leeuwen (1990), Handbook of Theoretical Computer Science. Volume A: Algorithms & Complexity, The MIT Press/Elsevier, 1990, ISBN 0-444-88071-2 (Volume A)
+

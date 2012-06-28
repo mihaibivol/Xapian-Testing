@@ -1,0 +1,22 @@
+
+Avian is an open-source, lightweight Java virtual machine (JVM) and class library designed to provide a useful subset of Java's features, suitable for building self-contained applications.
+The VM is implemented from scratch and designed to be small and fast, featuring:
+* Just-in-time compilation for fast program execution
+* Generational, copying garbage collection to ensure short pause times and good spatial locality
+* Thread-local heaps providing O(1) memory allocation with no synchronization overhead
+* Null pointer dereferencing handled via operating system signals to avoid unnecessary branches
+The class library is designed to be as loosely-coupled as possible, allowing optimization tools like ProGuard to aggressively isolate the minimum code needed for an application; this can possibly result in smaller downloads and faster application startup times.  Linkage against the OpenJDK classpath is supported for applications that require a more comprehensive standard library.
+The virtual machine is designed to be embedded along with application classes into a single executable file, which can be run on systems where the Oracle Java platform isn't installed.
+
+==See also==
+
+* Java (programming language)
+* Java Virtual Machine
+* List of Java virtual machines
+* Open source
+
+==External links==
+
+* Project website
+* Google Groups page
+

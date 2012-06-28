@@ -1,0 +1,66 @@
+
+A timeline of probability and statistics
+
+==Before 1600==
+
+* 9th Century - Al-Kindi was the first to use statistics to decipher encrypted messages and developed the first code breaking algorithm in the House of Wisdom in Baghdad, based on frequency analysis. He wrote a book entitled "Manuscript on Deciphering Cryptographic Messages", containing detailed discussions on statistics[tpl]cite book|last=Singh|first=Simon|title=The code book : the science of secrecy from ancient Egypt to quantum cryptography|year=2000|publisher=Anchor Books|location=New York|isbn=0-385-49532-3|edition=1st Anchor Books ed.[/tpl]
+* 1560s (published 1663) – Cardano's Liber de ludo aleae attempts to calculate probabilities of dice throws
+* 1577 – Bartolomé de Medina defends probabilism, the view that in ethics one may follow a probable opinion even if the opposite is more probable
+
+==17th century==
+
+* 1654 –  Pascal and Fermat create the mathematical theory of probability,
+* 1657 – Huygens's De ratiociniis in ludo aleae is the first book on mathematical probability,
+* 1662 – Graunt's Natural and Political Observations Made upon the Bills of Mortality makes inferences from statistical data on deaths in London,
+* 1693 –  Halley prepares the first mortality tables statistically relating death rate to age,
+
+==18th century==
+
+* 1710 – Arbuthnot argues that the constancy of the ratio of male to female births is a sign of divine providence,
+* 1713 – Posthumous publication of Jacob Bernoulli's Ars Conjectandi, containing the first derivation of a law of large numbers,
+* 1724 –  Abraham de Moivre studies mortality statistics and the foundation of the theory of annuities in Annuities on Lives,
+* 1733 –  Abraham de Moivre introduces the normal distribution to approximate the binomial distribution in probability,
+* 1739 – Hume's Treatise of Human Nature argues that inductive reasoning is unjustified,
+* 1761 –  Thomas Bayes proves Bayes' theorem,
+* 1786 – Playfair's Commercial and Political Atlas introduces graphs and bar charts of data,
+
+==19th century==
+
+* 1801 – Gauss predicts the orbit of Ceres using a line of best fit
+* 1805 –  Adrien-Marie Legendre introduces the method of least squares for fitting a curve to a given set of observations,
+* 1814 – Laplace's Essai philosophique sur les probabilités defends a definition of probabilities in terms of equally possible cases, introduces generating functions and Laplace transforms, uses conjugate priors for exponential families, proves an early version of the Bernstein–von Mises theorem on the asymptotic irrelevance of prior distributions on the limiting posterior distribution and the role of the Fisher information on asymptotically normal posterior modes.
+* 1835 – Quetelet's Treatise on Man introduces social science statistics and the concept of the "average man",
+* 1866 – Venn's Logic of Chance defends the frequency interpretation of probability.
+* 1877–1883 – Charles Sanders Peirce outlines frequentist statistics, emphasizing the use of objective randomization in experiments and in sampling. Peirce also invented an optimally designed experiment for regression.
+* 1880 – Thiele gives a mathematical analysis of Brownian motion, introduces the likelihood function, and invents cumulants.
+* 1888 – Galton introduces the concept of correlation,
+
+==20th century==
+
+* 1900 – Bachelier analyzes stock price movements as a stochastic process,
+* 1908 – Student's t-distribution for the mean of small samples published in English (following earlier derivations in German).
+* 1921 – Keynes' Treatise on Probability defends a logical interpretation of probability. Wright develops path analysis.[tpl]cite journal|last=Wright|first=Sewall|title=Correlation and causation|year=1921|journal=Journal of Argricultural Research|volume=20|issue=7|pages=557–585[/tpl]
+* 1928 – Tippett and Fisher's introduce extreme value theory,
+* 1933 –  Andrey Nikolaevich Kolmogorov publishes his book Basic notions of the calculus of probability (Grundbegriffe der Wahrscheinlichkeitsrechnung) which contains an axiomatization of probability based on measure theory,
+* 1935 – R. A. Fisher's Design of Experiments (1st ed),
+* 1937 – Neyman introduces the concept of confidence interval in statistical testing,
+* 1946 – Cox's theorem derives the axioms of probability from simple logical assumptions,
+* 1948 – Shannon's Mathematical Theory of Communication defines capacity of communication channels in terms of probabilities,
+* 1953 –  Nicholas Metropolis introduces the idea of thermodynamic simulated annealing methods
+
+==See also==
+
+*Founders of statistics
+*List of important publications in statistics
+*History of probability
+*History of statistics
+
+==References==
+
+==External links==
+
+*[tpl]Citation | year = 2007 | author = Kees Verduin | title = A Short History of Probability and Statistics | url = http://www.leidenuniv.nl/fsw/verduin/stathist/stathist.htm[/tpl]
+*[tpl]Citation | year = 2008 | author = John Aldrich | title = Figures from the History of Probability and Statistics  | url = http://www.economics.soton.ac.uk/staff/aldrich/Figures.htm[/tpl]
+*[tpl]Citation | year = 2008 | author = John Aldrich | title = Probability and Statistics on the Earliest Uses Pages | url = http://www.economics.soton.ac.uk/staff/aldrich/Probability%20Earliest%20Uses.htm[/tpl]
+*[tpl]Cite web| title = Milestones in the History of Thematic Cartography, Statistical Graphics, and Data Visualization: An illustrated chronology of innovations | author = Michael Friendly and Daniel J. Denis | url = http://euclid.psych.yorku.ca/SCS/Gallery/milestone/ | year = 2008[/tpl]
+

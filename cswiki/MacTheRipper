@@ -1,0 +1,28 @@
+
+MacTheRipper is a Mac OS X application that enables users to create a playable copy of the contents of a Video DVD by defeating the Content Scramble System. During this process it may optionally modify or disable the DVD region code or the User operation prohibition features of the copied data. The previous lack of an OS X equivalent to the PC software DVDShrink gave this standalone DVD ripper widespread popularity among Macintosh users.macmod.com(macmod.com) Popular software listing
+The current public release is version 2.6.6. MacTheRipper was developed in 2002 and since that time, it has had over two million users.[tpl]Fact|date=March 2008[/tpl] The latest release is v4.1.5, available for download from the MTR-4 forum, a forum only available after registering and getting approved by an administrator.http://www.ripdifferent.com/mtr/. Even documentation such as pricing (it's no longer free) and the FAQ is locked off.
+
+== Legal issues ==
+
+The closed-source policy of MacTheRipper's authors violates the GNU General Public License (GPL) of the libdvdread and libdvdcss software libraries, on which MacTheRipper is built.libdvdcss-devel mailing list A user notes the use of libdvdcss in a closed-source project.Jon Lech Johansen's Blog DeCSS author notes GPL code used in MacTheRipper, MacTheRipper author responds
+The creation and distribution of MacTheRipper may violate the anti-circumvention laws which the U.S. and EU have adopted as part of the WIPO Copyright Treaty. In a case against the maker of a program similar to MacTheRipper, the court found that "the downstream uses of the software ..., whether legal or illegal, are not relevant to  determining whether manufacturer itself is violating the statute."321 Studios v. MGM Order Court Decision in case against 321 Studios, the makers of PC software similar to MacTheRipper In that case and others that followed it, the court found the software manufacturer in violation of the DMCA.321 Studios Shuts Its Doors Wired News article about the entertainment industry lawsuits that forced 321 Studios to shutdown
+From version 3 and forward, MacTheRipper is sold for an undisclosed sum.
+
+== References ==
+
+==See also==
+
+* DVD ripper article about other software with similar features.
+* DVDFab a Microsoft Windows program that allows the decryption and copying of video DVDs, Blu-ray discs, and some HD DVDs.
+* Mac DVDRipper Pro a similar program for OS X.
+* RipIt a similar program for OS X with fewer features.
+* HandBrake a free open-source program to convert DVDs into other forms
+
+== External links ==
+
+*Original MacTheRipper page including usage instructions
+*Official MacTheRipper Support Forums
+*MacTheRipper on MacUpdate
+*Download MacTheRipper 2.6.6
+*What is MacTheRipper?
+

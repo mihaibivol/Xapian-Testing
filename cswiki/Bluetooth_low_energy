@@ -1,0 +1,162 @@
+
+Bluetooth low energy (BLE) is a feature of Bluetooth 4.0 wireless radio technology, aimed at new, principally low-power and low-latency, applications for wireless devicesCore Specification Version 4.0. https://www.bluetooth.org/Technical/Specifications/adopted.htm within a short range (up to [tpl]convert|50|m|ft|disp=/[/tpl] -see table below). This facilitates a wide range of applications and smaller form factor devices in the healthcare, fitness, security and home entertainment industries.
+
+==Lower power consumption==
+
+Devices using Bluetooth low energy wireless technology are expected to consume a fraction of the power of Classic Bluetooth enabled products for Bluetooth communication. In many cases, products will be able to operate more than a year on a button cell battery without recharging. It will be possible to have sensors such as thermometers operating continuously, and intermittently communicating with other devices like a mobile phone. This may increase the concerns for privacy, as when the remote, low power, continuously on, sensor would be present in devices with BLE.
+Note that the lower power consumption is not achieved by the nature of the active radio transport, but by the design of the protocol to allow low duty cycles, and the use cases envisaged. A Bluetooth low energy device used for continuous data transfer would not have a lower power consumption than a comparable Bluetooth device transmitting the same amount of data. It would likely use more power, since the protocol is optimised for small bursts.
+Several chip suppliers have released Bluetooth low energy chips. Some of these offered chip designs include the entire protocol suite implementation, others allow for special implementing strategies. Some of these chip designs allow for dynamic change of protocol suite even outside the Bluetooth technology/Bluetooth low energy standard, others are just tailored for one protocol suite. Those offering products include Broadcom,[tpl]cite web|url=http://www.ifixit.com/Teardown/MacBook-Air-13-Inch-Mid-2011-Teardown/6130/1 |title=iFixit MacBook Air 13" Mid 2011 Teardown |publisher=iFixit.com|date= |accessdate=2011-07-27[/tpl][tpl]cite web|url=http://www.broadcom.com/products/Bluetooth/Bluetooth-RF-Silicon-and-Software-Solutions/BCM20702 |title=Broadcom.com - BCM20702 - Single-Chip Bluetooth® 4.0 HCI Solution with Bluetooth low energy Support |publisher=Broadcom |date= |accessdate=2011-07-27[/tpl] CSR,[tpl]cite web|url=http://www.csr.com/products/45/csr-energy |title=CSR.com |publisher=CSR |date= |accessdate=2011-04-08[/tpl] EM Microelectronic,[tpl]cite web|url=http://www.emmicroelectronic.com/Products.asp?IdProduct=289 |title=Datasheet:EM9301: Single-Cell Battery Bluetooth low energy Controller for Single-Mode Applications, emmicroelectronic.com |publisher=EMM |date= |accessdate=2011-04-08[/tpl] Nordic Semiconductor,[tpl]cite web|url=http://www.nordicsemi.com/eng/Products/Bluetooth-R-low-energy/nRF8001 |title=Nordicsemi.com |publisher=Nordic Semiconductor |date= |accessdate=2011-04-08[/tpl] and Texas Instruments.[tpl]cite web|url=http://focus.ti.com/docs/prod/folders/print/cc2540.html |title=TI.com |publisher=Texas Instruments |date= |accessdate=2011-04-08[/tpl]
+The basic radio circuitry has almost similar power consumption as for standard Bluetooth radio (in dual-mode devices it is likely to be the same circuitry), but the overall power consumption is aimed to be lower, primarily by having a lower duty cycle. During transmission and reception these devices exhibit peak currents in the tens of milliamps (mA) range in both Bluetooth low energy technology and Bluetooth modes. In sleep modes, the aim is to have current consumption reduced to tens of nanoamps (nA). Because of very low duty cycles (of the order of 0.25%) average currents are therefore in the microamp (μA) range enabling button cell battery power sources to last up to a year.
+
+===Bluetooth technology vs NFC===
+
+Bluetooth technology (2.45 GHz) and Near Field Communication (NFC 13.56 MHz) may both be used as short-range communication technologies. However, allowed transmission power for NFC 13.56 MHz is strongly limited implying short range, whilst Bluetooth technology has a range that reaches up to 100m, depending on its class. Integration with mobile phones is increasing, where Bluetooth technology is already part of almost all phone types. Bluetooth low energy technology set-up time has been designed to be faster than Classic Bluetooth technology.
+There is no aim to make Bluetooth technology's WPAN implementation compatible with passive RFID. However, Bluetooth technology defines a well standardized new class of active RFID which requires comparably lower power consumption than NFC in passive read mode, due to different physical coupling: far field is used for Bluetooth technology, whilst near field/inductive is used for NFC.
+
+==History==
+
+In 2001, Nokia researchers determined that there were various scenarios that contemporary wireless technologies did not address. To address the problem, the Nokia Research CenterNokia Research Center started the development of a wireless technology adapted from the Bluetooth standard which would provide lower power usage and price while minimizing difference between Bluetooth technology and the new technology. The results were published in 2004 using the name Bluetooth Low End Extension.M. Honkanen, A. Lappetelainen, K. Kivekas, "Low end extension for Bluetooth", Radio and Wireless Conference, 2004 IEEE, 19–22 September 2004 After further development with partners, e.g., within EU FP6 project MIMOSA, the technology was released to public in October 2006 with brand name Wibree."Bluetooth rival unveiled by Nokia", BBC News, 4 October 2006 After negotiations with Bluetooth SIG members, in June 2007, an agreement was reached to include Wibree in future Bluetooth specification as a Bluetooth ultra-low-power technology, now known as Bluetooth low energy technology.Wibree Bluetooth press release 12 June 2007[tpl]Cite web|title=Wibree becomes Ultra low power Bluetooth technology | url=http://www.electronicsweekly.com/Articles/2007/06/12/41582/wibree-becomes-ulp-bluetooth.htm | publisher=electronicsweekly.com|accessdate=2008-09-09[/tpl]
+In December 2009, the Bluetooth SIG announced the adoption of Bluetooth low energy wireless technology as the hallmark feature of the Bluetooth Core Specification Version 4.0.  Samples of sensors utilizing this specification are available from some silicon manufacturers today and shipments are anticipated to follow closely behind.
+Integration of Bluetooth low energy technology with the Core Specification was completed in early 2010 it?. Mobile phone and PC manufacturers may enhance their Bluetooth product offerings with support for Bluetooth low energy wireless technology.
+
+==Actual status==
+
+=== Marketing and branding ===
+
+After starting with the Nokia Wibree brand, via Bluetooth low power through Bluetooth Low Energy the latest issue from Bluetooth SIG is the new branding Bluetooth smart. 
+Apparently the demand of appliance and of communicator manufacturers to adopt the new protocol architecture for lower power consumption in addition to the maintained and updated protocol stack may not be seen with the desired blockbuster features. 
+However, the marketing will soon address the lower power consumption for unidirectional transmission and even for bidirectional connection with high emphasis, as it definitively gives relief from battery exhausting standard communications when using the new chip generation offered from the major chip foundries.
+
+===Technology platform===
+
+The Bluetooth low energy specification is available to the general public as part of Bluetooth Core Specification Version 4.0.Bluetooth Core Specification Download Page Actual stage of specification includes some optional features. No commonly published document currently discloses which of these options will be included in the decided chip implementations.
+Partners that currently license the technology and cooperate in defining the specification are Alpwise, Broadcom Corporation, CSR, Epson, MindTree, Nordic Semiconductor, and Texas Instruments. Other contributors are Suunto and Taiyo Yuden.Wibree press release 3 October 2006
+The first Bluetooth low energy chips, from CSR, Nordic Semiconductor and Texas Instruments, were released to mass-market in late 2010 and early 2011. Bluetooth low energy chips from other semiconductor manufacturers are expected to follow. The first Bluetooth low energy Intellectual Property has been qualified by RivieraWaves in 2010.
+Currently (2010–12) the definitions of respective application profiles still are not fulfilled work-items of the standardisation bodies. The first consumer products using Bluetooth low energy technology are expected to debut in first half of 2011.
+
+=== Market demand ===
+
+The Bluetooth SIG follows the market demand for low energy consumption respectively lesser battery exhaust and wear out. This 2007 Bluetooth SIG adoption move for the 2001 Nokia 'Wibree' proposal was necessary to include low battery consumption operational modes for newly designed devices to communicate with other Bluetooth devices yet deployed. 
+However, compatibility depends on applications that run on existing Bluetooth devices and made capable for digesting the respective low energy transmissions with software updates. In addition to creating a market for sensors, watches and other existing devices, Bluetooth low energy technology’s ability to connect low power devices to mobile phones offers a great variety of new applications.
+One of the major adopters of Bluetooth low energy protocol stack is the Continua Health Alliance targeting vital monitoring in healthcare.
+
+=== Operational Advantage ===
+
+The big advantage is the commonly available equipping of mobile appliances with Bluetooth chips, thus requiring no additional infrastructure for any ad-hoc networking in topologies of peer networking, scatter networking or meshed networking as well as with multicast communications in push mode. Technically comparable solutions with other industry groups' standards (e.g. ZigBee, ANT) under the umbrella of the international standard IEEE 802.15.4-2006 show further paths, relying of special infrastructures.
+
+==Technical details==
+
+Bluetooth low energy technology operates in the same spectrum range (2402-2480 MHz) as Classic Bluetooth technology, but uses a different set of channels. Instead of Bluetooth technology's 79 1 MHz wide channels, Bluetooth low energy technology has 40 2 MHz wide channels. Bluetooth low energy technology uses a different frequency hopping scheme to Classic Bluetooth technology; as a result, while both FCC and ETSI classify Bluetooth technology as an FHSS scheme, Bluetooth low energy technology is classified as a system using digital modulation techniques or a direct-sequence spread spectrum.
+Bluetooth low energy technology is designed with two equally important implementation alternatives: single-mode and dual-mode. Small devices like tokens, watches and sports sensors based on a single-mode Bluetooth low energy implementation will enjoy the low-power consumption advantages enabled for highly integrated and compact devices. In dual-mode implementations Bluetooth low energy functionality is integrated into Classic Bluetooth circuitry.  The architecture will share Classic Bluetooth technology radio and antenna, enhancing currently chips with the new low energy stack—enhancing the development of Classic Bluetooth devices with new capabilities.
+More technical details may be obtained from official specification as published by the Bluetooth SIG. Note that power consumption is not part of the Bluetooth specification.
+
+===Compatibility===
+
+The Bluetooth low energy protocol is not backward compatible with classic Bluetooth protocol. However, Bluetooth low energy technology and Bluetooth technology operate on the same spectrum so the underlying hardware is likely to be similar. A given device may be able to operate as a Bluetooth low energy technology and Bluetooth device using the very same chip and radio hardware, though not simultaneously; this is a Bluetooth 4.0 dual-mode device.Apple’s Adoption of Bluetooth Low Energy Paves Way for New Possibilities, Apple adopts Bluetooth 4.0 in MacBook Airs and Mac Minis., July 25, 2011 By Financial Bin Bluetooth 4.0 includes both Classic Bluetooth technology and Bluetooth low energy technology.
+
+==Application profiles==
+
+The commonly available specification of Bluetooth low energy application profiles has to be expected prior to commonly available appliances. Currently there are hints that application profiles get commonly published. Membership in Bluetooth SIG is the minimum requirement to get access to readily edited specification documents.
+The latest indication of ready designed and agreed profiles was on 2011-07-05 by Nordic SemiconductorMass market proximity sensing and security
+
+=== Consumer profiles ===
+
+The first simple consumer profiles notified by members of Bluetooth SIG are
+* Find Me: The find me profile shall support electronic leash applications.
+* Proximity: The proximity profile shall support wireless lock applications as well as authentication procedures. There is no indication yet that said proximity profile contributes to qualification procedures according to ISO/IEC 15408.
+
+=== Health care profiles ===
+
+Main focus in health care with Bluetooth low energy technology is vital monitoring.New Bluetooth 4.0 Medical Devices to Hit the Shelves by December 2011 A promoter of such applications in cooperation with Bluetooth SIG is The Continua Health Alliance as an industrial standardisation body.
+* Health Thermometer Servicehttp://btle.info/Services
+* Heart rate MonitorTrack your heart rate on a Bluetooth phone
+Qualification of such approaches according to US (Food and Drug Administration) or EU medical devices qualification directivesMedical devices main regulation directives is not reported.
+
+=== Sporting profiles ===
+
+Main focus in sports with Bluetooth low energy technology is locating as well as vital monitoring. The promoter of such applications is Bluetooth Special Interest Group (SIG)Bluetooth Special Interest Group as an industrial standardisation body as well as Continua Health Alliance. Bluetooth low energy technology is in competition with other industry solution standards such as ANT (network).Bluetooth® low energy and ANT™ - ultra-low power wireless connectivityl
+
+==Use cases==
+
+Bluetooth low energy technology is the hallmark feature of v4.0 of the Bluetooth Core Specification.  This enhancement to the Bluetooth Core Specification that will enable new functionality and applications for remote controls, healthcare monitors, sports sensors and other devices. Bluetooth low energy technology will enhance existing use cases and will enable new ones, widening the applicability and functionality of Bluetooth technology.
+The respective chips may be integrated into products such as tokens, watches, manual controls, wireless keyboards, gaming pads and body sensors, which may then connect to host devices such as mobile phones, smartphones, personal digital assistants (PDAs), tablet PCs, notebook PCs, laptop PCs and other grades of and personal computers (PCs).
+However, currently in the tenth year after earliest publication with inventor Nokia in 2001 (Wibree) there is no implementing on chip-basis or on protocol-basis to any of the current PC-like or PDA-like products or with any mobile phones nor any of the announced appliance products neither disclosed nor announced. All announcement but one is recognised still just with Bluetooth SIG and not beyond (2010-01-27). The notified exception is with a wireless velo-odometer, probably not recognised as the killer-application with mobilephones.
+Bluetooth low energy technology hence may extend any personal area network according to the intentions with IEEE 802.15 WPAN to include watches and toys, sports and health care equipment, human interface (HIDs) and entertainment devices.
+
+=== Electronic leash ===
+
+Existing solutions of the electronic leash concept get improved with the better economised battery consumption of the Bluetooth v4.0 low energy protocols. Several suppliers yet offer the so-called electronic leash solution based on standard Bluetooth v2.1 protocols. This serves for wirelessly tethering mobile appliances with each other. The RSSI estimate serves for a radial metrics, but without any certified calibration. Setting an alarm on unintentional loss is the key service offered with this concept.
+An advanced aspect has recently been launched with Bluetooth low energy technology for better economised battery life cycle. Special trimming serves for two years operation from a button cell.Casio watch with Bluetooth low energy profile
+
+=== Automatic authentication ===
+
+Connection-based communication allows for design of secure communication under the qualification schemes of ISO/IEC 15408 Common Criteria standard, however connection-free communication limits the suitability of low energy for secure communications.
+Beyond classic configurarion of appliances, a personally carried duet of Bluetooth enabled smartphone and a Bluetooth enabled watch allow for an automatic two-factor authentication en passant. Then the watch delivers just an identity in the mode of active RFID.
+
+=== Automatic context detection and automatic log-off ===
+
+Detecting operational context may be implemented by detection of coincidence of two or more Bluetooth v4.0 low energy protocol enabled tokens, appliances and smartphones. This qualifies for better protection of private and corporate data upon access for log-on to networked work positions as well as with mobile network clients.
+Whereas currently known solutions rely just on transmission range limitations, the new Bluetooth v4.0 low energy protocol enables for qualified segregation of various operational distances based on assessment of received signal strength. In contrast to known proposals for locating, such unilateral estimation serves for good discrimination of cohesion in operational context, but does not pretend to deliver a certified accuracy, which is impossible due to variations in transmission conditions.
+
+== Keeping pace ==
+
+The community openness of the standard with Bluetooth SIG and compatibility with wireless regulations under the IEEE framework as well as the downward compatibility of the chips allows for a wide acceptance of the additional protocol stack.
+
+===Downloading software updates===
+
+Presuming the availability of the low energy enabled chip and low energy protocol stack on the target device, the respective applications with existing and deployed devices may be opened to Bluetooth low energy technology by updates. This will enable the Bluetooth software defined radio to receive signals from Bluetooth low energy devices. However, the capability to communicate in duplex mode is limited with the defined frequency allocation schemes for Classic Bluetooth technology. The common appliances such as mobile phones, personal digital assistants (PDAs) and personal computers (PCs) may then receive as host devices for complex applications the signals transmitted from Bluetooth low energy devices.
+Bluetooth low energy technology hence may extend any personal area network according to the intentions with IEEE 802.15 (WPAN) to network personally carried simple devices with other appliances for complex local applications as well as for gateway support to transfer information to other networked entities.
+
+===Standardisation===
+
+In the market of proprietary connectivity solutions, Bluetooth low energy technology differentiates itself through its:
+* widely adopted industry standard for protocols (Bluetooth SIG Bluetooth v4.0 and future later versions)
+* widely commonalised application profiles agreed under the auspices of Bluetooth SIG
+* multi vendor availability of respective chips
+* internationally adopted industry standard for transmission (IEEE 802.15.1)
+* possibility to emulate the protocol stack with compliant 2.45 GHz chips (IEEE 802.15)
+* low price through single chip integration
+* availability of new application via applet downloads
+* continuous compatibility with yet deployed Bluetooth devices (V4.0 or later) via software updates
+
+==Other examples of compatible devices==
+
+* Apple's iPhone 4SiPhone 4S BLE software iPad (3rd gen)iPad (3rd gen) Specifications
+* Bluegiga's BLED112 and BLE112 modulesBluegiga BLE modules
+* Alpwise ALPW-BLEDVK002 bluetooth low energy development kit and ALPW-BLEM001 bluetooth low energy moduleAlpwise Bluetooth low energy development kit and Bluetooth low energy module
+* Texas Instruments CC2540Texas Instruments BLE chip and CC2541Texas Instruments BLE chip single-mode radio system-on-chips
+* Digi's ConnectCore for i.MX28 embedded System-on-Module solution with integrated Bluetooth 4.0 radioDigi embedded System-on-Module with BLE
+* Nordic Semiconductor's chip nRF8001Nordic Semiconductor chip, nRF8002http://www.nordicsemi.com/eng/Products/Bluetooth-R-low-energy/nRF8002
+* Apple MacBook Air, Mac Mini and MacBook Pro (Retina, June 2012)
+* Panasonic's Smart Ready PAN1720 and Dual Mode Smart Compatible PAN1326 moduleswww.panasonic.com/rfmodules
+* Pebble E-Paper Watch[ref][http://www.kickstarter.com/projects/597507018/pebble-e-paper-watch-for-iphone-and-android/posts/222888 
+Update #10: And one more thing...][/ref]
+
+==See also==
+
+* DASH7
+* IEEE 802.15
+* MyriaNed
+* Ultra wideband (UWB)
+* UWB Forum
+* WiMedia Alliance
+* WirelessHD
+* Wireless USB
+* ZigBee – IEEE 802.15.4
+* ANT+
+* Z-wave
+
+==References==
+
+==External links==
+
+* Bluetooth low energy official website
+* "Nokia's Wibree and the Wireless Zoo", by Iddo Genuth, The Future of Things (TFoT) online magazine, 16 November 2006
+* "Nordic Semiconductor becomes a member of the open Wibree industry initiative", Nordic Semiconductor press release, 3 October 2006* Wibree news site
+* UK Wibree Guide[tpl]Dead link|date=October 2009[/tpl]
+* HowStuffWorks (How Wibree Works)
+* What is Wibree?
+* Bluetooth low energy profiles explained
+* "Bluetooth rival unveiled by Nokia", BBC News, 4 October 2006
+* "Nokia's Wibree and the Wireless Zoo", The Future of Things (TFOT), 16 November 2006, An interview with Nokia and a comparison to other wireless technologies
+

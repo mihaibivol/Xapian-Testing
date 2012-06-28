@@ -1,0 +1,16 @@
+
+The Shockley–Ramo theorem allows one to easily calculate the instantaneous electric current induced by a charge moving in the vicinity of an electrode. It is based on the concept that current induced in the electrode is due to the instantaneous change of electrostatic flux lines which end on the electrode, not the amount of charge received by the electrode per second. The theorem appeared in William Shockley's 1938 paper "Currents to Conductors Induced by a Moving Point Charge" [tpl]cite journal|doi=10.1063/1.1710367|title=Currents to Conductors Induced by a Moving Point Charge|year=1938|last1=Shockley|first1=W.|journal=Journal of Applied Physics|volume=9|issue=10|pages=635[/tpl] and a year later in Simon Ramo's 1939 paper entitled "Currents Induced by Electron Motion" [tpl]cite journal|doi=10.1109/JRPROC.1939.228757|title=Currents Induced by Electron Motion|year=1939|last1=Ramo|first1=S.|journal=Proceedings of the IRE|volume=27|issue=9|pages=584–585[/tpl]. 
+The Shockey–Ramo theorem states that the instantaneous current i induced on a given electrode due to a charge's motion is given by:
+where
+:q is the charge of the particle;
+:v is its instantaneous velocity; and
+:Ev is the component of the electric field in the direction of v at the charge's instantaneous position, under the following conditions: charge removed, given electrode raised to unit potential, and all other conductors grounded.
+This theorem has found application in a wide variety of applications and fields, including semiconductor radiation detection [tpl]cite journal|url=http://czt-lab.engin.umich.edu/journals/Zhong%20He/ShockleyRamo.pdf|title=Review of the Shockley–Ramo theorem and its application in semiconductor gamma-ray detectors|doi=10.1016/S0168-9002(01)00223-6|bibcode=2001NIMPA.463..250H|year=2001|last1=He|first1=Z|journal=Nuclear Instruments and Methods in Physics Research Section A: Accelerators,Spectrometers,Detectors and Associated Equipment|volume=463|pages=250–267[/tpl] and calculations of charge movement in proteins.[tpl]cite journal|doi=10.1007/s10825-006-0130-6|title=Shockley-Ramo theorem measures conformation changes of ion channels and proteins|year=2007|last1=Eisenberg|first1=Bob|last2=Nonner|first2=Wolfgang|journal=Journal of Computational Electronics|volume=6|pages=363–365[/tpl]
+
+==References==
+
+==External links==
+
+*J. H. Jeans, "Electricity and Magnetism," page 160, Cambridge, London, English (1927) – Green's Theorem as Simon Ramo used it to derive his theorem.
+* Introduction to Radiation Detectors and Electronics – Lecture Notes by Helmuth Spieler which briefly discuss Ramo's Theorem.
+

@@ -1,0 +1,16 @@
+
+The maximum-term method is a consequence of the large numbers encountered in statistical mechanics. It states that under appropriate conditions the logarithm of a summation is essentially equal to the logarithm of the maximum term in the summation.
+
+==Example==
+
+==Proof==
+
+Consider the sum
+Taking logarithm gives
+Here we have
+
+==References==
+
+*D.A. McQuarrie, Statistical Mechanics. New York: Harper & Row, 1976.
+*T.L. Hill, An Introduction to Statistical Thermodynamics. New York: Dover Publications, 1987
+

@@ -1,0 +1,53 @@
+
+Symphony Developer Edition (Symphony DE) is a free High-performance computing (HPC) and Grid computing SDK and middleware developed by Platform Computing. It is a light-weight version of the cluster-based Symphony commercial software. Symphony DE is aimed at providing a dedicated development environment for building compute and data-intensive applications.[tpl]cite web|url=http://www.gridcomputingplanet.com/article.php/3715951|title=Platform Speeds Up Symphony|first=Paul|last=Shread|work=Grid Computing Planet|date=2007-12-11|accessdate=2008-02-29[/tpl] It has been described as "the first and only solution tailored for developing and testing Grid-ready service-oriented architecture applications".[tpl]cite web|url=http://www.gridtoday.com/grid/704010.html|title=Platform Targets Banks with Symphony 3|work=Grid Today|date=2006-06-26|accessdate=2008-02-29[/tpl] [tpl]Dead link|date=October 2010|bot=H3llBot[/tpl]
+Symphony DE was designed to provide an easy to manage system for developers to code, test, and tune their HPC applications. From building to testing, work can be performed on one development host. Users do not have to worry about deploying and managing a full-scale cluster environment.
+
+==Latest Release==
+
+The latest iteration of the software, Symphony DE 5.1, was released in April 2011. New features include simplified application integration, improved resource harvesting, GPU support and enhanced performance and scalability.[tpl]cite web|work=Platform official site|year=2011|url=http://info.platform.com/rs/platform/images/WhatsNew_PlatformSymphony.pdf|title=Platform Symphony 5.1 - An Overview of New Features for Application Developers and Administrators[/tpl]
+
+==Availability==
+
+The software package is downloadable at no cost from Platform Computing's website. The DE cluster can be deployed without any time or node-count limitations.[tpl]cite web|url=http://my.platform.com/products/platform-symphony/|title=Platform Symphony 4.0 is now Generally Available!|work=Platform official site|year = 2007|accessdate=2008-03-02[/tpl] By reducing the barriers to adopting Symphony, Platform intends to promote the benefits of HPC not only to the financial services industry, but to any industries or institutions interested in using distributed computing services.
+Available Packages:
+
+==Features==
+
+===Difference between Symphony and Symphony DE===
+
+* Symphony DE does not include the Enterprise Grid Orchestrator (EGO) resource management component used by Symphony. It does support basic resource distribution and host management through its own SOA Middleware. This allows developers to simulate a distributed environment on their own machines for testing clients and services without requiring a full Symphony cluster.
+* The web-based GUI management console is scaled down to exclude grid specific features such as reporting and advanced resource management. The DE management console provides developers with an interface to manage applications, monitor workload, and administer the test environment in a similar fashion to the full-scale grid version.[tpl]cite web|url=http://www.platform.com/Products/platform-symphony/symphony4_developer_wp.pdf|title=Symphony Developer Whitepaper|work=Platform official site|format = PDF|year = 2007|accessdate=2008-03-02[/tpl]
+* Symphony DE includes additional developer oriented components such as the Symphony SDK, sample applications, and step-by-step developer tutorials.
+
+===Symphony SDK===
+
+Developers construct their own client (send requests, collects results) and service (accepts requests, performs computation, returns responses) using Symphony APIs in the language of their choice (C++, Java, C#, COM API).[tpl]cite web|url=http://my.platform.com/products/platform-symphony/symphony-de-4.0/docs/foundations_sym.pdf|title=Platform Symphony Foundations|work=Platform official site|format = PDF|year = 2007|accessdate=2008-03-03[/tpl] As the Symphony product evolved, its API interface has become easier to learn and use. A typical client and service can be implemented with a small number of API calls. 
+The Symphony DE package provides a set of examples illustrating the functionality of both client and service side APIs in common usage scenarios. These examples however, do not include any demonstration of real-life financial applications.
+Existing executables such as binaries and scripts can also be integrated and run as a Symphony tasks without reimplementing the application source code.[tpl]cite web|url=http://my.platform.com/docs/symphonyde/4.0/print/development_sym.pdf|title= Application Development Guide|work=Platform official site|format = PDF|year = 2007|accessdate=2008-03-03[/tpl] The client can use Symphony API to launch and control the execution. The limitation is that data cannot be passed between client and service.
+
+==Applications==
+
+===Finance===
+
+Symphony targets the Financial Services industry which demands high-performance and reliability in compute and data-intensive environments. Symphony DE can be used to develop and test financial applications that run complex mathematical algorithms such as Monte Carlo and the Black–Scholes formula. The Symphony Service can be integrated with quantitative finance libraries such as QuantLib to model price evaluations for academics and practitioners alike.
+Platform has completed technical integrations with application partners such as Murex, Summit Systems, Calypso, Catalyst, Tillinghast, GGY, Imagine and Codefarm.[tpl]cite web|url=http://www.gridtoday.com/grid/405075.html|title=Platform Continues Grid Momentum in Financial Services|work=Grid Today|date=2005-06-27|accessdate=2008-03-31[/tpl] [tpl]Dead link|date=October 2010|bot=H3llBot[/tpl]
+Production applications of Symphony in Financial Services industry:
+* Fixed-income derivatives and analytics. Monte Carlo, Black–Scholes-type applications [tpl]cite web|url=http://www.dealingwithtechnology.com/public/showPage.html?page=printer_friendly_imd&print=698085|title=Lehman Works to Share Grids|first=Rob|last=Daly|work=Dealing with Technology|date=2008-01-29|accessdate=2008-03-31[/tpl] [tpl]Dead link|date=October 2010|bot=H3llBot[/tpl]
+* Credit risk management [tpl]cite web|url=http://www.gridtoday.com/grid/1802520.html|title=Société Générale Grid-Enables Credit Risk System|work=Grid Today|date=2007-10-01|accessdate=2008-03-31 |archiveurl = http://web.archive.org/web/20080225102132/http://www.gridtoday.com/grid/1802520.html  |archivedate = 2008-02-25[/tpl]
+* Risk, pricing and value at risk (VaR) calculations [tpl]cite web|url=http://www.finextra.com/fullstory.asp?id=14401|title=Platform Computing signs BNP Paribas Arbitrage to Grid package|work=Finextra|date=2005-10-17|accessdate=2008-03-31[/tpl]
+* Equity derivatives trading [tpl]cite web|url=http://www.gridtoday.com/04/1129/104335.html|title=GERMAN BANK SELECTS PLATFORM TO ACCEL EQUITY DERIVATIVES TRADING|work=Grid Today|date=2004-11-29|accessdate=2008-03-31[/tpl] [tpl]Dead link|date=October 2010|bot=H3llBot[/tpl]
+* Rainbow option, Stochastic volatility models [tpl]cite web|url=http://www-01.ibm.com/software/success/cssdb.nsf/CS/STRD-6WPG2B?OpenDocument&Site=eserverxseries&cty=en_us|title=Sal. Oppenheim claims first-mover advantage with a grid solution from IBM and Platform|work=IBM|date=2007-01-04|accessdate=2008-03-31 |archiveurl = http://web.archive.org/web/20080430033006/http://www-01.ibm.com/software/success/cssdb.nsf/CS/STRD-6WPG2B?OpenDocument&Site=eserverxseries&cty=en_us |archivedate = 2008-04-30[/tpl]
+*  Sophis, Summit, Microsoft Excel or Fast Crisp [tpl]cite web|url=http://www.computerweekly.com/Articles/2006/09/26/218593/how-grid-power-pays-off-for-hsbc.htm|first=Arif|last=Mohamed|title=How grid power pays off for HSBC|work=Computer Weekly|date=2006-09-26|accessdate=2008-04-27[/tpl]
+
+==Vendor Support==
+
+Symphony DE users can post product related questions and feedbacks on the my.platform.com forum. Registration is required in order to post.
+
+==References==
+
+==External links==
+
+* Community website (download area)
+* Community website
+* Official website
+

@@ -1,0 +1,28 @@
+
+An index term, subject term, subject heading, or descriptor, in information retrieval, is a term that captures the essence of the topic of a document. Index terms make up a controlled vocabulary for use in bibliographic records. They are an integral part of bibliographic control, which is the function by which libraries collect, organize and disseminate documents. They are used as keywords to retrieve documents in an information system, for instance, a catalog or a search engine.  A popular form of keywords on the web are tags which are directly visible and can be assigned by non-experts also. Index terms can consist of a word, phrase, or alphanumerical term. They are created by analyzing the document either manually with subject indexing or automatically with automatic indexing or more sophisticated methods of keyword extraction. Index terms can either come from a controlled vocabulary or be freely assigned.
+Keywords are stored in a search index. Common words like articles (a, an, the) and conjunctions (and, or, but) are not treated as keywords because it is inefficient to do so. Almost every English-language site on the Internet has the article "the", and so it makes no sense to search for it. The most popular search engine, Google removed stop words such as "the" and "a" from its indexes for several years, but then re-introduced them, making certain types of precise search possible again.
+The term "descriptor" was coined by Calvin Mooers in 1948. It is in particular used about a preferred term from a thesaurus. 
+The Simple Knowledge Organisation System language (SKOS) provides a way to express index terms with Resource Description Framework for use in the context of Semantic Web.
+
+==Author keywords==
+
+Many journals and databases provides access (also) to index terms made by authors to the articles being published or represented. The relative quality of indexer-provided index terms and author provided index terms is of interest to research in information retrieval. The quality of both kinds of indexing terms depends, of course, on the qualifications of provider. In general authors have difficulties providing indexing terms that characterizes his document relative to the other documents in the database. Author keywords are an integral part of literature.
+
+==Examples==
+
+*Canadian Subject Headings
+*Library of Congress Subject Headings
+*Medical Subject Headings
+*PSH
+
+==See also==
+
+*Keyword cloud
+*Keyword density
+*Keyword optimization
+*Keyword tagging
+*Subject (documents)
+
+== References ==
+
+

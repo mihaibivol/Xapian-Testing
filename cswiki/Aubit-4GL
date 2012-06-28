@@ -1,0 +1,27 @@
+
+'Aubit-4gl' is a free-ware, open-source, clone-compiler for IBM Informix-4GL with extensions.Web site home page   Free downloads are available.from Source Forge.net See references below This 4gl generates Embedded SQL/C, which is further expanded into low level C (programming language) code by the C pre-processor and; which in turn,  is finally compiled into machine code specific to a particular CPU architecture.
+
+==Features==
+
+* Embedded SQL
+* Connectivity to wide range of databases
+* A report writer
+* A forms compiler component
+* Conventional 3GL statements, variables and arrays
+* Memory structure definitions like data base tables or columns
+* Functions and C (programming language) code extensibility
+* Libraries of existing code
+* Extensions to the basic IBM Informix-4GL as well as supporting extensions from other clones
+* Uses the GCC compiler by default with "gnu make"
+
+==History==
+
+Mike Aubury created the compiler.   The Source Forge site was created on Mon 11 of Jul, 2005.
+
+== Notes ==
+
+== References ==
+
+* http://aubit4gl.sourceforge.net/tiki/tiki-custom_home.php
+* http://sourceforge.net/projects/aubit4gl/files/
+

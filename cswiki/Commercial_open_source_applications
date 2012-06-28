@@ -1,0 +1,30 @@
+
+Open source software is widely used for public and non-commercial applications. In addition, many independent software vendors (ISVs), value-added resellers (VARs), and hardware vendors (OEMs or ODMs) use open source frameworks, modules, and libraries inside their proprietary, for-profit products and services. From the customer's perspective, the ability to use open source technology under standard commercial terms and support is valuable.  Customers are willing to pay for the legal protection (e.g., indemnification from intellectual property infringement), "commercial-grade QA," and high-touch support/training/consulting that are typical of commercial software built on top of the innovation and independence that comes with open source.
+Since GNU and some other open source licenses stipulate that derived works must distribute their intellectual property under an open source (copyleft) license, ISVs and VARs have developed legal and technical mechanisms to foster their commercial goals:
+#A dual-license model, where a code base is published under a traditional open source license and a commercial license simultaneously.  Vendors typically charge a perpetual license fee for additional closed-source features, supplementary documentation, testing, and quality, as well as intellectual property indemnification to protect the purchaser from legal liability.
+#Functional encapsulation, where an open source framework or library is installed on a user's computer separately from the commercial product, and the commercial product uses the open source functionality in an "arm's length" way (under the argument that the commercial product was shipped without the open source library, even though it uses it).  Vendors typically charge a perpetual license fee for the functionality that they provide under closed source, as they usually don't provide services or other direct value for the open source elements.
+#A software as a service model, under the argument that the vendor is charging for the services, not the software itself (because the software is never shipped to customers or installed on their computers).  Vendors typically charge a monthly subscription fee for use of their hosted applications.
+#Not charging for the software, but only for the support, training, and consulting services that assist users of the open source software.  Vendors typically charge an annual fee for support, per-student fees for training, and per-project fees for consulting engagements.
+#Charging for the software as part of an information appliance or other hardware device.  In this model, the software (e.g., development libraries, administrative tools, or example applications) is delivered as part of a proprietary chip, subsystem, or hardware solution with the binaries pre-installed (sometimes burned into firmware) while the source tree is posted on Sourceforge or other public open-source repository.
+#(Freemium) Model, making a basic version of the software available for free and charging for premium features, or applications
+The underlying objective of these business models is to harness the size and international scope of the open source community (typically more than an order of magnitude larger than what would be achieved with closed-source models) for a sustainable commercial venture.  The vast majority of commercial open source companies experience a conversion ratio (as measured by the percentage of downloaders who buy something) well below 1%, so low-cost and highly-scalable marketing and sales functions are key to these firms' profitability.
+There is considerable debate about whether vendors can make a sustainable business from an open source strategy.  In terms of a traditional software company, this is probably the wrong question to ask.  Looking at the landscape of open source applications, many of the larger ones are sponsored (and largely written) by system companies such as IBM who may not have an objective of software license revenues.  Other software companies, such as Oracle and Google, have sponsored or delivered significant open source code bases.  These firms' motivation tends to be more strategic, in the sense that they are trying to change the rules of a marketplace and reduce the influence of vendors such as Microsoft.  In the case of smaller vendors doing open source work, their objectives may be less "immediate revenue growth" and more "developing a large and loyal community," which may be the basis of a corporate valuation at merger time.
+Except for Red Hat and VA Software, no other pure open source company has gone public on the major stock markets.  However, two firms on the list below may go public during 2012.  The remainder are likely to be acquired, as is the norm for all pre-public software companies.
+
+==List of commercial open source applications and services==
+
+The purpose of this table is to provide reference information about the provenance and history of commercial open source applications, alphabetized by the product/service name.  It is not to be used or interpreted as an advertisement for the vendors.
+
+==See also==
+
+* Business models for open source software
+* Commercial open source software
+* Open Source Development Labs
+
+==Notes==
+
+==External links==
+
+* Open Solutions Alliance
+* Free-Libre / Open Source Software (FLOSS) is Commercial Software, David A. Wheeler
+

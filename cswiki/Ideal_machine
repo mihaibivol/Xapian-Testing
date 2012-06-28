@@ -1,0 +1,23 @@
+
+The term ideal machine refers to a mechanical system in which energy and power are not lost or dissipated through friction, deformation, wear, or other inefficiencies.  Ideal machines have  the theoretical maximum performance, and therefore are used as a baseline for evaluating the performance of real machine systems.J. J. Uicker, G. R. Pennock, and J. E. Shigley, 2003, Theory of Machines and Mechanisms, Oxford University Press, New York.B. Paul, 1979, Kinematics and Dynamics of Planar Machinery, Prentice Hall.
+A simple machine, such as a lever, pulley, or gear train, is "ideal" if the power in is equal to the power out of the device, which means there are no losses.  In this case, the mechanical efficiency is 100%.  
+Mechanical efficiency is the performance of the machine compared to its theoretical maximum as performed by an ideal machine.  The mechanical efficiency of a simple machine is calculated by dividing the actual power output by the ideal power output.  This is usually expressed as a percentage.  
+Power loss in a real system can occur in many ways, such as through friction, deformation, wear, heat losses, incomplete chemical conversion, magnetic and electrical losses.
+
+==Criteria==
+
+A machine consists of a power source and a mechanism for the controlled use of this power.  The power source often relies on chemical conversion to generate heat which is then used to generate power.  Each stage of the process of power generation has a maximum performance limit which is identified as ideal.
+Once the power is generated the mechanism components of the machine direct it toward useful forces and movement.  The ideal mechanism does not absorb any power, which means the power in is equal to the power out.
+An example is the automobile engine (internal combustion engine) which burns fuel (an exothermic chemical reaction) inside a cylinder and uses the expanding gases to drive a piston."Internal combustion engine", Concise Encyclopedia of Science and Technology, Third Edition, Sybil P. Parker, ed. McGraw-Hill, Inc., 1994, p. 998 .  The movement of the piston rotates the crank shaft.  The remaining mechanical components such as the transmission, drive shaft, differential, axles and wheels form the power transmission mechanism that directs the power from the engine into friction forces on the road to move the automobile.
+The ideal machine has the maximum energy conversion performance combined with a lossless power transmission mechanism that yields maximum performance.
+
+==See also==
+
+*Mechanics
+*Energy
+*Conservation of energy
+*Entropy
+
+== References ==
+
+

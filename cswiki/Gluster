@@ -1,0 +1,30 @@
+
+Gluster Inc. was a software company that provided an open source platform for scale-out Public and Private Cloud Storage. The company was privately funded and headquartered in Sunnyvale, California with an engineering center in Bangalore, India. Gluster was funded by Nexus Venture Partners and Index Ventures. Gluster was acquired by Red Hat on October 7, 2011. http://www.redhat.com/promo/storage/press-release.html
+
+==Relationship to GlusterFS==
+
+Gluster based its product on GlusterFS, an open-source software-based network-attached filesystem that deploys on commodity hardware.http://www.infostor.com/nas/gluster-open-source-scale-out-nas-.html  The initial version of GlusterFS was written by Anand Babu Periasamy,http://www.crn.com/slide-shows/storage/225700107/2010-storage-superstars-25-you-need-to-know.htm?pgno=17 Gluster’s founder and current CTO. Red Hat is the primary author and maintainer of the GlusterFS Open Source Project, and also maintains the open-source website at www.gluster.org. The Gluster Open Source Community consists of over 8000 user-developers.
+
+==Architecture==
+
+The GlusterFS architecture aggregates compute, storage, and I/O resources into a global namespace. Each server plus attached commodity storage (configured as DAS, JBOD, or SAN) is considered to be a node. Capacity is scaled by adding additional nodes or adding additional storage to each node. Performance is increased by deploying storage among more nodes. High availability is achieved by replicating data n-way between nodes.
+
+==Public Cloud Deployment==
+
+For public cloud deployments, GlusterFS offers an Amazon Web Services (AWS) Amazon Machine Image (AMI), which is deployed on Elastic Compute Cloud (EC2) instances rather than physical servers and the underlying storage is Amazon’s Elastic Block Storage (EBS).http://www.eweek.com/c/a/Midmarket/Gluster-Introduces-NAS-Virtual-Appliances-for-VMware-Amazon-Web-Services-148680/ In this environment, capacity is scaled by deploying more EBS storage units, performance is scaled by deploying more EC2 instances, and availability is scaled by n-way replication between AWS availability zones.
+
+==Private Cloud Deployment==
+
+A typical on-premise, or private cloud deployment will consist of GlusterFS installed as a virtual appliance on top of multiple commodity servers running hypervisors such as KVM, Xen, or VMware; or on bare metal.http://www.storage-switzerland.com/Blog/Entries/2011/2/22_Gluster_Virtual_Storage_Appliance.html Capacity is scaled by adding additional nodes or adding additional storage to each node. Performance is increased by deploying storage among more nodes. High availability is achieved by replicating data n-way between nodes.
+
+==Company Name==
+
+The name Gluster is a combination of GNU and cluster. Despite the similarity in names, Gluster is not related to the Oracle Lustre file system and does not incorporate any Lustre code.
+
+==References==
+
+==External links==
+
+* Gluster Web site
+* Gluster Community
+

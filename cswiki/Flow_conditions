@@ -1,0 +1,18 @@
+
+In fluid measurement, the fluid's flow conditions (or flowing conditions) refer to quantities like temperature and static pressure of the metered substance.  The flowing conditions are required data in order to calculate the density of the fluid at flowing conditions.  The flowing density is in turn required in order to compensate the measured volume to quantity at base conditions.
+
+== Gas density ==
+
+The density of a gas is calculated using the ideal gas law and an equation of state calculation such as the one described in AGA Report No. 8.
+
+== Liquid density ==
+
+There are broad general methodologies used to calculate the density of a liquid at specific conditions.  In order to discuss a specific methodology, one must choose a liquid that holds sufficient interest to warrant a calculation specific to it.  EOS 87.3 is a density calculation for seawater; API chapter 11 specifies calculations pertaining to oil, fuels and natural gas liquids.
+
+== See also ==
+
+* Base conditions
+* Equations of state
+* AGA Report No. 8
+* flow conditioning
+

@@ -1,0 +1,40 @@
+
+Astronomy Calculators is a collection of software utilities designed to perform optical and telescopic calculations and conversions, and also provide astronomical data in the form of ephemerides for major solar system bodies, and data such as Moon phase, and sunrise/sunset times. It is Windows freeware, which has been distributed via the internet, and also by the Sky at Night Magazine. It uses calculations from Jean Meeus' 'Astronomical Algorithms',Astronomical Algorithms by Jean Meeus. and adapted algorithms from the paper "Low precision formulae for planetary positions"Low-precision formulae for planetary positions by van Flandern, T. C. & Pulkkinen, K. F.  for ephemerides.How to compute planetary positions, adaptation of 'Low-precision formulae for planetary positions' courtesy of Paul Schlyter
+It also uses an algorithm from the United States Naval Observatory for sunrise/sunset times and solar positional data.Developed USNO algorithm for computing solar data. Almanac for Computers, 1990
+
+== Features ==
+
+The first version contained calculators for simple conversions and optical ratio calculations. It provided users with the following values:
+*Magnification
+*Max/Min magnifications
+*F/ratio
+*Limiting magnitude
+*True field of view
+*Dawes' limit
+*Exit pupil
+*Light grasp
+*Lunar feature resolution
+*Absolute magnitude
+*Distance conversion
+*Orbital period
+The second version contained updated interfaces for the above calculators, as well as the addition for ephemeris calculation and live data access. Including the above calculators, it provided:
+*Star split magnification
+*Date conversion
+*Daily solar data (rise/set times and positional data)
+*Planetary ephemerides (physical data and positional data)
+*Lunar ephemeris (phase/physical data and positional data)
+*Live image downloaders (download images from various websites)
+
+== See also ==
+
+*XEphem
+*Astronomical algorithm
+
+== References ==
+
+== External links ==
+
+* Official homepage with binaries only
+* Development project page on sourceforge
+* Directory entry and statistics
+

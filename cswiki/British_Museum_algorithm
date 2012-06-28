@@ -1,0 +1,19 @@
+
+The British Museum algorithm is a general approach to find a solution by checking all possibilities one by one, beginning with the smallest. The term refers to a conceptual, not a practical, technique where the number of possibilities are enormous.
+For instance, one may, in theory, find the smallest program that solves a particular problem in the following way: Generate all possible source codes of length one character. Check each one to see if it solves the problem. (Note: the halting problem makes this check troublesome.) If not, generate and check all programs of two characters, three characters, etc. Conceptually, this finds the smallest program, but in practice it tends to take an unacceptable amount of time (more than the lifetime of the universe, in many instances).
+Similar arguments can be made to show that optimizations, theorem proving, language recognition, etc. is possible or impossible. 
+Newell, Shaw, and Simon [tpl]cite article |author = Allen Newell, J.C. Shaw and Herbert A. Simon| year = 1958 | title = Elements of a theory of human problem solving | journal = Psychological Review | volume = 65 | number = 3 | month = May | pages = 151-166 [/tpl] 
+called this procedure the British Museum algorithm 
+:"... since it seemed to them as sensible as placing monkeys in front of typewriters in order to reproduce all the books in the British Museum." http://library.thinkquest.org/C005693/page8.html
+== See also == 
+* Branch and bound
+* Breadth-first search 
+* Brute-force search
+
+== Sources ==
+
+* Original text by [tpl]DADS|British Museum technique|britishMuseum[/tpl].
+
+==References==
+
+

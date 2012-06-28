@@ -1,0 +1,60 @@
+
+Sugarscape is a model  artificially intelligent agent-based social simulation following some or all rules presented by Joshua M. Epstein & Robert Axtell in their book Growing Artificial Societies.
+
+==Origin==
+
+Fundaments of Sugarscape models can be traced back to the University of Maryland where economist Thomas Schelling presented his paper titled Models of Segregation. Written in 1969, Schelling and the rest of the social environment modelling fraternity had their options limited by a lack of adequate computing power and an applicable programming mechanism to fully develop the potential of their model. 
+John Conway's agent-based simulation "Game of Life" was enhanced and applied to Schelling's original idea by Joshua M. Epstein and Robert Axtell in their book Growing Artificial Societies. To demonstrate their findings on the field of agent-based simulation, a model was created and distributed with their book on CD-ROM. The concept of this model has come to be known as "the Sugarscape model". Since then, the name "Sugarscape" has been used for agent-based models using rules similar to those defined by Epstein & Axtell.
+
+==Principles==
+
+All Sugarscape models include the agents (inhabitants), the environment (a two-dimensional grid) and the rules governing the interaction of the agents with each other and the environment. 
+The original model presented by J. Epstein & R. Axtell (considered as the first large scale agent model) is based on a 51x51 cell grid, where every cell can contain different amounts of sugar (or spice). In every step agents look around, find the closest cell filled with sugar, move and metabolize. They can leave pollution, die, reproduce, inherit sources, transfer information, trade or borrow sugar, generate immunity or transmit diseases - depending on the specific scenario and variables defined at the set-up of the model. 
+Sugar in simulation could be seen as a metaphor for resources in an artificial world through which the examiner can study the effects of social dynamics such as evolution, marital status and inheritance on populations.[ref]
+(Retrieved from ABI/Inform Document ID: 347271391)[/ref]
+Exact simulation of the original rules provided by J. Epstein & R. Axtell in their book can be problematic and it is not always possible to recreate the same results as those presented in Growing Artificial Societies.
+
+==Model implementations==
+
+The Sugarscape model has had several implementations, some of which are available as open source software.
+
+===Ascape===
+
+An original implementation was developed in Ascape, Java software suitable for agent-based social simulation. The Sugarscape model remains part of the built-in library of models distributed with Ascape.
+
+===Sugarscape.sourceforge.net===
+
+Sugarscape.sourceforge.net is a complex and developed implementation of the original Sugarscape model, originally written in Object Pascal and later in Java by Mark A. O'Neill. It can be easily used by other researchers as a test-bed, where can they lay out their theory in terms of initial and subsequent states of the Sugarscape. The patterns resulting from the execution of the simulation can be used to confirm or revise their claims. For example, a thesis about links between population concentrations and soil fertility could be explored by setting varying levels of fertility and noting the corresponding populations that the Sugarscape is able to support. The web version can be freely used to test parameter variations for different scenarios or downloaded as a whole project and the source files modified at will.
+
+===NetLogo===
+
+NetLogo has been used to build Sugarscape models. Three Sugarscape scenarios are included in the NetLogo Models Library: "Immediate Growback", "Constant Growback" and "Wealth Distribution". Besides these three scenarios lies Iain Weaver's Sugarscape NetLogo model, which is part of the User Community Models Library. "It builds on Owen Densmore's NetLogo community model to encompass all rules discussed in Growing Artificial Societies with the exception of the combat rule (although trivial to include, it adds little value to the model)." The model is equipped with rich documentation including instructions for successful replication of the original Sugarscape rules.
+
+===SugarScape on steroids===
+
+Due to the emergent nature of Agent-based models (ABMs), it is critical that the population sizes in the simulations match the population sizes of the dynamic systems being modelled. However, the performance of contemporary agent simulation frameworks has been inadequate to handle such large population sizes and parallel computing frameworks designed to run on computing clusters has been limited by available bandwidth. As computing power increases with Moore's law, the size and complexity of simulation frameworks can be expected to increase. The team of R. M. D’Souza, M. Lysenko and K Rahmani from Michigan Technological University used a Sugarscape model to demonstrate the power of Graphics processing units (GPU) in ABM simulations with over 50 updates per second with agent populations exceeding 2 millions.[ref]
+(See also: presentation slides)[/ref]
+
+===Mathematica===
+
+Another implementation can be found written in Mathematica
+
+===MASON===
+
+GMU's MASON project, available under the Academic Free License, also includes an implementation of Sugarscape. 
+
+==References==
+
+==External links==
+
+* Ascape
+* Sugarscape.sourceforge.net 
+* NetLogo Models Library
+** NetLogo: Immediate Growback 
+** NetLogo: Constant Growback
+** NetLogo: Wealth Distribution
+** NetLogo: Community Models Library
+*** NetLogo Community Models: Sugarscape
+* Sugarscape in Mathematica
+* Sugarscape in MASON
+

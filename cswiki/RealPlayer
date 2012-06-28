@@ -1,0 +1,137 @@
+
+RealPlayer, by RealNetworks, is a cross-platform software product primarily used for the playing of recorded media. The media player is compatible with numerous formats within the multimedia realm, including MP3, MPEG-4, QuickTime, Windows Media, and multiple versions (proprietary) of RealAudio and RealVideo formats.[tpl]cite web|url=http://home.real.com/product/help/r1p_v2g/en/MM_Media_Formats.htm |title=Supported Formats by RealOne Player |publisher=Home.real.com |date= |accessdate=2009-07-16 |archiveurl = http://web.archive.org/web/20080611210214/http://home.real.com/product/help/r1p_v2g/en/MM_Media_Formats.htm |archivedate = June 11, 2008[/tpl] RealPlayer is also available for other operating systems (OS) and Linux, Unix, Palm OS, Windows Mobile and Symbian versions have been released.[tpl]cite web|url=http://www.realnetworks.com/products/media_players.html |title=RealPlayer - Multiple Editions |publisher=Realnetworks.com |date= |accessdate=2009-07-16[/tpl] 
+The software is powered by an underlying open source media engine called Helix.[tpl]cite web|url=https://helixcommunity.org/beula/ |title=Helix Community License |publisher=Helixcommunity.org |date= |accessdate=2009-07-16[/tpl] The latest current stable release is version RealPlayer SP 1.0. 
+
+==History==
+
+The first version of RealPlayer was introduced in April 1995 as "RealAudio Player" and was one of the first media players capable of streaming media over the Internet. Then, version 4.01 of RealPlayer was included as a selectable Internet tool in Windows 98's installation package.[tpl]cite web|url=http://users.telenet.be/mydotcom/howto/scripts/sysadmin/answerfile_w98.htm |title=msbatch.inf - Unattended and Customized Installation of Windows 98 |accessdate=2010-02-03[/tpl] Subsequent versions of the software were titled "RealPlayer G2" (version 6) and "RealOne Player" (version 9), whilst free "Basic" versions as well as paid "Plus" versions, the latter with additional features, have also been offered. For the Windows OS, the RealPlayer version 9 subsumed the features of the separate program, RealJukebox.
+RealPlayer 11 was released for Microsoft Windows in November 2007 and for Mac OS X in May 2008. RealPlayer 15 was released November 18, 2011. This version allows users to transfer video, music and photos between their computers and mobile devices, share links of videos and photos on sites such as Facebook and MySpace, and download videos from popular sites such as YouTube and Metacafe.
+RealPlayer was a popular streaming media player during the early years of the Internet, but, as of the 21st century, its market share has been surpassed by Windows Media Player and, since mid-2007, by Apple's iTunes.[tpl]cite web|author=By website optimization on 18 Jan 2008 AM |url=http://www.websiteoptimization.com/bw/0801/ |title=iTunes Passes RealPlayer in Unique Users |publisher=Websiteoptimization.com |date=2008-01-18 |accessdate=2009-07-16[/tpl] RealPlayer was initially accessed by many users as a plugin to watch streaming video or listen to streaming audio (most of the BBC's websites formerly employed the plugin);[tpl]cite web|url=http://www.bbc.co.uk/radio/help/faq/download_and_install_realplayer.shtml |title=How do I download and install RealPlayer?|publisher=bbc.co.uk |accessdate=2010-06-14[/tpl] but, again in the 21st century, Adobe Flash has become the preferred option for this purpose (demonstrated by the comparable success of the BBC iPlayer). The number of unique users using RealPlayer has fallen by 50% over the three-year period from March 2007 to March 2010.[tpl]cite web|url=http://www.websiteoptimization.com/bw/1003/|title=Apple Bites into Microsoft's Streaming Media Lead - US Broadband Penetration Grows to 95.3% Among Active Internet Users - March 2010 Bandwidth Report|publisher=BBC|date=|accessdate=2010-06-04[/tpl]
+
+==Features==
+
+RealPlayer, beyond its function as a media player, also contains additional features, including:
+* Media Browser (based on Internet Explorer) that allows web browsing while playing media.
+* Playlist Editor that is similar to other media players, supporting "drag and drop" and playlist randomization.
+* Theater Mode (full screen mode) video playback. This will only play on monitor 1 of a multi-monitor Windows PC (paid version offers a skin-decorated "Toolbar Mode" that uses less desktop space).
+* Visualizations - graphical animations or "light shows". Five are included with RealPlayer set-up. Others are available from RealNetworks, including a 3D Visualization Plug-In Surreal.FX.
+* Continuous Play (Loop multiple songs) and Shuffle Play (Play tracks randomly; however, RealPlayer will select the random tracks in sequence e.g. Track 1, Track 5, Track 2, Track 6, Track 3 etc.).
+* Stay on top while playing option.
+* Favorites menu to save and recall media locations for files or streams.
+* Equalizer and Video controls. Crossfade and Gapless playback are included in RealPlayer Plus.
+* Media library allows organization of media through track tagging and editing.  The Premium version adds Audio Converter to convert between RealMedia, MP3, AAC, Windows Media, and WAV formats, and others.
+* Recording audio, (RealPlayer Plus only) which records audio via a sound card.
+* LivePause pauses streaming video clips without having to stop the buffering.
+* Version 10.5 included Harmony technology, making the Music Store compatible with iPod and Windows Media DRM-compatible players.
+* Both the basic and the plus version can burn CDs. The current burning technology is powered by NPI; formerly it was powered by Adaptec (Roxio). The free version can burn audio and data CDs; the premium version burns MP3 CDs.
+* CD ripping into AAC (in MP4) (32 kbit/s - 320 kbit/s) (default), RealAudio 10 (32 kbit/s - 320 kbit/s), MP3 (32 kbit/s - 320 kbit/s),  RealAudio Lossless, WAV (1411 kbit/s), Windows Media Audio (Requires Windows Media Player 10 installed) (64 kbit/s - 192 kbit/s) formats.
+* RealPlayer Music Store allows users to locate, preview, and purchase songs, which cost $0.49 to $0.99.
+* SuperPass - paid access to premium recorded and live video broadcasts. In the U.S., content like CBS Big Brother 24/7 is provided for a fee of around US$39.99. For Europe (except UK), this includes live broadcasts of BBC World Europe, Al Jazeera English, CNN International Europe, Euronews in seven languages, BBC News recent news clips, MTV UK music clips, and custom content from SportsNews TV, RealTV, Vidzone, and Comedy Time. Costs 17.50 € per month.
+* Video Download - version 11 for Windows and OS X allow users to download Flash Video files from sites such as YouTube. MP4 files can be downloaded.
+* Media Converter (RealPlayer SP) - allows converting to proper format and transferring video to iPod, cell phones, Xbox, PS3 and other devices
+* Video Sharing (SP) - users can post videos to Facebook and Twitter directly from the software
+
+===Supported media formats===
+
+RealPlayer has used several data formats:
+* RealMedia formats:  RealAudio (*.ra, *.rm),  RealVideo (*.rv, *.rm, *.rmvb),  RealPix (*.rp), RealText (*.rt), RealMedia Shortcut (*.ram, *.rmm)
+* Streaming: RealTime Streaming Protocol (rtsp://), Progressive Networks Streaming Protocols (pna://, pnm://), Microsoft Windows Media Streaming Protocol (mms://),[tpl]Citation needed|date=June 2010[/tpl] Real Scalable Multicast (*.sdp), Synchronized Multimedia Integration Language (*.smil, *.smi)
+* Audio: MP3 (*.mp3, *.mp2, *.mp2, *.m3u), CD Audio (*.cda), WAV (*.wav), AAC/aacPlus v1 (*.aac, *.m4a, *.m4b, *.mp4, *.acp, *.m4p), Apple Lossless, AIFF (*.aif, *.aiff), AU Audio Files (*.au), Panasonic AAC (*.acp)
+* Video: DVD (*.vob), Video CD (*.dat), MPEG Video (*.mpg, *.mpeg, *.m2v, *.mpe etc.), AVI (*.avi, *.divx), MJPEG video playback from .avi files, Windows Media (*.wma, *.wmv etc.) (requires Windows Media Player 9/10), QuickTime (*.mov, *.qt) (Quick Time Player must be installed), Adobe Systems Flash (*.swf) (Flash or Shockwave Player must be installed), Flash Video (*.flv).
+* Playlists (*.rpl, *.xpl, *.pls, *.m3u)
+* Graphics: Bitmap (*.bmp), GIF Images (*.gif), JPEG Images (*.jpeg, *.jpg), PNG (*.png)
+
+===Formats supported by optional plug-ins===
+
+===Plug-ins===
+
+RealPlayer has a wide variety of plug-ins. Some of the plug-ins are listed at the RealPlayer accessories page, but not all.
+;Audio Enhancement
+:There are four audio "enhancers" available for the latest version of RealPlayer. DFX, iQfx, Volume Logic, and Sanyo 3D Surround.[tpl]cite web|url=http://www.real.com/accessories/ads/html/s3s.html?lang=en&loc=zz&src=082504_intl_acc |title=Sanyo 3D Surround|archivedate=2007-03-12 |archiveurl=http://web.archive.org/web/20070312144055/http://www.real.com/accessories/ads/html/s3s.html?lang=en&loc=zz&src=082504_intl_acc[/tpl] Lake PLS, created by Lake Technologies, works only with RealJukebox, and has limited use. There are some registry tweaks which allow Lake PLS to work with RealPlayer 10. Lake PLS is still available on the RealPlayer website.
+;RealPlayer Skin Creators
+:RealPlayer has had two skin creator plug-ins: SkinsEditor for RealJukebox -- an easy to use skins creator made by DeYoung software. The second application, RealJukebox Skins Converter, converts Winamp skins into RealPlayer skins.
+;Playback Plug-Ins'''
+:Please see section  Formats supported by optional plug-ins.
+;Radio Tuners'''
+:vTuner PlusVTuner Plus and HMRadio are radio tuners specially created for RealPlayer.
+;Visualizations
+:The available visualizations from the RealNetworks site are: FrequencywurX, FyrewurX, FlamewurX, XFactor, Spectrl View, FluxWave, Puddle, Paint Drops, Polka dots, StickSterZ 1.0, Circle, On the road, Real Logo, Hubble Bubble. There are some more visualization plug-ins like Surreal.FX by RealNetworks, G-Force and WhiteCap by SoundSpectrum and SticksterZ 1.1SticksterZ 1.1 by Eric Metois.
+;Firefox Browser Download (Firefox Add-on)
+:RealPlayer has a browser download add-on for Firefox (currently v1.0) which allows users to download video from a video player window (pop-up menu above top-right side of video player).
+;ScrobrealPlayer
+:an audioscrobbler plugin that connects RealPlayer with the Last.FM social music network.
+
+==Editions==
+
+===RealPlayer for Windows===
+
+RealPlayer SP includes audio CD burning capabilities, DVR-style playback buffering, multimedia search, Internet radio, a jukebox-style file library, an embedded web browser (using Microsoft Internet Explorer), and the ability to convert and transfer media to a wide range of devices: Music players such as iPod and Zune, smartphones such as iPhone and BlackBerry, portable gaming devices such as Sony PSP, and console gaming systems such as Xbox 360, PS3, and Wii. Since version 11, RealPlayer SP has gained Flash Video support, DVD, SVCD, VCD burning (120-minute) and video recording (DRM is supported).
+[tpl]As of |2011[/tpl] RealPlayer Enterprise is a licensed product for enterprise applications which can be customized and remotely administered by RealPlayer Enterprise Manager.[tpl]cite web |url=http://www.realnetworks.com/products/rpe/index.html |title=RealPlayer Enterprise |publisher=Real Networks |accessdate=2010-08-17[/tpl]  The free Realplayer Enterprise Education Edition has been removed.[tpl]cite web |url=http://forms.real.com/rnforms/products/tools/rpedist/index.html |title=Realplayer Enterprise Education Edition download |publisher=Real Networks |accessdate=2011-03-16[/tpl] Both versions of Realplayer Enterprise are lightweight, ad-free versions of Real Player, missing most consumer features and most plug-in support. The RealSched.exe update reminder can be disabled in two steps, and it is not reinstalled upon running the player.
+
+===RealPlayer for Mac OS X===
+
+RealPlayer for Mac OS X is distributed for free. The latest current stable release [tpl]as of|lc=y|2010|07[/tpl] is version RealPlayer SP 1.0. It includes Real's Helix playback engine for RealAudio and RealVideo, a 10-band equalizer and video adjustment controls, and a full-screen, resizable "theater mode" for video playback, as well as many features found in its Windows counterpart.
+Since the release of version 10.0 in 2004,[tpl]cite web|url=http://www.realnetworks.com/company/press/releases/2004/real_macbeta.html |title=RealNetworks announces RealPlayer 10 for Mac OS X |publisher=Realnetworks.com |date=2004-06-28 |accessdate=2009-07-16[/tpl][tpl]cite web|url=http://www.versiontracker.com/dyn/moreinfo/macosx/15540&vid=152394 |title=Release notes from |publisher=Versiontracker |date= |accessdate=2009-07-16[/tpl] RealPlayer has become much more closely integrated with Mac OS X including features such as:
+* QuickTime playback support (including full-screen viewing which Apple only introduced to its own basic QuickTime Player in 2007)
+* An integrated Web browser based on Apple's WebKit framework, resulting in RealPlayer and Safari sharing cookies.
+* Support for Bonjour to share Internet favorites.
+* Cocoa user interface.
+
+===RealPlayer for Linux/Unix===
+
+RealPlayer for Linux/Unix was developed separately from the Windows and Mac versions.[tpl]Citation needed|date=May 2008[/tpl] The client is based on the open-source Helix Player which can be found at the Helix Community Website. It supports Windows Media 7/8, RealAudio/Video, MP3 and Ogg Vorbis.  The interface depends on the current GTK+ theme.
+
+===RealPlayer for Android===
+
+The Android version of RealPlayer is currently available as a free download from the Android Market.https://market.android.com/details?id=com.real.RealPlayer It supports Real Audio, Real Video, MP3, 3GP, AMR and other media formats.
+
+===RealPlayer for Symbian===
+
+The Symbian version of RealPlayer allows mobile phones to play Real Audio, Real Video, MP3, 3GP, AMR and other media formats. It is provided as freeware. In newer Symbian devices it can also be used to stream both audio and video content in the form of MP3 (music) and 3GP (videos).
+
+===RealPlayer for Palm===
+
+RealPlayer 1.6.1 (US) or RealPlayer 1.6.0 (worldwide) is available for free for PalmOne-made Palm OS 5 devices, such as the Palm Tungsten or Zire series.[tpl]cite web|url=http://www.real.com/realmobile/palmone.html |title=RealPlayer for palmOne Handhelds |publisher=Real.com |date= |accessdate=2009-07-16[/tpl] It is also compatible with RealPlayer Music Store tracks. However, they will neither install nor run on non-PalmOne-made devices like Sony's Clie line of PDAs. They also do not support modern Palm smartphones such as the treo 700p, 755p, or Centro, although the treo 600 and 650 are listed as supported devices. Their Web page regarding PalmOS support (shown above) gives no indication if support for those devices will ever be provided.
+
+===RealJukebox===
+
+RealJukebox was a computer program released by RealNetworks that allowed users to organise their digital music. It was first released in May 1999. By late 2001 the functions of the program had been integrated into the Real's core media player program, RealPlayer.
+
+==Controversies==
+
+Past versions of RealPlayer have been criticized for containing adware and spyware. In 1999 security researcher Richard M. Smith dissected some of RealJukebox's network traffic and discovered that it was sending a unique identifier with information about the music titles to which its users were listening.  RealNetworks issued a patch, and the spyware was removed in version 1.02. Their download page stated RealJukebox included privacy enhancements and gave a link to the privacy policy.
+PC World magazine named RealPlayer (1999 Version) as #2 in its 2006 list The 25 Worst Tech Products of All Time, writing that RealPlayer "had a disturbing way of making itself a little too much at home on your PC--installing itself as the default media player, taking liberties with your Windows Registry, popping up annoying 'messages' that were really just advertisements, and so on."  In 2007, it placed RealPlayer, versions 1996-2004, at #5 in its list, The 20 Most Annoying Tech Products.[tpl]cite web | url = http://www.pcworld.com/article/id,130638-page,2-c,techindustrytrends/article.html | title = The 20 Most Annoying Tech Products | first = Dan | last = Tynan | date = 2007-04-16 | accessdate = 2007-04-17 | publisher = PC World[/tpl]
+In 2008 StopBadware.org labeled RealPlayer "badware" for not completely disclosing software components it installs as well as those it leaves behind after being un-installed.[tpl]cite web|url=http://www.stopbadware.org/reports/reportdisplay?reportname=realplayer01282008 |title=StopBadware Report: Realplayer |publisher=StopBadware.org |date=2008-01-28  |accessdate=2009-07-16[/tpl] Jeff Chasen, vice president for RealPlayer, responded by stating: "I actually admire what StopBadware is trying to do to keep consumers safe.  But in this case the only thing bad is the report itself.  Here’s why: Not a single claim raised by StopBadware actually hurts anyone."[tpl]cite web|url=http://rws-blog.rhapsody.com/realplayer/2008/02/reals-response.html |title=Real’s Response to StopBadware.org blog entry| publisher=Rws-blog.rhapsody.com |date=2008-02-19 |accessdate=2009-07-16 |archivedate=2008-02-27|archiveurl=http://web.archive.org/web/20080227180404/http://rws-blog.rhapsody.com/realplayer/2008/02/reals-response.html[/tpl]
+The RealPlayer Message Center has caused controversy due to its pop-up advertisements. In previous versions of the program the Message Center had a reputation for being difficult to turn off completely. In RealPlayer 11 it will not appear unless it is turned on by the user.
+When RealPlayer for Windows is installed, a process called tkbell.exe will run automatically each time the computer starts up, and may appear on the list of active processes as realsched.exe.  The process is linked to the Message Center and can also check for updates to the program.  The process is non-essential and is not considered to be harmful, but has been seen as a nuisance by some users.[tpl]cite web|url=http://www.auditmypc.com/process/tkbell.asp |first=James |last=Maurer |title=What is tkbell.exe? |publisher=Auditmypc.com |date= |accessdate=2009-07-16[/tpl]  It can be disabled by altering the settings of RealPlayer's Message Center.[tpl]cite web|url=http://www.help2go.com/Tutorials/MP3%10Audio/Disable_RealPlayer_realsched.exe.html |title=Disable RealPlayer realsched.exe |publisher=Help2Go|first= Oscar|last= Sodani |date=2004-07-07 |archiveurl=http://web.archive.org/web/20060111184746/http://www.help2go.com/Tutorials/MP3%10Audio/Disable_RealPlayer_realsched.exe.html |archivedate=2006-01-11 |accessdate=2010-08-17[/tpl]
+Earlier Windows versions of RealPlayer experienced a problem with the volume control, where muting the sound in the program would also mute all system sounds.[tpl]cite web|author=User Telstar|url=http://forums.techguy.org/multimedia/384746-adjusting-realplayer-volume-affects-comp.html |title=Adjusting RealPlayer volume affects Comp volume settings |publisher=Forums.techguy.org |date=2005-07-26 |accessdate=2009-07-16[/tpl]
+
+== Access restrictions ==
+
+Accessing the RealPlayer website and its hosted contents has been banned from countries on the United States Office of Foreign Assets Control sanction list, including Cuba, Iran, Libya, North Korea, Sudan and Syria.
+
+==Real Alternative==
+
+Real Alternative is a software bundle that allows users to play RealMedia files without installing RealPlayer.[tpl]cite web|title=Real Alternative 2.02|url=http://www.filehippo.com/download_real_alternative/|work=FileHippo|accessdate=August 29, 2011[/tpl][tpl]cite web|title=Real Alternative|url=http://download.cnet.com/Real-Alternative/3000-2139_4-10698783.html|work=Download.com|publisher=CBS Interactive|accessdate=August 29, 2011|date=October 9, 2009[/tpl]  The last version, 2.02, was released on February 19, 2010. It included Media Player Classic.[tpl]cite web|title=Real Alternative 2.02 - Technical details|url=http://www.filehippo.com/download_real_alternative/tech/|work=FileHippo|accessdate=August 29, 2011|date=February 20, 2010[/tpl][tpl]cite web|title=Real Alternative 2.0.2|url=http://www.free-codecs.com/download/real_Alternative.htm|work=Free-Codecs.com|accessdate=August 29, 2011|date=February 19, 2010[/tpl]
+Beginning in 2010, RealNetworks sued Hilbrand Edskes, a 26-year old Dutch webmaster for having inserted hyperlinks to Real Alternative on his website www.codecpack.nl. RealNetworks alleges that Real Alternative is a reverse engineered package.[tpl]cite news |last=De Winter |first=Brenno |title=RealNetworks crushes Dutch webmaster for hyperlink |url=http://www.pcadvisor.co.uk/news/tech-industry/3299285/realnetworks-crushes-dutch-webmaster-for-hyperlink/ |accessdate=August 29, 2011 |newspaper=PC Advisor |publisher=IDG |date=August 25, 2011[/tpl] Meanwhile, Download.com and FileHippo continue to host the software product, unchallenged.[tpl]cite news|last=Masnick|first=Mike|title=RealNetworks Destroying Dutch Webmaster's Life Because He Linked To A Reverse Engineered Alternative|url=http://www.techdirt.com/articles/20110826/00013315692/realnetworks-destroying-dutch-webmasters-life-because-he-linked-to-reverse-engineered-alternative.shtml|accessdate=August 29, 2011|newspaper=TechDirt|date=August 26, 2011[/tpl]
+In November 2011 RealNetworks' case against Edskes was dismissed and RealNetworks was ordered to pay him 48,000 Euros in damages.[tpl]cite news|last=de Winter|first=Brenno|title=RealNetworks gaat door met rechtszaak om hyperlink|url=http://webwereld.nl/nieuws/108474/realnetworks-gaat-door-met-rechtszaak-om-hyperlink.html|accessdate=December 9, 2011|newspaper=WebWerld (Dutch language)|date=November 7, 2011[/tpl][tpl]cite news|last=Collin|first=Branko|title=Internet thugs Realnetworks lose case against Hilbrand Edskes|url=http://www.24oranges.nl/2011/11/06/internet-thugs-realnetworks-lose-case-against-hilbrand-edskes/|accessdate=Devcember 9, 2011|newspaper=24Oranges|date=November 6, 2011[/tpl]  Details of the case and judgement have been published.[tpl]cite news|title=LJN: BU3223, Rechtbank 's-Gravenhage , 363011 / HA ZA 10-1233|url=http://zoeken.rechtspraak.nl/detailpage.aspx?ljn=BU3223|accessdate=December 10, 2011|newspaper=de Rechtspraak (Dutch language)|date=November 4, 2011[/tpl]
+
+==See also==
+
+* Comparison of video player software
+* RealAudio
+* RealVideo
+* RealMedia
+* iQfx for RealPlayer
+
+==References==
+
+==Further reading==
+
+* How to install realPlayer on Ubuntu
+* RealPlayer SP launched as beta
+
+==External links==
+
+* [tpl]Official website|http://www.real.com/[/tpl]
+

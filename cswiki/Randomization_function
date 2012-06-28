@@ -1,0 +1,23 @@
+
+In computer science, a randomization function or randomizing function is an algorithm or procedure that implements a randomly chosen function between two specific sets, suitable for use in a randomized algorithm.
+Randomizing functions are related to random number generators and hash functions, but have somewhat different requirements and uses, and often need specific algorithms.
+
+==Uses==
+
+Randomizing functions are used to turn algorithms that have good expected performance for random inputs, into algorithms that have the same performance for any input.
+For example, consider a sorting algorithm like quicksort, which has small expected running time when the input items are presented in random order, but is very slow when they are presented in certain unfavorable orders. A randomizing function from the integers 1 to n to the integers 1 to n can be used used to rerrange the n input items in "random" order, before calling that algorithm.  This modified (randomized) algorithm will have small expected running time, whatever the input order.
+
+==Requirements==
+
+===Randomness===
+
+In theory, randomization functions are assumed to be truly random, and yield an unpredictably different function every time the algorithm is executed.  The randomization technique would not work if, at every execution of the algorithm, the randomization function always performed the same mapping, or a mapping entirely determined by some externally observable parameter (such as the program's startup time).  With such a "pseudo-randomization" function, one could in principle construct a sequence of calls such that the function would always yield a "bad" case for the underlying deterministic algorithm.  For that sequence of calls, the average cost would be closer to the worst-case cost, rather than the average cost for random inputs.
+In practice, however, the main concern is that some "bad" cases for the deterministic algorithm may occur in practice much more often than it would be predicted by chance.  For example, in a naive variant of quicksort, the worst case is when the input items are already sorted — which is a very common occurrence in many applications.  For such algorithms, even a fixed pseudo-random permutation may be good enough.  Even though the resulting "pseudo-randomized" algorithm would still have as many "bad" cases as the original, they will be certain peculiar orders that would be quite unlikely to arise in real applications.  So, in practice one often uses randomization functions that are derived from pseudo-random number generators, preferably seeded with external "random" data such as the program's startup time.
+
+===Uniformity===
+
+The uniformity requirements for a randomizing function are usually much weaker than those of hash functions and pseudo-random generators.  The minimum requirement is that it maps any input of the deterministic algorithm into a "good" input with a sufficiently high probability.  (However, analysis is usually simpler if the randomizing function implements each possible mapping with uniform probability.)
+
+==References==
+
+

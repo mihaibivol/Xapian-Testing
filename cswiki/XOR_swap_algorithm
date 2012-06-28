@@ -1,0 +1,59 @@
+
+In computer programming, the XOR swap is an algorithm that uses the XOR bitwise operation to swap values of distinct variables having the same data type without using a temporary variable. "Distinct" means that the variables are stored at different memory addresses; the actual values of the variables do not have to be different.
+
+==The algorithm==
+
+Conventional swapping requires the use of a temporary storage variable. Using the XOR swap algorithm, however, no temporary storage is needed. The algorithm is as follows:
+X := X XOR Y
+Y := Y XOR X
+X := X XOR Y
+The algorithm typically corresponds to three machine code instructions. Since XOR is a commutative operation, X XOR Y can be replaced with Y XOR X in any of the lines. When coded in assembly language, this commutativity is often exercised in the second line:
+In the above System/370 assembly code sample, R1 and R2 are distinct registers, and each XR operation leaves its result in the register named in the first argument. Using x86 assembly, values X and Y are in registers eax and ebx (respectively), and [tpl]code|xor|2=asm[/tpl] places the result of the operation in the first register.
+However, the algorithm fails if x and y use the same storage location, since the value stored in that location will be zeroed out by the first XOR instruction, and then remain zero; it will not be "swapped with itself". (Note that this is not the same as if x and y have the same values.  The trouble only comes when x and y use the same storage location, in which case their values must already be equal.)
+
+==Proof of correctness==
+
+The first three properties, along with the existence of an inverse for each element, are the definition of an Abelian group. The last property is a structural feature of XOR not necessarily shared by other Abelian groups.
+[/ref]
+Suppose that we have two distinct registers R1 and R2 as in the table below, with initial values A and B respectively. We perform the operations below in sequence, and reduce our results using the properties listed above.
+
+==Code example==
+
+A C function that implements the XOR swap algorithm:
+Note that the code does not swap the integers passed immediately, but first checks if their addresses are distinct. This is because, if the addresses are equal, the algorithm will fold to a triple *x ^= *x resulting in zero.
+The body of this function is sometimes seen incorrectly shortened to if (x != y) *x^=*y^=*x^=*y;. This code has undefined behavior, since it modifies the lvalue *x twice without an intervening sequence point.
+
+==Reasons for use in practice==
+
+In most practical scenarios, the trivial swap algorithm using a temporary register is more efficient. Limited situations in which XOR swapping may be practical include:
+* On a processor where the instruction set encoding permits the XOR swap to be encoded in a smaller number of bytes;
+* In a region with high register pressure, it may allow the register allocator to avoid spilling a register.
+* In microcontrollers where available RAM is very limited.
+Because these situations are rare, most optimizing compilers do not generate XOR swap code.
+
+==Reasons for avoidance in practice==
+
+Most modern compilers can optimize away the temporary variable in the naive swap, in which case the naive swap uses the same amount of memory and the same number of registers as the XOR swap and is at least as fast, and often faster. The XOR swap is also much less readable and completely opaque to anyone unfamiliar with the technique.
+On modern CPU architectures, the XOR technique is considerably slower than using a temporary variable to do swapping. One reason is that modern CPUs strive to execute instructions in parallel via instruction pipelines. In the XOR technique, the inputs to each operation depend on the results of the previous operation, so they must be executed in strictly sequential order. If efficiency is of tremendous concern, it is advised to test the speeds of both the XOR technique and temporary variable swapping on the target architecture.
+
+===Optimization of XOR swap and alternatives===
+
+Modern optimizing compilers work by translating the code they are given into an internal flow-based representation which they transform in many ways before producing their machine-code output. These compilers are more likely to recognize and optimize a conventional (temporary-based) swap than to recognize the high-level language statements that correspond to an XOR swap. Many times, what is written as a swap in high-level code is translated by the compiler into a simple internal note that two variables have swapped memory addresses, rather than any amount of machine code. Other times, when the target architecture supports it and it is preferable, the compiler can use a single swap/exchange instruction (such as x86's XCHG) which performs the swap in a single operation.
+
+===Aliasing===
+
+The XOR swap is also complicated in practice by aliasing. As noted above, if an attempt is made to XOR-swap the contents of some location with itself, the result is that the location is zeroed out and its value lost. Therefore, XOR swapping must not be used blindly in a high-level language if aliasing is possible.
+
+==Variations==
+
+The underlying principle of the XOR swap algorithm can be applied to any operation meeting criteria L1 through L4 above. Replacing XOR by addition and subtraction gives a slightly different, but largely equivalent, formulation:
+Unlike the XOR swap, this variation requires that the underlying processor or programming language uses a method such as modular arithmetic or bignums to guarantee that the computation of X + Y cannot cause an error due to integer overflow. Therefore, it is seen even more rarely in practice than the XOR swap.
+
+== Notes ==
+
+==See also==
+
+*Symmetric difference
+*XOR linked list
+*Feistel cipher (the XOR swap algorithm is a degenerate form of a Feistel cypher)
+

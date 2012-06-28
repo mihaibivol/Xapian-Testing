@@ -1,0 +1,7 @@
+
+Queries Per Second (QPS) is a common measure of the amount of search traffic an information retrieval system, such as a search engine or a database, receives during one second.Microsoft's search glossaryQPS definition at answers.com
+High-traffic systems must watch their QPS in order to know when to scale the system to handle more load.
+
+== References ==
+
+

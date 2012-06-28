@@ -1,0 +1,13 @@
+
+RTAI-XML is a server component of the Real Time Application Interface (RTAI) project, implementing a service oriented way to design and develop Real Time (RT) control applications.
+This project was born to fulfill the needs of a university group, mainly focused to have a flexible platform for learning control systems design, allowing the students to test their programs remotely, over the Internet. Leaving the first wishful thinking and going to the real implementation gave rise to the alpha version of RTAI-XML, that showed the potential impact of the basic idea of a net separation of Hard and Soft Real Time tasks in the programmation logic. What was necessary to assure that students could not crash the RT process, is now becoming a new RTAI paradigm.
+
+== RTAI-XML in a nutshell ==
+
+RTAI-XML consists of a server component waiting for incoming calls on a box where a Real Time process, the Target, is running (or ready to). A generic client program, the Host, can reach the server through the TCP/IP network, using a standard protocol based on XML, and hence interact with the Target, in order to monitor the status of the RT process, to see the signals collected (or generated) by the system and also to fetch and change the RT parameters (for example, the gains of a PID feedback ring). In other words, RTAI-XML provides a simple way towards remoting of control applications, adding flexibility to the RTAI project, without losing the key features of an open and standard implementation.
+The RTAI-XML section of this site presents the details of the implementation. The general architecture is revised, in order to focus the three key components, the Server, the Server-Target interface and the Server-Host communication. The Applications section contains some examples of control systems based on RTAI-XML and the References section contains hints and links for further readings on this topic.
+
+==External links==
+
+*RTAI-XML official website
+

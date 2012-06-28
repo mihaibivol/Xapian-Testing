@@ -1,0 +1,39 @@
+
+Automatic Content Extraction (ACE) is a program for developing advanced Information extraction technologies. Given a text in natural language, the ACE challenge is to detect:
+# entities mentioned in the text, such as: persons, organizations, locations, facilities, weapons, vehicles, and geo-political entities.
+# relations between entities, such as: person A is the manager of company B. Relation types include: role, part, located, near, and social.
+# events mentioned in the text, such as: interaction, movement, transfer, creation and destruction.
+This program began with a pilot study in 1999.
+While the ACE program is directed toward extraction of
+information from audio and image sources in addition to pure
+text, the research effort is restricted to information extraction
+from text. The actual transduction of audio and image data into
+text is not part of the ACE research effort, although the
+processing of ASR and OCR output from such transducers is.
+The program relates to English, Arabic and Chinese texts.
+The effort involves:
+* defining the research tasks in detail,
+* collecting and annotating data needed for training, development, and evaluation,
+* supporting the research with evaluation tools and research workshops.
+In general objective, the ACE program is motivated by and addresses the same issues as the MUC program that preceded it. The ACE program, however, defines the research objectives in terms of the target objects (i.e., the entities, the relations,
+and the events) rather than in terms of the words in the
+text. For example, the so-called “named entity” task, as
+defined in MUC, is to identify those words (on the page)
+that are names of entities. In ACE, on the other hand, the
+corresponding task is to identify the entity so named. This
+is a different task, one that is more abstract and that
+involves inference more explicitly in producing an
+answer. In a real sense, the task is to detect things that
+“aren’t there”.
+The ACE corpus is one of the standard benchmarks for testing new information extraction algorithms.
+
+== References ==
+
+* George Doddington@NIS T, Alexis Mitchell@LD C, Mark Przybocki@NIS T, Lance Ramshaw@BB N, Stephanie Strassel@LD C, Ralph Weischedel@BB N. The automatic content extraction (ACE) program–tasks, data, and evaluation. 2004
+
+== External links ==
+
+* MUC - ACE's predecessor.
+* ACE (LDC)
+* ACE (NIST)
+

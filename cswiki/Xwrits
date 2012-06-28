@@ -1,0 +1,25 @@
+
+xwrits is a Unix/X11 software application which reminds computer users to take wrist breaks. This helps prevent them from developing or aggravating occupational diseases such as carpal tunnel syndrome and repetitive strain injuries. Xwrits periodically locks the X Window System while a brightly-colored hand, alternately clenching and stretching as if in pain, is displayed to remind the user to take a break. Xwrits is highly customizable, though unlike Workrave, xwrits can only be customized using command line options.
+Here are some examples of the use of xwrits:
+        xwrits
+This starts xwrits. It reminds the user to take a 5-minute break after every 55 minutes of typing.
+        xwrits breaktime=0:'''20''' typetime='''5''':00 +'''mouse''' +'''lock''' +lp='''/usr/share/firefox/res/arrow.gif'''
+    +rp='''/usr/share/firefox/res/arrow.gif'''
+This starts xwrits and sets it to monitor both the keyboard and the mouse. It reminds the user to take a 20-second break after every 5 minutes of computer usage. Instead of just reminding the user to take a break, it locks the screen so that the user cannot use the keyboard or mouse until 20 seconds have elapsed. When it locks and restores the screen, it shows the image /usr/share/firefox/res/arrow.gif (a black transparent GIF) instead of the standard jail bars, hand, and brightly-colored pointing-finger "OK" notification.
+Similar RSI-prevention utilities include:
+* Workrave, which works on both Windows and Linux
+* RSIBreak, works on Linux
+* AntiRSI, works on Mac OS X
+* the "Typing Break" feature in GNOME which can be enabled in the GNOME keyboard preference panel
+* 5 Minute Break, works on Windows
+
+== See also ==
+
+* Repetitive strain injury
+
+==External links==
+
+* xwrits website
+* xwrits manual page
+* "Operating Your Body at Peak Performance", a Linux Journal column about xwrits, RSIBreak, and Workrave
+

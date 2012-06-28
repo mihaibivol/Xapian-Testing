@@ -1,0 +1,31 @@
+
+Open Virtualization Format (OVF) is an open standard for packaging and distributing virtual appliances or more generally software to be run in virtual machines.
+The standard describes an "open, secure, portable, efficient and extensible format for the packaging and distribution of software to be run in virtual machines". The OVF standard is not tied to any particular hypervisor or processor architecture. The unit of packaging and distribution is a so called OVF Package which may contain one or more virtual systems each of which can be deployed to a virtual machine.
+
+== History ==
+
+In September 2007 Dell, HP, IBM, Microsoft, VMware and XenSource submitted to the Distributed Management Task Force (DMTF) a proposal for OVF, then named "Open Virtual Machine Format".[tpl]cite web | url = http://www.dmtf.org/newsroom/pr/view?item_key=3b542cbc5e6fc9ede97b9336c29f4c342c02c4e9 | title = DMTF Press Release on OVF submission 9/2007 | accessdate = 2008-09-28[/tpl]
+The DMTF subsequently released the OVF Specification V1.0.0 as a preliminary standard in September, 2008, and V1.1.0 in January, 2010.[tpl]cite web | url = http://www.dmtf.org/standards/published_documents/ | title = DMTF Published Documents page | accessdate = 2008-09-28 |archiveurl = http://web.archive.org/web/20080703062530/http://www.dmtf.org/standards/published_documents/  |archivedate = 2008-07-03[/tpl] [tpl]As of | 2011[/tpl] this is the most recent publicly-available version. The usual DMTF process for finalizing standards includes working feedback from early implementations of a preliminary version of a standard into the final version of the standard.
+ANSI has ratified OVF 1.1.0 as ANSI standard INCITS 469-2010.[tpl]cite web | url = http://webstore.ansi.org/RecordDetail.aspx?sku=INCITS+469-2010 | title = INCITS 469-2010 Information Technology - Open Virtualization Format (OVF) Specification[/tpl]
+
+== Technical description ==
+
+An OVF package consists of several files, placed in one directory. A one-file alternative is the OVA package, which is a TAR file with the OVF directory inside.
+An OVF package always contains exactly one OVF descriptor (a file with extension .ovf). The OVF descriptor is an XML file which describes the packaged virtual machine; it contains the metadata for the OVF package, such as name, hardware requirements, references to the other files in the OVF package and human-readable descriptions. In addition to the OVF descriptor, the OVF package will typically contain one or more disk images, and optionally certificate files and other auxiliary files.[tpl]cite web | url = http://dmtf.org/sites/default/files/standards/documents/DSP0243_1.1.0.pdf | title = Open Virtualization Format Specification, V1.10 | accessdate = 2012-03-16[/tpl].
+
+== Industry support ==
+
+On average, OVF has been received positively.[tpl]cite web | url = http://searchservervirtualization.techtarget.com/news/article/0,289142,sid94_gci1330372,00.html | title = techtarget.com article about OVF, 9/2008 | accessdate = 2008-09-28[/tpl] Several virtualization players in the industry have announced support for OVF,[tpl]cite web | url = http://www.dmtf.org/newsroom/pr/view?item_key=c0a5e6c1c18290ec2a3c174734d7cb8f78b75022 | title = DMTF press release on VMAN Initiative, 9/2008 | accessdate = 2008-09-28[/tpl][tpl]cite web | url = http://www.businesswire.com/portal/site/google/?ndmViewId=news_view&newsId=20080917005719&newsLang=en | title = Fortisphere embraces OVF, 9/2008 | accessdate = 2008-09-28[/tpl][tpl]cite web | url = http://phx.corporate-ir.net/phoenix.zhtml?c=102893&p=irol-newsArticle&ID=1174869&highlight | title = Citrix Systems Unveils Project Kensho for Easy Creation of Hypervisor-Independent Application Workloads, 7/2008 | accessdate = 2008-07-15[/tpl] and there is at least one open source library for the format.[tpl]cite web | url = http://blog.xen.org/index.php/2008/08/12/ibm-announces-open-ovf-project/ | title = IBM announces Open-OVF project, 8/2008 | accessdate = 2008-09-28[/tpl]
+
+== See also ==
+
+* VHD (file format)
+* VMDK
+
+== References ==
+
+== External links ==
+
+* [tpl]Official|http://www.dmtf.org/standards/ovf[/tpl]
+* OVF Whitepaper
+

@@ -1,0 +1,35 @@
+
+Collanos Workplace is a proprietary teamwork software that ceased development in 2010.
+Installed on each team member’s computer, it builds a team environment and transparent knowledge store that allows to define and organize the content of project teams (Workspaces). For teams it supports their structured data, such as tasks and notes, and unstructured data, such as files.
+Like that Collanos provides users with a possibility to get a unified collaboration peer allowing team members on the internet to bring virtually all collaborative services, shared content and all correspondences in one place without requiring a server environment and storing data only with team members.
+Workspaces automatically and transparently synchronize amongst team members’ computers when online. The workspace integrates with existing communication channels and with external web content. Because the technology relies on a P2P network, workspaces are available both online and offline, no server or additional IT infrastructure is required for a team. Finally, a presence management service lets users see at any given time who of their team mates are online and if they are present in specific workspaces.
+Collanos is supported on Microsoft Windows, Mac OS X, and Linux.
+A combined peer-to-peer (P2P) and web-based architecture forms the technological foundation and differentiation of the Collanos solution. The company has developed a proprietary technology stack, which includes the peer-to-peer platform (Windows, Mac, and Linux), presence management, optimized synchronization, web-hosted architecture, support for industry-specific templates, and a proprietary customization tool. The product is developed in Java on top of open-source software components like JXTA initiated by Sun Microsystems and Eclipse by The Eclipse Foundation.
+
+== History ==
+
+Collanos Software was established in November 2003 in Switzerland by Franco Dal Molin. Before that Dal Molin founded Object Solutions and sold it to GFT Technologies. He funded development via personal savings, family and friends, near-sourcing some of the development in Ukraine.
+The company's name Collanos is derived from the words Collaboration and Nous (Greek: mind; human thought).
+A first English Beta version Collanos Workplace 1.0 BetaCollanos Workplace 1.0 Beta was launched on June 19, 2006, targeting English speaking internet users.
+Collanos Software was elected for the first time into Cash Magazine's Swiss Top 50 Venture list on December 14, 2006.
+On December 14, 2006, Collanos introduced the general availability version 1.0general availability version 1.0 of Workplace.
+A German versionGerman version was released on February 8, 2007. In March 2007 at CEBIT in Hanover, Germany, Collanos Workplace won the Innovation Prize ITKInnovation Prize ITK 2007 in the Office Organization Category.
+On May 24, 2007, Collanos released version 1.1version 1.1 including Chinese language support and establishing a global network for team collaboration.
+Collanos Software was one of three collaboration software companies proposed for the Emerging Tech Award 2007Emerging Tech Award 2007 by the Silicon Valley/San Jose Business Journal on November 2, 2007.
+Making Collanos Phone available in a first Beta version on January 6, 2008 Collanos complemented it's teamwork services with voice and multiprotocol instant messaging features.
+The last updates on either its corporate website or its forums were in spring 2010: as of spring 2011 and in the light of an unresponsive company, it must be concluded that, though the software can still be downloaded and used, the company has ceased development of its product.
+
+== Features ==
+
+Collanos Workplace allows within minutes to share documents, have online discussions, and manage tasks, all in a single, consolidated space.  Built on reliable peer-to-peer technology, Collanos Workplace software allows to work anywhere, anytime, both online and offline.
+Collanos Workplace is cross-platform, based on Eclipse RCP Technology and runs on Windows, Mac and Linux.
+Thus-far large enterprises were the only organizations that were able to benefit from comprehensive collaboration solutions.  With the standardization of internet protocols and prevalence of broadband, Collanos ambition is to ‘consumerize’ collaboration with its scaled-down simple collaboration solution for small teams on the internet.  Every computer on the Net, be it Windows, Mac OS X or Linux, can become a member of the Collanos global network for team collaboration. Private or business users can connect with each other without the need of a central server, IT administration or additional infrastructure.
+Based on the JXTA (Juxtapose) peer-to-peer architecture, Collanos allows leveraging the advantages of both classic client/server and web architectures. Users can communicate with their teams securely. Team data is only stored on team members’ computers. Synchronization and storage is fully encrypted, using standard AES 256.
+Functions such as instant messaging, file sharing, project management and working collaboratively on documents are readily and easily accessible.
+
+==References==
+
+==External links==
+
+*Collanos Web
+

@@ -1,0 +1,11 @@
+
+In physics, a theory in D spacetime dimensions can be redefined in a lower number of dimensions d, by taking all the fields to be independent of the location in the extra D − d dimensions.
+Let us generalize this argument. The compact dimension imposes specific boundary conditions on all fields, for example periodic boundary conditions in the case of a periodic dimension, and typically Neumann or Dirichlet boundary conditions in other cases. Now suppose the size of the compact dimension is L; Then the possible eigenvalues under gradient along this dimension are integer or half-integer multiples of 1/L (depending on the precise boundary conditions). In quantum mechanics this eigenvalue is the momentum of the field, and is therefore related to its energy. As L → 0 all eigenvalues except zero go to infinity, and so does the energy. Therefore at this limit, with finite energy, zero is the only possible eigenvalue under gradient along the compact dimension, meaning that nothing depends on this dimension.
+
+==See also==
+
+* Compactification (physics)
+* Kaluza–Klein theory
+* String theory#Extra dimensions
+* Supergravity
+

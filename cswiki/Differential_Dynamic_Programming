@@ -1,0 +1,43 @@
+
+Differential Dynamic Programming (DDP) is an Optimal Control algorithm of the trajectory optimization class.  The algorithm was introduced in 1966 by Mayne and subsequently analysed in Jacobson and Mayne's eponymous book.[tpl]cite book|last=Mayne|first= David H. and Jacobson, David Q.|title=Differential dynamic programming|year=1970|publisher=American Elsevier Pub. Co.|location=New York|isbn=0-444-00070-4|url=http://books.google.com/books/about/Differential_dynamic_programming.html?id=tA-oAAAAIAAJ[/tpl]  The algorithm uses locally-quadratic models of the dynamics and cost functions, and displays quadratic convergence. It is closely related to Pantoja's step-wise Newton's method.
+
+== Finite-Horizon Discrete-Time problems ==
+
+The dynamics
+
+== Dynamic Programming ==
+
+This is the Bellman Equation.
+
+== Differential Dynamic Programming ==
+
+DDP proceeds by iteratively performing a backward pass on the nominal trajectory to generate a new control sequence, and then a forward-pass to compute and evaluate a new nominal trajectory. We begin with the backward pass. If 
+and expand to second order
+| volume = 2
+| pages = 1927–1932
+| last = Morimoto
+| first = J.
+| coauthors = G. Zeglin, C.G. Atkeson
+| title = Minimax differential dynamic programming: Application to a biped walking robot
+| booktitle = Intelligent Robots and Systems, 2003.(IROS 2003). Proceedings. 2003 IEEE/RSJ International Conference on
+| date = 2003
+}}[/ref]
+The backward passes and forward passes are iterated until convergence.
+
+== Regularization and Line-Search ==
+
+Differential Dynamic Programming is a second-order algorithm like Newton's Method. It therefore takes large steps toward the minimum and often requires regularization and/or line-search to achieve convergence
+
+.[ref]
+
+== See also ==
+
+* optimal control
+
+== References ==
+
+== External links ==
+
+* A Python implementation of DDP
+* A MATLAB implementation of DDP
+

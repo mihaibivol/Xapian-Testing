@@ -1,0 +1,116 @@
+
+Google Desktop was desktop search software made by Google for Linux, Mac OS X, and Microsoft Windows. The program allows text searches of a user's e-mails, computer files, music, photos, chats, Web pages viewed, and other "Google Gadgets".
+In September 2011, Google announced it would discontinue a number of its products, including Google Desktop.[ref]
+[tpl]cite web |url=http://googleblog.blogspot.com/2011/09/fall-spring-clean.html |title=A fall spring-clean |author=Alan Eustace |date=September 2, 2011 |publisher=Google |accessdate=September 2, 2011[/tpl][/ref]
+
+==Features==
+
+As of January 2008, Google Desktop features the following functionality:
+
+===File indexing===
+
+After initially installing Google Desktop, the software completes an indexing of all the files in the computer. After the initial indexing is completed, the software continues to index files as needed. Users can start searching for files immediately after installing the program. After performing searches, results can also be returned in a web browser on the Google Desktop Home Page much like the results for Google Web searches.
+Google Desktop can index several different types of data, including email, web browsing history from Internet Explorer, Google Chrome and Mozilla Firefox, office documents in the OpenDocument and Microsoft Office formats, instant messenger transcripts from AOL, Google, MSN, Skype, Tencent QQ, and several multimedia file types. Additional file types can be indexed through the use of plug-ins.[tpl]Cite web |title=All Indexing Plugins |accessdate=2007-10-22 |url=http://desktop.google.com/plugins/c/index/all.html?hl=en[/tpl]  Google Desktop allows the user to control which types of data are indexed by the program.
+Google Desktop only indexes 100,000 files per drive during the initial indexing period. If users have more than 100,000 files in a particular drive, Google Desktop won't index all of them during this initial period. However, Google Desktop adds files to the index during real-time indexing when users move or open them.I can't find : Files – Desktop for Windows Help – Google
+
+===Sidebar===
+
+A prominent feature of Google Desktop is the Sidebar, which holds several common Gadgets and resides off to one side of the desktop.  The Sidebar is available with the Microsoft Windows and Linux versions of Google Desktop.  The Sidebar comes pre-installed with the following gadgets:
+* Email – a panel which lets one view their own Gmail messages.
+* Scratch Pad – here the user can store notes; they are saved automatically
+* Photos – displays a slideshow of photos from the "My Pictures" folder (address can be changed)
+* News – shows the latest headlines from Google News, and how long ago they were written. The News panel is personalized depending on the type of news you read.
+* Weather – shows the current weather for a location specified by the user.
+* Web Clips – shows updated content from RSS and Atom web feeds.
+* Google Talk – If Google Talk is installed, double clicking the window title will dock it to the users sidebar.
+Like the Windows Taskbar, the Google Desktop sidebar can be set to Auto-Hide mode, where it will only appear once the user moves the mouse cursor towards the side where it resides. If not on auto-hide, by default the sidebar will always take up about 1/6 – 1/9 of the screen (depending on the screen resolution), and other windows are forced to resize. However, the sidebar can be resized to take less space, and users can disable the "always on top" feature in the options. With the auto-hide feature on, the sidebar temporarily overlaps  maximized windows.
+Another feature that comes with the Sidebar is alerts. When the Sidebar is minimized, new e-mail and news can be displayed on a pop-up window above the Windows Taskbar.
+
+===Quick Find===
+
+When searching in the sidebar, deskbar or floating deskbar, Google Desktop displays a "Quick Find" window. This window is filled with 6 (by default) of the most relevant results from the user's computer. These results update as the user types, and allows use without having to open another browser window.
+
+===Deskbars===
+
+Deskbars are boxes which enable searching directly from the desktop. Web results will open in a browser window, and selected computer results will be displayed in the "Quick Find" box (see above). A Deskbar can either be a fixed deskbar, which sits in the Windows Taskbar, or a Floating Deskbar, which may be positioned anywhere on the desktop.
+
+===Email indexing===
+
+Google Desktop includes plugins that allow indexing and searching the contents of local Microsoft Outlook, IBM Lotus Notes, and Mozilla Thunderbird email databases, outside of the client applications' built-in search functions.  For Lotus Notes, only local databases are indexed for searching. Google Desktop's email indexing feature is also integrated with Google's web-based email service, Gmail; it can index and search the email messages in Gmail accounts.
+
+===Gadgets and plug-ins===
+
+Desktop gadgets are interactive mini-applications that can be placed anywhere on the user's desktop – or docked in the Sidebar – to show new email, weather, photos, and personalized news.  Google offers a gallery of pre-built gadgets for download on the official website.  For developers, Google offers an SDK and an official blog for anyone who wants to write gadgets or plug-ins for Google Desktop.  An automated system creates a developer hierarchy called the "Google Desktop Hall of Fame", where programmers can advance based on their gadgets' number and popularity.
+The SDK also allows third-party applications to make use of the search facilities provided by Google Desktop Search. For example, the file manager Directory Opus offers integrated Google Desktop Search support.
+
+===Results list: title meta data===
+
+Even though other desktop search programs can search files meta data, Google Desktop (for Windows) is the only one that uses the "title" tag for its results lists of all files (On Linux it shows the meta-data of HTML files, but not PDF files). Other programs use the file names for their results lists.
+The use of the "title" tag gives a significantly better user experience, since metadata titles (when present) are written in ordinary language, while file names are less communicative.
+When the title meta data is missing from a file, Google Desktop reverts back to use its filename.
+
+==Release history==
+
+Google Desktop was originally developed to bring Google search technology to the desktop.  Google Desktop received much attention because it may allow reverse engineering of Google's proprietary search algorithm.[tpl]Citation needed|date=May 2011[/tpl]
+A centrally administered version,Enterprise Edition Features which integrates the user experience with the vendor's appliance, exists as well.  Google Desktop was officially discontinued on September 14, 2011.[tpl]cite web |date=September 4, 2011 |url=http://googledesktop.blogspot.com/2011/09/google-desktop-update.html |title= Google Desktop Update|author=Google |work=Google Desktop Release |accessdate=2011-12-09[/tpl]
+;Microsoft Windows
+*The first release of Google Desktop Search was released as a beta version on October 14, 2004.Google Press Center: Press Release
+*Version 2 was released as a beta version on August 22, 2005. The new feature that distinguishes Desktop 2 from Desktop is the addition of Sidebar, a panel that displays personalized information, which can be placed on either side of the Windows desktop and can display real-time news, e-mail, photos, stocks, and weather, among others. Sidebar includes a search box that can search just the PC or Google's other search types (like Web, Images, News, Groups.)  Google Desktop 2 graduated from beta on November 3, 2005.  New features include a sidebar plug-in for Google Maps and more plug-in developer support.Official Google Blog: Desktop grows up
+*Google Desktop 3 Beta was released on February 9, 2006.  It includes support for searching multiple computers on a network.Official Google Blog: New on your Desktop Google Desktop 3 graduated from beta on March 14, 2006.  Notable in this version is the quick search box, which appears anywhere on your desktop after pressing "control" twice.Official Google Blog: Stay in Ctrl Ctrl
+*Google Desktop 4 Beta was released on May 10, 2006.  It features Google Gadgets, modules that can deliver an array of information. It also introduces option to automatically remove deleted files from search results.Official Google Blog: Yes, we are still all about search Google Desktop 4 graduated from beta on June 27, 2006.
+*Google Desktop v4.5  was released on November 14, 2006, adding a transparency aesthetic to the sidebar and "floating" gadgets.  The graphic interface of the sidebar was also enhanced with more stylized icons for news, stocks, weather, photos, etc.  Release 4.5 also added support for Windows Vista.
+*Google Desktop 5 Beta was released on March 6, 2007.
+* Google Desktop v 5.1 (the first post-Desktop 5 Beta release) is made available for download on April 27, 2007.[tpl]Cite web |title=Latest Updates for Google Desktop |url=http://desktop.google.com/support/bin/answer.py?answer=58591&ctx=sibling[/tpl]
+* Google Desktop v 5.5 was released on October 2, 2007.
+* Google Desktop v 5.5 (5.7.0802.22438) was released February 29, 2008.
+* Google Desktop v 5.5 (5.8.0806.18441) was released July 1, 2008.
+* Google Desktop v 5.8 (5.8.0809.08522) was released September 11, 2008.
+* Google Desktop v 5.8 (5.8.0809.23506) was released October 5, 2008.
+* Google Desktop v 5.9 (5.9.0906.04286) was released July 8, 2009. It added support for the Chrome browser and is the last version mentioned in the release notes.
+* Google Desktop v 5.9.0909.02235 added support for the Private Browsing features of Firefox 3 and Internet Explorer 8.[tpl]cite web |url=http://desktop.google.com/support/bin/answer.py?&answer=147833 |title=Indexing issues: Private Browsing Mode in IE8 or Firefox 3.5 Beta |accessdate=[tpl]date|2010-07-30[/tpl] |publisher=Google[/tpl]
+* Google Desktop v 5.9.0909.30391 has been released.
+* Google Desktop v 5.9.0911.03589 has been released.
+* Google Desktop v 5.9.1005.12335 was released in May 2010.
+;Mac
+*On April 2007, Google released Desktop 1.0 for Mac OS X, which can function alongside the Spotlight search tool in Mac OS X v10.4.[tpl]cite web |date=2007-04-04 |url=http://googlemac.blogspot.com/2007/04/google-desktop-for-mac_04.html |title=Google Desktop for Mac |author=Mike Pinkerton |work=Official Google Mac Blog |accessdate=2007-04-19[/tpl]
+*On November 29, 2007, Google released Desktop v1.4.0.826 beta for Mac OS X,[tpl]cite web |date=November 28, 2007 |url=http://desktop.google.com/support/mac/bin/answer.py?answer=64429&topic=11286#current |title= "Where can I obtain a list of known issues or release notes?" – "Current Version" |author=Google |work=Desktop for Mac Help Center |accessdate=2007-11-29[/tpl] which plugs into Dashboard for Gadgets support.
+*Version 1.6 of the Mac version of Google Desktop does not function under Snow Leopard.  As of June, 2011, Google is yet to release an update for Snow Leopard support.
+;Linux
+*Google released Desktop 1.0 for Linux on June 27, 2007.[tpl]cite web |title=Google Desktop for Linux |url=http://desktop.google.com/linux/download.html |author=Google |date=2007-06-27 |work=Google Desktop for Linux |accessdate=2007-07-27[/tpl]  It currently features the basic functionality of the Windows version and the sidebar functionality.
+*Google added 64-bit support to the Google Desktop for Linux with version 1.1.1.0075, which was made available for download on December 18, 2007.[tpl]Cite web |title=Where can I obtain a list of known issues or release notes? |publisher=Google Inc. |url=http://desktop.google.com/support/linux/bin/answer.py?answer=72747&topic=11377[/tpl]
+*Google Desktop for Linux version 1.2.0.0088 was released on April 11, 2008.
+
+==Criticisms==
+
+===Security===
+
+In February 2007, Yair Amit, of Watchfire, found a series of vulnerabilitiesOvertaking Google Desktop (alternative link) in Google Desktop that could allow a malicious individual to achieve not only remote, persistent access to sensitive data, but in some cases full system control as well. The significant impact and the ease of exploitation forced Google to change some of Google Desktop's logic in Google Desktop version 5.
+
+===Privacy===
+
+Many privacy and civil liberties groups such as the Electronic Frontier Foundation (EFF) have concerns that personal information on people's computers could readily be copied from users' hard drives.
+Google Desktop version 3 contains certain features that raise serious security and privacy concerns. Specifically, the share across computers feature that introduces the ability to search content from desktop to desktop greatly increases the risk to users' privacy.  If Google Desktop V.3 is set to allow Search Across Computers, files on an indexed computer are copied to Google's servers. The potential for information stored on their computers to be accessed by others if they enable this feature of Google Desktop v. 3 on their computers should be seriously considered. The EFF advises against using this feature.[tpl]citation | url = http://www.eff.org/press/archives/2006/02/09 | title = Press Release | date = 2006-02-09 | publisher = Electronic Frontier Foundation[/tpl].  Also, those who have confidential data on their work or home computers should not enable this feature. There are privacy laws and company policies that could be violated through the installation of this feature, specifically, SB 1386, HIPAA, FERPA, GLBA and Sarbanes-Oxley.[tpl]citation | url = http://www.zdnetasia.com/news/internet/0,39044246,39311126,00.htm | title = More worries about Google Desktop 3 | publisher = ZDNet | place = Asia[/tpl].
+Other more far reaching concerns arise around the packaging and end user license agreement – specifically the level of intrusion on the local machine and the disclaimers that users implicitly agree to future changes in the license agreement without actually being able to see them immediately.[tpl]citation | url = http://rixstep.com/2/20070621,00.shtml | title = Google Desktop Tracked | chapter = Terms of Service (Welcome to Google) | publisher = Rix Step[/tpl].[tpl]citation | url = http://rixstep.com/2/20070621,05.shtml | title = Google Desktop Tracked | chapter = The Aftermath | publisher = Rix Step[/tpl].
+
+===Outlook indexing===
+
+There had been some issues with Microsoft Outlook indexing.[tpl]citation | url = http://desktop.google.com/support/bin/topic.py?topic=11602 | publisher = Google | title = Desktop | chapter = Outlook Index and Search[/tpl].  Deleted email listings were not removed and required re-installing Google Desktop for any new archived mail to be listed. Several versions have been released to patch the Outlook indexing.[tpl]citation | url = http://desktop.google.com/support/bin/static.py?page=known_issues.cs | publisher = Google | title = Desktop | chapter = Latest Known Issues[/tpl].
+During the first half of 2009, a large number of Google Desktop users reported that the product stopped indexing suddenly, when the index file reached approximately 4GB in size.  A full uninstall (including manually deleting the indexes) and then reinstall would fix the problem temporarily, but the problem would recur when the index file reached 4GB again.  The problem has been resolved as of Google Desktop Search version 5.9.[tpl]citation | url = http://groups.google.com/group/Google-Desktop_Something-Broken/t/806074cca88094f6?hl=en | publisher = Google | title = Desktop | chapter = Something broken[/tpl].  Currently, Google Desktop does not index email or contacts in Outlook 2010.[tpl]citation | url = http://social.answers.microsoft.com/Forums/en-US/outlookacct/thread/0c71ea0b-a5e2-484e-b3c9-c279ab589353 | publisher = Microsoft Corp | title = Answers | chapter = Outlook[/tpl].
+
+===Thunderbird indexing===
+
+By default, Google Desktop does not index email in Thunderbird 3.[tpl]citation | url = http://groups.google.com/group/google-desktop_something-broken/browse_thread/thread/3c5cdb02445d0cc9?hl=en-GB[/tpl]
+
+==See also==
+
+*Desktop search
+*List of desktop search engines
+*List of Google services and tools
+*Google Drive
+
+==References==
+
+==External links==
+
+*Google Desktop gadgets from Hall of Fame leader Apexoft.com
+

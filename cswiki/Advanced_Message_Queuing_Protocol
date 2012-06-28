@@ -1,0 +1,106 @@
+
+The Advanced Message Queuing Protocol (AMQP) is an open standard application layer protocol for message-oriented middleware. The defining features of AMQP are message orientation, queuing, routing (including point-to-point and publish-and-subscribe), reliability and security.
+AMQP mandates the behaviour of the messaging provider and client to the extent that implementations from different vendors are truly interoperable, in the same way as SMTP, HTTP, FTP, etc. have created interoperable systems. Previous attempts to standardize middleware have happened at the API level (e.g. JMS) and this did not create interoperability. Unlike JMS, which merely defines an API, AMQP is a wire-level protocol. A wire-level protocol is a description of the format of the data that is sent across the network as a stream of octets. Consequently any tool that can create and interpret messages that conform to this data format can interoperate with any other compliant tool irrespective of implementation language.
+
+== Overview ==
+
+AMQP is a binary, application layer protocol, designed to efficiently support a wide variety of messaging applications and communication patterns. It provides flow controlled,[tpl]cite web|title=OASIS AMQP version 1.0, sections 2.6.7-2.6.8|url=http://docs.oasis-open.org/amqp/core/v1.0/amqp-core-transport-v1.0.html#doc-flow-control|publisher=OASIS AMQP Technical Committee|accessdate=18 June 2012[/tpl] message-oriented communication with reliability guarantees such as at-most-once, at-least-one and exactly-once,[tpl]cite web|title=OASIS AMQP version 1.0, sections 2.6.12-2.6.13|url=http://docs.oasis-open.org/amqp/core/v1.0/amqp-core-transport-v1.0.html#doc-idp489648|publisher=OASIS AMQP Technical Committee|accessdate=18 June 2012[/tpl] and authentication and/or encryption based on SASL and/or TLS.[tpl]cite web|title=OASIS AMQP version 1.0, section 5.1|url=http://docs.oasis-open.org/amqp/core/v1.0/amqp-core-security-v1.0.html#section-security-layers|publisher=OASIS AMQP Technical Committee|accessdate=18 June 2012[/tpl] It assumes an underlying reliable transport layer protocol such as Transmission Control Protocol (TCP).[tpl]cite web|title=OASIS AMQP version 1.0, section 2.1|url=http://docs.oasis-open.org/amqp/core/v1.0/amqp-core-transport-v1.0.html#section-transport|publisher=OASIS AMQP Technical Committee|accessdate=18 June 2012[/tpl]
+The AMQP specification is defined in several layers: (i) a type system, (ii) a symmetric, asynchronous protocol for the transfer of messages from one process to another, (iii) a standard, extensible message format and (iv) a set of standardised but extensible 'messaging capabilities'.
+
+== History ==
+
+AMQP was originated in 2003 by John O'Hara at JPMorgan Chase & Co. in London, UK. From the beginning AMQP was conceived as a co-operative open effort. Initial development was by JPMorgan Chase & Co. from mid-2004 to mid-2006 who contracted iMatix Corporation for a C broker and protocol documentation.  In 2005 JPMorgan Chase & Co. approached other firms to form a working group that included Cisco Systems, IONA Technologies, iMatix, Red Hat, and TWIST.  In the same year JPMorgan Chase & Co. partnered with Red Hat to create Apache Qpid, initially in Java and soon after C++.  Independently, RabbitMQ was developed in Erlang by Rabbit Technologies, followed later by the Microsoft and StormMQ implementations.
+The working group grew to 23 companies including Bank of America, Barclays, Cisco Systems, Credit Suisse,  Deutsche Börse Systems, Goldman Sachs, HCL Technologies Ltd, Progress Software, IIT Software, INETCO Systems, Informatica Corporation (incl. 29 West), JPMorgan Chase Bank Inc. N.A,  Microsoft Corporation, my-Channels, Novell,  Red Hat, Inc., Software AG, Solace Systems, StormMQ,  Tervela Inc., TWIST Process Innovations ltd, VMware (incl. Rabbit Technologies) and WSO2.
+In August 2011, AMQP working group announced its reorganization into an OASIS member section.AMQP Working Group Transitions to OASIS Member Section
+AMQP 1.0 was released by the AMQP Working Group on 30 October 2011, at a conference in New York.  At the event Microsoft, Red Hat, VMware, Apache, INETCO and IIT Software demonstrated software running the protocol in an interoperability demonstration. The next day, on 1 November 2011, the formation of an OASIS Technical Committee was announcedOASIS Forms AMQP Technical Committee to Advance Business Messaging Interoperability Within Middleware, Mobile, and Cloud Environments to advance this contributed AMQP version 1.0 through the international open standards process. The first draft from OASIS was released in February 2012,[tpl]cite news|title=30-day Public Review for OASIS AMQP Version 1.0|url=https://www.oasis-open.org/news/announcements/pr-30-day-public-review-for-oasis-amqp-version-1-0|accessdate=18 June 2012|date=21 February 2012[/tpl] the changes as compared to that published by the Working Group being restricted to edits for improved clarity (no functional changes). The second draft  was released for public review on 20 June.[tpl]cite news|title=15 day Public Review for OASIS AMQP Version 1.0|url=https://www.oasis-open.org/news/announcements/15-day-public-review-for-oasis-amqp-version-1-0|accessdate=20 June 2012|date=20 June 2012[/tpl]
+Previous versions of AMQP were 0-8, published in June 2006, 0-9, published in December 2006, 0-10 published in February 2008[tpl]cite web|title=AMQP PMC Meeting Minutes 13th February, 2008|url=http://77.95.34.224/confluence/display/AMQP/PMC+Minutes+for+2008-02-13|work=AMQP PMC Minutes|publisher=AMQP Working Group|accessdate=15 June 2012[/tpl] and 0-9-1, published in November 2008. These earlier releases are significantly different from the final 1.0 specification that emerged. However existing implementations may continue to support these earlier versions alongside 1.0.
+Whilst AMQP originated in the financial services industry, it has general applicability to a broad range of middleware problems.
+
+== Type System  ==
+
+AMQP defines a self-describing encoding scheme allowing interoperable representation of a wide range of commonly used types. It also allows typed data to be annotated with additional meaning.[tpl]cite web|title=OASIS AMQP version 1.0, section 1.1|url=http://docs.oasis-open.org/amqp/core/v1.0/amqp-core-types-v1.0.html#section-types|publisher=OASIS AMQP Technical Committee|accessdate=18 June 2012[/tpl] The example given in the specification is indicating a particular string value is in fact to be understood as a URL. Likewise a map value containing key-value pairs for 'name', 'address' etc., might be annotated as being of representation of a 'customer' type.
+The type-system is used to define a message format allowing standard and extended meta-data to be expressed and understood by processing entities. It is also used to define the communication primitives
+through which messages are exchanged between such entities, i.e. the AMQP frame bodies.
+
+== AMQP Performatives and the Link Protocol ==
+
+The basic unit of data in AMQP is a frame. There are nine AMQP frame bodies defined that are used to initiate, control and tear down the transfer of messages between two peers. These are:
+* open
+* begin
+* attach
+* transfer
+* flow
+* disposition
+* detach
+* end
+* close
+The link protocol is at the heart of AMQP.
+An attach frame body is sent to initiate a new link; a detach to tear down a link. Links may be established in order to receive or send messages.
+Messages are sent over an established link using the transfer frame. Messages on a link flow in only one direction.
+Transfers are subject to a credit based flow control scheme, managed using flow frames. This allows a process to protect itself from being overwhelmed by too large a volume of messages or more
+simply to allow a subscribing link to pull messages as and when desired.[tpl]cite web|title=OASIS AMQP version 1.0, section 2.6.7-2.6.9|url=http://docs.oasis-open.org/amqp/core/v1.0/amqp-core-transport-v1.0.html#doc-flow-control|publisher=OASIS AMQP Technical Committee|accessdate=18 June 2012[/tpl]
+Each transferred message must eventually be settled. Settlement ensures that the sender and receiver agree on the state of the transfer, providing reliability guarantees. Changes in state and settlement for a transfer (or set of transfers) are communicated between the peers using the disposition frame. Various realiability guarantees can be enforced this way: at-most-once, at-least-once and exactly-once.[tpl]cite web|title=OASIS AMQP version 1.0, section 2.6.12-2.6.14|url=http://docs.oasis-open.org/amqp/core/v1.0/amqp-core-transport-v1.0.html#doc-idp489648|publisher=AMQP WorkingGroup|accessdate=18 June 2012[/tpl]
+Multiple links, in both directions, can be grouped together in a session. A session is a bidirectional, sequential conversation between two peers that is initiated with a begin frame and
+terminated with an end frame. A connection between two peers can have multiple sessions multiplexed over it, each logically independent. Connections are initiated with an open frame in which
+the sending peer's capabilities are expressed, and terminated with a close frame.
+
+== Message Format ==
+
+AMQP defines as the bare message, that part of the message that is created by the sending application. This is considered immutable as the message is transferred between one or more processes.
+Ensuring the message as sent by the application is immutable allows for end-to-end message signing and/or encryption and ensures that any integrity checks (e.g. hashes or digests) remain valid. The message can be annotated by intermediaries during transit, but any such annotations are kept distinct from the immutable bare message. Annotations may be added before or after the bare message.
+The header is a standard set of delivery related annotations that can be requested or indicated for a message and includes time to live, durability, priority.[tpl]cite web|title=OASIS AMQP version 1.0, section 3.2.1|url=http://docs.oasis-open.org/amqp/core/v1.0/amqp-core-messaging-v1.0.html#type-header|publisher=OASIS AMQP Technical Committee|accessdate=18 June 2012[/tpl]
+The bare message itself is structured as an optional list of standard properties (message id, user id, creation time, reply to, subject, correlation id, group id etc.), an optional list of
+application-specific properties (i.e. extended properties) and a body (which AMQP refers to as application data).[tpl]cite web|title=OASIS AMQP version 1.0, section 3.2|url=http://docs.oasis-open.org/amqp/core/v1.0/amqp-core-messaging-v1.0.html#section-message-format|publisher=OASIS AMQP Technical Committee|accessdate=18 June 2012[/tpl]
+Properties are specified in the AMQP type system, as are annotations. The application data can be of any form, and in any encoding the application chooses. One option is to use the AMQP type
+system to send structured, self-describing data.
+
+== Messaging Capabilities ==
+
+The link protocol transfers messages between two nodes but assumes very little as to what those nodes are or how they are implemented.
+A key category is those nodes used as a rendezvous point between senders and receivers of messages (e.g.  queues or topics). The AMQP specification calls such nodes distribution nodes and codifies some common behaviours.[tpl]cite web|title=OASIS AMQP version 1.0, section 3.3|url=http://docs.oasis-open.org/amqp/core/v1.0/amqp-core-messaging-v1.0.html#section-distribution-nodes|publisher=OASIS AMQP Technical Committee|accessdate=15 June 2012[/tpl]
+This includes:
+* some standard outcomes for transfers, through which receivers of messages can for example accept or reject messages [tpl]cite web|title=OASIS AMQP version 1.0, section 3.4|url=http://docs.oasis-open.org/amqp/core/v1.0/amqp-core-messaging-v1.0.html#section-delivery-state|publisher=OASIS AMQP Technical Committee|accessdate=18 June 2012[/tpl]
+* a mechanism for indicating or requesting one of the two basic distribution patterns, competing- and non-competing- consumers, through the distribution modes move and copy respectively [tpl]cite web|title=OASIS AMQP version 1.0, section 3.5.2|url=http://docs.oasis-open.org/amqp/core/v1.0/amqp-core-messaging-v1.0.html#doc-idp383328|publisher=OASIS AMQP Technical Committee|accessdate=18 June 2012[/tpl]
+* the ability to create nodes on-demand,[tpl]cite web|title=OASIS AMQP version 1.0, section 3.5.3|url=http://docs.oasis-open.org/amqp/core/v1.0/amqp-core-messaging-v1.0.html#type-source|publisher=OASIS AMQP Technical Committee|accessdate=18 June 2012[/tpl][tpl]cite web|title=OASIS AMQP version 1.0, section 3.5.4|url=http://docs.oasis-open.org/amqp/core/v1.0/amqp-core-messaging-v1.0.html#type-target|publisher=OASIS AMQP Technical Committee|accessdate=18 June 2012[/tpl] e.g. for temporary response queues
+* the ability to refine the set of message of interest to a receiver through filters [tpl]cite web|title=OASIS AMQP version 1.0, section 3.5.1|url=http://docs.oasis-open.org/amqp/core/v1.0/amqp-core-messaging-v1.0.html#doc-idp381376|publisher=OASIS AMQP Technical Committee|accessdate=18 June 2012[/tpl]
+Though AMQP can be used in simple peer-to-peer systems, defining this framework for messaging capabilities additionally enables interoperability with messaging intermediaries (brokers, bridges etc.)
+in larger, richer messaging networks. The framework specified covers basic behaviours but allows for extensions to evolve that can be further codified and standardised.
+
+== Implementations ==
+
+* Apache Qpid, an open-source project at the Apache Foundation.
+* DE.SETF.AMQP, a Common Lisp client library for AMQP.
+* JORAM, a Java open-source implementation from the OW2 Consortium.
+* libamqp a C client for AMQP 1.0.
+* RabbitMQ, an independent implementation bought by VMware in 2010.
+* Red Hat Enterprise MRG, based on Apache Qpid.
+* StormMQ, a hosted message queuing service using AMQP. It is offered as a commercial managed service.
+* SwiftMQ, a JMS, AMQP 1.0 and AMQP 0.9.1 broker and a free AMQP 1.0 client.
+
+== Comparative specifications ==
+
+These are the known open specifications that cover the same or similar space as AMQP:
+* Stomp, a text-based pub-sub protocol developed at Codehaus; uses the JMS-like semantics of 'destination'.
+* XMPP, the Extensible Messaging and Presence Protocol.
+There are also vendor specific, proprietary specifications includes those by the Amazon Simple Queue Service, IBM WebSphere MQ, Microsoft Message Queuing, JMS and the OpenWire as used by ActiveMQ.
+There has not as yet been a formal comparison of these and other protocols in the same space, although an informal comparison of XMPP and AMQP may be found here.  JMS, the Java Messaging service, is often compared to AMQP. However, JMS is an API specification (part of the Java EE specification) that defines how message producers and consumers are implemented. JMS does not guarantee interoperability between implementations, and the JMS-compliant messaging system in use may need to be deployed on both client and server. On the other hand, AMQP is a wire-level protocol specification. In theory AMQP provides interoperability as different AMQP-compliant software can be deployed on the client and server sides. Note that, like HTTP and XMPP, AMQP does not have a standard API.
+
+== See also ==
+
+* Message queue
+* Message queuing service
+* Stomp
+* XMPP
+
+== References ==
+
+== External links ==
+
+* AMQP Website
+* OASIS AMQP technical committee
+* High-level Overview of AMQP and the AMQP Model (version 0-9-1)
+* OMG Analysis of AMQP and comparison with DDS-RTPS
+* Google Tech Talk, with video and slides, about RabbitMQ
+* Presentation of AMQP and RestMS messaging at FOSDEM 2009
+* List of AMQP clients
+

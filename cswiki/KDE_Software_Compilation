@@ -1,0 +1,120 @@
+
+The KDE Software Compilation (KDE SC) is a desktop environment and an associated range of KDE Applications produced by KDE. Prior to version 4.4, released in February 2010, the Software Compilation was known as KDE, which used to stand for K Desktop Environment until November 2009.Repositioning the KDE Brand The KDE SC includes only applications whose development teams choose to follow the Software Compilation's release schedule; as a result, many popular KDE applications, such as Amarok and Digikam, are not part of the Software Compilation. To date there have been four series of releases.
+
+==History==
+
+===Origins===
+
+KDE was founded in 1996 by Matthias Ettrich, who was then a student at the Eberhard Karls University of Tübingen. At the time, he was troubled by certain aspects of the Unix desktop. Among his qualms was that none of the applications looked, felt, or worked alike. He proposed the formation of not only a set of applications, but, rather, a desktop environment, in which users could expect things to look, feel, and work consistently. He also wanted to make this desktop easy to use; one of his complaints with desktop applications of the time was that his girlfriend could not use them. His initial Usenet post spurred a lot of interest, and the KDE project was born.
+Ettrich chose to use Trolltech’s Qt framework for the KDE project. Other programmers quickly started developing KDE/Qt applications, and by early 1997, a few applications were being released.
+
+===First series===
+
+On 12 July 1998, K Desktop Environment 1.0 was released. In November 1998, the Qt toolkit was dual-licensed under the free/open source Q Public License (QPL) and a proprietary license for proprietary software developers. Debate continued about compatibility with the GNU General Public License (GPL), so in September 2000, Trolltech made the Unix version of the Qt libraries available under the GPL, in addition to the QPL. Trolltech continued to require licenses for developing proprietary software with Qt. The core libraries of KDE are collectively licensed under the GNU LGPL, but the only way for proprietary software to make use of them was to be developed under the terms of the Qt proprietary license.
+
+===Second  series===
+
+The second series of releases, K Desktop Environment 2, introduced significant technological improvements.KDE 2.0 Release Announcement These included DCOP (Desktop COmmunication Protocol), KIO (an application I/O library), KParts (a component object model, which allows an application to embed another within itself), and KHTML (an HTML rendering and drawing engine).
+
+===Third series===
+
+The third series was much larger than previous series, consisting of six major releases. The API changes between K Desktop Environment 2 and K Desktop Environment 3 were comparatively minor, meaning that the KDE 3 can be seen as largely a continuation of the K Desktop Environment 2 series. All releases of K Desktop Environment 3 were built upon Qt 3, which was only released under the GPL for Linux and Unix-like operating systems, including Mac OS X. It is marked stable running on Mac OS X  since 2008. Unlike KDE SC 4, however, it requires an X11 server to operate.http://techbase.kde.org/index.php?title=Projects/KDE_on_Mac_OS_X/KDE_3  In 2002, members of the KDE on Cygwin project began porting the GPL licensed Qt/X11 code base to Windows.Q../Windows Edition history, 5 June 2006
+
+===Fourth series===
+
+KDE Software Compilation 4 is based on Qt 4, which is also released under the GPL for Windows and Mac OS X. Therefore KDE SC 4 applications can be compiled and run natively on these operating systems as well. KDE Software Compilation 4 on Mac OS X is currently considered beta, while on Windows it is not in the final state, so applications can be unsuitable for day to day use.
+KDE SC 4 includes many new technologies and technical changes. The centerpiece is a redesigned desktop and panels collectively called Plasma, which replaces Kicker, KDesktop, and SuperKaramba by integrating their functionality into one piece of technology; Plasma is intended to be more configurable for those wanting to update the decades-old desktop metaphor. There are a number of new frameworks, including Phonon (a new multimedia interface making KDE independent of any one specific media backend) Solid (an API for network and portable devices), and Decibel (a new communication framework to integrate all communication protocols into the desktop). Also featured is a metadata and search framework, incorporating Strigi as a full-text file indexing service, and NEPOMUK with KDE integration.NEPOMUK-KDE
+Starting with Qt 4.5, Qt was also made available under the LGPL version 2.1, a major step for KDE adoption in corporate and proprietary environments, as the LGPL permits proprietary applications to link to libraries licensed under the LGPL.
+
+==Development==
+
+===Source code===
+
+KDE SC releases are made to the KDE FTP server in the form of source code with configure scripts, which are compiled by operating system vendors and integrated with the rest of their systems before distribution. Most vendors use only stable and tested versions of KDE SC, providing it in the form of easily installable, pre-compiled packages. The source code of every stable and development version of KDE SC is stored in the KDE source code repository, using Git. KDE Platform is licensed under the LGPL, BSD license, MIT license, or X11 license. Applications also allow GPL. Documentation also allow FDL. CMake modules must be licensed under the BSD licence.
+
+===Release cycle===
+
+The KDE team releases new versions on a regular basis.
+
+====Platform releases====
+
+Platform releases are major releases that begin a series (version number X.0). These releases are allowed to break both binary and source code compatibility with the predecessor, or to put it differently, all following releases (X.1, X.2, ...) will guarantee source & binary compatibility (API & ABI). This means, for instance, that software that was developed for KDE 3.0 will work on all (future) KDE 3 releases; however, an application developed for KDE 2 is not guaranteed to be able to make use of the KDE 3 libraries. KDE major version numbers follow the Qt release cycle, meaning that KDE SC 4 is based on Qt 4, while KDE 3 was based on Qt 3.
+
+====Standard releases====
+
+There are two main types of releases: major releases and maintenance releases.
+Major releases (with two version numbers, for example 3.5) contain new features. As soon as a major release is ready and announced, work on the next major release starts. A major release needs several months to be finished and many bugs that are fixed during this time are backported to the stable branch, meaning that these fixes are incorporated into the last stable release by maintenance releases.  Starting with the KDE SC 4 series, KDE SC has a major release roughly every six months.
+Maintenance releases have three version numbers, e.g. KDE 1.1.1, and focus on fixing bugs, minor glitches, and making small usability improvements. Maintenance releases in general do not allow new features, although some releases include small enhancements. A shortened release schedule is used. Starting with the KDE SC 4 series, KDE SC has a maintenance release roughly every month, except during the month of a major release.
+
+===Packages===
+
+The Software Compilation consists of the following packages:
+* KDE-Libs: A collection of libraries that provides frameworks and functionality for developers.
+* KDE-Base: The base set of files, libraries and programs needed by the Software Compilation. KDE-Base is divided into three parts:
+** Applications: Containing the applications that form the KDE desktop, like Konqueror, Dolphin, KWrite, and Konsole.
+** Runtime: Applications required by KDE apps to function properly at runtime.
+** Workspace: Provides the graphical environments.
+* KDE-Plasma-Addons: Additional Plasma widgets.
+* KDE-Network
+* KDE-Pim
+* KDE-Graphics
+* KDE-Multimedia
+* Phonon
+* KDE-Accessibility: Accessibility applications.
+* KDE-Utilities
+* KDE-Edu
+* KDE-Games
+* KDE-Toys
+* KDE-Artwork: Additional icons, styles, etc.
+* KDE-Admin
+* KDE-SDK
+* KDE-Bindings
+
+===Applications===
+
+Major applications by KDE Software Compilation include:
+* Ark - Archiving tool
+* Dragon Player - Media player.Dragon Player website
+* Dolphin – File manager
+* Gwenview
+* Kate / KWrite – Text editor
+* Konsole – Terminal emulator
+* Kontact – Personal information manager featuring an e-mail client, a news client, a feed aggregator, to-do lists, etc.
+* Konqueror – Web browser and File manager
+* Kopete – Instant messaging client
+For more applications, see list of KDE applications.
+
+===Base technologies===
+
+* KHTML – HTML rendering engine
+* KJS - JavaScript engine
+* KIO – Extensible network-transparent file access
+* Kiosk – Allows disabling features within KDE to create a more controlled environment
+* KParts – Lightweight in-process graphical component framework
+* KWin – Window manager
+* XMLGUI – Allows defining UI elements, such as menus and toolbars via XML files
+* Phonon – Multimedia framework
+* Plasma – Desktop and panel widget engine
+* Solid – Device integration framework
+* Sonnet – Spell checker
+* ThreadWeaver – Library to use multiprocessor systems more effectively
+
+==See also==
+
+* KDE Platform
+* Comparison of X Window System desktop environments
+
+==References==
+
+==External links==
+
+*The KDE website
+*KDE.News, news announcements
+*KDE community forums, the official forum board
+*Planet KDE, blog aggregate
+*KDE wikis
+*KDE Localization
+*KDE-Apps, KDE and Qt software repository
+*KDE-Look
+*KDE-Files
+

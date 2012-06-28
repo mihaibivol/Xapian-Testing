@@ -1,0 +1,10 @@
+
+The measure in quantum physics is the integration measure used for performing a path integral.
+In quantum field theory, one must sum over all possible histories of a system. 
+When summing over possible histories, which may be very similar to each other, one has to decide when two histories are to be considered different, and when they are to be considered the same, in order not to count the same history twice. This decision is coded within the concept of the measure by an observer.
+In fact, the possible histories can be deformed continuously, and therefore the sum is in fact an integral, known as path integral. In the limit where the sum is becoming an integral, the concept of the measure described above is replaced by an integration measure.
+
+== See also ==
+
+*Action (physics)
+

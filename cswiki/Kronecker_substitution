@@ -1,0 +1,7 @@
+
+Kronecker substitution is a technique for evaluating coefficients of polynomial expressions using integer arithmetic. It works by evaluating the polynomials involved at a value x that is a large power of 2 that is sufficiently large that the individual integer powers of x are sufficiently widely spaced so that the binary representations of the coefficients of each term of the output value can be read directly out of the binary representation of the overall sum.
+
+== See also ==
+
+* Kronecker product
+

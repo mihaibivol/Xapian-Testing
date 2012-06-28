@@ -1,0 +1,105 @@
+
+Anti-Virus Guard (AVG) is a family of anti-virus and Internet security software for the Microsoft Windows, Linux, Mac OS X, and FreeBSD computing platforms, developed by AVG Technologies, a publicly traded Czech company formerly known as Grisoft.AVG Anti-Virus and Internet Security - Leading Internet security vendor, Grisoft, changes name to AVG Technologies
+
+== History ==
+
+The brand AVG comes from Grisoft's first product, "Anti-Virus Guard", launched in 1992 in Czech Republic. In 1997, the first AVG licenses were sold in Germany and UK. AVG was introduced in the U.S. in 1998.[tpl]cite web | title = AVG Technologies Celebrates 15 Years of Internet Security Success | url = http://www.avg.com/40965 [/tpl]
+The AVG Free Edition helped raise awareness of the AVG product line.GRISOFT "Celebrates 15 Years of Internet Security Success", AVG Technologies bulletin, 15 December 2006
+In 2006, the AVG security package grew to include anti-spyware, as AVG Technologies acquired ewido Networks, an anti-spyware group. That same year, Microsoft announced that AVG components would be available directly within the Windows Vista operating system.
+AVG Technologies acquired Exploit Prevention Labs (XPL) in December 2007, and incorporated that company's LinkScanner safe search and surf technology into the AVG 8.0 security product range released in March 2008.
+In January 2009, AVG Technologies acquired Sana Security, a developer of identity theft prevention software. This software was incorporated into the AVG security product range released in March 2009.
+According to AVG Technologies, over 106 million users have AVG Anti-Virus protection, including users of the Free Edition.http://free.avg.com/ AVG Home page logo
+
+==Products==
+
+=== Versions for Windows desktop clients ===
+
+AVG Technologies provides a number of products from the AVG range, suitable for Windows 2000 onwards. In addition to this, AVG Technologies also provides Linux, FreeBSD, and most recently Mac OS X versions of the software. AVG Anti-Virus 9.0 is available in free and commercial editions. AVG 9.0 has identity theft protection through a partnership with Intersections Inc., AVG 9.0 also adds white listing, behavioral protection and cloud operations to their signature-based blocking. The software adds the Resident Shield, firewall, and identity protection modules. The LinkScanner component has been improved to cut phishing threats further.[tpl]cite news|last=Seltzer |first=Larry |url=http://www.pcmag.com/article2/0,2817,2353742,00.asp |title=New AVG 9.0 Suite Speeds Up, Adds Protection | News & Opinion |publisher=PCMag.com |date= 2009-10-05|accessdate=2010-11-09[/tpl] Version 9 was the last version compatible with Windows 2000.
+For desktop protection of PC's running Windows, the AVG solutions include:
+* AVG Internet Security is a full suite which brings together the AVG Anti-Virus, Anti-Spyware, LinkScanner, Anti-Rootkit, Web Shield, Security Toolbar, Firewall, Anti-Spam, Identity Protection and System Tools protection components.
+* AVG Identity Protection provides protection against identity theft and unknown malware threats using behavioral monitoring.
+* AVG Anti-Virus plus Firewall provides the Anti-Virus, Anti-Spyware, LinkScanner, Anti-Rootkit, Web Shield, Security Toolbar and Firewall protection components.
+* AVG Anti-spyware was a rebranded version of ewido Anti-Spyware,"ewido is now part of the AVG Technologies family of world-class Anti-Virus and Internet Security products. ewido users will benefit from AVG's comprehensive threat research and support resources." that was integrated into AVG Anti-Virus as of version 8.0. A free version was also available, having now been merged into AVG Anti-Virus Free Edition
+* AVG Anti-Rootkit was a free anti-Rootkit program that was discontinued as of late 2006. Like AVG Anti-Spyware, it has now been merged into AVG Anti-Virus
+* AVGADMIN is a remote administration tool, which allows the software to be managed centrally on networks.[tpl]Citation needed|date=January 2009[/tpl]
+* AVG Anti-Virus provides the Anti-Virus, Anti-Spyware, LinkScanner, Anti-Rootkit, Web Shield, and Security Toolbar protection components.
+*AVG Search a search engine by AVG which provides less risk in internet searching.
+**Like other security products,[tpl]citation needed|date=December 2010[/tpl] AVG disables Windows Defender. 
+* [tpl]visible anchor|AVG Anti-Virus Free Edition[/tpl] provides basic, Anti-Virus and Anti-Spyware protection, plus the full AVG LinkScanner safe search and surf technology. There are some limitations with AVG Anti-Virus Free Edition compared to the commercial versions of AVG products and other free antivirus. These limitations include:
+** Less protection – AVG Anti-Virus Free Edition provides the same anti-virus and anti-spyware scanning engine as the commercial product; however, it lacked anti-rootkit protection until 2010. The older 7.5 Free Edition is perfectly capable of finding and disabling rootkits based on signatures, but cannot scan for rootkit-like activity. The 8.5 version of AVG Anti-Virus Free Edition version lacks any anti-rootkit capability. While there is no official protection for files from messaging sources, the Resident Shield component automatically scans files before they are opened or copied.
+** Infrequent updates – AVG Anti-Virus Free Edition receives updates via a lower priority service. Priority updating via high-speed servers is only available for the commercial versions of AVG products.
+** No telephone or e-mail technical support – There is no telephone or e-mail technical support provided by AVG for users of AVG Free Edition products anywhere in the world. AVG Free Edition users have access to support via the self-help AVG Free Forum.
+** Less customization – Scheduling options in AVG Anti-Virus Free Edition are very limited (only one scheduled update per day). However, the AVG Resident Shield configuration allows exclusions. The on-demand/scheduled scanner allows advanced testing options such as heuristics and reporting of password-protected archives reporting. Process priority for on-demand/scheduled scans can be dynamically adjusted over three different configurations.
+** No server support – AVG Anti-Virus Free Edition cannot be installed on server operating systems (such as Windows Server 2003), nor can it be used for the scanning of network drives. Note, the newer AVG 2011 free edition can be installed on Server operating systems like Windows Server R2.
+** AVG Anti-Virus Free Edition is only licensed for home and non-commercial use on a single computer.
+AVG Free Edition has previously been responsible for popup ads advertising the non-free versions of AVG Anti-Virus and AVG Internet Security, which claim to provide more comprehensive levels of protection.[tpl]cite web | title = Avg 7.5 Constant Pop Up Ad Window | url = http://www.bleepingcomputer.com/forums/topic144931.html#entry814134 [/tpl][tpl]cite web | title = AVG pro 7.5 annoying pop-up till December? | url = http://www.dslreports.com/forum/r20400528-AVG-pro-75-annoying-popup-till-Decenber [/tpl] AVG Anti-Virus 8.5 Free Edition users are now also subject to a daily pop-up advertising campaign for a "recommended upgrade" to AVG Internet Security. A "manager" on the AVG free version forum states that this advertisement appears once per day for one month each year.AVG Free Forum - pop-up ads
+All versions of the AVG products, excluding AVG Anti-Rootkit Free Edition (now discontinued), are compatible with the 64-bit edition of Windows.
+
+=== Versions for servers ===
+
+AVG Technologies also sells AVG anti-virus and Internet security solutions for web/file servers or email servers running either Linux, FreeBSD or Windows.
+* AVG Internet Security Business Edition provides centrally controlled protection for workstations and file servers, e-mail server and Microsoft SharePoint server protection, plus e-mail server based anti-spam protection.
+* AVG Anti-Virus Business Edition provides centrally controlled anti-virus and anti-spyware protection for workstations and file servers.
+* AVG File Server Edition provides anti-virus and anti-spyware protection for file servers.
+* AVG E-mail Server Edition provides anti-virus and anti-spyware protection for e-mail servers, plus e-mail server based anti-spam protection.
+
+=== AVG for Linux/FreeBSD ===
+
+With version 7.5, AVG Technologies is providing a solution for FreeBSD for the first time. AVG Technologies has incorporated spam detection in addition to virus detection for Linux/FreeBSD software.http://free.avg.com/us-en/download.prd-alf
+
+=== Multimi ===
+
+A joint project of AVG and Israeli start-up Zbang, Multimi is a free Windows desktop and iPad app for organizing and sharing content between multiple inboxes, social networks, calendars, and media albums.http://multimi.com
+
+== Features ==
+
+AVG features most of the common functions available in modern anti-virus and Internet security programs, including periodic scans, scans of sent and received emails (including adding footers to the emails indicating this), the ability to "repair" some virus-infected files, and a quarantine area: "virus vault/chest" in which infected files are held.  A handy & clear (if somewhat misleading) feature / product comparison table is at Free vs Paid
+
+=== LinkScanner ===
+
+The patent pending LinkScanner technology acquired from Exploit Prevention Labs and built into most AVG products, provides real-time updated protection against exploits and drive-by downloads. LinkScanner includes: Search-Shield – a safe search component that places safety ratings next to each link in Google, Yahoo! and MSN search results; plus Active Surf-Shield – a safe surf component that scans the contents of a web site in real-time to ensure it's safe being opened.AVG Anti-Virus and Internet Security - FAQ Concerns regarding web analytics have made Link Scanner a controversial component (see "Link Scanner Concerns").
+
+==== Concerns ====
+
+When AVG 8.0 was first released, its LinkScanner safe search feature was shown to cause an increase in traffic on web sites that appear high in search engine results pages. Since LinkScanner disguises the scans as coming from an Internet Explorer 6 browser when it prescans each site listed in the search results, web site usage logs showed incorrect and overinflated site visitor statistics. The prescanning of every link in search results also caused web sites to transfer more data than usual, resulting in higher bandwidth usage for web site operators and slow performance for users.[tpl]cite web | title = AVG Disguises Fake Traffic As IE6 | url = http://www.theregister.co.uk/2008/06/26/avg_disguises_fake_traffic_as_ie6/ [/tpl] AVG initially said site administrators would be able to filter the LinkScanner traffic out of their site statistics, leaving the problem of excess bandwidth usage still to be solved.[tpl]cite web | title= AVG update disguises LinkScanner traffic as IE6 | url= http://www.techspot.com/news/30641-avg-update-disguises-linkscanner-traffic-as-ie6.html [/tpl] Pay-per-click advertising was not affected by the increase in traffic.[tpl]cite web | title= LinkScanner could be behind surge in web traffic | url= http://www.virusbtn.com/news/2008/06_20a.xml [/tpl]
+In response to complaints, AVG announced that as of July 9, 2008 "Search-Shield will no longer scan each search result online for new exploits, which was causing the spikes that webmasters addressed with us",[tpl]cite web | title= AVG Responds to Fake Traffic Spikes | url= http://networkinstruments.wordpress.com/2008/07/05/avg-responds-to-fake-traffic-spikes/ [/tpl] releasing a new build on that date that applies a local blacklist, then prefetches and scans only those links clicked on by the user.[tpl]cite web | title= Grisoft modifies its free AVG product after complaints | url= http://news.cnet.com/8301-10789_3-9986453-57.html [/tpl]
+
+== Resource requirements ==
+
+AVG usually supports several products and usually the two latest versions of each, as well as the AVG Beta Program.  Additionally, each product is available for only certain operating environments ("System Requirements").
+Version 2012 of AVG (Basic, Internet Security, ...) released in 2011.  AVG also advertises 3rd party services to remove what AVG doesn't/can't.
+Version 2011 of 5 AVG products (Free, Business, Home) for AVG & AVG Internet Security, ...)
+Version 9 of AVG (Free, Internet Security, ...), released before June 2010.
+Version 8.5, both AVG Anti-Virus and AVG Internet Security require at least 256 MB of RAM for the computer as a minimum.[tpl]Cite document |title=AVG 8.5 Anti-Virus User Manual |publisher=AVG Technologies CZ, s.r.o. |date=2009-03-10 |url=http://download.avg.com/filedir/doc/AVG_Anti-Virus/avg_aav_uma_en_85_3.pdf |accessdate=2009-04-16 |postscript=[/tpl]AVG Anti-Virus and Internet Security - AVG Internet Security The comparatively high use of paged physical RAM has led to crashes with some software, such as the Half-Life 2 series.Games freeze or crash with looping sounds (paged pool memory issues) - Crashes and Errors - Knowledge Base - Steam Support
+Version 7.5 of AVG Free requires a Pentium (or compatible) CPU with 300 MHz and between 64–256 MB of RAM, depending on operating system (at least 64 MB with Windows 9x, at least 128 MB with Windows 2000 or newer, with more RAM recommended).[tpl]Cite document |title=AVG 7.5 Anti-Virus Edition User Manual |publisher=GRISOFT, s.r.o. |date=2007-11-08 |url=http://download.avg.com/filedir/doc/AVG_7.5/AVG_Anti-Virus/user_manual/avg_avw_uma_en_75_11.pdf |accessdate=2009-04-16 |postscript=[/tpl] [tpl]Dead link|date=September 2010|bot=H3llBot[/tpl] An additional caveat with version 7.5 in Windows XP, which is a multi-user system that allows more than one user to be logged in at a time, is that scheduled scans ran as separate processes, which created a situation in which there were two scheduled scans, one in each active account, running simultaneously and causing heavy hard disk throttling and considerable system lag. This fault was finally fixed in version 8.0 of the program.
+During its version 6.0 run, AVG was known for its conservative resource requirements . The AVG Anti-Virus Professional Edition required 16 MB of RAM and 20 MB of space on the hard drive.[tpl]Citation needed|date=January 2009[/tpl]
+
+== Problems ==
+
+* When uninstalling AVG version 7 or 8 in Windows XP/Vista and attempting to install other anti-virus programs such as Kaspersky Anti-Virus or Norton AntiVirus, the latter programs will not install. Instead, they show an "incompatible software installed" error even if the uninstalled software has been removed using the control panel. This happens because software that updates and changes can add registry entries that were not added when the product was originally installed (therefore the uninstaller is unaware of the registry keys).[tpl]cite web | title = Other Antivirus software's error incompatibility while installing due to leftover AVG's registry keys after uninstallation | url = http://www.nirmaltv.com/2008/11/30/how-to-remove-avg-completely-to-install-kaspersky/ [/tpl]  
+* A signature update dated November 9, 2008, crippled some computers, as it allowed the software to treat "user32.dll", a major component of Windows XP/Vista, as a trojan and advised users to delete it. Users who deleted the file in question were put on a continuous reboot loop. The problem was rectified a few days later with a new signature database and further safeguards were added to the product (270.9.0/1778).AVG signature cripples Windows machines
+* Towards the end of July 2009, a software update caused the program to inform users that iTunes was infected[tpl]cite web|url=http://www.avg.com.au/news/tech/fix_avg_reporting_itunes_as_trojan|title=iTunes reported as a Trojan by AVG - How to Fix[/tpl] with a non-existent virus, Small.BOG. If users followed the recommended instructions, it would remove critical DLL files and corrupt the iTunes installation.[tpl]cite web|url=http://www.inquisitr.com/30504/itunes-smallbog-trojan-virus/ |title=AVG decides iTunes is the Small.BOG virus |publisher=Inquisitr.com |date=2009-07-24 |accessdate=2010-11-09[/tpl]
+* An update of AVG 2011 resulted in Windows 7 64-bit systems being caught up in a continuous reboot loop. The update has now been removed.http://www.theregister.co.uk/2010/12/02/avg_auto_immune_update/
+
+== Reception ==
+
+* AVG Anti-Virus was certified by ICSA Labs./ICSALabs/Antivirus/Certified Products
+* It has been tested 43 times, during the period from June 2003 to April 2008, it was tested 23 times; passing 20 times and failing 3 times.  From February 1998 through May 2003, by Virus Bulletin it failed 22 times and passed 21 times.Virus Bulletin : Independent Malware Advice
+* AVG won a Highly Commended award from Australian PC Authority magazine 2007 Reliability and Service Awards Best Software category (over 14,000 survey respondents) with an 89% satisfaction rating. It was beaten only by Firefox in satisfaction (93%).Australian PC Authority Magazine Reliability and Service Awards 2007
+* At PCWorld.com AVG 7.5 received a 77/100. It did a "fine job" in disinfection tests, but ranked last of the ten products tested in proactive protection using one-month-old signature files.PC World - AVG 7.5 Anti-Virus Professional Review
+* In 2010, AVG Anti-Virus Free Edition was the most downloaded software on Download.com.
+
+== See also ==
+
+* List of antivirus software
+
+== References ==
+
+== External links ==
+
+* AVG Home and Small Office products
+* AVG Technologies website
+* AVG Technologies site for freeware version of AVG anti-virus with Anti-Spyware
+* AVG Technologies for Education & Government website
+* AVG LinkScanner Free download
+

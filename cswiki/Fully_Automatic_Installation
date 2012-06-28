@@ -1,0 +1,20 @@
+
+Fully Automatic Installation (FAI) is a non-interactive system
+to install the Debian computer operating system and other
+distributions https://lists.uni-koeln.de/pipermail/linux-fai/2011-September/009243.html CentOS and Scientific Linux Cern installations with FAI  unattended on a single computer or a whole cluster.
+FAI uses a collection of Perl and shell scripts for the installation process. Changes to the configuration files of the operating system can be made by cfengine, shell, Perl and expect scripts.
+There is a PHP based graphical frontend GOsa (not only) for FAI, which is used by the City of Munich at their migration to LinuxCity of Munich report.
+FAI is released under GNU GPL 2+.
+
+== See also ==
+
+* Kickstart (Linux) - a similar tool for the Red Hat Enterprise Linux distribution
+* M23 software distribution system is also a Software Distribution Tool for Debian / Ubuntu
+
+==References==
+
+== External links ==
+
+* FAI Homepage
+* FAIWiki
+

@@ -1,0 +1,30 @@
+
+DriveSentry is an antivirus program, developed by DriveSentry Inc, to protect Microsoft Windows users from malware. It is available free for personal (non commercial) use, though with restricted functionality.
+
+== Company overview ==
+
+DriveSentry Inc, founded in 2005, is a computer security company. Headquartered in Mountain View, California, the company also has major operations performed out of Nottingham, England. Originally centered around drive firewall technologies, DriveSentry Inc developed and patented the world's first firewall for disk drives.DriveSentry offers 'firewall' for hard drives Since 2005, DriveSentry Inc has expanded into the competitive field of AntiVirus solutions.
+
+== Detection methods ==
+
+DriveSentry provides a realtime and on demand virus scanner, and uses the following methods to determine if an application contains a virus before allowing it to run:
+# Whitelisting: Programs are first checked against a list of known trusted and validated applications and files. These "whitelisted" files are allowed to run without restriction.
+# Blacklisting: Only if programs are not present on the whitelist are they then checked against an updated database list of virus signatures; those files whose MD5 signature is on the list are automatically moved to quarantine area if they attempt to gain access to system or data. This is technique as used by practically all antivirus products as the first line of defence.
+# Heuristics If the programme is not on either list its behavior is compared to that of previous encountered malware.
+# Community Statistics: DriveSentry also collects and stores user statistics based on access decisions made by the user, which is shared amongst all other users.
+DriveSentry partners with Offensive Computing and Frame4 Security Services to collect and analyse malware samples for the database list, partnering in this way ensures that the database is fed by multiple sources and therefore offers redundancy.
+Although DriveSentry's basic features are available for free, its more advanced features such as automatically updating its white and blacklists have to be paid for via a one-off payment.
+
+== White/Blacklisting ==
+
+Articles in computing publications[tpl]Citation needed|date=April 2009[/tpl] discussing new malware protection technologies - such as whitelisting - claim that traditional antivirus technologies are having an increasingly hard time keeping up with the latest virus, trojans and other malicious threats. The popularity of the Internet and the ease at which data can now spread, allows threats to propagate faster, requiring traditional antivirus products to play "catch-up" with new zero day threats. The techniques of using white/blacklisting and community feedback, may offer greater securityDriveSentry living Symantec's dream
+However, this functionality does come at a cost - specifically, whitelisting only allows pre-vetted software to be executed, and prevents all other software from running, even if it is harmless. DriveSentry avoids this issue by allowing the user to be prompted if programs don't appear in the black or whitelist. This then forces responsibility on the end user to determine what is good or bad. DriveSentry attempts to help the user by monitoring the action of the program and calculating and displaying a threat rating.
+Furthermore, malicious software which has been included on the whitelist can still be executed.
+
+== References ==
+
+== External links ==
+
+*Official DriveSentry Website
+*Official DriveSentry Support Forum
+

@@ -1,0 +1,36 @@
+
+In solid state physics, a superstructure is some additional structure that is superimposed on a given crystalline structure. A typical and important example is ferromagnetic ordering.
+In a wider sense, the term superstructure is applied to polymers and proteins to describe ordering on a length scale larger than that of monomeric segments.
+
+== Superstructure in crystals ==
+
+In a crystal, a superstructure manifests itself through additional reflections in diffraction patterns, e.g., in low energy electron diffraction (LEED) or X-ray diffraction experiments. Often a set of weak diffraction spots appears between the stronger spots belonging to what is referred to as the substructure. In some cases a phase transition occurs, e.g., at higher temperatures, where the superstructure disappears and the material reverts back to the simpler substructure. If not, usually compounds are known that exhibit only the substructure.
+The superspots basically represent a modulation of the substructure that causes the translation symmetry inherent to the lattice of the substructure to be violated somewhat. One could speak of symmetry breaking of the translation symmetry of the lattice, although rotational symmetry may be lost simultaneously.
+
+===Commensurate cases===
+
+If the superspots are located at simple fractions of the vectors of the reciprocal lattice of the substructure, e.g., at q=(½,0,0), the resulting broken symmetry is a doubling of the unit cell along the a axis. Such a modulation is called a commensurate superstructure.
+
+===Incommensurate cases===
+
+In some materials, superspots will occur at positions that do not represent a simple fraction, say q=(0.5234,0,0). In such a case a structure results that strictly speaking has lost all translational symmetry in a particular direction. This is called an incommensurate structure.
+
+==Causes of superstructures==
+
+There are basically three types of superstructures in crystals:
+
+===Magnetic superstructures===
+
+When a crystalline material that contains atoms with uncompensated electron spins is cooled down generally ordering of these spins will occur once the thermal energy is small enough not to overrule the interactions between neighboring spins. The ordering does not necessarily span the same unit cell as the original crystallographic subcell and a superstructure may occur. The superspots are typically only visible in neutron diffraction, because the neutron is scattered both by the nucleus and by the magnetic moments of the electron spins.
+
+===Defect ordering===
+
+Many alloys of elements that resemble each other chemically will form a structure at higher temperatures where the two elements occupy similar positions in the lattice at random. At lower temperatures ordering may occur where crystallographic positions are no longer equivalent because the one element preferentially occupies one and the other the other. This process may lower the translation symmetry and result in a different, larger unit cell.
+
+===Displacive transitions===
+
+In some transitions a number of atoms occupying crystallographic positions that were originally equivalent will move away slightly from their ideal positions in a certain pattern. This pattern may well span multiple unit cells. The cause for this phenomenon is essentially one of increased chemical bonding by forming a pattern of 'would be' clusters. While having the undistorted substructure these materials are typically 'unsaturated' in the sense that one of the bands in the band structure is only partially filled. The distortion changes the band structure, in part splitting them up in smaller band that can be more fully filled or emptied. This process may not go to completion however, because the substructure only allows for a certain amount of distortion. Superstructures of this type may well be incommensurate in nature. A good example is found in the structural transitions of 1T-TaS2 a compound with a partially filled, narrow d-band (Ta(IV) has a d1 configuration).
+
+== References ==
+
+

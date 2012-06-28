@@ -1,0 +1,14 @@
+
+The query likelihood model is a language model used in Information Retrieval. A language model is constructed for each document in the collection.  It is then possible to rank each document by the probability of specific documents given a query. This is interpreted as being the likelihood of a document being relevant given a query.
+
+==Calculating the likelihood==
+
+Using Bayes' rule, the probability of a document, given a query can be written as follows:
+Since the probability of the query P(q) is the same for all documents, this can be ignored. Further, it is typical to assume that the probability of documents is uniform. Thus, P(d) is also ignored.
+Documents are then ranked by the probability that a query is observed as a random sample from the document model. The multinomial unigram language model is commonly used to achieve this. We have:
+Christopher D. Manning, Prabhakar Raghavan, Hinrich Schütze: An Introduction to Information Retrieval, page 242. Cambridge University Press, 2009
+
+==References==
+
+ <references/>
+

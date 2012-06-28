@@ -1,0 +1,31 @@
+
+MyDLP is free and open source data loss prevention software that runs with multi-site configurations on network servers and endpoint computers. MyDLP development project has made its source code available under the terms of the GNU General Public License[tpl]cite web | url=http://github.com/mydlp/mydlp/blob/master/LICENSE | title=MyDLP License | publisher=MyDLP Development Team | accessdate=2010-10-26[/tpl].
+MyDLP is one of the first free software projects for data loss prevention.[tpl]cite web | url=http://www.ossramblings.com/open-source-data-leak-prevention | title=Open Source Data Leak Prevention - OSS Ramblings| publisher=Tony Maro | accessdate=2011-03-06[/tpl][tpl]cite web | url=http://rakkhi.blogspot.com/2011/03/data-classification-start-with-end-in.html | title=Data classification: start with the end in mind| publisher=RSSC | accessdate=2011-03-06[/tpl]
+
+==Subprojects==
+
+As of October 2010, MyDLP include the following subprojects[tpl]cite web | url=http://github.com/mydlp | title=GitHub Profile of MyDLP| publisher=MyDLP Development Team | accessdate=2010-10-26[/tpl][tpl]cite web | url=http://www.slideshare.net/barfan/mydlp-v10-tantm | title=MyDLP Brochure| publisher=MyDLP Development Team | accessdate=2010-10-27[/tpl]:
+* MyDLP Network: Network server of the project, which is used for high load network operations such as intercepting TCP connections and hosting MyDLP network services.
+* MyDLP Endpoint: Remote agent of the project, which runs on endpoint machines in order to inspect end user operations such as copying a file to an external device, printing a document and capturing screenshots.
+* MyDLP Web UI: Management interface for system administrators to configure MyDLP. It pushes relevant parts of system configuration to both MyDLP Network and MyDLP Endpoint.
+
+==Platforms and interfaces==
+
+MyDLP Network is mostly written in Erlang, because of its performance on concurrent network operations [tpl]cite web | url=http://downloads.medratech.com/help/help.html | title=MyDLP Feature and Help Documentation | publisher=MyDLP Development Team| accessdate=2010-10-26[/tpl]. Python is also used for a few exceptional cases, too [tpl]cite web|url=http://github.com/mydlp/mydlp/graphs/languages/ | title=Languages used by MyDLP|publisher=GitHub|accessdate=2010-10-26[/tpl]. This subsystem could run on any platform supports Erlang and Python[tpl]cite web|url=http://github.com/mydlp/mydlp/wiki/Platforms|title=MyDLP Wiki - Platforms|publisher=MyDLP Development Team|accessdate=2010-10-26[/tpl].
+MyDLP Endpoint is developed for Windows platforms[tpl]cite web | url=http://blog.mydlp.org/2010/07/mydlp-windows-endpoint-first-release.html | title=MyDLP Endpoint First Release | publisher=MyDLP Blog |accessdate=2010-10-26[/tpl], and it is written in C++, C# [tpl]cite web | url=http://downloads.medratech.com/help/help.html | title=MyDLP Feature and Help Documentation | publisher=MyDLP Development Team| accessdate=2010-10-26[/tpl].
+MyDLP Web UI is written in PHP and Adobe Flex[tpl]cite web | url=http://downloads.medratech.com/help/help.html | title=MyDLP Feature and Help Documentation | publisher=MyDLP Development Team| accessdate=2010-10-26[/tpl]. It uses MySQL in order to store user configurations[tpl]cite web | url=http://downloads.medratech.com/help/help.html | title=MyDLP Feature and Help Documentation | publisher=MyDLP Development Team| accessdate=2010-10-26[/tpl].
+
+==Features==
+
+As of October 2010, MyDLP includes widespread data loss prevention features [tpl]cite web | url=http://github.com/mydlp/mydlp/wiki/Features | title=MyDLP Feature List | publisher=MyDLP Development Team | accessdate=2010-10-26[/tpl] such as text extraction from binary formats, incident management queue, source code detection and data identification methods for bank account, credit card and several national identification numbers[tpl]cite web | url=http://blog.mydlp.org/2010/10/variety-in-dlp-filters.html | title=Variety in DLP Filters  | publisher=MyDLP Blog | accessdate=2010-10-28[/tpl]. Besided, features like data classification through statistical analysis of trained sentences and native language processor integrated Naive Bayes classifier [tpl]cite web | url=http://blog.mydlp.org/2010/09/new-bayesian-classifier-engine-for.html | title=New Bayesian Classifier Engine for MyDLP | publisher=MyDLP Blog | accessdate=2010-10-26[/tpl] are claimed to be inspiring.
+
+==References==
+
+== External links ==
+
+* MyDPL
+* mydlp.org
+* MyDLP Blog
+* MyDLP GitHub Page
+* MyDLP Wiki
+

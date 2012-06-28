@@ -1,0 +1,7 @@
+
+Muguito was a freeware Java application used by the Artists Against 419 to take some fraudulent websites offline. It was a replacement for the Mugu Marauder tool.
+The program worked by repeatedly downloading the scam site's images and HTML files until the site's bandwidth limit was exceeded. Many people used this program at the same time, and a site could be quickly taken offline.
+Some people confused what the artists did with a denial-of-service attack. A DoS attack affects all websites on the server or network. However, Muguito did not do this. Muguito was programmed to stop downloading if the server did not respond after a certain amount of time. Its aim was to have the site shut down by the server when the site's small bandwidth limit was exceeded.
+Another, similar tool used by AA419 was the Lad Vampire. Both Muguito and the Lad Vampire were very easy and straightforward to use.
+Note: AA419 stopped using the Lad Vampire and Muguito in September 2007. Neither is operational now.
+

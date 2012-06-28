@@ -1,0 +1,47 @@
+
+Scale relativity is a theory of space-time initially developed by Laurent Nottale, working at the French observatory of Meudon, near Paris. It is an extension of the concept of relativity found the special relativity and general relativity to physical scales (time, length, energy, or momentum scales). If scales in nature are always relative, an absolute scale cannot exist. As a consequence, fundamental physical laws need to be scale invariant. While differential trajectories found in standard physics are automatically scale invariant, it is the main insight of the theory that also certain non-differential trajectories (which explicitly depend on the scale of the observer) can be scale invariant and new tools are developed to treat such trajectories. It is one of the main successes of the theory that the laws of quantum mechanics, like the Schroedinger equation, can be derived directly from the assumption that space-time itself is non-differential[tpl]Clarify|date=January 2012[/tpl] and scale invariant. Scale invariance is closely related to the self-similarity observed in fractals.
+
+==Galilean Scale Relativity==
+
+=== Observation and motivation ===
+
+Two everyday observations are, that if we look at an object at a very small distance, say through a microscope, then even the slightest movement of this object will appear very fast; if on the other hand we look up to the sky and follow the movement of a jumbo-jet we sometimes wonder why it doesn't fall down, because from this distance it appears to be almost standing still.  Is this a pure subjective perception? The passengers in the jet will say that the clouds rushing by prove that the plane is moving fast, whereas the earth below is nearly standing still. And if the 'object' under the microscope were an ant that just woke up from coma, it would observe itself moving - relatively to the surface it is bounded to - with merely a few centimeters per minute.  This is reminiscent of the situation where one walks inside a train. Oneself observes walking rather slow, while an observer outside will add the velocity of the train to the walking speed, and say that the person inside the train is walking fast relatively to the ground. A similar observation led Galileo to formulate a relativity principle of motion. Likewise the former observations led Nottale to formulate scale relativity.
+
+===Mathematical formulation===
+
+While Galilean relativity of motion can be expressed by differences:
+The relativity of scales can be expressed by ratios:
+This can be derived by taking visual perspective into account, which is the phenomena that as objects become more distant, they appear smaller, because their angular diameter (visual angle) decreases. Then an observer on the ground sees v ' as the tangential velocity v (observed inside the plane) scaled down by the ratio of r'/r, that's between radius r (distance to the observed movement) and r ' (distance to the projective plane, e.g. 'the window').
+The last term follows from          (*)   Now the difference between a jet flying in a circle from its own perspecitve, i.e. a rotation that our intuition would favor as a real movement, and a perspectively projected rotation conceived by a far away observer, is that
+* in the projective case the tangential velocity v (the speed the passengers observe) is constant, while here the angular velocity (a.k.a. angular frequency) depends reciprocal on radius r
+That is a jet flying through your garden (small r) will have a much higher angular velocity, than one that is 'hanging' in the sky.
+Now what if r goes to zero? Then the angular velocity would become infinite for any non-zero
+v > 0 (ultraviolet catastrophe).  This is the analog to infinite speed in Galilean Relativity, when one rides on a train that is riding on a train, ... ad infinitum. This leads to (Lorentzian) scale relativity that is analogous to special relativity.
+
+==(Lorentzian) Scale Relativity principle==
+
+==Predictions and retrodictions==
+
+Scale relativity made a number of true predictions, as well as a number of retrodictions, both in cosmology and at small scale, including:
+* Prediction of the location of exoplanets http://luth2.obspm.fr/~luthier/nottale/ukresult.htm
+* Explanation of some observed large-scale structures http://luth2.obspm.fr/~luthier/nottale/DaRochaNottaleL.pdf
+* Relation between mass and charge of the electron http://luth2.obspm.fr/~luthier/nottale/ukmachar.htm
+
+==See also==
+
+* Causal dynamical triangulation
+* Conformal group
+* Doubly special relativity
+* Fractal cosmology
+* Fractals
+* Olbers' paradox
+* Perspective (graphical)
+* Scale invariance
+
+==External links==
+
+*Laurent Nottale's site
+*The original 1992 scale relativity article
+*List of Papers Downloadable from the site
+*Derivation of the postulates of quantum mechanics from the first principles of scale relativity last article
+

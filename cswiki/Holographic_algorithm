@@ -1,0 +1,23 @@
+
+In computer science, a holographic or accidental algorithm is an algorithm that uses a holographic reduction. A holographic reduction is a reduction that preserves the number of solutions via a holographic transformation, also called a basis transformation. These concepts were introduced by Leslie Valiant and are a natural type of reduction for #P problems.
+Holographic algorithms can obtain exponential speedup on certain classes of problems. They have received notable coverage due to speculation that they are relevant to the P versus NP problem and their impact on computational complexity theory.
+The algorithms are unrelated to laser holography, except metaphorically. Their power comes from the mutual cancellation of many contributions to a sum, analogous to the interference patterns in a hologram.  Holographic algorithms have some similarities with quantum computation, but they use classical computation.
+
+==How the algorithms work==
+
+The algorithms are based on several concepts: counting perfect matchings, holographic reduction of sets of problems, and reduction to perfect matching problems.
+The number of perfect matchings in a planar graph can be computed in polynomial time by using the FKT algorithm, dating to the 1960s.  
+The FKT algorithm converts the problem into a Pfaffian computation, which can be solved polynomially using standard determinant algorithms.  Note that although the basic formula for the determinant contains n! terms, the structure of the determinant allows it to be computed in polynomial time, as many terms cancel out and don't need to be computed.  This cancellation is a key to holographic algorithms.
+The second concept in holographic algorithms is reducing a problem to a different problem via holographic reduction.  A standard technique in complexity is many-one reduction, so an instance of a problem is reduced to an instance of a (hopefully simpler) problem.
+However, holographic reductions between two computational problems preserve the sum of solutions without preserving correspondences between solutions.  For instance, the total number of solutions in both sets can be preserved, even though individual problems don't have matching solutions.  The sum can also be weighted, rather than simply counting the number of solutions, using linear basis vectors.
+Cai, J. and Lu, P. 2007. Holographic algorithms: from art to science. In Proceedings of the Thirty-Ninth Annual ACM Symposium on theory of Computing (San Diego, California, USA, June 11–13, 2007). STOC '07. ACM, New York, NY, 401–410.
+The holographic reduction uses matchgates, which are graph-theoretic entities, analogous to logic gates, that use perfect matching to perform operations.  The matchgates are combined into a planar graph called a matchgrid.  By Valiant's Holant Theorem, the (polynomial-time) perfect matching algorithm gives the solution to the matchgrid problem.  Thus, the original problem is solved in polynomial time.  
+
+==Research==
+
+Holographic algorithms have been used to find polynomial solutions to problems without previously-known polynomial solutions in special cases of satisfiability, vertex cover, and other graph problems.  Although some of the general problems are NP-complete problems, the special cases solved are not themselves NP-complete, and thus do not prove P=NP.  Also, some of the solved problems are argued to be contrived (such as '#7Pl-Rtw-Mon-3CNF').
+A key research area is extending holographic algorithms to new problems.
+
+==References==
+
+

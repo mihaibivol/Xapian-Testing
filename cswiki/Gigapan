@@ -1,0 +1,41 @@
+
+GigaPan is a collaborative project between Carnegie Mellon University and NASA Ames Intelligent Systems Division's Robotics Group with support from Google. Its goal is to facilitate the taking of large (gigapixel) composite pictures, presenting the data as a single image and providing efficient web storage, browsing and zooming of such images.
+
+==Technology==
+
+The commercially available GigaPan robotic mounts turn most digital cameras into extremely high-resolution panoramic imagers. The robotic unit guides the user through setting up a panoramic scene, then automates the image acquisition process, precisely taking individual pictures across a grid.  These images are downloaded to a personal computer where free software stitches, renders, and projects the images together into a single explorable super-image. 
+These massive gigapixel-sized images can then be uploaded to the free user community site  which allows high-resolution images to be stored, shared, annotated, commented, linked, geolocated, and embedded on any website. The server-side technology relies on an image pyramid-tiling scheme that enables user interactions to occur in a dynamically resolving image space similar to Google Earth.  When interacting with the final composite image, users can for example view the entire panoramic or macropanoramic scene and then zoom into the tiniest details in full resolution.
+GigaPan Systems offers the unit for public sale. There are several weblogs of people who created similar devices. The main ingredients are:
+* a camera mount bracket
+* a tripod mount plate
+* two stepper motors or servo motors
+* motor driver electronics
+* two gear boxes
+* either a pull magnet with an arm to push the release button or electronic control for cameras with remote control option
+* a micro controller board, even one as simple as a Basic Stamp will do
+* the micro controller software
+* housing material
+In addition to the acquisition and merging of the image data, an efficient feature is also provided to allow for efficient web client browsing of the data by providing a top-level regular-sized view of the image and the ability to zoom in on any area, transferring only the high-resolution data for that segment of the image.
+
+==Community==
+
+GigaPan is an open website - anyone can upload photographs to it, and anyone can place comments on those photographs.
+Illah R. Nourbakhsh, Associate Professor at Carnegie Mellon University spoke about GigaPan on BBC's "Digital Planet" radio show and podcast on September 11, 2006 .Illah R. Nourbakhsh 2006-09-11
+Stockholm Views publish a review of the beta GigaPan imager and software including some tweaks.Introducing the Gigapan Camera 2007-09-01GigaPan review
+GigaPan has been used by British satellitte television company Sky Movies during their Action Month season with lookalikes of action stars such as Bruce Willis and Arnold Schwarzenegger appearing around London.Panoramic picture
+
+==See also==
+
+*Deep Zoom
+*Better Light
+*Adonai Rocha Gigapans
+
+==Notes==
+
+==External links==
+
+* http://www.gigapan.com
+* http://www.cs.cmu.edu/~globalconn/gigapan.html
+* http://rhmpano.com
+* GigaLinc - An immersive exhibit to view gigapixel images captured by the GigaPan
+

@@ -1,0 +1,16 @@
+
+Kernel.org is a main repository of source code for the Linux kernel, the base of the popular Linux operating system. It makes all versions of the source code available to all users. It also hosts various other projects, like Google Android. The main purpose of the site is to host a repository for Linux kernel developers and maintainers of Linux distributions. 
+
+== 2011 attack ==
+
+On 28 August 2011, developers at www.kernel.org realized that there had been a major security breach.  Crackers had gained root access to the system and added a trojan to the startup scripts. Developers reinstalled all the servers and investigated the origin of the attack.[tpl]Cite web |title= The cracking of kernel.org |date= 31 August 2011 |publisher= The Linux Foundation |work= Developer blog |url= http://www.linuxfoundation.org/news-media/blogs/browse/2011/08/cracking-kernelorg |author= Jonathan Corbet |accessdate= 8 November 2011 [/tpl] It is likely, though not yet known, whether this is related to the LinuxFoundation.org and Linux.com website hacks found shortly afterwards.http://www.heimic.net/2011/09/13/kernel-org-down-for-maintenance/http://mycottonsilk.wordpress.com/2011/09/16/kernel-org-is-down/
+Git, a distributed (and thus open) source management system designed to guarantee the integrity of the source code is used to keep track of changes in the Linux source code. This and the fact that the source code is available to anyone and widely known makes any attempt to tamper with the source code fairly easy to detect and revert if required[tpl]Cite news |title= Kernel.org hacked, but Linux kernel safe thanks to git |work= Linux for devices |author= Fahmida Y. Rashid |publisher= eWeek |date= 1 September 2011 |url= http://www.linuxfordevices.com/c/a/News/Kernelorg-hacked/ |accessdate= 8 November 2011 [/tpl].
+Kernel.org is not the primary repository, but rather a distribution point of the kernel sources.
+As of November 2011, kernel.org is completely back up with the exception of a few secondary services.
+
+== References ==
+
+==External links==
+
+* [tpl]Cite web |title= The Linux Kernel Archives |WORK= Official website |url= http://www.kernel.org/ [/tpl]
+

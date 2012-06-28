@@ -1,0 +1,17 @@
+
+Z-Push (presumably Z is for Zarafa) is a FOSS implementation of the Microsoft Exchange ActiveSync protocol which is used to synchronize email, personal contacts and other items between a central server and a mobile device.  Note the difference between this protocol, and an earlier (technologically unrelated) protocol named Microsoft ActiveSync.
+Z-Push enables any PHP-based groupware package to become fully syncable with any ActiveSync-compliant device.
+Currently, Z-Push is available with only four backends: the IMAP and the Maildir backend for e-mail synchronization, the vCard backend for contact synchronization and one for the Zarafa package which is sold by allowing full synchronization of E-mail, Calendar, Contacts and Tasks.
+
+==Technical background & Architecture==
+
+The Z-Push protocol is HTTP based, and uses WBXML (WAP Binary XML) as a communication layer, which is used for bi-directional communication between the PDA/cellular phone and the Server.
+Inside the protocol there is everything you expect from a synchronization protocol: the process of sending items from one side to the other, while keeping track of what has already been sent. The Z-Push hides the complexity of handling these protocol requests to the backend developer, who only needs to implement various standard functions, like getting a list of items, and getting the data for a specific item. All that is needed is a good understanding of the WBXML object definitions and fields, and a developer can quite easily get the items of any groupware solutions onto the PDA/cellular phone.
+The Z-Push has various performance and usability-related features; for example, the entire architecture of the project is based on the idea that only one message should ever have to be in memory at one time, even when the server is sending hundreds of messages to a PDA. This may sound easy, but in most XML-based applications, the XML result data is built in-memory before being serialized to the network - exactly the opposite to what Z-Push does, as data is streamed to the client while it is read from the backend. This not only improves already restricted memory usage in PHP, it also makes the progress bar on the client more user-friendly, as data starts arriving as soon as the synchronization request is made. Z-Push has provided a streaming WBXML encoder and decoder to make this happen.
+When a backend supports it, Z-Push can also make use of advanced features which bring server load down even lower, for example reading message changes directly from a 'diff' source, instead of comparing all the messages with whatever was in there last time. So if the groupware backend can provide a list of changes on-the-fly, then Z-Push can use this information almost instantaneously. Zarafa provides an incremental synchronization backend for its own MAPI-based solution here through their PHP-MAPI extension, enabling extremely low-load synchronizations.
+
+==External links==
+
+* Z-Push on Sourceforge
+* Download Z-Push
+

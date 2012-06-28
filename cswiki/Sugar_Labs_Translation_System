@@ -1,0 +1,28 @@
+
+Sugar Labs Translation System is the translation server of the community Sugar Labs and it can be found under http://translate.sugarlabs.org/
+
+== Sugar Labs ==
+
+Sugar Labs is a software-development and learning community. It is a non-profit foundation and the main aim is to produce, distribute, and support the use of the Sugar learning platform, which is an open source desktop environment designed with the goal of being used by children for learning.[tpl]cite news | url=http://news.bbc.co.uk/2/hi/technology/7405346.stm | title=$100 laptop' platform moves on | publisher=BBC | work=BBC News Online | accessdate=2008-10-17 | author=Jonathan Fildes | date=2008-05-16[/tpl]
+
+== Translation Team ==
+
+The Sugar Labs Translation System is developed by the so-called Translation Team. Their main objective is to enable developers and users to use Sugar and Sugar Labs services no matter which their native tongue is. That is the reason why they are involved in many projects related to the field of translation: localizing the Sugar Learning Platform, localizing Sugar Activities, translating the Sugar Documentation, translating the Sugar Labs wiki...
+They are organised in Language Teams. While Sugar translations are open to everyone to contribute, Sugar Language teams act as quality assurance teams. There is one language team dedicated to each different language. Language teams often work closely with Sugar Local Labs. 
+They contribute in activities such as: checking and reviewing the work of translators, helping new translators with feedback and guidances....
+
+== Pootle ==
+
+Sugar Labs Translation System works with Pootle, a free and open source software to enable volunteers to easily translate software into their own languages. It is mainly focused on localization of applications' graphical user interfaces as opposed to document translation. Pootle uses the Translate Toolkit for manipulating translation files. This tool kit also offers offline features that can be used to manage the translation of Mozilla Firefox and OpenOffice.org in Pootle.
+
+== Webpage ==
+
+The webpage is full of projects to be translated organised according to their language. It is possible to see the percentage which has already been translated just by looking at the colours next to the languages (green: already translated; red: work to do).  There anyone has the chance to collaborate by helping with a concrete language.
+
+== References ==
+
+== External links ==
+
+* http://translate.sugarlabs.org/ Main Page
+* http://wiki.sugarlabs.org/go/Welcome_to_the_Sugar_Labs_wiki Sugar Labs Wiki
+

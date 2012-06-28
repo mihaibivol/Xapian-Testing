@@ -1,0 +1,25 @@
+
+iproute2 is a collection of utilities for controlling 
+TCP and UDP IP networking and traffic control in Linux, in both IPv4 and IPv6 networks. It is currently maintained by Stephen Hemminger. The original author, Alexey Kuznetsov, was responsible for the QoS implementation in the Linux kernel.
+iproute2 is intended to replacehttp://lists.debian.org/debian-devel/2009/03/msg00780.html an entire suite of standard Unix networking tools (often called “net-tools”) that were previously used for the tasks of configuring network interfaces, routing tables, and managing the ARP table, but which have not been developed since 2001.https://bugs.launchpad.net/ubuntu/+source/iproute/+bug/225997/comments/1
+Tools replaced by iproute2 are:
+iproute2 unifies the syntax for these various commands, which evolved over many years of Unix development.
+
+==See also==
+
+* Netlink
+* Netfilter
+* lsof -i* tc (command)
+==References==
+
+==External links==
+
+* Linux Advanced Routing and Traffic Control HOWTO - A tutorial in exploring and using iproute2.
+* IPROUTE2 Utility Suite Documentation - Complete official documentation.
+* iproute2+tc notes - A collection of documents relating to iproute2 configuration and usage.
+* Homepage for iproute2 - at Linux Foundation.
+* Source code download directory
+* git source code
+* Advanced tc and iproute2 tutorial for bandwidth restriction
+* Advanced iproute2 tutorial for split route / multiple uplinks
+

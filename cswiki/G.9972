@@ -1,0 +1,13 @@
+
+G.9972 (also known as G.cx) is a Recommendation developed by ITU-T that specifies a coexistence mechanism for networking transceivers capable of operating over electrical power line wiring. The coexistence mechanism allows G.hn devices to coexist with other devices implementing G.9972 and operating on the same power line wiring.
+G.9972 received consent during the meeting of ITU-T Study Group 15, on October 9, 2009,UNITED NATIONS ITU-T RATIFIES G.HN STANDARD FOR WIRED HOME NETWORKING, HomeGrid Forum Press Release and final approval on June 11, 2010.United Nations ITU-T's G.hn Approved as Global Standard for Wired Home Networking
+
+==Coexistence with BPL access networks==
+
+G.9972 specifies two mechanisms for coexistence between G.hn home networks and Broadband over Power Lines (BPL) access networks:
+* Frequency-division multiplexing (FDM), in which the available spectrum is divided in two parts: frequencies below 10 or 14 MHz (specific value can be selected by the access network) are reserved for the access network, while frequencies above them are reserved for the in-home network.
+* Time-division multiplexing (TDM), in which the available channel time is split equally between both networks. 50% of time slots are allocated for the access network, and 50% are allocated to the in-home network.
+
+==References==
+
+

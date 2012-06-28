@@ -1,0 +1,53 @@
+
+ClueNet is an Internet service that utilizes an organized network of servers to provide a range of free utilities to users. Services include an IRC server, a mail service, shell accounts and various smaller resources run by ClueNet users. ClueNet states in its service motto that "much can be done when intelligent and helpful people all come together in one place.". Underpinning ClueNet's service rationale is a belief that many Internet services, including chatrooms, are not defined by cooperation between users, with a potential for "malicious intent" in existence. As a means to foster altruism in the online realm, ClueNet aspires to gather those Internet users who are genuinely interested in supporting their peers, whilst also blocking the influence of the malevolent.
+
+== ClueIRC ==
+
+The service's community is most prominent in the chatroom area of ClueNet, ClueIRC. ClueIRC is a cluster of public IRC servers with bespoke services and the user community within it is inclusive, fair and, in keeping with the principles of ClueNet, supportive. According to ClueNet, the community seeks to create a forum where those who possess a high level of knowledge and capability in relation to computer technology can share their talent with those participants who are keen to further their learning.
+
+== Infrastructure ==
+
+Several server clusters form ClueNet's core component in order to address both redundancy and security. The primary and secondary clusters host critical services such as Kerberos, LDAP, DNS, VPN control and MySQL. These two clusters are configured in a master-slave setup and access to the clusters is restricted to server administrators.
+The third cluster is a global VPN (written by Chris Breneman) and is available under the GPLv3 license.
+In addition to this infrastructure, server administrators can build and offer various other services, ranging from shell hosting to web hosting.
+
+=== Security ===
+
+Due to the use of Kerberos, user passwords are not sent across the network in plain or encrypted form and tickets have an expiry time; consequently, if a user's ticket is compromised, the attack window is greatly reduced. Such protection allows for single sign-on between the servers, a function that also reduces user vulnerability to spoofing attacks
+In addition to the security measures requiring authentication, the system also has ACL-based access to LDAP attributes which allows a user to determine whether profile information is displayed to everyone, a subset of users or for LDAP administrators only. ACL-based access is also applied to DNS server information and therefore establishes total access control. A few examples of this in effect are as follows:
+# For the server, only the owner and authorized administrators (as set by the owner) can edit its attributes, including IP addresses and host names.
+# Users can control who can see their personal information (such as Twitter ID and email address). However, a security risk is created if other users send information to an individual's contact or social media address, and permission is therefore restricted to read-only access.
+# Users can be assigned access to a specific DNS or VPN entry, allowing them to update IP addresses of entries they own; users cannot modify entries from other users or tamper with critical entries.
+
+== Community ==
+
+Members[tpl]Which?|date=January 2011[/tpl] of the community are generally involved in open source projects, both within and outside of ClueNet. Intensive discussions are often present within the community, with topics ranging from technical questions to general opinion. The purpose of discussion is not to create a "flamewar" but, rather, to understand the perspectives of other users and to also introduce other users to different viewpoints.
+
+== History ==
+
+=== Formation ===
+
+Chules.net and C&H Services, two free shell account providers, who met when they both used the now-defunct ShellsNet as their official IRC network.
+When the administrators of Chules.net and C&H Services became disgruntled with the changes to the environment of ShellsNet, they left but maintained relations. C&H Services joined with EvilHosting's IRC network and became EvilShells. When the IRC network fell apart, C&H Services and Chules.net merged and became ClueNet.
+Taking what they had learned they set about creating the right community and infrastructure to meet the ClueNet principle.
+
+=== Free Gaming Tournament ===
+
+In September 2007, ClueNet in partnership with Nuxified.org, hosted a gaming tournament to encourage the growth of open source gaming. Games to be played in the tournament were free and open source games voted upon by the both communities involved.
+
+== Services ==
+
+Services offered by ClueNet vary as server owners and users are free to build their own upon the core infrastructure. Services provided to all users by the ClueNet administrators include IRC and LDAP access.
+
+== ClueBot ==
+
+ClueNet acts as a collaboration area and home to Wikipedia's ClueBot task bots which carry out various tasks on Wikipedia, including archiving old discussion pages and quickly deleting spam and vandalism on Wikipedia.
+
+==References==
+
+== External links ==
+
+* ClueNet homepage
+* ClueNet user search
+* ClueNet on GitHub
+

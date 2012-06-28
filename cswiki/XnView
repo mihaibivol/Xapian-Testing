@@ -1,0 +1,57 @@
+
+XnView is a cross-platform image viewer used for viewing, converting, organising and editing graphical & video files. It is free of charge for private, educational and non-profit organisations. For commercial use and distribution, the user must register the program.
+It is popular with users as it provides features normally found only in commercial image viewers.
+
+== Features ==
+
+XnView is highly customisable and multi-lingual, supporting 44 languages in the Windows version. The language can be changed via the options menu. The toolbar buttons can be modified to a certain extent, or be replaced by altering skins.
+Also, XnView has been able to support an increasing number of file formats (mainly image file formats). It can read more than 400 image file formats, some audio and video file formats, and write 50 image file formats. XnView also supports ICC profiles in JPEG, PNG and TIFF files.
+XnView can show IPTC, Exif and XMP metadata, and write IPTC metadata (but cannot do batch writing of IPTC metadata, and some users are longing for the batch IPTC editing function).XnView :: View topic - Extending IPTC / EXIF / XMP batch editing A further limitation is that it currently does not allow to sort thumbnails within a folder by a user-defined order.XnView :: Voir le sujet - moving files within folder
+XnView can search files that have the same filename or data, and can search for similar graphics as well.
+In addition, the display of the histogram of a picture is possible. And within a few mouse clicks, scripts can be created to convert, manipulate and rename a batch of images in one go.
+Several image editing tools are included, for instance color and size manipulation, several filters and effects (full version even includes Harry's Filters 3.0). Lossless (without new encoding) turning, flipping and cropping of JPEG files is supported. Creation of advanced slide shows is also possible. Furthermore, it can upload images to an FTP site or ImageShack, burn images to a CD or DVD (Nero Burning ROM required) with a few clicks (full version only).
+The author no longer uses exe compressors to compress executables in the newest version, 1.95, after a long discussion about XnView 1.95 rc1 in the official forum.XnView :: View topic - XnView 1.95 rc1XnView :: View topic - 1.95: Why did the executable increased so much in size?
+XnView is accompanied by NConvert, a command line image conversion tool.
+
+== Versions ==
+
+* XnView MP
+XnView MP (XnView Multi Platform) will eventually replace all other versions of XnView (*nix and Mac OS X and Windows) using the same source code for all platforms. It is intended to have a unified look and feel using the Qt interface. It already has full native unicode support and has the ability to load full bit depth pictures (8/16/32 bits per component) while also having better handling of language translations (text based files) along with an improved database. Currently the latest version is 0.50.
+* XnConvert
+XnConvert (available on Windows, Linux & Mac OSX) allows easy batch conversion of image files, resizing, filtering, adding watermarks and more.
+* XnView Photo Fx
+XnView Photo Fx is a photo effects editor application first released for the iPad/iPhone/iPod Touch running on Apple's iOS.
+* XnView Retro
+XnView Retro can transform photos into vintage images. It is currently only available for Android.
+* XnView Sketch
+XnView Sketch can transform photos into sketches or cartoons. It is currently only available for Android.
+* XnView Pocket
+XnView also exists for Pocket PC (2002–2005) and for smartphones running Windows Mobile (version 5 or 6). The latest version as of 7 January 2009 is XnView Pocket 1.51.
+*  XnView Deluxe 
+XnView Deluxe was developed by Pierre-Emmanuel Gougelet for Xzeos Software. It was a commercial version that was more feature rich than the standard free XnView. On January 1., 2006, development, distribution and selling was stopped as a result of increased competition from Adobe Albums among others. The features in the XnView Deluxe were later incorporated into the XnView (free). XnView Deluxe is no longer supported.XnView • View topic - Deluxe is dead. Hourra for XnView!XnView • View topic - What is XnView DeLuxe?
+
+== Limitations ==
+
+* XnView does not support Unicode, however the author promises that in v2.0 Unicode will be supported.XnView :: Voir le sujet - Unicode Support Please Unicode support exists in XnView MP.
+
+== Reception ==
+
+XnView has received multiple awards,XnView awards including five cows from Tucows,Picks: Reviews of programs that convert graphics, work with audio files. Tucows. and Cnet.com reports that the XnView has received four out of five stars from both the editors and users.[ref]XnView 1.97.8. Cnet.com.
+[/ref]
+
+== See also ==
+
+* Comparison of image viewers
+
+== References ==
+
+== External links ==
+
+* [tpl]official website|http://www.xnview.com[/tpl] [tpl]en icon[/tpl][tpl]fr icon[/tpl][tpl]de icon[/tpl]
+* XnView Software - All Supported Formats
+* Official XnView Forum
+* Online conversion tools based on xnview
+* XnView version for PocketPC & Smartphone
+* XnView Photo Fx
+* XnConvert
+

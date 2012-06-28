@@ -1,0 +1,13 @@
+
+SmartScreen Filter extended Internet Explorer 7's phishing filter to include protection from socially engineered malware. Every website and download is checked against a local list of popular legitimate websites, if the site is not listed the entire address is sent to Microsoft for further checks.http://www.microsoft.com/windows/internet-explorer/privacy.aspx#services If it has been labeled as an impostor or harmful, Internet Explorer 8 will show a screen prompting that the site is reported harmful and shouldn't be visited. From there the user can either visit his or her homepage, visit the previous site, or continue to the unsafe page.Lawrence, Eric (July 2, 2008). "IE8 Security Part III: SmartScreen Filter". Retrieved September 2, 2008. New with SmartScreen in IE8: if a user attempts to download a file from a location reported harmful then the download is cancelled. The effectiveness of SmartScreen filtering is superior to socially engineered malware protection in other browsers "The Q3 Socially Engineered Malware Test Report". August 14, 2009.
+This feature can be disabled or enforced using Group Policy. right|300px
+
+== Hotmail SmartScreen ==
+
+== Windows 8 SmartScreen ==
+
+== Internet Explorer SmartScreen ==
+
+== References ==
+
+

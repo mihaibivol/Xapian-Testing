@@ -1,0 +1,139 @@
+
+Chamilo is an open-source (under GNU/GPL licensing) e-learning and content management system, aimed at improving access to education and knowledge globally. It is backed up by the Chamilo Association, which has goals including the promotion of the software, the maintenance of a clear communication channel and the building of a network of services providers and software contributors.
+The Chamilo project aims at ensuring the availability and quality of education at a reduced cost, through the distribution of its software free of charge,http://www.chamilo.org the improvement of its interface for 3rd world countries devices portabilityhttp://livestre.am/wKs0 and the provision of a free access public e-learning campus.http://campus.chamilo.org
+Chamilo comes in two versions. The 1.8 (or "classic") version directly builds on Dokeos. Chamilo 2 is a completely new software platform for e-learning and collaboration.
+
+==History==
+
+The Chamilo project was officially launched on the 18th of January 2010 by a considerable part of the contributing communitySee http://www.chamilo.org/en/about-chamilo#who-is-moving-to-chamilo of the (also GNU/GPL) Dokeos software, after growing discontent on the communication policy inside the Dokeos community and a series of choices that were making parts of the community insecure about the future of developments. As such, it is considered a fork of Dokeos (at least in its 1.8 series). The reaction to the fork was immediate, with more than 500 active users registering on the Chamilo forums in the first fortnight and more contributions collected in one month than in the previous whole year.
+The origins of Chamilo's code date back to 2000, with the start of the Claroline project, which was forked in 2004 to launch the Dokeos project. In 2010, it was forked again with the publication of Chamilo 1.8.6.2.
+
+==Community==
+
+Due to its educational purpose, most of the community is related to the educational or the human resources sectors. The community itself works together to offer an easy to use e-learning system.
+
+===Active community===
+
+The current (as of October 2011) active community of Chamilo is considered around 500 people. Community members are considered active when they start contributing to the project (through documentation, forum contributions, development, design).http://www.chamilo.org/forumhttp://translate.chamilo.orghttp://support.chamilo.org
+In 2009, members of the (by then Dokeos) community started working actively on the One Laptop Per Child project together with a primary school in the Salto city in Uruguay.http://www.youtube.com/watch?v=OxBLzzPt-iM One of the founding members of the Chamilo Association then registered as a contributing project for the OLPC in which his company would make efforts to ensure the portability of the platform to the XO laptop.http://wiki.laptop.org/go/Contributors_program/June_5,_2009 The effort has been, since then, continued as part of the Chamilo project.http://livestre.am/wKs0
+
+===Passive community===
+
+The community is considered passive when they use the software but do not contribute directly to it. As of October 2011, the passive community is estimated to more than 700,000 usershttp://version.chamilo.org/community.php around the world.
+
+==Chamilo Association==
+
+The Chamilo Association is a legally registered non-profit association under Belgian laws (a VZW) since June 2010. It was created to serve the general goal of improving the Chamilo project's organization and to avoid a conflict of interest between the organization controlling the software project decision process and the best interests of the community using the software. Its founding members, also its first board of directors, is composed of 7 members, of which 3 are from the private e-learning sector and 4 are from the public educational sector.
+
+==Main features of version 1 ==
+
+* courses, users and training cycles advanced management (including SOAP web services to manage remotely)
+* SCORM 1.2 compatibility and authoring tool
+* multi-institutions mode (with central management portal)
+* time-controlled exams
+* international characters (UTF-8)
+* timezones
+* automated generation of certificates
+* tracking of users progress
+* embedded social learning network
+
+==Technical details==
+
+Chamilo is developed mainly in PHP and relies on a LAMP or WAMP system on the server side. On the client side, it only requires a modern web browser (versions younger than 3 years old) and optionally requires the Flash plugin to make use of advanced features.
+
+==Interoperability==
+
+The Chamilo 1.8 series benefits from third party implementations that allows easy connexion to Joomla (through JFusion plugin), Drupal (through Drupal-Chamilo module), OpenID (secure authentication framework) and Oracle (through specific PowerBuilder implementations).
+
+==Extensions==
+
+Chamilo offers a videoconferencing system as well as a presentations to learning paths converter, which require advanced system administration skills to install.
+
+==Releases==
+
+===2012-01 - v2.1 stable===
+
+Chamilo 2.1 is the first Chamilo 2 release that has extensively been tested in a variety of production environments. It can be considered to be stable.
+Chamilo 2 is user centred and repository based. All data reside in the repository, thus doing away with data duplication to a major extent. It includes a portfolio application and access from the user's repository to external repositories such as Google Docs, YouTube, Vimeo, Slideshare and many more.
+
+===2011-08 - v1.8.8.4 stable===
+
+Although announced a bit later than its real release date, Chamilo 1.8.8.4 was released mostly as a fix version for 1.8.8.2. During the adoption period of this version, Chamilo reached 700,000 reported users. This version also considerably improved certificates generation.
+
+===2011-05 - v1.8.8.2 stable===
+
+After a slightly flawed 1.8.8 not officially released, version 1.8.8.2 was released with new features like speech to text, online audio-recording, photo edition, SVG diagrams drawer, full-text indexing, certificates generation.
+
+===2010-12 - v2.0 stable===
+
+The first version 2.0 of Chamilo. Considered to be stable software with experimental web 2.0 and 3.0 aspects expected to analyze the impact of brand new technology on education. Apart from introducing the concept of true content, object and document management, Chamilo 2.0 also focuses on integration with existing repository systems (Fedora, YouTube, Google Docs, etc.) and supports some of the most popular authentication systems (ao. LDAP, CAS, Shibboleth). Its modular and dynamic architecture provides a basis for a multitude of extensions which can be added upon installation or at a later date by means of a repository of additional functionality packages.
+
+===2010-06 - v2.0 beta===
+
+Chamilo 2.0 beta is not considered production-safe (as its name implies) but implements a series of improvements to get to a more stable and usable release.
+
+===2010-07 - v.1.8.7.1===
+
+Version 1.8.7.1, codename Palmas was launched at the end of July 2010.http://www.chamilo.org/en/news/chamilo-1.8.7.1-released It included security fixes to the wiki tool, many fixes to bugs found in 1.8.7 and a series of minor global improvements and new features.
+
+===2010-06 - v2.0 alpha===
+
+Chamilo 2.0 was originally (first plans date back to 2006 in the Dokeos Users Day in Valence, France) meant to be released as Dokeos 2.0, as a completely new backend for the LMS. The complete team of developers working on this version decided, in 2009, to move to the Chamilo project, thus leaving the Dokeos project repository with incomplete sources. Although Dokeos promised since then to release version 2.0 on the 10th of October 2010 (with a corresponding counter counting down from more than 200 days before that), it is not the total remake it was supposed to be, and it is actually expected to be equivalent in features to 1.8.6.1, mostly adding valuable visual and usability improvements.
+
+===2010-05 - v1.8.7===
+
+Version 1.8.7, codename Istanbul was launched in May 2010http://www.chamilo.org/en/chamilo-1.8.7-istanbul-released with major internationalization (language and time) improvements to the previous version, moving a first major step away from Dokeos. It also added new pedagogical tools to its previous version. This version was the first to be released officially as GNU/GPL version 3.
+
+===2010-01 - v1.8.6.2===
+
+Version 1.8.6.2 of Chamilo was originally meant to be released as Dokeos 1.8.6.2 in January 2010. Because of the community schism, it was left incomplete and continued (starting November 2009) as the Chamilo project.http://code.google.com/p/chamilo/source/detail?path=/documentation/installation_guide_es_ES.html&repo=classic&r=244eba5f7d97e293f14e26f2e2f8e81095d9871d
+
+==Statistics==
+
+The free-to-use Chamilo campus registered 100,000 users in October 2011 (15 months after its launch), for 38000 users in December 2010 (11 months after its launch).
+The Peruvian Universidad San Ignacio de Loyola reported 1700 users connected in the same 120 seconds time frame in August 2011.
+Globally, Chamilo registered 700,000 users in October 2011.http://version.chamilo.org/community.php
+
+==Worldwide adoption of Chamilo==
+
+* Currently focusing on the academic sector, with many universities and academies throughout Europe and Latin América using it,http://version.chamilo.org/community.php Chamilo is looking into the private sector market, with latest improvements oriented into the reliability of tracking learners time and efficiency.
+* Chamilo is currently backed up by a series of small to medium companies  http://www.chamilo.org/en/providers which are required to register as members of the association and contribute to the open source software to be recognized as official providers.
+* Year 2010 was focusing on spreading the software usage in Asia, with translation teams active in the translation to Simplified Chinese, between others.
+* Year 2011 was focusing on spreading the software usage in Middle-East, with a translation team active in the translation to Arabic between others.
+* Chamilo is also used in public administrations : Spanish and Peruvian ministries,http://aulavirtual.ucg.gob.pe as well as unemployment services and NGO's.
+
+==Security==
+
+The Chamilo shows a record of liaising with crackers to detect and fix security issues quickly. A page is dedicated to security issuessupport.chamilo.org/projects/chamilo-18/wiki/Security_issues and serves as a reference any time a new issue is detected.
+
+==Trademarks==
+
+Chamilo is a registered Trademark protected by the Chamilo Association, declared under Belgian law.http://www.ejustice.just.fgov.be/tsv_pdf/2010/06/30/10095530.pdf
+
+== See also ==
+
+* Learning management system
+* Online learning community
+* Chamilo project activity on Ohloh.net
+* Chamilo project activity comparison with other projects
+
+==Notes==
+
+==Other references/publications==
+
+===Professional references===
+
+# http://www.lms-selection.com/en2/?p=58
+# http://pipwerks.com/2010/01/19/not-so-crazy-about-moodle-try-chamilo/
+# http://online-journals.org/i-jac/article/view/1364
+
+===Amateur references===
+
+# http://www.e-comunia.com/blog/2010/chamilo-plataforma-e-learning-open-source/
+# http://www.cvc.edu/2010/02/online-community-building-the-unseen-cornucopia/
+# http://ojulearning.wordpress.com/2010/11/17/la-plataforma-mas-opensource-de-las-opensource-chamilo-org/
+# http://e-aprendizaje.es/2010/11/21/la-blogosfera-educativa-en-diez-articulos/
+# http://webinc.lamula.pe/2011/09/27/martes-2709-chamilo/webinc
+# http://www.rtvciplima.com/2011/07/05/marketeando-e-–-learning-ensenanza-a-distancia/
+# Review: Chamilo one of the best e-learning collaboration platforms
+

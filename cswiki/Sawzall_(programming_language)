@@ -1,0 +1,45 @@
+
+Sawzall is a procedural  domain-specific programming language, used by Google to process large numbers of individual log records. Sawzall was first described in 2003,Rob Pike, Sean Dorward, Robert Griesemer, Sean Quinlan. Interpreting the Data: Parallel Analysis with Sawzall and the szl runtime was open-sourced in August 2010. http://code.google.com/p/szl/ Sawzall's open source project at Google Code. However, since the MapReduce table aggregators have not been released, the open-sourced runtime is not useful for large-scale data analysis off-the-shelf.
+
+==Motivation==
+
+Google's server logs are stored as large collections of records (protocol buffers) that are partitioned over many disks within GFS. In order to perform calculations involving the logs, engineers can write MapReduce programs in C++ or Java. MapReduce programs need to be compiled and may be more verbose than necessary, so writing a program to analyze the logs can be time-consuming. To make it easier to write quick scripts, Rob Pike et al. developed the Sawzall language. A Sawzall script runs within the Map phase of a MapReduce and "emits" values to tables. Then the Reduce phase (which the script writer does not have to be concerned about) aggregates the tables from multiple runs into a single set of tables.
+Currently, only the language runtime (which runs a Sawzall script once over a single input) has been open-sourced, and the supporting program built on MapReduce has not been released.Discussion on which parts of Sawzall are open-source
+
+==Features==
+
+Some interesting features include:
+* A Sawzall script has a single input (a log record) and can output only by emitting to tables. The script can have no other side-effects.
+* A script can define any number of output tables. Table types include:
+** collection saves every value emitted
+** sum saves the sum of every emitted value
+** maximum(n) saves only the highest n values on a given weight.
+*In addition, there are several statistical table types that give inexact results. The higher the parameter n, the more accurate the estimates are.
+** sample(n) gives a random sample of n values from all the emitted values
+** quantile(n) calculates a cumulative probability distribution of the given numbers.
+** top(n) gives n values that are probably the most frequent of the emitted values.
+** unique(n) estimates the number of unique values emitted.
+Sawzall's design favors efficiency and engine simplicity over power:
+* Sawzall is statically typed, and the engine compiles the script to x86 before running it.
+* Sawzall supports the compound data types lists, maps, and structs. However, there are no references or pointers. All assignments and function arguments create copies. This means that recursive data structures and cycles are impossible.
+* Like C, functions can modify global variables and local variables but are not closures.
+
+==Sawzall code==
+
+This complete Sawzall program will read the input and produce three results: the number of records, the sum of the values,
+and the sum of the squares of the values.
+ count: table sum of int;
+ total: table sum of float;
+ sum_of_squares: table sum of float;
+ x: float = input;
+ emit count <- 1;
+ emit total <- x;
+ emit sum_of_squares <- x * x;
+
+==Notes==
+
+== References ==
+
+* S. Ghemawat, H. Gobioff, S.-T. Leung, The Google file system, in: 19th ACM Symposium on Operating Systems Principles, Proceedings, 17 ACM Press, 2003, pp. 29 – 43.
+* MapReduce http://www.soe.ucsc.edu/classes/cmps253/Spring07/notes/mapreduce.pdf
+

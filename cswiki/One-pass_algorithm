@@ -1,0 +1,38 @@
+
+In computing, a one-pass algorithm is one which reads its input exactly once, in order, without unbounded buffering.  A one-pass algorithm generally requires O(n) (see 'big O' notation) time and less than O(n) storage (typically O(1)), where n is the size of the input.
+Basically one-pass algorithm operates as follows:
+(1) the object descriptions are processed serially;
+(2) the first object becomes the cluster representative of the first cluster;
+(3) each subsequent object is matched against all cluster representatives existing at
+its  processing time;
+(4) a given object is assigned to one cluster (or more if overlap is allowed) according
+to  some condition on the matching function;
+(5) when an object is  assigned to a cluster the representative for that cluster is
+recomputed;
+(6) if an object fails a certain test it becomes the cluster representative of  a new
+cluster
+
+==Example problems solvable by one-pass algorithms==
+
+Given any list as an input:
+* Count the number of elements.
+* Find the nth element (or report that the list has fewer than n elements).
+* Find the nth element from the end (or report that the list has fewer than n elements).
+Given a list of numbers:
+* Find the k largest or smallest elements, k given in advance.
+* Find the sum, mean, variance and standard deviation of the elements of the list.
+Given a list of symbols from an alphabet of k symbols, given in advance.
+* Count the number of times each symbol appears in the input.
+* Find the most or least frequent elements.
+* Sort the list according to some order on the symbols (possible since the number of symbols is limited).
+* Find the maximum gap between two appearances of a given symbol.
+
+==Example problems not solvable by one-pass algorithms==
+
+Given any list as an input:
+* Find the middle element of the list.
+Given a list of numbers:
+* Find the median.
+* Find the modes (This is not the same is finding the most frequent symbol from a limited alphabet).
+* Sort the list.
+

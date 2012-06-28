@@ -1,0 +1,26 @@
+
+Foma is a free and open source finite-state toolkit created and maintained by Mans Hulden. It includes a compiler, programming language, and C library for constructing finite-state automata and transducers (FST's) for various uses, most typically Natural Language Processing uses such as morphological analysis. 
+Foma can replace the proprietary Xerox Finite State Toolkit for compiling and running FST's written in the lexc and xfst formalisms. The speed is comparable with the Xerox tools for most lexicons, although foma can be 3 or 4 times slower for very large lexicons (e.g. >100,000 words)[tpl]sfn|Hulden|2009[/tpl]. Foma is also one of the possible backends of the free and open source Helsinki Finite State Toolkit (where other backends provide support for further formalisms). 
+There are several FOSS morphologies written in lexc/xfst compatible with foma, e.g. for the Sámi languages, Cornish, Faroese, Finnish, Komi, Mari, Udmurt, Buriat, Greenlandic and Iñupiaq.http://giellatekno.uit.no/english.html
+
+==See also==
+
+* HFST - The Helsinki Finite State Toolkit
+* SFST - The Stuttgart Finite State Toolkit (an HFST backend)
+* OpenFST (an HFST backend supporting weighted FST's)
+* lttoolbox
+* XFST - The Xerox Finite State Toolkit
+
+==External links==
+
+* http://foma.googlecode.com/ - official homepage
+* http://wiki.apertium.org/wiki/Foma - foma information on the Apertium wiki
+* http://www.ling.helsinki.fi/kieliteknologia/tutkimus/hfst/ - HFST home page
+
+==Notes==
+
+==References==
+
+*
+
+

@@ -1,0 +1,94 @@
+
+Web-Based Enterprise Management (WBEM) is a set of systems management technologies developed to unify the management of distributed computing environments. WBEM is based on Internet standards and Distributed Management Task Force (DMTF) open standards: Common Information Model (CIM) infrastructure and schema, CIM-XML, CIM operations over HTTP, and WS-Management. Although the name refers to WBEM as being "Web-Based", it is not necessarily tied in any way to a particular user interface (see below). Other systems management approaches are remote shells, proprietary solutions and network management architectures like SNMP.
+
+==Features==
+
+Key features of WBEM technology include:
+* remote management of applications
+* management of several instances of an application as a single unit
+* standard interface for remote application management across different applications
+* decoupling of application management from the client
+* "publishing" of key information about an application to other applications
+
+==Architecture==
+
+To understand the WBEM architecture, consider the components which lie between the operator trying to manage a device (configure it, turn it off and on, collect alarms, etc.) and the actual hardware and software of the device:
+# the operator will presumably be presented with some form of graphical user interface (GUI), Browser User Interface (BUI), or command line interface (CLI). The WBEM standard really has nothing to say about this interface (although a CLI for specific applications is being defined): in fact it is one of the strengths of WBEM that it is independent of the human interface since human interfaces can be changed without the rest of the system needing to be aware of the changes.
+# the GUI, BUI or CLI will interface with a WBEM client through a small set of application programming interfaces (API). This client will find the WBEM server for the device being managed (typically on the device itself) and construct an XML message with the request.
+# the client will use the HTTP (or HTTPS) protocol to pass the request, encoding in CIM-XML, to the WBEM server
+# the WBEM server will decode the incoming request, perform the necessary authentication and authorization checks and then consult the previously-created model of the device being managed to see how the request should be handled. This model is what makes the architecture so powerful: it represents the pivot point of the transaction with the client simply interacting with the model and the model interacting with the real hardware or software. The model is written using the Common Information Model standard and the DMTF has published many models for commonly-managed devices and services: IP routers, storage servers, desktop computers, etc.
+# for most operations, the WBEM server determines from the model that it needs to communicate with the actual hardware or software. This is handled by so-called "providers": small pieces of code which interface between the WBEM server (using a standardised interface known as CMPI) and the real hardware or software. Because the interface is well-defined and the number of types of call is small, it is normally easy to write providers. In particular, the provider writer knows nothing of the GUI, BUI, or CLI being used by the operator.
+
+==WBEM specifications==
+
+*Mappings
+**URI (WBEM URI Mapping Specification 1.0)
+**XML (Representation of CIM using XML 1.2; CIM DTD 1.2)
+**XML Schema (under development)
+*Protocols
+**CIM-XML (CIM Operations over HTTP 1.2)
+**CLP (Command Line Protocol 1.0)
+**WSDM (under development)
+**WS-Management (under development)
+*Discovery
+**SLP (WBEM Discovery using SLP; SLP Template)
+*Query Language
+**CQL (CIM Query Language 1.0)
+
+==Implementing support==
+
+So, which pieces of this does a device manufacturer or service provider have to write? 
+* Firstly the model.
+:This is normally done by extending as necessary one of the standard models published by the DMTF. 
+* Then the BUI, GUI, or CLI. 
+:The client and server usually do not need to be written because there are many open-source and commercial implementations available (see External links below)
+* Then the providers
+:In summary, the WBEM architecture allows the manufacturer of a device or developer of a service to provide a standards-compliant management interface to that device simply and cheaply.
+
+== Implementations ==
+
+=== WBEM in operating systems ===
+
+* Apple Inc. uses an implementation of WBEM in its Apple Remote Desktop management tool, and Mac OS X clients ship with support for Remote Management. 
+* Hewlett Packard has included WBEM Services CORE Product in the HP-UX operating system (with all operating environments) since version 11iv1
+* IBM ships support in z/OS and AIX.
+* Microsoft has developed the WMI technology and has included it in Microsoft Windows
+* Novell has adopted the OpenWBEM open source implementation of WBEM and includes it in SUSE Linux Enterprise Server
+* Red Hat ships OpenPegasus as part of Red Hat Enterprise Linux
+* Oracle has WBEM-Services for the Solaris operating environment: Solaris WBEM Developer's Guide
+* Ubuntu ships with an updated CIM instrumentation stack, powered by the latest version of the lightweight CIMOM, SBLIM SFCB.
+
+=== WBEM implementations ===
+
+* WBEM Solutions
+* Open Pegasus, open-source client and server written in C++
+* OpenWBEM, open-source client and server written in C++
+* WBEM Services, Java
+* SBLIM (pronounced "sublime") Standards Based Linux Instrumentation for Manageability, C, C++, Java
+* PyWBEM, open-source WBEM library written in Python
+* Purgos, open-source management client for Windows written C++ (Product now discontinued and has reached End Of Life)
+
+==See also==
+
+* SMI-S, Storage Management Initiative - Specification.  Based on WBEM, used for SAN devices
+
+==External links==
+
+*Standards
+**Official WBEM page at DMTF (Distributed Management Task Force), including standards documents
+**DMTF FAQ on WBEM
+*Implementations
+**OpenPegasus
+**OpenWBEM (No Longer Active)
+**SBLIM
+**WBEM Services (No Longer Active)
+**Purgos
+**PyWBEM
+**C WBEM Server
+**J WBEM Server
+**Small Footprint CIM Broker
+*Other Resources
+**NetworkWorld article on "From software to services - making management work"
+**Novell Overview of WBEM and CIM
+**WBEM Source Initiative
+

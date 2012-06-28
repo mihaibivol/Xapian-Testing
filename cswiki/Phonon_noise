@@ -1,0 +1,9 @@
+
+Although Johnson–Nyquist noise shares many similarities with phonon noise (e.g. the noise spectral density depends on the temperature and is white at low frequencies), these two noise sources are distinct. Johnson-Nyquist noise arises from the random thermal motion of electrons, whereas phonon noise arises from the random exchange of phonons. Johnson-Nyquist noise is easily modeled at thermal equilibrium, where all components of the circuit are held at the same temperature. A general equilibrium model for phonon noise is usually impossible because different components of the thermal circuit are nonuniform in temperature and also often not time invariant, as in the occasional energy deposition from particles incident on a detector. The transition edge sensor typically maintains the temperature through negative electrothermal feedback associated with changes in internal electrical power.
+An approximate formula for the noise-equivalent power (NEP) due to phonon noise in a bolometer when all components are very close to a temperature T is
+where C is the heat capacity.S.H. Moseley, J.C. Mather and D. McCammon (1984). "Thermal detectors as x-ray spectrometers". J. Appl. Phys. (56): 1257–1262 [tpl]doi|10.1063/1.334129[/tpl].
+A real bolometer or calorimeter is not at equilibrium because of a temperature gradient between the absorber and the bath. Since G and C are generally nonlinear functions of temperature, a more advanced model may include the temperature of both the absorber and the bath and treat G or C as a power law across this temperature range.
+
+==References==
+
+

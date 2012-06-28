@@ -1,0 +1,26 @@
+
+SiSU ("SiSU information Structuring Universe" or "Structured information, Serialized Units"),also chosen for the meaning of the Finnish term "sisu". is a Unix command line-oriented framework for document structuring, publishing and search.  
+
+==Usage==
+
+Using markup applied to a document, or a collection of documents,  SiSU can produce plain text, HTML, XHTML, EPUB, XML, OpenDocument, LaTeX or PDF files, and populate an SQL database.
+Document structuring
+SiSU offers its user a way to structure plain text and to add graphics, hyperlinks, endnotes, footnotes etc. with simple text editing programs such as Notepad (Windows), TextEdit (Mac) or Gedit (GNU/Linux). The markup language is mnemonic and human readable.   
+To process the marked up document(s) with SiSU, the user issues a command via the command-line of the computer terminal. The output can be generated in multiple formats (html, pdf, epub, and others) with one single command.  
+Publishing and self-publishing
+A document, or a collection of documents, which has been processed by SiSU is technically ready to be published on the web, or printed on paper. Canadian author Cory Doctorow, for instance, has used SiSU as a publishing tool and blogged about it.[tpl]cite web|url=http://craphound.com/walh/e-book/browse-all-versions|title=Doctorow: Browse all versions|date=2010-10-03|accessdate=2011-08-11|work= With a Little Help[/tpl] In a newspaper article, Doctorow called SiSU an "automated ebook workflow tool".[tpl]cite news|url=http://www.guardian.co.uk/technology/blog/2010/dec/17/internet-problem-choice-self-publishing|title=The Internet Problem: when an abundance of choice becomes an issue|last=Doctorow|first=Cory|date=2010-12-17|accessdate=2011-08-11|location=London|work=The Guardian[/tpl] Guardian (London) 17 December, 2010. 
+Earlier examples of webpublishing with SiSU are Projet de traité instituant l'Union Européenne / Draft Treaty Establishing the European Union[tpl]cite web|url=http://www.spinellisfootsteps.info|title=|date=2005-11-28|title=Spinelli's Footsteps|accessdate=2011-08-11[/tpl] and the novel Tainaron by Finnish author Leena Krohn.http://www.kaapeli.fi/krohn/tainaron/english/3/leena_krohn/tainaron.leena_krohn.1998/ . This example was created with SiSU in February 1999. Accessed 2011-08-11.
+Search
+SiSU can populate an SQL database with objects(equating generally to paragraph-sized chunks) so searches may be performed and matches returned with that degree of granularity (e.g. your search criteria are met by these documents and at these locations within each document). Document output formats share a common object numbering system for locating content. This is particularly suitable for "published" works (finalized texts as opposed to works that are frequently changed or updated) for which it provides a fixed means of reference of content.
+
+==History==
+
+SiSU has been under development since 1997, and written in Ruby since 2000. It was released under the GPL in January 2005. SiSU developed out of work done on a project started earlier on documents related to (primarily private) international commercial law and international trade law started in 1993 on a site known then as Ananse, and more recently as LexMercatoria
+SiSU version 1 was released December 2009. SiSU version 2 was released March 2010. Version 2 features a new processing engine. Markup remains substantially identical between versions, apart from changes to the markup for document headers (which contain document metadata and processing instructions). Both version 1 and 2 text processing engines are available in the version 2 tarball. Development takes place on the version 2 branch. Version 1 is available to guarantee compatibility with older prepared texts (prior to the updating of document headers), and as an earlier reference implementation.
+
+==Notes and references==
+
+==External links==
+
+*SiSU homepage
+

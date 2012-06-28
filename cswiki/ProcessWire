@@ -1,0 +1,70 @@
+
+ProcessWire is an open source content management framework (CMF) and content management system (CMS) written in the PHP (5.2+) programming language. It is distributed under the GNU General Public License. ProcessWire is built around an API loosely inspired by syntax used in the Javascript framework jQuery.[tpl]cite web | title = Article from CMSWire on ProcessWire| url = http://www.cmswire.com/cms/web-cms/processwire-aims-to-simplify-web-cms-010259.php[/tpl] The goal behind the API is to provide the level of accessibility and control to a site's page content that jQuery provides to the DOM.[tpl]cite web | title = The concept behind the API| url = http://processwire.com/api/concept/[/tpl] 
+While originally developed purely as a CMF[tpl]cite web | title = Post by author describing origins as a CMF| url = http://processwire.com/talk/topic/818-currentformer-textpattern-users-what-do-you-think-txp5-using-pw/pagefindpost6990[/tpl], ProcessWire is currently distributed as a combined CMF and CMS, with the CMS portion providing an administrative control panel for web-based management of content. 
+ProcessWire focuses on being markup agnostic, leaving output to the user. In this manner, the framework is intended to provide flexibility for output in web sites, web services and related applications. The goal was to let the individual site drive the direction of the output, rather than tailor a site around existing generated CMF/CMS output. [tpl]cite web | title = Video of Ryan Cramer speaking about ProcessWire being markup agnostic and the goals behind it | url = http://www.youtube.com/watch?v=Wl4XiYadV_k[/tpl]
+
+==Features==
+
+* jQuery inspired API
+* Graphical web-based installer
+* Rich text editor (using TinyMCE)
+* All fields are custom fields and are indexed for fast searches
+* Can be bootstrapped from other PHP applications or command line scripts[tpl]cite web | title = Overview of the bootstrap system| url = http://processwire.com/api/include/[/tpl] 
+* Both interactive and API-based image manipulation functions
+* Drag-and-drop tree-based page list 
+* Drag-and-drop file and image uploads
+* PHP5 object-oriented code
+* Built-in pagination
+* Search engine friendly URLs
+* Selectors in the API for finding pages by field value
+* Role-based access control
+* Template-level and custom markup-level caching
+* Hierarchical URLs
+* Markup agnostic output
+* Multi-language support
+* Modular plugin architecture
+* Fieldtypes are plugin modules
+* Extensive hook system covering most core functions
+* User profiles are configurable templates
+* Support for larger scale (10k+ page) installations
+* Google Maps and Google Calendar integration modules
+* RSS publishing and loading modules
+* Templates are PHP-based
+* Fields and groups of fields are repeatable (using the Repeater fieldtype)
+
+==History==
+
+ProcessWire has been developed by Ryan Cramer since 2003. From 2003 to 2007 it was developed under the name Dictator CMS.[tpl]cite web | title = Timeline cited from Dictator| url = http://www.dictatorcms.com/about[/tpl][tpl]cite web | title = ProcessWire Background/History| url = http://processwire.com/about/background/[/tpl] From 2007–2010 it was developed as ProcessWire 1.x[tpl]cite web | title = ProcessWire 1.x| url = http://www.ryancramer.com/journal/entries/processwire/[/tpl], and from 2010 to now, it has been developed as ProcessWire 2.x. 
+While similar to past versions, ProcessWire 2.x was built from scratch purely as an open source content management framework. The admin control panel was later added on as an application built in the framework, and now serves as ProcessWire CMS. 
+Prior to version 2.x, ProcessWire was closed-source. All past versions of ProcessWire are architecturally similar in look and use, though Dictator CMS (2003) lacked the API that is one of the most notable features in ProcessWire 1.x and 2.x. [tpl]cite web | title = Post that introduces ProcessWire's API (1.x)| url = http://www.ryancramer.com/journal/entries/processwire/[/tpl]
+In 2008, a small portion of ProcessWire 1.x was released as a jQuery plugin called [tpl]cite web | title = asmSelect| url = http://code.google.com/p/jquery-asmselect/[/tpl]asmSelect. This plugin was the basis for multi-page reference selection in ProcessWire 1.x and has since been adopted by other CMS platforms (notably as a Drupal CCK node reference module[tpl]cite web | title = CCK Node Reference ASM Select| url = http://drupal.org/project/nodereference_asmselect[/tpl]). 
+The first open source release of ProcessWire was version 2.0, released in October, 2010.[tpl]cite web | title = Entry announcing ProcessWire 2| url = http://www.ryancramer.com/journal/entries/introducing_processwire_v2/[/tpl] The second open source release, ProcessWire 2.1, was released in October 2011 and marked the first collaborative effort as other developers contributed to it. Most notable was Antti Peisa's work with the AJAX file uploading capabilities.[tpl]cite web | title = Video demonstrating drag-drop file uploads and copy references Antti Peisa| url = http://processwire.com/videos/ajax-file-uploads/[/tpl] Version 2.2, released in January, 2012, brought multi-language support to ProcessWire and was the first version with corporate sponsorship (by a Finnish web company called Avoine).[tpl]cite web | title = Post citing release of ProcessWire 2.2| url = http://processwire.com/talk/topic/853-processwire-22-soft-launch/[/tpl] 
+
+==Architecture==
+
+ProcessWire is built around a page content tree (as opposed to a bucket system). The URL or path of each page is always reflective of its place in the hierarchy. One uses this same path to reference the page in the API. As a result, this connection of the path to the internal tree hierarchy is important to the architecture of ProcessWire. [tpl]cite web | title = Comments below the post include discussion from Ryan Cramer on the importance of the content tree| url = http://gadgetopia.com/post/7242[/tpl] Beyond the parent-child relationship implied by a content tree, ProcessWire supports relational one-to-one and one-to-many references between pages in the tree. [tpl]cite web | title = Video demonstrating relational references in ProcessWire 1.x| url = http://www.youtube.com/watch?v=v8hho6m_FlU[/tpl]
+
+=== Template System ===
+
+Templates in ProcessWire represent a data type, group settings and a PHP controller file. Every page in ProcessWire is assigned to a template, and a template may be shared among multiple pages. The template is used as a data type and contains the definition of fields used by the pages assigned to it. It is also the source of access control, caching and other settings shared among pages.
+Every template has an associated PHP file, referred to as the template-file. This file handles the behavior for any pages assigned to the template. The template-file is provided with several API variables that may be used in generating this behavior. The most notable is the $page API variable, which contains all the data (dereferenced by field name) of the current page being viewed. [tpl]cite web | title = Discussion of the $page API variable| url = http://processwire.com/api/variables/page/[/tpl]
+Template-files serve multiple contexts, depending on the application. ProcessWire's default web site profile uses template-files primarily for output of direct and dynamically generated HTML markup. Template-files may also be used as intermediate controllers between the model and a separate view. Because template-files are regular PHP files, they are able to call upon other web services or PHP applications where appropriate, without a separate parsing layer. 
+
+=== Fields ===
+
+All fields in ProcessWire are custom fields defined by the user. A given field may be assigned to multiple templates, which in turn hold individual chunks of data for each page using that template. Every field has a type, referred to as the fieldtype (1 word), a type of plugin module. ProcessWire includes several fieldtypes including those that support text, numbers, files, images, page references, URLs, email addresses, dates and comments. Additional fieldtypes are available as 3rd party modules. 
+
+==Requirements==
+
+* A Unix or Windows-based web server running Apache.
+* PHP version 5.2.4 or greater. 
+* MySQL 5.0.15 or greater.
+* Apache must have mod_rewrite enabled and support .htaccess files.
+
+==External Links==
+
+* ProcessWire official web site
+
+==References==
+
+

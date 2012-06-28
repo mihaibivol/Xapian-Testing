@@ -1,0 +1,19 @@
+
+The Hilltop algorithm is an algorithm used to find documents relevant to a particular keyword topic. Created by Krishna Bharat while he was at Compaq Systems Research Center and George A. Mihăilă, then at the University of Toronto, it was acquired by Google in February 2003. Whenever you enter a query or keyword in Search engine hilltop algorithm helps to find relevant keywords matched results. Which are more informative about the query or keyword. 
+The algorithm operates on a special index of expert documents.  These are  pages that are about a specific topic and have links to many non-affiliated pages on that topic. Pages are defined as non-affiliated if they are authored by people from non-affiliated organizations. Results are ranked based on the match between the query and relevant descriptive text for hyperlinks on expert pages pointing to a given result page. Websites which have backlinks from many of the best expert pages are authorities and are ranked well.
+Basically, it looks at the relationship between the "Expert" and "Authority" pages. An "Expert" is a page that links to lots of other relevant documents. An "Authority" is a page that has links pointing to it from the "Expert" pages. Here they mean pages about a specific topic and having links to many non-affiliated pages on that topic. Pages are defined as non-affiliated if they are authored by authors from non-affiliated organizations. So, if your website has backlinks from many of the best expert pages it will be an "Authority".
+In theory, Google finds "Expert" pages and then the pages that they link to would rank well. Pages on sites like Yahoo!, DMOZ, college sites and library sites can be considered experts.
+
+==See also==
+
+* PageRank
+* TrustRank
+* HITS algorithm
+
+== External links ==
+
+* Hilltop: A Search Engine based on Expert Documents by K. Bharat and G.A. Mihaila
+** At archive.org: http://web.archive.org/web/20070401224626/http://www.cs.toronto.edu/~georgem/hilltop/
+** When Experts Agree: Using Non-Affiliated Experts to Rank Popular Topics by K. Bharat and G. A. Mihaila is substantially the same, but under a different title.
+* The Hilltop algorithm
+

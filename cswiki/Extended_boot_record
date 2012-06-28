@@ -1,0 +1,83 @@
+
+An extended boot record (EBR), or extended partition boot record (EPBR), is a descriptor for a logical partition under the common DOS disk drive partitioning system. In that system, when one (and only one) partition record entry in the master boot record (MBR) is designated an extended partition, then that partition can be subdivided into a number of logical partitions. The actual structure of that extended partition is described by one or more EBRs, which are located inside the extended partition. The first (and sometimes only) EBR will always be located on the very first sector of the extended partition.
+Unlike primary partitions, which are all described by a single partition table within the MBR, and thus limited in number, each EBR precedes the logical partition it describes. If another logical partition follows, then the first EBR will contain an entry pointing to the next EBR; thus, multiple EBRs form a linked list. This means the number of logical drives that can be formed within an extended partition is limited only by the amount of available disk space in the given extended partition.
+
+== EBR structure and values ==
+
+EBRs have essentially the same structure as the MBR; except only the first two entries of the partition table are supposed to be used, besides having the mandatory boot record signature (or magic number) of 0xAA55 at the end of the sector.  This 2-byte signature appears in a disk editor as 55h first and AAh last, because IBM-compatible PCs store hexadecimal words in little-endian order (see table below).
+
+=== Structures ===
+
+The IBM Boot Manager (included with OS/2 operating systems and some early versions of Partition Magic), adds at least one 9-byte entry (starting at offset 0x18A) to each EBR sector. The entry consists of a flag value byte (indicating if the partition is on the IBM Boot Manager menu) followed by an 8-byte ASCII string which is the name to be used on the menu. If the partition is not included on the boot menu (such as data only partitions), the flag byte is zero; in which case, the following 8-byte field may contain an ASCII representation of that partition's starting sector number (in hexadecimal).
+The partition type of an extended partition is 0x05 (CHS addressing) or 0x0F (LBA addressing). Linux supports the concept of a second extended partition chain with type 0x85 — this type is hidden (unknown) for other operating systems supporting only one chain.
+The CHS addresses of a partition are hard to interpret without knowledge of the (virtual) disk geometry, because CHS to LBA translations are based on the number of heads and the number of sectors per track. However, the given LBA start address and the given partition size in sectors permit to calculate a disk geometry matching the given CHS addresses where that is at all possible. CHS addressing with 24 bits always uses 6 bits for up to 63 sectors per track (1…63), and INT 13h disk access generally uses 8 bits for up to 256 heads (0…255), leaving 10 bits for up to 1024 cylinders (0…1023). ATA CHS addresses always use 4 bits for up to 16 heads (0…15), this leaves 14 bits for up to 16383 cylinders (16383+1=2**14) in ATA-5 24 bits CHS address translations. 
+:[tpl]see|cylinder-head-sector[/tpl]
+
+=== Values ===
+
+The following are general rules that apply only to values found in the 4-byte fields of an EBR's partition table entries (cf. tables above). These values depend upon the partitioning tool(s) used to create or alter them, and in fact, most operating systems that use the extended partitioning scheme (including Microsoft MS-DOS and Windows, and Linux) ignore the "partition size" value in entries which point to another EBR sector. One exception is that value must be one or greater for Linux operating systems.
+The first entry of an EBR partition table points to the logical partition belonging to that EBR:
+:*Starting sector = relative offset between this EBR sector and the first sector of the logical partition
+::Note: This is often the same value for each EBR on the same hard disk; usually 63 for Windows XP or older.
+:*Number of sectors = total count of sectors for this logical partition
+::Note: Any unused sectors between EBR and logical drive are not considered part of the logical drive.
+The second entry of an EBR partition table will contain zero-bytes if it's the last EBR in the extended partition; otherwise, it points to the next EBR in the EBR chain.
+:*Starting sector = relative address of next EBR within extended partition
+::in other words: Starting sector = LBA address of next EBR ''minus'' LBA address of extended partition's ''first'' EBR
+:*Number of sectors = total count of sectors for next logical partition, but count starts from the next EBR sector
+::Note: Unlike the first entry in an EBR's partition table, this number of sectors count includes the next logical partition's EBR sector along with the other sectors in its otherwise unused track. (Compare Diagram 1 and 2 below.)
+Remarks: First, the diagrams above are not to scale: The thin white lines between each "EBR" and its logical "partition" represent the remainder of an unused area usually 63 sectors in length; including the single EBR sector (shown at a greatly exaggerated size).
+Also, on some systems, a large gap of unused space may exist between the end of a logical partition and the next EBR, or between the last logical partition and the end of the whole extended partition itself, if any previously created logical partition has been deleted or resized (shrunk).
+
+=== Naming ===
+
+Linux and similar operating systems designate IDE hard disks as /dev/hda for the first hard disk, /dev/hdb for the second hard disk, and so on. Likewise SCSI hard disks are identified as /dev/sda for the first SCSI disk, etc. 
+The up to four partitions defined in the master boot record are designated as /dev/hda1 … /dev/hda4 for /dev/hda. The fifth partition in this scheme, e.g., /dev/hda5, corresponds to the first logical drive. The sixth partition /dev/hda6 would then correspond to the second logical drive, or in other words, the extended partition containers are not counted. Only the outermost extended partition defined in the MBR (one of /dev/hda1 … /dev/hda4) has a name in this scheme.
+:[tpl]see|Device_file#Naming_conventions[/tpl]
+
+== Examples ==
+
+This shows an extended partition with 6,000 sectors and 3 logical partitions. Remark: Neither a tiny extended partition with only 3 MB nor a hard drive with 20 sectors per track are realistic but these values have been chosen to make this example more readable.
+
+=== Snapshot ===
+
+The following output of a command line tool shows the layout of a disk with two logical drives. Details for the FAT and NTFS partitions stripped, the line annotated with Linux is /dev/hda6 with an extended file system. The begin of /dev/hda5 shows that the involved operating systems PC DOS 7, Windows NT, and Debian do not insist on any extended partition alignment with a gap:  \\.\PHYSICALDRIVE0 (assuming geometry CHS 99999 255 63)  id. [3189-3188]
+   MBR CHS     0   0  1 at          0, end     0   0  1, size          1
+unused CHS     0   0  2 at          1, end     0   0 63, size         62
+1:*06: CHS     0   1  1 at         63, end   260 254 63, size    4192902 bigFAT
+2: 05: CHS   261   0  1 at    4192965, end   757 254 63, size    7984305 => EXT
+3: 17: CHS   758   0  1 at   12177270, end  1522 254 63, size   12289725 NTFS
+4: 1C: CHS  1523   0  1 at   24466995, end  1825 254 63, size    4867695 FAT32
+          (extended offset    4192965)                  total   29334690
+=> EXT CHS   261   0  1 at          0, end   261   0  1, size          1
+5: 06: CHS   261   0  2 at          1, end   384 254 63, size    1992059 bigFAT
+6: 05: CHS   385   0  1 at    1992060, end   757 254 63, size    5992245 => EXT
+          (extended offset    6185025)                  total    7984305
+=> EXT CHS   385   0  1 at          0, end   385   0  1, size          1
+unused CHS   385   0  2 at          1, end   385   0 63, size         62
+6: 83: CHS   385   1  1 at         63, end   757 254 63, size    5992182 Linux
+7: 00: CHS     0   0  0 at          0, end     0   0  0, size          0 unused
+                                                        total    5992245
+bigFAT CHS     0   1  1 at         63, end   260 254 63, size    4192902
+PC DOS 7    (cluster size  64, number      65506)       total    4192902
+  NTFS CHS   758   0  1 at   12177270, end  1522 254 63, size   12289725
+1C81-013D (cluster size   8, number    1536215)       total   12289725
+ FAT32 CHS  1523   0  1 at   24466995, end  1825 254 63, size    4867695
+C417-9E22 (cluster size   8, number     607271)       total    4867695
+bigFAT CHS   261   0  2 at    4192966, end   384 254 63, size    1992059
+FAT SWAP    (cluster size  32, number      62236)       total    1992059
+For another example see the "Linux Partition HOWTO".
+
+== Footnotes ==
+
+== See also ==
+
+* Master Boot Record
+* Disk editor
+* Disk partitioning
+* Logical Block Addressing
+* BSD disklabel
+
+== References ==
+
+

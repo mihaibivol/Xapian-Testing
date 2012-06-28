@@ -1,0 +1,12 @@
+
+PICMG 2.15 is a specification by PICMG that defines specialized telecom interfaces for PMC cards.  Later, PICMG 2.15 was revised via ECN001 to add enhanced TDM capacities by extending the TDM (H.110) bandwidth and adding Ethernet links.
+
+==Status==
+
+Adopted : 4/11/2001
+Current Revision : 1.0
+ECN001 was adopted 1/22/2003.
+
+==References==
+
+

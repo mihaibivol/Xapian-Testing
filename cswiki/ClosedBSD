@@ -1,0 +1,10 @@
+
+ClosedBSD was a derivative of FreeBSD aimed at providing firewall and Network Address Translation services, written by Joshua Bergeron.  ClosedBSD aimed to be small in size, available as a floppy disk image at 1.4MB and as a CD-ROM ISO image at 12.8MB. Despite its small size, the software included a fully functional ncurses-based interface. 
+One of the advantages of ClosedBSD was the ability to run directly off a floppy disk or a CD-ROM, with no hard drive needed. It could also run on relatively old hardware; the diskette version needing a x86-based computer with 8MB of RAM, while the CD-ROM version needs 32MB of RAM.
+The latest released versions were 1.0B for the floppy and 1.0-RC1 for the CD.
+ClosedBSD was freeware, in that it is released at no cost.  Only the binaries (the executable programs) were released, not the source code. The binaries were distributed under the terms of the BSD License, which is a free software license, but ClosedBSD was not open source software because the source code was not available.
+
+== See also ==
+
+* Comparison of BSD operating systems
+

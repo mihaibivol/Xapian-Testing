@@ -1,0 +1,75 @@
+
+thumb|right|2012 logoThe Google Summer of Code (GSoC) is an annual program, first held from May to August 2005, in which Google awards stipends (of 5000 USD, [tpl]As of|2011|lc=t[/tpl])Summer of Code 2010 FAQ Payments, Forms and Other Administrivia to hundreds of students who successfully complete a requested free and open-source software coding project during the summer. The program is open to students aged 18 or over – the closely related Google Highly Open Participation Contest is intended for students under the age of 18.
+The event draws its name from the 1967 Summer of Love (of the Sixties counterculture), and the idea for the SoC came directly from Google's founders, Sergey Brin and Larry Page.[ref]
+  "Google's Summer of Code concludes" (first year),
+  Bruce Byfield, September, 2005, webpage:
+  [http://www.linux.com/articles/48232 Linux-article-SOC-32].
+[/ref] From 2007 until 2009 Leslie Hawthorn, who has been involved in the project since 2006, was the program manager.Guidelines for Google Summer of CodeTM Press Materials 2009  In 2010, Carol Smith took over management of the program.[tpl]cite web|url=http://socghop.appspot.com/document/show/gsoc_program/google/gsoc2010/press|title=Guidelines for Google Summer of CodeTM Press Materials 2010[/tpl]
+
+== Overview ==
+
+The program invites students who meet their eligibility criteria to post applications that detail the software-coding project they wish to perform. These applications are then evaluated by the corresponding mentoring organization. Every participating organization must provide mentors for each of the project ideas received, if the organization is of the opinion that the project would benefit from them. The mentors then rank the applications and decide among themselves which proposals to accept. Google then decides how many projects each organization gets, and asks the organizations to mark at most that many projects accordingly.
+In the event of a single student being marked in more than one organization, Google mediates between all the involved organizations and decides who "gets" that student. The other mentoring organization then unmarks the student and marks a new proposal for acceptance, or gives their slot back to the pool, after which it is redistributed.
+Google has published the overall Top 10 schools for the period 2005-2012. The list is as follows.
+
+== History ==
+
+=== 2005 ===
+
+In 2005, more than 8,740 project proposals were submitted for the 200 available student positions. Due to the overwhelming response, Google expanded the program to 419 positions.
+The mentoring organizations were responsible for reviewing and selecting proposals, and then providing guidance to those students to help them complete their proposal.  Students that successfully completed their proposal to the satisfaction of their mentoring organization were awarded $4500 and a Google Summer of Code T-shirt, while $500 per project was sent to the mentoring organization. Approximately 80% of the projects were successfully completed in 2005, although completion rates varied by organization: Ubuntu, for example, reported a completion rate of only 64%, and KDE reported a 67% completion rate. Many projects were continued past summer, even though the SOC period was over, and some changed direction as they developed.
+For the first Summer of Code, Google was criticized for not giving sufficient time to open source organizations so they could plan projects for the Summer of Code. Despite these criticisms there were 41 organizations involved, including FreeBSD, Apache, KDE, Ubuntu, Blender, Mozdev, and Google itself.
+According to a blog post by Chris DiBona, Google's open source program manager, "something like 30 percent of the students stuck with their groups past SoC of Code." Mozilla developer Gervase Markham also commented that none of the 10 Google-sponsored Mozilla projects survived after the event.Was Google's Summer of Code a Boon or Bust? However, the Gaim (now Pidgin) project was able to enlist enough coding support through the event to include the changes into Gaim (now Pidgin) 2.0; the Jabber Software Foundation (now XMPP Standards Foundation) and KDE project also counted a few surviving projects of their own from the event (KDE only counted 1 continuing project from out of the 24 projects which it sponsored).
+
+=== 2006 ===
+
+In 2006, around 6000 applications were submitted, less than the previous year because all applicants were required to have Google Accounts, thereby reducing the number of spam applications received. Google and most mentors are also of the opinion that the proposals were of much higher quality than 2005's applications. Also, the number of participating organizations more than doubled to 102. In addition to the organizations that participated in 2005, organizations such as Debian, GNU, Gentoo, Adium and PHP participated in 2006. Google had decided to sponsor around 600 projects.
+The student application deadline was extended until 2006-05-09, at 11:00 PDT. Although the results were to be declared by 5:00 PM PDT, there was considerable delay in publishing it as Google had not expected several students to be selected in more than one organization. Google allows one student to undertake only one project as part of the program. It took Google several hours to resolve the duplicate acceptances. The acceptance letters were sent out on May 24, at 3:13 AM PDT, but the letters were also sent out to some 1,600 applicants who had in fact, not been accepted by Google's SoC committee. At 3:38 AM PDT, Chris DiBona posted an apology to the official mailing list, adding that "We're very deeply sorry for this. If you received two e-mails, one that said you were accepted and one that you were not, this means you were not."
+Google has released a final list of projects accepted into the program on the SoC website. The proposals themselves were visible to the public for a few hours, after which they were taken down in response to complaints by the participants about the "sensitive and private" information that their applications contained.  However, Google has since resolved these issues by allowing each student involved in Summer of Code to provide a brief abstract message that is publicly viewable and completely separate from the content of the actual proposal that was submitted to Google.
+The Summer of Code 2006 ended on 2006-09-08. According to Google, 82% of the students received a positive evaluation at the end of the program.
+
+=== 2007 ===
+
+In 2007, Google accepted 131 organizationsSlashdot | Summer of Code Student Applications Now Open and over 900 students. Those 131 organizations had a total of nearly 1500 mentors.Google Code – Summer of Code – Google Summer of Code
+Students were allowed to submit up to 20 applicationsGoogle Code FAQ – Can a student submit more than one application? although only one could be accepted. Google received nearly 6,200 applications.
+To allow more students to apply, Google extended the application deadline from March 24 to March 26Slashdot | Summer of Code Student Application Deadline Looms at the last minute. It was then extended again to March 27.Google Summer of Code Announce: Student Application Deadline Extended to 16:00 UTC March 27, 2007
+On April 11, the acceptance letters were delayed due to additional efforts involved in resolving duplicate submissions. At one point, the web interface changed each application to have a status of Not Selected. Google officials reported that only the acceptance email was the definitive indication of acceptance.[tpl]Citation needed|date=April 2009[/tpl]
+
+=== 2008 ===
+
+In 2008, Google chose 174 open source organizations to participate in Summer of Code, greatly increased from 131 the year before and 102 in 2006. Each organization was chosen based on a number of criteria, such as the virtue of the projects, the ideas given for students to work on, and the ability of the mentors to ensure students successfully completed projects.
+Nearly 7100 proposals were received for the 2008 Summer of Code, of which 1125 were selected.
+The university results were announced on May 8, 2008 at Google's "Open Source at Google" blog.[tpl]vcite web |url=http://google-opensource.blogspot.com/2008/05/this-weeks-top-10s-universities-for.html|title=Top 10 Universities for Google Summer of Code 2008|year=2008[/tpl] According to it, University of Moratuwa came first in both "Top 10 Universities of 2008 GSoC applicants" and "Top 10 accepted universities 2008 GSoC" categories. Wrocław University of Technology able to secure the second place in "2008 GSoC Accepted: Top 10 Universities" category, while Universidade Estadual de Campinas became second in "2008 GSoC Applicants: Top 10 Universities" category.
+
+=== 2009 ===
+
+For 2009 Google reduced the number of software projects to 150, and capped the number of student projects it would accept at 1,000,[tpl]vcite web |url=http://blog.internetnews.com/skerner/2009/03/google-summer-of-code-2009-ope.html |title=Google Summer of Code 2009 opens up with Melange |author= Kerner, SM |year=2009 |publisher=internetnews.com[/tpl]GSOC announces accepted students for 2009 85 percent of which were successfully completed.GSOC 2009 official home page
+As of 2009, University of Moratuwa in Sri Lanka ranks first in terms of the number of awards received by students for the five year period 2005-2009 securing 79 accepted students. Tasty New Google Summer of Code Stats
+
+=== 2010 ===
+
+In 2010 Google accepted 150 software projects[tpl]vcite web |url=http://socghop.appspot.com/gsoc/program/accepted_orgs/google/gsoc2010|title=List of Accepted Organizations for Google Summer of Code 2010|year=2010|publisher=socghop.appspot.com[/tpl] and 1,026 students from 69 countries worldwide. The top ten countries by number of students accepted in 2010 are: United States (197), India (125), Germany (57), Brazil (50), Poland (46), Canada (40), China (39), United Kingdom (36), France (35), Sri Lanka (34).[tpl]vcite web|url=http://google-opensource.blogspot.com/2010/05/google-summer-of-code-2010-meet.html |title=Google Summer of Code 2010: Meet the Students!|author=Smith, Carol|year=2010|publisher=google-opensource.blogspot.com[/tpl]
+
+=== 2011 ===
+
+The number of organizations has been increased to 175, of which 50 are new.[tpl]vcite web |url=http://groups.google.com/group/google-summer-of-code-discuss/browse_thread/thread/ae0744665c545a8c|title=Google Summer of Code 2011 Mentoring Organizations Announced|year=2011[/tpl][tpl]vcite web |url=http://www.google-melange.com/gsoc/accepted_orgs/google/gsoc2011|title=Accepted organisations for Google Summer of Code 2011|year=2011[/tpl]
+1,115 Students have been accepted.
+[tpl]vcite web |url=http://google-opensource.blogspot.com/2011/05/google-summer-of-code-where-are.html|title=Accepted students for Google Summer of Code 2011|year=2011[/tpl]
+A total of 595 different universities has participated in the program, 160 of which were new to the program. The 13 universities with the highest number of students accepted into this year’s Google Summer of Code account for 14.5% of the students.
+University of Moratuwa, Sri Lanka has secured first position in this year's program with 27 accepted students. Polytechnic University of Bucharest, Romania was the second with 23 accepted students while Indian Institute of Technology, Kharagpur, India placed third with 14 students.  
+The breakdown of college degrees for the 2011 Google Summer of Code program was as follows: 55% of the students were undergraduates, 23.3% were pursuing their Masters degrees, 10.2% were working on their PhD’s and 11.5% did not specify which degree they were working toward. 
+[tpl]vcite web|url=http://google-opensource.blogspot.com/2011/10/whos-being-schooled.html|title=Who's Being Schooled?|year=2011[/tpl]
+
+=== 2012 ===
+
+Google had announced the Google Summer of Code 2012 on February 4, 2012. [tpl]vcite web |url=http://googlecode.blogspot.in/2012/02/google-summer-of-code-2012-is-on.html|title=Google Summer of Code 2012 is on!|year=2012[/tpl] On April 23, 2012, Google announced that 1,212 proposals were accepted in 180 organizations.[tpl]vcite web |url=http://google-opensource.blogspot.com/2012/04/students-announced-for-google-summer-of.html|title=Students Announced for Google Summer of Code 2012|year=2012[/tpl] For the first time since inception, the highest number of GSoC participants came from India (227) followed by the USA (173) and Germany (72).[tpl]cite web|url=http://google-opensource.blogspot.in/2012/05/google-summer-of-code-2012-by-numbers_10.html|title=Statistics of Google Summer of Code 2012[/tpl]  The University of Moratuwa continued its dominance with 29 selections, followed by Indian tech school BITS Pilani with 26 selections from its Goa and Pilani campuses. [tpl]cite web|url=http://google-opensource.blogspot.in/2012/05/correction-to-google-summer-of-code.html|title=Corrected Stats[/tpl]
+
+==References==
+
+==External links==
+
+* [tpl]Official website|http://code.google.com/soc/[/tpl]
+* InternetNews article on SoC success rate
+* InternetNews article on the results of SoC 2006
+* #gsoc on freenode
+

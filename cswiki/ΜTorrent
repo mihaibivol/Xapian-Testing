@@ -1,0 +1,117 @@
+
+µTorrent (or uTorrent; commonly abbreviated as "µT" or "uT") is a freeware, closed source BitTorrent client now owned by BitTorrent, Inc. It is the most widely used BitTorrent client outside China (where Xunlei is more popular[tpl]cite web | title = Thunder Blasts uTorrent’s Market Share Away | publisher = TorrentFreak | date = 2009-12-04 | url = http://torrentfreak.com/thunder-blasts-utorrents-market-share-away-091204/ | accessdate = 2009-12-16[/tpl]). It gets the "µ" in its name from the SI prefix "micro-", referring to the program's small memory footprint: the program was designed to use minimal computer resources while offering functionality comparable to larger BitTorrent clients such as Vuze or BitComet. The program has received consistently good reviews for its feature set, performance, stability, and support for older hardware and versions of Windows. 
+The program has been in active development since its first release in 2005. Although originally developed by Ludvig Strigeus, since December 7, 2006, the code is owned and maintained by BitTorrent, Inc.[tpl]cite web | title = BitTorrent Inc Buys uTorrent | publisher = TorrentFreak | date = 2006-12-07 | url = http://torrentfreak.com/bittorrent-inc-buys-%C2%B5torrent/ | accessdate = 2009-12-16[/tpl] The code has also been employed by BitTorrent, Inc. as the basis for version 6.0 and above of the BitTorrent client, a re-branded version of µTorrent.
+µTorrent is available for Microsoft Windows, Mac OS X and Linux.[tpl]cite web | title = FAQ: Is there a Linux or Mac version? | publisher = BitTorrent, Inc. | date = | url = http://www.utorrent.com/faq#faq3 | accessdate = 2009-12-16[/tpl] A µTorrent Server is also available for Linux. All versions are written in C++.[tpl]cite web | title = FAQ: How can µTorrent be so small and so fast? | publisher = BitTorrent, Inc. | date = | url = http://www.utorrent.com/faq/misc#faq14 | accessdate = 2009-12-16[/tpl]
+
+==History==
+
+===Early development===
+
+Out of general discontent with bloatware, Serge Paquet suggested to Ludvig Strigeus that he should make a smaller and more efficient BitTorrent client. Strigeus began to conceptualize the plans for the program's development, which, at the time, did not include making the client feature-rich. After initially working on it for about a month during the last quarter of 2004 (the first build is dated October 17, 2004), mostly during his free time before and after work, Strigeus ceased coding µTorrent for a year. He resumed work on September 15, 2005, and three days later, the first public release (version 1.1 beta) was made available as freeware, and began generating feedback.
+
+===PeerFactor SARL===
+
+On March 4, 2006, PeerFactor SARL announced the signing of a six-month contract with Strigeus for the development of "new content distribution applications on the Web."[tpl]cite web | title = uTorrent Sign Six Month PeerFactor Agreement | publisher = Slyck.com | date = 2006-03-04 | url = http://www.slyck.com/news.php?story=1117 | accessdate = 2009-12-16[/tpl] PeerFactor SARL is a relatively new company formed by former employees of PeerFactor, which was a subsidiary of the French anti-piracy organization Retspan.
+Ludde stated that his coding for PeerFactor SARL was to use his expertise at optimization of the BitTorrent protocol to create a .dll which PeerFactor SARL intended to use as part of a distribution platform for files in a corporate setting.[tpl]cite web | title = uTorrent, PeerFactor deal | publisher = p2pnet | date = 2006-03-04 | url = http://www.p2pnet.net/story/8158 | accessdate = 2009-12-16[/tpl] At the time there was some speculation that μTorrent may have been modified to spy on users on Peerfactor's behalf,[tpl]cite web | title = Bizarre uTorrent, PeerFactor deal | publisher = p2pnet | date = 2006-03-06 | url = http://www.p2pnet.net/story/8097 | accessdate = 2009-12-16[/tpl] however to date (even following μTorrent's acquisition by BitTorrent, Inc.) no evidence has been produced to support these allegations.
+
+===Ownership change===
+
+On December 7, 2006, µTorrent was purchased by BitTorrent, Inc., as it was announced on their official forum.
+On September 18, 2007, BitTorrent 6.0 was released, which is a re-branded version of µTorrent. As a result, BitTorrent 6 is closed-source (unlike BitTorrent 5.x and before, which were open source software).
+
+===Magnet Link (URI) Support===
+
+Support for Magnet Links (URIs) was added in version 1.8, released on August 9, 2008.[tpl]cite web|title=µTorrent 1.8 released|url=http://forum.utorrent.com/viewtopic.php?id=44003|work=Official BitTorrent Forum|publisher=BitTorrent. Inc.|accessdate=2012-01-12[/tpl]  Magnet Links were designed as an alternative to traditional tracker torrent files and became popularized when sites such as The Pirate Bay included native support for the format.
+
+===Paid version===
+
+On July 15, 2011, BitTorrent announced that they would offer a paid version of µTorrent called "µTorrent Plus". This new version would offer extra features, such as integrated file conversion, anti-virus and a built in media player.[tpl]cite web|title=Now Taking Reservations – µTorrent Plus|url=http://blog.bittorrent.com/2011/07/15/1173/|work=Official BitTorrent blog|publisher=BitTorrent. Inc.|accessdate=2011-07-15[/tpl] On 6 October 2011, the Pre-alpha of µTorrent Plus was released to an invite only community.[tpl]cite web|title=µTorrent Plus Update|url=http://blog.bittorrent.com/2011/10/06/%c2%b5torrent-plus-update/|work=Official BitTorrent blog|publisher=BitTorrent. Inc.|accessdate=2011-10-14[/tpl] As of December 2011, µTorrentPlus 3.1 Stable is now available for purchase and download.
+
+==Release History==
+
+===Windows===
+
+===Mac OSX===
+
+===Linux===
+
+==Features==
+
+Features present in µTorrent include:
+* Streaming of video torrents
+* Teredo tunneling / IPv6 support
+* Micro Transport Protocol (µTP) preliminary support as of 1.8.2 with full-support added in 2.0
+* UPnP support for all versions of Windows, without needing Windows XP's UPnP framework
+* Protocol encryption (PE)
+* Peer exchange (PEX) with other BitTorrent clients:
+** libtorrent and clients based on it like Deluge have full µTorrent PEX support
+** Transmission and clients based on libTransmission have full µTorrent PEX support
+** KTorrent has full µTorrent PEX support as of 2.1 RC1
+** Vuze, formerly Azureus, has full support as of version 3.0.4.3
+* RSS ("broadcatching")
+* "Trackerless" BitTorrent support using DHT, compatible with the original BitTorrent client and BitComet
+* User configurable intelligent disk caching system
+* Full proxy server support
+* HTTPS tracker support
+* Configurable bandwidth scheduler
+* Localized for 52 languages.[tpl]cite web | title = Forum: TRANSLATORS NEEDED! | publisher = BitTorrent, Inc. | date = 2006-07-02 | url = http://forum.utorrent.com/viewtopic.php?id=11517 | accessdate = 2009-12-16[/tpl]
+* Initial seeding of torrents
+* Customizable search bar & user interface design.[tpl]cite web | title = Forum: User Interface Design | publisher = BitTorrent, Inc. | date = | url = http://forum.utorrent.com/viewforum.php?id=6 | accessdate = 2009-12-16[/tpl]
+* Configuration settings and temporary files are stored in a single directory, allowing portable use
+* WebUI: A plugin currently in beta testing that allows µTorrent running on one computer to be controlled from another computer, either across the internet or on a LAN, using a Web browser
+** A new web user interface, codenamed Falcon, is in development. It supports encrypted sessions and the ability of going through firewalls without port forwarding, while being more complete and easier to start using than its predecessor.[tpl]cite web|url=http://forum.utorrent.com/viewtopic.php?id=62022 |title=Read this first — Falcon introduction (2.1 build 18069) - Forums — µTorrent — The Lightweight and Efficient BitTorrent Client |publisher=Forum.utorrent.com |date= |accessdate=2010-06-04[/tpl]
+* Embedded Tracker: a simple tracker designed for seeding torrents, lacking a web interface or list of hosted torrents. It is not designed for secure or large-scale application.[tpl]cite web | title = Documentation: How to Make a Torrent | publisher = BitTorrent, Inc. | date = | url = http://www.utorrent.com/documentation/make-a-torrent | accessdate = 2009-12-16[/tpl]
+* Quick-resumes interrupted transfers
+* Versions of µTorrent up to 1.8.5 build 17091[tpl]cite web|url=http://forum.utorrent.com/viewtopic.php?pid=439079#p439079 |title=µTorrent 1.8.5 released — Forums — µTorrent — The Lightweight and Efficient BitTorrent Client |publisher=Forum.utorrent.com |date= |accessdate=2010-06-04[/tpl] can use as little as 14 MB of RAM running on a 486 processor on Windows 95.[tpl]cite web | title = FAQ: What are µTorrent's system requirements? (Archived version) | publisher = BitTorrent, Inc. | date = | url = http://www.utorrent.com/faq.php#What_are_.C2.B5Torrent.27s_system_requirements.3F| archiveurl = http://web.archive.org/web/20080619055556/http://www.utorrent.com/faq.php#What_are_.C2.B5Torrent.27s_system_requirements.3F| archivedate = 2008-06-19[/tpl] Unicode support for Windows 95/98/ME, avoiding use of the Microsoft Layer for Unicode which is several times larger than µTorrent. As of March, 2011, newer versions required at least Windows 2000 or newer.[tpl]cite web | title = What are µTorrent's system requirements? | work=General - FAQ - µTorrent - a (very) tiny BitTorrent client | publisher = BitTorrent, Inc. | date = | url = https://ns2.utorrent.com/intl/en/faq#faq1 | accessdate = 2011-06-17 | archiveurl=http://www.peeep.us/50485fab#faq1 | archivedate=2011-03-24[/tpl] Currently µTorrent requires at least Windows XP.[tpl]cite web | title = What are µTorrent's system requirements? | work = General - FAQ - Help - µTorrent - a (very) tiny BitTorrent client | publisher = BitTorrent, Inc. | date = | url =http://www.utorrent.com/intl/en/help/faq#faq1 | accessdate = 2011-06-17[/tpl]
+* Two "easter egg" hidden features in the About subsection of Help: clicking the µTorrent logo plays a Deep Note-like sound effect, and typing the letter "t" starts a Tetris-like game called μTris,[tpl]cite web| editor=Wolf, David; Wolf, Annette|url=http://eeggs.com/tree/10452.html |title=utorrent Easter Eggs |publisher=The Easter Egg Archive, Wolfsites LLC|work=eeggs.com |accessdate=2011-09-06[/tpl][tpl]cite web|url=http://www.emag.cz/utorrent/ |title=uTorrent |first=Nikola |last=Čech |publisher= eMag.cz |language=Czech |date=2006-09-17 |accessdate=2011-09-06 [/tpl][tpl]cite web|url=http://s8208.up.bittorrent.com/btusers/guides/bittorrent-user-manual/chapter-01-introduction-bittorrent-mainline/features-list |work=BitTorrent User Manual - Chapter 1 |title=Features List| publisher=Bittorrent Inc.|accessdate=2011-09-06[/tpl] which in 2008 was selected as #1 of the "Top 10 Software Easter Eggs" by LifeHacker.[tpl]cite web|url=http://lifehacker.com/371083/top-10-software-easter-eggs |title=Top 10 Software Easter Eggs|first=Gina |last=Trapani |date= 2008-03-23 |publisher=Lifehacker.com |accessdate=2011-09-06[/tpl]
+
+===Size===
+
+µTorrent is shipped as a single stand-alone compressed executable file, installed at first run. Recent versions have included the ability to install themselves on first run. Small executable size is achieved by avoiding the use of many libraries, notably the C++ standard library and stream facilities, and creating substitutes written specifically for the program. The executable is then compressed to roughly half of its compiled and linked size using UPX.
+
+===Operating system support===
+
+µTorrent is available for Microsoft Windows, Mac OS X and Linux.
+The first test version for Mac OS X, running on Mac OS X 10.5, was released on 27 November 2008.[tpl]cite web | title = uTorrent Releases Long-Awaited Mac Version | publisher = TorrentFreak | date = 2008-11-27 | url = http://torrentfreak.com/utorrent-releases-mac-version-081127/ | accessdate = 2009-12-16[/tpl]
+On September 2, 2010, the native Linux version of µTorrent Server was released. Firon, an administrator of the µTorrent community forum, said that they had been working on this project for a few months prior to the release as it was the most requested feature for some time. This release is intended for users who are seeking a fast command-line interface based BitTorrent client with a remote web-based management. They also mentioned that a full featured client with a GUI is a work in progress.[tpl]cite web | title = Forum: µTorrent Server 3.0 alpha build 21886 (for Linux) | publisher = BitTorrent, Inc. | date = 2010-09-02 | url = http://forum.utorrent.com/viewtopic.php?pid=517212#p517212 | accessdate = 2010-10-14 [/tpl] He also said This is a native Linux port and is known to work on Ubuntu 9.10+, Debian 5+ and Fedora 12+. Others may work, but they are not officially supported. Kernel 2.6.13 or newer required. 64-bit host systems currently have some problems, so 32-bit only for now. For trackers who whitelist, the user agent is "uTorrent/300B(build#)(server)". The peerid is identical to the Windows 3.0 client. They share version numbers because of a common codebase.
+
+==Revenue==
+
+In early versions, Strigeus had built in a web redirection via nanotorrent for search queries entered through the search bar that displayed advertisements in a frame on the web browser. Some users thought this suspicious because tracking could be implemented by recording the IP addresses of those downloading/receiving the advertisements, and the search functionality could easily be used to track user queries through whichever web-interface the client is going through to execute the search. After a short trial period, the advertising was disabled, mitigating possible concerns.[tpl]cite web | title = Forum: The search bypass nanotorrent.com (post by Admin "Firon") | publisher = BitTorrent, Inc. | date = | url = http://forum.utorrent.com/viewtopic.php?pid=53755#p53755 | accessdate = 2009-12-16[/tpl]
+A later version of the software has, instead of ads, a "search all sites" feature, which is a keyword-based search bar that delivers listings of torrent files at different trackers. A frame at the top displays advertisements (server-side) in the browser when the search function is used. In version 1.5, no ads are present in the program itself.
+As of build 463, a redirect bypass feature became available in the Advanced options.
+As of version 1.8.2, the µTorrent installer gives the user the option to download and install the Ask.com toolbar. This is done on the first run of the program and the user may explicitly opt out of this feature by deselecting it.[tpl]cite web | title = Forum: µTorrent 1.8.2 released | publisher = BitTorrent, Inc. | date = 2009-01-24 | url = http://forum.utorrent.com/viewtopic.php?id=52947 | accessdate = 2009-12-16 [/tpl][tpl]cite web | title = uTorrent Is Going to Make Money With a Toolbar | publisher = TorrentFreak | date = 2009-04-22 | url = http://torrentfreak.com/utorrent-is-going-to-make-money-090422/ | accessdate = 2009-12-16[/tpl] The developers stated the addition was needed for funds to continue development. In late 2010, this was replaced with the Conduit Engine.
+
+==Pronunciation==
+
+The author of µTorrent wrote in 2005, "I usually say 'you torrent' because it looks like a u", and offered "microtorrent", "mytorrent" (as "my" [tpl]IPA|myː[/tpl] is the Swedish pronunciation of the Greek letter µ) and later "mutorrent" as alternate pronunciations.[tpl]cite web | title = Forum: µTorrent Namesake (post by creator "Ludde") | publisher = Ludvig Strigeus | date = 2005-09-20 | url = http://forum.utorrent.com/viewtopic.php?pid=47#p47 | accessdate = 2009-12-16[/tpl]
+The symbol μ is the lowercase Greek letter Mu, which stands for the SI prefix "micro-" meaning "one millionth"; it refers to the program's small footprint.
+The traditional English pronunciation of the letter μ is /ˈmjuː/ (as in the English word 'mew'), derived from its Classical Greek pronunciation [tpl]IPA-el|mŷː|[/tpl] (impossible to represent accurately with "sound-alike" respelling, since English lacks the close front rounded vowel y). The corresponding Standard Modern Greek pronunciation is [tpl]IPA-el|mi|[/tpl], much like the English word 'me'.
+
+==Contributors==
+
+Original development was performed by Ludvig Strigeus ("ludde", from Sweden), the creator of µTorrent. Serge Paquet ("vurlix", from Canada) acted as release coordinator, and had intended to work on Linux and Mac OS X ports. He maintained the µTorrent website and forum up until the end of 2005, but is no longer affiliated with µTorrent.
+Development after the purchase by BitTorrent is performed by developers Adam Kennedy ("AdamK"), Arvid Norberg ("arvid", author of libtorrent), Greg Hazel ("alus"), Jan Brittenson ("CodeRed"), Richard Choi ("rchoi"), and Ryan Norton ("RyanNorton") among others at BitTorrent Inc. Strigeus remains as a technical consultant.
+Other tasks continue to be performed by ongoing contributors. Giancarlo Martínez ("Firon", from Puerto Rico) maintains the µTorrent forums and FAQ. Carsten Niebuhr ("Directrix", from Germany) developed the original µTorrent Web User Interface which is now maintained by "Ultima".
+
+==Reception==
+
+μTorrent has been praised for its small size and the minimal computer resources it uses which sets it apart from other clients. PC Magazine gave the program a positive review saying that it "packs an outstanding array of features".[tpl]cite web | title = Review: µTorrent 1.2.2 | publisher = PC Magazine | date = 2006-11-06 | url = http://www.pcmag.com/article2/0,2817,1911890,00.asp | accessdate = 2009-12-16[/tpl] and was also listed in their Best free 157 software tools."The Best Free Software 2008 - 157 software tools." PC Magazine. February 8, 2008. It was also in PC World Magazine's 101 Fantastic freebies."101 Fantastic freebies". PC World. 2007-03-28. The website TorrentFreak.com said it was the most feature rich BitTorrent client available,[tpl]cite web | author = Ernesto | title = BitTorrent Client Comparison | publisher = TorrentFreak | date = 2006-04-22 | url = http://torrentfreak.com/bittorrent-client-comparison/ | accessdate = 2009-12-16[/tpl] later summarizing an August 2009 University of California, Riverside study[tpl]cite journal | last = Iliofotou | first = Marios | last2 = Siganos | first2 = Georgos | last3 = Yang | first3 = Xiaoyuan | last4 = Rodriguez | first4 = Pablo | title = Comparing BitTorrent Clients in the Wild: The Case of Download Speed | publisher = University of California, Riverside & TorrentFreak | date = 2009-08 | url = http://torrentfreak.com/static/iptps2010.PDF | accessdate = 2010-04-11[/tpl] which concluded that "uTorrent Download Speeds Beat Vuze By 16%" on average and "On 10% of 30 most used ISPs, uTorrent users were downloading 30% faster than Vuze users".[tpl]cite web | author = Ernesto | title = uTorrent Download Speeds Beat Vuze By 16% | publisher = TorrentFreak | date = 2010-04-07 | url = http://torrentfreak.com/utorrent-download-speeds-beat-vuze-by-16-100607/ | accessdate = 2010-04-11[/tpl] About.com said it was the best BitTorrent client available, citing its small size and "minimal impact to the rest of your computer's speed."[tpl]cite web | title = What Are The Good BitTorrent Software Packages? | publisher = About.com | date = August 2009 | url = http://netforbeginners.about.com/od/peersharing/f/torrentclients.htm/ | accessdate = 2009-12-16[/tpl] Wired.com said its "memory footprint is also ridiculously small".[tpl]cite web | title = The Best of BitTorrent | publisher = Wired.com | date = 2006-10-23 | url = http://www.wired.com/software/softwarereviews/news/2006/10/71979 | accessdate = 2009-12-16[/tpl] The Australian PC & Tech Authority magazine gave it a 6 out of 6 stars.[tpl]cite journal | title = Labs test: Torrent Clients | magazine = PC & Tech Authority|location=Australia | date = 2006-03-14 | url = http://www.pcauthority.com.au/GroupTests/35845,labs-test-torrent-clients.aspx | accessdate = 2009-12-16[/tpl] Lifehacker.com has continued to rate it the best BitTorrent client available.[tpl]cite web | title = Best of the Best: The Hive Five Winners | publisher = Lifehacker | date = 2008-09-21 | url = http://lifehacker.com/5052582/best-of-the-best-the-hive-five-winners | accessdate = 2009-12-16[/tpl] CNET.com gave it a 5 out of 5 stars saying it features "Light and quick downloading".[tpl]cite web | title = Review: µTorrent | publisher = CNET | date = 2008-11-06 | url = http://download.cnet.com/uTorrent/3000-2196_4-10528327.html | accessdate = 2009-12-16[/tpl]
+In November 2009, 52 million users used the application.uTorrent "Users Double to 52 Million in a Year". TorrentFreak (2009-12-25). Retrieved on 2010-11-09.
+According to a study by Arbor Networks, the 2008 adoption of IPv6 by µTorrent caused a 15-fold increase in IPv6 traffic across the Internet over a ten-month period.Leyden, John (2009-09-10). "P2P pushes IPv6 surge". The Register (UK).
+
+==Languages==
+
+The software is available in the following languages:
+==Conduit Toolbar controversy==	
+As of late 2010, some controversy has arisen with the release of a new version of the uTorrent client. The installation now includes adware in the form of the Conduit Engine, which installs a toolbar and makes homepage and default search engine changes to the user's browser. While most have had the option to opt-out of this feature, some users have reported that this installation is made without the user's consent, either installing this software and making these changes without notifying the user, or still going ahead after the user has explicitly opted out.[tpl]cite web | title = uTorrent Browser Toolbar Mystery Causes Confusion | publisher = Torrentfreak | date = 2010-12-18 | url = http://torrentfreak.com/utorrent-browser-toolbar-mystery-causes-havoc-among-users-101218/ | accessdate = 2011-08-11[/tpl] In addition, there have been complaints that the software is extremely difficult to remove once installed.[tpl]cite web | title = So long, uTorrent | publisher = First Arkansas News | date = 2010-12-15 | url = http://firstarkansasnews.net/2010/12/so-long-utorrent/ | accessdate = 2011-08-11[/tpl]
+
+==References==
+
+==External links==
+
+* [tpl]Official website|http://www.utorrent.com/[/tpl]
+* uTorrent: A Beginner's Guide to BitTorrent Downloading by Jared M
+* p2pnet uTorrent interview by Alex H
+* Can great software live in 130 kilobytes? by George Ou
+

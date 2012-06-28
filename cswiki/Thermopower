@@ -1,0 +1,47 @@
+
+The thermopower, or thermoelectric power (also called the Seebeck coefficient) of a material is a measure of the magnitude of an induced thermoelectric voltage in response to a temperature difference across that material.Concepts in Thermal Physics, by Katherine M. Blundell Weblink through Google books The thermopower has units of volts per kelvin (V/K), although it is more often given in microvolts per kelvin (μV/K).
+Thermopower is a misnomer.  What is called thermopower would be more correctly dubbed thermoelectric sensitivity as it measures the voltage or electric potential (not the electric power) induced in response to a temperature difference. Note that the unit of thermopower (V/K) is different from the unit of power (watts).
+The phenomenon quantified by thermopower is called the Seebeck effect. The Seebeck effect and two related phenomena (the Peltier effect and Thomson effect) are together called the "thermoelectric effect".
+
+==Physics of thermopower==
+
+Classically, an applied temperature difference causes charged carriers in the material, whether they are electrons or holes, to diffuse from the hot side to the cold side, similar to a gas that expands when heated.  
+Mobile charged carriers migrating to the cold side leave behind their oppositely charged and immobile nuclei at the hot side thus giving rise to a thermoelectric voltage (thermoelectric refers to the fact that the voltage is created by a temperature difference).  Since a separation of charges also creates an electric field, the buildup of charged carriers onto the cold side eventually ceases at some maximum value since there exists an equal amount of charged carriers drifting back to the hot side as a result of the electric field at equilibrium.  Only an increase in the temperature difference can resume a buildup of more charge carriers on the cold side and thus lead to an increase in the thermoelectric voltage.  Incidentally the thermopower also measures the entropy per charge carrier in the material.
+Superconductors have zero thermopower since the charged carriers carry no entropy. Equivalently, the thermopower is zero because it is impossible to have a finite voltage across a superconductor. (For example, by Ohm's law, V=IR=0, since the resistance, R, is equal to zero in a superconductor.)
+
+==Definition==
+
+If the temperature difference  ΔT between the two ends of a material is small, then the thermopower of a material is conventionally (though only approximately, see below) defined as:
+where ΔV is the thermoelectric voltage seen at the terminals. (See below for more on the signs of ΔV and  ΔT.)
+Strictly speaking, these two expressions are only approximate: The numerator of the first equation should be the difference in (electrochemical potential divided by -e), not electric potential, and likewise the second equation should have the gradient of electrochemical potential divided by e rather than the electric field. However, the chemical potential is often relatively constant as a function of temperature, so using electric potential alone is in these cases a very good approximation.When a voltmeter is attached across a sample, what is measured is not the electric potential difference, but the electrochemical potential difference. The rest is canceled out by the contact potential with the leads of the voltmeter. This is the same reason that the built-in potential of a p-n junction cannot be measured directly with a voltmeter, but can only be inferred from fitting a variety of data points to a model. See Taylor, 1973 for a specific discussion of this point. Although many references use the approximate definition (involving the electric field and/or electric potential), a few give the exact expression; for example, see Physics of transition metal oxides by Sadamichi Maekawa, page 323, or Thermoelectrics: Basic Principles and New Materials Developments by Nolas et al., page 38.
+
+===Sign of the thermopower===
+
+Here, again, are the formulas for the Seebeck coefficient, with the sign made explicit:
+where "left" and "right" denote two ends of the material, and where the second equation is understood as vector multiplication. Thus, if S is positive, the end with the higher temperature has the lower voltage, and vice-versa, and the electric field will point in the same direction as the temperature gradient.
+Note that there is a minus sign in the first equation, but not the second. This is because the electric field points from the higher voltage towards the lower voltages, whereas the temperature gradient points from the lower temperature towards the higher temperature.
+Charge carriers tend to respond to a temperature gradient by moving in the opposite direction, i.e. from the hot end to the cold end. They tend to respond to an electric field in different ways depending on their charge: positive charges tend to move in the same direction as the field, while negative charges move in the opposite direction of the field. For equilibrium to be reached, these two tendencies have to cancel out. Thus, for purely p-type materials which have only positive mobile charges (holes), the electric field and temperature gradient should point in the same direction in equilibrium, giving S>0. Likewise, for purely n-type materials which have only negative mobile charges (electrons), the electric field and temperature gradient should point in opposite directions in equilibrium, giving S
+==Measurement==
+
+In practice one rarely measures the absolute thermopower of the material of interest.  This is because electrodes attached to a voltmeter must be placed onto the material in order to measure the thermoelectric voltage.  The temperature gradient then also typically induces a thermoelectric voltage across one leg of the measurement electrodes.  Therefore the measured thermopower is a contribution from the thermopower of the material of interest and the material of the measurement electrodes.  This arrangement of two materials is usually called a thermocouple.
+The measured thermopower is then a contribution from both and can be written as:
+Superconductors have zero thermopower, as mentioned above. By using superconducting leads, it is possible to get a direct measurement of the absolute thermopower of the material of interest, since it is the thermopower of the entire thermocouple as well.
+
+==Thermoelectric power generation==
+
+The thermoelectric effect is sometimes used to generate electrical power, starting from a source of a temperature gradient. For example, some spacecraft are powered by a radioisotope thermoelectric generator, exploiting the temperature difference between a radioactively-heated plate and the cold empty space surrounding the craft. Some researchers hope that, in the future, much wider use could be made of thermoelectric power generation, including using waste heat from automobiles (see Automotive Thermoelectric Generators) and power plants. (This is a form of energy recycling.)
+The efficiency with which a thermoelectric material can generate electrical power depends on several material properties, of which perhaps the most important is the thermopower.  A larger induced thermoelectric voltage for a given temperature gradient will lead to a higher efficiency.  Ideally one would want very large thermopower values since only a small amount of heat is then necessary to create a large voltage.  This voltage can then be used to provide power.
+There is an active research effort to find materials that could make cheaper and more efficient thermoelectric power generators; to learn more see the article Thermoelectric materials.
+
+== Materials with High Seebeck Coefficient ==
+
+It is important to note that a material's Seebeck Coefficient is inversely related its carrier density. Therefore, insulators tend to have very high Seebeck coefficients, while metals have lower values due to their high carrier concentrations.
+* Bismuth telluride
+* Uranium dioxide
+* Perovskite is a class of compounds many of which have high Seebeck coefficient.   This includes SrRuO3 for which the Seebeck coefficient equals 36 μV K−1 (microvolts per kelvin) at room temperature.Abstract: "Thermoelectric properties of perovskite type strontium ruthenium oxide", Takuji Maekawa et al., Osaka University, Japan, 2004
+* Constantan
+* Ytterbium Trialuminide
+
+==References==
+
+

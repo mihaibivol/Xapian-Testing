@@ -1,0 +1,44 @@
+
+CoNTub is software written in Java which runs on Windows, Mac OS X, Linux and Unix Operating systems. It is the first implementation of an algorithm for generating the 3D structure of two arbitrary connected carbon nanotubes by means of one defect or disclination (pentagonal or heptagonal).
+The software is a set of tools dedicated to the construction of complex carbon nanotube structures for use in computational chemistry. CoNTub1 is the first implementation of building these complex structures, including nanotube heterojunctions, for designing and investigating new nanotube-based devices. CoNTub is based on strip algebra, and is able to find the unique structure for connecting two specific and arbitrary carbon nanotubes.  
+CoNTub1 allows the geometry of some two-tube heterojunctions to be easily generated, including single-walled nanotubes (SWNTs) and multi-walled nanotubes (MWNTs). The program itself is organized in five Tabbed panelsCoNTub1, the first three being dedicated to structure generation, the fourth to the output in PDB format, and the fifth contains a short help section.
+
+== Features ==
+
+* 3D molecular viewer
+* Structure generation of carbon nanotube Heterojunctions from indices(i,j) and length (l) of the two nanotubes.
+* Structure generation of single-walled nanotubes (SWNTs) from indices(i,j) and length (l)
+* Plotting the electronic band structure and density of states (DOS) for single-walled nanotubes (SWNTs)
+* Structure generation of multi-walled nanotubes from indices(i,j) and length (l), number of shells(N) and spacing(S).
+* Output the xyz coordinates of the structures in a (PDB) file format
+
+== Nanotube generation ==
+
+To generate a SWNT, it is only necessary to introduce the indices of the tube, its desired length (Angstrom), and the type of atom for termination of dangling bonds. ConTub displays the resulting nanotube, as well as its electronic band structure and density of states (DOS), following a tight binding model.Savinskii, S.S.; Khokhriakov, N.V. Characteristic Features of the Pi-Electron States of Carbon Nanotubes. J. Exp. Theor. Phys. 1997, 84, 1131-1137.
+MWNT - multiple tubes with the same axis and length - are created by providing the indices of the most inner tube (i,j), the desired length (l), the number of shells (N), and the approximate distance between shells or spacing (S) in Angstrom. The default value for spacing corresponds to the standard distance between layers in crystalline graphite (3.4 Å). ConTub automatically selects the indices of the remaining tubes, trying to adjust the interlayer spacing, and tries to use tubes with the same chirality as that of the inner nanotube.
+
+== Heterojunction generation==
+
+This is the core of the CoNTub1 program. Strip algebra was implemented, which allows two perfect carbon nanotubes to be joined, independently of their geometry, radius or chirality, with the simplest geometry possible, i.e. with the lowest number of non-hexagonal rings (a pentagon and a heptagon), also called defects or disclinations. There is always a possible connection between two tubes and strip algebra ensues that the solution is unique and depending only of the indices (i,j) of both tubes.
+
+== Image gallery ==
+
+Image:contub_v1.0_02.png|CoNTub v1.0 - 3D viewer panel (zoom in).
+Image:contub_v1.0_04.png|CoNTub v1.0 - 3D viewer panel (cutback and ball&stick modes).
+Image:contub_v1.0_06.png|CoNTub v1.0 HETEROJUNTION panel.
+Image:contub_v1.0_07.png|CoNTub v1.0 HETEROJUNTION panel.
+Image:contub_v1.0_08.png|CoNTub v1.0 SWNT panel.
+Image:contub_v1.0_09.png|CoNTub v1.0 SWNT panel.
+Image:contub_v1.0_10.png|CoNTub v1.0 MWNT panel.
+Image:contub_v1.0_11.png|CoNTub v1.0 output panel.
+
+==See also==
+
+*Boron nitride nanotube
+*Silicon nanotubes
+*List of software for nanostructures modeling
+*Potential applications of carbon nanotubes
+
+== References ==
+
+ 

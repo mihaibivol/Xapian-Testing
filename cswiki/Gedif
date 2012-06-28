@@ -1,0 +1,13 @@
+
+gedif command is the command line to work with edif file, the edif files can be created from xml description or vhdl files, gedif command can make the schematic and behavioral description until the pcb description by automatic or manual routing function.
+edif—ger file_sch.edf
+edif—pcb-auto—dxf file_sch.edf file_pcb.dxf
+edif—pcb-auto—edf file_sch.edf file_pcb.edf
+but to create the vhdl file we can call the following command:
+edif—vhd file_sch.edf
+
+==External links==
+
+Additional information can be found at :
+* https://sourceforge.net/projects/gedif
+

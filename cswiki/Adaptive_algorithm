@@ -1,0 +1,3 @@
+
+An adaptive algorithm is an algorithm that changes its behavior based on the resources available. For example, stable partition, using no additional memory is O(n lg n) but given O(n) memory, it can be O(n) in time. As implemented by the C++ Standard Library, stable_partition is adaptive and so it acquires as much memory as it can get (up to what it would need at most) and applies the algorithm using that available memory.  Another example is adaptive sort, whose behaviour changes upon the presortedness of its input.
+

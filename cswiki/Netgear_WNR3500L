@@ -1,0 +1,59 @@
+
+The WNR3500L (also known as the WNR3500U) is an 802.11b/g/n wireless network router created by NETGEAR. It was officially launched in the autumn of 2009.  The WNR3500L runs open source Linux firmware and supports the installation of third party packages such as DD-WRT and Tomato.
+
+==Hardware[tpl]cite web|url=http://www.myopenrouter.com/article/13860/WNR3500L-Open-Source-Guide-Resources/|title= NETGEAR WNR3500L Open Source Wireless N (Draft) Router Open Source Guide & Resources|accessdate=10 May 2010[/tpl]==
+
+Version 1:
+*Broadcom BCM4718 453 MHz SoC
+*8 MB Flash memory
+*64 MB RAM
+*32 kB instruction cache
+*32 kB data cache
+*3 internal antennas
+*802.11 b/g/n wireless support
+*One 10/100/1000 Mbit/s WAN port
+*Four 10/100/1000 Mbit/s switched LAN ports
+*Integrated USB 2.0 EHCI host port
+*Compatible with Windows 7
+Version 2:
+*Broadcom BCM47186 533 MHz SoC
+*128 MB Flash memory
+*128 MB RAM
+*32 kB instruction cache
+*32 kB data cache
+*3 internal antennas
+*802.11 b/g/n wireless support
+*One 10/100/1000 Mbit/s WAN port
+*Four 10/100/1000 Mbit/s switched LAN ports
+*Integrated USB 2.0 EHCI host port
+*Compatible with Windows 7
+
+== Features ==
+
+Version 1:
+*Supports installation of  Tomato firmware, DD-WRT and a custom version of OpenWrt[tpl]cite web|url=http://www.myopenrouter.com/download/list?cat=52|title=myopenrouter[/tpl]
+*Supports Wi-Fi Protected Setup (WPS)
+*Automatically detects ISP type, exposed host (DMZ), MAC address authentication, URL content filtering, logs and email alerts of internet activity
+*Static & dynamic routing with TCP/IP, VPN pass-through (IPsec, L2TP), NAT, PPTP, PPPoE, DHCP (client & server)
+* Supports IPv6, including automatic 6to4 tunnel (since firmware 1.2.2.30)
+Version 2:
+*Supports installation of  Tomato firmware (Shibby and Toastman varieties) and DD-WRT [tpl]cite web|url=http://www.myopenrouter.com/download/list?cat=73|title=3500Lv2 at myopenrouter[/tpl]
+
+== Applications ==
+
+The WNR3500L is designed to be used in home or business environments.
+
+==References==
+
+== External links ==
+
+*Review and Installation of NETGEAR WNR3500L Wireless-N Gigabit Open Source Router
+*The WNR3500L at DD-WRT.com
+*Official Product Page
+*Official Support Page
+;Firmware downloads
+*DD-WRT for WNR3500L
+*Tomato for WNR3500L
+*OpenWrt for WNR3500L
+*Other Firmware for WNR3500L
+

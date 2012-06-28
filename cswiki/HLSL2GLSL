@@ -1,0 +1,11 @@
+
+HLSL2GLSL is a command line tool and a library that translates DirectX 9 High Level Shader Language (HLSL) shaders into the OpenGL Shading Language (GLSL).[tpl]cite web|url=http://www.opengl.org/news/permalink/hlsl2glsl_v09_hlsl_to_opengl_shading_language_translator/|title=HLSL2GLSL v0.9 DirectX 9 HLSL to OpenGL Shading Language translator|publisher=OpenGL.org|accessdate=2006-11-29[/tpl] HLSL2GLSL was released by ATI Technologies under a BSD License.
+Last version (v0.9) from ATI was released in 2006, but the project was forked in 2010 [tpl]cite web|url=https://github.com/aras-p/hlsl2glslfork/|title=HLSL2GLSL Fork|accessdate=2011-05-18[/tpl] to fix issues and add features like OpenGL ES support. It is now used by Unity [tpl]cite web|url=http://aras-p.info/blog/2010/05/21/compiling-hlsl-into-glsl-in-2010/|title=Compiling HLSL into GLSL in Unity 3|accessdate=2011-01-05[/tpl] and OGRE [tpl]cite web|url=http://www.ogre3d.org/forums/viewtopic.php?f=21&t=62256|title=Ogre forums: Added Cg support to the ES 2.x render system|accessdate=2011-01-05[/tpl] to translate Cg/HLSL shaders into GLSL for mobile platforms.
+
+==References==
+
+==External links==
+
+* HLSL2GLSL Project Page
+* HLSL2GLSL Fork Project Page
+

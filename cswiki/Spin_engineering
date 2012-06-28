@@ -1,0 +1,69 @@
+
+Spin engineering describes the control and manipulation of quantum spin systems to develop devices and materials. This includes the use of the spin degrees of freedom as a probe for spin based phenomena.  
+Because of the basic importance of quantum spin for physical and chemical processes, spin engineering is relevant for a wide range of scientific and technological applications. Current examples range from Bose-Einstein condensation to spin-based data storage and reading in state-of-the-art hard disk drives, as well as from powerful analytical tools like nuclear magnetic resonance spectroscopy and electron paramagnetic resonance spectroscopy to the development of magnetic molecules as qubits and magnetic nanoparticles. In addition, spin engineering exploits the functionality of spin to design materials with novel properties as well as to provide a better understanding and advanced applications of conventional material systems. Many chemical reactions  are devised to create bulk materials or single molecules with well defined spin properties single-molecule magnet.
+The aim of this article is to provide an outline of  fields of research and development where the focus is on the properties and applications of quantum spin.
+
+==Introduction==
+
+As spin is one of the fundamental quantum properties of elementary particles it is relevant for a large range of physical and chemical phenomena. For instance, the spin of the electron plays a key role in the electron configuration of atoms which is the basis of the periodic table of elements. The origin of ferromagnetism is also closely related to the magnetic moment associated with the spin and the spin-dependent Pauli exclusion principle. Thus, the engineering of ferromagnetic materials like mu-metals or Alnico at the beginning of the last century can be considered as early examples of spin engineering, although the concept of spin was not yet known at that time. Spin engineering in its generic sense became  possible only after the first experimental characterization of spin in the Stern-Gerlach experiment in 1922 followed by the development of relativistic quantum mechanics by Paul Dirac. This theory was the first to accommodate the spin of the electron and its magnetic moment.
+Whereas the physics of spin engineering dates back to the groundbreaking findings of quantum chemistry and physics within the first decades of the 20th century, the chemical aspects of spin engineering have received attention especially within the last twenty years. Today, researchers focus on specialized topics, such as the design and synthesis of molecular magnets or other model systems in order to understand and harness the fundamental principles behind phenomena such as the relation between magnetism and chemical reactivity as well as microstructure related mechanical properties of metals and  the biochemical impact of spin (e. g. photoreceptor proteins) and spin transport.
+
+==Research fields of spin engineering==
+
+===Spintronics===
+
+Spintronics is the exploitation of both the intrinsic spin of the electron and its fundamental electronic charge in solid-state devices and is thus a part of spin engineering. Spintronics is probably one of the most advanced fields of spin engineering with many important inventions which can be found in end-user devices like the reading heads for magnetic hard disk drives. This section is divided in basic spintronic phenomena and their applications.
+
+====Basic spintronic phenomena====
+
+*Giant magnetoresistance (GMR), Tunnel magnetoresistance (TMR), Spin valve
+*Spin transfer torque (STT)
+*Spin injection
+*Pure spin currents
+*Spin pumping
+*Spin waves, magnonics
+*(inverse) Spin Hall effect 
+*Spin calorics, Spin Seebeck effect
+
+====Applications of spintronics====
+
+this section is devoted to current and possible future applications of spintronics which make use of one or the combination of several basic spintronic phenomena:
+*Hard disk drive read heads
+*Magnetoresistive random-access memory (MRAM)
+*Racetrack memory
+*Spin transistor
+*Spin quantum computing
+*Magnon-based spintronics
+
+===Spin Materials===
+
+materials which properties are determined or strongly influenced by quantum spin: 
+*Magnetic alloys, i.e. Heusler alloys
+*Graphene systems
+*Organic spin materials
+*Molecular nanomagnets
+*Magnetic molecules
+*Organic radicals
+*Metamaterilas with artificial magnetism
+
+===Spin based detection===
+
+methods to characterize materials and physical or chemical processes via spin based phenomena:
+*Magneto-optic Kerr effect (MOKE)
+*Nuclear magnetic resonance (NMR)
+*Neutron scattering
+*Spin polarized photoemission
+*Brillouin Light Scattering (BLS)
+*X-ray magnetic circular dichroism (XMCD)
+
+==References==
+
+==External links==
+
+*Albert Fert (Nobel Prize in Physics (2007)), "The origin, the development and the future of spintronics", Nobel Lecture as pdf at nobelprize.org 
+*Peter Grünberg (Nobel Prize in Physics (2007)), "From spinwaves to Giant Magnetoresistance (GMR) and beyond", Nobel Lecture as pdf at nobelprize.org 
+*Scientific background of the discovery of the Giant Magnetoresistance, compiled by the Class for Physics of the Royal Swedish Academy of Sciences
+*Animations of GMR Sensors at the IBM Research Homepage
+*Albert Fert (Nobel Prize in Physics (2007)) video answer of  the question: "What is spin?"
+*Creation of a pure spin current in Graphene, article from Physorg.com
+

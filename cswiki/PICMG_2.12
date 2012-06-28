@@ -1,0 +1,11 @@
+
+PICMG 2.12 is a specification by PICMG that defines vendor-independent software interfaces for supporting control of the software and hardware connection processes. The specification was updated in May 2002 to add Windows and Linux updates, Redundant System Slot (RSS) API, Switched PCI-PCI bridging support, Hardware- and O/S-independent models of network-connected intelligent nodes, Standards-based management of HS- and RSS-capable CompactPCI platforms and IDSEL to global address (GA) mapping.
+
+==Status==
+
+Adopted : 5/20/2002
+Current Revision : 2.0
+
+==References==
+
+

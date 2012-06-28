@@ -1,0 +1,161 @@
+
+This article 'Algorithm examples' supplements Algorithm and Algorithm characterizations.
+
+== An example: Algorithm specification of addition m+n ==
+
+Choice of machine model:
+There is no “best”, or “preferred” model. The Turing machine, while considered the standard, is notoriously awkward to use. And different problems seem to require different models to study them. Many researchers have observed these problems, for example:
+:“The principal purpose of this paper is to offer a theory which is closely related to Turing's but is more economical in the basic operations” (Wang (1954) p. 63)
+:“Certain features of Turing machines have induced later workers to propose alternative devices as embodiments of what is to be meant by effective computability.... a Turing machine has a certain opacity, its workings are known rather than seen. Further a Turing machine is inflexible ...  a Turing machine is slow in (hypothetical) operation and, usually complicated. This makes it rather hard to design it, and even harder to investigate such matters as time or storage optimization or a comparison between efficiency of two algorithms.” (Melzak (1961) p. 281)
+:Shepherdson-Sturgis (1963) proposed their register-machine model because “these proofs Turing machines are complicated and tedious to follow for two reasons: (1) A Turing machine has only one head... (2) It has only one tape....” They were in search of “a form of idealized computer which is sufficiently flexible for one to be able to convert an intuitive computational procedure into a program for such a machine” (p. 218).
+:“I would prefer something along the lines of the random access computers of Angluin and Valiant opposed to the pointer machine of Schönhage” (Gurivich 1988 p. 6)
+: “Showing that a function is Turing computable directly...is rather laborious ...  we introduce an ostensibly more flexible kind of idealized machine, an abacus machine...” (Boolos-Burgess-Jeffrey 2002 p.45).
+About all that one can insist upon is that the algorithm-writer specify in exacting detail (i) the machine model to be used and (ii) its instruction set. 
+Atomization of the instruction set: 
+The Turing machine model is primitive, but not as primitive as it can be. As noted in the above quotes this is a source of concern when studying complexity and equivalence of algorithms. Although the observations quoted below concern the Random access machine model – a Turing-machine equivalent – the problem remains for any Turing-equivalent model: 
+:“...there hardly exists such a thing as an ‘innocent’ extension of the standard RAM model in the uniform time measure; either one only has additive arithmetic, or one might as well include all multiplicative and/or bitwise Boolean instructions on small operands....” (van Emde Boas (1992) p. 26)
+:“Since, however, the computational power of a RAM model seems to depend rather sensitively on the scope of its instruction set, we nevertheless will have to go into detail... 
+:“One important principle will be to admit only such instructions which can be said to be of an atomistic nature. We will describe two versions of the so-called successor RAM, with the successor function as the only arithmetic operation....the RAM0 version deserves special attention for its extreme simplicity; its instruction set consists of only a few one letter codes, without any (explicit) addressing.” (Schönhage (1980) p.494) 
+Example #1: The most general (and original) Turing machine – single-tape with left-end, multi-symbols, 5-tuple instruction format – can be atomized into the Turing machine of Boolos-Burgess-Jeffrey (2002) – single-tape with no ends, two "symbols" { B, | } (where B symbolizes "blank square" and | symbolizes "marked square"), and a 4-tuple instruction format. This model in turn can be further atomized into a Post-Turing machine – single-tape with no ends, two symbols { B, | }, and a 0- and 1-parameter instruction set ( e.g. { Left, Right, Mark, Erase, Jump-if-marked to instruction xxx, Jump-if-blank to instruction xxx, Halt } ).
+Example #2: The RASP can be reduced to a RAM by moving its instructions off the tape and (perhaps with translation) into its finite-state machine “table” of instructions, the RAM stripped of its indirect instruction and reduced to a 2- and 3-operand “abacus” register machine; the abacus in turn can be reduced to the 1- and 2-operand Minsky (1967)/Shepherdson-Sturgis (1963) counter machine, which can be further atomized into the 0- and 1-operand instructions of Schönhage (and even a 0-operand Schönhage-like instruction set is possible).
+Cost of atomization: 
+Atomization comes at a (usually severe) cost: while the resulting instructions may be “simpler”, atomization (usually) creates more instructions and the need for more computational steps. As shown in the following example the increase in computation steps may be significant (i.e. orders of magnitude – the following example is “tame”), and atomization may (but not always, as in the case of the Post-Turing model) reduce the usability and readability of “the machine code”. For more see Turing tarpit. 
+Example: The single register machine instruction "INC 3" – increment the contents of register #3, i.e. increase its count by 1 – can be atomized into the 0-parameter instruction set of Schönhage, but with the equivalent number of steps to accomplish the task increasing to 7; this number is directly related to the register number “n” i.e. 4+n):
+More examples can be found at the pages Register machine and Random access machine where the addition of "convenience instructions" CLR h and COPY h1,h1 are shown to reduce the number of steps dramatically. Indirect addressing is the other significant example.
+
+==Precise specification of Turing-machine algorithm m+n ==
+
+As described in Algorithm characterizations per the specifications  of Boolos-Burgess-Jeffrey (2002) and Sipser (2006), and with a nod to the other characterizations we proceed to specify:
+:(i) Number format: unary strings of marked squares (a "marked square" signfied by the symbol 1) separated by single blanks (signified by the symbol B) e.g. “2,3” = B11B111B
+:(ii) Machine type: Turing machine: single-tape left-ended or no-ended, 2-symbol { B, 1 }, 4-tuple instruction format.  
+:(iii) Head location: See more at “Implementation Description” below. A symbolic representation of the head's location in the tape's symbol string will put the current state to the right of the scanned symbol. Blank squares may be included in this protocol. The state's number will appear with brackets around it, or sub-scripted. The head is shown as state #2, to the right of the second-from-left “1”:
+:: Example: B1121B111B or B1121B111B    
+:(iii) Location of “the program”: This program will be in the finite state machine's TABLE and appear there in quadruple (4-tuple) format, suitably coded so the finite state machine can interpret them (see Footnote: Coding instructions for the finite state machine).
+:(iv) The program: Boolos-Burgess-Jeffrey (2002) do not offer us one, however, we can devise one. We will note that it is not be as efficient as it could be; however, it works. See “Formal Description” below. (A “better” program will be found in the second example.)
+Per the discussion of Sipser (2006) (p. 157) we will provide the three levels of description:
+High-level description:
+:The computation m+n adds two blocks of unary marks (strokes) to produce a single block that represents their sum. At the start the blocks are separated by a single blank. The machine will hunt for this blank and fill it in. This solid block of marks constitutes the sum+1. The machine will hunt for the far-right end of the sum and erase one (the extra) far-right mark. Finally, it will proceed to the left end and halt with the head on the left-most mark.
+Implementation description:
+:Implementation specification:
+:(a) Initial number format: The numbers n and m will be represented as close-packed blocks of unary marks, where number “0” = no mark and no blank, “1” = 1 mark, etc. The numbers n and m will be separated by a single blank, both from each other and any other parameters that happen to be on the tape:
+:: Example: 2+3 = B11B111B
+:: Example: 0+3 = B111B
+:(b) Initial head location, initial state: Case m>0: Initially the machine will be scanning the leftmost 1 on the tape, e.g. parameter m. Case m=0: If parameter m is 0, or both m and n are 0, then the head will be where a mark would be if there were to be a mark, i.e. to the left of the spacer-blank. The initial state will be “1”:
+:: Example: 2+3 = B111B111B
+:: Example: 0+3 = BB1111B
+:(c) Successful computation – number format at Halt: The machine will halt on a single block of marks that represent the sum in the conventional sense. This will be true for m+0 and 0+n. In the case of 0+0 the sum will be “null”, neither blank nor mark.
+:: Example: 5 = B11111B
+:: Example: 0 = BB
+:(d) Successful computation – head location at Halt: The machine will halt scanning the left-most 1 in the block that represents the sum:
+:: Example: 2+3 = 5 = B1k1111B
+:: Example: 2+0 = 2 = B1k1BB
+:: Example: 0+3 = 3 = BB1k11B
+:: Example: 0+0 = 0 = BkB
+:(e) Unsuccessful computation: The machine will never halt or will halt in some non-standard configuration:
+:: Example:  Bk11111B, or B11k111B, or B11111kB, etc.
+:Implementation description 
+:*State 1: Test for 0+n and by implication 0+0; if the head starts over a blank square, move the head once right and halt. If the tape is marked move the tape right once and go to state 2.
+:*State 2: If the tape is blank then the head has arrived at the space-blank between the two integers. Print a mark, then go to state 3. If the tape is marked, continue the hunt for a blank by moving the head to the right and looping through state 2.
+:*State 3: State "2 & B" has previously found the spacer blank and filled it in with a mark. While the tape is marked continue moving the head to the right while hunting for the blank to the right of the right-most number “n”. When the head finds this blank to the right of “”" (state 3 & 0), move the tape head left once and go to state 4.
+:*State 4: If the scanned square is marked, then the head is at the far right end of the sum. Erase this extra mark, then loop back to 4. The head will now be on a blank so move the head left once and jump to state 5.
+:*State 5: Hunt for the left end of the sum: while the scanned square is marked, move the head left and loop to state 5. When the head reaches the far left end it will be on a blank. Move the tape right once to be over the left-most mark and halt.
+Formal description:
+The state table written in (unreduced) quadruple-form'':
+Sample "run" of the Turing-machine program: The program has been turned on its side; time runs down the page. The position of the head is high-lighted yellow. The "complete configuration" or the "total machine/system state" (in the context of Blass-Gurevich's "evolution of the state") is shown in the far-right column -- the instruction-number (finite-state machine's "state") is the number inside the brackets to the right of the scanned symbol (rather than a subscript to the right, for technical reasons):
+(NOTE: The reader may find the equivalent Post-Turing machine program easier to read and simulate. In this example the head moves; just reverse L and R for the case when the tape moves): 
+
+== The "quality" of an algorithm: a "better" version of Turing-machine addition m+n ==
+
+We will see from the example below that the following addition-algorithm is "better" for computing m+n than the one specified above, at least from the quality standpoint of requiring (i) less space (fewer instructions: 4 versus 5 states), and (ii) less time (9 versus 16 steps). Whether or not the algorithm below is better than the above in terms of reliability is another question. Because it does not explore the 2nd number (i.e. "n") it cannot halt in a "non-standard" or fail-to-compute-correctly state. 
+We conclude from this example that although the algorithms result in the same output (end state) they perform differently. In fact there are many other possible algorithms reference here: B-B-J 2002 discuss this somewhere in the text. However comparisons and measurements of "quality" must be made relative to an a priori standard reference, quotes here: Knuth 1972 discusses this briefly.  
+High-level description #1:
+:Because the unary numbers to be added, e.g. m+n, are separated by a single blank the machine will hunt for this blank and fill it in. It will then move the head left to the blank at the left of the sum, move the head right once, erase the mark there, move the head right once again and halt. At the beginning a test is provided for the case of 0+n (and by implication, 0+0). 
+Formal description #3: The state table written in quadruple-form:
+An example run of the algorithm:
+
+== Example: Counter-machine versus Turing-machine computation ==
+
+This example is even more detailed than the above, because here the counter machine is specified to be a simulation in an EXCEL spread sheet. Where the "user" puts the parameters in the spreadsheet does matter.
+We also observe that, while superficially similar, the core of the two algorithms is truly different: in this example the counter machine has to increment "m" times its parameter "n". (i.e. to add "m"=three to "n", increment "n" three times). In the Turing machine case the machine just had to fill in the first blank it came to, then find its way "home". It could have halted after filling in if we had specified this as acceptable. But the counter machine algorithm does not have this option.
+Thus we conclude that: the algorithm is machine dependent.  
+:(i) Number format: Positive integers (and 0) expressed in conventional decimal notation, one (unbounded) decimal integer per register. Zero is considered to be numeral 0 – the empty count, null, "blank B". The numerals themselves are simply abbreviations for unary counts within the registers:
+:: "0" = B; "1" = |, "2" = | |, "3" = | | |   
+:(iia) (Virtual, simulated) machine type: The machine to be used in the computation as a counter machine is equipped with only 3 registers (alternately: "Only three registers #0, #1, #2 will be used"). The instruction set will be the following three Minsky (1967) instructions:
+:: INC  ; INCrement contents of register r, proceed to next instruction in sequence:  +1 → r , & instruction counter +1 → state-machine instruction counter  
+:: DEC  ;DECrement contents of register r, proceed to next instruction in sequence:  -1 → r , & instruction counter  +1 → [ state-machine instruction counter   
+:: JZ z  ;Jump if contents of register r is Zero then go to instruction z else proceed to next instruction in sequence.
+:: H ; HALT
+:(ib) Target (actual) machine: An EXCEL spreadsheet run on an Intel Pentium processor decodes and interprets the instructions and "runs" the (simulated) counter machine. The instructions – one per cell – are represented by symbol strings, for example, "I N C" or "i n c"; the instruction-operands are represented by decimal numeral symbols "3", "14", etc. 
+:(iii) Head Location: No tape head is required. The instructions' operands – one per cell – are explicit names of the registers upon which the action will be taken and/or explicit jump-to addresses.
+:(iv) Location of the Program: The (virtual-) counter-machine program will be in its finite-state TABLE of instructions: In the EXCEL simulation this virtual program is located in the cells that represent the state-machine TABLE of instructions.
+:(iv) The program: A formal program listing is shown below.  
+High-level description:
+:Repeat until register #2 is 0:
+:: While counting down the contents of register #2 to zero, count up the contents of register #1. The sum will accumulate in register #1. 
+Implementation description :
+:Implementation specification:
+:(a) Input format: The two arguments (m, n) of function "m+n" (e.g. "sum(m, n)") will be represented as integers expressed in conventional decimal notation, one (unbounded) decimal numeral per register. Unused registers will be considered to be blank/empty/of zero-count. Register #0 is reserved to hold the numeral “0” (blank, empty, zero-count). The following symbolism  means "contents of register 5":
+:: Example: integer 5 in register "3",  = symbol "5" = | | | | | 
+:(b) Initial location of arguments: The first argument "m" will be register #1, the second argument "n" in register #2.
+:: Example: 2+3, =0,  =m,  =n
+:(c) Halt upon successful computation: : If the function m+n successfully assigns a value Σ to the arguments (m, n) that are represented initially on the tape, then the machine will eventually halt with the numeral Σ, represented in conventional decimal symbols, in a single register and otherwise-empty registers:
+:: Example: m+n=∑,  =0,  =∑,  =0
+:(d) Halt upon successful computation: register specified to hold output:In this case c the machine will halt with the computation (sum Σ) in register #1: 
+:: Example: 3+2=5,  =0,  =5,  =0
+:(e) Unsuccessful computation: If the function that is to be computed assigns no value to the arguments that are represented initially in the registers, then the machine either will never halt, or will halt in some nonstandard configuration:
+:: Example:  =3,  =0,  = 42, etc.
+Implementation description:
+:*steps 1, 5: Test for n+0 and by implication 0+0: if register #2 is zero, then go to step 5 ’’done’’ else continue:
+:*steps 2, 3: Decrement register #2 and increment register #1; register #1 is accumulationg counts that will, upon halt, represent the sum.
+:*step 4: Unconditionally jump back to step 1 as follows: Test constant-register #0 for 0 (i.e.  =0) and upon (always-)successful test jump back to step 1.
+Formal description:
+:The program is written in “assembly code” mnemonics to be interpreted by an EXCEL program. Either upper- or lower-case may be used, but the spellings are mandatory. The format of how and where to put the code will be seen below and in the example:
+Conventional assembly code listing:
+: "m+n":
+:: 1 JZ (2,5) ;=m: If =0 then instruction 5 else continue 
+:: 2 DEC (2) ;Decrement count in register #2:  -1 →  2 
+:: 3 INC (1) ; =n or sum: Increment count in register #1:  +1 → 1
+:: 4 JZ (0,1) ; IF  =0 then jump to instruction 1 else continue.
+:: 5 HALT 
+The instruction "operation-codes" (assembly mnemonics) are to appear from left to right below their instruction numbers. The instruction "operands" (numerals) are to appear from left to right in separate cells below their mnemonics, as shown: 
+An example of the run of the program; time runs down the page:
+
+== Footnotes ==
+
+*Footnote: Coding instructions for the finite state machine (FSM):
+Models of machine computation such as the Turing machine and counter-machine are considered to be, in a sense, real machines. That is, their finite cousins have to be buildable if someone were so inclined. In the literature, examples of coding for the models usually stop at the tabular level (tables of 4- or 5-tuples) for Turing machines and at the mnemonic level for the various Register machine models
+:Example for the Post-Turing machine model: { L, R, E, P, J0 xxx; J1 xxx; H }. 
+In his paper (1936) Turing went a level further and encoded his tabular 5-tuples into a string of numbers chosen from 1-7. But this encoding was for the instructions of his "universal machine" to be put on the tape. He did not go into much detail with regards to encoding instructions for the finite state machine.
+The standard methods of bottom-level encoding are of only a few types and always use numbers, because symbols other than numbers can be easily translated into number-equivalents (cf Boolos-Burgess-Jeffrey):
+* Unary, e.g. "3" = | | |, or more likely if "0" = |, "3" = | | | | 
+* One of n: where each column is similar to "a wire" with a condition of "1" or "0 = empty". A number is thus represented as an ordinal.
+* polynomial: base-n, e.g. binary, decimal 
+:: binary: n0*20 + n0*21 + n2*22 + ... + nm*2m:: decimal: n0*100 + n0*101 + n2*102 + ... + nm*10m* Gödel numbering expressed in, probably, binary or decimal
+The solution will depend on the nature of the "memory" of the FSM. If it is built from a typical binary Random access memory then the instruction "address" (number) will have to be encoded as binary. The instruction code can be chosen from whatever method is most easy to decode and "fits in the width of the memory".
+This is not a trivial problem, and appears in the work of authors who are encoding for purposes of comparing algorithms example?. What they tend to do is use e.g. two consecutive 8-bit memory "cells" for every instruction (or e.g. 2 x 16 bit). Thus they might encode an instruction set as follows:
+:FSM encoding for up to 128 registers and 256 instructions with an 8-bit random-access memory with two consecutive 8-bit bytes:
+:: *0hhhhhhh: the identifier-number/location/identifier of register h expressed in binary (0 through 127). Example: register #5 = 00000101
+:: *xxxxxxxx: the jump-to address expressed in binary (0 through 255)
+* INC h = 00000001, 0hhhhhhh
+* DEC h = 00000010, 0hhhhhhh 
+* JZ h,x = 1hhhhhhh, xxxxxxxx
+* HALT = 111----- are both expressed in binary
+Thus the first byte always specifies the instruction type. And this type specifies where the 7-bit register number hhhhhhh and the jump-to address will be. But such coding complicates the finite state machine -- it must be smart enough to know (i) interleave and (ii) that if 011hhhhh occurs then the next instruction will be a jump-to address. And if a mistake is made, the machine can begin to "execute" operands instead of instructions.
+
+==References==
+
+*[tpl]cite book|last=Boolos, George and Jeffrey, Richard|authorlink=Boolos and Jeffrey|title=Computability and Logic|edition=First|publisher=Cambridge University Press, London|year=1974, 1980, 1989, 1999|isbn= 0-521-20402-X[/tpl]. cf chapter 3 Turing machines where they discuss "certain enumerable sets not effectively (mechanically) enumerable".
+*Andreas Blass and Yuri Gurevich (2003), Algorithms: A Quest for Absolute Definitions, Bulletin of European Association for Theoretical Computer Science 81, 2003. Includes an excellent bibliography of 56 references.
+*[tpl]cite journal|last=Church|first=Alonzo|authorlink=Alonzo Church|title=An Unsolvable Problem of Elementary Number Theory|journal=The American Journal of Mathematics|volume=58|pages= 345–363|year=1936|doi=10.2307/2371045|issue=2|publisher=The Johns Hopkins University Press|jstor=2371045[/tpl] Reprinted in The Undecidable, p. 89ff. The first expression of "Church's Thesis". See in particular page 100 (The Undecidable) where he defines the notion of "effective calculability" in terms of "an algorithm", and he uses the word "terminates", etc.
+*[tpl]cite book|last=Davis|first=Martin|authorlink=Martin Davis|title=The Undecidable: Basic Papers On Undecidable Propostions, Unsolvable Problems and Computable Functions|publisher=Raven Press|location=New York|year=1965[/tpl] Davis gives commentary before each article. Papers of Gödel, Alonzo Church, Turing, Rosser, Kleene, and Emil Post are included.
+*[tpl]cite book|last=Davis|first=Martin|authorlink=Martin Davis|title=Engines of Logic: Mathematicians and the Origin of the Computer|publisher=W. W. Nortion|location=New York|year=2000[/tpl] Davis offers concise biographies of Leibniz, Boole, Frege, Cantor, Hilbert, Gödel and Turing with von Neumann as the show-stealing villain. Very brief bios of Joseph-Marie Jacquard, Babbage, Ada Lovelace, Claude Shannon, Howard Aiken, etc.
+* [tpl]DADS|algorithm|algorithm[/tpl]
+*Yuri Gurevich, Sequential Abstract State Machines Capture Sequential Algorithms, ACM Transactions on Computational Logic, Vol 1, no 1 (July 2000), pages 77-111. Includes bibliography of 33 sources.
+*[tpl]cite book|last=Kleene|first=Stephen C.|authorlink=Kleene|title=Introduction to Metamathematics|edition=Tenth Edition 1991|publisher=North-Holland Publishing Company|year=First Edition 1952[/tpl] Excellent -- accessible, readable -- reference source for mathematical "foundations".
+*A. A. Markov (1954) Theory of algorithms. by Jacques J. Schorr-Kon and PST staff Imprint Moscow, Academy of Sciences of the USSR, 1954 Jerusalem, Israel Program for Scientific Translations, 1961; available from the Office of Technical Services, U.S. Dept. of Commerce, Washington Description 444 p. 28 cm. Added t.p. in Russian Translation of Works of the Mathematical Institute, Academy of Sciences of the USSR, v. 42. Original title: Teoriya algerifmov. Dartmouth College library. U.S. Dept. of Commerce, Office of Technical Services, number OTS 60-51085.
+*[tpl]cite book|last=Minsky|first=Marvin|authorlink=Minsky|title=Computation: Finite and Infinite Machines|edition=First|publisher=Prentice-Hall, Englewood Cliffs, NJ|year=1967[/tpl] Minsky expands his "...idea of an algorithm -- an effective procedure..." in chapter 5.1 ''Computability, Effective Procedues and Algorithms. Infinite machines."
+*[tpl]cite journal|last=Post|first=Emil|authorlink=Emil Post|title=Finite Combinatory Processes, Formulation I|journal=The Journal of Symbolic Logic|volume=1|year=1936|pages=pp.103–105|doi=10.2307/2269031|issue=3|publisher=Association for Symbolic Logic|jstor=2269031[/tpl] Reprinted in The Undecidable, p. 289ff. Post defines a simple algorithmic-like process of a man writing marks or erasing marks and going from box to box and eventually halting, as he follows a list of simple instructions. This is cited by Kleene as one source of his "Thesis I", the so-called Church-Turing thesis.   
+*[tpl]cite journal|last=Rosser|first=J.B.|authorlink=J.B. Rosser|title=An Informal Exposition of Proofs of Godel's Theorem and Church's Theorem|journal=Journal of Symbolic Logic|volume= 4 |year=1939[/tpl] Reprinted in The Undecidable, p. 223ff. Herein is Rosser's famous definition of "effective method": "...a method each step of which is precisely predetermined and which is certain to produce the answer in a finite number of steps... a machine which will then solve any problem of the set with no human intervention beyond inserting the question and (later) reading the answer" (p. 225-226, The Undecidable)
+*[tpl]cite book|last=Sipser|first=Michael |title=Introduction to The Theory of Computation, Second Edition |edition=2006|publisher=Thomson Course Technology, Boston MA[/tpl] cf Chapter 3 The Church Turing Thesis p. 137 wherein he presents his §3.3 The Definition of Algorithm.
+*[tpl]cite book|last=Stone|first=Harold S.|title=Introduction to Computer Organization and Data Structures|edition=1972|publisher=McGraw-Hill, New York[/tpl] Cf in particular the first chapter titled: Algorithms, Turing Machines, and Programs. His succinct informal definition: "...any sequence of instructions that can be obeyed by a robot, is called an algorithm" (p. 4).
+

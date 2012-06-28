@@ -1,0 +1,24 @@
+
+EnergyML(tm) (Energy Markup Language) is the name for Energistics(tm) foundation standards for its subject area XML and Web Services industry standards in the upstream oil and natural gas industry. The associated subject area standards families currently include WITSML(tm) Standards for drilling, completions, and interventions, PRODML(tm) Standards for production, and RESQML(tm) Standards for reservoir characterization.
+The user community for EnergyML Standards is the Industry Services Special Interest Group (SIG)'s Technical Architecture Work Group, with direct representation from the WITSML, PRODML, and RESQML SIGs.
+This work group published a basic set of Web Services Interoperability Standards in 2008.Energistics Web Services Interoperability Standards, Version 1.0, 2008.
+The realization of the vision of consistent and interoperable XML and Web Services families of standards will be achieved incrementally taking into account the current capabilities and maturity of each constituent family of standards and the constantly changing nature of infrastructure and enabling technologies.
+In the longer term, major releases of each family of standards will be used to make significant strategically motivated standards.
+In the short term, minor releases of each family of standards will provide workable approaches for maximum access scope and consistency based on current capabilities.
+An illustration of the EnergyML approach using WITSML Version 1.4.0 and PRODML Services Version 2.0 / Data Version 1.2 is illustrated in the PRODML SIG pilot implementation in 2009 by Chevron and Moblize in which all WITSML and PRODML data objects can be accessed using PRODML Services Version 2.0 interfaces.
+
+==See also==
+
+* Energistics
+* WITSML
+* PRODML
+* RESQML
+
+==References==
+
+==External links==
+
+* Energistics Web site
+* PRODML Standards Web site
+* WITSML Standards Web site
+

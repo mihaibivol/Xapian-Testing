@@ -1,0 +1,49 @@
+
+SimRank is a general similarity measure, based on a simple and intuitive graph-theoretic model.
+SimRank is applicable in any domain with object-to-object relationships, that measures similarity of the structural context in which objects occur, based on their relationships with other objects.
+Effectively, SimRank is a measure that says "two objects are similar if they are related to similar objects."
+
+== Introduction ==
+
+Many applications require a measure of "similarity" between objects.
+One obvious example is the "find-similar-document" query,
+on traditional text corpora or the World-Wide Web.
+More generally, a similarity measure can be used to cluster objects, such as for collaborative filtering in a recommender system, in which “similar” users and items are grouped based on the users’ preferences.
+Various aspects of objects can be used to determine similarity, usually depending on the domain and the appropriate definition of similarity for that domain.
+In a document corpus, matching text may be used, and for collaborative filtering, similar users may be identified by common preferences.
+SimRank is a general approach that exploits the object-to-object relationships found in many domains of interest.
+On the Web, for example, two pages are related if there are hyperlinks between them.
+A similar approach can be applied to scientific papers and their citations, or to any other document corpus with cross-reference information.
+In the case of recommender systems, a user’s preference for an item constitutes a relationship between the user and the item.
+Such domains are naturally modeled as graphs, with nodes representing objects and edges representing relationships.
+The intuition behind the SimRank algorithm is that, in many domains, similar objects are related to similar objects.
+The base case is that objects are similar to themselves
+G. Jeh and J. Widom. SimRank: a measure of structural-context similarity. In KDD'02: Proceedings of the eighth ACM SIGKDD international conference on Knowledge discovery and data mining, pages 538-543. ACM Press, 2002. http://www-cs-students.stanford.edu/~glenj/simrank.pdf.
+It is important to note that SimRank is a general algorithm that determines only the similarity of structural context.
+SimRank applies to any domain where there are enough relevant relationships between objects to base at least some notion of similarity on relationships.
+Obviously, similarity of other domain-specific aspects are important as well; these can — and should be combined with relational structural-context similarity for an overall similarity measure.
+For example, for Web pages SimRank can be combined with traditional textual similarity; the same idea applies to scientific papers or other document corpora.
+For recommender systems, there may be built-in known similarities between items (e.g., both computers, both clothing, etc.), as well as similarities between users (e.g., same gender, same spending level).
+Again, these similarities can be combined with the similarity scores that are computed based on preference patterns, in order to produce an overall similarity measure.
+
+== Basic SimRank equation ==
+
+Otherwise,
+
+== Computing SimRank ==
+
+However, the recent research [ref]D. Lizorkin, P. Velikhov, M. Grinev and D. Turdakov. Accuracy Estimate and Optimization Techniques for
+
+== Further research on SimRank ==
+
+* Fogaras and Racz D. Fogaras and B. Racz. Scaling link-based similarity search. In WWW '05: Proceedings of the 14th international conference on World Wide Web, pages 641--650, New York, NY, USA, 2005. ACM. http://www2005.org/cdrom/docs/p641.pdf suggested speeding up SimRank computation through probabilistic computation using the Monte Carlo method.
+* Antonellis et al. I. Antonellis, H. Garcia-Molina and C.-C. Chang. Simrank++: Query Rewriting through Link Analysis of the Click Graph. In VLDB '08: Proceedings of the 34th International Conference on Very Large Data Bases, pages 408--421. http://dbpubs.stanford.edu/pub/showDoc.Fulltext?lang=en&doc=2008-17&format=pdf&compression=&name=2008-17.pdf extended SimRank equations to take into consideration (i) evidence factor for incident nodes and (ii) link weights.
+* Lizorkin et al.  proposed several optimization techniques for speeding up SimRank iterative computation.
+
+== See also ==
+
+* PageRank
+
+== Citations ==
+
+

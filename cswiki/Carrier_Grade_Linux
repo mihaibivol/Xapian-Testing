@@ -1,0 +1,29 @@
+
+Carrier Grade Linux (CGL) is a set of specifications which detail standards of availability, scalability, manageability, and service response characteristics which must be met in order for Linux to be considered "carrier grade" (i.e. ready for use within the telecommunications industry). The term is particularly applicable as telecom converges technically with data networks and commercial off-the-shelf commoditized components such as blade servers.
+Carrier-grade is a term for public network telecommunications products that require up to 5 nines or 6 nines (or 99.999 to 99.9999 percent) availability, which translates to downtime per year of 30 seconds (6 nines) to 5 minutes (5 nines). The term "5 nines" is usually associated with carrier-class servers, while "6 nines" is usually associated with carrier-class switches.
+
+==CGL Project and Goals==
+
+The primary motivation behind the CGL effort is to present an open architecture alternative to the closed, proprietary software on proprietary hardware systems that are currently used in telecommunication systems. These proprietary systems are monolithic (hardware, software and applications integrated very tightly) and operate well as a unit. However, they are hard to maintain and scale as telecommunications companies have to utilize the services of the vendor for even relatively minor enhancements to the system.
+CGL seeks to progressively reduce and / or eliminate this dependence on proprietary systems and provide a path for easy deployment and scalability by utilizing cheap COTS systems to assemble a telecommunications system.
+The CGL effort was started by the Open Source Development Lab (CGL Working Group). The specification is now in the combined Linux Foundation. The latest specification release is CGL 4.0. Several CGL-registered Linux distributions exist, notably Debian, MontaVista, NexusWare and Wind River.Linux Foundation CGL Workgroup "Registered Distributions", accessed November 20, 2010.
+
+==Applications and Services==
+
+The OSDL CGLWG defines three main types of applications that carrier-grade Linux will support — gateways, signaling servers, and management.
+*Gateway applications provide bridging services between different technologies or administrative domains. Gateway applications are characterized by supporting a large number of connections in real-time over a large number of interfaces, with the requirement of not losing any frames or packets. An example of a gateway application is a media gateway, which converts conventional voice circuits using TDM to IP packets for transmission over an IP-switched network.
+*Signaling server applications, which include SS7 products, handle control services for calls, such as routing, session control, and status. Signaling server applications are characterized by sub-millisecond real-time requirements and large numbers of simultaneous connections (10,000 or more). An example signaling server application would include control processing for a rack of line cards.
+*Management applications handle traditional service and billing operations, as well as network management. Management applications are characterized by a much less stringent requirement for real-time, as well as by additional database and communication-oriented requirements. A typical management application might handle visitor and home location registers for mobile access, and authorization for customer access to billable services.
+
+==Notes==
+
+==See also==
+
+* Hard real-time
+* Linux-HA
+* High availability
+
+==External links==
+
+* Carrier Grade Linux from the Linux Foundation
+

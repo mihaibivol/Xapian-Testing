@@ -1,0 +1,29 @@
+
+Cthugha is a music visualization computer program. It was written in the mid-90's by Kevin "Zaph" Burfitt, originally for the PC, and was later ported to other platforms. It was freely distributed.
+
+==History==
+
+Cthugha was started by Australian coder Kevin "Zaph" Burfitt in September 1993 under DOS for the PC SBpro - sampling stereo directly (not DMA) - comp.sys.ibm.pc.soundcard|Google Groups, but not released to the public until version 2.0 in March 1994 CTHUGHA 2.0 1/1 - comp.sys.ibm.pc.demos | Google Groups:. It wasn't until release 5.1p in October 1994 Cthugha 5.1 released - comp.sys.ibm.pc.demos | Google Groups that popularity of the program took off; this coinciding with the relatively new availability of cheap sound-cards for PCs, such as the Soundblaster.
+Cthugha was released for Linux ("Cthugha-L") in May 1995 Cthugha available for Linux - comp.sys.ibm.pc.soundcard.misc | Google Groups, and for the Macintosh ("MaCthugha") in January 1996  ANNOUNCE: PowerMac version of CTHUGHA now available! - alt.graphics.cthugha | Google Groups
+In 1994 Cthugha was used heavily in the music video for the top-40 song Dead Eyes Opened by Severed Heads, and as the video wall background for the Australian children's TV game show Challenger, hosted by Zoe Sheridan during the late 90's
+Burfitt stopped work on Cthugha in January 2001, and there were various attempts by others to carry on the project, but by that time there were so many clones of the software that there was little enthusiasm. Cthugha may have been the forerunner – either in inspiration, or possibly even as source-code – of the numerous and varied "visualisation" plugins for mp3 players and media players on many computer architectures.
+
+==Usage==
+
+Cthugha uses a sound card's CD, line or microphone input.
+
+==Reaction==
+
+The oscilloscope patterns of Cthugha have been described as "weird"Australian PC Review, October 1994 and "hypnotic".HotWired 3.03 (page 156), March 1995
+
+==References==
+
+==External links==
+
+*The Official Cthugha page
+*Cthugha development page
+
+==See also==
+
+*Cthugha - The mythical demon the software was named after.
+

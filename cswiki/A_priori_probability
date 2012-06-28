@@ -1,0 +1,12 @@
+
+The term ''a priori'' probability is used in distinguishing the ways in which values for probabilities can be obtained. In particular, an "a priori probability" is derived purely by deductive reasoning.Mood A.M., Graybill F.A., Boes D.C. (1974) Introduction to the Theory of Statistics (3rd Edition). McGraw-Hill. Section 2.2 (available online) One way of deriving a priori probabilities is the principle of indifference, which has the character of saying that, if there are N mutually exclusive and exhaustive events and if they are equally likely, then the probability of a given event occurring is 1/N. Similarly the probability of one of a given collection of K events is K/N.
+One disadvantage of defining probabilities in the above way is that it applies only to finite collections of events.
+In Bayesian inference, a priori probabilities are known as "uninformative priors" or "objective priors"; note that "prior probability" is a broader concept.
+
+==See also==
+
+* A priori (statistics)
+
+==References==
+
+

@@ -1,0 +1,11 @@
+
+PICMG 2.14 is a specification by PICMG (PCI Industrial Computer Manufacturers Group) that defines a packet-based communications between heterogeneous PCI (Peripheral Component Interconnect) agents (multi-computing) within the CompactPCI (3U or 6U Eurocard-based industrial computer) system architecture.
+
+==Status==
+
+* Adopted: 9/5/2001
+* Current Revision: 1.0
+
+==References==
+
+

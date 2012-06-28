@@ -1,0 +1,20 @@
+
+PICMG 1.0 is a PICMG specification that defines a CPU form factor and corresponding backplane connectors for PCI-ISA passive backplanes.  This standard moves components typically located on the motherboard (i.e. memory, CPUs and chipset components) to a single plug-in card.  PICMG 1.0 CPU Cards look much like standard ISA cards with extra gold finger connections for the ISA bus and the root PCI bus. The "motherboard" is replaced with a simple "passive backplane" that has only PCI and ISA connectors attached to it.  These backplane connections include a dedicated system slot of the PICMG 1.0 CPU and various connections for standard ISA and PCI peripheral cards. This backplane is simple and robust, with a very low likelihood of failure, given its passive nature.   This allows a much lower Mean Time to Repair than classic computer motherboard approaches, as electronics associated with CPUs can be replaced without having to remove peripheral devices.
+
+==PICMG Status==
+
+Adopted : 10/10/1994
+Current Revision : 2.0
+
+==External links==
+
+*PICMG's Overview of PICMG 1.0 PCI/ISA
+
+==PICMG Status==
+
+Adopted : 5/25/1995
+Current Revision : 1.1
+
+==References==
+
+

@@ -1,0 +1,70 @@
+
+The Google Search Appliance is a rack-mounted device providing document indexing functionality that can be integrated into an intranet, document management system or web site using a Google search-like interface for end-user retrieval of results. The operating system is based on CentOS.  The software is produced by Google and the hardware is manufactured by Dell Computers and is based on Dell's PowerEdge R710.http://news.cnet.com/8301-1001_3-10254486-92.html
+The device is supplied in three models: a model capable of indexing up to 300,000 documents (Google Mini), a 2U model (GB-7007) capable of indexing up to 10 million documents, and a 5U (2U plus 3U storage) model (GB-9009) that is capable of indexing up to 30 million documents.Computerworld - Google Releases New Versions of Its Search Appliance  Later versions of the software allow the connecting of multiple appliances to offer searching "millions or billions" of documents.Information Week - Google Connects Search Appliances for Billion Document Indexing Sales are operated on a licensing scheme which starts as a two-year contract for maintenance, support and software updates.
+
+== Features ==
+
+The Google Search Appliance contains Google search technologies and a means of configuring and customizing the appliance. The appliance also comes with a T-shirt.[tpl]cite web|url=http://castfortwo.blogspot.com/2007/07/unboxing-google-search-appliance.html|title=CAST42|accessdate=2008-05-14[/tpl]
+Other features include
+* it supports Google Analytics and Google Sitemaps functionality
+* its search capabilities include searching web content, other file types (e.g. html, pdf, office documents), databases (Oracle, MySQL, Microsoft SQL Server, IBM DB2, Sybase) and content management systems (EMC Documentum, FileNet, Open Text LiveLink, Microsoft SharePoint)
+* indexing (crawling) of search-able content can be configured by specifying URLs to crawl. Search patterns can also be included to limit the information that is being searched and searching can be customized by using the OneBox API
+* the result set will be displayed with a Google-like appearance. The default behavior can be customized by using XSL Transformations
+* keywords that returns specific result when specific keywords are used. Example: Associate Cell Phone with http://SampleCellProvider.com so whenever someone searches for cell phone your link will appear at the top of the search no matter where it would normally appear in the result set
+* synonyms will give alternate terms for your search. E.g. when user types “cell phone”. Search will add suggestions e.g. “mobile phone” to the result set
+* cached results each result item will include a "cached" link next to each result item. By clicking on the user will be able to view an HTML version of the page / document which means that the actual document does not need to be opened
+* The result set also contains number of results returned, duration of search, document title, url of document, date modified. 
+* search terms are highlighted to show search hits and allows you to see words in context without having to open documents. 
+* groups similar results to hide duplicates. 
+* shows document types
+* result sets can be sorted by date or relevance
+
+== Models ==
+
+=== Google Mini ===
+
+The Google Mini is a smaller and lower-cost solution for small and medium-sized businesses to set up a search engine that allows them to index and search up to 300,000 documents.http://www.google.com/enterprise/mini/ Google Mini Homepage
+
+=== Google Search Appliance ===
+
+The Google Search Appliance can be purchased in two separate versions based on the number of documents being indexed. Model GB-7007, a 2U appliance, can index up to 10,000,000 documents. The GB-9009 5U appliance can index up to 30,000,000 documents. 
+Software version 6.0 was released in June, 2009.  This software runs on some hardware versions of the GB-1001 model (all units with an "S5" prefix in their "Appliance ID"), and all GB-7007 and GB-9009 models.  New features available in this software include:
+*Customized and enhanced relevancy tuning to bias certain nodes’ and collections’ results. 
+*Administration APIs for .net and Java programmers to automate tasks.http://i.foundituseful.com/category/7.aspx GSA Introduction
+*Early binding to increase serving performance 
+*Customization in SAML authentication and Authorization 
+*Added user results to search results. 
+*Search-as-you-Type functionality. 
+*Query translation to 40 different languages. 
+*Replication of search results
+*Clustering multiple GSAs by using a new technology called (GSA)n makes it possible to index up to 1 billion documents[tpl]Citation needed|date=June 2009[/tpl]
+
+=== Older appliances ===
+
+Google used to sell a 2U appliance (GB-1001) capable of indexing up to 5,000,000 documents, a half-rack cluster (GB-5005) of five 2U nodes capable of indexing up to 10,000,000 documents, and a full-rack cluster (GB-8008) of eight and later twelve nodes capable of indexing up to 30,000,000 documents. Some models were based on Dell PowerEdge 2950 2U rackmount servers.
+
+=== Scalability ===
+
+* Multiple appliances can be linked together to scale to billions of documents
+* Physical hardware can be distributed across multiple locations
+
+=== Administration ===
+
+Minimal support infrastructure / admin staff is needed as quoted on their web site “…doesn’t need a tech support baby-sitter. You simply plug it in, configure it, and let it run…”. The device does come with a web based admin console that can be used to make configuration changes where needed. Additional customisation is possible through a Representational State Transfer (REST) based admin API that allows for automation of tasks. There are also existing admin modules that can be used for customization. 
+
+=== Product availability ===
+
+The Google Search Appliance is available in the United States, Canada, Europe, Japan, parts of Asia, the Middle East, North Africa and South America. 
+If a person is interested in using the Google Search Appliance in another region, they can deploy the Google Search Appliance at a location or data center in the US, Canada, or Europe.
+
+== References ==
+
+== External links ==
+
+* Official web site for the Google Search Appliance
+* Official web site for the Google Mini
+* Documentation for the Google Search Appliance
+* Review at SearchTools Analysis
+* InfoWorld Review of Google Search Appliance, ISYS:web 8
+* Example of an online Google Appliance - At MIT
+

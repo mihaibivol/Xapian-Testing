@@ -1,0 +1,28 @@
+
+DuraCloudDuraCloud.org is an open source technology project for preserving and archiving digital content. DuraCloud is developed by and hosted as a SAAS by DuraSpace.DuraSpace.org DuraCloud uses existing commercial cloud infrastructure to enable long-term access to digital content. DuraCloud provides preservation support services and access services for academic libraries, academic research centers, and other cultural heritage organizations.
+DuraCloud integrates with cloud storage across multiple commercial and non-commercial providers, as well as provides compute services that enable digital preservation, data access, transformation, and data sharing. The DuraCloud open source software is available under the terms of the Apache License, Version 2.0.DuraCloud Apache License
+
+==History==
+
+In 2009, The Library of Congress National Digital Information Infrastructure and Preservation Program (NDIIPP) and DuraSpace announced a joint pilot program to test the use of cloud technologies to enable perpetual access to digital content with DuraCloud.Library of Congress and DuraCloud Launch Pilot Program Using Cloud Technologies to Test Perpetual Access to Digital Content: Service is Part of National Digital Information Infrastructure and Preservation ProgramLibrary of Congress and DuraCloud Launch Pilot Program Using Cloud Technologies to Test Perpetual Access to Digital Content The pilot program entered a second phase in 2010. Several open source releases of the DuraCloud software led to the public launch of the managed service on November 7, 2011.DuraSpace Launches Open Source Cloud Service DuraCloud is supported by the DuraSpace organization.DuraSpace Technologies
+DuraCloud 2.0 was released on April 17, 2012.DuraCloud Release Notes The 2.0 release featured an architectural shift toward increased automation of services running in the cloud, including content integrity checks, replication of content between storage providers, as well as ongoing synchronization of content.
+
+==Technology==
+
+DuraCloud is an open source software platform consisting of a set of Java web applications, OSGI-based services, and associated tools that work together to provide mediated preservation and access functions on top of existing cloud storage systems. DuraCloud is a web application with a single API that can be used to move content in and out of multiple cloud-based storage systems. DuraCloud services run inside an OSGI container that performs tasks such as bit integrity checking, format migration, media streaming, and more. Services can easily be installed and uninstalled and new pluggable services can be added. Other DuraCloud web applications provide storage and service reports, automated servie maintenance, and a simple GUI for managing content files.
+
+==See also==
+
+*Cloud computing
+*Cloud storage
+*Digital preservation
+*DSpace
+
+==References==
+
+==External links==
+
+*Kimpton, M., Payette, S., Using Cloud Infrastructure as Part of a Digital Preservation Strategy with DuraCloud: EDUCAUSE Quarterly Magazine, Vol. 33, Number 2, 2010
+*Johnson, K., DuraCloud Protects Against Cloud Failures: Wired Cloudline (blog). April 19, 2012
+*Brazingon, A., DuraCloud Offers Redundant Storage Across Multiple Cloud Providers: Campus Technology (blog). May 1, 2012
+

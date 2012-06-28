@@ -1,0 +1,9 @@
+
+ESP-r is an open-sourced building performance energy modeling software that was created by the University of Strathclyde.http://www.esru.strath.ac.uk/Programs/ESP-r.htmhttp://www.strath.ac.uk/esru/  It is primarily used in research, as a tool for consultants or as a teaching tool.  ESP-r can model the thermal, visual and acoustic performance of a building as well as to estimate the heat, moisture and electrical power of the modeled building.
+ESP-r calculates building performance values based on a finite volume approach where it solves a set of conservation equations. It was developed in 1974 and was converted in 2002 to the GNU Public License.http://apps1.eere.energy.gov/buildings/tools_directory/software.cfm/ID=39/pagename=alpha_list  ESP-r is designed to work on the Unix operating system yet can be run in Windows using a Unix modulator or run with the Windows version. The current ESP-r Archivist is Ian Beausoleil Morrison.
+Some advantages that ESP-r has are its power and flexibility enables a well-informed user to optimize a house.  The power behind ESP-r is its holistic nature and range to features.  The downside is that the details and lack of documentations means users need specific knowledge to complete complex tasks.  ESP-r is still mainly a research tool even though it is used for some consulting and teaching applications.
+ESP-r has been extensively validated and there are various studies and thesis done on the topic.Strachan P A. 2000. 'ESP-r: Summary of Validation Studies
+
+==References==
+
+

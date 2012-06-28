@@ -1,0 +1,38 @@
+
+ 
+BleachBit is a free software disk space cleaner, privacy manager, and computer system optimizer.
+
+== History ==
+
+BleachBit was first publicly released released on 24 December 2008 for GNU/Linux systems.http://bleachbit.blogspot.com/2008/12/bleachbits-public-debut.html The 0.2.1 release created some controversyhttp://lwn.net/Articles/313679/ by suggesting GNU/Linux needed a registry cleaner.
+Version 0.4.0 introduced CleanerML,http://bleachbit.blogspot.com/2009/02/bleachbit-040-cleaner.html a standards-based markup language for writing new cleaners. On May 29, 2009, BleachBit version 0.5.0 added support for Windows XP, Vista, and 7.http://bleachbit.blogspot.com/2009/05/bleachbit-050-released.html On September 16, 2009, version 0.6.4 introduced command line support.http://bleachbit.sourceforge.net/news/bleachbit-064-released
+BleachBit is available for download through its website and the repositories of many GNU/Linux distributions.
+As of October 15, 2009, BleachBit was more active than 99.972% of projects  on SourceForge, and according to the Ubuntu Popularity Contesthttp://popcon.ubuntu.com/ BleachBit was more popular than 93.44% of installed packages.
+
+== Featureshttp://bleachbit.sourceforge.net/features ==
+
+* Identifying and removing cache, cookies, Internet history, temporary files, and log files for 50 applications including Firefox, Opera, Safari, APT, Google Chrome, Flash.
+* Removing unused localizations (also called locale files) which are translations of software.
+* Shredding files and wiping unallocated disk space to minimize data remanence.
+* Wiping unallocated disk space to improve compression ratio for disk image backups.
+* Shredding any file selected by the user.
+* Vacuuming Firefox's SQLite database which suffers fragmentation.  No other system cleaner features vacuuming.[tpl]citation needed|date=February 2012[/tpl]
+* Command line interface for scripting automation and headless operation.
+* Translated to 32 languages.http://bleachbit.sourceforge.net/features
+
+== Technology ==
+
+BleachBit is written in the Python programming language and uses PyGTK.
+Most of BleachBit's cleaners are written in CleanerML,http://bleachbit.svn.sourceforge.net/viewvc/bleachbit/trunk/cleaners/ an XML-based markup language for writing cleaners which is an open standard.http://bleachbit.blogspot.com/2009/02/cleaner-markup-language.html CleanerML does not only deal with deleting files, but also executes more specialized actions such as vacuuming an SQLite database (used, for example, to clean Yum).
+BleachBit's file shredder uses only a single passhttp://bleachbit.blogspot.com/2009/06/validating-secure-erase.html because of the lack of evidence that multiple passes, such as the 35-pass Gutmann method, are more effective.  However, multiple passes are significantly slower and may give the user a false sense of security by overshadowing other ways privacy may be compromised.
+
+== References ==
+
+== External links ==
+
+* BleachBit homepage
+* BleachBit project page at SourceForge
+* Review by Downloadsquad (June 9, 2009)
+* Review by SoftPedia (September 16, 2009)
+* Review by CNET (January 19, 2011)
+

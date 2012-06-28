@@ -1,0 +1,298 @@
+
+Statistical mechanics or statistical thermodynamicsThe terms statistical mechanics and statistical thermodynamics are used interchangeably.  Statistical physics is a broader term which includes statistical mechanics, but is sometimes also used as a synonym for statistical mechanics is a branch of physics that applies probability theory, which contains mathematical tools for dealing with large populations, to the study of the thermodynamic behavior of systems composed of a large number of particles.  Statistical mechanics provides a framework for relating the microscopic properties of individual atoms and molecules to the macroscopic bulk properties of materials that can be observed in everyday life, therefore explaining thermodynamics as a result of classical and quantum-mechanical description of statistics and mechanics at the microscopic level.
+Statistical mechanics provides a molecular-level interpretation of macroscopic thermodynamic quantities such as work, heat, free energy, and entropy.  It enables the thermodynamic properties of bulk materials to be related to the spectroscopic data of individual molecules.  This ability to make macroscopic predictions based on microscopic properties is the main advantage of statistical mechanics over classical thermodynamics. Both theories are governed by the second law of thermodynamics through the medium of entropy. However, entropy in thermodynamics can only be known empirically, whereas in statistical mechanics, it is a function of the distribution of the system on its micro-states.
+Statistical mechanics was initiated in 1870 with the work of Austrian physicist Ludwig Boltzmann, much of which was collectively published in Boltzmann's 1896 Lectures on Gas Theory.[tpl]cite book|title=Statistical Thermodynamics and Stochastic Theory of Nonequilibrium Systems| last1=Ebeling| first1=Werner| last2= Sokolov| first2= Igor M.| year=2005| publisher=World Scientific Publishing Co. Pte. Ltd.| isbn=978-90-277-1674-3| pages=3–12|url=http://books.google.de/books?id=KUjFHbid8A0C[/tpl] (section 1.2) Boltzmann's original papers on the statistical interpretation of thermodynamics, the H-theorem, transport theory, thermal equilibrium, the equation of state of gases, and similar subjects, occupy about 2,000 pages in the proceedings of the Vienna Academy and other societies.  The term "statistical thermodynamics" was proposed for use by the American thermodynamicist and physical chemist J. Willard Gibbs in 1902.  According to Gibbs, the term "statistical", in the context of mechanics, i.e. statistical mechanics, was first used by the Scottish physicist James Clerk Maxwell in 1871. "Probabilistic mechanics" might today seem a more appropriate term, but "statistical mechanics" is firmly entrenched.[tpl]cite book|title=The enigma of probability and physics| last=Mayants| first=Lazar| year=1984| publisher=Springer| isbn=978-90-277-1674-3| page=174|url=http://books.google.com/books?id=zmwEfXUdBJ8C&pg=PA174[/tpl]
+
+==Overview==
+
+The essential problem in statistical thermodynamics is to calculate the distribution of a given amount of energy E over N identical systems.[tpl]cite book | author=Schrodinger, Erwin | title=Statistical Thermodynamics | publisher=Dover Publications, Inc. | year=1946 | isbn=0-486-66101-6 | oclc=20056858[/tpl]  The goal of statistical thermodynamics is to understand and to interpret the measurable macroscopic properties of materials in terms of the properties of their constituent particles and the interactions between them.  This is done by connecting thermodynamic functions to quantum-mechanical equations.  Two central quantities in statistical thermodynamics are the Boltzmann factor and the partition function.
+
+==Fundamentals==
+
+Central topics covered in statistical thermodynamics include:
+*Microstates and configurations
+*Boltzmann distribution law
+*Partition function, Configuration integral or configurational partition function
+*Thermodynamic equilibrium - thermal, mechanical, and chemical.
+*Internal degrees of freedom - rotation, vibration, electronic excitation, etc.
+*Heat capacity – Einstein solids, polyatomic gases, etc.
+*Nernst heat theorem
+*Fluctuations
+*Gibbs paradox
+*Degeneracy
+Lastly, and most importantly, the formal definition of entropy of a thermodynamic system from a statistical perspective is called statistical entropy, and is defined as:
+where kB is Boltzmann's constant 1.38066×10−23 J K−1 and Ω is the number of microstates corresponding to the observed thermodynamic macrostate.
+This equation is valid only if each microstate is equally accessible (each microstate has an equal probability of occurring).
+
+===Boltzmann distribution===
+
+If the system is large the Boltzmann distribution could be used (the Boltzmann distribution is an approximate result)
+where ni stands for the number of particles occupying level i or the number of feasible microstates corresponding to macrostate i; Ui stands for the energy of i; T stands for temperature; and kB is the Boltzmann constant.
+If N is the total number of particles or states, the distribution of probability densities follows:
+where the sum in the denominator is over all levels.
+
+==History==
+
+In 1738, Swiss physicist and mathematician Daniel Bernoulli published Hydrodynamica which laid the basis for the kinetic theory of gases.  In this work, Bernoulli posited the argument, still used to this day, that gases consist of great numbers of molecules moving in all directions, that their impact on a surface causes the gas pressure that we feel, and that what we experience as heat is simply the kinetic energy of their motion.  
+In 1859, after reading a paper on the diffusion of molecules by Rudolf Clausius, Scottish physicist James Clerk Maxwell formulated the Maxwell distribution of molecular velocities, which gave the proportion of molecules having a certain velocity in a specific range.  This was the first-ever statistical law in physics.[tpl]cite book|author=Mahon, Basil |title=The Man Who Changed Everything – the Life of James Clerk Maxwell|location=Hoboken, NJ | publisher=Wiley|year=2003|isbn=0-470-86171-1|oclc=52358254 62045217[/tpl]  Five years later, in 1864, Ludwig Boltzmann, a young student in Vienna, came across Maxwell’s paper and was so inspired by it that he spent much of his life developing the subject further.
+Hence, the foundations of statistical thermodynamics were laid down in the late 1800s by those such as Maxwell, Boltzmann, Max Planck, Clausius, and Josiah Willard Gibbs who began to apply statistical and quantum atomic theory to ideal gas bodies.  Predominantly, however, it was Maxwell and Boltzmann, working independently, who reached similar conclusions as to the statistical nature of gaseous bodies.  Yet, one must consider Boltzmann to be the "father" of statistical thermodynamics with his 1875 derivation of the relationship between entropy S and multiplicity Ω, the number of microscopic arrangements (microstates) producing the same macroscopic state (macrostate) for a particular system.[tpl]cite book | author=Perrot, Pierre | title=A to Z of Thermodynamics | publisher=Oxford University Press | year=1998 | isbn=0-19-856552-6 | oclc=123283342 38073404[/tpl]
+
+==Fundamental postulate==
+
+The fundamental postulate in statistical mechanics (also known as the equal a priori probability postulate) is the following:
+:Given an isolated system in equilibrium, it is found with equal probability in each of its accessible microstates.
+This postulate is a fundamental assumption in statistical mechanics - it states that a system in equilibrium does not have any preference for any of its available microstates. Given Ω microstates at a particular energy, the probability of finding the system in a particular microstate is p = 1/Ω.
+This postulate is necessary because it allows one to conclude that for a system at equilibrium, the thermodynamic state (macrostate) which could result from the largest number of microstates is also the most probable macrostate of the system.
+The postulate is justified in part, for classical systems, by Liouville's theorem (Hamiltonian), which shows that if the distribution of system points through accessible phase space is uniform at some time, it remains so at later times. 
+Similar justification for a discrete system is provided by the mechanism of detailed balance.
+This allows for the definition of the information function (in the context of information theory):
+When all the probabilities ρi (rho) are equal, I is maximal, and we have minimal information about the system. When our information is maximal (i.e., one rho is equal to one and the rest to zero, such that we know what state the system is in), the function is minimal.
+This information function is the same as the reduced entropic function in thermodynamics.
+Mark Srednicki has argued that the fundamental postulate can be derived assuming only that Berry's conjecture (named after Michael Berry) applies to the system in question.Srednicki, Mark. "Chaos and Quantum Thermalization." Physical Review E 50 (1994) 888. ArXiv pre-print: cond-mat/9403051Srednicki, Mark. "Thermal Fluctuations in Quantized Chaotic Systems." Journal of Physics A29 (1996) L75-L79. ArXiv pre-print: chao-dyn/9511001 Berry's conjecture is believed to hold only for chaotic systems, and roughly says that the energy eigenstates are distributed as Gaussian random variables.  Since all realistic systems with more than a handful of degrees of freedom are expected to be chaotic, this puts the fundamental postulate on firm footing.  Berry's conjecture has also been shown to be equivalent to an information theoretic principle of least bias.[ref]Jarzynski, C. "
+Berry’s conjecture and information theory." Physical Review E 56, 2254 (1997). ArXiv pre-print: chao-dyn/9703014[/ref]
+
+==Statistical ensembles==
+
+The modern formulation of statistical mechanics is based on the description of the physical system by an ensemble that represents all possible configurations of the system and the probability of realizing each configuration. 
+Each ensemble is associated with a partition function that, with mathematical manipulation, can be used to extract values of thermodynamic properties of the system. According to the relationship of the system to the rest of the universe, one of three general  types of ensembles may apply, in order of increasing complexity: 
+* Microcanonical ensemble: describes a completely isolated system, having constant energy, as it does not exchange energy or mass with the rest of the universe.
+* Canonical community: describes a system in thermal equilibrium with its environment. It may only exchange energy in the form of heat with the outside.
+* Grand-canonical: used in open systems which exchange energy and mass with the outside.
+:{| class="wikitable"
+|-
+! rowspan="2"| Summary of ensembles
+! colspan="3"| Ensembles
+|-
+! Microcanonical
+! Canonical
+! Grand canonical
+|-
+! Variables (supressed 
+
+constant for ensemble)
+| E, N, V
+| T, N, V
+| T, μ, V
+|-
+! Microscopic features
+|  *Number of microstates |  *Canonical partition function
+|  *Grand canonical partition function
+|-
+! Macroscopic function
+|-
+|}
+
+===Microcanonical ensemble===
+
+In microcanonical ensemble N, V and E are fixed. Since the second law of thermodynamics applies to isolated systems, the first case investigated will correspond to this case. The Microcanonical ensemble describes an isolated system.
+The entropy of such a system can only increase, so that the maximum of its entropy corresponds to an equilibrium state for the system.
+Because an isolated system keeps a constant energy, the total energy of the system does not fluctuate. Thus, the system can access only those of its micro-states that correspond to a given value E of the energy. The internal energy of the system is then strictly equal to its energy.
+Let Ω(E) be the number of micro-states corresponding to this value of the system's energy. The macroscopic state of maximal entropy for the system is the one in which all micro-states are equally likely to occur, with probability 1/Ω(E), during the system's fluctuations, and we have for the systems entropy:
+
+===Canonical ensemble===
+
+In canonical ensemble N, V and T are fixed. Invoking the concept of the canonical ensemble, it is possible to derive the probability Pi that a macroscopic system in thermal equilibrium with its environment, will be in a given microstate with energy Ei according to the Boltzmann distribution:
+The temperature T arises from the fact that the system is in thermal equilibrium with its environment. The probabilities of the various microstates must add to one, and the normalization factor in the denominator is the canonical partition function:
+where Ei is the energy of the ith microstate of the system. The partition function is a measure of the number of states accessible to the system at a given temperature. The article canonical ensemble contains a derivation of Boltzmann's factor and the form of the partition function from first principles.
+To sum up, the probability of finding a system at temperature T in a particular state with energy Ei is
+Thus the partition function looks like  the weight factor for the ensemble.  
+
+====Thermodynamic connection====
+
+The partition function can be used to find the expected (average) value of any microscopic property of the system, which can then be related to macroscopic variables. For instance, the expected value of the microscopic energy E is interpreted as the microscopic definition of the thermodynamic variable internal energy U, and can be obtained by taking the derivative of the partition function with respect to the temperature. Indeed, 
+The entropy can be calculated by (see Shannon entropy)
+which implies that 
+is the Helmholtz free energy of the system or in other words,
+Having microscopic expressions for the basic thermodynamic potentials U (internal energy), S (entropy) and F (free energy) is sufficient to derive expressions for other thermodynamic quantities. The basic strategy is as follows. There may be an intensive or extensive quantity that enters explicitly in the expression for the microscopic energy Ei, for instance magnetic field (intensive) or volume (extensive). Then, the conjugate thermodynamic variables are derivatives of the internal energy. The macroscopic magnetization (extensive) is the derivative of U with respect to the (intensive) magnetic field, and the pressure (intensive) is the derivative of U with respect to volume (extensive).
+The treatment in this section assumes no exchange of matter (i.e. fixed mass and fixed particle numbers). However, the volume of the system is variable which means the density is also variable.
+This probability can be used to find the average value, which corresponds to the macroscopic value, of any property, J, that depends on the energetic state of the system by using the formula:
+Subsequently, these equations can be combined with known thermodynamic relationships between U and V to arrive at an expression for pressure in terms of only temperature, volume and the partition function.  Similar relationships in terms of the partition function can be derived for other thermodynamic properties as shown in the following table;  see also the detailed explanation in configuration integral
+:{| class="wikitable"
+|-
+! style="text-align: left" | Helmholtz free energy:
+|-
+! style="text-align: left" | Internal energy:
+|-
+! style="text-align: left" | Pressure:
+|-
+! style="text-align: left" | Entropy:
+|-
+! style="text-align: left" | Gibbs free energy:
+|-
+! style="text-align: left" | Enthalpy:
+|-
+! style="text-align: left" | Constant volume heat capacity:
+|-
+! style="text-align: left" | Constant pressure heat capacity:
+|-
+! style="text-align: left" | Chemical potential:
+|-
+|}
+To clarify, this is not a grand canonical ensemble.
+It is often useful to consider the energy of a given molecule to be distributed among a number of modes.  For example, translational energy refers to that portion of energy associated with the motion of the center of mass of the molecule. Configurational energy refers to that portion of energy associated with the various attractive and repulsive forces between molecules in a system.  The other modes are all considered to be internal to each molecule.  They include rotational, vibrational, electronic and nuclear modes.  If we assume that each mode is independent (a questionable assumption) the total energy can be expressed as the sum of each of the components:
+where the subscripts t, c, n, e, r, and v correspond to translational, configurational, nuclear, electronic, rotational and vibrational modes, respectively.  The relationship in this equation can be substituted into the very first equation to give:
+If we can assume all these modes are completely uncoupled and uncorrelated, so all these factors are in a probability sense completely independent, then 
+Thus a partition function can be defined for each mode.  Simple expressions have been derived relating each of the various modes to various measurable molecular properties, such as the characteristic rotational or vibrational frequencies.
+Expressions for the various molecular partition functions are shown in the following table.
+:{| class="wikitable"
+|-
+! style="text-align: left" | Nuclear
+|-
+! style="text-align: left" | Electronic
+|-
+! style="text-align: left" | Vibrational
+|-
+! style="text-align: left" | Rotational (linear)
+|-
+! style="text-align: left" | Rotational (non-linear)
+|-
+! style="text-align: left" | Translational
+|-
+! style="text-align: left" | Configurational (ideal gas)
+|-
+|}
+These equations can be combined with those in the first table to determine the contribution of a particular energy mode to a thermodynamic property.  For example the "rotational pressure" could be determined in this manner.  The total pressure could be found by summing the pressure contributions from all of the individual modes, i.e.:
+
+===Grand canonical ensemble===
+
+In grand canonical ensemble V, T and chemical potential are fixed. If the system under study is an open system (in which matter can be exchanged), but particle number is not conserved, we would have to introduce chemical potentials, μj, j = 1,...,n and replace the canonical partition function with the grand canonical partition function:
+where Nij is the number of jth species particles in the ith configuration. Sometimes, we also have other variables to add to the partition function, one corresponding to each conserved quantity. Most of them, however, can be safely interpreted as chemical potentials. In most condensed matter systems, things are nonrelativistic and mass is conserved. However, most condensed matter systems of interest also conserve particle number approximately (metastably) and the mass (nonrelativistically) is none other than the sum of the number of each type of particle times its mass. Mass is inversely related to density, which is the conjugate variable to pressure. For the rest of this article, we will ignore this complication and pretend chemical potentials don't matter.
+Let's rework everything using a grand canonical ensemble this time. The volume is left fixed and does not figure in at all in this treatment. As before, j is the index for those particles of  species j and i is the index for microstate i:
+:{| class="wikitable"
+|-
+! style="text-align: left" | Grand potential:
+|-
+! style="text-align: left" | Internal energy:
+|-
+! style="text-align: left" | Particle number:
+|-
+! style="text-align: left" | Entropy:
+|-
+! style="text-align: left" | Helmholtz free energy:
+|-
+|}
+
+===Equivalence between descriptions at the thermodynamic limit===
+
+All of the above descriptions differ in the way they allow the given system to fluctuate between its configurations.
+In the micro-canonical ensemble, the system exchanges no energy with the outside world, and is therefore not subject to energy fluctuations; in the canonical ensemble, the system is free to exchange energy with the outside in the form of heat. 
+In the thermodynamic limit, which is the limit of large systems, fluctuations become negligible, so that all these descriptions converge to the same description. In other words, the macroscopic behavior of a system does not depend on the particular ensemble used for its description.
+Given these considerations, the best ensemble to choose for the calculation of the properties of a macroscopic system is that ensemble which allows the result to be derived most easily.
+
+==Random walks==
+
+The study of long chain polymers has been a source of problems within the realms of statistical mechanics since about the 1950s.  One of the reasons however that scientists were interested in their study is that the equations governing the behavior of a polymer chain were independent of the chain chemistry.  What is more, the governing equation turns out to be a random walk, or diffusive walk, in space.  Indeed, the Schrödinger equation is itself  a diffusion equation in imaginary time, t' = it.
+
+===Random walks in time===
+
+The first example of a random walk is one in space, whereby a particle undergoes a random motion due to external forces in its surrounding medium.  A typical example would be a pollen grain in a beaker of water.  If one could somehow "dye" the path the pollen grain has taken, the path observed is defined as a random walk.  
+Consider a toy problem, of a train moving along a 1D track in the x-direction.  Suppose that the train moves either a distance of +b or −b (b is the same for each step), depending on whether a coin lands heads or tails when flipped.  Lets start by considering the statistics of the steps the toy train takes (where Si is the ith step taken):
+The second quantity is known as the correlation function.  The delta is the kronecker delta which tells us that if the indices i and j are different, then the result is 0, but if i = j then the kronecker delta is 1, so the correlation function returns a value of b2.  This makes sense, because if i = j then we are considering the same step.  Rather trivially then it can be shown that the average displacement of the train on the x-axis is 0;
+It can also be shown, using the same method demonstrated above, to calculate the root mean square value of problem.  The result of this calculation is given below
+From the diffusion equation it can be shown that the distance a diffusing particle moves in a media is proportional to the root of the time the system has been diffusing for, where the proportionality constant is the root of the diffusion constant.  The above relation, although cosmetically different reveals similar physics, where N is simply the number of steps moved (is loosely connected with time) and b is the characteristic step length.  As a consequence we can consider diffusion as a random walk process.
+
+===Random walks in space===
+
+Random walks in space can be thought of as snapshots of the path taken by a random walker in time.  One such example is the spatial configuration of long chain polymers.  
+There are two types of random walk in space: self-avoiding random walks, where the links of the polymer chain interact and do not overlap in space, and pure random walks, where the links of the polymer chain are non-interacting and links are free to lie on top of one another.  The former type is most applicable to physical systems, but their solutions are harder to get at from first principles.  
+By considering a freely jointed, non-interacting polymer chain, the end-to-end vector is 
+where ri is the vector position of the i-th link in the chain.  
+As a result of the central limit theorem, if N ≫ 1 then we expect a Gaussian distribution for the end-to-end vector.  We can also make statements of the statistics of the links themselves;
+Using the statistics of the individual links, it is easily shown that 
+Notice this last result is the same as that found for random walks in time.  
+Assuming, as stated, that that distribution of end-to-end vectors for a very large number of identical polymer chains is gaussian, the probability distribution has the following form
+What use is this to us?  Recall that according to the principle of equally likely a priori probabilities, the number of microstates, Ω, at some physical value is directly proportional to the probability distribution at that physical value, viz;
+where c is an arbitrary proportionality constant.  Given our distribution function, there is a maxima corresponding to R = 0.  Physically this amounts to there being more microstates which have an end-to-end vector of 0 than any other microstate.  Now by considering
+where F is the Helmholtz free energy, and it can be shown that
+which has the same form as the potential energy of a spring, obeying Hooke's law.
+This result is known as the entropic spring result and amounts to saying that upon stretching a polymer chain you are doing work on the system to drag it away from its (preferred) equilibrium state.  An example of this is a common elastic band, composed of long chain (rubber) polymers.  By stretching the elastic band you are doing work on the system and the band behaves like a conventional spring, except that unlike the case with a metal spring, all of the work done appears immediately as thermal energy, much as in the thermodynamically similar case of compressing an ideal gas in a piston. 
+It might at first be astonishing that the work done in stretching the polymer chain can be related entirely to the change in entropy of the system as a result of the stretching. However, this is typical of systems that do not store any energy as potential energy, such as ideal gases. That such systems are entirely driven by entropy changes at a given temperature, can be seen whenever it is the case that are allowed to do work on the surroundings (such as when an elastic band does work on the environment by contracting, or an ideal gas does work on the environment by expanding). Because the free energy change in such cases derives entirely from entropy change rather than internal (potential) energy conversion, in both cases the work done can be drawn entirely from thermal energy in the polymer, with 100% efficiency of conversion of thermal energy to work. In both the ideal gas and the polymer, this is made possible by a material entropy increase from contraction that makes up for the loss of entropy from absorption of the thermal energy, and cooling of the material.
+
+==Classical thermodynamics vs. statistical thermodynamics==
+
+As an example, from a classical thermodynamics point of view one might ask what is it about a thermodynamic system of gas molecules, such as ammonia NH3, that determines the free energy characteristic of that compound?  Classical thermodynamics does not provide the answer.  If, for example, we were given spectroscopic data, of this body of gas molecules, such as bond length, bond angle, bond rotation, and flexibility of the bonds in NH3 we should see that the free energy could not be other than it is.  To prove this true, we need to bridge the gap between the microscopic realm of atoms and molecules and the macroscopic realm of classical thermodynamics.  From physics, statistical mechanics provides such a bridge by teaching us how to conceive of a thermodynamic system as an assembly of units.  More specifically, it demonstrates how the thermodynamic parameters of a system, such as temperature and pressure, are interpretable in terms of the parameters descriptive of such constituent atoms and molecules.[tpl]cite book | author=Nash, Leonard K. | title=Elements of Statistical Thermodynamics, 2nd Ed. | publisher=Dover Publications, Inc. | year=1974 | isbn=0-486-44978-5 | oclc=61513215[/tpl]
+In a bounded system, the crucial characteristic of these microscopic units is that their energies are quantized.  That is, where the energies accessible to a macroscopic system form a virtual continuum of possibilities, the energies open to any of its submicroscopic components are limited to a discontinuous set of alternatives associated with integral values of some quantum number.
+
+==See also==
+
+* Chemical thermodynamics
+* Configuration entropy
+* Dangerously irrelevant
+* Paul Ehrenfest
+* Equilibrium thermodynamics
+* Fluctuation dissipation theorem
+* Important Publications in Statistical Mechanics
+* Ising Model
+* List of software for Monte Carlo molecular modeling
+* Maxwell's demon
+* Mean field theory
+* Nanomechanics
+* Non-equilibrium thermodynamics
+* Quantum thermodynamics
+* Statistical physics
+* Thermochemistry
+* Widom insertion method
+* Monte Carlo method
+* Molecular modelling
+* Parallel tempering
+:{| class="wikitable" border-color:#ccc"
+|+ A Table of Statistical Mechanics Articles
+|-
+! align="center" |
+! align="center" |Maxwell-Boltzmann
+! align="center" |Bose-Einstein
+! align="center" |Fermi-Dirac
+|-
+! align="center" |Particle
+| align="center" |
+| align="center" |Boson
+| align="center" |Fermion
+|-
+! align="center" |Statistics
+| align="center" colspan=3 |
+Partition function Statistical properties |-
+! align="center" |Statistics
+| align="center" |
+Maxwell-Boltzmann statistics Maxwell-Boltzmann distribution Boltzmann distribution | align="center" |Bose-Einstein statistics
+| align="center" |Fermi-Dirac statistics
+|-
+! align="center" | Thomas-Fermi   approximation
+| align="center" colspan=3 | gas in a box gas in a harmonic trap
+|-
+! align="center" |Gas
+| align="center" |Ideal gas
+| align="center" |
+Bose gas Debye model Bose-Einstein condensate | align="center" |
+Fermi gas |-
+! align="center" | Chemical Equilibrium
+| align="center" | Classical Chemical equilibrium
+| align="center" colspan=2|
+|}
+
+==Notes==
+
+==References==
+
+==Further reading==
+
+*List of notable textbooks in statistical mechanics
+* [tpl]cite book | author=Chandler, David | title=Introduction to Modern Statistical Mechanics | publisher=Oxford University Press | year=1987 |isbn=0-19-504277-8 | oclc=13946448[/tpl]
+* [tpl]cite book | author=Huang, Kerson | title=Statistical Mechanics | publisher=Wiley, John & Sons | year=1990 |isbn=0-471-81518-7 | oclc=15017884[/tpl]
+* [tpl]cite book |last=Kittel |first=Charles |authorlink=Charles Kittel |coauthors=Herbert Kroemer |title=Thermal Physics |edition=2nd |publisher=W.H. Freeman |year=1980 |location=San Francisco |isbn=0-7167-1088-9  |oclc=5171399[/tpl]
+* [tpl]cite book | author=McQuarrie, Donald | title=Statistical Mechanics (2nd rev. Ed.) | publisher=University Science Books | year=2000 |isbn=1-891389-15-7 | oclc=43370175[/tpl]
+* [tpl]cite book | author=Dill, Ken; Bromberg, Sarina | title=Molecular Driving Forces | publisher=Garland Science | year=2003 |isbn=0-8153-2051-5 | oclc=47915710[/tpl]
+* [tpl]cite book | author=Ben-Naim, Arieh | title=Statistical Thermodynamics Based on Information | year=2007[/tpl] ISBN 978-981-270-707-9
+* [tpl]cite book | author=Boltzmann, Ludwig; and Dieter Flamm | title=Entropie und Wahrscheinlichkeit | year=2000[/tpl] ISBN 978-3-8171-3286-7
+* [tpl]cite book | author=Boltzmann, Ludwig | title=on gas theory |language=German | year=1896, 1898 | isbn=0-486-68455-5 | publisher=Dover | location=New York | oclc=31434905[/tpl] translated by Stephen G. Brush (1964) Berkeley: University of California Press; (1995) New York: Dover ISBN 0-486-68455-5
+* [tpl]cite book | author=Gibbs, J. Willard | title=Elementary principles in statistical mechanics | publisher=New York | origyear=1902 |year=1981 |place=Woodbridge, Connecticut |publisher=Ox Bow Press |isbn=0-918024-20-X[/tpl]
+* [tpl]cite book | author=Landau, Lev Davidovich; and Lifshitz, Evgeny Mikhailovich | title=Statistical Physics |volume=5 |series-title=Course of Theoretical Physics |edition=3 |origyear=1976 |year=1980 |place=Oxford |publisher=Pergamon Press|isbn=0-7506-3372-7[/tpl] Translated by J.B. Sykes and M.J. Kearsley
+* [tpl]cite book | author=Reichl, Linda E | title=A modern course in statistical physics | location= London | publisher=Edward Arnold | origyear = 1980 |edition=2 |year=1998 |place=Chichester |publisher=Wiley |isbn=0-471-59520-9[/tpl]
+
+==External links==
+
+* Philosophy of Statistical Mechanics article by Lawrence Sklar for the Stanford Encyclopedia of Philosophy.
+* Sklogwiki - Thermodynamics, statistical mechanics, and the computer simulation of materials.  SklogWiki is particularly orientated towards liquids and soft condensed matter.
+*Statistical Thermodynamics - Historical Timeline
+* Thermodynamics and Statistical Mechanics by Richard Fitzpatrick
+* Lecture Notes in Statistical Mechanics and Mesoscopics by Doron Cohen
+

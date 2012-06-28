@@ -1,0 +1,52 @@
+
+LuxRender is an open source software rendering system for physically correct image synthesis. The program runs on Microsoft Windows, Mac OS X and Linux. 
+
+==Overview==
+
+LuxRender features only a 3D renderer; it relies on other programs (3D modeling programs) to create the scenes to render, including the models, materials, lights and cameras. This content can then be exported from the application it was created in for rendering using LuxRender. Fully functional exporters are available for  Blender, DAZ Studio and Autodesk 3ds Max; partially functional ones for Cinema 4D,  Maya, SketchUp and XSIhttp://www.luxrender.net/wiki/Exporter_Status.
+After opening the exported file, the only thing LuxRender will do is render the scene. You can however tweak various post processing settings from the graphical interface of the program.http://www.luxrender.net/wiki/index.php?title=Luxrender_Manual
+
+==History==
+
+LuxRender is based on PBRT, a physically based ray tracing program. Although very capable and well structured, PBRT focuses on academic use and is not easily usable by digital artists. As PBRT is licensed under the  GPL, it was possible to start a new program based on PBRT's source code. With the blessings of the original authors, a small group of programmers took this step in September 2007. The new program was named LuxRender and was to focus on artistic use. Since its initial stage, the program has attracted interest of various programmers around the world.[tpl]cite web |url=http://www.luxrender.net/en_GB/authors_contributors|title=Authors|accessdate=2008-06-30|publisher=LuxRender[/tpl]
+On 24 June 2008, the first official release was announced.[tpl]cite web |url=http://www.blendernation.com/2008/06/30/luxrender-05-released/|title=LuxRender 0.5 released|accessdate=2008-06-30|publisher=BlenderNation|date=2008-06-30[/tpl] This was the first release that is considered to be usable for the general public.
+
+==Features==
+
+The main features of LuxRender as of version 0.8 include[tpl]Cite web | title = LuxRender v0.8 final Release  | date = 5 June 2011  | url = http://www.luxrender.net/forum/viewtopic.php?f=12&t=6315  | accessdate = 9 June 2011[/tpl]:
+*Biased and unbiased rendering: Users can choose between physical accuracy (unbiased) and speed (biased).
+*Full  spectral rendering: Instead of the RGB colour spectrum, full spectra are used for internal calculations.
+*Hierarchical  procedural and image based  texture system: Procedural and image based textures can be mixed in various ways, making it possible to create complex materials.
+*Displacement mapping and subdivision: Based on procedural or image textures, object surfaces can be transformed.
+*Network and co-operative rendering: Rendering time can be reduced by combining the processing power of multiple computers. IPv6 is also supported.
+*Perspective (including  shift lens), orthographic and environment cameras
+* HDR output: Render output can be saved in various file formats, including .png, .tga and .exr.
+*Instances: Instancing significantly saves system resources, in particular memory consumption by reusing mesh data in duplicated objects.
+*Built in post-processing: While rendering, you can add post processed effects like bloom, glare, chromatic aberration and vignetting.
+*Motion blur, depth of field and lens effects: True motion blur, both for the camera and individual objects, and physically accurate Lens Effects, including Depth Of Field.
+*Light groups: By using light groups, one can output various light situations from a single rendering, or make adjustments to the balance between light sources in real time.
+*Tone mapping
+*Image denoising
+*Fleximage (virtual film): Allows you to pause and continue renders. The current state of the render can be written to a file, so that any system can continue the render at a later moment.
+*GPU acceleration for path tracing when sampling one light at a time.
+*Film response curves to emulate traditional cameras color response (some curve are for black&white films too).
+*Volumetric rendering
+
+==Planned/Implemented Features==
+
+The new features of LuxRender for version 0.9 include[tpl]Cite web | title = LuxRender v0.9 Development Release(s)  | date = 3 November 2011  | url = http://www.luxrender.net/forum/viewtopic.php?f=30&t=7360  | accessdate = 9 November 2011[/tpl]:
+*Improved speeds for Hybrid Path GPU Rendering: The Path GPU Rendering Engine have various speed and stability improvements.
+*New Hybrid Bidirectional Rendering: A GPU Accelerated version of the LuxRender Bi-Directional Path Tracer is in development. However, it does not currently support all of LuxRender's traditional Bi-Directional Path tracing features yet.
+*Networking: Improvements to LuxRender's networking mode.
+*A new layered material: Allows the layering of multiple materials on one object.
+*A new glossy coating material: Allows a glossy material to be placed on an object, coating the underneath material.
+*New features and developments updated here: LuxRender Development Blog
+
+== References ==
+
+==External links==
+
+*Official LuxRender site
+*LuxRender coverage on cgindia.org
+ [[Category:Free 3D graphics software]]
+

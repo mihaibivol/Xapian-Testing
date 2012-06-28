@@ -1,0 +1,43 @@
+
+LAMP is an acronym for a solution stack of free, open source software, referring to the first letters of Linux (operating system), Apache HTTP Server, MySQL (database software) and PHP (or sometimes Perl or Python), principal components to build a viable general purpose web server.
+The exact combination of software included in a LAMP package may vary, especially with respect to the web scripting software, as PHP may be replaced or supplemented by Perl and/or Python. Similar terms exist for essentially the same software suite (AMP) running on other operating systems, such as Microsoft Windows (WAMP), Mac OS (MAMP), Solaris (SAMP), iSeries (iAMP), or OpenBSD (OAMP).
+Though the original authors of these programs did not design them all to work specifically with each other, the development philosophy and tool sets are shared and were developed in close conjunction.  The software combination has become popular because it is free of cost, open-source, and therefore easily adaptable, and because of the ubiquity of its components which are bundled with most current Linux distributions.
+When used together, they form a solution stack of technologies that support application servers.
+
+==Software components==
+
+===Linux===
+
+Like the other LAMP components, Linux is free open-source software which means the source code is available for the operating system, which can be edited according to specific needs.
+
+===Apache===
+
+Apache is an open source web server, the most popular in use.[tpl]cite web|url=http://news.netcraft.com/archives/category/web-server-survey/ |title=Market Share for Top Servers Across All Domains August 1995 - February 2011 |publisher=News.netcraft.com |date= |accessdate=2011-02-22[/tpl]
+
+===MySQL===
+
+MySQL is a multithreaded, multi-user, SQL database management system (DBMS) now owned by Oracle Corporation.Top Reasons for Product Managers to Embed MySQL on mySQL.com Alternatives at this level of the stack do also exist, for example by using PostgreSQL (LAPP) A LAPP appliance on turnkeylinux.org 
+MySQL has been owned by Oracle Corporation since January 27, 2010 through the purchase of Sun Microsystems.Robin Schumacher & Arjen Lentz Dispelling the Myths Charles Babcock, InformationWeek Sun Locks Up MySQL, Looks To Future Web Development  Sun had acquired MySQL originally on February 26, 2008.
+
+===PHP, Perl, or Python===
+
+PHP is a reflective programming language originally designed for producing dynamic web pages. PHP is used mainly in server-side application software. Perl and Python can be used similarly.
+
+==Variants and equivalents on other platforms==
+
+With the growing use of LAMP, variations and retronyms appeared for other combinations of operating system, web server, database, and software language. For example the equivalent installation on a Microsoft Windows operating system is known as WAMP.An alternative running IIS in place of Apache called WIMP. Variants involving other operating systems include MAMP (Macintosh), SAMP (Solaris), FAMP (FreeBSD) and iAMP (iSeries). The web server or database management system also vary. LEMP is a version where Apache has been replaced with the more lightweight web server NGINX.Setting Up a LEMP stack on Ubuntu 9.04 A version where MySQL has been replaced by PostgresSQL is called LAPP.
+The GNU project is advocating people to use the term "GLAMP" since what is known as "Linux" is known to GNU as the GNU/Linux system.GNU.org -- Words to avoid 
+
+==See also==
+
+* List of AMP packages
+* XAMPP
+
+==References==
+
+==External links==
+
+* Install a LAMP server on Ubuntu Linux
+* Install a LAMP server on Debian GNU/Linux
+* Install a LAMP server on SUSE Linux
+

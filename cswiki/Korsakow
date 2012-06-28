@@ -1,0 +1,51 @@
+
+The Korsakow System (Pronounced 'KOR-SA-KOV') is open source software for creating browser-based dynamic documentaries. Invented in 2000 by Berlin-based artist Florian Thalhofer, Korsakow allows users without any programming expertise to create and interact with non-linear or database-driven narratives, referred to as Korsakow-Films. The software can be used to produce documentary, experimental and fictional narrative works and has been integrated in to live performance and installation pieces. Korsakow is currently free for small projects and educational use. Potential users with production budgets over $3,000 (€2,000) are asked to contact the makers of the software first.
+
+==Versions==
+
+===Development and Early Versions===
+
+In the late 1990s, Florian Thalhofer began developing a software program to produce a documentary about alcohol consumption to accompany his Master's thesis. During his research, Thalhofer learned about an effect of extreme alcoholism known as "Korsakoff's Syndrome," characterized by short-term memory loss and a compulsion to tell stories. Thalhofer borrowed the name for his thesis and first Korsakow-film, "Korsakov Syndrom".
+Since 2009 the application has been released as free software. Versions 1 through 3 were created using Macromedia Director and required Shockwave Player to be installed in the browser to be viewed online. Many of the current features were not available in earlier versions, which also had increasing trouble playing due to the declining viability of Shockwave.
+
+===Version 5.0===
+
+Released in July 2009, the newest version of the Korsakow System involved a complete overhaul of the previous versions. This upgrade was produced under the aegis of the Concordia Interactive Narrative Experimentation Research Group (CINER-G, 2007-2011). CINER-G was funded by a research/creation grant from the Quebec Government's Fonds de recherche sur la société et la culture (FQRSC). In 2011 CINER-G was succeeded by Adventures in Research/Creationhttp://www.a-r-c.ca ARC. ARC is funded by a research/creation grant from the Social Sciences and Humanities Council of Canada (SSHRC). Thalhofer remains the creative lead during the project, while Matt Soar co-directs the project and also designed the new logo. The coding is by David Reisch with early assistance from Stuart Thiel.http://korsakow.org/learn/faq#k5 Korsakow FAQ
+In addition to addressing many of the problems with version 3, version 5.0 was recreated from scratch in java as open source software. The new version of the application can export as a .swf file which requires flash player to view, currently a much more common browser extension than Shockwave. Another change offered in the new version is the ability to design an unlimited number of interfaces. 
+As the developers believed that the jump from version 3 to the current version was so substantial that, as an inside joke, they skipped 4.0 altogether.
+
+==Korsakow-Films==
+
+===SNUs===
+
+Though it may be used as such, the Korsakow System was not intended as a choose your own adventure builder. Instead, the intention of the software is to create narratives based on dynamic relationships between very short video clips, rather than on predetermined paths. In order to achieve this, each Korsakow-film is composed of multiple SNUs or smallest narrative units. These are usually short video clips ranging from 20 seconds to a few minutes in duration and are the building blocks of each Korsakow-film.
+Users of the Korsakow software "SNUify" their media by adding rules guiding the relationship between each SNU. Each SNU can be assigned "in" and "out" tags. Whenever a clip begins, the database will be queried for other SNUs whose "in" tags match the "out" tags of the current video. Any matches will be displayed as related options for viewing. Queries can be cued at specific points during the current SNU.
+As part of a non-linear narrative, each SNU may be reused within the narrative. SNUs may be assigned a number of "lives" or times they are allowed to appear within the narrative.
+
+===Compatibility===
+
+The following file formats can be accepted by the software:
+* Video files: .mov (codec: H.264)
+* Previews: .jpg, .gif, .png, .mov (H.264)
+* Startscreen: .jpg, .png, .gif
+* Audio files: .wav, .mp3
+* Subtitles: .srt
+
+===Interface===
+
+Films output on Korsakow version 3 or earlier could only be viewed online in a single generic interface. This layout involved a single primary frame, in which the selected clips would play, and up to three preview frames of other related clips. While this remained the default layout in version 5.0, filmmakers now have the option of creating different interfaces for each SNU.
+
+==References==
+
+==External links==
+
+* Official Website
+* Gallery of example works
+* CINER-G Website
+* Interview with Florian Thalhofer by Matt Soar
+* Thalhofer's Korsakow-film Planet Galata (2010, ARTE)
+* Thalhofer's website. Includes links to many of his Korsakow-films.
+* Almost Architecture (2007), a Korsakow-film on highrise signs in Montreal by Matt Soar.
+* Article on Soar, Thalhofer, and CINER-G.
+* Chapter by Adrian Miles (2008), titled Programmatic Statements for a Facetted Videography comparing Korsakow with Videodefunct. In Lovinck, G. &  Niederer, S. (Eds.) Video Vortex Reader: Responses to YouTube. Amsterdam: Institute of Network Cultures, pp. 223-230.
+

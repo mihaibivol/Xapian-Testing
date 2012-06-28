@@ -1,0 +1,11 @@
+Repository for testing Xapain Dynamic Snippets results.
+
+Contents:
+    cswiki - a set of Wikipedia plain text parsed documents with cs content.
+
+Testing:
+    For indexing Xapian's omindex is used.
+    For differend results, the indexed sample size can be altered by using the
+    -E parameter
+
+    Snippet results can be displayed using simplesnippetgen from examples.

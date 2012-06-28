@@ -1,0 +1,23 @@
+
+Scala is a freeware software application with versions supporting Windows, Mac OS X, and Linux.  It allows users to create and archive musical scales, analyze and transform them with built-in theoretical tools, play them with an on-screen keyboard or from an external MIDI keyboard, and export them to hardware and software synthesizers.
+Scala can retune MIDI streams and files using pitch bend.  It also supports MIDI sysex and file-based tunings.  Originally a command-line program, Scala now uses the Gtk+ GUI toolkit.  Scala is written in the Ada programming language, and is the work of Manuel Op de Coul of the Netherlands.
+Scala can also be used as a midi sequencer, by way of its ASCII-based sequencing format, seq. Because of its great flexibility when it comes to tuning formats, it is a very powerful tool for those who want to compose and sequence microtonal music.
+Scala's motto is "Invenit et perficit", Latin for "It finds and perfects" or "It discovers and accomplishes" in Latin.  Its logo is a Renaissance-style relief print of a cherub holding a compass and a globe inscribed with a diatonic musical scale and a circle of fourths.
+
+==File formats==
+
+Scala can open, transform, and save standard MIDI files.  It can also export MIDI tuning tables in .tun format.  It provides a native, human-readable sequencing language (.seq).  But it is best known for its use of human-readable text files to store musical scales.
+The Scala scale file format has become a standard for representing microtonal scales in a way that can be used by other software.  The Scala site lists over thirty applications that support the format, including several major commercial packages like  Apple Logic 7, Celemony Melodyne 3, and Cakewalk RaptureRapture Microtuning and Alternative Tunings and Z3TA+.http://cakewalk.com/Products/Z3TA/Z3TA+%20Waveshaping%20Synthesizer.zip  Scala's developer also makes freely available an archive of over 3,500 Scala scale files, containing many musical scales of historical, cultural, and theoretical interest.
+
+==See also==
+
+*Microtuner
+*Microtonal music
+
+==External links==
+
+*Scala's home page
+
+==References==
+
+

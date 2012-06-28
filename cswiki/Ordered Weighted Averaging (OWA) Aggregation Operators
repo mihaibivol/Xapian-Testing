@@ -1,0 +1,39 @@
+
+Introduced by Ronald R. Yager, the Ordered Weighted Averaging operators, commonly called OWA operators, provide a parameterized class of mean type aggregation operators.  Many notable mean operators such as the max, arithmetic average, median and min, are members of this class.  They have been widely used in computational intelligence because of their ability to model linguistically expressed aggregation instructions. 
+
+== Definition ==
+
+By choosing different W we can implement different aggregation operators.  The OWA operator is a non-linear operator as a result of the process of determining the bj.
+
+== Properties ==
+
+The OWA operator is a mean operator.  It is bounded, monotonic, symmetric, and idempotent, as defined below.
+
+== Notable OWA Operators ==
+
+== Characterizing Features ==
+
+Two features have been used to characterize the OWA operators.  The first is the attudinal character(orness).  
+This is defined as 
+In addition A-C(Max) = 1, A-C(Ave) = A-C(Med) = 0.5  and A–C(Min) = 0.   Thus the A-C goes from 1 to 0 as we go from Max to Min aggregation.  The attitudinal character characterizes the similarity of aggregation to OR operation(OR is defined as the Max).
+The second feature is the dispersion.   This defined as 
+The dispersion characterizes how uniformly the arguments are being used
+
+== Type-1 OWA Aggregation Operators ==
+
+The above Yager's OWA operators are used to aggregate the crisp values. Can we aggregate fuzzy sets in the OWA mechanism ? The 
+Type-1 OWA Operators have been proposed for this purpose. So the type-1 OWA operators provides us with a new technique for directly aggregating uncertain information with uncertain weights via OWA mechanism in soft decision making and data mining, where these uncertain objects are modelled by fuzzy sets.
+The type-1 OWA operator is defined according to the alpha-cuts of fuzzy sets as follows:
+\Phi _\alpha \left( {A_\alpha ^1 , \cdots ,A_\alpha ^n } \right)_ {+},For the left end-points, we we need to solve the following programming problem:
+while for the right end-points, we need to solve the following programming problem:
+The paper has presented a fast method to solve two programming problem so that the type-1 OWA aggregation operation can be performed efficiently.
+
+== References ==
+
+1. Yager, R. R.,  "On ordered weighted averaging aggregation operators in multi-criteria decision making," IEEE Transactions on Systems, Man and Cybernetics 18, 183-190, 1988.
+2. Yager, R. R. and Kacprzyk, J., The Ordered Weighted Averaging Operators: Theory and Applications, Kluwer: Norwell, MA, 1997.
+3. Liu, X.,  "The solution equivalence of minimax disparity and minimum variance problems for OWA operators," International Journal of Approximate Reasoning 45, 68-81, 2007.
+5.  Torra, V. and Narukawa, Y., Modeling Decisions: Information Fusion and Aggregation Operators, Springer: Berlin, 2007.
+6. Majlender, P.,  "OWA operators with maximal Rényi entropy," Fuzzy Sets and Systems 155, 340-360, 2005.
+7. Szekely, G. J. and Buczolich, Z., " When is a weighted average of ordered sample elements a maximum likelihood estimator of the location parameter?" Advances in Applied Mathematics 10, 1989, 439-456.
+

@@ -1,0 +1,20 @@
+
+The phrase Commercial open source software (COSS) is used as a synonym for Proprietary Open Source Software, which contains some elements of free and open source software. The requirements for legitimately claiming to be "open source" sometimes limit some functionality to proprietary software, which providers sell under a closed and limited license . The release of some code under closed licensing builds in a potential path back to vendor lock-in if the functionality is ever required, and so the overall software is not "free" in the original sense and so does not qualify as FOSS as a whole.  Arguably the right term for these "mixed-source" applications is Proprietary Software, while the term many of the companies behind them prefer, is COSS.
+Commercial open source software interests large businesses and corporations because it provides legal protection, standards of quality, and guaranteed customer service. Many startup businesses use commercial open source software in order to get their companies going. Through the combination of both quality controls and open source code smaller commercial open source companies are capable of competing with larger and well-known companies like Oracle.
+
+== True Commercial Open Source Software ==
+
+Note that software licensing, the legal language heading each software module, is completely separate from how the software is used.  Since its beginning as free software and the GPL License, FOSS has been legally able to be sold, for example in binary with regular patching, or with support agreements including rapid response, or with service contracts to match configuration to an organization's process workflow.  As long as the license requires the source be made freely available, the software remains FOSS. Indeed, the primary product of Red Hat, the most commercially successful open source company, remains a distribution packaging of the FOSS operating system Linux.  Therefore, the term COSS refers not to how software is used, but to a certain type of software that includes some free open source software and some software elements released under closed proprietary licensing.
+
+== Dual Licensing==
+
+Dual-licensed software is a different issue, and refers to free open source software that is also released by its authors under a proprietary license.  This was done sometimes in the past for administrative reasons, for particular customers that preferred proprietary licensing.  However, as long as all the software is also available under an open license approved by the OSI then it is still FOSS.  The practical problem with dual-licensing is only copyright owners can do it, so unless a company somehow holds the copyright of every single author, it is usually practically impossible to get permission to dual-license.
+
+==See also==
+
+* Commercial open source applications
+
+== References ==
+
+This article was originally based on material from Free Open Source Software, which is licensed under the GFDL.
+

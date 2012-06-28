@@ -1,0 +1,92 @@
+
+The online portal Greenpilot is a service provided by the German National Library of Medicine, ZB MED.
+The project is funded by the German Research Foundation (Deutsche Forschungsgemeinschaft) and gets its technical support from  Averbis Ltd. The portal first went online May 29, 2009 and currently runs in the updated beta version. In the context of the 'Germany - Land of Ideas' (Deutschland - Land der Ideen) initiative under the patronage of the President of Germany Horst Köhler the ZB MED was awarded the distinction 'Selected Landmark 2009' (Ausgewählter Ort 2009).Pressemitteilung im Informationsdienst Wissenschaft vom 15. Mai 2009 
+
+==Objective==
+
+The Greenpilot portal is a digital library specialised in the fields of Nutritional, Agricultural and Environmental Sciences. It aims to provide researchers in the three fields with a collection of scientific literature which is easy to access and of high quality. Especially the gray literature is often difficult to find and retrieve for the average user so Greenpilot also aims to make access to these sources easier. The service addresses itself not only to scientists and students but also to the broadly interested public. Greenpilot has been modelled after the corresponding digital library for Medicine, MedpilotMedpilot portal, also a project of the German National Library of Medicine. The ZB MED has chosen the slogan 'Greenpilot - all about life and science' as a motto. In Greenpilot scientifically relevant databases, library catalogues and websites can be searched by entering a search term and the results are presented in a standardised web interface.
+
+==Technical Background==
+
+Greenpilot is a search engine based on intuitive search engine technology. The portal's software was developed in the programming language Perl. The search engine technology is based upon the 'Averbis Search Platform' software developed by the Averbis Ltd. and uses the open source software Lucene. Functionally this is an expert search engine which centres around the intelligent semantic connection of search terms by means of a standardised vocabulary. This is made possible by Averbis's MSI software which provides:
+* semantic search optimised for the fields of Medicine and Life Sciences
+* a contextual analysis of texts taking synonyms and compounds into account
+* multilingual and cross-language search
+* linking of lay and expert vocabulary
+The search results are generated from a search index.
+Additionally a metasearch can be conducted in order to search other databases not contained in the index. This search is based upon individual results from the specific database searched.
+
+==Contents==
+
+The Greenpilot portal integrates various scientifically relevant information resources under a uniform search interface. These resources are diverse and encompass national and international expert databases, library catalogues of national libraries with a focus on specific topics, full text documents from open access journals as well as information contained on about one thousand scientifically relevant websites selected for Greenpilot.
+The following is a list of sources from November 2009:List of databases in Greenpilot
+
+===Library Catalogues===
+
+* Catalogue of the German National Library of Medicine (ZB MED Nutrition. Environment. Agriculture)
+* Catalogue of the German National Library of Medicine (ZB MED Medicine. Health)
+* Catalogue of the Bonn University Library
+* Library catalogues of scientifically relevant departments within the collective library network (GBV)
+* Catalogue of the Federal Ministry of Food, Agriculture and Consumer Protection (BMELV)
+* Catalogue of the Johann Heinrich von Thünen-Institut (vTI), Federal Research Institute for Rural Areas, Forestry and Fisheries
+* Catalogue of the Julius Kühn-Institut, Federal Research Centre for Cultivated Plants
+* Catalogue of the Friedrich Löffler-Institut, Federal Research Institute for Animal Health
+* Catalogue of the Max Rubner-Institut, Federal Research Institute for Nutrition and Food
+* Catalogue of the Federal Institute for Risk Assessment
+* Catalogue of the Leibniz Institute for Marine Science (IFM-GEOMAR)
+* Catalogue of the Leibniz Institute for Plant Genetics and Crop Plant Research (IPK-Plant Genetics and Crop Plant)
+* Catalogue of the Leibniz Institute for Plant Biochemistry (IPB-Plant Chemistry)
+* Catalogue of the special collection inshore and deep-sea fishery
+* Catalogue of the University of Veterinary Medicine Hannover (TiHo-Veterinary Sciences)
+* Catalogue of the German National Library of Economics (ZBW)
+
+===Bibliographic databases===
+
+* AGRIS (1975–2008), FAO ( Food and Agriculture Organization of the United Nations)
+* VITIS-VEA, Viticulture and Enology Abstracts
+* Medline (2004–2009)
+* UFORDAT, Environmental Research Database (UBA)
+* ULIDAT, Environmental Literature Database (UBA)
+* ELFIS, International Information System for the Agricultural Sciences and Technology
+
+===Relevant Internet Sources===
+
+* Reviewed list of URLs selected by the ZB MED Nutrition. Environment. Agriculture
+* Open Access journals with full text documents
+
+===Metasearch===
+
+* GetInfo, the knowledge portal for Technical Science provided by the Library for Technical Sciences (TIB) and the professional information centres FIZ Technik Frankfurt, FIZ Karlsruhe and FIZ CHEMIE Berlin.
+* ECONIS, Catalogue of the German National Library of Economics (ZBW).
+
+==Other Features==
+
+===Search and results page===
+
+* Search and advanced search
+* Context sensitive help function
+* Truncation and Boolean functions
+* Personalised refining of search results by filtering for a specific document type, language or database
+* Bookmarks
+
+===Document ordering===
+
+* Ordering directly from the results page is made possible by using the document delivery service of the ZB MED or the Electronic Journals Library (Elektronische Zeitschriftenbibliothek).
+
+===Personalisation===
+
+* My Greenpilot: a feature requiring the user to sign up for an account. The service is free of charge and offers an overview of ordered documents as well as enabling individual managing of customer data.
+
+==See also==
+
+*List of digital library projects
+*vascoda
+
+==References==
+
+==External links==
+
+* Greenpilot website
+* Website of the German National Library of Medicine, ZB MED
+* Germany - Land of Ideas website
+

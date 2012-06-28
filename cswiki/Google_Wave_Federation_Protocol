@@ -1,0 +1,42 @@
+
+The Google Wave Federation Protocol, renamed as Wave Federation Protocol, is an open protocol, extension of the Extensible Messaging and Presence Protocol (XMPP) that is used in Apache Wave. It is designed for near real-time communication between the computer supported cooperative work wave servers.
+
+==Overview==
+
+Still currently in development, the Wave Federation Protocol is an open protocol that is intended to parallel the openness of the email protocol so waves may succeed email as the dominant form of Internet communication.http://www.youtube.com/watch?v=v_UyVmITiYQ[tpl]cite web|url=http://www.waveprotocol.org/|title=Google Wave Federation Protocol|publisher=Google[/tpl][tpl]cite news | url=http://www.pcmag.com/article2/0,2817,2347795,00.asp | title=Google Reinvents Email, Docs with Google Wave | publisher=www.pcmag.com | accessdate=2009-06-02 | first=Mark | last=Hachman | date=2009-05-28[/tpl]http://www.waveprotocol.org/whitepapers/google-wave-architecturehttp://www.waveprotocol.org/whitepapers/internal-client-server-protocol
+
+==Availability==
+
+Since the protocol is open, anyone can become a wave provider and share waves with others. Like email, communication is possible regardless of provider. For instance, organizations can operate as wave providers for their members, an individual can run a private wave server for a single user or family members, and an Internet service provider can run a wave service as another Internet service for its users as a supplement to email, IM, FTP, etc. In this model, Google Wave is one of many wave providers.
+Java source code for the "Google Wave Federation Prototype Server" was released in a Mercurial repository in July 2009 under the Apache License 2.0.http://googlewavedev.blogspot.com/2009/07/google-wave-federation-protocol-and.htmlhttp://code.google.com/p/wave-protocol/
+
+==Framework==
+
+Some features of Extensible Messaging and Presence Protocol inherited by the wave federation protocol are the discovery of IP addresses and port numbers, using Domain Name System (DNS) SRV records, and TLS authentication and encryption of connections. The XMPP transport encrypts operations at a transport level. So, it only provides cryptographic security between servers connected directly to each other. An additional layer of cryptography provides end-to-end authentication between wave providers using cryptographic signatures and certificates, allowing all wavelet providers to verify the properties of the operation. Therefore, a downstream wave provider can verify that the wave provider is not spoofing wavelet operations. It should not be able to falsely claim that a wavelet operation originated from a user on another wave provider or that it was originated in a different context. This addresses the situation where two users from different, trustworthy wave providers are participants of a wavelet that is hosted on a malicious provider. The protocol requires each participant to sign its user's operations with its own certificate. The signatures of all the operations forwarded by the host will be evaluated by the participants. This is to stop malicious hosts from altering or spoofing the contents of the messages from the user of other services. All the signatures and verifications are done by the wave providers, not the client software of the end users.
+All waves and wavelets (child waves) are identified by a globally unique wave id, which is a domain name and an id string. The domain name identifies the wave provider where the wave originated. Waves and wavelets are hosted by the wave provider of the creator. Wavelets in the same wave can be hosted by different wave providers. However, user data is not federated; i.e., not shared with other wave providers. Private reply wavelets are also possible, of which other participants have no knowledge or access. If a private wavelet is sent between users on the same wave provider, it's not federated regardless of where the parent wave is hosted.
+
+==Concurrent federation==
+
+A wave provider operates a wave service on one or more networked servers. The central pieces of the wave service is the wave store, which stores wavelet operations, and the wave server, which resolves wavelet operations by operational transformation and writes and reads wavelet operations to and from the wave store. Typically, the wave service serves waves to users of the wave provider which connect to the wave service frontend. For the purpose of federation, the wave service shares waves with participants from other providers by communicating with these wave provider's servers. Copies of wavelets are distributed to all wave providers that have participants in a given wavelet. Copies of a wavelet at a particular provider can either be local or remote. We use the term to refer to these two types of wavelet copies (in both cases, we are referring to the wavelet copy, and not the wavelet). A wave view can contain both local and remote wavelet copies simultaneously.
+The originating wave server is responsible for the hosting and the processing of wavelet operations submitted by local participants and by remote participants from other wave providers. The wave server performs concurrency control by ordering the submitted wavelet operations relative to each other using operational transformation. It also validates the operations before applying them to a local wavelet.
+Remote wavelets are hosted by other providers, cached and updated with wavelet operations that the local provider gets from the remote host. When a local participant submits a wavelet operation to a remote wavelet, the wave server forwards the operation to the wave server of the hosting provider. Then the transformed and applied operation is echoed back and applied to the cached copy.
+Wave services use federation gateways and a federation proxy components to communicate and share waves with other wave providers. Federation gateways communicate local wavelet operations, push new local wavelet operations to the remote wave providers of any other participants, fulfill requests for old wavelet operations, and process wavelet operations submission requests. A Federation proxy communicates remote wavelet operations and is the component of a wave provider that communicates with the federation gateway of remote providers. It receives new wavelet operations pushed to it from other providers, requests old wavelet operations, and submits wavelet operations to other providers.
+
+==See also==
+
+* Web 2.0
+* XML
+* Extensible Messaging and Presence Protocol
+* Apache Wave
+* Novell Pulse
+* Kune
+
+==External links==
+
+* Google Wave Federation Protocol Home Page
+* Draft Protocol Spec
+* Protocol Whitepapers
+
+== References ==
+
+

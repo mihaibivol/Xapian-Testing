@@ -1,0 +1,32 @@
+
+Mirek's Cellebration (abbreviated MCell) is a 32-bit Windows freeware program designed by Polish computer programmer Mirek Wójtowicz for running one-dimensional and two-dimensional cellular automata (CA).ACE News Notes August 2006 
+The program, currently in Version 4.20, supports more than 300 CA rules and over 1,000 pattern files in 14 different families including "Life," "Large than Life," "Vote for Life," "Weighted Life"," "1-D binary CA," "1-D totalistic CA" and “Generations."NONAGS review
+A Java-based version, Mirek’s Java Cellebration, is an applet that plays more than 300 CA rules and more than 1,400 patterns.
+
+==FeaturesWhat Is Mirek's Cellebration?==
+
+* 1-D and 2-D Cellular Automata.
+* 14 different CA families: Life, Generations, Weighted Life, Vote for Life, Rules tables, Cyclic CA, 1-D totalistic CA, 1-D binary CA, General binary, Neumann binary, Larger than Life, Margolus, User DLLs, and Special rules. Many predefined rules for each family.
+* Support for different neighborhoods (Moore 8 and 9, von Neumann 4 and 5, Margolus, Hexagonal, neighborhood ranges).
+* Comfortable user interface: dockable toolbars, active status bar, built-in File Manager, interactive zooming/panning using the mouse, the keyboard or the mouse wheel, subzooms, scroll-bars, auto-fitting and centering patterns, keyboard shortcuts to virtually all MCell functions.
+* Comprehensive Help, Tool tips, full program customization, configurable colors, sound.
+* Complete file saving and loading abilities. Supported file formats include Life 1.05, Life 1.06, RLE, dbLife, ProLife, Xlife, MCLife, MCell and variations of the above. Files can be loaded both from UNIX and DOS formats.
+* Externally programmable rules (DLLs), support for most 32-bit compilers.
+* (OLE) Automation interface.
+* Comfortable rules explorer; own rules can be saved and reused.
+* Different color modes, up to 256 states of cells.
+* A rich library of selected standard Life patterns and new patterns showing properties of other Cellular Automata rules.
+* Advanced editing features: draw dots, lines, rectangles, filled rectangles; cut and paste, drag and drop, etc. Cut and paste to and from text editors; one can even interactively draw in the live cells without pausing the simulation.
+* Mirroring, rotating, inverting, randomizing, colorizing, ...
+* Fully configurable seeding and randomizing. Sophisticated area/coloring/density/mode selections. Statistical (Bernoulli) and exact seeding.
+* All or selected Life file types can be automatically associated with MCell for easy opening directly from the Windows Explorer.
+* Configurable, unlimited, event-driven Undo and Redo.
+* Various analysis: statistics, transitions, correlations, population logs, period checkers.
+
+==References==
+
+==External links==
+
+*Official web site
+*PC Magazine's Shareware Library
+

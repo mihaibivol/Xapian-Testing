@@ -1,0 +1,30 @@
+
+Blueprint is a CSS framework designed to reduce development time and ensure cross-browser compatibility when working with Cascading Style Sheets (CSS). It also serves as a foundation for many tools designed to make CSS development easier and more accessible to beginners. Blueprint is released under a modified version of the MIT License, making it free software. It can be either used as is, or further adapted for use via a compression tool that is written in Ruby.
+
+== Features ==
+
+Blueprint's README file lists the following features as being provided out-of-the-box:
+* An easily customizable grid
+* Sensible default typography
+* A typographic baseline
+* Perfected browser CSS reset
+* A stylesheet for printing
+* Powerful scripts for customization
+* Bloat Minimized as much as possible
+
+== History ==
+
+Blueprint was first created by Olav Bjørkøy and released on August 3, 2007.Launch: Blueprint, a CSS framework By August 11, Blueprint included work based on ideas from Jeff Croft, Nathan Borror, Christian Metts, and Eric Meyer.http://bjorkoy.com/paf Version 0.8 was released on November 11, and included various bugfixes as well as a new "tabs" plugin.Blueprint version 0.8
+
+== Blueprint as a foundation for other projects ==
+
+One of the goals stated by the core team is to facilitate the development of new tools for working with CSS.Semantify, and CSS tools based on Blueprint A variety of CSS generators, visual editors, themes, and frameworks are based on Blueprint, many of which can be found on the Blueprint Wiki.Mods, Forks and Alternatives
+
+== External links ==
+
+* Project home page
+* Explanation of the compression/customization scripts
+
+== References ==
+
+

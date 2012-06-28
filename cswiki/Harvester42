@@ -1,0 +1,33 @@
+
+The Harvester42 is a meta search engine project hosted at KIT  Karlsruhe Institute of Technology.  Harvester42 queries over 30 major search engines in parallel and presents a large result page with the individual search engine results. The name "Harvester42" originates from the Bioinformatic Harvester project, a meta search engine for genes and proteins from several species. Harvester42 is based on the same method integrating several distributed data sources.   
+
+== Introduction ==
+
+Currently no search engine covers the entire internet. Often a search across several search 
+engines is more successful than a single search engine search. Meta search engines usually 
+integrate several search engines with complementing indices. Harvester42 covers popularity based 
+search engines (Google), proprietary search algorithms (cuil), open source search engines (YaCY), 
+product search engines (Directindustry, Google products), Video search (youtube) and powerful 
+meta search engines (Polymeta, Allplus, Mamma). 
+
+== Harvester42 integrated search engines ==
+
+* Clusty · Exalead · Entrez · EB-eye · YIF · nextbio · Bioinformatic Harvester · Google News · addictomatic · technology-review · wikipedia · wikiwix · 123people · eurekalert · ScienceDaily · physorg · google books · Google Scholar · GoPubmed · Scirus.com · Sciencenet · XClustering · iSEEK · YouTube · ovguide · Allplus · Stumbleupon · Delicious · YaCy · Cuil · Jove · Deepdyve · CiteULike · Twenga · Thefind · Ebay · Google patents · XCluster ...and several more.
+
+== Harvester42 technical details ==
+
+All search results are presented in so called iframes without any modification of the 
+original search engine result. Each iframe can be manipulated individually. 
+
+== Literature ==
+
+*[tpl]cite journal |author=Liebel U, Kindler B, Pepperkok R |title='Harvester': a fast meta search engine of human protein resources |journal=Bioinformatics |volume=20 |issue=12 |pages=1962–3 |year=2004 |month=August |pmid=14988114 |doi=10.1093/bioinformatics/bth146 |url=http://bioinformatics.oxfordjournals.org/cgi/pmidlookup?view=long&pmid=14988114[/tpl]
+*[tpl]cite journal |author=Liebel U, Kindler B, Pepperkok R |title=Bioinformatic "Harvester": a search engine for genome-wide human, mouse, and rat protein resources |journal=Meth. Enzymol. |volume=404 |issue= |pages=19–26 |year=2005 |pmid=16413254 |doi=10.1016/S0076-6879(05)04003-6 |url=http://linkinghub.elsevier.com/retrieve/pii/S0076-6879(05)04003-6[/tpl]
+
+==References==
+
+== External links ==
+
+* http://harvester42.fzk.de Harvester42 project at KIT Karlsruhe Institute of Technology
+* Liebel-Lab at KIT
+

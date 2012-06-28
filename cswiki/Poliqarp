@@ -1,0 +1,20 @@
+
+Poliqarp is an open source search engine designed to process the Polish Corpus created at the Institute of Computer Science, Polish Academy of Sciences.
+
+==Features==
+
+* Custom query language.
+* Two-level regular expressions
+** operating at the level of characters in words
+** operating at the level of words in statements/paragraphs
+* Good performance
+* Compact corpus representation (compared to similar projects)
+* Portability across operating systems: Linux/BSD/Win32
+* Lack of portability across endiannes (current release works only on little endian devices)
+
+==External links==
+
+* Polish corpus website (in English)
+* Project website on SourceForge
+* Search plugin for Firefox
+

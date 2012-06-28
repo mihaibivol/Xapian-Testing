@@ -1,0 +1,74 @@
+
+PCI-X, short for PCI-eXtended, is a computer bus and expansion card standard that enhances the 32-bit PCI Local Bus for higher bandwidth demanded by servers.  It is a double-wide version of PCI, running at up to four times the clock speed, but is otherwise similar in electrical implementation and uses the same protocol.[tpl]cite web|url=http://www.pcisig.com/news_room/faqs/faq_20/|title=PCI-SIG — FAQ — PCI-X 2.0|accessdate=2008-02-17[/tpl] It has been replaced in modern designs[tpl]Citation needed|date=September 2011[/tpl] by the similar-sounding PCI Express, with a completely different connector and a very different logical design, being a single narrow but fast serial connection instead of a number of slower connections in parallel.
+There is also a 64-bit PCI specification electrically different but with the same connector as PCI-X.
+
+==Background==
+
+PCI-X was developed jointly by IBM, HP, and Compaq and submitted for approval in 1998. It was an effort to codify proprietary server extensions to the PCI local bus to address several shortcomings in PCI, and increase performance of high bandwidth devices, such as Gigabit Ethernet, Fibre Channel, and Ultra3 SCSI cards, and allow processors to be interconnected in clusters.
+In PCI, a transaction that cannot be completed immediately is postponed by either the target or the initiator issuing retry-cycles, during which no other agents can use the PCI bus.  Since PCI lacks a split-response mechanism to permit the target to return data at a later time, the bus remains occupied by the target issuing retry-cycles until the read data is ready.  In PCI-X, after the master issues the request, it disconnects from the PCI bus, allowing other agents to use the bus.  The split-response containing the requested data is generated only when the target is ready to return all of the requested data.  Split-responses increase bus efficiency by eliminating retry-cycles, during which no data can be transferred across the bus.
+PCI also suffered from the relative scarcity of unique interrupt lines.  With only 4 interrupt lines (INTA/B/C/D), systems with many PCI devices require multiple functions to share an interrupt line, complicating host-side interrupt-handling.  PCI-X added MSI, an interrupt system using writes to host-memory.  In MSI-mode, the function's interrupt is not signaled by asserting an INTx line.  Instead, the function performs a memory-write to a system-configured region in host-memory.  Since the content and address are configured on a per-function basis, MSI-mode interrupts are dedicated instead of shared.  A PCI-X system allows both MSI-mode interrupts  and legacy INTx interrupts to be used simultaneously (though not by the same function.)
+The lack of registered I/Os limited PCI to a maximum frequency of 66 MHz.  PCI-X I/Os are registered to the PCI clock, usually through means of a PLL to actively control I/O delay the bus pins.  The improvement in setup time allows an increase in frequency to 133 MHz.
+Some devices, most notably Gigabit Ethernet cards, SCSI controllers (Fibre Channel and Ultra320), and cluster interconnects could by themselves saturate the PCI bus' 133 MB/s bandwidth. Ports using a bus speed doubled to 66 MHz and a bus width doubled to 64 bits (with the pin count increased to 184 from 124), in combination or not, have been implemented. These extensions were loosely supported as optional parts of the PCI 2.x standards, but device compatibility beyond the basic 133 MB/s continued to be difficult.
+Developers eventually used the combined 64-bit and 66-MHz extension as a foundation, and, anticipating future needs, established 66-MHz and 133-MHz variants with a maximum bandwidth of 532 MB/s and 1064 MB/s respectively. The joint result was submitted as PCI-X to the PCI Special Interest Group (Special Interest Group of the Association for Computing Machinery). Subsequent approval made it an open standard adoptable by all computer developers. The PCI SIG controls technical support, training, and compliance testing for PCI-X. IBM, Intel, Microelectronics, and Mylex were to develop supporting chipsets. 3Com and Adaptec were to develop compatible peripherals. To accelerate PCI-X adoption by the industry, Compaq offered PCI-X development tools at their Web site. All major chip makers generally now have or have had some variant of PCI-X in their product lines.
+
+==Technical description==
+
+PCI-X revised the conventional PCI standard by doubling the maximum clock speed (from 66 MHz to 133 MHz) and hence the amount of data exchanged between the computer processor and peripherals.  Conventional PCI supports up to 64 bits at 66 MHz (though anything above 32 bits at 33 MHz is seen only in high-end systems) and additional bus standards move 32 bits at 66 MHz or 64 bits at 33 MHz. The theoretical maximum amount of data exchanged between the processor and peripherals with PCI-X is 1.06 GB/s, compared to 133 MB/s with standard PCI. PCI-X also improves the fault tolerance of PCI, allowing, for example, faulty cards to be reinitialized or taken offline.
+The two most fundamental changes are:
+* The shortest time between a signal appearing on the PCI bus and a response to that signal occurring on the bus has been extended to 2 cycles, rather than 1.  This allows much faster clock rates, but causes many protocol changes:
+** The ability of the conventional PCI bus protocol to insert wait states on any cycle based on the IRDY# and TRDY# signals has been deleted; PCI-X only allows bursts to be interrupted at 128-byte boundaries.
+** The initator must deassert FRAME# two cycles before the end of the transaction.
+** The initator may not insert wait states.  The target may, but only before any data is transferred, and wait states for writes are limited to multiples of 2 clock cycles.
+** Likewise, the length of a burst is decided before it begins; it may not be halted on an arbitrary cycle using the FRAME# and STOP# signals.
+** Subtractive decode DEVSEL# takes place two cycles after the "slow DEVSEL#" cycle rather than on the next cycle.
+* After the address phase (and before any device has responded with DEVSEL#), there is an additional 1-cycle "attribute phase", during which 36 additional bits (both AD and C/BE# lines are used) of information about the operation are transmitted.  These include 16 bits of requester identification (PCI bus, device and function number), 12 bits of burst length, 5 bits of tag (for associating split transactions), and 3 bits of additional status.
+PCI-X is not compatible with the older 5-volt I/O, which the first revision of PCI used exclusively.  Starting with PCI 2.x, 3.3 volt I/O was supported, with which PCI-X is backward compatible.  Apart from this, PCI-X and 3.3 volt PCI cards generally can be intermixed on a PCI-X bus, but bus speed will be limited to the clock frequency of the slowest card, an inherent limitation of PCI's shared bus topology.  For example, when a PCI 2.3, 66-MHz peripheral is installed into a PCI-X bus capable of 133 MHz, the entire bus backplane will be limited to 66 MHz.  To get around this limitation and the voltage compatibility issue, many motherboards have multiple PCI/PCI-X buses, with one bus intended for use with high-speed PCI-X peripherals, and the other bus intended for general-purpose peripherals.
+
+===Distinction from 64-bit PCI===
+
+The 64-bit PCI connector can be distinguished from 32-bit by being longer, and from PCI-X by having three segments, with the one in the middle much shorter than the others. PCI-X slots can be distinguished from 64-bit PCI as the small segment is first, instead of in the center. 32-bit PCI cards will function properly in a PCI-X slot, but PCI-X cards do not work in a standard 32 bit PCI slot.LaCie support: Identify a variety of PCI slots.  Many 64-bit PCI cards are designed to function normally, with some loss of speed, in 32-bit slotsTypical 64-bit PCI card (Adaptec 29160 SCSI card) which will operate at lower speed in a 32-bit slot.
+
+==Versions==
+
+All PCI-X cards or slots have a 64-bit implementation and vary as follows:
+*Cards
+**66 MHz (added in Rev. 1.0)
+**100 MHz (implemented by a 133 MHz adapter on some servers)[tpl]Wayback|url=http://www.it-enquirer.com/main/ite/more/pci_xpci_express/|title=PCI-X vs. PCI-Express|date=20080211092502[/tpl]
+**133 MHz (added in Rev. 1.0)
+**266 MHz (added in Rev. 2.0)
+**533 MHz (added in Rev. 2.0)
+*Slots
+**66 MHz (can be found on older servers)
+**133 MHz (most common on modern servers)
+**266 MHz (rare, being replaced by PCI-e)
+**533 MHz (rare, being replaced by PCI-e)
+
+==PCI-X 2.0==
+
+In 2003, the PCI SIG ratified PCI-X 2.0. It adds 266-MHz and 533-MHz variants, yielding roughly 2.15 GB/s and 4.3 GB/s throughput, respectively. PCI-X 2.0 makes additional protocol revisions that are designed to help system reliability and add Error-correcting codes to the bus to avoid re-sends. To deal with one of the most common complaints of the PCI-X form factor, the 184-pin connector, 16-bit ports were developed to allow PCI-X to be used in devices with tight space constraints. Similar to PCI-Express, PtP functions were added to allow for devices on the bus to talk to each other without burdening the CPU or bus controller.
+Despite the various theoretical advantages of PCI-X 2.0 and its backward compatibility with PCI-X and PCI devices, it has not been implemented on a large scale (as of 2008). This lack of implementation primarily is because hardware vendors have chosen to integrate PCI Express instead.
+
+==Confusion with PCI-Express==
+
+PCI-X is often confused by name with PCI Express, commonly abbreviated as PCI-E or PCIe, although the cards themselves are totally incompatible and look different. The reason for this confusion is that "PCI-X" sounds similar to "PCI Express". While they are both high-speed computer buses for internal peripherals, they differ in many ways. The first is that PCI-X is a parallel interface that is directly backward compatible with all but the oldest (5-volt) standard PCI devices. PCIe is a serial bus with a different physical interface that was designed to supersede both PCI and PCI-X.
+PCI-X and standard PCI buses may run on a PCIe bridge, similar to the way ISA buses ran on standard PCI buses in some computers. PCIe also matches PCI-X and even PCI-X 2.0 in maximum bandwidth. PCIe 1.0 x1 offers 250 MB/s in each direction, and up to 32 lanes (x32) is currently supported, giving a maximum of 8 GB/s in each direction.
+PCI-X has technological and economical disadvantages compared to PCI-Express. The 64-bit parallel interface requires difficult trace routing, because, as with all parallel interfaces, the signals from the bus must arrive simultaneously or within a very short window, and noise from adjacent slots may cause interference.  The serial interface of PCIe suffers fewer such problems and therefore does not require such complex and expensive designs. PCI-X buses, like standard PCI, are half-duplex bidirectional, whereas PCIe buses are full-duplex bidirectional.  PCI-X buses run only as fast as the slowest device, whereas PCIe devices are able to independently negotiate the bus speed.  Also, PCI-X slots are longer than PCIe 1x through PCIe 16x, which makes it impossible to make short cards for PCI-X.  PCI-X slots take quite a bit of space on motherboards, which can be a problem for ATX and smaller form factors.
+
+==See also==
+
+* Conventional PCI
+* PCI Express
+* PCI Configuration Space
+
+==References==
+
+== Further reading ==
+
+* PCI Bus Demystified; 2nd Ed; Doug Abbott; 250 pages; 2004; ISBN 978-0-7506-7739-4.
+* PCI-X System Architecture; 1st Ed; Tom Shanley; 752 pages; 2000; ISBN 978-0-201-72682-4.
+* PCI & PCI-X Hardware and Software Architecture & Design; 5th Ed; Ed Solari; 1140 pages; 2001; ISBN 978-0-929392-63-9.
+
+==External links==
+
+* Good diagrams and text on how to recognize the difference between 5 volt and 3.3 volt PCI (and PCI-X) slots.
+

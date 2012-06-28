@@ -1,0 +1,107 @@
+
+EMML (Enterprise Mobility Mark-up Language) is an extension of the HTML language. It is less of a strict set of functions and tags, but more a standard for providing developers of web-based mobility applications a means to configure, control and retrieve information from additional input devices and features of rugged mobile computers.http://en.wikipedia.org/wiki/EMML Emml Documentation Overview
+
+== History ==
+
+=== EMML 1.0 ===
+
+EMML was first devised by James Morley-Smith in 2001, when working as a Software Developer at Symbol Technologies (now a wholly owned subsidiary of Motorola, Inc). As part of the first version of Symbol’s PocketBrowser, EMML was originally a mechanism for providing access to the barcode scanner built into many of Symbol's enterprise mobility devices. It was extended to included features such as WLAN signal indicators, power statistics and access to the communications port to allow for input from custom devices such as magnetic card readers and temperature probes.
+EMML 1.0 support is currently offered by commercial browsers and development tools from companies such as Naurtech, Intermec, Wavelink, and Georgia SoftWorks Documentation: Georgia SoftWorks GSWBrowse for Windows RF Devices Retrieved 2011-07-08
+.
+
+=== EMML 1.1 ===
+
+In 2009 Motorola created an updated version of EMML in order to co-ordinate it with other Internet standards, most notably CSS. There was a clear focus on simplifying the standard and reducing the amount of redundant code. In doing so, the number of bytes required to be downloaded was reduced and the readability of the language was vastly improved.
+Previously, all parameters had to be supplied to each META function individually. This meant that each module might have several META tags, each taking up several bytes worth of data. In EMML 1.1, parameters can be supplied in a semi-colon delimited list, much like styles in a CSS style block in HTML.
+
+== Characteristics ==
+
+=== Usage of The META Tag ===
+
+EMML utilizes the META tag from the HTML language to set properties and specify callback functions by which the browser returns information. According to the W3C the META Tag is: "an extensible container for use in identifying specialized document meta-information".W3C Hypertext Markup Language - 2.0
+In EMML, the http-equiv parameter is primarily used to identify the module of functionality. The content parameter is used to set properties, methods, and associated events.
+
+== Actions ==
+
+There are three main actions in the EMML language:
+# Setting property values
+# Invoking methods
+# Retrieving information through events
+
+=== Setting Property Values ===
+
+In EMML, setting properties is a case of providing the module and property to set, followed by the value.
+
+==== In EMML 1.0 ====
+
+Example 1. The following is an example of setting the x-position in pixels of the on screen battery indicator in EMML 1.0:
+Example 2. This is an example of several parameters being applied to the battery module using EMML 1.0:
+
+==== In EMML 1.1====
+
+The example shown in Example 2. in In EMML 1.0 can be written this way in EMML 1.1:
+It is immediately apparent in the example from EMML 1.1 that there is less redundant information. It may also be observed that the x and y parameters from EMML 1.0 have been substituted for the left and top parameters familiar to CSS. This is also true for the w and h EMML 1.0 parameters that have become width and height in EMML 1.1. The way in which color is described was also changed to the #rrggbb format of HTML and CSS.
+
+=== Invoking Methods ===
+
+Methods are written in a way similar to setting a property. Again, the module appears in the http-equiv parameter, and the action in the content parameter.
+
+==== In EMML 1.0 ====
+
+The following would cause the on screen battery indicator to be displayed:
+
+==== In EMML 1.1 ====
+
+The show method from EMML 1.0 was dropped in favor of the visibility parameter with the visible value, similarly hide is now the hidden value of the visibility parameter.
+
+=== Retrieving Information Through Events ===
+
+Retrieving information is carried out by specifying a callback function to which the EMML browser returns information.  Typically, META functions which return information were named as the module name followed by the word "navigate".  The callback function could be a URL, where the data is passed as named-value pairs in the query string, or a JavaScript function or variable.
+
+==== In EMML 1.0 ====
+
+The following is how you would set all of these for the batterynavigate function in EMML 1.0
+Note: all of these methods would not be included in one document, they are included here as an example.
+In EMML 1.0, you specify a place holder for each value you are interested in using a %s.  This has the drawback of requiring the developer to supply a placeholder for inconsequential values. For example, placeholders would be required for 8 values, even if only the 1st and 8th values were of interest.
+
+==== In EMML 1.1 ====
+
+In EMML 1.1 events have a parameter value for each event and each module can therefore support more than one event.
+Or
+In EMML 1.1, the s can be substituted for a numerical value representing the position of the value of interest.  Therefore if requesting the 1st and 8th values from the signalevent of the signal module, the tag might be written as follows as follows:
+
+== EMML Profiles (EMMP) ==
+
+Also added in EMML 1.1 were EMML Profiles.  EMML Profiles are similar to CSS style sheets.  An EMML Profile allows for the creation of EMML classes—a common set of EMML META tags which can be applied to a page or element.
+Below is an example of an EMML Profile Page:
+.inventoryBarcodes {
+   scanner-alldecoders:       disabled;
+   scanner-code128redundancy: true;
+   scanner-code128minlength:  10;
+   scanner-code128maxlength:  16;
+   scanner-code128:           enabled;
+   scanner-ean13:             enabled;
+   scanner-i2of5:             enabled;  
+}
+.inventoryBattery {
+   battery-left:              10;
+   battery-top:               0;
+   battery-visibility:        visible;
+}
+EMML Profiles are stored in .emmp files; these can be linked to the HTML document using the import method of the EMMLProfile module. This is an example of how an EMMP file would be linked:
+Note: Each META tag is parsed from left to right applying each component part in turn. Therefore, in the above example, the source parameter will be set before the import method is called.  The same is true for EMML Profiles which are applied from top downwards.
+When a profile page is linked, the class name can simply be referenced, and with that, all the parameters in the profile can be applied with one command.
+As can be seen from the example above, it is possible to set any number of profiles. When doing this, however, one should be aware of conflicting parameters.
+
+== See also ==
+
+== References ==
+
+==External links==
+
+*Naurtech Web Browser Programming Guide
+*Wavelink Telnet Client Industrial Browser Reference Guide
+*Intermec Browser User's Manual
+*Motorola PocketBrowser Download Including Developer Guide
+*EMML Samples
+

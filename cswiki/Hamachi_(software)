@@ -1,0 +1,53 @@
+
+Hamachi is a zero-configuration virtual private network (VPN) shareware application that is capable of establishing direct links between computers that are behind NAT firewalls without requiring reconfiguration (when the user's PC can be accessed directly without relays from the Internet/WAN side ); in other words, it establishes a connection over the Internet that emulates the connection that would exist if the computers were connected over a local area network.  It is currently available as a production version for Microsoft Windows and Mac OS X, and as a beta version for Linux.
+
+==Operational summary==
+
+Hamachi is a centrally-managed VPN system, consisting of the server cluster managed by the vendor of the system and the client software, which is installed on end-user computers.
+Client software adds a virtual network interface to a computer, and it is used for intercepting outbound as well as injecting inbound VPN traffic. Outbound traffic sent by the operating system to this interface is delivered to the client software, which encrypts and authenticates it and then sends it to the destination VPN peer over a specially initiated UDP connection. Hamachi currently handles tunneling of IP traffic including broadcasts and multicast. The Windows version also recognizes and tunnels IPX traffic.
+Each client establishes and maintains a control connection to the server cluster. When the connection is established, the client goes through a login sequence, followed by the discovery process and state synchronization. The login step authenticates the client to the server and vice versa. The discovery is used to determine the topology of the client's Internet connection, specifically to detect the presence of NAT and firewall devices on its route to the Internet. The synchronization step brings a client's view of its private networks in sync with other members of these networks.
+When a member of a network goes online or offline, the server instructs other network peers to either establish or tear down tunnels to the former. When establishing tunnels between the peers, Hamachi uses a server-assisted NAT traversal technique, similar to UDP hole punching. Detailed information on how it works has not been made public. The vendor claims "...to successfully mediate P2P connections in roughly 95% of all cases ..." This process does not work on certain combinations of NAT devices, requiring the user to explicitly set up a port forward. Additionally 1.0 series of client software are capable of relaying traffic through vendor-maintained 'relay servers'.
+In the event of unexpectedly losing a connection to the server, the client retains all its tunnels and starts actively checking their status. When the server unexpectedly loses client's connection, it informs client's peers about the fact and expects them to also start liveliness checks. This enables Hamachi tunnels to withstand transient network problems on the route between the client and the server as well as short periods of complete server unavailability.
+Hamachi is frequently used for gaming and remote administration. The vendor provides free basic service and extra features for a fee.
+In February 2007, an IP-level block was imposed by Hamachi servers on parts of Vietnamese Internet space due to "the scale of the system abuse originating from blocked addresses". The company is working on a less intrusive solution to the problem.[tpl]Citation needed|date=April 2010[/tpl]
+
+==Addressing==
+
+Each Hamachi client is assigned an IPv4 address from the 5.0.0.0/8 address block when it logs into the system for the first time. This assignment is however unofficial, as Réseaux IP Européens Network Coordination Centre (RIPE NCC) has the rights to making assignments in that range. Organizations using these address ranges in products or services may experience problems when more specific Internet routes attract traffic that was meant for internal hosts, or alternatively find themselves unable to reach the legitimate users of those addresses because those addresses are being used internally.[tpl]cite web|author=Vegoda, Leo|url=http://www.cisco.com/web/about/ac123/ac147/archived_issues/ipj_10-3/103_awkward.html |title=Used but Unallocated: Potentially Awkward /8 Assignments |work=The Internet Protocol Journal — Volume 10, No. 3|publisher=Cisco.com |date= |accessdate=2011-03-25[/tpl] The IP address is henceforth associated with the client's public crypto key. As long as the client retains its key, it can log into the system and use this IP address.
+The 5.0.0.0/8 network is used to avoid collisions with private IP networks that might already be in use on the client side, specifically, 10.0.0.0/8, 172.16.0.0/12 and 192.168.0.0/16.
+Additionally, using a separate network prefix creates a single broadcast domain between all clients. This makes it possible to use LAN protocols that rely on IP broadcasts for discovery and announcement services over Hamachi networks.
+The 5.0.0.0/8 address block was allocated by IANA[tpl]cite web |url=http://www.iana.org/assignments/ipv4-address-space/ |title=IANA IPv4 Address Space Registry |publisher=IANA.org[/tpl] to RIPE NCC in November 2010. On April 23rd 2012 RIPE started to give out the addresses from this prefix to LIRs.ftp://ftp.ripe.net/pub/stats/ripencc/delegated-ripencc-latest Hamachi users will not be able to connect to any Internet IP addresses within the range as long as the Hamachi client is running.
+
+==Security==
+
+The following considerations apply to Hamachi's use as a VPN application:
+* Additional risk of disclosure of sensitive data which is stored or may be logged by the mediation server — minimal where data is not forwarded.
+* The security risks due to vulnerable services on remote machines otherwise not accessible behind a NAT, common to all VPNs.
+*Hamachi is stated to use strong, industry-standard algorithms to secure and authenticate the data and its security architecture is open.[tpl]cite web|url=https://logmeinsupport.com/kblive/crm/selfservice/includes/usefullinkrenderer.jsp?DocId=7258&SecMode=1 |title=LogMeIn Hamachi2 Security Whitepaper |publisher=Logmeinsupport.com |date= |accessdate=2011-04-12[/tpl]
+*The existing client-server protocol documentation contains a number of errors,Hamachi protocol documentation errors. Hamachi.cc forums.[tpl]Dead link|date=April 2011[/tpl]More Hamachi protocol documentation concerns. Hamachi.cc forums.[tpl]Dead link|date=April 2011[/tpl] some of which have been confirmed by the vendor, pending correction,Acknowledgement of documentation errors. Hamachi.cc forums.[tpl]Dead link|date=April 2011[/tpl] with others not yet confirmed.
+*For the product to work, a "mediation server", operated by the vendor, is required.
+*This server stores the nickname, maintenance password, statically-allocated 5.0.0.0/8 IP address and the associated authentication token of the user. As such, it can potentially log actual IP addresses of the VPN users as well as various details of the session.
+
+==Compatibility==
+
+The current builds of Hamachi are available for the following operating systems:
+*Microsoft Windows 2000, XP, Server 2003, Vista and Windows 7.
+*Mac OS X
+*Linux (beta)
+Prior to versions 1.0.2.0 and 1.0.2.1 for the Windows release,[tpl]cite web|url=http://www.hamachi.cc/changes/ |title=Hamachi for Windows, change log |publisher=Hamachi.cc |date= |accessdate=2011-04-12[/tpl][tpl]Failed verification|date=April 2011[/tpl] many Windows Vista users had experienced compatibility and connection issues while using Hamachi. As of March 30, 2007, the software now includes Vista tweaks, which answer these OS-related problems, among other specific solutions.[tpl]cite web|url=http://forums.hamachi.cc/viewtopic.php?t=13746 |title=Hamachi Community Forums - 1.0.2.1 is released |publisher=Forums.hamachi.cc |date= |accessdate=2011-04-12[/tpl][tpl]Failed verification|date=April 2011[/tpl]
+
+==Source code==
+
+The source code of the Hamachi client was released, but the source code of the server remains closed. This makes it difficult to assess the robustness of the tool's security.[tpl]cn|date=January 2012[/tpl]
+
+==See also==
+
+* Network address translation (NAT) Overview, related RFCs: RFC 4008, RFC 3022, RFC 1631 (obsolete)
+* Simple Traversal of UDP over NATs (STUN), a NAT traversal protocol defined in RFC 3489 (obsoleted by RFC 5389)
+* Session Traversal Utilities for NAT (Updated STUN, as defined in RFC 5389)
+* UDP hole punching another NAT traversal technique
+* Virtual Private LAN Service
+
+==References==
+
+

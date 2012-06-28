@@ -1,0 +1,23 @@
+
+Google hacking is a computer hacking technique that uses Google Search and other Google applications to find security holes in the configuration and computer code that websites use.
+
+== Basics ==
+
+Google hacking involves using advanced operators in the Google search engine to locate specific strings of text within search results.  Some of the more popular examples are finding specific versions of vulnerable Web applications.  The following search query would locate all web pages that have that particular text contained within them.  It is normal for default installations of applications to include their running version in every page they serve, e.g., "Powered by XOOPS 2.2.3 Final".
+The following search query will locate all websites that have the words "admbook" and "version" in the title of the website.  It also checks to ensure that the web page being accessed is a PHP file.
+ [http://www.google.com/search?q=intitle%3Aadmbook+intitle%3Aversion+filetype%3Aphp intitle:admbook intitle:version filetype:php]
+One can even retrieve the username and password list from Microsoft FrontPage servers by inputting the given microscript in Google search field:
+ "#-Frontpage-" inurl:administrators.pwd
+Devices connected to the Internet can be found. A search string such as inurl:"ViewerFrame?Mode=" will find public web cameras.
+Another Useful Search is following intitle:index.ofhttp://www.google.co.in/search?q=intitle%3Aindex.of
+followed by whatever you want to search. This can give list of files on the servers.For example intitle:index.of mp3 will give all the mp3 file available on various servers.
+
+==Advanced Operators==
+
+There are many similar advanced operators which can be use to exploit insecure website
+
+== External links ==
+
+* "Google Help: Cheat Sheet", Google (printable)
+* "Google Hacking & Deep Web", GERMAN
+

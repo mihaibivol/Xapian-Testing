@@ -1,0 +1,73 @@
+
+UOX, or Ultima Offline eXperiment, is an Ultima Online (UO) server emulator that is written in C++ and released under the GPL.  Today, the term UOX almost exclusively refers to the third version, UOX3.
+
+== Overview ==
+
+UOX is a software suite that allows a user to manage a customized Ultima Online server to which they or others may connect.  UOX is both free and open-source, released under the GPL, allowing anyone to modify and customize it to his or her will.
+
+==History==
+
+UOX has had a long history, and has seen three major version numbers, often marking change in development leadership.
+
+===UOX===
+
+Created during the beta testing of Ultima Online in 1996 or 1997, the first version of UOX is commonly regarded as the first Ultima Online emulator.  Created by Jaegermeister.  This version was closed-source.
+
+===UOX2===
+
+The second version was by Marcus Rating (aka Cironian), who rewrote UOX [tpl]Harv|Alnes|2003[/tpl]. UOX2 was also single-player [tpl]Harv|Pelel|2005[/tpl].  This version was also closed-source.
+
+===UOX3===
+
+UOX has spent the majority of its lifetime in its third version. Originally re-written from UOX2 by Marcus Rating, it has passed through many hands and gone through monumental changes. Some believe that the current rendition of UOX should be dubbed UOX4, as virtually every line of the program has been rewritten.  This was the first version to have the source released to the public under the GPL. It was released on October 22, 1997.
+
+==== Early development ====
+
+Originally decentralized, early development of UOX3 (circa 1998) was done by many individuals with no version control and little synchronization or quality checks.  This led to what is often termed "spaghetti code", stability issues, and bugs.  Yet, even so, the original creator, Marcus Rating, was opposed to centralizing development:
+: "Anyway, and I should have probably said this earlier: I do not think that centralizing the development of UOX, as it is obviously happening, is a good idea. It was always wonderful to see how a lot of people just added their favorite features to UOX without having to think if someone else was working on the code too. Yes, it does lead to bugs sometimes, but actually UOX is still in a pre-alpha state, where no one should care about stability issues. Also, I do not think a revision control system is really necessary, if people just give a bit of an advance announcement before releasing things and remember to document all changes in the update.txt. (Yes, I have to remember that myself too)" [tpl]Harv|Rating|1998[/tpl]
+That choice and the resulting code base has often been one of the primary criticisms of the project (see: criticism).  These issues have caused some to choose to create branches of the code (see: branches), and still others to create new emulators entirely.
+
+==== Recent development ====
+
+Today, UOX3 would appear as an entirely different program to one who used it at its inception. JavaScript is used to make just about anything in the game world scriptable, and the code is almost entirely object-oriented. Along with this rewrite, UOX3 has seen many enhancements in cleanliness, organization, and better design principles. This new code base, originally created by Matthew Randall (aka EviLDeD), Daniel Stratton (aka Abaddon/Maarc), "Tauriel" (real name unknown), and Bryan Pass (aka Zippy), is now primarily maintained by Scott Thompson (aka giwo/Zane) and Geir Ove Alnes (aka Xuri/Xoduz) on SourceForge.
+
+==== Web sites ====
+
+Originally, UOX3 was hosted as a part of "UO Stratics" at uox.stratics.com.  This was during the time when Marcus Rating was the primary developer.
+As Matthew Randall and Daniel Stratton took over, development moved to a new web site, UOX3Dev.net.  This web site remained the focal point of UOX3 development during its prime.
+After the UOX3Dev.net site went down indefinitely, UOX3.org, ran by Geir Ove Alnes, became the new official UOX3 web site, and remains the official web site to this day.
+
+==Features==
+
+* Open-source C++.
+* Customization through JavaScript.
+* Commands are scriptable - more than 100 commands are scripted and can be modified by administrators already, and new ones can be added.
+* All UOX3 script and configuration files are reloadable during runtime.
+* Extensive logging of server errors, packets sent and received, commands used, spells cast, combat messages, and in-game player chat.
+* Regional spawning system that allows an administrator to spawn large numbers of non-player characters or items without significantly increased world-save times, because objects spawned regionally are not saved and only kept in memory for as long as the server is running. Upon server restart, they are all re-spawned.
+* Region-specific control of weather effects, lighting, appearance (Felucca, Trammel, spring, winter) and ore-resources.
+* Custom dictionary system allowing for the display of server and script messages in multiple languages (Currently there are only dictionaries for English, and to some extent - French and German, though any language with a country-code supported in the Ultima Online client is possible to use).
+* Customizable races, allowing for allies, enemies, monsters opposing or assisting each other, skill-bonuses/penalties, etc.
+
+== Branches ==
+
+Due to its popularity and the nature of open-source projects, UOX has been branched many times. Some of these offshoots are still around and have grown into projects that are completely different from UOX, and some have also been branched into new projects themselves.  All were, at some point, based on the code of UOX3 or derived from an emulator that used UOX3 code.  No known offshoots of either UOX1 or UOX2 exist (likely due to them both being closed-source).
+Branching took place when an individual or group decided they wanted to make changes to the program not consistent with the current development team's goals.  In these scenarios, new projects based on the UOX3 source code were created in order to pursue the particular goals of that group.  No other Ultima Online emulator has seen as many branches as UOX.
+
+==See also==
+
+* Ultima Online The game that UOX emulates.
+* Ultima Online Shard Emulation
+
+== References ==
+
+* [tpl]Citation | surname=Alnes | given=G. | title=UOX3.org Frequently Asked Questions | year=2003 | url=http://www.uox3.org/faq.shtml [/tpl]. Retrieved Dec. 6, 2005.
+* [tpl]Citation | surname=Pelel | Given= | title=pelel » uox2 | year=2005 | url=http://pelel.wikispaces.com/uox2 [/tpl]. Retrieved Dec. 6, 2005.
+* [tpl]Citation | surname=Rating | given=M. | title=Ultima Offline eXperiment | year=1998 | url=http://uox.stratics.com/ [/tpl]
+
+== External links ==
+
+* UOX3.org The current official UOX3 development site.
+* UOX3 @ Sourceforge The UOX3 Official Sourceforge Project
+* OpenUO @ Sourceforge A Sourceforge Project for all things UOX
+

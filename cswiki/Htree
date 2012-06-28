@@ -1,0 +1,20 @@
+
+An HTree is a specialized tree data structure for directory indexing, similar to a B-tree. They are constant depth of either one or two levels, have a high fanout factor, use a hash of the filename, and do not require balancing.[tpl]cite web|url=http://ext2.sourceforge.net/2005-ols/paper-html/node3.html|title=Directory indexing|author=Mingming Cao|work=Features found in Linux 2.6[/tpl] Htree indexes are used in the ext3 and ext4 Linux filesystems, and were incorporated into the Linux kernel around 2.5.40.[tpl]cite web|url=http://lwn.net/Articles/11481/|title=Add ext3 indexed directory (htree) support|author=tytso@mit.edu[/tpl]
+
+==Use==
+
+*ext2 Htree indexes were originally implemented for ext2 but the patch never made it to the official branch. The dir_index feature can be enabled when creating an ext2 filesystem, but the ext2 code won't act on it.
+*ext3 Htree indexes are available in ext3 when the dir_index feature is enabled.
+*ext4 Htree indexes are turned on by default in ext4. This feature is implemented in Linux kernel 2.6.23. 
+
+==See also==
+
+*Kernel
+
+==References==
+
+==External links==
+
+*A Directory Index for Ext2
+*HTree
+

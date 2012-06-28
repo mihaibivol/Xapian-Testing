@@ -1,0 +1,225 @@
+
+Probability is the likelihood or chance that something is the case or will happen. Probability theory is used extensively in statistics, mathematics, science and philosophy to draw conclusions about the likelihood of potential events and the underlying mechanics of complex systems.
+The following outline is provided as an overview and guide to the variety of topics included within the subject of probability.
+
+==Introduction==
+
+* Probability and randomness.
+
+==Basic probability==
+
+(Related topics: set theory, simple theorems in the algebra of sets)
+
+===Events===
+
+* Events in probability theory
+* Elementary events, sample spaces, Venn diagrams
+* Mutual exclusivity
+
+===Elementary probability===
+
+* The axioms of probability
+* Boole's inequality
+
+===Meaning of probability===
+
+* Probability interpretations
+* Bayesian probability
+* Frequency probability
+
+===Calculating with probabilities===
+
+* Conditional probability
+* The law of total probability
+* Bayes' theorem
+
+===Independence===
+
+* Independence (probability theory)
+
+==Probability theory==
+
+(Related topics: measure theory)
+
+===Measure-theoretic probability===
+
+* Sample spaces, σ-algebras and probability measures
+* Probability space
+** Sample space
+** Standard probability space
+** Random element
+*** Random compact set
+** Dynkin system
+* Probability axioms
+* Event (probability theory)
+** Complementary event
+* Elementary event
+* "Almost surely"
+
+===Independence===
+
+* Independence (probability theory)
+* The Borel-Cantelli lemmas and Kolmogorov's zero-one law
+
+===Conditional probability===
+
+* Conditional probability
+* Conditioning (probability)
+* Conditional expectation
+* Conditional probability distribution
+* Regular conditional probability
+* Disintegration theorem
+* Bayes' theorem
+* Rule of succession
+* Conditional independence
+* Conditional event algebra
+** Goodman-Nguyen-van Fraassen algebra
+
+==Random variables==
+
+===Discrete and continuous random variables===
+
+* Discrete random variables: Probability mass functions
+* Continuous random variables: Probability density functions
+* Normalizing constants
+* Cumulative distribution functions
+* Joint*, marginal and conditional distributions
+
+===Expectation===
+
+* Expectation (or mean), variance and covariance
+** Jensen's inequality
+* General moments about the mean
+* Correlated and uncorrelated random variables
+* Conditional expectation:
+** law of total expectation, law of total variance
+* Fatou's lemma and the monotone and dominated convergence theorems
+* Markov's inequality and Chebyshev's inequality
+
+===Independence===
+
+* Independent random variables
+
+===Some common distributions===
+
+* Discrete:
+** constant (see also degenerate distribution),
+** Bernoulli and binomial,
+** negative binomial,
+** (discrete) uniform,
+** geometric,
+** Poisson, and
+** hypergeometric.
+* Continuous:
+** (continuous) uniform,
+** exponential,
+** gamma,
+** beta,
+** normal (or Gaussian) and multivariate normal,
+** χ-squared (or chi-squared),
+** F-distribution,
+** Student's t-distribution, and
+** Cauchy.
+
+===Some other distributions===
+
+* Cantor
+* Fisher-Tippett (or Gumbel)
+* Pareto
+* Benford's law
+
+===Functions of random variables===
+
+* Sums of random variables*
+* General functions of random variables*
+* Borel's paradox
+
+==Generating functions==
+
+(Related topics: integral transforms)
+
+===Common generating functions===
+
+* Probability-generating functions
+* Moment-generating functions
+* Laplace transforms and Laplace-Stieltjes transforms
+* Characteristic functions
+
+===Applications===
+
+* A proof of the central limit theorem*
+* Random sums of random variables*
+
+==Convergence of random variables==
+
+(Related topics: convergence)
+
+===Modes of convergence===
+
+* Convergence in distribution and convergence in probability,
+* Convergence in mean, mean square and rth mean
+* Almost sure convergence
+* Skorokhod's representation theorem*
+
+===Applications===
+
+* Central limit theorem and Laws of large numbers
+** Illustration of the central limit theorem and a 'concrete' illustration
+** Berry-Esséen theorem
+* Law of the iterated logarithm
+
+==Stochastic processes==
+
+===Some common stochastic processes===
+
+* Random walk
+* Poisson process
+* Compound Poisson process
+* Wiener process
+* Geometric Brownian motion
+* Fractional Brownian motion
+* Brownian bridge
+* Ornstein-Uhlenbeck process
+* Gamma process
+
+===Markov processes===
+
+* Markov property
+* Branching process
+** Galton–Watson process
+* Markov chain
+** Examples of Markov chains
+* Population processes
+* Applications to queueing theory
+** Erlang distribution
+
+===Stochastic differential equations===
+
+* Stochastic calculus
+* Diffusions
+** Brownian motion
+** Wiener equation
+** Wiener process
+
+===Time series===
+
+* Moving-average* and autoregressive* processes
+* Correlation function and autocorrelation
+
+===Martingales===
+
+* Martingale central limit theorem*
+* Azuma's inequality
+
+==See also==
+
+* Catalog of articles in probability theory
+* Glossary of probability and statistics
+* Notation in probability and statistics
+* List of mathematical probabilists
+* List of probability distributions
+* List of probability topics
+* List of scientific journals in probability
+* Timeline of probability and statistics
+* Topic outline of statistics
+

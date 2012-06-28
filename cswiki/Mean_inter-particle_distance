@@ -1,0 +1,39 @@
+
+Mean inter-particle distance (or mean inter-particle separation) is the mean distance between microscopic particles (usually atoms or molecules) in a macroscopic body.
+
+==Ambiguity==
+
+* "a potential energy ... is proportional to some power n of the inter-particle distance r" (Virial theorem)
+* "the inter-particle distance is much larger than the thermal de Broglie wavelength" (Kinetic theory)
+
+==Ideal gas==
+
+===Nearest neighbor distribution===
+
+We want to calculate probability distribution function of distance to the nearest neighbor (NN) particle. (The problem was first considered by Paul Hertz; for a modern derivation see, e.g.,.[ref]{{Cite journal
+| doi = 10.1103/RevModPhys.15.1
+| volume = 15
+| issue = 1
+| pages = 1
+| last = Chandrasekhar
+| first = S.
+| title = Stochastic Problems in Physics and Astronomy
+| journal = Reviews of Modern Physics
+| accessdate = 2011-03-01
+| date = 1943-01-01
+| url = http://link.aps.org/doi/10.1103/RevModPhys.15.1
+| bibcode=1943RvMP...15....1C
+where we substituted
+One can immediately check that
+The distribution peaks at 
+
+===Mean distance and higher NN distribution moments===
+
+In particular,
+
+==References==
+
+==See also==
+
+* Wigner-Seitz radius
+

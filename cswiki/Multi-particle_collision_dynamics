@@ -1,0 +1,26 @@
+
+Multi-particle collision dynamics (MPC), also known as stochastic rotation dynamics (SRD)G. Gompper, T. Ihle, K. Kroll and R. G. Winkler "Multi-Particle Collision Dynamics: A Particle-Based Mesoscale Simulation Approach to the Hydrodynamics of Complex Fluids", Advanced Computer Simulation Approaches for Soft Matter Sciences III, Advances in Polymer Science 221 p. 1 (2009) http://arxiv.org/abs/0808.2157, is a particle-based mesoscale simulation technique for complex fluids which fully incorporates thermal fluctuations and hydrodynamic interactions.A. Malevanets and R. Kapral "Mesoscopic model for solvent dynamics", Journal of Chemical Physics 110 pp. 8605-8613 (1999) Coupling of embedded particles to the coarse-grained solvent is achieved through molecular dynamics.A. Malevanets and R. Kapral "Solute molecular dynamics in a mesoscale solvent", Journal of Chemical Physics 112 pp. 7260-7269 (2000)
+
+==Method of simulation==
+
+During the streaming step, the coordinates of the particles are updated according to
+If the structure of the collision grid defined by the positions of the collision cells is fixed, Galilean invariance is violated. It is restored with the introduction of a random shift of the collision grid.T. Ihle and D. Kroll "Stochastic rotation dynamics. I. Formalism, Galilean invariance, and Green-Kubo relations", Physical Review E 67 066705 (2003)
+Explicit expressions for the diffusion coefficient and viscosity derived based on Green-Kubo relations are in excellent agreement with simulations.T. Ihle, E. Tüzel and D. M. Kroll "Resummed Green-Kubo relations for a fluctuating fluid-particle model", Physical Review E 70 035701 (2004)T. Ihle, E. Tüzel and D. M. Kroll "Equilibrium calculation of transport coefficients for a fluid-particle model", Physical Review E 72 046707 (2005)
+
+==Simulation parameters==
+
+The set of parameters for the simulation of the solvent are:
+* kT (energy)
+The simulation parameters define the solvent properties, such as
+
+==Applications==
+
+MPC has become a notable tool in the simulations of many soft-matter systems, including
+* colloid dynamicsJ. T. Padding and A. A. Louis "Hydrodynamic and Brownian Fluctuations in Sedimenting Suspensions", Physical Review Letters 93 220601 (2004)M. Hecht, J. Harting, M. Bier, J. Reinshagen and H. J. Herrmann "Shear viscosity of claylike colloids in computer simulations and experiments", Physical Review E 74 021403 (2006)
+* polymer dynamicsK. Mussawisade, M. Ripoll, R. G. Winkler, and G. Gompper "Dynamics of polymers in a particle-based mesoscopic solvent", Journal of Chemical Physics 123 144905 (2005)M. Ripoll, R. G. Winkler and G. Gompper "Hydrodynamic screening of star polymers in shear flow", The European Physics Journal E 23 pp. 349-354 (2007)
+* vesiclesH. Noguchi and G. Gompper "Dynamics of fluid vesicles in shear flow: Effect of membrane viscosity and thermal fluctuations", Physical Review E 72 011901 (2005)
+* active systems
+
+==References==
+
+

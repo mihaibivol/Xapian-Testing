@@ -1,0 +1,13 @@
+
+OpenSC is a set of software tools and libraries to work with smart cards, with the focus on smart cards with cryptographic capabilities
+
+== Cryptographic support ==
+
+OpenSC products eases authentication, encryption and digital signatures. OpenSC implements PKCS#15 and provides PKCS#11 CDSA and CryptoAPI .Home site
+
+== References ==
+
+== External links ==
+
+* Driver for Spanish National Card
+

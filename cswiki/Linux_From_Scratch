@@ -1,0 +1,104 @@
+
+Linux From Scratch (LFS) is a type of a Linux installation and the name of a book written by Gerard Beekmans among others. The book gives readers instructions on how to build a Linux system from source. The book is available freely from the Linux From Scratch website and is currently in version 7.1.http://www.linuxfromscratch.org/lfs/news.html
+Linux From Scratch is a way to install a working Linux system by building all components of it manually. This is, naturally, a longer process than installing a pre-compiled Linux distribution. According to the Linux From Scratch website, the advantages to this method are a compact, flexible and secure system and a greater understanding of the internal workings of the Linux-based operating systems.http://www.linuxfromscratch.org/lfs/
+To keep LFS small and focused, the book Beyond Linux From Scratch (BLFS) was created which presents instructions on how to further develop the basic Linux system that was created in LFS. It introduces and guides the reader through additions to the system including networking, X, sound, printer and scanner support. Since Release 5.0, the BLFS book version matches the LFS book version.Gerard Beekmans: Beyond Linux From Scratch, Version 6.3 (August 2008)
+In addition to the LFS and BLFS books, Cross Linux from Scratch (CLFS) describes cross compiling and Hardened Linux From Scratch (HLFS) focuses on security enhancements like the use of Stack-smashing protection, PaX and Address space layout randomization using grsecurity. Cross Linux from Scratch provides the necessary instructions to build a base, command line only Linux distribution. While LFS is limited to the x86 architecture, CLFS supports a broader range of processors. CLFS addresses advanced techniques not included in the LFS book such as cross-build toolchains, multilibrary support (32 & 64-bit libraries side-by-side), and alternative instruction set architectures such as x86-64, Itanium, SPARC, MIPS, and Alpha. Hardened Linux From Scratch focuses on creating a more secure version of the original Linux From Scratch as its main purpose, including embedded systems.
+
+==Requirements and procedure==
+
+A clean partition and a working Linux system with a compiler and some essential software libraries are required to build LFS. Instead of installing from an existing Linux system, one can also use a Live CD to build an LFS system.
+Formerly the project maintained the Linux From Scratch Live CD.http://www.linuxfromscratch.org/livecd/  LFS Live CD contains all the source packages (in the full version of the Live CD only), the LFS book, automated building tools and (except for the minimal Live CD version) an Xfce GUI environment to work in. The LFS Live CD is no longer maintained, and cannot be used to build the current version (7) of LFS.http://www.linuxfromscratch.org/livecd/
+First a toolchain must be compiled consisting of the tools used to compile LFS like GCC, glibc, binutils and other necessary utilities. Then the root directory must be changed (using chroot) to the toolchain's partition to start building the final system. One of the first packages to compile is glibc; after that, the toolchain's linker must be adjusted to link against the newly built glibc, so that all other packages that will make up the finished system can be linked against it as well. During the chroot phase, bash's hashing feature is turned off and the temporary toolchain's bin directory moved to the end of PATH. This way the newly compiled programs come first in PATH and the new system builds on its own new components.
+
+==List of LFS 6.7 software==
+
+This is a list of the packages included in CLFS version 1.1.0. Unless otherwise noted, this list is applicable to all supported architectures.
+*Autoconf 2.61
+*Automake 1.10.1
+*Bash 3.2
+*Bash Documentation 3.2
+*Bin86 (x86_64 non-multilib only)
+*Binutils 2.18
+*Bison 2.3
+*Bzip2 1.0.4
+*CLFS-Bootscripts 1.0pre10
+*Coreutils 6.9
+*DejaGNU 1.4.4
+*Diffutils 2.8.7
+*E2fsprogs 1.40.4
+*Elftoaout 2.3 (Sparc and Sparc64 only)
+*Expect 5.43.0
+*File 4.23
+*Findutils 4.2.32
+*Flex 2.5.35
+*Gawk 3.1.6
+*GCC 4.2.4
+*Gettext 0.17
+*Glibc 2.7
+*Grep 2.5.3
+*Groff 1.19.2
+*GRUB 0.97
+*Gzip 1.3.12
+*Hfsutils 3.2.6 (PowerPC and PowerPC64 only)
+*Iana-Etc. 2.20
+*Inetutils 1.5
+*IPRoute2 2.6.23
+*Kbd 1.13
+*Less 418
+*LILO 22.8 (x86_64 non-multilib only)
+*Libtool 1.5.26
+*Linux 2.6.24.7
+*GNU m4 1.4.10
+*Make 3.81
+*Man 1.6e
+*Man-pages 3.01
+*Mktemp 1.5
+*Module-Init-Tools 3.4
+*Ncurses 5.6
+*Parted 1.8.8 (PowerPC and PowerPC64 only)
+*Patch 2.5.9
+*Perl 5.8.8
+*PowerPC Utils 1.1.3 (PowerPC and PowerPC64 only)
+*Procps 3.2.7
+*Psmisc 22.6
+*Readline 5.2
+*Sed 4.1.5
+*Shadow 4.1.2
+*Silo 1.4.13 (Sparc and Sparc64 only)
+*Sysklogd 1.5
+*Sysvinit 2.86
+*tar 1.20
+*Tcl 8.4.16
+*Texinfo 4.11
+*Tree 1.5.1.1
+*Udev 124
+*Util-linux-ng 2.14
+*Vim 7.1
+*Vim 7.1 language files (optional)
+*Yaboot 1.3.13 (PowerPC and PowerPC64 only)
+*Zlib 1.2.3
+
+==Standard build unit==
+
+A "standard build unit" ("SBU") is a term used during initial bootstrapping of the system, and represents the amount of time required to build the first package in LFS on a given computer. Its creation was prompted by the long time required to build a LFS system, and the desire of many users to know how long a source tarball will take to build ahead of time.
+As of Linux From Scratch version 6.3, the first package built by the user is GNU binutils. When building it, users are encouraged to time that build process using shell constructs and dub that time that system's "standard build unit". Once this number is known, an estimate of the time required to build later packages is expressed relative to the known SBU.
+Several packages built during compilation take much longer to build than binutils, including the GNU C library (rated at 9.5 SBUs). The unit is not a concrete description, and must be interpreted as an approximation; many various and unrelated factors influence the wall-clock time that a package requires to build.
+
+==See also==
+
+* Gentoo Linux
+* Sorcerer
+* Source Mage
+* Lunar Linux
+
+==References==
+
+# 
+
+==External links==
+
+*Linux From Scratch
+*DistroWatch.com: Linux From Scratch
+*Interview with Gerard Beekmans
+*Another interview with Gerard Beekmans
+

@@ -1,0 +1,12 @@
+
+Project Kusu is the open source base that was designed from ground up for the basis of Platform Computing's Open Cluster Stack 5.
+Project Kusu is built with the objective of being a simplified cluster management, operation and deployment source kit, that supports a range of different linux distributions such as Red Hat Enterprise Linux, CentOS, Fedora, SuSE Linux Enterprise Server, OpenSuSE, and Ubuntu Linux.
+In addition, it is also a standards-based, open, and vendor certified modular and hybrid stack that transparently integrates both open source and commercial software under a single consistent cluster operating environment.
+
+== External links ==
+
+* Platform Computing Website
+* Kusu project home page
+* Community website Getting Started with Project Kusu
+* HPCCommunity.org HPC Community Discussion for various High Performance Computing related Projects
+

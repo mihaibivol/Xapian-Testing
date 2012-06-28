@@ -1,0 +1,78 @@
+
+The MultiMediaCard (MMC) is a  flash memory memory card standard. Unveiled in 1997 by  SanDisk and Siemens AG, it is based on Toshiba's NAND-based flash memory, and is therefore much smaller than earlier systems based on Intel NOR-based memory such as CompactFlash. MMC is about the size of a postage stamp: 24 mm × 32 mm × 1.4 mm.  MMC originally used a 1-bit serial interface, but newer versions of the specification allow transfers of 4 or 8 bits at a time. It has been more or less superseded by SD (Secure Digital) card, but still sees significant use because MMCs can be used in most devices that support SD cards.
+Typically, an MMC is used as a storage medium for a portable device, in a form that can easily be removed for access by a PC. For example, a digital camera would use an MMC  for storing image files. With an MMC reader (typically a small box that connects via USB or some other serial connection, although some can be found integrated into the computer itself), a user could copy the pictures taken with the digital camera off to his or her computer. Modern computers, both laptops and desktops, often have SD slots, which can additionally read MMCs if the operating system drivers support them.
+MMCs are available in sizes up to and including 128 GB. They are used in almost every context in which memory cards are used, like cellular phones, digital audio players, digital cameras and PDAs. Since the introduction of Secure Digital card few companies build MMC slots into their devices (an exception is some mobile devices like the Nokia 9300 communicator, where the smaller size of the MMC is a benefit), but the slightly thinner, pin-compatible MMCs can be used in almost any device that supports SD cards if the software/firmware on the device supports them.
+
+==Open standard==
+
+This technology is a standard available to any company wanting to develop products based on it.  There is no royalty charged for devices which host an MMC.  A membership with the MMC Association must be purchased in order to manufacture the cards themselves.
+As of July 2009, the latest specifications version 4.4 (dated March 2009) can be requested from the MMCA, and after registering downloaded free-of-charge.  Older versions of the standard, as well as some optional enhancements to the standard such as MiCard and SecureMMC, must be purchased separately.
+A highly detailed version is available on-lineSamsung MMC Datasheet, http://www.alldatasheet.com 2012 that contains essential information for writing an MMC driver.
+As of 23 September 2008, the MMCA group has turned over all specifications to the JEDEC organization including embedded MMC (e-MMC) and miCARD assets. JEDEC is an organization devoted to standards for the solid-state industry.
+
+==Variants==
+
+===Reduced-Size MultiMediaCard (RS-MMC)===
+
+MMCs also come in a smaller form factor, about half the size: 24 mm × 18 mm × 1.4 mm. This alternate form factor is known as Reduced-Size MultiMediaCard, or RS-MMC, and was introduced in 2004. RS-MMCs are simply smaller than MMCs; by using a simple mechanical adapter to elongate the card, an RS-MMC can be used in any MMC (or SD) slot. RS-MMCs are currently available in sizes up to and including 2 GB.
+The only significant hardware licensors of RS-MMCs were Nokia and Siemens, who used to use RS-MMC in their Series 60 Symbian smartphones, the Nokia 770 Internet Tablet, and generations 65 and 75 (Siemens). However, since 2006 all of Nokia's new devices with card slots have used miniSD or microSD cards, with the company appearing to abandon the MMC standard in its products. Siemens exited the mobile phone business completely in 2006. Siemens continue to use MMC for some PLC storage.
+
+===Dual-Voltage MultimediaCard (DV-MMC)===
+
+One of the first substantial changes in MMC was the introduction of dual-voltage cards that support operations at 1.8 V in addition to 3.3 V. Running at lower voltages reduces the card's energy consumption, which is important in mobile devices. However, simple dual-voltage parts quickly went out of production in favour of MMCplus and MMCmobile which offer capabilities in addition to dual-voltage support.
+
+===MMCplus and MMCmobile===
+
+The version 4.x of the MMC standard, introduced in 2005, brought in two very significant changes to compete against SD cards: support for running at higher speeds (26 MHz and 52 MHz) than the original MMC (20 MHz) or SD (25 MHz, 50 MHz) and a four- or eight-bit-wide data bus.
+Version 4.x full-size cards and reduced-size cards can be marketed as MMC''plus and 'MMCmobile''' respectively.
+Version 4.x cards are fully backward compatible with existing readers but require updated hardware/software to use their new capabilities; even though the four-bit-wide bus and high-speed modes of operation are deliberately electrically compatible with SD, the initialization protocol is different, so firmware/software updates are required to support these features in an SD reader.
+
+===MMCmicro===
+
+MMC''micro is a micro-size version of MMC.  With dimensions of 14 mm × 12 mm × 1.1 mm, it is even smaller and thinner than RS-MMC. Like MMCmobile, MMCmicro supports dual voltage, is backward compatible with MMC, and can be used in full-size MMC and SD slots with a mechanical adapter. MMCmicro cards have the high-speed and four-bit-bus features of the 4.x spec but not the eight-bit bus, due to the absence of the extra pins.Samsung's MMCmicro'' description, http://www.samsung.com 2007
+MMCmicro appears very similar to microSD but the two formats are not physically compatible and have incompatible pinouts.
+
+===MiCard===
+
+The MiCard is a backward-compatible extension of the MMC standard with a theoretical maximum size of 2048 GB (2 TB) announced in 2007. The card is composed of two detachable parts, much like a microSD card with an SD adapter. The small memory card fits directly in a USB port while it also has MMC-compatible electrical contacts, which with an included electromechanical adapter fits in traditional MMC and SD card readers. To date, only one manufacturer has produced cards in this format.
+
+===SecureMMC===
+
+An additional, optional, part of the MMC 4.x specification is a DRM mechanism intended to enable MMC to compete with SD or Memory Stick in this area. Very little information is known[tpl]Citation needed|date=December 2008[/tpl] about how SecureMMC works or how its DRM characteristics compare with its competitors.
+
+===eMMC===
+
+eMMC describes an architecture consisting of an embedded storage solution with MMC interface, flash memory and controller, all in a small ball grid array (BGA) package.IHS news article, http://electronics.ihs.com 2009
+
+===Others===
+
+Seagate, Hitachi and others are in the process of releasing SFF Hard Disk drives with an interface called CE-ATA. This interface is electrically and physically compatible with MMC specification. However, the command structure has been expanded to allow the host controller to issue ATA commands to control the hard disk drive.
+
+===Table===
+
+==See also==
+
+* Comparison of memory cards
+* Secure Digital (SD)
+* MMCmicro
+* miCard
+
+==References==
+
+==External links==
+
+;Organizations
+* JEDEC
+** Membership: $4400/yr
+* MultiMediaCard Association, merged with JEDEC
+;Specifications
+* Embedded MMC (eMMC) Standard MMCA 4.4 (JESD84-A44)(March 2009) (login required)
+* MMCplus 13 Pin Full Size MultiMediaCard (MMC) Outline (MO-277A) (login required)
+* MMCmobile 13 Pin Reduced Size MultiMediaCard (MMC) Outline (MO-278A) (login required)
+* MMCmicro 10 Pin Micro Size MultiMediaCard (MMC) Outline (MO-279A) (login required)
+;Other
+* Sandisk OEM Manual for MMC and RS-MMC (PDF)
+* KingMax MMC technical document (PDF)
+* MMC pinout (tech.)
+* MMCplus pinout (tech.)
+

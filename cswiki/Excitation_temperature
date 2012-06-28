@@ -1,0 +1,4 @@
+
+where nu and  nl represent the number of particles in an upper (e.g. excited) and lower (e.g. ground) state, and gu and gl their statistical weights respectively.
+Thus the excitation temperature is the temperature at which we would expect to find a system with this ratio of level populations. However it has no actual physical meaning except when in local thermodynamical equilibrium. The excitation temperature can even be negative for a system with inverted levels (such as a maser).
+

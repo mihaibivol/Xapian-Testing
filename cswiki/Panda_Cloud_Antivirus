@@ -1,0 +1,41 @@
+
+Panda Cloud Antivirus is antivirus software by Panda Security; a free and a paid version are available. It is cloud-based in the sense that files are scanned on a remote server without using processing power of the user's machine. The cloud technology is based on Panda's Collective Intelligence."What is Collective Intelligence" It can run constantly, providing protection against viruses and malicious websites but slowing the system to some extent as all such software does, or do a system scan.
+
+==Features==
+
+Panda Security says it detects viruses, Trojans, worms, spyware, dialers, hacking tools, jokes and security risks."What type of threats does the antivirus detect?"
+Panda Cloud Antivirus relies on its "Collective Intelligence" and  the cloud for up-to-date information."What is the cloud?" It normally uses an Internet connection to access up-to-date information; if the Internet cannot be accessed it will use a local cache of "the most common threats in circulation"."What happens if my computer is not connected to the Internet?"
+
+==Privacy concerns==
+
+Sending files or even checksums of segments of files out to a remote server to be processed is a severe privacy concern.  The only guarantee of privacy in this case depends on both the goodwill of the company and security at their end.  If Panda's servers are compromised, either by a criminal who works for them or by a hacker, users' security is compromised."Understanding the risks of cloud computing - computer weekly"
+However this concern is not only exclusive to cloud-based products. Any antivirus or security product can push out a malicious update by a criminal working at the AV vendor or by a hacker who has compromised the AV update servers.
+
+== Reviews ==
+
+An April 2009 review found Panda Cloud Antivirus 1.0 to be clean, fast, simple, easy to use, and with good detection rates.Review: Panda Cloud Antivirus Steve Ragan, techherald.com 2009-4-29 The same review scored Panda 98.87% in malware detection and 71.4% in malicious URL detection. Its overall score was 85%, a strong protection factor considering it is freeware.[tpl]cite web|author=James Wray and Ulf Stabe |url=http://www.thetechherald.com/article.php/200918/3565/Review-Panda-Cloud-Antivirus?page=1 |title=Review: Panda Cloud Antivirus - Security |publisher=Thetechherald.com |date=2009-04-29 |accessdate=2010-11-09[/tpl]
+When version 1.0 was released on November 10, 2009, PC Magazine reviewed Panda Cloud Antivirus and gave it an Editor's Choice Award for Best Free AV.PC Magazine: Panda Cloud Antivirus Free Edition 1.0 Editor's Choice
+Tech Radar's review states "We think that Panda Cloud Antivirus is best viewed as a defense tool rather than a utility for cleaning up a system that's already riddled with infection."Panda Cloud Antivirus approaches virus protection from a different angle
+Lifehacker's review states that the antivirus is lightweight, and is a fresh approach to attacking malware. However they did not try to detect real malware (only tracking cookies) in their test.Panda Cloud Antivirus is a Lightweight, Always-Updated Virus Killer
+When Softpedia reviewed the software they said that it had a high overall detection rate, but had trouble listing all the results. Overall they say it is the best in the market for lightweight usage, and is easy to use, with a clean interface.Panda Cloud Antivirus Goes Final Cloud-based Panda protection.
+Version 1.4 changes: Toolbar and URL Filtering compatibility with Internet Explorer 9 and Firefox 4
+
+== License ==
+
+The free edition of Panda Cloud Antivirus is released under a freeware license. Its usage is exclusively allowed for private households, state schools, non-governmental and non-profit organizations.Panda Cloud AntiVirus | Software EULA's Blog
+
+==Competitors==
+
+Other cloud-based anti-virus companies are:
+* Immunet
+* Comodo Cloud Scanner
+* Threat Fire
+* Webroot SecureAnywhere
+
+==References==
+
+==External links==
+
+*Panda Cloud Antivirus Website
+*Interview with the developers
+

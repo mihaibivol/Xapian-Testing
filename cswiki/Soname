@@ -1,0 +1,12 @@
+
+In Unix operating systems, a soname is a field of data in a shared object file. The soname is a string, which is used as a "logical name" describing the functionality of the object
+(typically, that name is equal to the filename of the library, or to a prefix thereof).
+The soname is often used to provide version backwards-compatibility information. For instance, if versions 1.0 through 1.9 of the shared library libx provide identical interface, they would all have the same soname, e.g. libx.so.1. If the system only includes version 1.3 of that shared object, with filename libx.so.1.3, the soname field of the shared object tells the system that it can be used to fill the dependency for a binary which was originally compiled using version 1.2.
+Given any shared object file, one can use the following script to get the information from within the library file:
+  objdump libx.so.1.3 -p | grep SONAME
+
+== External links ==
+
+* linuxquestions.org wiki
+* System V ABI (4.1)
+

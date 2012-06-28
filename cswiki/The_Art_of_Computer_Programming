@@ -1,0 +1,288 @@
+
+The Art of Computer Programming (acronym: TAOCP) is a comprehensive monograph written by Donald Knuth that covers many kinds of programming algorithms and their analysis.
+Knuth began the project, originally conceived as a single book with twelve chapters, in 1962. The first three of what were then expected to be a seven-volume set were published in 1968, 1969, and 1973. The first installment of Volume 4 (a paperback fascicle) was published in  2005. The hardback volume 4A was published in 2011.  Additional fascicle installments are planned for release approximately biannually.
+
+==History==
+
+After winning a Westinghouse Talent Search scholarship, Knuth enrolled at the Case Institute of Technology (now Case Western Reserve University), where his performance was so outstanding that the faculty voted to award him a master of science upon his completion of the baccalaureate degree. During his summer vacations, Knuth was hired to write compilers, earning more in his summer months than did full professors all year.[tpl]citation needed|date=June 2012[/tpl] Such exploits made Knuth a topic of discussion among the mathematics department, which included Richard S. Varga.
+Knuth started to write a book about compiler design in 1962, and soon realized that the scope of the book needed to be much larger.  In June 1965, Knuth finished the first draft of what was originally planned to be a single volume of twelve chapters. His hand-written first-draft manuscript (completed in 1966) was 3,000 pages long: he had assumed that about five hand-written pages would translate into one printed page, but his publisher said instead that about 1½ hand-written pages translated to one printed page. This meant the book would be approximately 2,000 pages in length. The publisher was nervous about accepting such a project from a graduate student. At this point, Knuth received support from Richard S. Varga, who was the scientific advisor to the publisher. Varga was visiting Olga Taussky-Todd and John Todd at Caltech. With Varga's enthusiastic endorsement, the publisher accepted Knuth's expanded plans. In its expanded version, the book would be published in seven volumes, each with just one or two chapters.[ref]
+[tpl]Cite book | chapter = Donald Knuth | author = Donald J. Albers | title = Mathematical People: Profiles and Interviews | publisher = A K Peters | edition = 2 | year = 2008 | isbn = 1-56881-340-6 | editors =  Donald J. Albers, Gerald L. Alexanderson | postscript = [tpl]inconsistent citations[/tpl] [/tpl]
+[/ref] Due to the growth in the material, the plan for Volume 4 has since expanded to include Volumes 4A, 4B, 4C, and possibly more.
+In 1976, Knuth prepared a second edition of Volume 2, requiring it to be typeset again, but the style of type used in the first edition (called hot type) was no longer available.  In 1977, he decided to spend a few months working up something more suitable.  Eight years later, he returned with TeX, which is currently used for all volumes.
+The famous offer of a reward check worth "one hexadecimal dollar" (100HEX base 16 cents, in decimal, is $2.56) for any errors found, and the correction of these errors in subsequent printings, has contributed to the highly polished and still-authoritative nature of the work, long after its first publication. Another characteristic of the volumes is the variation in the difficulty of the exercises. The level of difficulty ranges from "warm-up" exercises to unsolved research problems, providing a challenge for any reader. Knuth's dedication is also famous:
+ This series of books is affectionately dedicated to the Type 650 computer once installed at Case Institute of Technology, with whom I have spent many pleasant evenings.The dedication was worded slightly differently in the first edition. 
+==Assembly language in the book==
+
+All examples in the books use a language called "MIX assembly language", which runs on the hypothetical MIX computer. (Currently, the MIX computer is being replaced by the MMIX computer, which is a RISC version.) Software such as GNU MDK exists to provide emulation of the MIX architecture.
+Some readers are put off by the use of assembly language, but Knuth considers this necessary because algorithms need to be in context in order for their speed and memory usage to be judged.  This does, however, limit the accessibility of the book for some readers who may not be familiar with assembly, or who may be unwilling to translate assembly language code into a high-level language. (A number of alternative textbooks using high-level language examples exist.)
+
+==Critical response==
+
+American Scientist has included this work among “100 or so Books that shaped a Century of Science”, referring to the 20th century,[tpl]Cite journal |first= Philip |last=Morrison |authorlink=Philip Morrison|first2=Phylis |last2=Morrison |url=http://www.americanscientist.org/bookshelf/pub/100-or-so-books-that-shaped-a-century-of-science|title=100 or so Books that shaped a Century of Science |volume=87 |issue=6 |journal=American Scientist |year=1999 |month=November–December |publisher=Sigma Xi, The Scientific Research Society |accessdate=2008-01-11 |postscript=  [/tpl] and within the computer science community it is regarded as the first and still the best comprehensive treatment of its subject. Covers of the third edition of Volume 1 quote Bill Gates as saying, “If you think you're a really good programmer… read (Knuth's) Art of Computer Programming… You should definitely send me a résumé if you can read the whole thing." 
+ ''[[The New York Times]]'' referred to it as “the profession's defining treatise”.<ref name="lohr">
+[/ref]
+
+==Volumes==
+
+*Volume 1 – Fundamental Algorithms (chapters 1 and 2)
+*Volume 2 – Seminumerical Algorithms (chapters 3 and 4)
+*Volume 3 – Sorting and Searching (chapters 5 and 6)
+*Volume 4 – Combinatorial Algorithms (chapters 7 and 8 released in several subvolumes)
+*Volume 5 – Syntactic Algorithms (as of 2011, estimated in 2020) (chapters 9 and 10)
+*Volume 6 – The Theory of Context-Free Languages (planned)
+*Volume 7 – Compiler Techniques (planned)
+
+===Chapters===
+
+*Chapter 1 – Basic concepts (volume 1)
+*Chapter 2 – Information structures (volume 1)
+*Chapter 3 – Random numbers (volume 2)
+*Chapter 4 – Arithmetic (volume 2)
+*Chapter 5 – Sorting (volume 3)
+*Chapter 6 – Searching (volume 3)
+*Chapter 7 – Combinatorial searching (volume 4)
+*Chapter 8 – Recursion (volume 4)
+*Chapter 9 – Lexical scanning (also includes string search and data compression) (volume 5)
+*Chapter 10 – Parsing techniques (volume 5)
+
+===Chapter outline of published volumes===
+
+*Volume 1 – Fundamental Algorithms
+**Chapter 1 – Basic concepts
+***1.1. Algorithms
+***1.2. Mathematical Preliminaries
+****1.2.1. Mathematical Induction
+****1.2.2. Numbers, Powers, and Logarithms
+****1.2.3. Sums and Products
+****1.2.4. Integer Functions and Elementary Number Theory
+****1.2.5. Permutations and Factorials
+****1.2.6. Binomial Coefficients
+****1.2.7. Harmonic Numbers
+****1.2.8. Fibonacci Numbers
+****1.2.9. Generating Functions
+****1.2.10. Analysis of an Algorithm
+****1.2.11. Asymptotic Representations
+*****1.2.11.1. The O-notation
+*****1.2.11.2. Euler's summation formula
+*****1.2.11.3. Some asymptotic calculations
+***1.3 MMIX (MIX in the hardback copy but updated by fascicle 1)
+****1.3.1. Description of MMIX
+****1.3.2. The MMIX Assembly Language
+****1.3.3. Applications to Permutations
+***1.4. Some Fundamental Programming Techniques
+****1.4.1. Subroutines
+****1.4.2. Coroutines
+****1.4.3. Interpretive Routines
+*****1.4.3.1. A MIX simulator
+*****1.4.3.2. Trace routines
+****1.4.4. Input and Output
+****1.4.5. History and Bibliography
+**Chapter 2 – Information Structures
+***2.1. Introduction
+***2.2. Linear Lists
+****2.2.1. Stacks, Queues, and Deques
+****2.2.2. Sequential Allocation
+****2.2.3. Linked Allocation
+****2.2.4. Circular Lists
+****2.2.5. Doubly Linked Lists
+****2.2.6. Arrays and Orthogonal Lists
+***2.3. Trees
+****2.3.1. Traversing Binary Trees
+****2.3.2. Binary Tree Representation of Trees
+****2.3.3. Other Representations of Trees
+****2.3.4. Basic Mathematical Properties of Trees
+*****2.3.4.1. Free trees
+*****2.3.4.2. Oriented trees
+*****2.3.4.3. The "infinity lemma"
+*****2.3.4.4. Enumeration of trees
+*****2.3.4.5. Path length
+*****2.3.4.6. History and bibliography
+****2.3.5. Lists and Garbage Collection
+***2.4. Multilinked Structures
+***2.5. Dynamic Storage Allocation
+***2.6. History and Bibliography
+*Volume 2 – Seminumerical Algorithms
+**Chapter 3 – Random Numbers
+***3.1. Introduction
+***3.2. Generating Uniform Random Numbers
+****3.2.1. The Linear Congruential Method
+*****3.2.1.1. Choice of modulus
+*****3.2.1.2. Choice of multiplier
+*****3.2.1.3. Potency
+****3.2.2. Other Methods
+***3.3. Statistical Tests
+****3.3.1. General Test Procedures for Studying Random Data
+****3.3.2. Empirical Tests
+****3.3.3. Theoretical Tests
+****3.3.4. The Spectral Test
+***3.4. Other Types of Random Quantities
+****3.4.1. Numerical Distributions
+****3.4.2. Random Sampling and Shuffling
+***3.5. What Is a Random Sequence?
+***3.6. Summary
+**Chapter 4 – Arithmetic
+***4.1. Positional Number Systems
+***4.2. Floating Point Arithmetic
+****4.2.1. Single-Precision Calculations
+****4.2.2. Accuracy of Floating Point Arithmetic
+****4.2.3. Double-Precision Calculations
+****4.2.4. Distribution of Floating Point Numbers
+***4.3. Multiple Precision Arithmetic
+****4.3.1. The Classical Algorithms
+****4.3.2. Modular Arithmetic
+****4.3.3. How Fast Can We Multiply?
+***4.4. Radix Conversion
+***4.5. Rational Arithmetic
+****4.5.1. Fractions
+****4.5.2. The Greatest Common Divisor
+****4.5.3. Analysis of Euclid's Algorithm
+****4.5.4. Factoring into Primes
+***4.6. Polynomial Arithmetic
+****4.6.1. Division of Polynomials
+****4.6.2. Factorization of Polynomials
+****4.6.3. Evaluation of Powers
+****4.6.4. Evaluation of Polynomials
+***4.7. Manipulation of Power Series
+*Volume 3 – Sorting and Searching
+**Chapter 5 – Sorting
+***5.1. Combinatorial Properties of Permutations
+****5.1.1. Inversions
+****5.1.2. Permutations of a Multiset
+****5.1.3. Runs
+****5.1.4. Tableux and Involutions
+***5.2. Internal sorting
+****5.2.1. Sorting by Insertion
+****5.2.2. Sorting by Exchanging
+****5.2.3. Sorting by Selection
+****5.2.4. Sorting by Merging
+****5.2.5. Sorting by Distribution
+***5.3. Optimum Sorting
+****5.3.1. Minimum-Comparison Sorting
+****5.3.2. Minimum-Comparison Merging
+****5.3.3. Minimum-Comparison Selection
+****5.3.4. Networks for Sorting
+***5.4. External Sorting
+****5.4.1. Multiway Merging and Replacement Selection
+****5.4.2. The Polyphase Merge
+****5.4.3. The Cascade Merge
+****5.4.4. Reading Tape Backwards
+****5.4.5. The Oscillating Sort
+****5.4.6. Practical Considerations for Tape Merging
+****5.4.7. External Radix Sorting
+****5.4.8. Two-Tape Sorting
+****5.4.9. Disks and Drums
+***5.5. Summary, History, and Bibliography
+**Chapter 6 – Searching
+***6.1. Sequential Searching
+***6.2. Searching by Comparison of Keys
+****6.2.1. Searching an Ordered Table
+****6.2.2. Binary Tree Searching
+****6.2.3. Balanced Trees
+****6.2.4. Multiway Trees
+***6.3. Digital Searching
+***6.4. Hashing
+***6.5. Retrieval on Secondary Keys
+*Volume 4A – Combinatorial Algorithms, Part 1
+**Chapter 7 – Combinatorial Searching
+***7.1. Zeros and Ones
+****7.1.1. Boolean Basics
+****7.1.2. Boolean Evaluation
+****7.1.3. Bitwise Tricks and Techniques
+****7.1.4. Binary Decision Diagrams
+***7.2. Generating All Possibilities
+****7.2.1. Generating Basic Combinatorial Patterns
+*****7.2.1.1. Generating all n-tuples
+*****7.2.1.2. Generating all permutations
+*****7.2.1.3. Generating all combinations
+*****7.2.1.4. Generating all partitions
+*****7.2.1.5. Generating all set partitions
+*****7.2.1.6. Generating all trees
+*****7.2.1.7. History and further references
+
+===Outline of unpublished sections===
+
+*Volume 4B, 4C, ...
+**Chapter 7 – Combinatorial Searching (cont'd)
+***7.2. Generating all possibilities (cont'd)
+****7.2.2. Basic backtrack
+*****7.2.2.1. Dancing links[tpl]Citation needed|date=April 2012[/tpl]
+*****7.2.2.2. Satisfiability[tpl]Citation needed|date=April 2012[/tpl]
+****7.2.3. Efficient backtracking
+***7.3. Shortest paths
+***7.4. Graph algorithms
+****7.4.1. Components and traversal
+****7.4.2. Special classes of graphs
+****7.4.3. Expander graphs
+****7.4.4. Random graphs
+***7.5. Network algorithms
+****7.5.1. Distinct representatives
+****7.5.2. The assignment problem
+****7.5.3. Network flows
+****7.5.4. Optimum subtrees
+****7.5.5. Optimum matching
+****7.5.6. Optimum orderings
+***7.6. Independence theory
+****7.6.1. Independence structures
+****7.6.2. Efficient matroid algorithms
+***7.7. Discrete dynamic programming
+***7.8. Branch-and-bound techniques
+***7.9. Herculean tasks (aka NP-hard problems)
+***7.10. Near-optimization
+**Chapter 8 – Recursion
+*Volume 5 – Syntactic Algorithms ([tpl]as of|2011|lc=on[/tpl], estimated in 2020)
+**Chapter 9 – Lexical scanning (includes also string search and data compression)
+**Chapter 10 – Parsing techniques
+
+==English editions==
+
+===Current editions===
+
+These are the current editions in order by volume number:
+*Volume 1: Fundamental Algorithms. Third Edition (Reading, Massachusetts: Addison-Wesley, 1997), xx+650pp. ISBN 0-201-89683-4
+*Volume 1, Fascicle 1: MMIX -- A RISC Computer for the New Millennium. (Addison-Wesley, February 14, 2005)  ISBN 0-201-85392-2 (will be in the fourth edition of volume 1)
+*Volume 2: Seminumerical Algorithms. Third Edition (Reading, Massachusetts: Addison-Wesley, 1997), xiv+762pp. ISBN 0-201-89684-2
+*Volume 3: Sorting and Searching. Second Edition (Reading, Massachusetts: Addison-Wesley, 1998), xiv+780pp.+foldout. ISBN 0-201-89685-0
+*Volume 4A: Combinatorial Algorithms, Part 1. First Edition (Reading, Massachusetts: Addison-Wesley, 2011), xv+883pp. ISBN 0-201-03804-8
+*The Art of Computer Programming, Volumes 1-4A Boxed Set 3rd Edition (Reading, Massachusetts: Addison-Wesley, 2011), 3168pp. ISBN 0-321-75104-3
+
+===Previous editions===
+
+====Complete volumes====
+
+These volumes were superseded by newer editions and are in order by date.
+*Volume 1, first edition, 1968, xxi+634pp, ISBN 0-201-03801-3.
+*Volume 2, first edition, 1969, xi+624pp, ISBN 0-201-03802-1.
+*Volume 3, first edition, 1973, xi+723pp+centerfold, ISBN 0-201-03803-X
+*Volume 1, second edition, 1973, xxi+634pp, ISBN 0-201-03809-9.
+*Volume 2, second edition, 1981, xiii+ 688pp, ISBN 0-201-03822-6.
+
+====Fascicles====
+
+Volume 4[tpl]'s[/tpl] fascicles 0–4 were revised and published as Volume 4A.
+*Volume 4, Fascicle 0: Introduction to combinatorial algorithms and Boolean functions, (Addison-Wesley Professional, April 28, 2008) vi+240pp, ISBN 0-321-53496-4
+*Volume 4, Fascicle 1: Bitwise tricks & techniques;  Binary decision diagrams (Addison-Wesley Professional, March 27, 2009) viii+260pp, ISBN 0-321-58050-8
+*Volume 4, Fascicle 2: Generating All tuples and permutations, (Addison-Wesley, February 14, 2005) v+127pp, ISBN 0-201-85393-0
+*Volume 4, Fascicle 3: Generating all combinations and partitions. (Addison-Wesley, July 26, 2005) vi+150pp, ISBN 0-201-85394-9
+*Volume 4, Fascicle 4: Generating all trees—History of combinatorial generation, (Addison-Wesley, February 6, 2006) vi+120pp, ISBN 0-321-33570-8
+
+==Notes==
+
+==Footnotes==
+
+==See also==
+
+* Introduction to Algorithms
+
+==References==
+
+* [tpl]cite book |title=Portraits in Silicon |first=Robert |last=Slater |year=1987 |publisher=MIT Press |isbn=0-262-19262-4 [/tpl]
+* [tpl]cite book |title=Out of Their Minds: The Lives and Discoveries of 15 Great Computer Scientists |first=Dennis |last=Shasha |coauthors=Cathy Lazere |year=1995 |publisher=Copernicus |isbn=0-387-97992-1 [/tpl]
+
+==External links==
+
+*Overview of topics (Knuth's personal homepage)
+*Oral history interview with Donald E. Knuth at Charles Babbage Institute, University of Minnesota, Minneapolis.  Knuth discusses software patenting, structured programming, collaboration and his development of TeX. The oral history discusses the writing of The Art of Computer Programming.
+*"Robert W Floyd, In Memoriam", by Donald E. Knuth -(on the influence of Bob Floyd)
+*Who is Bill Gosper? (on the influence of Bill Gosper on the 2nd Edition of Volume 2.)
+*TAoCP and its Influence of Computer Science(Softpanorama)
+

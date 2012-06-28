@@ -1,0 +1,45 @@
+
+Modern web search engines are complex software systems using the technology that has evolved over the years. There are several categories of search engine software:   Web search engines (example: Lucene), database or structured data search engines (example: Dieselpoint), and mixed search engines or enterprise search (example: Google Search Appliance).  The largest web search engines such as Google and Yahoo! utilize tens or hundreds of thousands of computers to process billions of web pages and return results for thousands of searches per second.[tpl]Citation needed|date=February 2007[/tpl] High volume of queries and text processing requires the software to run in highly distributed environment with high degree of redundancy.[tpl]Citation needed|date=February 2007[/tpl] Modern search engines have the following main components:
+
+==Search Engine Categories==
+
+===Web Search Engines===
+
+Search engines designed for searching web pages, documents and images are designed to allow searching through these largely unstructured units of content.  They are built to follow a multi-stage process: crawling the pages or documents to discover their contents, indexing their content in a structured form (database or other), and finally resolving user queries to return results and links to the documents or pages from the index.
+
+====Crawl====
+
+In the case of full-text search for the web search, the first step in preparing web pages for search is to find and index them. In the past, search engines started with a small list of URLs as seed list, fetched the content, parsed for the links on those pages, fetched the web pages pointed to by those links which provided new links and the cycle continued until enough pages were found.[tpl]Citation needed|date=February 2007[/tpl] Most modern search engines now utilize a continuous crawl method rather than discovery based on a seed list.[tpl]Citation needed|date=November 2007[/tpl] The continuous crawl method is just an extension of discovery method but there is no seed list because the crawl never stops.[tpl]Citation needed|date=February 2007[/tpl] The current list of pages is visited on regular intervals and new pages are found when links are added or deleted from those pages.[tpl]Citation needed|date=February 2007[/tpl] Many search engines use sophisticated scheduling algorithms to decide when to revisit a particular page. These algorithms range from constant visit-interval with higher priority for more frequently changing pages to adaptive visit-interval based on several criteria such as frequency of change, popularity and overall quality of site, speed of web server serving the page and resource constraints like amount of hardware and bandwidth of Internet connection. Search engines crawl many more pages than they make available for searching because crawler find lots duplicate content pages on the web and many pages don't have useful content. Duplicate and useless content often represents more than half the pages available for indexing.
+
+====Link Map====
+
+Pages discovered by crawlers are fed into (often distributed) service that creates a link map of the pages. Link map is a graph structure in which pages are represented as nodes connected by the links among those pages. This data is stored in data structures that allow fast access to the data by certain algorithms which compute the popularity score of pages on the web, essentially based on how many links point to a web page and the quality of those links. One such algorithm, PageRank, proposed by Google founders Larry Page and Sergey Brin, is well known and has attracted a lot of attention. The idea of doing link analysis to compute a popularity rank is older than PageRank and many variants of the same idea are currently in use. These ideas can be categorized in three main categories:  rank of individual pages, rank of web sites, and nature of web site content (Jon Kleinberg's HITS algorithm). Search engines often differentiate between internal links and external links, with the assumption that links on a page pointing other pages on the same site are less valuable because they are often created by web site owners to artificially increase the rank of their web sites and pages. Link map data structures typically also store the anchor text embedded in the links because anchor text often provides a very good quality short-summary of a web page's content.
+
+====Index====
+
+Indexing is the process of extracting text from web pages, tokenizing it and then creating an index structure (inverted index) that can be used to quickly find which pages contain a particular word. Search engines differ quite a lot in tokenization process. The issues involved in tokenization are:  detecting the encoding used for the page, determining the language of the content (some pages use multiple languages), finding word, sentence and paragraph boundaries, combining multiple adjacent-words into one phrase and changing the case of text and stemming the words into their roots (lower-casing and stemming is applicable only to some languages). This phase also decides which sections of page to index and how much text from very large pages (such as technical manuals) to index. Search engines also differ in the document formats they interpret and extract the text from.
+Some search engines go through the indexing process every few weeks and refresh the complete index used for web search requests while others keep updating small fragments of the index continuously.[tpl]Citation needed|date=February 2007[/tpl] Before web pages can be indexed, an algorithm decides which node (a server in a distributed service) will index any given page and makes the information available as metadata for other components in the search engine. The index structure is complex and typically employs some compression algorithm.[tpl]Citation needed|date=February 2007[/tpl] The choice of compression algorithm involves a trade-off between on-disk storage space and speed of decompression when needed to satisfy search requests. The largest search engines use thousands of computers to index pages in parallel.[tpl]Citation needed|date=February 2007[/tpl]
+
+===Database Search Engines===
+
+Searching for text-based content in databases presents some special challenges and opportunities which a number of specialized search engines resolve.  Databases are slow when solving complex queries (with multiple logical or string matching arguments.  Databases allow logical queries which full-text search doesn't (use of multi-field boolean logic for instance).  There is no crawling necessary for a database since the data is already structured but it is often necessary to index the data in a more compact form designed to allow for faster search.
+Database search systems relational databases are indexed by compounding multiple tables into a single table containing only the fields that need to be queried (or displayed in search results).  The actual data matching engines can include any functions from basic string matching, normalization, transformation,  Database search technology is heavily used by government database services, e-commerce companies, web advertising platforms, telecommunications service providers, etc.
+
+===Mixed Search Engines===
+
+In cases where the data searched contains both database content and webpages or documents, search engine technology has been developed to respond to both sets of requirements.  Most mixed search engines are large Web search engines (example: Google) or enterprise search software products (example: Autonomy).  They search both through structured and unstructured data sources.  Pages and documents are crawled and indexed in a separate index.  Databases are indexed also from various sources.  Search results are then generated for users by querying these multiple indices in parallel and compounding the results according to rules.
+Much of the incremental value of these search systems comes from their ability to connect to multiple sources of content and data and their ability to interpret their multiple formats.
+
+==See also==
+
+*Database search engine
+*Enterprise search
+*Search engine
+*Search engine indexing
+*Web crawler
+
+==External links==
+
+* Searching for Text Information in Databases
+* Learn more about their data center
+

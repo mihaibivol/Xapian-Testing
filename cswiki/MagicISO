@@ -1,0 +1,30 @@
+
+MagicISO (also referred to as MagicISO Maker) is a CD/DVD image shareware utility that can extract, edit, create, and burn disc image files. It offers the possibility of converting between ISO and CUE/BIN and their proprietary Universal Image Format disc image format.
+In addition to being able to edit the contents of the disc images without decompressing, it can make a disc image from an existing CD/DVD-ROM. Also, it can make bootable image files (file extension .bif). MagicISO can mount disc images with the addition of MagicISO Virtual CD/DVD Manager.
+The trial version cannot handle disc images larger than 300 MB. MagicISO is currently produced by MagicISO, Inc. 
+
+== Universal Image Format ==
+
+Universal Image Format or UIF is a proprietary disc image format for CDs and DVDs designed for MagicISO. Compared to the widespread simpler image formats like .iso and .bin, UIF adds compression, password-protected encryption, MD5 checksums and multi-session images.
+
+== Problems with MagicISO ==
+
+MagicISO supports CIF files created by Easy CD Creator, but only data CDs(ISO 9660 compatibles), not Audio CDs. MagicISO also installs a context menu through the file C:\MagicISO\misosh64.dll (if installed to default directories) which is not removed with the software when uninstalled, rather, it remains on your system and is not easily removed.
+
+== MagicDisc ==
+
+MagicDisc, sometimes known as MagicISO Virtual CD/DVD Manager is a freeware virtual drive counterpart to MagicISO. It is a separate download needed to mount discs virtually.  MagicDisc can also decompress UIF images to ISO format.
+Unlike MagicISO, MagicDisc does not have support for .daa files that were produced by PowerISO.
+
+== See also ==
+
+* List of ISO image software
+
+== References ==
+
+== External links ==
+
+* [tpl]Official website|http://www.magiciso.com/[/tpl]
+* UIF2ISO - open-source tool to convert MagicISO UIF images into ISO images 
+* UIF to ISO - free tool to convert UIF images into ISO images 
+

@@ -1,0 +1,30 @@
+
+Microsoft adCenter (formerly MSN adCenter), is the division of the Microsoft Network (MSN) responsible for MSN's advertising services. Microsoft adCenter provides pay per click advertisements. This is a service aimed at people who want to advertise a product. Microsoft also has a (still in beta) service for webmasters who want to monetize on their site: Microsoft pubCenter. 
+
+==History==
+
+Microsoft was the last of the "Big Three" search engines (Microsoft, Google and Yahoo!) to develop its own system for delivering pay per click (PPC) ads.  Until the beginning of 2006, all of the ads displayed on the Bing (formerly MSN Search) search engine were supplied by Overture (and later Yahoo!).  MSN collected a portion of the ad revenue in return for displaying Yahoo!'s ads on its search engine.
+As search marketing grew, Microsoft began developing its own system, Microsoft adCenter, for selling PPC advertisements directly to advertisers.  As the system was phased in, MSN search showed Yahoo! and Microsoft adCenter advertising in its search results.  Microsoft effort to create AdCenter was led by Tarek Najm, then general manager in MSN division of Microsoft. In June 2006, the contract between Yahoo! and Microsoft had expired and Microsoft was displaying only ads from adCenter until 2010. In January 2010 Microsoft announced a take over of Yahoo! and the combination of Bing, formerly MSN Search, to form the Microsoft Search Alliance. A complete transition of all Yahoo! sponsored ad clients to Microsoft adCenter occurred in October 2010.
+In November 2006 Microsoft acquired DeepMetrix, a company situated in Gatineau, Canada, that created web-analytics software. Microsoft has built new product AdCenter Analytics based on the acquired technology. In October, 2007 the Beta version of Microsoft Project Gatineau was released to a limited number of participants.
+In May 2007, Microsoft agreed to purchase the digital marketing solutions parent company, aQuantive, for roughly $6 billion.
+Microsoft acquired ScreenTonic on May 3, 2007,Microsoft Acquires European Mobile Ad Firm - ClickZ AdECN on July 26, 2007,Microsoft acquires 'ad exchange' company AdECN | Tech news blog - CNET News.com and YaData on February 27, 2008 and merged their technologies into adCenter.Microsoft Acquires YaData - InternetNews:The Blog - Kenneth Corbin
+On February 23, 2009, Publisher Leadership Council was created under the umbrella of Microsoft Advertising. The council was responsible to deliver the next-generation advertising platform for the publishers of digital media resulting in the formation of Microsoft pubCenter.Microsoft Advertising Announces Formation of Publisher Leadership Council, February 23, 2009, News Press Release, Microsoft
+
+==Technology==
+
+Similar to Google AdWords, Microsoft adCenter uses both the maximum amount an advertiser is willing to pay per click (PPC) on their ad and the advertisement's click-through rate (CTR) to determine how frequently an advertisement is shown.  This system encourages advertisers to write effective ads and to advertise only on searches which are relevant to their advertisement.   
+Microsoft adCenter allows advertisers to target their ads by restricting their ads to a given set of demographics and by increasing their bids whenever the ad is seen by a user of a certain demographic.  As of November 2006, no other PPC advertising system has a similar feature.  Similarly, adCenter allows advertisers to run their ads on specific days of the week or certain times of day.
+Microsoft adCenter provides both UI and Web service API front end to advertisers, both are built on Microsoft .Net 2.0 framework. A Windows-only desktop application allows users to manage Microsoft adCenter campaigns offline, or to make bulk changes easily, as well as offering performance alerts and keyword research features.
+
+==References==
+
+==External links==
+
+*Microsoft adCenter
+*adCenter Community
+**Official adCenter Advertiser Blog
+**Official adCenter Analytics Blog
+**Official adCenter API Developer Blog
+**Official adCenter Support Forums
+*Microsoft Advertising Intelligence (a keyword research and optimization tool, formerly Add-in for Excel Version 1.0)
+

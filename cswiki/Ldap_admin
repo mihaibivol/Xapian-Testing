@@ -1,0 +1,32 @@
+
+LDAP Admin is a free, open-source LDAP directory management tool licensed under the GNU General Public License. Small and compact, LDAP Admin is also highly configurable through the use of the template extensions. In addition to common browsing and editing functions, LDAP Admin provides a directory management functionality by supporting a number of application-specific LDAP objects such as Posix and Samba groups and accounts, Postfix objects and a number of Active Directory objects. It also provides an XML-based template engine which extends the application in a seamless way allowing it to support virtually unlimited number of user defined objects.
+
+==Features==
+
+Some of the key features include:
+*Browsing and editing of LDAP directories
+*Recursive operations on directory trees (copy, move and delete)
+*Modify operations on datasets
+*Password management
+*Management of Posix Groups and Accounts
+*Management of Samba Groups and Accounts
+*Postfix MTA Support
+*Template support
+As of version 1.3 the templates support for JavaScript and VBScript was introduced providing for a dynamic templates.
+
+==Limitations==
+
+Being a native Win32 application, LDAP Admin runs on the Windows operating systems only. By using the Wine software, it is apparently possible to run the application on a Linux and Mac OS X operating systems.http://appdb.winehq.org/objectManager.php?bShowAll=true&bIsQueue=false&bIsRejected=false&sClass=version&sTitle=&sReturnTo=&iId=19365
+
+== See also ==
+
+*List of LDAP software
+
+==External links==
+
+*LDAP Admin Official Site
+*LDAP Admin project page on SourceForge
+
+==References==
+
+

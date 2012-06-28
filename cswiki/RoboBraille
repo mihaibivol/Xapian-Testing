@@ -1,0 +1,36 @@
+
+RoboBraille is a free email and web-based service capable of converting documents into a range of accessible formats including Braille, mp3 and Daisy. The service can furthermore be used to convert otherwise inaccessible documents such as scanned images and pdf files into more accessible formats. RoboBraille has been in operation since 2004 and currently serves thousands of user requests each month from users across the world.
+
+The service is developed jointly by the National Danish Center for Visual Impairment for Children and Youth and Sensus ApS. RoboBraille is available free of charge to non-commercial users and users need not register to use the service. The development and operation of RoboBraille has been funded by the Danish Government, the European Commission and private foundations. Many organisations have contributed to the development of the RoboBraille service including Royal National College for the Blind based in Hereford, United Kingdom, St Joseph's School for the Blind, Ireland, the National Council for the Blind of Ireland, Irish Republic, Associazione Nazionale Subvedenti, Italy, CIDEF, Portugal, Hilfsgemeinschaft der Blinden und Sehschwachen Österreichs, Austria, Medison, Poland, The Lithuanian Association of the Blind and Visually Handicapped, Lithuania, Association Valentin Haüy, France, and the Pancyprian Organization of the Blind, Cyprus.
+
+In January 2010, the RoboBraille services received the prestiguous BETT Award for best Special Education Needs solution. The service has previously received the Access IT Award for Learning for most affordable eLearning solution (2009), The National eWell-Being Award for ”Reaching the Digitally Excluded” (2009), the European Commission eInclusion Award for e-Accessibility Award (2008), the Well-Tech Award for Innovation and Accessibility (2008) and the British Computer Society's Social Contribution Award (2007). 
+
+RoboBraille offers five different categories of service:
+# Braille transcription services: Translation to and from Braille (contracted, un-contracted) in Danish, British English, Italian, Greek, German, Icelandic, Norwegian and Portuguese. Supported document types include text files (DOS and Windows), Microsoft Word documents (doc, docx, Word xml), html documents, rtf files, tiff, gif, jpg, bmp, pcx, dcx, j2k, jp2, jpx, djv and all types of pdf documents. Before the Braille document is returned to the user, it may be converted to a particular Braille character set based on user settings. Documents can also be returned in Unicode Braille or formatted in either text format or PEF (Portable Embosser Format).
+# Audio conversion services: All document types listed in the previous section may be converted into mp3 files. Furthermore, RoboBraille is capable of converting well-structured Word documents (doc, docx, xml) into Daisy Talking Books complete with audio. The audio conversion services currently include high-quality voices for the following languages: Danish, British English, German, Polish, French, Italian, Portu-guese, Slovenian and Lithuanian.
+# Accessibility services: Otherwise inaccessible documents such as image files in gif, tiff, jpg, bmp, pcx, dcx, j2k, jp2, jpx, djv and image-only pdf, as well as all types of pdf files can be converted to more accessible formats including tagged pdf, doc, docx, Word xml, xls, xlsx, csv, text, rtf and html.
+# Visual Braille services: To support the requirements of pharmaceutical companies, RoboBraille can create graphical Braille artwork based on the Braille codes of many European countries. Pharmaceuticals, printers and designers submit control files with the product name and strength, Braille number encoding regime and language codes. A subscription is required for these services.
+# RoboBraille Tools: A number of utility accounts support functions such as file partitioning, file conversion and file export to particular Braille character sets.
+In addition to the traditional email-interface, RoboBraille is available via the web form at http://www.robobraille.org/saxs/robobraille/saxs-step1.aspx
+
+== RoboBraille email account ==
+
+=== mp3 accounts ===
+
+Users can specify the required speed of the audio via pluses or minuses in the subject line of the mail: + = fast; ++ = faster; +++ = fastest; - = slow; -- = slower; --- = slowest
+
+=== Braille accounts ===
+
+Users can specify the name of the target Braille character set by writing the name of the appropriate export filter in the subject line of the mail, e.g., nacb for North American Computer Braille and unicode for Unicode Braille.
+Users can also specify particular formats such as format3028p for 30 characters per line, 28 lines per page with pagination, format3227 for 32 characters per line, 27 lines per page without pagination, pef3227p for delivery on pef (portable embosser format) with 32 characters per line, 27 lines per page with pagination and pef3329pd for a pef file with 33 characters per line, 29 lines per page, pagination and duplex embossing. A number of combinations exist. See also the section on export accounts in the tools section below.
+
+=== The History of RoboBraille ===
+
+RoboBraille was invented by computer scientist Lars Ballieu Christensen and alternative media specialist Svend Thougaard in 2004. The system was developed in Denmark with the assistance of the Royal National College for the Blind based in Hereford, United Kingdom.[tpl]cite news|url= http://archive.thisisherefordshire.co.uk/2008/1/4/92465.html|title= College project scoops award|publisher= Newsquest Media Ltd|work= Hereford Times|date= 4 January 2008|accessdate= 11 August 2010[/tpl] The system was launched in June 2006 and was the winner of a British Computer Society Social Contribution Project Award in 2007.
+
+== References ==
+
+== External links ==
+
+*RoboBraille website
+

@@ -1,0 +1,17 @@
+
+libusb is a suite of user-mode routines for controlling data transfer to and from USB devices on Unix-like systems without the need for kernel-mode drivers.
+
+==Availability==
+
+Libusb is currently available for Linux, the BSDs and Mac OS X and is written in C. There is also a port to Win32 systems.
+Amongst other applications, the library is used by SANE, the Linux scanner project, in preference to the kernel scanner module, which is restricted to Linux kernel 2.4
+
+== External links ==
+
+* Official Website
+* Documentation at Sourceforge
+* Unofficial bindings for libusb
+
+==References==
+
+

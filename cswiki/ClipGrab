@@ -1,0 +1,28 @@
+
+ClipGrab is a multi-platform, GPL v3 licensed software for downloading videos from popular websites like YouTube, Vimeo or Dailymotion. It also provides the possibility to convert the downloaded files to other file formats like MP3, MPEG4, OGG Theora or WMV.
+
+== Features ==
+
+ClipGrab officially supports the download from a handful of video websites which include YouTube, Collegehumor, Dailymotion, Vimeo. In addition to this, the software provides a heuristic which can also download videos from sites that are not officially supported. When available, ClipGrab offers different quality options for a video. Like this, the user can coose between downloading a high definition, standard definition or low definition version of the video.
+ClipGrab can automatically detect compatible URLs when they are copied to the clipboard. The program also provides an integrated search function for YouTube.
+It has been especially praised for its clean and easy-to-use user interface.[ref]
+</ref><ref>
+</ref><ref>
+</ref> Software review site softoxi.com states that "[ClipGrab] has a beautifully designed graphical user interface" and "stands out immediately for its look, feel and performance"<ref>
+</ref>
+
+==Development==
+
+ClipGrab was originally developed in the proprietary programming language PureBasic[ref]
+</ref>, and could only download one video at a time. Later, the software was rewritten using [[C++]] and the [[Qt (framework)|Qt]] framework and published under the terms of the [[GPL v3]]. Since version 3.0, the program is also available for [[Mac OS X]].
+
+== See also ==
+
+* Comparison of Free YouTube Downloaders
+
+== References ==
+
+== External links ==
+
+* [tpl]official|http://clipgrab.de/en[/tpl]
+

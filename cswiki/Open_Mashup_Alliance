@@ -1,0 +1,56 @@
+
+The Open Mashup Alliance (OMA) is a non-profit consortium that promotes the adoption of mashup solutions in the enterprise through the evolution of enterprise mashup standards like  EMML.[tpl]cite web|title=Open Mashup Alliance FAQs |url=http://www.openmashup.org/faq[/tpl]  Enterprise mashup usage is expected to grow tenfold in the next five years.[tpl]when|see WP:RELTIME|date=December 2011[/tpl][tpl]cite web|title=Enterprise mashup market to increase tenfold over next five years |url=http://blogs.zdnet.com/service-oriented/?p=2942[/tpl] The initial members of the OMA include some large technology companies such as Adobe Systems, Hewlett-Packard, and Intel, and some major technology users such as Bank of America and Capgemini.
+According to information technology industry analyst Dion Hinchcliffe,[tpl]cite web|title=Creating a unified model for enterprise mashups |url=http://blogs.zdnet.com/Hinchcliffe/?p=872[/tpl] "Ultimately, the OMA creates a standardized approach to enterprise mashups that creates an open and vibrant market for competing runtimes, mashups, and an array of important aftermarket services such as development/testing tools, management and administration appliances, governance frameworks, education, professional services, and so on."
+
+==Specification development==
+
+The initial focus of the OMA is developing EMML, which is a declarative mashup domain-specific language (DSL) aimed at creating enterprise mashups.
+The EMML language provides a comprehensive set of high-level mashup-domain vocabulary to consume and mash variety of Web data-sources in diverse ways. EMML provides a uniform syntax to invoke heterogeneous service styles: REST, WSDL, RSS/ATOM, RDBMS, and POJO. EMML also provides ability to mix and match diverse data-formats: XML, JSON, JDBC, JavaObjects, and primitive types.
+The OMA Web site provides the EMML specification,[tpl]cite web | title = OMA Download Agreement Page | url = http://www.openmashup.org/download/agreement.html[/tpl] the EMML schema,[tpl]cite web | title = EMML Schema | url = http://www.openmashup.org/schemas/v1.0/EMMLSpec.xsd[/tpl] a reference runtime implementation capable of running EMML scripts, sample EMML mashup scripts, and technical documentation.[tpl]cite web | title = EMML Technical Documentation | url = http://www.openmashup.org/omadocs/v1.0/index.html[/tpl]
+The OMA is developing EMML under a Creative Commons Attribution No Derivatives license.[tpl]cite web | title = OMA FAQs | url = http://www.openmashup.org/faq/#3[/tpl]  The license means that EMML users are allowed copy and distribute EMML. However, EMML can not be altered by users and the ownership of EMML by the OMA must be made clear in any redistribution.[tpl]cite web | title = Creative Commons Attribution No Derivatives License Overview | url = http://creativecommons.org/licenses/by-nd/3.0/[/tpl]
+The eventual objective of the OMA is to submit the EMML specification and any other OMA specifications to a recognized industry standards body.[tpl]cite web | title = Enterprise mashup proponents start organizing | url = http://blogs.zdnet.com/service-oriented/?p=2972[/tpl]
+
+==See also==
+
+*EMML
+*Web 2.0
+*Mashup (web application hybrid)
+*Service-oriented architecture (SOA)
+*Domain-specific language (DSL)
+
+==Further reading==
+
+* Reuters: Official press release announcing OMA
+* ZDNet: Creating a unified model for enterprise mashups
+* Integration Developer News: Open Mashup Alliance: New Language Will Boost Adoption
+* Web 2.0 Journal Open Mashup Alliance Formed to Promote Interoperability and Adoption of Enterprise Mashup Solutions
+* InfoWorld: Software Vendors form Mashup Alliance
+* SDTimes: Mashup alliance seeks universal language
+* Dr. Dobb's Journal: Open Mashup Alliance Formed
+* ZDNet: Open Mashup Alliance sets out to breed ease of apps and data access, portability
+* ebizQ: Enterprise Mashup Alliance Formed
+* ADT Magazine: Alliance Aims to Provide Mashup Interoperability
+* TMCnet: Open Mashup Alliance Created, Launched
+* OpenSource Magazine: Open Mashup Alliance Formed
+* ProgrammableWeb: An Open Mashup Alliance for Enterprise Mashups
+* ACM: Alliance Aims to Provide Mashup Interoperability
+* SDTimes: Will EMML be mother of all mashups?
+* SOA World Magazine: Open Mashup Alliance Makes Debut
+* Gartner: OMA and the Importance of Standards in Enterprise Mashups
+* ZDNet: Enterprise mashup proponents start organizing
+* ADT Magazine: Why Bank Of America Joined Open Mashup Alliance
+* Dr. Dobb's Journal: Mashups and the Enterprise Mashup Markup Language (EMML)
+* Hinchcliffe and Company: Profitability, Predictability & Performance through Enterprise Mashups White paper, PDF
+* Information Management: Transforming Information Management with Enterprise Mashups
+
+==References==
+
+==External links==
+
+*OMA Home page
+*EMML reference runtime implementation download
+*EMML Documentation
+*Open Mashup Alliance Interest Group
+*[tpl]Twitter|openmashup|Open Mashup Alliance[/tpl]
+*EMML resources on ZDNet
+

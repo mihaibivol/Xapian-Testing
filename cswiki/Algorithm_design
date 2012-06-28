@@ -1,0 +1,19 @@
+
+Algorithm design is a specific method to create a mathematical process in solving problems.  Applied algorithm design is algorithm engineering.
+Algorithm design is identified and incorporated into many solution theories of operation research, such as dynamic programming and divide-and-conquer.  Techniques for designing and implementing algorithm designs are algorithm design patterns,[tpl]citation|url=http://ww3.algorithmdesign.net/ch00-front.html|title=Algorithm Design: Foundations, Analysis, and Internet Examples|last1=Goodrich|first1=Michael T.|author1-link=Michael T. Goodrich|last2=Tamassia|first2=Roberto|author2-link=Roberto Tamassia|publisher=John Wiley & Sons, Inc.|year=2002|isbn=0-471-38365-1[/tpl] such as template method pattern and decorator pattern, and uses of data structures, and name and sort lists.  Some current day uses of algorithm design can be found in internet retrieval processes of web crawling, packet routing and caching. 
+Mainframe programming languages such as ALGOL (for Algorithmic language), FORTRAN, COBOL, PL/I, SAIL, and SNOBOL are computing tools to implement an "algorithm design"... but, an "algorithm design" (a/d) is not a language. An a/d can be a hand written process, e.g. set of equations, a series of mechanical processes done by hand, an analog piece of equipment, or a digital process and/or processor.
+One of the most important aspects of algorithm design is creating an algorithm that has an efficient run time, also known as its big Oh.
+
+== Famous algorithms ==
+
+* Divide and conquer
+* Dynamic programming
+* Greedy algorithm
+
+== Notes ==
+
+== Further reading ==
+
+* Algorithm Design Paradigms - Overview by Paul Dunne at the University of Liverpool
+* Stony Brook Algorithm Repository by Steven S. Skiena, Department of Computer Science , State University of New York
+

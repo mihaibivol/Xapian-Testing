@@ -1,0 +1,38 @@
+
+EPCARD (European Program Package for the Calculation of Aviation Route Doses) is a software program that calculates radiation exposure of aircrews.Jeffrey R. Davis, Robert Johnson, Jan Stepanek - Fundamentals of Aerospace Medicine (2008) - Page 228-230 (Google Books Link 2010) The software code is based on the FLUKA transport code. EPCARD allows calculation of a simulated dose from most important components of penetrating cosmic radiation on any aviation route and for any flight profile at altitudes from 5 to 25 km. 
+Epcard helps airlines monitor radiation exposure, and comply with regulations relating to this area. 
+
+==Development==
+
+This software package was developed by scientists of the Institute of Radiation Protection of the Helmholtz Zentrum München, German Research Center for Environmental Health (former GSF - National Research Center for Environmet and Health) with support from the European Commission and University of Siegen, Germany.
+
+==Simulation of radiation exposure==
+
+The EPCARD program virtually simulates a flight (with time resolution of 1 min) in the “quasi-real” radiation field of cosmic secondary particles. It is based on the energy spectra of neutrons, protons, photons, electrons, positrons, muons, and pions, calculated by means of the FLUKA Monte Carlo code at various altitudes in the Earth’s atmosphere down to sea level, for all possible physical parameters of solar activity and geomagnetic shielding conditions. A large scale set of  “fluence-to-dose” conversion coefficients is employed, to calculate dose quantities (in units of microSievert) in terms of ambient dose equivalent, H*(10), and effective dose, E. EPCARD.Net is based on the same physical algorithms as the EPCARD program, but is currently ready to process some extended physical parameters giving more precise information about flight route doses. EPCARD.Net is a completely new code which can be run on many systems such as Microsoft Windows NT/2K/XP/Vista (using both .Net and Mono runtime platform) or ‘UNIX kernel type’ operating systems like Linux, Mac OS X or Solaris (using the Mono runtime platform).
+
+==Approval==
+
+The Luftfahrt-Bundesamt (German Aviation Authority; LBA, Federal Office for Aviation) and the Physikalisch-Technische Bundesanstalt (National Metrology Institute; PTB) granted official approval for EPCARD version 3.34 in December 2003. EPCARD.Net Professional version 5.4.3 was approved for official use for aircrew dose assessment by LBA and PTB in April 2010.
+
+==Version for aircraft passengers==
+
+Free of charge on-line dose calculations for any flights can be performed with a simplified version of EPCARD, on the EPCARD web site.
+
+== References==
+
+* Mares, V., Maczka, T., Leuthold, G. Rühm, W.,. Air crew dosimetry with a new version of EPCARD, Radiat. Prot. Dosim. (2009), Vol. 136, No. 4, pp. 262–266.
+* Mares, V., Leuthold, G., 2007. Altitude-dependent dose conversion coefficients in EPCARD. Radiat. Prot. Dosim. 126, 581-584.
+* Mares, V., Roesler, S. and Schraube, H., 2004. Averaged particle dose conversion factors in air crewdosimetry. Radiat. Prot. Dosim. 110, 371-376.
+* Roesler, S., Heinrich, W. and Schraube, H.: Monte Carlo calculation of the radiation field at aircraft altitudes. Radiat. Prot. Dosim. 98, 4, 2002, pp. 367-388
+* Schraube, H., Leuthold, G., Heinrich, W., Roesler, S., Mares, V. and Schraube, G.: EPCARD – European program package for the calculation of aviation route doses, User’s manual. GSF-National Research Center, Neuherberg, Germany (2002). ISSN 0721 - 1694. GSF-Report 08/02
+* Pelliccioni, M. Overview of fluence-to-effective dose and fluence-to-ambient dose equivalent conversion coefficients for high energy radiation calculated using FLUKA code. Radiat. Prot. Dosim. 88(4), pp. 279–297, 2000.
+* Schraube, H., Heinrich, W., Leuthold, G., Mares, V., and Roesler, S.: Aviation route dose calculation and its numerical basis. Proc. 10th International Congress of the International Radiation Protection Association, Hiroshima, Japan. T-4-4, P-1a-45 (2000) 1-9 
+
+==Reflist==
+
+==External links==
+
+* Epcard website
+* Epcard.net website
+* aircraft passengers´section
+

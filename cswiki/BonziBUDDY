@@ -1,0 +1,41 @@
+
+BonziBUDDY, also known as Bonzi, sometimes spelled Bonzi Buddy, BonziBuddy, BONZIBuddy (misspelled Bonzai Buddy) was an on-screen "intelligent software agent" from BONZI Software, released in 1999 and discontinued in 2004. The official website stated that the software would help a user surf the Internet by using Microsoft Agent technology. In 1999, the software used a green parrot called Peedy licensed from Microsoft, and in later versions, BONZI Software made their own fictional character, Bonzi, who was a purple gorilla. The on-screen agent would tell jokes, facts, manage downloading using his download manager, sing songs and other functions. The user would command the character by right clicking on the character's stomach on which a menu would appear.
+BonziBUDDY received wide recognition as malware, predominantly as a piece of adware, though claims of spyware capabilities have been made against it.[tpl]cite web | url= http://www.novell.com/coolsolutions/appnote/3590.html | title= AppNote: Automating the installation and execution of Spybot Search & Destroy with ZENworks | accessdate= 2007-07-14 | last= Geschwind | first= Bill | date= 2004-08-11 | work= Novell Cool Solutions | publisher= Novell | quote= "Hotbar, Bonzi Buddy, Gator eWallet and Comet Cursors ... are all spyware-laden programs that I have encountered far too often in the field on my users' machine" [/tpl] Bonzi's homepage remained open after the discontinuation of BonziBUDDY and the website disappeared at the end of 2008.
+
+==Overview==
+
+The software used Microsoft Agent technology similar to Office Assistant,[tpl]cite web|url=http://www.extremetech.com/article2/0,3973,1111245,00.asp|title="Bonzi Buddy" Creator Settles Suit |publisher=ExtremeTech|author=Mark Hachman|date=2003-05-28|accessdate=2006-09-07[/tpl] and originally sported Peedy, a green parrot character, before it became the purple gorilla.[tpl]cite web|url=http://www.sunbeltsecurity.com/ThreatDisplay.aspx?tid=3271&cs=DDC5975EB3DF633062FB55CC2DB78140|title=Counter Spy's entry on BonziBuddy|accessdate=2006-09-07[/tpl] The software "interacts with users while they are online, providing shopping advice, jokes, and trivia."[tpl]cite web|url=http://www.ftc.gov/opa/2004/02/bonziumg.htm|title=UMG Recordings, Inc. to Pay $400,000, Bonzi Software, Inc. To Pay $75,000 to Settle COPPA Civil Penalty Charges|publisher=Federal Trade Commission|date=2004-02-18|accessdate=2006-09-07[/tpl] Bonzi used the voice called Sidney from the Lernout and Hauspie TTS Package for Microsoft Speech API 4.0.
+The official website for the application quoted the program as:
+:He will explore the Internet with you as your very own friend and sidekick! He can talk, walk, joke, browse, search, e-mail, and download like no other friend you've ever had! He even has the ability to compare prices on the products you love and help you save money! Best of all, he's FREE! Bonzi.com. bonzi.com July 10, 2005.
+The initial program was free. However, many functions required the purchase of add-ons.
+
+==Release history==
+
+Below is a summary of the releases of BonziBUDDY and how they have changed. During 2005, BonziBUDDY was no longer available.
+
+==Criticism==
+
+In April 2007, PCWorld readers voted Bonzi Buddy 6th on a list of "the top 10 most annoying tech products".  One reader was quoted as criticizing the program because it "kept popping up and obscuring things you needed to see."
+One of the last newspapers to write about BonziBUDDY while it was still in distribution described it as spyware and a "scourge of the Internet".[tpl]cite news | url=http://www.accessmylibrary.com/article-1G1-118622446/prying-eyes-lurk-inside.html | title=Prying Eyes Lurk Inside Your PC; Spyware Spawns Efforts at Control. | publisher=The Gale Group, Inc. | accessdate=2007-11-16 | first=Brian | last=Kladko | date=2004-03-21[/tpl]  Another article found in 2006 on the BusinessWeek website described BonziBUDDY as "the unbelievably annoying spyware trojan horse".[tpl]cite web | url=http://www.businessweek.com/innovate/FineOnMedia/archives/2006/09/breaking_myspace_backlash_sighted_in_mainstream_media.html?campaign_id=rss_blog_fineonmedia | title=Breaking: MySpace Backlash Sighted In Mainstream Media! | publisher=Businessweek | accessdate=2007-11-16[/tpl]
+
+===Adware or spyware===
+
+A number of sources identify BonziBUDDY as spyware, a claim the company disputes. In 2002 an article in Consumer Reports Web Watch labelled BonziBUDDY as spyware, stating that it contains a Backdoor Santa in that it collects information from users. Among the activities the program is said to engage in include constantly resetting the user's web browser homepage to bonzi.com without the user's permission, prompting and tracking various information about the user, and serving advertisements.
+The Spyware Removal Database at Safer Networking (makers of Spybot – Search & Destroy) states "BonziBuddy is an Internet Explorer toolbar that may change your web browser settings, change your home page, and launch pop-up advertisements while tracking your web browsing habits."
+Spyware Guide's entry on the program states that it is adware.
+Anti-virus company Trend Micro classifies the software as adware in their spyware/grayware listings, but not malware.[ref]http://www.trendmicro.com/vinfo/grayware/printerfriendly.asp?GNAME=ADW%5FBONJING%2EA[tpl]Dead link|August 2011|date=August 2011[/tpl]
+[/ref]
+Anti-virus company Symantec classifies BonziBUDDY as Adware.
+
+==Legal==
+
+There were two legal cases about the software.
+* Internetnews.com reported the settlement of a class action suit on May 27, 2003. Originally brought against Bonzi Software on December 4, 2002, the suit accused Bonzi of using its banner advertisements to deceptively imitate Windows computer alerts, alerting the user that their IP address is being broadcast. In the settlement, Bonzi agreed to modify their ads so that they looked less like Windows dialog boxes and more like advertisements.[tpl]cite web|url=http://www.internetnews.com/IAR/article.php/2212851|title=Bonzi Settles Deceptive Ad Suit|author=Brian Morrissey|publisher=internetnews.com|date=2003-05-27|accessdate=2003-06-06[/tpl]archive.org link[tpl]cite web|url=http://www.internetnews.com/IAR/article.php/1551941|title=Bonzi Hit With Deceptive-Ad Complaint|author=Brian Morrissey|publisher=internetnews.com|date=2002-12-04|accessdate=2003-06-18[/tpl] archive.org link
+* On February 18, 2004, the Federal Trade Commission released a statement indicating that Bonzi Software, Inc. was ordered to pay $75,000 in fees, among other aspects, for violating the Children's Online Privacy Protection Act by collecting personal information from children under the age of 13 with BonziBUDDY.
+
+==References==
+
+==External links==
+
+*Smart Computing's removal guide
+

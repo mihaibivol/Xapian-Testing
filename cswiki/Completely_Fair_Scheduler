@@ -1,0 +1,46 @@
+
+The Completely Fair Scheduler is the name of a task scheduler which was merged into the 2.6.23 release of the Linux kernel. It handles CPU resource allocation for executing processes, and aims to maximize overall CPU utilization while also maximizing interactive performance. 
+Con Kolivas's work with CPU scheduling, most significantly his implementation of "fair scheduling" named Rotating Staircase Deadline, inspired Ingo Molnár to develop his CFS, as a replacement for the earlier O(1) scheduler, crediting Kolivas in his announcement.[ref]
+</ref>
+In contrast to the previous O(1) scheduler used in older Linux 2.6 kernels, the CFS scheduler implementation is not based on run queues. Instead, a red-black tree implements a "timeline" of future task execution. Additionally, the scheduler uses nanosecond granularity accounting, the atomic units by which an individual process' share of the CPU was allocated (thus making redundant the previous notion of timeslices). This precise knowledge also means that no specific heuristics are required to determine the interactivity of a process, for example.[tpl]cite web| last=Andrews | first=Jeremy | date=2007-04-18 | url=http://kerneltrap.org/node/8059 | title=Linux: The Completely Fair Scheduler | publisher=KernelTrap[/tpl]
+Like the old O(1) scheduler, CFS uses a concept called "sleeper fairness", which considers sleeping or waiting tasks equivalent to those on the runqueue. This means that interactive tasks which spend most of their time waiting for user input or other events get a comparable share of CPU time when they need it.
+
+==Algorithm==
+
+The scheduler stores the records about the planned tasks in a red-black tree, using the spent processor time as a key.CFS description at ibm.com This allows it to pick efficiently the process that has used the least amount of time (it is stored in the leftmost node of the tree). The entry of the picked process is then removed from the tree, the spent execution time is updated and the entry is then returned to the tree where it normally takes some other location. The new leftmost node is then picked from the tree, repeating the iteration.
+If the task spends a lot of its time sleeping, then its spent time value is low and it automatically gets the priority boost when it finally needs it. Hence such tasks do not get less processor time than the tasks that are constantly running.
+
+==OS background==
+
+From Molnar's description, CFS is an implementation of a well-studied, classic scheduling algorithm called fair queuing.[tpl]Citation needed|date=November 2007[/tpl]
+Originally invented for packet networks, fair queuing had been previously applied to CPU scheduling under the name stride scheduling.  However, CFS uses different terminology than normally applied to fair queuing. "Service error" (the amount in which a process's obtained CPU share differs from its expected CPU share) is called "wait_runtime" in Linux's implementation, and the term "queue virtual time" (QVT) was given the name "fair_clock".
+The fair queuing CFS scheduler has a scheduling complexity of O(log N), where N is the number of tasks in the runqueue. Choosing a task can be done in constant time, but reinserting a task after it has run requires O(log N) operations, because the runqueue is implemented as a red-black tree.
+CFS is the first implementation of a fair queuing process scheduler widely used in a general-purpose operating system.Efﬁcient and Scalable Multiprocessor Fair Scheduling Using Distributed Weighted Round-Robin
+
+==Fairer algorithms==
+
+The Linux kernel received a patch for CFS in November 2010 for the 2.6.38 kernel that has made the scheduler fairer for use on desktops and workstations. Developed by Mike Galbraith using ideas suggested by Linus Torvalds the patch is expected to significantly boost multi-tasking performance on most systems in that class.The ~200 Line Linux Kernel Patch That Does Wonders 
+The explanation of the basic algorithm implementation was included by Mike Galbraith in a LKML postLKML by him about the patch: 
+The primary issues solved by this are for multi-core as well as multi-cpu (SMP) systems experiencing increased interactive response times while performing other tasks that use many threads in those tasks.  A simple explanation is that one will be able to still watch a video, read email and perform other typical desktop activities without glitches or choppiness while compiling the Linux kernel or a similar process such as encoding video. However there are objections on this statement.
+This patch implements the tty task group creation only for fair class tasks and, as such, leaves the way open for enhancement.  Even at this basic implementation this patch can make Linux on the desktop a reality for all those who have found desktop performance to be less than desired.The Linux desktop may soon be a lot faster
+As Linus put itLKML:
+
+=== Controversy ===
+
+In the same LKML post,LKML Lennart Poettering from Red Hat pointed out that this change is a policy, which is against the Unix philosophy of implementing "mechanism, not policy." He also gave an equivalent implementationLennart's first implementation in shell script that was supposed to achieve the same result in userspace to prove although this patch demonstrates an optimization, there is no point to implement it in the kernel. The script was testedMarkus' test against Lennart's script by Markus Trippelsdorf and appeared to work better than the kernel patch.
+Lennart Poettering also doubted the usefulness of the patch, as he explained to the reader,Lennart's interpretation of the patch
+Linus confirmed this indirectly in his other post,http://marc.info/?l=linux-kernel&m=128994181624707&w=2
+
+==See also==
+
+* Brain Fuck Scheduler
+* Staircase Deadline Scheduler
+* Fair Share Scheduling
+
+==References==
+
+==External links==
+
+* [tpl]cite web| last=Corbet | first=Jonathan | date=2007-04-17 | url=http://lwn.net/Articles/230574/ | title=Schedulers: The Plot Thickens | publisher=LWN.net[/tpl]
+* [tpl]cite web| last=Corbet | first=J. | date=2007-07-02 | url=http://lwn.net/Articles/240474/ | title=CFS Group Scheduling | publisher=LWN.net[/tpl]
+

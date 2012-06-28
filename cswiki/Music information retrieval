@@ -1,0 +1,87 @@
+
+Music information retrieval (MIR) is the interdisciplinary science of retrieving information from music. MIR is a small but growing field of research with many real-world applications. Those involved in MIR may have a background in musicology, psychology, academic music study, signal processing, machine learning or some combination of these.
+
+== Applications of MIR ==
+
+MIR is being used by businesses and academics to categorize, manipulate and even create music.
+
+=== Recommender systems ===
+
+Several recommender systems for music already exist, but surprisingly few are based upon MIR techniques, instead making use of similarity between users or laborious data compilation. Pandora, for example, uses experts to tag the music with particular qualities such as "female singer" or "strong bassline". Many other systems find users whose listening history is similar and suggests unheard music to the users from their respective collections. MIR techniques for similarity in music are now beginning to form part of such systems.
+
+=== Track separation and instrument recognition ===
+
+Track separation is about extracting the original tracks as recorded, which could have more than one instrument played per track. Instrument recognition is about identifying the instruments involved and/or separating the music into one track per instrument. Various programs have been developed that can separate music into its component tracks without access to the master copy. In this way e.g. karaoke tracks can be created from normal music tracks, though the process is not yet perfect owing to vocals occupying some of the same frequency space as the other instruments.
+
+===Automatic score creation===
+
+In combination with the above technique the written music for a piece can be generated from the audio content alone. This task becomes more difficult with greater numbers of instruments and greater similarity between instruments.
+
+===Automatic categorization===
+
+Musical genre categorization is a common task for MIR and is the usual task for the yearly Music Information Retrieval Evaluation eXchange(MIREX).http://www.music-ir.org/mirex/wiki/MIREX_HOME - Music Information Retrieval Evaluation eXchange. Machine learning techniques such as Support Vector Machines tend to perform well, despite the somewhat subjective nature of the classification. Other potential classifications include identifying the artist, the place of origin or the mood of the piece. Where the output is expected to be a number rather than a class, regression analysis is required.
+
+===Music generation===
+
+The automatic generation of music is a goal held by many MIR researchers. Attempts have been made with limited success in terms of human appreciation of the results.
+
+==Methods used in MIR==
+
+===Data Source===
+
+Scores give a clear and logical description of music from which to work, but access to sheet music, whether digital or otherwise, is often impractical. MIDI music has also been used for similar reasons, but some data is lost in the conversion to MIDI from any other format, unless the music was written with the MIDI standards in mind, which is rare. Digital audio formats such as WAV, mp3, and ogg are used when the audio itself is part of the analysis. Lossy formats such as mp3 and ogg work well with the human ear but may be missing crucial data for study. Additionally some encodings create artefacts which could be misleading to any automatic analyser. Despite this the ubiquity of the mp3 has meant much research in the field involves these as the source material. Increasingly, metadata mined from the web is incorporated in MIR for a more rounded understanding of the music within its cultural context, and this recently includes analysis of social tags for music.
+
+===Feature Representation===
+
+Analysis can often require some summarisingEidenberger, Horst (2011). “Fundamental Media Understanding”, atpress. ISBN 978-3-8423-7917-6., and for music (as with many other forms of data) this is achieved by feature extraction, especially when the audio content itself is analysed and machine learning is to be applied. The purpose is to reduce the sheer quantity of data down to a manageable set of values so that learning can be performed within a reasonable time-frame. One common feature extracted is the Mel-Frequency Cepstral Coefficient (MFCC) which is a measure of the timbre of a piece of music. Other features may be employed to represent the chords, harmonies, melody, main pitch, beats per minute or rhythm in the piece.
+
+===Statistics and Machine Learning===
+
+*Computational methods for classification, clustering, and modelling — musical feature extraction for mono- and polyphonic music, similarity and pattern matching, retrieval
+* Formal methods and databases — applications of automated music identification and recognition, such as score following, automatic accompaniment, routing and filtering for music and music queries, query languages, standards and other metadata or protocols for music information handling and retrieval, multi-agent systems, distributed search)
+*Software for music information retrieval — Semantic Web and musical digital objects, intelligent agents, collaborative software, web-based search and semantic retrieval, query by humming, acoustic fingerprinting
+* Music analysis and knowledge representation — automatic summarization, citing, excerpting, downgrading, transformation, formal models of music, digital scores and representations, music indexing and metadata.
+
+==Other Issues==
+
+*Human-computer interaction and interfaces — multi-modal interfaces, user interfaces and usability, mobile applications, user behavior
+* Music perception, cognition, affect, and emotions — music similarity metrics, syntactical parameters, semantic parameters, musical forms, structures, styles ands, music annotation methodologies
+* Music archives, libraries, and digital collections — music digital libraries, public access to musical archives, benchmarks and research databases
+* Intellectual property rights and music — national and international copyright issues, digital rights management, identification and traceability
+* Sociology and Economy of music — music industry and use of MIR in the production, distribution, consumption chain, user profiling, validation, user needs and expectations, evaluation of music IR systems, building test collections, experimental design and metrics
+
+== See also ==
+
+* Audio mining
+* Artificial intelligence
+* Digital rights management
+* Digital signal processing
+* Ethnomusicology
+* Multimedia Information Retrieval
+* Music notation
+* Musicology
+* Musipedia
+* Parsons code
+* Sound and music computing
+
+== References ==
+
+* Michael Fingerhut (2004). "Music Information Retrieval, or how to search for (and maybe find) music and do away with incipits", IAML-IASA Congress, Oslo (Norway), August 8–13, 2004.
+
+==External links==
+
+* International Society for Music Information Retrieval
+* Music Information Retrieval research
+* J. Stephen Downie: Music information retrieval
+* Nicola Orio: Music Retrieval: A Tutorial and Review
+* Intelligent Audio Systems: Foundations and Applications of Music Information Retrieval, introductory course at Stanford University's Center for Computer Research in Music and Acoustics
+* Micheline Lesaffre: Music Information Retrieval: Conceptual Framework, Annotation and User behavior.
+* The Echo Nest: a company specialising in MIR research and applications.
+* Imagine Research : develops platform and software for MIR applications 
+
+==Example MIR applications==
+
+* Musipedia — A melody search engine that offers several modes of searching, including whistling, tapping, piano keyboard, and Parsons code.
+* The Listen Game — UCSD Computer Audition Lab MIR music ranking game
+* Peachnote — A melody search engine and n-gram viewer that searches through digitized music scores
+

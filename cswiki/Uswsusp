@@ -1,0 +1,9 @@
+
+uswsusp (userspace software suspend) is a suspend-to-ram and suspend-to-disk implementation for the Linux operating system, compatible with kernels 2.6.17 and onwards. It supports both s2ram ("standby") and s2disk ("hibernate"), as well as a mode called "s2both", which saves state to disk and RAM. S2both is intended for use in low-battery situations where restoring from ram is desired but can't be relied on as the battery may fail causing a restore from disk to be necessary.
+Uswsusp supports image checksumming, compression, encryption as well as integration with Splashy.
+
+==External links==
+
+* Official Site
+* Launchpad page
+

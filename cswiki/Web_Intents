@@ -1,0 +1,31 @@
+
+Web Intents is an upcoming framework for web-based inter-application communication and service discovery.
+Web Intents consists of a discovery mechanism and a very light-weight RPC system between web applications, modeled after the Intents system in Android. 
+In the context of the framework an Intent equals an action to be performed by a provider.GitHub: Paul Kinlan: WebIntents
+Web Intents allow two web applications to communicate with each other, without either of them having to actually know what the other one is.TechCrunch: Google Announces Plans To Bake Android-Like Web Intents Into Chrome
+
+==Support for Web Intents==
+
+Google Chrome 18+ natively supports Web Intents.Chrome 18 Web Intents support
+There is a JavaScript shim with support for IE 8, IE 9, Opera, Safari, Firefox 3+ and Chrome 3+.Web Intents FAQ
+There are some Web Intents proxy pages that make available some real services that don't yet support intents.Codebits: Web Intents Proxies
+AddThis announced on May 1, 2012 that it will support Web Intents in three ways: 
+# their sharing tools will be able to invoke Web Intents,
+# they will make Web Intents work even if the browser doesn’t support them,
+# AddThis sharing tools will be able to handle sharing actions.AddThis blog: A Step for Open Sharing: AddThis Integrates Web Intents
+
+==History==
+
+The Web Intents project was announced by Paul Kinlan from Google in December 2010. He soon released a prototype API to GitHub. In August 2011 Google announced that Chrome will support Web Intents, and they are cooperating with Mozilla to unify Web Intents and Mozilla's Web Activities/Web Discovery (which tries to solve the same problem) into one proposal.Chromium Blog: Connecting Web Apps with Web IntentsTechCrunch: Mozilla Labs Launches 'Web Activities' Experiment, Lets Web Apps Talk To Each OtherMozilla Labs: Web Apps Update – experiments in Web Activities, App Discovery
+
+==References==
+
+==External links==
+
+* Web Intents introduction
+** Web Intents FAQ 
+* Web Intents Google+ Page
+* Web Intents code on GitHub
+* Web Intents demos
+* Linux Weekly News: Differing intentions towards Web Intents
+

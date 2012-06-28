@@ -1,0 +1,31 @@
+
+and
+Since the behavior of a given atomic DEVS model can be defined in two different views depending on the total state and the external transition function (refer to Behavior of DEVS), the simulation algorithms are also introduced in two different views as below.
+
+== Common parts ==
+
+Regardless of two different views of total states, algorithms for initialization and internal transition cases are commonly defined as below.
+ DEVS-simulator
+   variables:
+     parent // parent coordinator
+         error: bad synchronization;
+
+== View 1: total states = states * elapsed times ==
+
+         error: bad synchronization;
+
+==View 2: total states = states * lifespans * elapsed times==
+
+         error: bad synchronization;
+
+==See also==
+
+* Atomic DEVS 
+* Behavior of atomic DEVS
+* Simulation algorithms for coupled DEVS
+
+== References ==
+
+* Zeigler84 [tpl]cite book|author = Bernard Zeigler | year = 1984| title = Multifacetted Modeling and Discrete Event Simulation | publisher = Academic Press, London; Orlando | id = ISBN 978-0-12-778450-2  [/tpl]
+* ZKP00 [tpl]cite book|author = Bernard Zeigler, Tag Gon Kim, Herbert Praehofer| year = 2000| title = Theory of Modeling and Simulation| publisher = Academic Press, New York  | id= ISBN 978-0-12-778455-7 |edition=second[/tpl]
+

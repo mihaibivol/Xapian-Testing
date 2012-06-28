@@ -1,0 +1,42 @@
+
+OpenL Tablets is a business rule management system (BRMS) and a business rules engine (BRE) based on table representation of rules. Engine implements optimized sequential algorithm. OpenL includes such table types as decision table, decision tree, spreadsheet-like calculator.
+
+== History ==
+
+The OpenL Tablets project was started as in-house development in 2003 and later in 2006 registered at SourceForgeProject Details.
+First it was only Open Source business rule engine for Java. Starting from version 5 it evolved into BRMS.
+
+== Technology ==
+
+OpenL Tablets engine is specially designed for business rules and uses table rules presentation. Table format enforces rules to be structured and format itself is close to tables found in various business documents.
+OpenL Tablets is based on OpenL framework for creating custom languages running on Java VM. The engine is designed to allow pluggable language implementations. Currently, it uses 2 languages: table structure for rules format and java-like for code snippets in rules. Java-like language is Java 5.0 implementation with Business User Extensions. 
+OpenL Tablets rules are mixture of declarative programming for rules logic and imperative programming for workflow control. Table formats are flexible enough to match the semantics of the problem domain.
+Tests, traces, benchmarks are integral part of the engine. It also provides powerful type definition capabilities to handle rules domain model inside rules files.
+The project is written in Java, but can be used at any platform using Service-oriented architecture approach, e.g. via web service.
+
+=== Patents ===
+
+The OpenL Tablets engine has patent pending validation featureHybrid use of rule and constraint engines.
+There are usages of OpenL Tablets which may be patentedSystems and Methods to Generate a Software Framework Based on Semantic Modeling and Business Rules .
+
+== BRMS ==
+
+OpenL Tablets includes several productivity tools and applications addressing BRMS related capabilities. They include web application to edit rules called OpenL Webstudio, web application to deploy rules as web services, Rules repository to store and manage rules, Eclipse plug-ins to work with rules projects. 
+
+== Related systems ==
+
+* CLIPS: public domain software tool for building expert systems.
+* ILOG rules: a business rule management system.
+* JBoss Drools: a business rule management system (BRMS).
+* JESS: a rule engine for the Java platform - it is a superset of CLIPS programming language.
+* Prolog: a general purpose logic programming language.
+* DTRules: a Decision Table based, open-sourced rule engine for Java.
+
+== References ==
+
+== External links ==
+
+* [tpl]official website|http://openl-tablets.sourceforge.net/[/tpl]
+* [tpl]SourceForge|openl-tablets|Openl Tablets[/tpl]
+* OpenL Tablets at Eclipse marketplace
+

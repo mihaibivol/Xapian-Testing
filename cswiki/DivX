@@ -1,0 +1,156 @@
+
+DivX is a brand name of products created by DivX, Inc. (formerly DivXNetworks, Inc., later purchased by Sonic Solutions and currently part of the Rovi Corporation formerly known as Macrovision), including the DivX Codec which became popular due to its ability to compress lengthy video segments into small sizes while maintaining relatively high visual quality.
+There are two DivX codecs; the regular MPEG-4 Part 2 DivX codec and the H.264/MPEG-4 AVC DivX Plus HD codec. It is one of several codecs commonly associated with "ripping", whereby audio and video multimedia are transferred to a hard disk and transcoded.
+
+== History ==
+
+The "DivX" brand is distinct from "DIVX" that was a former video rental system developed by Circuit City Stores which required special discs and players to function.[tpl]cite web | title=The 25 Worst Tech Products of All Time | url=http://www.pcworld.com/article/125772-7/the_25_worst_tech_products_of_all_time.html |date=26 May 2006 |accessdate=5 April 2010[/tpl] The winking emoticon in the early "[tpl]nowrap|DivX ;-)[/tpl]" codec name was a tongue-in-cheek reference to the DIVX system. Although not created by them, the DivX company adopted the name of the popular [tpl]nowrap|DivX ;-)[/tpl] codec. The company dropped the smiley and released DivX 4.0, which was actually the first DivX version, trademarking the word, DivX.[tpl]cite web | title=DivX Trademarks | url=http://www.divx.com/en/company/trademarks [/tpl][tpl]cite web | title=An Intellectual Property Case Study | url=http://davidgrossman.name/Publications-Patents/DIVX%20IP%20Case%20Study.pdf |format=PDF[/tpl]
+[tpl]nowrap|DivX ;-)[/tpl] (not DivX) 3.11 Alpha and later 3.xx versions refers to a hacked version of the Microsoft MPEG-4 Version 3 video codec (not to be mistaken with MPEG-4 Part 3) from Windows Media Tools 4 codecs. The  video codec, which was actually not MPEG-4 compliant, was extracted around 1998 by French hacker Jerome Rota (also known as Gej) at Montpellier. The Microsoft codec originally required that the compressed output be put in an ASF file. It was altered to allow other containers such as Audio Video Interleave (AVI).  Rota hacked the Microsoft codec because newer versions of the Windows Media Player wouldn't play his video portfolio and résumé that were encoded with it. Instead of re-encoding his portfolio, Rota and German hacker Max Morice decided to reverse engineer the codec, which "took about a week".
+In early 2000, Jordan Greenhall recruited Rota to form a company (originally called DivXNetworks, Inc., renamed to DivX, Inc. in 2005) to develop an MPEG-4 codec, from scratch, that would still be backward-compatible with the Microsoft MPEG-4 Version 3 format. This effort resulted first in the release of the "OpenDivX" codec and source code on 15 January 2001. OpenDivX was hosted as an open-source project on the Project Mayo web site hosted at projectmayo.com[tpl]cite web |url=http://www.projectmayo.com/ |archiveurl=http://web.archive.org/web/20030320172758/http://www.projectmayo.com/ |archivedate=2003-03-20 |title=Project Mayo |publisher=Archive.org |date=20 March 2003 |accessdate=19 January 2010[/tpl] (the name comes from "mayonnaise", because, according to Rota, DivX and mayonnaise are both "French and very hard to make."). The company's internal developers and some external developers worked jointly on OpenDivX for the next several months, but the project eventually stagnated.
+In early 2001, DivX employee "Sparky" wrote a new and improved version of the codec's encoding algorithm known as "encore2". This code was included in the OpenDivX public source repository for a brief time, but then was abruptly removed. The explanation from DivX at the time was that "the community really wants a Winamp, not a Linux." It was at this point that the project forked. That summer, Rota left the French Riviera and moved to San Diego "with nothing but a pack of cigarettes"[tpl]cite web| title=DivX CEO on Video, YouTube, iPod | url=http://www.redherring.com/Home/20135 | accessdate=8 December 2006 [/tpl] where he and Greenhall founded what would eventually become DivX, Inc.
+DivX took the encore2 code and developed it into DivX 4.0, initially released in July 2001. Other developers who had participated in OpenDivX took encore2 and started a new project—Xvid—that started with the same encoding core. DivX, Inc. has since continued to develop the DivX codec, releasing DivX 5.0 in March 2002. By the release of version 5.2.1 on 8 September 2004, the DivX codec was substantially feature-complete.Answer[tpl]Dead link|date=April 2010[/tpl][tpl]Dead link|date=April 2010[/tpl] Changes since then have tended to focus on speed, and encouraging wider hardware player support, while the company has also focused its time on the formats and next generation codecs.
+As of February 2011, the DivX brand has been owned by Rovi Corporation, upon completion of its acquisition of Sonic Solutions.[tpl]cite web| title=Digital Entertainment Provider Rovi Acquires Sonic Solutions | url=http://www.mediapost.com/publications/?fa=Articles.showArticle&art_aid=141928 | accessdate=23 December 2010 [/tpl]
+
+== DivX formats ==
+
+===DivX Media Format (DMF)===
+
+DivX 6 expanded the scope of DivX from including just a codec and a player by adding an optional media container format called "DivX Media Format" ("DMF") (with a .divx extension) that includes support for the following DVD-Video and VOB container like features. This media container format is used for the MPEG-4 Part 2 codec.
+*DivX Media Format (DMF) features:
+**Interactive video menus
+**Multiple subtitles (XSUB)
+**Multiple audio tracks
+**Multiple video streams (for special features like bonus/extra content, just like on DVD-Video movies)
+**Chapter points
+**Other metadata (XTAG)
+**Multiple format
+**Partial backwards compatibility with AVI
+This new "DivX Media Format" also came with a "DivX Ultra Certified" profile, and all "Ultra" certified players must support all "DivX Media Format" features. While video encoded with the DivX codec is an MPEG-4 video stream, the DivX Media Format is analogous to media container formats such as Apple's QuickTime. In much the same way that media formats such as DVD specify MPEG-2 video as a part of their specification, the DivX Media Format specifies MPEG-4-compatible video as a part of its specification. However, despite the use of the ".divx" extension, this format is an extension to the AVI file format. The methods of including multiple audio and even subtitle tracks involve storing the data in RIFF headers and other such AVI hacks which have been known for quite a while, such that even VirtualDubMod supports them. DivX, Inc. did this on purpose to keep at least partial backwards compatibility with AVI, so that players that do not support the new features available to the .divx container format (like interactive menus, chapter points and XSUB subtitles) can at least play that primary video stream (usually the main movie if the DMF file contains multiple video streams like special features like bonus materials). Of course, the DivX codec and tools like Dr. DivX still support the traditional method of creating standard AVI files.
+
+===DivX Plus HD===
+
+DivX Plus HD is a marketing name for a file type using the standard Matroska media container format (.mkv), rather than the proprietary DivX Media Format. DivX Plus HD files contain an H.264 video bitstream, AAC surround sound audio, and a number of XML-based attachments defining chapters, subtitles and meta data. This media container format is used for the H.264/MPEG-4 AVC codec.
+
+===DivX profiles===
+
+DivX has defined profiles which are subsets of MPEG-4/AVI and H.264/Matroska standards. Because the grouping is a specific subset of what is in the standards, there are certification processes for each of the profiles that device manufacturers must follow. Hence all DivX certified devices bearing a DivX logo will adhere to one of the profiles outlined in the table below as would any tools that support the DivX profiles.[tpl]cite web | url=http://www.divx.com/en/electronics/solutions | title=DivX Profiles from divx.com[/tpl][tpl]cite web | url=http://www.divx.com/en/partner/certified/ic | title=certified listing from divx.com[/tpl] 
+
+===DivX Video on Demand===
+
+DivX Video on Demand (DivX VOD) is DivX's version of digital rights management (DRM), which allows content owners to control distribution in an effort to thwart piracy.  DivX, Inc. has received format approval from major Hollywood studios including Sony, Paramount and Lionsgate, which has allowed content retailers to sell protected videos that will play on current and previous generations of DivX certified devices.[tpl]cite web |url=http://www.businessofcinema.com/news.php?newsid=13956 |title=DivX inks film distribution deal with Lionsgate & Paramount |date=4 August 2009 |accessdate=1 April 2010 |publisher=Businessofcinema.com[/tpl]
+
+==DivX software==
+
+===DivX Plus for Windows===
+
+DivX Plus for Windows is a suite of software for Microsoft Windows that contains the DivX Codec, a standalone media player, a video converter and media player Plug-in for web browsers. It was released on 16 March 2010.[ref]
+</ref>
+DivX Plus for Windows is a successor of DivX suite of software. The latest version of this suite, DivX 7, was released 6 January 2009, which added H.264 video, AAC audio and Matroska container support.[tpl]cite web |url=http://investors.divx.com/releasedetail.cfm?releaseid=357661 |title=DivX Announces Release of Next-Generation, H.264 Based DivX(R) 7 Software |date=6 January 2009 |publisher=DivX, Inc. |accessdate=1 April 2010[/tpl]
+
+====DivX Plus Player====
+
+DivX Plus Player (version 8) is a standalone media player.[tpl]cite web |url=http://www.divx.com/en/software/divx-plus/player |title=DivX Plus Player – Video player for DivX, AVI, MKV, MP4 & MOV | DivX.com |publisher=DivX, Inc. |accessdate = 29 March 2010[/tpl] This player is a successor to DivX Player (versions 6 and 7) and Playa (version 5), made by the Project Mayo team that later became DivX, Inc. [tpl]Citation needed|date=April 2010[/tpl]
+DivX Plus Player also features DivX to Go as an additional panel on the right side of the interface with four buttons targeting consumer electronic devices. When a user drags a video file onto one of the icons, a transfer wizard is invoked, which walks the user through the steps needed to convert and transfer a video file that's compatible with their DivX Certified device, via USB or optical disc.
+DivX Plus Player also features a media library as well as a set of Digital Rights Management features that help authorize purchased commercial content for the consumer's computer and his DivX Certified devices.
+
+=====Supported formats=====
+
+DivX Plus Player supports the following media formats:
+;Legend
+
+====DivX Plus Converter====
+
+The DivX Plus Converter (version 8) introduced a dramatically changed interface from its predecessor. The former had a small round interface that allowed for little more than selecting the type of output and displayed the number of videos in the queue. The DivX Plus Converter interface contains a large window that exposes each video that has been added in a row with drop-down options for quality, size, audio, subtitles and more. Another notable change is while both the previous and DivX Plus versions have 15-day trials, the DivX Plus Converter still allows users to create DivX Plus HD files for free after the trial is complete.[tpl]cite web |url=http://www.divx.com/en/software/divx-plus/converter |title=DivX Plus Converter |work=www.divx.com |publisher=DivX, Inc. |accessdate=5 April 2010[/tpl]
+DivX Plus Converter can convert AVI files (.avi), MP4 files (.mp4), QuickTime Video files (.mov), Windows Media Video files (.wmv), AVCHD video files (.mts and .m2ts) and RMVB files (.rmvb) to DivX Plus HD format (.mkv files). When a DivX Pro license is purchased, it can also convert video files to DivX Media Format (.divx files). In addition with the purchase of an "MPEG-2/DVD Plug-in", the input support range of DivX Plus Converter will be extended to support MPEG video, MPEG-2 video, DVD Video and Video CD.
+
+====DivX Plus Codec Pack====
+
+The DivX Plus Codec Pack is an upgrade to the former DivX Community Codec, which enables system-wide playback of MPEG-4 ASP and H.264 video (DivX Plus files). This pack includes a free H.264 decoder with optional DXVA hardware acceleration that can be activated in the control panel.http://www.divx.com/en/software/divx-plus/codec-pack
+
+===DivX Plus Web Player===
+
+DivX Plus Web Player (formerly known as DivX Web Player and DivX Browser Plug-In) is a web browser plug-in for playing embedded video on web pages. Web Player supports playing DivX (.divx), AVI (.avi), Matroska (.mkv), MP4 (.mp4) and QuickTime (.mov) video formats on Google Chrome, Internet Explorer, Mozilla Firefox and Safari.labs.divx.com: Web Player's blog.http://www.divx.com/en/software/divx-plus/web-player Web Player It also supports multiple audio tracks and muxed UTF-8 subtitles and is able to save video files locally upon completing of full-length buffer.http://labs.divx.com/node/16602
+On September 2, 2010, a public beta of the Web Player, called DivX HiQ, introduced the following features in the DivX Plus Web Player for Windows:http://labs.divx.com/node/14711 DivX Plus Web Player 2.1 Beta with DivX HiQ and HTML5 Support
+* Support for replacing the playing embedded web video with DivX HiQ instead of the Adobe Flash Player on video portals like YouTube and DailyMotionhttp://www.pocket-lint.com/news/35463/divx-hammers-nail-flash-coffin DivX HiQ offers smoother YouTube playback
+* Support for H.264 video in MP4 or QuickTime Video files
+* A plug-in that parses HTML5  tag for the web browser, thus enabling it to play .divx, .avi, .mkv, .mp4 or .mov video embedded in this manner with DivX Web Player
+* Hardware accelerated video decoding of H.264 bitstreams
+On February 10, 2011, The DivX HiQ Beta experiment is over, and will be uninstalled from any computer system in the latest release of the DivX Plus Web Player.http://labs.divx.com/divx-plus-web-player-hiq DivX HiQ Beta Now Closed
+On December 15, 2011, DivX released the new DivX Web Player 2.2.[tpl]citation needed|date=December 2011[/tpl] New release information for this version is unknown, and not yet published.
+
+===DivX 7 for Mac===
+
+====DivX Player for Mac====
+
+DivX Player for Mac, first introduced with DivX 6.5 on the 25 May 2006, is a standalone player that plays DivX encoded files and DivX Media Format features such as subtitles, multiple audio tracks, and DivX VOD content. The DivX Player for Mac also can play DivX Plus HD compatible files — namely .mkv files encoded with H.264 video and AAC audio. Unlike the DivX 7 and DivX Plus (version 8) Windows counterparts, DivX Player for Mac does not include a burn engine or a utility for moving videos to USB. Starting with DivX 7.3, it can now play MP4 and MOV files, and now has HTML5 support. The player has since been updated to 8.2.2.
+
+=====Features=====
+
+* Bundled playback of MPEG-4 ASP video with MP3 audio (.divx/.avi) and DivX Plus files (Matroska with H.264 video and AAC audio)
+* Mouse gestures to control video
+* Media manager via a video library window
+* Play any QuickTime supported file
+* Play video as desktop background
+* Manage certified DivX devices to enable playback of purchased/protected content
+* Playback of purchased/protected video content
+
+====DivX Converter for Mac====
+
+DivX Converter for Mac has remained virtually unchanged since DivX 6 for Mac, which is most apparent in its small and round interface and lack of ability to generate DivX Plus HD files.
+
+====DivX Plus Web Player for Mac====
+
+As of DivX Plus Web Player version 2.0.2, DivX Plus Web Player for Mac has feature parity with the DivX Plus Web Player for Windows.
+
+===DivX Author===
+
+DivX Author is a licensed version of Pegasys TMPGEnc DVD Author 3 with DivX Authoring without the DVD output capability. DVD Author 3 is already superseded by TMPGEnc Authoring Works 4 and Pegasys has ceased development since 2008. Even though it's obsolete, DivX is still selling it on their web site.
+
+===Community applications===
+
+====Dr. DivX OSS====
+
+Dr. DivX is an application created by DivX, Inc. that is capable of transcoding many video formats to DivX encoded video.  The original closed source Dr. DivX terminated at version 1.06 for DivX 5.21, that was the last version of DivX capable of running under Windows 9x/Me. An open source version has been made, which supports DivX 6. Dr. DivX offers greatly expanded features over the free DivX Converter application, that was bundled with the codec from version 6 onwards.[tpl]cite web|url=http://www.divx.com/divx/windows/converter/ |title=DivX Video Converter |publisher=DivX, Inc. |date= |accessdate=11 April 2010[/tpl] Dr. Divx is not compatible with DivX Plus HD.
+
+====DivX H.264 encoder====
+
+DivX has released a command line interface (CLI) for the divx264 encoder used in the DivX Plus Converter as beta, free for non-commercial use.
+
+====DivX AAC encoder====
+
+To complement the CLI divx264 encoder released on DivX Labs, DivX has also released a DivX AAC encoder CLI as a Windows beta binary.
+
+====DivX MKV Mux====
+
+The DivXMKVMux is a free Windows CLI available through DivX Labs with documentation on the DivX Developer Portal; DivX describes the release as a reference mux to demonstrate DivX Plus MKV extensions like World Fonts and Smooth FF/RW.http://forum.doom9.org/showthread.php?t=155633 Doom9.org - New DivX Plus Documentation
+
+==Hardware support==
+
+DivX, Inc. markets a certification program to consumer electronics and IC manufacturers for the purpose of guaranteed compatibility and playback of video files that fall within DivX profiles.  Devices that have been DivX certified usually brandish one of the following marks:[tpl]cite web |url=http://www.divx.com/en/partner/certified-programs/program-details |title=Program Details |work=Partner Solutions: Certified Programs |publisher=DivX, Inc. |accessdate=1 April 2010[/tpl]
+* DivX Certified
+* DivX Certified for HD 720p and 1080p
+* DivX Certified for DivX Plus HD
+* DivX Connected
+* DivX Certified for DivX Ultra
+DivX certified devices have included DVD players, car stereos, mobile phones, televisions, Blu-ray players, and even alarm clocks.[tpl]cite web |url=http://gadgeteer.org.uk/2007/11/23/philips-digital-photo-frame-alarm-clock/ |title=Philips Digital Photo Frame Alarm Clock |publisher=UK Gadgeteer Website |date=23 November 2007 |accessdate=1 April 2010[/tpl]
+Aside from verifying proper decoding of files conforming to the DivX profiles the certification also confirms the device can play back DivX Video on Demand content, which includes Hollywood content that can be purchased from Internet retailers.[tpl]cite web |url=http://www.hollywoodreporter.com/hr/content_display/film/news/e3i63041d69a51cc0fd1b49c6c35c2f61b5 |title=Film Fresh, DivX sign DVD agreement – Deal allows users to back up their downloads |publisher=www.hollywoodreporter.com |date=26 August 2009 |accessdate=1 April 2010 |last=Bond |first=Paul[/tpl] [tpl]Dead link|date=October 2010|bot=H3llBot[/tpl]
+
+===Gaming system compatibility===
+
+On 4 December 2007, native MPEG-4 ASP playback support was added to the Xbox 360,Xbox.com | Personalities - A Fistful of Features in the December 2007 System Update[tpl]Dead link|date=April 2010[/tpl][tpl]Dead link|date=April 2010[/tpl] allowing it to play video encoded with DivX and other MPEG-4 ASP codecs.[tpl]cite web |url=http://gizmodo.com/gadgets/xbox-360-divx%5Cxvid-test/xbox-360-divxxvid-tested-it-plays-almost-everything-329769.php |title=Xbox 360 DivX/XviD Playback Tested (Verdict: It's Almost Perfect) |work=Gizmodo |accessdate=19 December 2007[/tpl]
+On 17 December 2007, firmware upgrade 2.10 was released for the Sony PlayStation 3, which included official DivX Certification. Firmware version 2.50 (released on 15 October 2008) included support for the DivX Video on Demand (DivX VOD) service, and firmware version 2.60 (released on 20 January 2009) included official DivX Certification and updated Profile support to version 3.11.[tpl]cite web|url=http://www.ps3fanboy.com/2009/01/20/firmware-2-60-brings-photo-gallery-divx-3-11/ |title=Firmware 2.60 brings photo gallery, Divx 3.11 |work=PS3Fanboy |accessdate=20 January 2009[/tpl]
+With introduction of DivX to Go in the DivX Plus Player for Windows, a PlayStation 3 icon is readily available on the interface, which will invoke a transfer wizard for freely converting and copying video files via USB or optical disc.[tpl]cite web |url=http://www.ps3news.com/PlayStation-3/new-divx-plus-software-update-targets-ps3-via-mkv-conversion/ |title=New DivX Plus Software Update Targets PS3 via MKV Conversion - PS3 NEWS |publisher=ps3news.com |date=26 March 2010 |accessdate=1 April 2010[/tpl] The output from DivX to Go's PlayStation 3 preset is also playable on the Xbox 360.
+
+==Competitors==
+
+The main competitors of DivX Inc. in the proprietary commercial software market are Microsoft corporation, Google Inc. and Apple Inc. Microsoft develops Windows Media Video codec (an implementation of VC-1 used on Blu-ray Discs) as well as Windows Media Player, a video player and Microsoft Expression Encoder, a video converter. Google Inc. develops WebM, a royalty-free video file format chiefly used for online video. Apple Inc. also develops QuickTime, a suite of software that can encode, decode and play digital video (including H.264–compliant video).
+Additionally, all software products that create (encode) MPEG-4–compatible digital video also compete with DivX. One of these products that can produce MPEG-4–compliant digital video is Xvid, a free and open source codec that offers comparable quality. Both DivX Codec and Xvid are compliant with MPEG-4 Part 2 (MPEG-4 ASP); however, the most commonly used DivX encoding profile (Home Theater)[tpl]cite web |url=http://labs.divx.com/node/74 |title=Home Theater |work=Dr. DivX User Guide: DivX Certified Profiles |publisher=DivX, Inc |date=22 February 2007 |accessdate=1 April 2010[/tpl] does not employ the same MPEG-4 ASP features enabled in the most commonly used Xvid encoding profile (home).[tpl]cite web |url=http://www.xvidsolutions.com/Product-Certification.36.0.html |title=Xvid Solutions Product Certification |year=2009 |publisher=XvidSolutions.com |accessdate=1 April 2010[/tpl] In a series of subjective quality tests at Doom9.org between 2003 and 2005, the DivX encoder was beaten by the Xvid encoder every year.[tpl]cite web |url=http://www.doom9.org/codec-comparisons.htm |title=Codec comparisons |publisher=Doom9 |accessdate=1 April 2010[/tpl] Similar tests were not undertaken for newer versions.
+Another notable codec is libavcodec, a free software library that can create and play digital video formats that comply with MPEG-4 Part 2 and MPEG-4 Part 10. This library is also used by ffdshow, which can be used for playback with most Windows video players and video converters.
+
+==References==
+
+==External links==
+
+* DivX Labs Community DivX website, with betas and ongoing projects
+* [tpl]dmoz|Computers/Multimedia/MPEG/DivX|DivX resources[/tpl]
+

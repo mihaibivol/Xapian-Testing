@@ -1,0 +1,42 @@
+
+Imagine is an image and animation viewer developed by Chun Sejin for Microsoft Windows, capable of viewing numerous image formats, including ANI, ANM (Deluxe Paint Animation), BMP, CorelDRAW, CDT, PAT, CMX, CUR, DCX, DDS, EMF, GIF, ICL, ICO, JPE, JPEG, MacPaint, MNG, PBM, PCD, PCX, PGM, PIC, CEL, PNG, PPM, PSD, PSP (Paint Shop Pro image), RAS, RLA, RLE, SGI (RGB,BW), SPR (Pro Motion Animation), TGA, TIFF, WBMP, WMF,  XBM, XCF, and XPM.http://www.nyam.pe.kr/phpBB3/viewtopic.php?f=2&t=14
+
+==Features==
+
+Imagine has a variety of features, including:
+* Viewing a variety of image types
+* Shows information of image/animation files
+* Shows Exif information
+* Shows transparency
+* Extracts frames from animations
+* Saves animation file (APNG/Animated GIF file/AVI/Flic/Pro Motion Animation)
+* Various image effects (Flip, grayscale, negative, change color depth, swap colors, rotate, resize, effect filter, edit palette, transparency set, etc.)
+* Highly customizable
+* Plugin add-on available
+* Multilingual support
+* Unicode support (Separate build for Windows NT and above)
+* Shell extension support (Integrates with Windows Explorer, generates thumbnails)
+* Total Commander lister plugin
+
+==History==
+
+Imagine was first publicly released under version 0.3.0.0 on July 16, 2003.  A newer version (v0.3.7.0) was released on July 22, 2003, containing only a few bug fixes.  
+Version 0.4.0.0 was released July 24,  2003, with new options and commands in the program.  On July 28, a minor update was released with the ability to edit a color palette.  The same day, v0.4.1.1 was released fixing a PNG bug.  v0.4.7.0 was released August 1, 2003 with support for more file formats and the option to show transparency.  v0.4.8.0 was released the next day, with the option to save an image to the PNG file format. v0.4.9.0, was released August 6, 2003, with support for more file formats in the viewer.
+v0.5.0.0 was released August 10, 2003, with an added status bar, saving options, and several shortcuts.  
+On September 6, 2003, v0.6.0.0 was released with support for the RAS (Sun Raster Image) file format, the SGI, RGB, BW (Silicon Graphics Image) file format, auto color conversion when converting formats, the ability to change color depth, the ability to set an image as a wallpaper, a keyboard shortcut for palette editing, and background preferences.
+v0.7.0.0 was released November 22, 2003. It added support for several file formats, and some minor tweaks and bug-fixes. A followup version, 0.7.0.1, was released November 24, 2003 and fixed a Runtime error on Windows XP.  v0.7.3.0, on January 1, 2004, added support for Zoom in/out on an image, drag'n'drop, an 'open' command, and fixed several bugs.
+v0.8.0.0 was released on February 7, 2004 with more bug fixes and added features.
+v0.9.0.0 was released September 16, 2005, notably containing unicode support and tons of new features and bug fixes.
+On March 2, 2008, v1.0.0 was released with toolbar skinning, a capture screen feature, as well as bug fixes and some minor feature additions.
+Several minor versions have been released since v1.0.0, the latest being v1.0.8 on Sep 24 2011.
+
+==See also==
+
+*Comparison of image viewers
+
+==References==
+
+==External links==
+
+* Website: Imagine forums
+

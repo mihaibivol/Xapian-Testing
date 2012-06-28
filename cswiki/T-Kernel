@@ -1,0 +1,48 @@
+
+T-Kernel is an open source[tpl]cite web |url=http://www.t-engine.org/what-is-t-kernel |title=What is T-Kernel |work=T-Engine Forum |accessdate=2012-05-13[/tpl] real-time operating system designed for 32-bit microcontrollers. It is standardized by T-Engine Forum. T-Kernel is distributed by T-Engine Forum under the license agreement called T-License. 
+For embedded systems with 16-bit and 8-bit microcontrollers, μT-Kernel is designed to have a small size.[tpl]cite web |url=http://ieeexplore.ieee.org/xpl/freeabs_all.jsp?arnumber=5156833 |title=Real-time operating system (RTOS) for small (16-bit) microcontroller |last1=Su-Lim |first1=Tan |last2=Tran Nguyen |first2=Bao Anh |date=2009-07-06 |work=IEEE Xplore |publisher=IEEE |accessdate=2012-05-13[/tpl], first published in Consumer Electronics, 2009. ISCE '09. IEEE 13th International Symposium, 2009 May 25-28.
+
+== History ==
+
+In 1984 TRON Project was started by Prof. Dr. Ken Sakamura of the University of Tokyo. The project's goal was to design an open real-time operating system (RTOS) kernel. The TRON framework defines a complete architecture for the different computing units. ITRON is the most popular TRON architecture. ITRON specification promotion was done by the various companies which sell the commercial implementations. T-Kernel is the name of the specification and at the same time a single implementation based on the authorized source code available from T-Engine Forum for free under T-License. T-Engine is arguably the most advanced ubiquitous computing platform in the world.[tpl]cite web |url=http://ieeexplore.ieee.org/xpl/freeabs_all.jsp?arnumber=1427641 |title=T-Engine: Japan's ubiquitous computing architecture is ready for prime time |last=Krikke |first=J. |date=2005-05-09 |work=IEEE Xplore |publisher=IEEE |accessdate=2012-05-13[/tpl]
+In 1989, Matsushita Electric Industrial Co., Ltd now known as Panasonic Corporation introduced a TRON PC. This personal computer had an 80286 Intel chip of 8 MHz and only 2 MB of memory, but it could display moving videos. Also, it had a dual-booting system that could run both the TRON OS and DOS. When the Japanese government announced it would use TRON PC in Japanese schools, the United States government objected. It threatened the move with sanctions. The Japanese, dependent on the U.S. export market, dropped the plan.
+But, ITRON survived, and today it is used in many devices, household appliances, automobile electronics, robots and even in satellites. ITRON is also used in factory automation systems in China. Embedded system developers claim it is the number one OS for embedded chips in both Japan and the United States.[tpl]cite web |url=http://www.linuxinsider.com/story/31855.html |title=The Most Popular Operating System in the World |last=Krikke |first=Jan |date=2003-10-15 |work=LinuxInsider |publisher=ECT News Network, Inc |accessdate=2012-05-13[/tpl]
+
+==Overview==
+
+To make it easy to distribute middleware, T-Kernel has separate specification for subsystem and device driver which will be suitable for different types of middleware APIs. A real-time OS appropriate for individual application can be created by combining the middleware called T-Kernel Extension with the T-Kernel. T-Monitor initializes hardware and handles the interrupt set up at the start. T-Monitor lessens hardware-dependency of T-Kernel, and improves the application portability. T-Kernel consists of the following three components from the viewpoint of functionality.[tpl]cite web |url=http://www.t-engine.org/what-is-t-kernel/t-kernel |title=T-Kernel |work=T-Engine Forum |accessdate=2012-05-13[/tpl]
+
+===T-Kernel/OS (operating system)===
+
+This offers the basic functions as real-time OS.
+
+===T-Kernel/SM (system manager)===
+
+This offers the functions including system memory management function and address space management function in order to manage middleware such as device drivers and subsystems.
+
+===T-Kernel/DS (debugger support)===
+
+This offers the functions for debuggers to be used in development tools.
+
+==Development environment==
+
+eBinder from eSol Corporation is one of the commonly used integrated development environment (IDE) for software cross-development targeting T-Kernel.[tpl]cite web |url=http://www2.renesas.com/platformovia/en/partner_product/ebinder.html |title=eBinder - T-Kernel/µITRON-based system development suite |work=Renesas Electronics Corp[/tpl]
+The current release of T-Kernel 2.0 is distributed with a plug-in for Eclipse IDE. Also, a version of T-Kernel that runs on QEMU based emulator, and the QEMU based emulator itself, are available so that testing, training and development can be done on a PC without a target hardware.[tpl]cite web |url=http://www.t-engine.org/download/index.php?route=product/product&product_id=91 |title=T-Kernel 2.00.01 Software Package |work=T-Engine Forum |accessdate=2012-05-13[/tpl]
+
+==See also==
+
+*TRON Project
+*ITRON
+*T-Engine
+*μT-Kernel
+
+== References ==
+
+== External links ==
+
+* [tpl]official website|www.t-engine.org[/tpl], T-Engine Forum
+* Sakamura home page
+* ITRON Project Archive
+* Introducing the μT-Kernel
+* Information about T-Engine, T-Kernel and μT-Kernel Programming
+

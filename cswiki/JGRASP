@@ -1,0 +1,28 @@
+
+jGRASP is a lightweight development environment created specifically to provide automatic generation of software visualizations to improve the comprehensibility of software. It produces static visualizations of source code structure and visualizations of data structures at runtime.
+jGRASP is implemented in Java, and runs on all platforms with a Java Virtual Machine (Java version 1.5 or higher). The jGRASP web site offers downloads for Windows, Mac OS, and as a generic ZIP file suitable for Linux and other systems.
+For languages other than Java, jGRASP is a useful source code editor. It can be configured to work with most free and commercial compilers for any programming language.
+
+==Visualizations==
+
+The Control Structure Diagram"Visual Support for Incremental Abstraction and Refinement in Ada 95""GRASP/Ada 95: Visualization with Control Structure Diagrams" (CSD) is a control flow diagram that fits into the space normally taken by indentation in source code. Its purpose is to improve the readability of source code. jGRASP produces CSDs for Java, C, C++, Objective-C, Ada, and VHDL. CSDs in jGRASP are integrated into the source code editing windows, and can be regenerated on demand. They are generated at a speed that makes the process effectively instantaneous (50,000 loc per second or faster on modern hardware). The editing window provides CSD-based folding and a "context hint" feature that displays the first line of a code structure that is off-screen when the mouse is hovered over its CSD structure.
+The Java object viewers"Dynamic Object Viewers for Data Structures""An Extensible Framework for Providing Dynamic Data Structure Visualizations in a Lightweight IDE" in jGRASP provide interface-based, structural, and other views of data structures and other objects and primitives during debugging and workbench operations. Often these views are more useful than the traditional tree view showing the fields of each object. For example, an interface-based view shows ArrayList and LinkedList in an identical way, as a list of elements. Structural views show the internal structure of trees, linked lists, hash tables, etc. Structural views of linked data structures display local variable nodes and their relation to the main structure. The result is animated when changes occur, as when a node is added to a linked list. In data structure viewers, one element or sub-element, such as an element of a linked list or a key or value in a hash table, may be selected and will be displayed in a "sub viewer", or they can be dragged out as separate viewers. Common data structures are automatically identified and displayed structurally. Other viewers show, for example, a color swatch for a Color, the image for an icon, and the binary details of a double.
+The Complexity Profile Graph"Visualization and Measurement of Source Code" (CPG) is a unique statement-level complexity diagram. Its purpose is to aid in identifying overly complex areas of source code. jGRASP generates CPGs for both Java and Ada. The metric includes common measures, such as reachability and content complexity, which can be displayed individually. The CPG is integrated with the editing window in jGRASP so that highlighting a section of CPG will highlight the corresponding section of source code, and vice versa. They also scroll together, and the current visible portion of the editing window is shown in the CPG window.
+jGRASP also generates UML diagrams for Java. The UML diagrams are augmented with much interactive functionality. Clicking on a dependency edge, for example, will display all of the dependencies between two classes in a separate pane. From that pane, the source code locations of the references that cause each dependency can be listed and visited.
+
+==History==
+
+jGRASP was created by James Cross and Larry Barowski at the Department of Computer Science and Software Engineering in the Samuel Ginn College of Engineering at Auburn University. It is maintained and evaluated by the jGRASP Team. The development of jGRASP has been supported by a research grant from the National Science Foundation.
+The development of previous versions of GRASP was supported by research grants from NASA Marshall Space Flight Center, the Department of Defense Advanced Research Projects Agency (DARPA), and the Defense Information Systems Agency (DISA).
+
+==See also==
+
+*Comparison of integrated development environments
+
+== References ==
+
+==External links==
+
+* Official website
+* Videos about Java jGrasp on MrBool.com
+

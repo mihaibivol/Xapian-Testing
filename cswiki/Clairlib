@@ -1,0 +1,14 @@
+
+Clairlib is a suite of open-source Perl modules developed and maintained by the Computational Linguistics And Information Retrieval (CLAIR) group at the University of Michigan. Clairlib is intended to simplify a number of generic tasks in natural language processing (NLP), information retrieval (IR), and network analysis (NA). The latest version of clairlib is 1.06 which was released on March 2009 and includes about 130 modules implementing a wide range of functionalities.
+
+==Functionality==
+
+Clairlib is distributed in two forms: Clairlib-core, which has essential functionality and minimal dependence on external software, and Clairlib-ext, which has extended functionality that may be of interest to a smaller audience. Much can be done using Clairlib on its own. Some of the things that Clairlib can do are: Tokenization, Summarization, Document Clustering, Document Indexing, Web Graph Analysis, Network Generation,  Power law distribution Analysis, Network Analysis, Random walks on graphs, Tf-idf, Perceptron learning  and classification, and Phrase Based Retrieval and Fuzzy OR Queries.
+
+==References==
+
+==External links==
+
+*Homepage
+*Computational Linguistics And Information Retrieval (CLAIR) group
+

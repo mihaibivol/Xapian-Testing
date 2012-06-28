@@ -1,0 +1,137 @@
+
+Messenger Plus! (formerly known as Messenger Plus! Live, commonly abbreviated MsgPlus, Plus!, or incorrectly as MSN Plus) is a freeware add-on for Windows Live Messenger and Skype . The software provides additional functionality to Microsoft's Instant messaging client Windows Live Messenger by adding its own controls to the main interface. These controls affect Messenger's behaviour and appearance, often through additional dialog boxes. 
+The add-on was first released in May 2001 under the name "The Messenger Plus! Extension" for MSN Messenger and Windows Messenger. It later changed its name to "Messenger Plus!" and then, for the release of the new Windows Live Messenger client, "Messenger Plus! Live" was chosen. In 2011 the name was changed back to "Messenger Plus!" again. It has become one of the most widely used add-ons for Microsoft's IM clients, citing over 62 million users as of February 2010.[ref]
+</ref>
+Volunteers from the Messenger Plus! community around the world develop skins and scripts for submission into the database of the website for the software.
+
+==Features==
+
+Messenger Plus! generally expands the features of Windows Live Messenger 2009 (9.0) and 2011. Notable features include:[ref]
+</ref>
+*A set of text formatting codes similar to BBCode (people who don't use Messenger Plus! will still see standard unformatted text with the BBCode still in place).
+*Custom status tags.
+*Running multiple instances of Windows Live Messenger with different accounts.
+*Event logging and chat logging in either plain text or HTML with optional encryption.
+*Chat log viewer. For browsing and searching all saved logs.
+*Contacts on desktop. Small windows always on top which show a specific contact.
+*Auto-reply messages, usually activated when away from keyboard.
+*Emotion sounds. Custom sounds which can be send to other Messenger Plus! users.
+*Tabbed chatting (all the conversations in the same window). This feature existed in Messenger Plus! before Windows Live Messenger 2011 added native support for tabbed chatting.
+*Messenger locking (Boss Mode).
+*Contact list clean-up. Showing statistics about the user's contacts and allowing him to remove people who removed him or he never talks to.
+*Skinning Windows Live Messenger without the user having to physically edit the program's resource files.
+*JScript scripting allowing users to add their own functionality.
+
+===Languages===
+
+Messenger Plus! is available in 22 languages:[ref]
+</ref>
+*Arabic
+*Chinese Simplified
+*Chinese Traditional
+*Danish
+*Dutch
+*English
+*Estonian
+*Finnish
+*French
+*German
+*Hebrew
+*Hungarian
+*Italian
+*Japanese
+*Norwegian
+*Portuguese-Brazil
+*Portuguese-Portugal
+*Russian
+*Spanish
+*Swedish
+*Thai
+*Turkish
+
+==Creator==
+
+Messenger Plus! was originally created in 2001 by Cyril Paciullo, who is better known by the pseudonym "Patchou". He was born in France and currently resides in Canada. He started developing Plus! as a hobby next to his day job as developer, but soon maintaining the Messenger Plus! software became a full-time job.
+In Q4 of 2009 Paciullo announced he is no longer in full control of the product and Messenger Plus! is now owned by Yuna Software Limited.[ref]
+</ref>
+In Q1 of 2011 Paciullo officially declared he had left the company and that this chapter of his professional life was closed.[ref]
+</ref>
+Financial details or names of the people behind the new company are not disclosed. Yuna Software has offices in several places in the world and has an office in Montreal, also known as Kimahri Software, where a development team continues to develop Messenger Plus!.
+
+==Adware==
+
+When developing Messenger Plus! became a full-time job a form of revenue was added to keep the software free. Formerly, the software came bundled with optional adware software developed by Circle Development Ltd.
+
+===Issues with Windows Defender===
+
+As of the 17th of August 2005, the Messenger Plus! website contained a petition to Microsoft's anti-spyware division regarding Windows Defender's (known as Microsoft AntiSpyware at the time) detection of the Messenger Plus! executable as spyware and subsequent warning that Messenger Plus! would attempt to install spyware at runtime (post-installation), rather than the setup program itself that contained the installer for the threat detected.
+The petition, which had 401,683 signatures and was 10,137 pages long in total, was sent to Redmond on September 20, 2005[ref]
+[tpl]dead link|date=January 2012[/tpl]</ref> stating that Messenger Plus! should not be labeled as being a threat. 
+On the 23rd of September 2005, just 3 days after the petition was mailed to Redmond from Canada, Microsoft released new definitions for Windows Defender that fixed the false threat detection affecting the Messenger Plus! executable together with other detection improvements.[ref]
+[tpl]dead link|date=January 2012[/tpl]</ref> Recent versions of Windows Defender also stopped detecting the Messenger Plus! installer as being potentially dangerous.
+
+===Sponsorship agreement criticism===
+
+Some software review websites criticized[ref]
+</ref> the user agreement, stating that the 'sponsorship agreement', which authorized the installation of the optional [[adware]] software, was misleading because it looked like a standard [[EULA]], and was only available in English. The user does get the option to not install the 'sponsor' program, however, even if slightly unorthodoxly. 
+Since Messenger Plus! 3.60 was released (on the 27th of September 2005), the setup includes a separate sponsor license agreement in addition to a traditional EULA. Both agreements have also been translated in several languages. A separate adware uninstallation program was provided by Circle Development Ltd. which appears when users attempt to uninstall the sponsor program of Messenger Plus!.[ref]
+[tpl]dead link|date=January 2012[/tpl]</ref>
+
+===Discontinuation of the Circle Development package===
+
+As of early 2010, Messenger Plus! versions 4.84 and later no longer contain the sponsor program from Circle Development Ltd.
+Yuna Software currently uses more conventional methods. Messenger Plus! bundles an optional toolbar, custom search page and custom home page all branded as the Messenger Plus! Network. Yuna Software also launched sites in 2010 affiliated with Messenger Plus!, including Plus! Games, Plus! Sports, Plus! Image and Plus! Network. 
+Links on the old website to earlier Messenger Plus! versions caused sites such as McAfee SiteAdvisor to warn that the website www.msgpluslive.net was linked with adware Adware-Lop/Swizzor.[ref]
+</ref>
+However, SiteAdvisor has tested the current website www.msgplus.net and found downloads to be free of adware, spyware, and other potentially unwanted programs.[ref]
+</ref> Other sites have already found the site safe.  For example, Norton Safe Web has found no issues with this site, stating 0 computer threats, 0 identity threats and 0 annoyance factors.<ref>
+</ref>
+
+==Renaming==
+
+To coincide with the newly branded Windows Live Messenger, in 2006 new versions of Messenger Plus! were called Messenger Plus! Live. It was rebuilt from the ground up and included a new user interface design which was intended to blend more with the user interface of Windows Live Messenger. 
+Since 2011 versions 5.0 and later are called Messenger Plus! again.[ref]
+[tpl]dead link|date=January 2012[/tpl]</ref> Messenger Plus! 5 is completely compatible with Windows Live Messenger 2011.
+[ref]
+</ref>
+
+===Backwards compatibility===
+
+The latest version of Messenger Plus! no longer supports any Messenger version older than 2009. Older Messenger Plus! versions are no longer officially supported.
+However, the last version of Messenger Plus! (version 3.63, before it was renamed to Messenger Plus! Live) will still be available for download on the official website. This version supports MSN Messenger and Windows Messenger 4.7, 5, 6 and 7.http://www.msgplus.net/Downloads/old
+Additionally the last version of Messenger Plus! Live (version 4.90.392, before the name was changed back again) is also still available from the official website. This version supports Windows Live Messenger 8.0 up to 14.0 (2009).http://www.msgplus.net/Downloads/v4
+
+==Messenger Plus! for Skype==
+
+Messenger Plus! for Skype was released in English on January 12, 2012.http://www.msgplus.net/News/Yuna_Software_introduces_Messenger_Plus!_for_Skype This freeware adds video and audio recording capabilities to Skype conversations and lets users send flash animations to other users.
+The subsequent version, Messenger Plus! for Skype 1.2 was released on March 28, 2012 .[tpl]cite news| url=http://www.reuters.com/article/2012/03/28/idUS142000+28-Mar-2012+PRN20120328 | work=Reuters | title=Messenger Plus! for Skype 1.2 Takes the Next Step in Revolutionizing Skype | date=2012-03-28[/tpl] which introduced 16 additional languages, video and voice transformation effects and ring tones.
+
+===Features for Skype===
+
+Messenger Plus! for Skype is an application for Skype that adds video and audio recording capabilities for Skype. Notable features include:[ref]
+</ref>
+*Free video and audio call recording of unlimited duration.
+*3 different levels of video quality
+*Flash video animation (winks) that can be sent in conversations and previewed.
+*Chat logs that can be searched and categorized by dates, sessions or by contacts
+*Preview and print of chat logs
+*LogViewer that consults with chat logs
+*Multilanguage support
+*Mouse over scrollable toolbar
+*Display recording animated status in the video feed
+*Video effects: overlay text, mosaic, threshold, mirror, emboss, lens shrink and bulging, invert color effects
+*Display chat conversation on video conversation
+*Adjust Video Chat Text font, color, transparency and position
+*Display date, time and conversation duration a video conversation
+*Select a user define ringtone per contact for incoming call
+*Toolbar follow active window
+*3 levels of noise
+*Voice transformation effects: chorus, flanger, gain, reverb, tremolo
+*Built-in Emotion sounds
+
+== References ==
+
+==External links==
+
+* Messenger Plus! Website
+

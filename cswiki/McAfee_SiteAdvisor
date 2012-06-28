@@ -1,0 +1,72 @@
+
+SiteAdvisor is a service that reports on the safety of web sites by crawling the web and testing the sites it finds for malware and spam. The service was originally developed by SiteAdvisor, Inc, an MIT startup[tpl]cite web| title = McAfee acquires MIT startup SiteAdvisor at Digital...| url = http://labnol.blogspot.com/2006/04/safe-surfing-mcafee-acquires-mit.html [/tpl] first introduced at CodeCon on February 10, 2006[tpl]cite web| title = CodeCon 2006 Program | url = http://www.codecon.org/2006/program.html [/tpl] and later acquired by McAfee[tpl]cite web| last = Dixon | first = Chris| title = Taking SiteAdvisor to the Next Level | date=  2006-09-05 | url = http://blog.siteadvisor.com/2006/04/taking_siteadvisor_to_the_next.shtml | accessdate = 2006-09-05 |archiveurl = http://web.archive.org/web/20060523015507/http://blog.siteadvisor.com/2006/04/taking_siteadvisor_to_the_next.shtml  |archivedate = 2006-05-23[/tpl] on April 5, 2006. Since its founding, it has received criticism for its improper rating of some sites, and more importantly the length of time it takes to resolve complaints. 
+
+==SiteAdvisor Plus==
+
+A paid version of McAfee SiteAdvisor, McAfee SiteAdvisor Plus, has extra features. The functionality of SiteAdvisor can be accessed either through a Browser Plugin or by submitting a URL to the website. In addition to selling to the end consumers, McAfee also sells to the web site owners with their McAfee Secure program.
+
+==Total Exposure==
+
+As of Dec 2010, McAfee Secure marketing materials say there are 350 million installs of McAfee SiteAdvisor, and a likely much larger viewer base with search engine agreements such as that with Yahoo.
+
+===Extra features of McAfee SiteAdvisor===
+
+* Rates email and IM links
+* Indicates sites potentially harmful to your computer
+* Alerts users to possible phishing and identity theft scams
+* Redirects you away from red and yellow sites (if protected mode is enabled).
+
+==Criticism==
+
+===False positives===
+
+SiteAdvisor has received criticism for incorrectly flagging web sites with a caution or warning label.[ref]
+</ref><ref>
+</ref><ref>
+</ref>
+
+===False negatives===
+
+The very nature of SiteAdvisor and the long periods between site crawls mean that even if the SiteAdvisor tests were 100% accurate a Green rating offers no guarantee of safety. Malicious code and browser exploits often spread fast over large numbers of websites,[ref]
+</ref> meaning a Green rating may not be up to date and may provide a false sense of security.
+
+===Communication and accountability===
+
+In the event of a positive result website owners are not contacted. Although a dispute resolution service does exist, the final decision rests with McAfee.[ref]
+</ref> In the event that a perceived threat is removed from a site the site's rating will return to Green through a process called 'ageingout'. Depending on the nature of the threat this process can take from 10 days to a year after the site is re-crawled, no strict timetable is provided.<ref>
+</ref>
+Yahoo, who uses the McAfee SiteAdvisor rating in their search results, does not get the rating change for another 4 weeks. It is unclear if rating changes in either direction take this long, or only corrections (RED to GREEN). Yellow is rarely, if ever, used.
+
+===No ratings on business practices===
+
+SiteAdvisor only rates sites based on the risk of malware or spam. Even though it isn't listed as a feature, business practices and user reviews are not rated. So sites with D or worse ratings at the Better Business Bureau (e.g. FreeCreditReport.com) can be rated GREEN. This exposes the user to financial risk, despite being protected from malware.
+
+===McAfee Secure===
+
+This program 'certifies' a web site so that it can show the McAfee certified logo, and also get a GREEN rating beside search results (according to their marketing materials).
+
+==TrustedSource==
+
+McAfee SiteAdvisor now makes use of the TrustedSource website reputation organisation, to act as something like a 'cloud' intelligence software to get the most up-to-date information on websites as possible, very similar to McAfee's Active Protection(Artemis) system.[tpl]Citation needed|date=October 2010[/tpl] The details of this system are not known.
+
+==Awards==
+
+* Time magazine named SiteAdvisor.com among the 50 coolest websites of 2006.
+* Popular Science awarded SiteAdvisor the "Best of What's New" award in the Computing category for 2006.[ref]
+</ref>
+*PC World ranked SiteAdvisor at #15 in "The 100 Best Products of 2007."[ref]
+</ref>
+
+==See also==
+
+*Website Reputation Ratings
+
+==References==
+
+==External links==
+
+* [tpl]official|http://www.siteadvisor.com/[/tpl]
+** Safe report example (Wikipedia)
+** Cautionary report example (whenu.com)
+** Warning report example (sify-antispyware.co.cc)
+

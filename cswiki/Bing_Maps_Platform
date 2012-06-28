@@ -1,0 +1,32 @@
+
+Bing Maps Platform (previously Microsoft Virtual Earth) is a geospatial mapping platform produced by Microsoft. It allows developers to create applications that layer location-relevant data on top of licensed map imagery. The imagery includes samples taken by satellite sensors, aerial cameras (including 45 degree oblique "bird's eye" aerial imagery licensed from Pictometry International), Streetside imagery, 3D city models and terrain. 
+Bing Maps Platform also provides a point-of-interest database including a search capability. Microsoft uses the Bing Maps Platform to power its Bing Maps product. 
+Key features of the Bing Maps Platform include:
+*Photo-based images with features such as Streetside and 45 degree oblique "bird’s eye" views (nominally including 4 views at 90 degree viewpoint increments) that present data in context while simplifying orientation and navigation. 
+*The ability to overlay standard or custom data points and layers with different themes. 
+*Building-level geocoding for more than 70 million addresses in the United States. 
+*Developer support options available. 
+*Set of APIs available upon which developers can build applications.
+
+==See also==
+
+* Bing Maps
+
+==External links==
+
+*Bing Maps Ajax Interactive SDK
+*Bing Maps Silverlight Interactive SDK
+*Bing Maps Platform website
+*Bing Maps Blog
+*Bing Maps Developer account
+*Bing Maps for Government blog
+
+===Comparable and/or related services===
+
+*Google Maps – Google's mapping service
+*Microsoft Research Maps – public domain (older than five years) satellite imagery via Microsoft servers
+*MapQuest
+*Pictometry International – a birdseye imagery provider which can be integrated into all mapping programs
+*Yahoo! Maps – Yahoo! Map Web Services
+*Ovi Maps – Nokia’s Mapping Services 
+

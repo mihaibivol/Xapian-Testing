@@ -1,0 +1,20 @@
+
+Tagtool is an open source instrument for drawing and animation in a live performance situation. Its development is coordinated by OMA International. The project aims to explore digital drawing as a means for communication - on stage, on the street and over the internet. It is in use as a visual instrument in theatres, youth centers, at jam sessions with musicians and for performances in public spaces. It serves as a VJ tool, a creative video game for children, and a tool for creating animation.
+The Tagtool is operated collaboratively by an artist drawing the pictures and an animator adding movement to the artwork with a gamepad. The design achieves artistic complexity with a simple set of controls, which can be mastered even by children.
+
+== Hardware ==
+
+Three different types of the Tagtool have been developed so far:
+* Tagtool V2 is the second prototype of the Tagtool, which has an integrated computer.
+* Tagtool Suitcase contains the controls for the tagtool and a graphics tablet (used with a separate computer). Find out how to build your own Tagtool Suitcase at Instructables.
+* Tagtool Mini is a compact box that contains the Tagtool controls (used with a computer and a graphics tablet).
+
+== Software ==
+
+The software running on the Tagtool is the Nodekit- an open source node-based toolkit for live performance drawing & animating. It is licensed under the GNU GPL 2.0. Development is hosted on Launchpad.
+
+== External links ==
+
+* Tagtool.org
+* OMA international GmbH
+

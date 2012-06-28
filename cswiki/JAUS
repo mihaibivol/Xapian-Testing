@@ -1,0 +1,19 @@
+
+Joint Architecture for Unmanned Systems (JAUS), formerly known as Joint Architecture for Unmanned Ground Systems (JAUGS), was originally an initiative by the United States Department of Defense to develop an open architecture for the domain of unmanned systems.
+In order to ensure that the architecture is applicable to the entire domain of current and future unmanned systems, it is built on the five principles of vehicle platform independence, mission isolation, computer hardware independence, technology independence and operator use independence.
+The JAUS Reference Architecture, which is no longer being maintained, is a component based message passing architecture that defines a data format and methods of communication between computing nodes. The architecture dictates a hierarchical system built up of subsystems, nodes and components, and contains a strictly defined message set to support interoperability. Significant portions of the architecture, including the definitions for subsystem, node and component, have been loosely defined in order to accommodate for the five principles on which it is based.
+The architecture has migrated from the JAUS Working Group which was composed of individuals from the government, industry and academia to the Society of Automotive Engineers, Aerospace Division, Avionics Systems Division. The AS4, Unmanned Systems Technical Committee now maintains and advances the set of standards. The following standards have been migrated from the JAUS Reference Architecture to a services based framework:
+;AS5669, JAUS Transport Standard.:Defines packet construction addressing transport concerns including header compression, source/destination addressing, TCP, UDP and Serial links.  AS5669 defines the format of a JAUS message as it flows between systems in an Ethernet (TCP and UDP) or serial data link.
+;AS5710, JAUS Core Service Set.:Establishes a common set of services for distributed systems communication and coordination.  The Core Service Set includes service definitions for transport, events, access control, management, time, liveness and discovery.
+;AS6009, JAUS Mobility Service Set.:This standard migrates the primitive driver, waypoint and path segment drivers, along with the position/orientation components and messaging to the SAE JAUS set of standards.
+Others currently in draft include:
+*AS6040 Draft, HMI Services
+*AS6057 Draft, Manipulation Services
+*AS6062 Draft, Mission Services
+*AS6060 Draft, Environment Sensing
+*AS6063 Draft, USV Services
+Another standard that evolved from the JAUS efforts is the “JAUS Service Interface Definition Language” or JSIDL.  JSIDL standardizes the language for defining JAUS compliant interfaces.  The specification is contained in the SAE document AS5684.
+
+== Related ==
+
+

@@ -1,0 +1,33 @@
+
+RetroCode is a universal mobile content converter originally created by Retro Ringtones LLC. RetroCode is able to read and write most common sample based ringtone formats including meta-data.
+
+== Overview ==
+
+RetroCode reads and writes many common mobile sample content file formats. RetroCode takes measures for making sure that meta-data is maintained and converted between the formats. It features filters for adapting audio content to the abilities of small handheld devices. RetroCode also includes a ringback-signal synthesizer allowing to mix audio content with standard ITU ringback signals.
+
+== Compatibility ==
+
+RetroCode currently supports the following formats
+
+== Dependency ==
+
+RetroCode depends on a variety of open source libraries as well as some ISO reference implementations.
+*id3lib Version 3.8.3
+*faac
+*faad2
+*mp4ff part of faad2, patched for 3GPP compatibility
+*zlib
+*amrnb
+*amrwb
+*mp3lame
+*mad
+*avformat
+*avcodec
+*avutil
+*qscl
+*mpeg4ip
+
+== External links ==
+
+* Project home page
+

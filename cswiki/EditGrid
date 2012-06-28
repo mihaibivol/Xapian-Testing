@@ -1,0 +1,56 @@
+
+EditGrid is a Web 2.0 spreadsheet service.  It offers both a free-of-charge service to personal users and a subscription service to organisations and is available on a number of partner sites and channels.
+EditGrid is one of the players in the emerging market of online spreadsheets along with Google Spreadsheets, Zoho Sheet and ZK Spreadsheet.
+
+== History ==
+
+EditGrid is developed, provided and maintained by Team and Concepts, a Hong Kong-based company.  The first public beta release of EditGrid was launched on 7 April 2006.  It registered its 10,000th personal user in November 2006.  In January 2007 EditGrid started to offer organisation accounts for free trial and also became available on Salesforce.com's AppExchange platform[ref]
+</ref>.  On 14 February 2007<ref>
+</ref><ref>
+[/ref], EditGrid officially declared out-of-beta and launched its subscription service.
+In June 2007, EditGrid announced a $1.25 million series A investment from the WI Harper Group.
+EditGrid announced a series of changes to its business in September 2009.
+According to the change, they are no longer supporting users through future enhancements or subscription based accounts. The user forum has been closed but the wiki is still available.
+
+== Features ==
+
+Touted as the most advanced and well-polished Ajax-enabled spreadsheet, EditGrid includes features for shared access and online collaboration[ref][tpl]he icon[/tpl] 
+[/ref] on top of conventional spreadsheet functionalities.  Its Real-Time Update (RTU) feature allows multiple users to see changes on a spreadsheet immediately, and is considered a winning feature among similar products.  Its Remote Data feature can retrieve live data on the web, while its My Data Format (MDF) feature allows users to customise the output format using XSLT, such as live KML for Google Earth.  Other features include multiple access control levels, revision history[ref][tpl]pt icon[/tpl] 
+[/ref], charting, live chat, permalinks and more than 500 spreadsheet functions.
+Apart from access from its main site, spreadsheets hosted on EditGrid can be accessed on third-party websites by means of its post-to-blog feature.
+In September 2007, the EditGrid iPhone Edition was launched at the Office 2.0 Conference.
+In September 2008, EditGrid launched its JavaScript Macro support, enabling user-programmed macros to manipulate EditGrid spreadsheets using JavaScript.
+
+== Integration and interoperability ==
+
+EditGrid is available as a module on Netvibes, Pageflakes and Google Personalized Homepage.  EditGrid is also available on Salesforce.com's AppExchange platform.
+EditGrid also forms part of the offering of Central Desktop, ShareOffice and ThinkFree Office.
+In addition, developers can make use of the EditGrid API to build custom applications.  There are a number of EditGrid add-ons that mash up other services.  One of these, Grid2Map, turns longitude-latitude pairs into placemarks on Google Maps.
+
+=== Applications ===
+
+* Spreadsheets KML solutions
+* Turn online collaborative spreadsheets into live KML
+* Historical financial quotes charts with EditGrid
+* Using EditGrid's XSLT feature to export Timeline XML
+
+=== Multilingual ===
+
+In addition to the default English version, EditGrid is available in eight languages: German, Spanish, French, Japanese, Dutch, Brazilian Portuguese, Simplified Chinese and Traditional Chinese, largely thanks to a community localisation project.
+
+== Organisation account ==
+
+EditGrid is available to organisation users on a software-as-a-service basis.  Organisation users enjoy SSL-encrypted traffic, user account administration and management reports on top of the features available to personal users.  EditGrid organisation accounts has become completely free-of-charge for all users since September 2009.
+
+== Software architecture ==
+
+EditGrid is developed on an open-source software architecture. It runs on Catalyst as the web application framework and uses Gnumeric as its back-end support. It adopts Ajax technology at the front-endhttp://blog.editgrid.com/?p=21#comment-47.
+
+== References ==
+
+== External links ==
+
+* EditGrid Online Spreadsheets
+* EditGrid Developers Blog
+* EditGrid Help Centre
+

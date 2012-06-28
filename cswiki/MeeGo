@@ -1,0 +1,136 @@
+
+[tpl]About|the mobile operating system|other uses|Meego (disambiguation)[tpl]![/tpl]Meego[/tpl]
+
+MeeGo is a Linux-based open source mobile operating system project.[tpl]cite web|url=http://www.techradar.com/news/phone-and-communications/mobile-phones/intel-and-nokia-merge-moblin-and-maemo-to-form-meego-670302|title=Intel and Nokia merge Moblin and Maemo to form MeeGo|last=Grabham|first=Dan |date=2010-02-15|publisher=techradar.com|accessdate=15 February 2010[/tpl] Primarily targeted at mobile devices and information appliances in the consumer electronics market, MeeGo is designed to act as an operating system for hardware platforms such as netbooks, entry-level desktops, nettops, tablet computers, mobile computing and communications devices, in-vehicle infotainment devices, SmartTV / ConnectedTV, IPTV-boxes, smart phones, and other embedded systems.[tpl]cite web|url=http://news.opensuse.org/2010/10/06/announcing-smeegol-1-0/|title=openSUSE News - Announcing Smeegol 1.0|accessdate=2010-10-06[/tpl] MeeGo is currently hosted by the Linux Foundation.[tpl]cite web|url=http://meego.com/about/faq |title=FAQ on MeeGo website, retrieved 29 May 2010 |publisher=Meego.com |date= |accessdate=2010-12-08[/tpl]
+MeeGo was canceled in September 2011, in favor of Tizen.https://meego.com/community/blogs/imad/2011/whats-next-meego What's Next for MeeGo
+
+== History ==
+
+It was first announced at Mobile World Congress in February 2010 by Intel and Nokia in a joint press conference. The stated aim is to merge the efforts of Intel's Moblin and Nokia's Maemo former  projects into one new common project. According to Intel, MeeGo was developed because Microsoft did not offer comprehensive Windows 7 support for the Atom processor.[tpl]cite web |url=http://www.techradar.com/news/computing-components/processors/intel-meego-exists-because-microsoft-let-us-down-684665 |title=Intel: MeeGo exists because Microsoft let us down |date=20 April 2010 |publisher=TechRadar [/tpl] Aminocom and Novell also play a large part in the MeeGo effort, working with the Linux Foundation on their build infrastructure and official MeeGo products. Amino was responsible for extending MeeGo to TV devices,[tpl]cite web |url=http://www.youtube.com/watch?v=DW1NCVvG3DM |title=MeeGo Partner - Amino |date=11 April 2011 |publisher=MeeGoZone [/tpl] while Novell is increasingly introducing technology that was originally developed for openSUSE, (including Open Build Service, ZYpp for package management, and other system management tools).[tpl]cite web|url=http://www.phoronix.com/scan.php?page=news_item&px=ODY1Ng|title=openSUSE Releases MeeGo-based Smeegol Linux|accessdate=2010-10-06[/tpl] In November 2010, AMD also joined the alliance of companies that are actively developing MeeGo.[tpl]cite web|url=http://www.engadget.com/2010/11/15/amd-will-contribute-engineering-expertise-to-meego-development/ |title=AMD will contribute 'engineering expertise' to MeeGo development project |publisher=Engadget |date=2010-11-15 |accessdate=2010-12-08[/tpl]
+Harmattan, originally slated to become Maemo 6, is now considered to be a MeeGo instance (though not a MeeGo product), and Nokia is giving up the Maemo branding for Harmattan on the Nokia N9 and beyond (Maemo 5, aka Fremantle, and previous versions will still be referred to as Maemo).[tpl]cite web|url=http://talk.maemo.org/showpost.php?p=529073&postcount=14|title=maemo.org - Talk - Renaming Maemo 6 to MeeGo/Harmattan|accessdate=2010-02-27 [/tpl]
+On 27 September 2011 it was announced by Intel employee Imad Sousou that in collaboration with Samsung MeeGo will be replaced by Tizen during 2012.[tpl]cite web|last=Paul|first=Ryan|title=MeeGo rebooted as Intel and Samsung launch new Tizen platform|url=http://arstechnica.com/open-source/news/2011/09/meego-rebooted-as-intel-and-samsung-launch-new-tizen-platform.ars|publisher=Ars Technica|accessdate=28 September 2011[/tpl]http://www.engadget.com/2011/09/28/meego-to-be-folded-into-linux-based-tizen-os-slated-to-arrive-i/ MeeGo to be folded into Linux-based Tizen OS, slated to arrive in 2012http://thisismynext.com/2011/09/28/meego-dead-meet-tizen-open-source-os-based-linux/ MeeGo is dead: Meet Tizen, another new open source OS based on Linuxhttp://www.phoronix.com/scan.php?page=news_item&px=OTk1Mg Tizen Is Announced; MeeGo Will Transition To Ithttp://www.tizen.org Tizen Official Website
+Community developers from the Mer project however plan to continue MeeGo without Intel and Nokia. So far it is not clear whether they will be allowed to continue to use the MeeGo trademark.http://bergie.iki.fi/blog/where_is_the_future_for_openness_in_mobile/http://lists.meego.com/pipermail/meego-dev/2011-October/484215.htmlhttp://www.phoronix.com/scan.php?page=news_item&px=MTAwMzE MeeGo Community Investigates Tizen Alternatives
+
+== Overview ==
+
+MeeGo is intended to run on a variety of hardware platforms including handhelds, in-car devices, netbooks and televisions.[tpl]cite web|url=http://meego.com/devices |title=Devices |publisher=MeeGo |date= |accessdate=2010-12-08[/tpl] All platforms share the MeeGo core, with different “User Experience” (“UX”) layers for each type of device.
+
+== System requirements ==
+
+MeeGo provides support for both ARM and Intel x86 processors with SSSE3 enabled [tpl]cite web|url=http://meego.com/about/faq|title=MeeGo FAQ|accessdate=2010-02-15[/tpl] and uses btrfs as the default file system.[tpl]cite web |url=http://www.h-online.com/open/news/item/MeeGo-project-chooses-Btrfs-as-standard-file-system-999051.html |title=MeeGo project chooses Btrfs as standard file system |date=12 May 2010 |work=The H [/tpl]
+
+== User interfaces ==
+
+Within the MeeGo project there are several graphical user interfaces – internally called User Experiences (“UX”).
+
+=== Netbook ===
+
+The Netbook UX is a continuation of the Moblin interface. It is written using the Clutter-based Mx toolkit, and uses the Mutter window manager.
+MeeGo’s netbook version uses several Linux applications in the background, such as Evolution (Email, calendar), Empathy (instant messaging), Gwibber (microblogging), Chromium (web browser), and Banshee (multimedia player), all integrated into the graphical user interface.
+
+=== Handset ===
+
+The Handset UX is based on Qt, but GTK+ and Clutter will be included to provide compatibility for Moblin applications. To support the hundreds of Hildon-based Maemo applications, users have to install the Hildon library ported by the maemo.org community. Depending on the device, applications will be provided from either the Intel AppUp or the Nokia Ovi digital software distribution systems.[tpl]cite web|url=http://www.intel.com/pressroom/archive/releases/2010/20100215corp.htm|title=MeeGo Press Release|accessdate=2010-02-15[/tpl]
+The MeeGo Handset UX’s “Day 1” prerelease was on June 30, 2010. The preview was initially available for the Aava Mobile Intel Moorestown platform, and a ‘kickstart’ file provided for developers to build an image for the Nokia N900.[tpl]cite web |url=http://meego.com/community/blogs/valhalla/2010/meego-handset-project-day-1-here |title=MeeGo Handset UX Day 1 Blog Post |accessdate=2010-06-30 [/tpl][tpl]cite web |url=http://meego.com/downloads/releases/1.0.80.8/meego-handset-day1-developer-preview |title=MeeGo Handset UX Developer Preview |accessdate=2010-06-30 [/tpl]
+
+=== Smartphone ===
+
+MeeGo os v1.2 Harmattan use in Nokia N9 and N950.
+
+=== Tablet ===
+
+Intel demonstrated the Tablet UX on a Moorestown-based tablet PC at COMPUTEX Taipei in early June 2010.
+Since then, some information appeared on MeeGo website indicating there will be a Tablet UX part of the MeeGo project, but it is not known if this UX will be the one demonstrated by Intel. This Tablet UX will be fully open source like the rest of the MeeGo project and will be coded with Qt and the MeeGo Touch Framework.[tpl]cite web|url=http://forum.meego.com/showthread.php?t=1281|title=MeeGo tablet UX|accessdate=2010-08-31[/tpl] Intel has revealed interest in combining Qt with Wayland display server instead of the often seen Qt/X11 combination in MeeGo Touch in order to utilize the latest graphics technologies supported by Linux kernel, which should improve user experiences and reduce system complexity.[tpl]cite web|url=http://www.phoronix.com/scan.php?page=news_item&px=ODYwMQ|title=Where Wayland May First Appear In Use By A Distro|author=Michael Larabel|date=September 16, 2010|publisher=Phoronix|accessdate=11 October 2010[/tpl][tpl]cite web|url=http://www.phoronix.com/scan.php?page=news_item&px=ODYyNQ|title=Qt Is Now Drawing On Wayland|author=Michael Larabel|date=September 21, 2010|publisher=Phoronix|accessdate=11 October 2010[/tpl]
+Minimum hardware requirements are currently unknown.
+The WeTab runs MeeGo with a custom user interface and has been available since September 2010[tpl]Cite news |url=http://wetab.mobi/en/faqsen |title=WeTab is based on MeeGo |work=The H |date=October 13, 2010 [/tpl]
+
+=== In-Vehicle Infotainment ===
+
+The GENIVI Alliance, a consortium of several car makers and their industry partners, uses Moblin with Qt as base for its 'GENIVI 1.0 Reference Platform' for In-Vehicle Infotainment (IVI) and automotive navigation system as a uniformed mobile computing platform. Graham Smethurst of GENIVI Alliance and BMW Group announced in April 2010 the switch from Moblin to MeeGo.[tpl]cite web|url=http://linux-foundation.org/weblogs/press/2010/04/12/public-support-for-the-meego-project/ |title=Linux Foundation Press Releases » Blog Archive » Public Support for the MeeGo Project |publisher=Linux-foundation.org |date= |accessdate=2010-12-08[/tpl]http://www.linuxfordevices.com/c/a/News/Genivi-selects-MeeGo/
+
+=== Smart TV ===
+
+Intel are planning on developing a version of MeeGo for IPTV set top boxes.
+[tpl]Cite news |url=http://wiki.meego.com/MeeGo_Smart_TV_for_Trimslice |title=MeeGo Smart TV[/tpl]
+
+== Licensing ==
+
+The MeeGo framework consists of a wide variety of original and upstream components, all of which are licensed under licenses certified by the Open Source Initiative (such as the GNU General Public License). In order to allow hardware vendors to personalize their device's user experiences, the project's license policy requires that MeeGo's reference User Experience subsystems be licensed under a Permissive free software license – except for libraries that extend MeeGo API's (which were licensed under the GNU Lesser General Public License to help discourage fragmentation), or applications (which can be licensed separately.[tpl]cite web |url=http://meego.com/about/licensing-policy |title=MeeGo License Policy |accessdate=2010-07-07[/tpl]
+
+== Technical foundations ==
+
+=== Core OS ===
+
+The MeeGo Core operating system is a Linux distribution, drawing on[tpl]vague|date=November 2011[/tpl] Nokia’s Debian-based Maemo and Intel’s Fedora-based Moblin.[tpl]cite web |url=http://www.h-online.com/open/news/item/Intel-switches-from-Ubuntu-to-Fedora-for-Mobile-Linux-736599.html |title=Intel switches from Ubuntu to Fedora for Mobile Linux |accessdate=2010-06-21 [/tpl] MeeGo is one of the first Linux distributions to use the Btrfs file system as default, and uses RPM repositories.
+
+=== Architecture ===
+
+=== Software development ===
+
+The officially endorsed way to develop MeeGo applications is to use the Qt framework and Qt Creator as development environment, but writing GTK applications is also supported.[tpl]cite web|url=http://wiki.meego.com/MeeGo_Netbook_and_GTK |title=MeeGo Netbook and GTK - MeeGo wiki |publisher=Wiki.meego.com |date=2010-08-19 |accessdate=2010-12-08[/tpl]
+openSUSE’s Build Service is used to compile the applications.[tpl]cite web|url=http://wiki.meego.com/Build_Infrastructure |title=Build Infrastructure - MeeGo wiki |publisher=Wiki.meego.com |date=2010-11-20 |accessdate=2010-12-08[/tpl]
+
+== Derivatives ==
+
+As with Moblin before, MeeGo also serves as a technology pool that software vendors can access to build their products from. So far only ports of the graphical user interfaces to other Linux distributions have been announced.
+
+=== MeeGo/Harmattan ===
+
+Even though MeeGo was initiated as collaboration between Nokia and Intel, the collaboration was formed when Nokia was already developing the next incarnation of its Maemo Linux distribution. As a result, the Maemo 6 base operating system will be kept intact while the Handset UX will be shared, with the name changed to “MeeGo/Harmattan”.
+On June 21, 2011, Nokia announced its first MeeGo/Harmattan smartphone device, Nokia N9.[tpl]cite web|url=http://conversations.nokia.com/2011/06/21/introducing-the-nokia-n9-all-it-takes-is-a-swipe/|title=Introducing the Nokia N9: all it takes is a swipe! | Nokia Conversations - The official Nokia Blog|publisher=Nokia Corporation|accessdate=2011-06-21[/tpl]
+
+=== SUSE and Smeegol Linux===
+
+On June 1, 2010, Novell announced that they would ship a SUSE Linux incarnation with MeeGo’s Netbook UX (MeeGo User Experience) graphical user interface.[tpl]cite web|url=http://www.novell.com/news/press/novell-announces-support-for-meego|title=Novell Announces Support for MeeGo|accessdate=2010-06-21[/tpl]
+A MeeGo-based Linux distribution with this user interface is already available from openSUSE's Goblin Team under the name Smeegol Linux, this project combines MeeGo with openSUSE to get a new netbook-designed Linux distribution. What makes Smeegol Linux unique when compared to the upstream MeeGo or openSUSE is that this distribution is at its core based on openSUSE but has the MeeGo User Experience as well as a few other changes such as adding the Mono-based Banshee media player, NetworkManager-powered network configuration, a newer version of Evolution Express, and more. Any end-users can also build their own customized Smeegol Linux OS using SUSE Studio.[tpl]cite web|url=http://download.opensuse.org/repositories/Meego:/|title=openSUSE MeeGo repo|accessdate=2010-06-21[/tpl]
+
+=== Fedora  ===
+
+Fedora 14 contains a selection of software from the MeeGo project.Changes in Fedora for Desktop Users
+
+=== Linpus ===
+
+Linpus Technologies is working on bringing their services on top of MeeGo Netbook and MeeGo Tablet.[tpl]cite web|url=http://www.linpus.com/news/2010/08/31.html|title=Linpus Lite for MeeGo|accessdate=2010-08-31[/tpl][tpl]cite web|url=http://www.youtube.com/watch?v=V-_uwrhFIAA|title=Slides about Linpus Lite MeeGo|accessdate=2010-08-31[/tpl]
+
+=== Splashtop ===
+
+The latest version of the instant-on OS Splashtop-platform (by Splashtop Inc. which was previously named DeviceVM Inc.) is compliant with MeeGo, and future version of Splashtop will be based on MeeGo and will be available for commercial use in the first half of 2011.[tpl]cite web|url=http://www.businesswire.com/news/home/20100914005686/en|title=DeviceVM Goes MeeGo-Compliant with Splashtop Product|accessdate=2010-09-14[/tpl][tpl]cite web|url=http://www.phoronix.com/scan.php?page=news_item&px=ODczNw |title=Remember SplashTop? Here's An Update On Them |publisher=Phoronix.com |date=2010-10-30 |accessdate=2010-12-08[/tpl]
+
+=== Mer ===
+
+Mer was a free reimplementation of Maemo for Nokia Internet Tablets N800 that was abandoned when MeeGo first appeared.
+After both Nokia and then Intel abandoned MeeGo, the project was revived and rebased on MeeGo tools. It is now being developed in the open by a meritocratic community, provides only a Core capable of running various UXes developed by various other projects, and aims to include any major application development APIs, such as Qt, EFL, HTML5/WAC, etc.
+Some of the former MeeGo UXes were already ported to run on top of Mer, such as the handset reference UX, now called Nemo Mobile. There are also a couple of new tablet UXes available, such as Cordia and Plasma Active.
+
+== Release Schedule ==
+
+It was announced at the Intel Developer Forum 2010 that MeeGo would follow a six month release schedule. Version 1.0 for Atom netbooks and a code drop for the Nokia N900 became available for download [tpl]As of|2010|05|26|alt=as of Wednesday, 26 May 2010[/tpl].
+Project planning
+
+== Launch ==
+
+In February 2011, Nokia announced a partnership with Microsoft for mobile handsets[tpl]cite web|url=http://www.bbc.co.uk/news/business-12427680 |title=Nokia and Microsoft form partnership |publisher=BBC News |date=2011-02-11[/tpl] and the departure of Nokia's MeeGo team manager Alberto Torres,[tpl]cite web |url=http://www.engadget.com/2011/02/11/nokia-execs-given-the-boot-in-microsoft-centered-reorganization/ |title=Nokia execs reshuffled in Microsoft-centered Elopcalypse |publisher=Engadget.com |date=2011-02-11[/tpl] leading to speculation as to Nokia's future participation in MeeGo development or using Windows Phone by Nokia.
+In September 2011, Nokia has begun shipments the first Nokia N9 MeeGo smartphone model, ahead of the Windows Phone 7 launch expected later this year.[tpl]cite web |url=http://www.theglobeandmail.com/news/technology/mobile-technology/nokia-ships-n9-smartphone-with-meego-open-os/article2181422/?utm_medium=Feeds%3A%20RSS%2FAtom&utm_source=Home&utm_content=2181422 |title=Nokia ships N9 smartphone with MeeGo open OS  |date=September 27, 2011[/tpl]Engadget: Nokia's N9 official: a luscious slab of MeeGo coming later this year, Nokia N9. First MeeGo based tablet WeTab was launched in 2010 by Neofonie.
+
+== Companies supporting project ==
+
+More companies can be found in http://meego.com/about/public-support-meego and http://www.linuxfoundation.org/node/6144.
+
+==See also==
+
+*Moblin - Intel's former mobile operating system project before it and Nokia's Maemo was joined into one the new common MeeGo project.
+*Maemo - Nokia's former mobile operating system project before it and Intel's Moblin was joined into one the new common MeeGo project.
+*Android
+*Mobile operating system
+*Mobile computing
+*SmartTV
+
+== References ==
+
+== External links ==
+
+* MeeGo website
+* MeeGo FAQ
+* MeeGo Community
+* Meego Experiece on Dell Mini Netbook
+

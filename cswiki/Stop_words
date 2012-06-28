@@ -1,0 +1,29 @@
+
+In computing, stop words are words which are filtered out prior to, or after, processing of natural language data (text).  There is not one definite list of stop words which all tools use, if even used. Some tools specifically avoid removing them to support phrase search.
+Any group of words can be chosen as the stop words for a given purpose. For some search machines, these are some of the most common, short function words, such as the, is, at, which and on. In this case, stop words can cause problems when searching for phrases that include them, particularly in names such as 'The Who', 'The The', or 'Take That'. Other search engines remove some of the most common words—including lexical words, such as "want"—from query in order to improve performance.Stackoverflow: "One of our major performance optimizations for the “related questions” query is removing the top 10,000 most common English dictionary words (as determined by Google search) before submitting the query to the SQL Server 2008 full text engine. It’s shocking how little is left of most posts once you remove the top 10k English dictionary words. This helps limit and narrow the returned results, which makes the query dramatically faster."
+Hans Peter Luhn, one of the pioneers in information retrieval, is credited with coining the phrase and using the concept in his design.
+
+== See also ==
+
+* Text mining
+* Concept mining
+* Information extraction
+* Natural language processing
+* Query expansion
+* Stemming
+* Search engine indexing
+* Poison words
+* Function words
+
+== External links ==
+
+* List of English Stop Words (PHP array, CSV) 
+* Full-Text Stopwords in MySQL 
+* English Stop Words (CSV)
+* Hindi Stop Words
+* German Stop Words, another list of German stop words
+* Polish Stop Words
+
+==References==
+
+

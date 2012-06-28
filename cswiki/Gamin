@@ -1,0 +1,18 @@
+
+Gamin is a monitoring system for files and directories that independently implements a subset of FAM, the File Alteration Monitor. Running as a service, it allows for the detection of modifications to a file or directory. gam_server functions as a daemon for Gamin.
+
+== Origins ==
+
+The word gamin in French (where it also has a female form gamine) refers to a boy, especially an abandoned and homeless boy who roams the streets; an urchin. The Gamin project built on an earlier project called MarmotOverview
+(which in French means "child" or "brat").
+
+== How it works ==
+
+Under Linux, Gamin uses inotify or dnotify to monitor filesystem activity. Under FreeBSD, Gamin uses kqueue/kevent as the native FreeBSD kernel event notification mechanism, but in this case kqueue has one major drawback as compared to inotify: inotify is the filename-based monitoring facility and kqueue uses file descriptors for identification of monitored files, so, under FreeBSD, gam_server has to open each file in the monitored directory. This can be an issue when monitoring directories with many files stored, because system could easily reach its kernel limits on maximum file descriptor count (kern.maxfiles and kern.maxfilesperproc).
+
+== References ==
+
+== External links ==
+
+* The Gamin project page
+

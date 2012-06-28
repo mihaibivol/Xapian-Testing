@@ -1,0 +1,33 @@
+
+Minibloq is a graphical development environment for Arduino and other platforms. Its main objective is to help in teaching programming. It is specially used in robotics at high school.
+
+== How it works ==
+
+Minibloq is a code generator. Every code block is configured in XML. In its first version, permits to see the generating code (for this purpose uses Scintilla). Here are some examples of code generated for Arduino:
+Image:MinibloqBlink.png|Blink: Blocks and codes.
+Image:SimpleCounterSerialOut.png|Simple counter, with serial OUT.
+Image:ToneWithVariables.png|Tones (with a buzzer) varying the frequency.
+Image:SpritesHeart.jpg|Sprites for screens like "LED-Matrix".
+Image:AnalogSensorsSetMotor0SpeedSensor0.png|Speed variation of one motor with one analog sensor.
+Image:IR Serial.jpg|Sending numbers through a serial port. Numbers are received from an IR remote control RC5.
+
+== Platforms ==
+
+Although this software was developed for Windows, it is not limited to it.
+
+== References ==
+
+* OLPC Robotics Plan
+* OLPC Robotics
+
+== External links ==
+
+* Official web site of Minibloq
+* Official web site Multiplo
+* Official site of program Conectar Igualdad
+* Decreto 459/10 del Ministerio de Educación de la Nación Argentina
+
+== Web articles ==
+
+* Hack a Day
+

@@ -1,0 +1,8 @@
+
+The overlap coefficient is a similarity measure related to the Jaccard index that computes the overlap between two sets which is defined as follows:
+If set X is a subset of Y or the converse then the overlap coefficient is equal to one.
+
+==References==
+
+* Similarity Metrics, University of Sheffield, Department of Computer Science
+

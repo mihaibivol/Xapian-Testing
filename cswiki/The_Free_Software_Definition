@@ -1,0 +1,41 @@
+
+The Free Software Definition, written by Richard Stallman and published by Free Software Foundation (FSF), defines free software, as a matter of liberty, not price. The term "free" is used in the sense of "free speech," not of "free beer."http://www.gnu.org/philosophy/free-sw.html The earliest known publication of the definition was in the February 1986 edition of the now-discontinued GNU's Bulletin publication of FSF.  The canonical source for the document is in the philosophy section of the GNU Project website.  As of April 2008, it is published there in 39 languages.  FSF publishes a list of licences which meet this definition.
+
+==The definition==
+
+The definition published by FSF in February 1986 had two points:
+ The word "free" in our name does not refer to price; it refers to freedom.  First, the freedom to copy a program and redistribute it to your neighbors, so that they can use it as well as you.  Second, the freedom to change a program, so that you can control it instead of it controlling you; for this, the source code must be made available to
+you.The modern definition has four points, which it numbers zero to three in compliance with zero-based numbering common to computer systems.  It defines free software by whether or not the recipient has the following four freedoms:
+* Freedom 0: The freedom to run the program for any purpose.
+* Freedom 1: The freedom to study how the program works, and change it to make it do what you wish.
+* Freedom 2: The freedom to redistribute copies so you can help your neighbor.
+* Freedom 3: The freedom to improve the program, and release your improvements (and modified versions in general) to the public, so that the whole community benefits.
+Freedoms 1 and 3 require source code to be available because studying and modifying software without its source code is highly impractical.
+
+==Later definitions==
+
+In July 1997, Bruce Perens published the Debian Free Software Guidelines.  This was also used by Open Source Initiative (OSI) under the name "The Open Source Definition", the only change being that use of the term "free software" was replaced by OSI's alternative term for free software, "open-source software".
+
+==Free Software Definition vs Open Source Definition==
+
+Despite the fundamental philosophical differences between the free software movement and the open source movement, the official definitions of free software by the Free Software Foundation and of open source software by the Open Source Initiative basically refer to the same software licences, with a few minor exceptions. While stressing the philosophical differences, the Free Software Foundation comments:
+
+==See also==
+
+*Free software movement
+*GNU Manifesto
+*Definition of Free Cultural Works
+*Debian Free Software Guidelines
+*Libre knowledge (definition therein)
+*Open Source Definition
+
+==External links==
+
+*The Free Software Definition - published by FSF
+*GNU's Bulletin, volume 1, number 1 - a February 1986 document defining free software.  Possibly the first published definition.
+*The Free Software Definition with notes, by Free Software Foundation Europe
+*Why “Open Source” misses the point of Free Software, by Richard Stallman
+
+==References==
+
+

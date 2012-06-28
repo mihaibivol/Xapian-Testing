@@ -1,0 +1,49 @@
+
+Dimdim was a software company that provided a web-based platform for realtime, rich-media collaboration and meetings. Dimdim provided free web conferencing service where users could share desktops, show slides, collaborate, chat, talk and broadcast via webcam.  It has been compared to the WebEx 2.0 web conferencing application. Dimdim was acquired by Salesforce.com on January 6, 2011.[ref]
+ 
+</ref>
+
+== Investors ==
+
+Dimdim was financially backed by Index Ventures, Nexus India Capital and Draper Richards.[ref]
+ 
+</ref>
+
+== Open source ==
+
+Dimdim was made available primarily as an enterprise edition and as a Virtual Machine appliance, but an open source community edition  has also been made available to developers under the GNU General Public License (GPL), giving them the option to install and host Dimdim in their own networks. The most recent open source version, released in December 2008 and hosted at sourceforge.net, is V4.5 "Liberty". However, no installation instructions were provided, and the software had several arbitrary limitations, leading some to describe it as "crippled".[tpl]cite web|url = http://blog.loftninjas.org/2008/03/13/dimdim-on-debian-etch/|title = dimdim on debian etch|date = 2008-03-13|publisher = btm.geek[/tpl] Distributions of the system for the installation to several OSes, Virtual Machines and the corresponding documentation are available in several archives on the SourceForge.net Dimdim site.Download section on SourceForge.net 
+Dimdim can be integrated with the e-learning platforms Moodle, Claroline and Docebo, the collaborative suite Zimbra and the CRM software SugarCRM. Unlike Dimdim's web-hosted services, the Dimdim open source server does not restrict the number of attendees or simultaneous meetings allowed.
+Dimdim has come under heavy criticism lately by a large section of the community for not releasing an open source version after the 4.5 version. It has been accused of using open source as a means of publicity but never actually being committed to the community. The lack of a proper public repository and no communication between the developers and the community further questions the intent.[tpl]Citation needed|date=January 2011[/tpl]
+As of December 2010, at Dimdim's website, there was no download available for the open source version and the only way to download it was from SourceForge.net. Dimdim's acquisition FAQ states that the company would no longer be contributing to the open source project.Dimdim Lives up to its Name As of January 2011, an open source fork called miDmiD had been started.
+
+== History ==
+
+An alpha version of Dimdim was released in fall 2006, followed by a private beta launch in fall 2007. The company's first public beta was in April 2008. Version 4.0 beta was released in July 2008.
+Dimdim formally exited beta in December 2008 with the launch of version 4.5.[ref]
+ 
+</ref>
+The most recent upgrade of Dimdim 5.5 was received with much criticism and numerous complaints of it being an alpha product.[tpl]Citation needed|date=January 2011[/tpl] Various major changes took place in the interface of the system and its integration API http://care.dimdim.com/entries/157239-who-can-use-the-dimdim-api with other systems.
+
+== Acquisition==
+
+On January 6, 2011 Dim Dim was acquired by Salesforce.com for USD $31M.http://www.zdnet.com/blog/btl/salesforce-buys-dimdim-for-31-million-eyes-webex-gotomeeting-turf/43352
+
+== Revenue streams ==
+
+As of 2010, Dimdim provided for hosted meetings, similar to GoToMeeting. Free meetings were made available for up to ten users. Professional meetings with collaboration tools for up to 50 users were also made available for US$25 per month, and webinar hosting for up to 100 users or 1,000 event attendees was available for US$75 per month.
+
+== See also ==
+
+* Web conferencing
+* Comparison of web conferencing software
+* Collaborative software
+
+==References==
+
+==External links==
+
+* Dimdim website
+* Dimdim on SourceForge.net
+* miDmiD, a fork
+* TechCrunch follows Dimdim $6M funding announcement
+

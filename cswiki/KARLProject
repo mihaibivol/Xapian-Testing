@@ -1,0 +1,51 @@
+
+The KARL Project is the open source project name for a web-based application called KARL. KARL is an open source, web-based product for collaboration, organizational intranets and knowledge management. Developed by the Open Society Foundations (OSF), it was first introduced in 2008 and is now used by a broad range of international organizations including OXFAM GB and OSF.
+KARL allows collaboration within on-line spaces called “Communities”. Any employee can create a community for any number of people and there is no limit to the number of communities an organization can create. One of the greatest benefits of KARL communities is that moderators can invite individuals from outside of the organization to join. KARL communities can include partners, vendors, subject matter experts and anyone with whom there is collaboration on a project.
+The following set of simple, well-integrated tools are available within each community:
+* Fully Integrated Blog - each community has access to a shared blog, which serves as a place for users to post updates, new ideas, and other information, and where other members of the community may comment. Blogs are also integrated with email for easy content creation and alerts.
+* Layered Group Calendar - each community has its own shared calendar so that its users can easily manage events pertaining to that specific community. The KARL calendar has convenient daily, weekly, monthly and list views and can be aggregated across community spaces.
+* Collaborative Wiki - each community is given its own wiki where members can quickly and easily add and edit pages by using the rich text editor central to KARL. Wiki pages support images, embedded media objects, and links to other community content.
+* Secure File Sharing - For organizations whose processes rely on a large number of documents, KARL provides the capability to securely share and store documents, pictures, and various media in a repository inside each community.
+It might be considered an alternative to Microsoft SharePoint by some users.
+It is an actively developed Open Source collaboration product.
+
+== Name of KARL ==
+
+The name of KARL came from two sources. As an acronmym, KARL stands for the “Knowledge And Resource Locator.” Also, Karl Popper was a primary influence on George Soros, founder of the Open Society Foundations. Mr. Popper originated the ideas of an open, civil society with transparency.
+
+== Background of KARL ==
+
+=== Pre-KARL ===
+
+As a highly decentralized network of cultural and civil society organizations, the Open Society Foundations face many of the challenges of collaboration and knowledge sharing as other distributed organizations. In September 2005, the OSF Board and Senior Management began a Knowledge Management Initiative (KMI) to explore ways that the OSF network of organizations could work more effectively across geographic and programmatic divides. The initiative started with a small core group in the autumn of 2005 that explored both the organizational and technical structure of OSF to look for improvements that could be made. In early 2006, a working group of 25 staff members representing various geographic and programmatic areas of our network was established. The working group met by way of web conference on a monthly basis and used an open-source collaboration tool known as Plone to share ideas and possible solutions. This working group also received oversight and input from a group of 10 senior managers within the network of organizations.
+In June 2006, the working group made a recommendation to OSF Senior Management to invest in the development of a global intranet and on-line collaboration system. The working group had researched the possibility of finding a proprietary solution for OSFs’ communication and collaboration needs, but could not find an appropriate solution that could offer both the functionality that OSF was looking for and the flexibility to be able to offer tools to partner organizations and other individuals (grantees, consultants, specialists, etc.) working closely with OSF without being subjected to restrictive licensing fees and requiring users to install special software. The working group had been quite pleased with the Plone collaboration tool that was being used to manage the work of the group, so the further recommendation was made to develop this new system using the open source Plone software over the Zope application server.
+
+=== KARL 1 ===
+
+OSF management approved the working group recommendation in July 2006 and development of the new OSF system began the following month (August 2006). A beta-version of the system was delivered in June 2007 and OSF officially launched the KARL1 system in January 2008. KARL is essentially a global intranet for the OSF capable of offering a unique intranet homepage for each of the 40+ organizations within the network and offers the ability for individuals within the network to self-organize within various communities of practice related to the mission of the OSF.
+
+=== KARL 2 ===
+
+As KARL attracted interest, the OSF took steps to move KARL1 off of the Windows platform, in preparation for making an open source version. Additionally, work was commissioned to make it possible (though not trivial) for other organizations to customize KARL and use it for similar needs.
+This work was commissioned in April 2008 and completed in the fall of that year. It resulted in a version of KARL which, though not re-designed, provided important infrastructure changes.
+At that time OSF’s KARL had about 3000 users with approximately half of the users being OSF employees and the other half representing organizations outside of OSF. KARL2 also had over 500 communities.
+
+=== KARL 3 ===
+
+During the KARL2 work, it became clear that the goals for adoption of KARL and ongoing enhancements required architectural re-thinking. Work was commissioned on a version of KARL that used the technologies shared by Plone, but with a narrower focus on the KARL application. Many of the problematic technologies were replaced. This effort culminated in the release of KARL3 in spring of 2009. Currently, OSF’s KARL has nearly 6,000 users and just under 1,000 communities.
+
+== See also ==
+
+* Enterprise portal
+* List of collaborative software
+
+==References==
+
+* KARL Project Website
+
+== External links ==
+
+* KARL Project Website
+* KARL Developers Website
+* KARL Support Website
+

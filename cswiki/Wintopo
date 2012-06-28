@@ -1,0 +1,47 @@
+
+WinTopo is a computer software application for converting a raster image into a vector drawing. It exists primarily for the Microsoft Windows platform, but can also be operated under Linux.
+It has a freeware version as well as a non-free pro version.
+
+==WinTopo Freeware==
+
+WinTopo Freeware automates a two stage method, which firstly uses mathematical algorithms to skelotonize the pixel image to single width pixel lines, and secondly employs a pixel following algorithm to produce the vector lines from the pixel skeleton.http://www.softsoft.net/wintopo/help/html/vectorise2.htm WinTopo Stages of Vectorization
+WinTopo Freeware imports raster images of either bitmap, TIFF, PNG, GIF or JPEG format.
+After conversion the result can be saved in various vector file formats, primarily DXF for CAD applications, and ArcView Shapefile for GIS applications. WinTopo has become widely used in the CNC industry due to the vector lines being output joined up in continuous polylines, which is beneficial to minimize tool movement of the CNC machinery.http://www.wintopo.com/wintopo-free.htm WinTopo Freeware
+
+==WinTopo Pro==
+
+WinTopo Pro is the non-free version and it includes additional functionality to clean up the raster image to better prepare it for the raster to vector conversion process. It also has additional vectorisation possibilities, and functions to allow editing of the vector after conversion.
+Many raster images which require conversion to vector format are produced from paper originals which have been scanned into raster file format. It is common for the paper original to show various blemishes and background discoloration. The scanning process can often introduce similar image defects. For this reason there are a number of functions within WinTopo Pro to remove image defects and isolate the wanted detail.http://www.wintopo.com/wintopo-pro.htm WinTopo Prohttp://www.wintopo.com/help/html/raster-opt.htm WinTopo Raster Image Manipulation
+
+==History==
+
+WinTopo was first released as freeware in May 1999 by the original author Bong Khin Fah of Malaysia.http://tech.groups.yahoo.com/group/wintopo/messages/1 WinTopo User Group Posts The software implemented the skeletonization techniques of two published algorithms, plus a pixel-following algorithm to output vectors representing the original image.
+Later that year the English software company SoftSoft Ltd collaborated with the original author to enhance the software and a number of improved versions were released.http://www.wintopo.com/history.htm WinTopo version history SoftSoft Ltd became involved when looking for an inexpensive yet capable raster to vector conversion program to convert an image for another project. They found at that time that the only software that was capable cost thousands of dollars (far too expensive for the purposes that was required).
+The first release of WinTopo, although capable in the skeletonization functionality, did not produce vectors that were useful for CAD usage. SoftSoft Ltd was experienced in the production of CAD systems, and so collaborated to develop the software up to a standard which they believed would make it as useful as the incumbent expensive systems. Both parties agreed that the resulting software should be maintained as freeware.
+Alongside the freeware project, SoftSoft Ltd and Bong Khin Fah developed the WinTopo Pro version, into which much research was expended into advancing the skeletonization and image processing.
+In 2003 the WinTopo Freeware project and the WinTopo Pro project were combined into a single code base, mainly for the purpose of simplifying on-going development, though this had the side-effect of providing the freeware version with professional quality algorithms and user interface, and so benefiting the millions of users of WinTopo Freeware.http://www.wintopo.com/faq.htm WinTopo FAQ
+
+==Uses==
+
+Although developed by SoftSoft Ltd in the CAD industry and Bong Khin Fah in the GIS field, WinTopo has been utilized for a wide range of other disciplines. Here are some examples:
+* Robotics A robot portrait painter.
+* 3D Ground modeling Creation of a DEM from a contour map.
+* CNC Cutting Preparation of raster images for CNC cutting machines.
+* Embroidery Preparation of raster images for digital embroidery sewing machines.
+* Clothing Creation of clothing designs from raster images.
+* Medicine Diagnosis of Burst Fracture of the Spine on Plain Radiographs.
+* Woodcutting CNC Milling of raster images.
+* Ancient Art Analysis of ancient rock paintings.
+* Photo Engraving Preparation of a photo for a CNC engraving machine.
+
+==See also==
+
+* Comparison of raster to vector conversion software
+
+==References==
+
+==External links==
+
+* WinTopo Web Site
+* WinTopo User Group
+

@@ -1,0 +1,54 @@
+
+The Governance Interoperability Framework (GIF) is an open, standards-based specification and set of technologies that describes and promotes interoperability among components of a service-oriented architecture (SOA). GIF integrates SOA ecosystem technologies to achieve heterogeneous service lifecycle governance and is supported by Hewlett-Packard Company and by GIF partners.
+
+== SOA Governance and creating a system-of-record ==
+
+Governance is recognized as a foundational requirement for successful enterprise adoption of SOA: Gartner has stated that “governance isn’t an option but an imperative”, and predicts that the dominant mode of SOA project failure will be a lack of adequate governance.Paolo Malinverno, Gartner Research  Service-Oriented Architecture Craves Governance, January 2006 
+The primary products used by most organizations to achieve SOA governance are based on an integrated registry-repository, and provide support for managing and communication information in an SOA as well as automating key governance activities.Philip J. Windley, SOA Governance: Rules of the Game, InfoWorld.com, 23 January 2006 These SOA governance systems provide a central system-of-record for all services and related information in an SOA, and are the place where services can be advertised by providers and discovered by consumers. As such, they act as a key control point for governing service availability, versioning, service lifecycle management, and for ensuring compliance with business and technical policies. 
+To be effective, SOA governance systems need a mechanism for exchanging information between all the disparate technologies that support an SOA. Interoperability is a fundamental requirement for the visibility, trust and control required for effective SOA governance.Frank Kenney, Daryl Plummer, Magic Quadrant for Integrated SOA Governance Technology Sets, 2007, January 2007 The objective of GIF is to drive interoperability through the adoption of standards and common approaches to modeling and exchanging information.
+
+== GIF Overview ==
+
+GIF represents a collection of APIs defined by standards organizations, data mappings and classifications and leverages UDDI and WS-Policy standards, among others, as building blocks. In order to promote commonality of approaches and understanding of the information represented, GIF also defines vocabularies for the purpose of applying metadata to service information.
+Integration with the Governance Interoperability Framework is based on two primary pillars of integration: Control Integration and Service Data Integration. These themes are based on the famed Model-View-Controller (MVC) pattern:
+Control integration - Consists of alerting and notification integration; launching events and actions; and integration of business service governance and lifecycle.
+Data integration - Consists of leveraging the Business Service Registry as the primary service description, characteristic, and policy catalog.
+GIF provides control and data integration needed to support activities such as the governance of business service provisioning and lifecycle management. Aspects of this are:
+Provisioning integration - Leverage the SOA governance system as part of the provisioning and deployment process of business services.  Once integrated, bi-directional exchange of service information between participants is enabled.
+Deployment integration - Upon deployment of services, any party should have the ability to alert others to the existence of the service and the need to put the service and its definitions under management.
+Lifecycle management - Lifecycle management of all facets of a business service is required. This means collaborating and integrating components for the purpose of managing:
+* service and artifact versioning
+* lifecycle information (e.g. development, test, production, deprecated)
+* lifecycle status and state of the service (availability)
+* deployment information including up-time, first deployed date, last deployment date
+* contact and support information about the service or template (owner, responsible organization, support contact, manager, etc.)
+* compliance status
+* dependencies and relationships between:
+** services – those dependencies that the partner creates partner
+** proxies and the services they proxy
+** services consumed by another service
+GIF has been driven by several use cases, including:
+* SOA governance system acting as the authoritative source of service descriptions and metadata to other components of an SOA ecosystem.
+* SOA governance system as the recipient of service descriptions, metadata and policy information, including but not limited to publishing service descriptions (typically WSDL documents and associated metadata) and lifecycle information.
+* Publish service characteristics to the SOA governance system to enable the searching and reporting of services and their artifacts. This may include publishing performance data, historical trends and other facets of service information such as constraints and capabilities of the service.
+*Make service characteristics, such as configuration, constraints and capabilities typically expressed as policy, discoverable.
+*Publishing and making available protocol and binding information, such as the WSDLs of proxied services by security or management partners, and their associated business service (functional) WSDLs.
+
+== GIF organization and membership ==
+
+GIF is not a standard itself, but rather leverages existing standards to support SOA governance interoperability. GIF is supported by Hewlett-Packard Company and by GIF partners. For more information about the GIF specification, existing GIF partners and how to join GIF, visit HP’s website.
+
+== References ==
+
+#Paolo Malinverno, Gartner Research Service-Oriented Architecture Craves Governance, January 2006
+#Philip J. Windley, SOA Governance: Rules of the Game, InfoWorld.com, 23 January 2006
+#Frank Kenney, Daryl Plummer, Magic Quadrant for Integrated SOA Governance Technology Sets, January 2007
+
+== External links ==
+
+Information about the Governance Interoperability Framework
+
+== See also ==
+
+* Service-Oriented Modeling Framework
+

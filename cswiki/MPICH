@@ -1,0 +1,46 @@
+
+MPICH is a freely available, portable implementation of MPI, a standard for message-passing for distributed-memory applications used in parallel computing. MPICH is Free SoftwareMPICH License and is available for most flavours of Unix (including Linux and Mac OS X) and Microsoft Windows.
+The CH part of the name was derived from "Chameleon", which was a portable parallel programming library developed by William Gropp, one of the founders of MPICH.
+The original implementation of MPICH (MPICH1) implements the MPI-1.1 standard.  The latest implementation (MPICH2) implements the MPI-2.2 standard.
+MPICH2 is one of the most popular implementations of MPI. It is used as the foundation for the vast majority of MPI implementations including IBM MPI (for Blue Gene), Intel MPI, Cray MPI, Microsoft MPI, Myricom MPI, OSU MVAPICH/MVAPICH2, and many others.
+
+== MPICH1 channels==
+
+* ch_p4 - based on older p4 project (Portable Programs for Parallel Processors), tcp/ip
+* ch_p4mpd - p4 with mpd daemons to starting and managing processes
+* ch_shmem - shared memory only channel
+* globus2 - Globus2
+
+== MPICH2 channels==
+
+Based on ch3 infrastructure
+* Nemesis - Universal, has inter-node modules: elan, GM, IB (infiniband), MX (myrinet express), NewMadeleine, tcp; and several intra-node variants of shared memory for large messages (LMT interface).
+* ssm - Sockets and Shared Memory
+* shm - SHared memory
+* sock - tcp/ip sockets
+* sctp - experimental channel over SCTP sockets
+
+==MPICH and MPICH2 derivatives==
+
+*IBM (MPI for the Blue Gene series)
+*Cray (MPI for all Cray platforms)
+*SiCortex (MPI SiCortex)
+*Microsoft (MPI-MS)
+*Intel (Intel MPI)
+*NetEffect (MPICH2-NE)
+*Qlogic (MPICH2-PSM)
+*Myricom (MPICH2-MX)
+*Ohio State University (MVAPICH and MVAPICH2)
+*University of British Columbia (MPICH2/SCTP)http://www.cels.anl.gov/events/conferences/SC07/presentations/mpich2-flyer.pdf.
+
+==See also==
+
+* Open MPI - another popular open source MPI implementation
+
+==References==
+
+==External links==
+
+*MPICH2 Home Page
+*MPI standards documents
+

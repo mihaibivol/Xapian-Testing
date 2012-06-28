@@ -1,0 +1,75 @@
+
+Kisekae Set System (commonly known as KiSS) is a blending of art with computers originally designed to allow creation of virtual "paper dolls". Kisekae is short for "kisekae ningyou"; a Japanese term meaning "dress-up dolls". Unlike "computer art" which creates or displays traditional art via a computer, KiSS uses the computer as the medium, allowing the art to be not only animated, but also interactive.
+
+==Availability==
+
+KiSS is an Open standard which has to some extent been implemented on nearly every possible platform, including several PDAs. It has also been implemented in Java and on the web.
+
+==History==
+
+KiSS originated in Japan in 1991 with 'dolls' based on girls' manga characters.
+The original dolls were a series of simple, static images that could be moved about and layered on top of one another to look as if the doll image was wearing the clothing. Using computer graphics had the advantage over traditional paper dolls in allowing multiple layers to move in unison, including visually separate pieces, giving an illusion of depth not possible with physical paper.
+The initial viewer software was designed for (then current) EGA video cards using a palette of 16 colours to display the doll. Shortly after, an enhanced standard was put forward (General Specification 2 known as 'KiSS/GS2') which included support for VGA cards and 256 or multiple 16 colour palettes. This standard is still the basis of KiSS, but several additional specifications have been incorporated into viewers since then, in particular "French KiSS", generally called FKiSS, for controlling interactivity and animation and "Cherry KiSS" (i.e. CKiSS) for 32-bit "true" colour support.
+By the late 1990s KiSS had spread from the Japanese BBS communities internationally via the internet with artists creating "dolls", programmers creating support tools, and fans appearing worldwide.
+Note that although KiSS sets are often referred to generically as 'dolls' they are not confined to dress-up — in fact they can be anything and there are 'build-your-own' faces, wedding cakes, dollhouses, battleships, as well as puzzles, games and much more. Nonetheless such "unusual" sets are sometimes referred to as aberrant KiSS.
+
+==Format==
+
+A KiSS set consists of many files of a number of different formats. These are packaged for distribution as a single set or 'doll' in LZH format (a preferred archive format in Japan) which viewer programs can read as a whole to obtain the individual files.
+Most files are 'cel' files which are raw, uncompressed graphics data analogous to animation cells. KiSS/GS2 specification cels also require a KCF (KiSS Colour File) as a palette, but CKiSS specification cels do not. A KCF also can control background colour and contain multiple palettes that can be swapped for lighting and colour change effects. All KiSS binary files (KCF, standard and CKiSS cels) since KiSS/GS2 share a common 32 byte binary header record identifying the size, type and format of KiSS data they contain.
+A configuration file is also required to control field size, layering, cel position, use of palettes, and interaction and animation events.
+In addition Midi files for music and WAV files for sound clips may be used, and generally some form of text documentation is included by the artist.
+
+===Expansions===
+
+KiSS sets are allowed to acquire resources from other KiSS sets by a process called 'Expansion'. This allows new versions of a doll without incorporating the original cells into the new set, meaning that earlier versions did not have to be replaced, and different artists could add to the doll without confusion as to who the original artist was. This dates from some of the earliest viewers, but the details of loading an expansion set remain somewhat viewer dependent.
+
+==Extensions==
+
+A number of features have been added to KiSS but never formally incorporated into the main KiSS format. For compatibility and to hide them from viewers that don't support them they are disguised as comments in the configuration file. Each type of extension (except user grouping) was initially introduced in Japan, however all (except Cherry KiSS) have later been extended by international viewers.
+
+===French KiSS===
+
+'French' KiSS (or 'FKiSS') is an event driven scripting language created as an experimental add-on to the KiSS/GS2 specifications. It was introduced in Japan to allow animation and greater interactivity in KiSS. It was the first extension, and intended only for testing but it proved so popular that it became entrenched as is. All FKiSS directives appear preceded in the first column of their configuration line by:
+ ;@
+The ";" normally indicates the beginning of a comment, which originally hid the directive if a viewer didn't handle FKiSS although it is now standard in all viewers.
+FKiSS itself has been extended several times:
+* 'FKiSS2' was first implemented by a group of international programers creating viewers for alternate platforms. It adds collision detection, relative movement and some simple condition tests. This Level of FKiSS is supported by all but the very oldest viewers. This was the last Level supported in Japan.
+* 'FKiSS3' added variables, math and flow control, making it more nearly a full scripting language.
+* 'FKiSS4' simplifies and extends FKiSS capabilities, particularly with support for user groupings, but there are so far few viewers that support it.
+
+===Initialization Tags===
+
+These are additions to the cell definitions to control start up properties. They appear as a comment at the end of the cell definition that immediately starts with a % and a code.  The first (%t - to control initial transparency) was added when the first level of FKiSS was finalized. Other properties added with FKiSS4 include display status (%u), clickability (%g) and offset overrides (%x and %y).
+
+===Pragmas===
+
+These are comment added to the configuration to suggest to the viewer program how best to automatically display the set. Originally used in Japan to indicate other KiSS sets of which the current one is an expansion (;INCLUDE -- i.e. where to find referenced resources not included in the set), later viewers use them to indicate optimal settings for the set being loaded (;HINT).
+
+===Cherry KiSS===
+
+Commonly called 'CKiSS', this is an extension to the binary data header record, and unlike other extensions makes no changes to the configuration file. It is a specification allowing a cell file to contain raw 24-bit colour data and an 8 bit alpha channel for variable transparency. CKiSS cells tend to use a lot of disk space compared to palette-based cels, and do not compress well, so they are used sparingly by most artists.
+
+===Groupings===
+
+User groupings were added along with FKiSS4 to simplify controlling large numbers of cells (or uniquely identify specific cells) for testing and animation.
+
+==Creating KiSS==
+
+There are many programs on most platforms which can convert from standard graphics formats (most commonly BMP, GIF or PSD files) to KiSS cel and KCF files, allowing the artist to create the original images with any freeware or proprietary graphics program. In addition, GIMP is a fully featured graphics program which can open and save CEL files directly, leaving no need for conversion.
+The configuration file is written with a text editor (standard as part of any Operating System software). Once the basic files are created a KiSS viewer is used to display and fine tune the set, then an archiver with LZH capability is used for packaging. All the software needed is freely available on the internet, as are detailed tutorials for KiSS creation.
+
+==Community==
+
+The modern KiSS community on the internet resembles the dolling community with which there is a degree of overlap, though the two are distinct and each is protective of its own art. However since KiSS art is more specialized the KiSS community is centralized around the largest archive of dolls on the internet, the BiG KiSS Page. Unfortunately in recent years bandwidth costs have forced the BKP to allow most doll downloads by subscription only, which has had negative impacts on the size of the active community.
+Because being able to dress a doll implies being able to undress as well there has always been a subgenre of 'adult' KiSS which exists independently of the main community.
+
+==References==
+
+* 
+
+==External links==
+
+* Otaku World's Big KiSS Page - the largest KiSS doll archive and community hub
+* Kisekae World - The support and distribution site for Kisekae UltraKiss, a KiSS software development system for Windows, Mac OS X, and Linux.
+

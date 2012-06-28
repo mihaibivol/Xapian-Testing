@@ -1,0 +1,37 @@
+
+In software, semantic technology encodes meanings separately from data and content files, and separately from application code. 
+This enables machines as well as people to understand, share and reason with them at execution time. With semantic technologies, adding, changing and implementing new relationships or interconnecting programs in a different way can be just as simple as changing the external model that these programs share.
+With traditional information technology, on the other hand, meanings and relationships must be predefined and “hard wired” into data formats and the application program code at design time. This means that when something changes, previously unexchanged information needs to be exchanged, or two programs need to interoperate in a new way, the humans must get involved.
+Off-line, the parties must define and communicate between them the knowledge needed to make the change, and then recode the data structures and program logic to accommodate it, and then apply these changes to the database and the application. Then, and only then, can they implement the changes.
+Semantic technologies are “meaning-centered.” They include tools for:
+* autorecognition of topics and concepts, 
+* information and meaning extraction, and
+* categorization. 
+Given a question, semantic technologies can directly search topics, concepts, associations that span a vast number of sources.
+Semantic technologies provide an abstraction layer above existing IT technologies that enables bridging and interconnection of data, content, and processes. Second, from the portal perspective, semantic technologies can be thought of as a new level of depth that provides far more intelligent, capable, relevant, and responsive interaction than with information technologies alone.
+
+== See also ==
+
+* Metadata
+* Semantic web
+* Ontology (computer science)
+* Business Intelligence 2.0 (BI 2.0)
+* Semantic targeting
+
+==References==
+
+* J.T. Pollock, R. Hodgson. Adaptive Information: Improving Business Through Semantic Interoperability, Grid Computing, and Enterprise Integration. J. Wiley and Sons, October 2004
+* R. Guha, R. McCool, and E. Miller. Semantic search. In WWW2003 — Proc. of the 12th international conference on World Wide Web, pp 700–709. ACM Press, 2003.
+* I. Polikoff and D. Allemang. Semantic technology. TopQuadrant Technology Briefing v1.1, September 2003.
+* T. Berners-Lee, J. Hendler, and O. Lassila. The Semantic Web: A new form of Web content that is meaningful to computers will unleash a revolution of new possibilities. Scientific American, May 2001.
+* A.P. Sheth, C. Ramakrishnan. Semantic (Web) Technology In Action: Ontology Driven Information Systems For Search, Integration and Analysis. IEEE Data Engineering Bulletin, 2003.
+* Steffen Staab, Rudi Studer  (Ed.), Handbook on Ontologies, Springer, 
+* Mills Davis. The Business Value of Semantic Technologies. Presentation and Report. Semantic Technologies for E-Government, September
+2004.
+* P. Hitzler, M. Krötzsch, S. Rudolph, Foundations of Semantic Web Technologies, Chapman&Hall/CRC, 2009, ISBN 978-1-4200-9050-5
+
+== External links ==
+
+* Semantic Technology Conference
+* Semantic Technology and the Enterprise
+

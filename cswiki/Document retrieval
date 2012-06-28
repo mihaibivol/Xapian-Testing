@@ -1,0 +1,39 @@
+
+Document retrieval is defined as the matching of some stated user query against a set of free-text records. These records could be any type of mainly unstructured text, such as newspaper articles, real estate records or paragraphs in a manual. User queries can range from multi-sentence full descriptions of an information need to a few words. 
+Document retrieval is sometimes referred to as, or as a branch of, Text Retrieval. Text retrieval is a branch of information retrieval where the information is stored primarily in the form of text. Text databases became decentralized thanks to the personal computer and the CD-ROM. Text retrieval is a critical area of study today, since it is the fundamental basis of all internet search engines.
+
+==Description==
+
+Document retrieval systems find information to given criteria by matching text records (documents) against user queries, as opposed to expert systems that answer questions by inferring over a logical knowledge database. A document retrieval system consists of a database of documents, a classification algorithm to build a full text index, and a user interface to access the database.
+A document retrieval system has two main tasks:
+# Find relevant documents to user queries
+# Evaluate the matching results and sort them according to relevance, using algorithms such as PageRank.
+Internet search engines are classical applications of document retrieval. The vast majority of retrieval systems currently in use range from simple Boolean systems through to systems using statistical or natural language processing techniques.
+
+==Variations==
+
+There are two main classes of indexing schemata for document retrieval systems: form based (or word based), and content based indexing. The document classification scheme (or indexing algorithm) in use determines the nature of the document retrieval system.
+Form based document retrieval addresses the exact syntactic properties of a text, comparable to substring matching in string searches. The text is generally unstructured and not necessarily in a natural language, the system could for example be used to process large sets of chemical representations in molecular biology. A suffix tree algorithm is an example for form based indexing.
+The content based approach exploits semantic connections between documents and parts thereof, and semantic connections between queries and documents. Most content based document retrieval systems use an inverted index algorithm.
+
+==Example: PubMed==
+
+The PubMed[ref][tpl]cite journal |author=Kim W, Aronson AR, Wilbur WJ |title=Automatic MeSH term assignment and quality assessment |journal=Proc AMIA Symp |pages=319–23 |year=2001 |pmid=11825203 |pmc=2243528 [/tpl]
+[/ref] form interface features the "related articles" search which works through a comparison of words from the documents' title, abstract, and MeSH terms using a word-weighted algorithm. Computation
+
+== References ==
+
+== See also ==
+
+* Compound term processing
+* Document classification
+* Enterprise search
+* Information retrieval
+* Latent semantic indexing
+* Search engine
+
+== External links ==
+
+* Document Summary System, a commercial product that performs document retrieval and summarization
+* Searching semantic information and XML/RDF documents
+

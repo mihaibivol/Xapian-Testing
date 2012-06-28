@@ -1,0 +1,20 @@
+
+RedDwarf Server is an open source middleware solution for developing the server-side of massively multiplayer online games. It is the officialhttp://www.reddwarfserver.org/ community fork of Project Darkstar, an open-source project supported and managed by Sun Microsystems. Upon Oracle's acquisition of Sun, support for Project Darkstar was stoppedhttp://projectdarkstar.com/. To continue development of the project, the community rebranded the latest codebase of Project Darkstar's repositories and released it as RedDwarf Serverhttp://www.reddwarfserver.org/?q=content/welcome.
+
+==Client API==
+
+Clients can communicate with the server using a Java or C API. The community has also released client APIs for additional platforms including C#, Python, Objective-C, and ActionScripthttp://sourceforge.net/apps/trac/reddwarf/wiki/Extensions.
+
+==Protocol==
+
+RedDwarf Server uses a built-in protocol for network communications. This protocol, currently limited to TCP communications, is outlined in RedDwarf's server documentation.
+
+==License==
+
+"RedDwarf is continuing with an identical licensing scheme as Project Darkstar.  RedDwarf server is distributed under GPLv2 with the server APIs being made specially available under GPLv2 + classpath exception.  The Java client and the C client APIs available as part of the RedDwarf project are distributed under a BSD license."http://www.reddwarfserver.org/?q=content/open-source-online-gaming-universe
+
+==External links==
+
+==Notes==
+
+

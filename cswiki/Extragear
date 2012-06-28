@@ -1,0 +1,105 @@
+
+The Extragear is a collection of KDE applications that are associated with the KDE project. Those applications are not part of the main KDE software compilation, which is released regularly, but they are still part of the project. The main reason for an application to be in extragear is that it is released independently of the KDE software compilation which allows their maintainers to pursue their own development schedule. Other reasons are duplication of functionality or being very specialized (like KSMSSend).
+
+== Artwork ==
+
+* Kannasaver 
+
+== Base ==
+
+* Bluedevil - Bluetooth framework
+* KAppfinder - Menu Updating Tool
+* KCM Wacom Tablet - a GUI for the Wacom Linux Drivers
+* kwebkitpart - A WebKit browser component for KPart
+* Network Management - widget of network connections
+* Polkit KDE Agent
+* Polkit KDE Configuration
+
+== Games ==
+
+* Knights - Chess board programKnights - git.kde.org
+
+==Graphics ==
+
+* digiKam - an advanced digital photo management application
+* KColorEdit - a Palette Editor.
+* KFax - Fax Viewer
+* KGrab - Screen Grabbing Program
+* KGraphViewer - A Graphviz dot graph viewer
+* KIconEdit - Icon Editor
+* KIPI - an API that allows creation of application-independent image processing plugins.
+* KPhotoAlbum - KDE Photo Album.
+* KPovModeler - a modeling and composition program for creating POV-Ray scenes.
+* Kuickshow - an image viewer.
+* Skanlite - Image Scanning Application
+
+== Multimedia ==
+
+* Amarok - an audio player
+* K3b - a CD and DVD burning application
+* Kaffeine - a full-featured multimedia and DVB player
+* KAudioCreator - CD ripping and encoding
+* KMid - a MIDI/Karaoke player.http://www.kde.org/applications/multimedia/kmid/
+* KMPlayer - a video player.http://extragear.kde.org/apps/kmplayer/
+* KPlayer - a multimedia player.KPlayer - git.kde.org
+
+== Network ==
+
+* ChoqoK - Microblogging application
+* KFTPGrabber - a FTP client.
+* KMLDonkey - a frontend for MLDonkey (a powerful P2P file sharing tool)
+* KNemo - Network Monitor
+* Konversation - an Internet Relay Chat client
+* KTorrent - a BitTorrent client
+* Kwlan - Wireless Lan Manager
+* Rekonq - Lean web browser based on Webkit
+
+== Office ==
+
+* Kile - a LaTeX editor
+* KMyMoney - Personal finance manager
+* Skrooge - Personal finances managerSkrooge website
+* Tellico - collection organizer
+
+== PIM ==
+
+* KSig
+
+== SDK ==
+
+* KDevelop - Integrated development environment for multiple languages.
+* KXSLDbg - XSLT Debugger
+* Massif Visualizer - Visualizer for Valgrind Massif data filesMassif Visualizer - git.kde.org
+* Quanta Plus - web integrated development environment
+
+== System ==
+
+* KDE Partition Manager - a disk partitioning application.
+* KIOSK Admin Tool
+* Muon - A package management tools for Debian-based systemsMuon - git.kde.org
+
+== Utility ==
+
+* katimon - an unofficial ATI graphics card temperature monitor
+* KDiff3 - Diff/Patch Frontend
+* kdesrc-build 
+* kerry
+* KEuroCalc - A currency converter and calculator
+* kpager
+* KRecipes - Cooking Book
+* Krusader - A twin panel file manager
+* Nepomuk Shell 
+* RSIBreak - Makes sure you rest now and then
+* Yakuake - a quake-style drop-down console emulator.
+
+==References==
+
+==External links==
+
+*Official KDE Extragear website
+*Extragear projects at git.kde.org
+*KDE UserBase, documentation for KDE users
+*KDE Documentation
+*KDE Localization
+*KDE Bug Tracking System
+

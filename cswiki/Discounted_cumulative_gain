@@ -1,0 +1,33 @@
+
+Discounted cumulative gain (DCG) is a measure of effectiveness of a Web search engine algorithm or related applications, often used in information retrieval. Using a graded relevance scale of documents in a search engine result set, DCG measures the usefulness, or gain, of a document based on its position in the result list. The gain is accumulated from the top of the result list to the bottom with the gain of each result discounted at lower ranks.Kalervo Jarvelin, Jaana Kekalainen: Cumulated gain-based evaluation of IR techniques. ACM Transactions on Information Systems 20(4), 422–446 (2002)
+
+== Mathematical Details ==
+
+Two assumptions are made in using DCG and its related measures.
+# Highly relevant documents are more useful when appearing earlier in a search engine result list (have higher ranks)
+# Highly relevant documents are more useful than marginally relevant documents, which are in turn more useful than irrelevant documents.
+DCG originates from an earlier, more primitive, measure called Cumulative Gain.
+
+=== Cumulative Gain ===
+
+=== Discounted Cumulative Gain ===
+
+There has not been shown any theoretically sound justification for using a logarithmic reduction factor[tpl]cite book | title=Search Engines: Information Retrieval in Practice | author=B. Croft, D. Metzler, and T. Strohman |date=2009 | publisher=''Addison Wesley"[/tpl] other than the fact that it produces a smooth reduction. An alternative formulation of DCGhttp://learningtorankchallenge.yahoo.com/instructions.php places stronger emphasis on retrieving relevant documents:
+
+=== Normalized DCG ===
+
+The main difficulty encountered in using nDCG is the unavailability of an ideal ordering of results when only partial relevance feedback is available.
+
+== Example ==
+
+Presented with a list of documents in response to a search query, an experiment participant is asked to judge the relevance of each document to the query. Each document is to be judged on a scale of 0-3 with 0 meaning irrelevant, 3 meaning completely relevant, and 1 and 2 meaning "somewhere in between". For the documents ordered by the ranking algorithm as
+the user provides the following relevance scores:
+That is: document 1 has a relevance of 3, document 2 has a relevance of 2, etc. The Cumulative Gain of this search result listing is:
+The performance of this query to another is incomparable in this form since the other query may have more results, resulting in a larger overall DCG which may not necessarily be better. In order to compare, the DCG values must be normalized.
+To normalize DCG values, an ideal ordering for the given query is needed. For this example, that ordering would be the monotonically decreasing sort of the relevance judgments provided by the experiment participant, which is:
+The DCG of this ideal ordering, or IDCG, is then:
+And so the nDCG for this query is given as:
+
+== References ==
+
+

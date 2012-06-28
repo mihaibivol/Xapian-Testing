@@ -1,0 +1,14 @@
+
+ITU-T Recommendation X.1035 specifies a password-authenticated key agreement protocol that ensures mutual authentication of two parties by using a Diffie–Hellman key exchange to establish a symmetric cryptographic key. The use of Diffie-Hellman exchange ensures perfect forward secrecy—a property of a key establishment protocol that guarantees that compromise of a session key or long-term private key after a given session does not cause the compromise of any earlier session.
+In X.1035, the exchange is protected from the man-in-the-middle attack. The authentication relies on a pre-shared secret (e.g., password), which is protected (i.e., remains unrevealed) to an eavesdropper preventing an off-line dictionary attack.
+The protocol can be used in a wide variety of applications including those with pre-shared secrets based on possibly weak passwords.
+X.1035 was approved on 13 February 2007 by ITU-T Study Group 17[ref]ITU-T Recommendation X.1035, Password-authenticated key exchange (PAK)
+protocol[/ref].
+
+==Applications==
+
+G.hn, an ITU-T standard that specifies high-speed (up to 1 Gbit/s) local area networking over existing home wires (power lines, phone lines and coaxial cables), uses X.1035 for authentication and key exchange.
+
+==References==
+
+

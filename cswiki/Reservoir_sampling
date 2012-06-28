@@ -1,0 +1,56 @@
+
+Reservoir sampling is a family of randomized algorithms for randomly choosing k samples from a list S containing n items, where n is either a very large or unknown number. Typically n is large enough that the list doesn't fit into main memory. The most common example was labelled Algorithm R by Jeffrey Vitter in his paper on the subject.Random Sampling with a Reservoir
+This simple O(n) algorithm as described in the Dictionary of Algorithms and Data StructuresDictionary of Algorithms and Data Structures consists of the following steps (assuming that the arrays are one-based, and that the number of items to select, k, is smaller than the size of the source array, S):
+ '''array''' ''R''[''k''];    <font color="grey">// result</font>
+ '''integer''' ''i'', ''j'';
+ <font color="grey">// fill the reservoir array</font>
+ '''for each''' ''i'' '''in''' 1 '''to''' ''k'' '''do'''
+     ''R''[''i''] ''':=''' ''S''[''i'']
+ '''done''';
+ <font color="grey">// replace elements with gradually decreasing probability</font>
+ '''for each''' ''i'' '''in''' ''k''+1 '''to length'''(''S'') '''do'''
+     ''j'' ''':= random'''(1, ''i'');   <font color="grey">// important: inclusive range</font>
+     '''if''' ''j'' <= ''k'' '''then'''
+         ''R''[''j''] ''':=''' ''S''[''i'']
+     '''fi'''
+ '''done'''
+
+== Relation to Fisher-Yates shuffle ==
+
+Suppose one wanted to draw k random cards from a deck of playing cards (i.e., n=52).
+A natural approach would be to shuffle the deck and then take the top k cards.
+In the general case, the shuffle also needs to work even if the number of cards in the deck is not known in advance, a condition which is satisfied by the inside-out version of the Fisher-Yates shuffle:
+   <p>To initialize an array ''a'' of ''n'' elements to a randomly shuffled copy of ''S'', both 0-based: <br />
+   a0 ← S0 
+
+   for i from 1 to n - 1 do       r ← random (0 .. i) 
+
+       ai ← ar 
+
+       ar ← Si  Note that although the rest of the cards are shuffled, only the top k are important in the present context.
+Therefore, the array a need only track the cards in the top k positions while performing the shuffle, reducing the amount of memory needed.
+Truncating a to length k, the algorithm is modified accordingly:
+   <p>To initialize an array ''a'' to ''k'' random elements of ''S'' (which is of length ''n''), both 0-based: <br />
+   a0 ← S0 
+
+   for i from 1 to k - 1 do       r ← random (0 .. i) 
+
+       ai ← ar 
+
+       ar ← Si     for i from k to n - 1 do       r ← random (0 .. i) 
+
+       if (r then ar ← Si  Since the order of the first k cards is immaterial, the first loop can be removed and a can be initialized to be the first k items of S.
+This yields Algorithm R.
+
+== Example implementation ==
+
+The following is a simple implementation of the algorithm in Python that samples the set of English Wikipedia page titles: 
+
+==See also==
+
+* Moving average
+* Fisher-Yates shuffle
+
+==References==
+
+

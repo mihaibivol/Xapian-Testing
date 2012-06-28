@@ -1,0 +1,55 @@
+
+Web query topic classification/categorization is a problem in information science. The task is to assign a Web search query to one or more predefined categories, based on its topics. The importance of query classification is underscored by many services provided by Web search. A direct application is to provide better search result pages for users with interests of different categories. For example, the users issuing a Web query “apple” might expect to see Web pages related to the fruit apple, or they may prefer to see products or news related to the computer company. Online advertisement services can rely on the query classification results to promote different products more accurately. Search result pages can be grouped according to the categories predicted by a query classification algorithm. However, the computation of query classification is non-trivial. Different from the document classification tasks, queries submitted by Web search users are usually short and ambiguous; also the meanings of the queries are evolving over time. Therefore, query topic classification is much more difficult than traditional document classification tasks.
+
+== KDDCUP 2005 ==
+
+KDDCUP 2005 competitionKDDCUP 2005 dataset highlighted the interests in query classification. The objective of this competition is to classify 800,000 real user queries into 67 target categories. Each query can belong to more than one target category. As an example of a QC task, given the query “apple”, it should be classified into ranked categories: “Computers \ Hardware; Living \ Food & Cooking”.
+
+== Difficulties ==
+
+Web query topic classification is to automatically assign a query to some predefined categories. Different from the traditional document classification tasks, there are several major difficulties which hinder the progress of Web query understanding:
+
+=== How to derive an appropriate feature representation for Web queries? ===
+
+Many queries are short and query terms are noisy. As an example, in the KDDCUP 2005 dataset, queries containing 3 words are most frequent (22%). Furthermore, 79% queries have no more than 4 words. A user query often has multiple meanings. For example, "apple" can mean a kind of fruit or a computer company. "Java" can mean a programming language or an island in Indonesia. In the KDDCUP 2005 dataset, most of the queries contain more than one meaning. Therefore, only using the keywords of the query to set up a vector space model for classification is not appropriate.
+* Query-enrichment based methodsShen et al.  "Q2C@UST: Our Winning Solution to Query Classification". ACM SIGKDD Exploration, December 2005, Volume 7, Issue 2.Shen et al. "Query Enrichment for Web-query Classification". ACM TOIS, Vol. 24, No. 3, July 2006. start by enriching user queries to a collection of text documents through search engines. Thus, each query is represented by a pseudo-document which consists of the snippets of top ranked result pages retrieved by search engine. Subsequently, the text documents are classified into the target categories using synonym based classifier or statistical classifiers, such as Naive Bayes (NB) and Support Vector Machines (SVMs).
+How about disadvantages and advantages??
+give the answers:
+
+=== How to adapt the changes of the queries and categories over time? ===
+
+The meanings of queries may also evolve over time. Therefore, the old labeled training queries may be out-of-data and useless soon. How to make the classifier adaptive over time becomes a big issue. For example, the word "Barcelona" has a new meaning of the new micro-processor of AMD, while it refers to a city or football club before 2007. The distribution of the meanings of this term is therefore a function of time on the Web.
+* Intermediate taxonomy based methodShen et al.  "Building bridges for web query classification". ACM SIGIR, 2006. first builds a bridging classifier on an intermediate taxonomy, such as Open Directory Project (ODP), in an offline mode. This classifier is then used in an online mode to map user queries to the target categories via the intermediate taxonomy. The advantage of this approach is that the bridging classifier needs to be trained only once and is adaptive for each new set of target categories and incoming queries.
+
+=== How to use the unlabeled query logs to help with query classification? ===
+
+Since the manually labeled training data for query classification is expensive, how to use a very large web search engine query log as a source of unlabeled data to aid in automatic query classification becomes a hot issue. These logs record the Web users' behavior when they search for information via a search engine. Over the years, query logs have become a rich resource which contains Web users' knowledge about the World Wide Web.
+* Query clustering methodWen et al. "Query Clustering Using User Logs", ACM TOIS, Volume 20, Issue 1, January 2002. tries to associate related queries by clustering “session data”, which contain multiple queries and click-through information from a single user interaction. They take into account terms from result documents that a set of queries has in common. The use of query keywords together with session data is shown to be the most effective method of performing query clustering.
+* Selectional preference based methodBeitzel et al. "Automatic Classification of Web Queries Using Very Large Unlabeled Query Logs", ACM TOIS, Volume 25, Issue 2, April 2007. tries to exploit some association rules between the query terms to help with the query classification. Given the training data, they exploit several classification approaches including exact-match using labeled data, N-Gram match using labeled data and classifiers based on perception. They emphasize on an approach adapted from computational linguistics named selectional preferences. If x and y form a pair (x; y) and y belongs to category c, then all other pairs (x; z) headed by x belong to c. They use unlabeled query log data to mine these rules and validate the effectiveness of their approaches on some labeled queries.
+
+== Applications ==
+
+* Metasearch engines send a user's query to multiple search engines and blend the top results from each into one overall list. The search engine can organize the large number of Web pages in the search results, according to the potential categories of the issued query, for the convenience of Web users' navigation.
+* Vertical search, compared to general search, focuses on specific domains and addresses the particular information needs of niche audiences and professions. Once the search engine can predict the category of information a Web user is looking for, it can select a certain vertical search engine automatically, without forcing the user to access the vertical search engine explicitly.
+* Online advertisingData Mining and Audience Intelligence for Advertising (ADKDD'07), KDD workshop 2007Targeting and Ranking for Online Advertising (TROA'08), WWW workshop 2008 aims at providing interesting advertisements to Web users during their search activities. The search engine can provide relevant advertising to Web users according to their interests, so that the Web users can save time and effort in research while the advertisers can reduce their advertising costs.
+All these services rely on the understanding Web users' search intents through their Web queries.
+
+== See also ==
+
+* Document classification
+* Web search query
+* Information retrieval
+* Query expansion
+* Naive Bayes classifier
+* Support vector machines
+* Meta search
+* Vertical search
+* Online advertising
+
+== References ==
+
+== Further reading ==
+
+* Shen.  "Learning-based Web Query Understanding". Phd Thesis, HKUST, June 2007.
+* Beitzel. "On Understanding and Classifying Web Queries", Phd Thesis, IIT, May 2006.
+

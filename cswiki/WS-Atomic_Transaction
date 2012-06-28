@@ -1,0 +1,17 @@
+
+Web Service Atomic Transaction is an OASIS standard. 
+To achieve all-or-nothing property for a group of services, it defines three protocols (completion, volatile two-phase commit, and durable two-phase commit), and a set of services. These protocols and services together ensure automatic activation, registration, propagation and atomic termination of Web Services. The protocols are implemented via the WS-Coordination context management framework and emulate  ACID transaction properties.
+Following the standard, a distributed transaction has a coordinator, an initiator, and one or more participants.
+
+==See also==
+
+* WS-BPEL
+* WS-CDL
+* Web Service
+* WS-Coordination
+
+==External links==
+
+* Web Services Atomic Transaction Version 1.1
+* Web Services Atomic Transaction Version 1.2
+

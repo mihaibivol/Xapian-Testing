@@ -1,0 +1,38 @@
+
+uberSVN is a Freeware software product developed by WANdisco Plc. It provides a Web Application for installation, administration and use of the Apache Subversion software versioning and revision control system. The first public beta was launched on April 22, 2011. The package contains Apache Subversion and all its dependencies with an easy to use installer and web based management interface. New updates have been released approximately monthly towards a goal of uberSVN providing "an open extensible platform for application lifecycle management (ALM) that's easy to install, easy to use and easy to extend." [tpl]cite web|author=Adrian Bridgewater|url=http://drdobbs.com/high-performance-computing/229402130|title=WANdisco Do-Si-Dos Apache Subversion With uberSVN|accessdate=2011-04-28[/tpl]
+
+==Features==
+
+The program contains all the dependencies needed to set up and run an Apache Subversion server on Windows, Linux or Mac OS X operating systems.
+Additional features of uberSVN include:
+* A social coding interface which allows developers to collaborate in real time around the code they commit to the repository.
+* A web interface for creating new repositories, managing users and permissions and administering common server settings.
+* Integration with an LDAP server for delegated authentication of users.
+* An automated on-line updater which makes installing updates quick and reliable.
+* A GUI for managing user permissions and access to the repository.
+* A tab manager which allows the web interface to be configured to include pages served by other web applications.
+
+===Subversion Version===
+
+uberSVN ships with two versions of Subversion which are selectable by the user using an 'SVN Switch' feature. This allows the user to choose between a well established stable release and the latest version of the software which, while also regarded as stable, is more likely to contain bugs and has a more frequent upgrade cycle to address them. 
+* Subversion 1.6.18 
+* Subversion 1.7.5
+
+==Publisher / Author==
+
+WANdisco Plc. publish uberSVN under a free license and have stated that the uberSVN platform will always remain free. WANdisco also offers subscription products for Subversion Multisite, Clustering along with consultancy and training services.
+
+==Name==
+
+The name uberSVN is a play on the German word Über combined with the common abbreviation for Apache Subversion.[tpl]citation needed|date=November 2011[/tpl]
+
+==See also==
+
+*Apache Subversion
+
+==References==
+
+==External links==
+
+*[tpl]Official website|http://www.ubersvn.com/[/tpl]
+

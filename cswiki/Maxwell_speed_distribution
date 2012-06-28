@@ -1,0 +1,25 @@
+
+Classically, an ideal gas' molecules bounce around with somewhat arbitrary velocities, never interacting with each other. In reality, however, an ideal gas is subjected to intermolecular forces. It is to be noted that the aforementioned classical treatment of an ideal gas is only useful when modeling situations in which the particle density is very low. In such situations, the particles themselves can be considered to have approximately zero volume when compared to the volume which contains them, thus giving rise to classical theory. i.e. given that such a situation would have an extremely low probability of having molecules interact with each other.
+Consequently, we need to consider these interactions in order to acquire a more accurate sense of how particles behave in a gas. This leads us to Maxwell's speed distribution (MSD), named after James Clerk Maxwell to whom this theory is attributed. MSD is a probability distribution describing the dispersion of these molecular speeds. MSD can only be applied when dealing with an ideal gas. More accurately, we apply MSD to gases that are "almost" ideal, given that no gas is truly ideal. Air, for example, at STP behaves similarly to an ideal gas, allowing MSD to be applied.
+Note that speed is a scalar quantity, describing how fast the particles are moving, regardless of direction. Velocity, on the other hand, describes the direction as well as the speed at which the particles are moving. This is a necessary consideration given that space is three dimensional, implying that for any given speed, there are many possible velocity vectors.  
+The probability of a molecule having a given speed can be found by using the Boltzmann factor. Considering the energy to be dependent only on the kinetic energy, we find that:
+where, m is the mass of the molecule, k is Boltzmann's constant, and T is the temperature.  
+Multiplying these two functions together gives us the distribution, and normalising this gives us the MSD in its entirety.
+(Again, m is the mass of the molecule, k is Boltzmann's constant, and T is the temperature.)
+
+==Averages==
+
+There are three candidates for what is called the "average" value of the speed of the Maxwell speed distribution.  
+Firstly, by finding the maximum of the MSD (by differentiating, setting the derivative equal to zero and solving for the speed), we can determine the most probable speed.  Calling this vmp, we find that:
+Second, we can find the root mean square of the speed by finding the expected value of v2.  (Alternatively, and much simpler, we can solve it by using the equipartition theorem.)  Calling this vrms:
+These are three different ways of defining the average velocity, and they are not numerically the same.  It is important to be clear about which quantity is being used.
+
+==References==
+
+*Schroeder, Daniel V. Thermal Physics. San Francisco: Addison Wesley Longman, 2000. ISBN 0-201-38027-7
+
+==See also==
+
+* Boltzmann distribution
+* Maxwell-Boltzmann distribution
+

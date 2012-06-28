@@ -1,0 +1,241 @@
+
+Additive Manufacturing File Format (AMF) is an open standard for describing objects for additive manufacturing processes such as 3D printing. The official ASTM F2915standard is an XML-based format designed to allow any computer-aided design software to describe the shape and composition of any 3D object to be fabricated on any 3D printer. Unlike its predecessor STL format, AMF has native support for color, materials, and constellations.
+
+== Structure ==
+
+An AMF can represent one object, or multiple objects arranged in a constellation. Each object is described as a set of non-overlapping volumes. Each volume is described by a triangular mesh that references a set of points (vertices). These vertices can be shared among volumes. An AMF file can also specify the material and the color of each volume, as well as the color of each triangle in the mesh. 
+
+===Basic file structure===
+
+The AMF file begins with the XML declaration line specifying the XML version and encoding. The remainder of the file is enclosed between an opening  element and a closing  element. The unit system can also be specified (millimeter, inch, feet, meter or micrometer). In absence of a units specification, millimeters are assumed.
+Within the AMF brackets, there are five top level elements. Only a single object element is required for a fully functional AMF file.
+#  The object element defines a volume or volumes of material, each of which are associated with a material ID for printing. At least one object element must be present in the file. Additional objects are optional.
+#  The optional material element defines one or more materials for printing with an associated material ID. If no material element is included, a single default material is assumed.
+#  The optional texture element defines one or more images or textures for color or texture mapping, each with an associated texture ID.
+#  The optional constellation element hierarchically combines objects and other constellations into a relative pattern for printing.
+#  The optional metadata element specifies additional information about the object(s) and elements contained in the file.
+
+=== Geometry specification ===
+
+The format maintains the triangle-mesh geometry representation used in the STL format in order to take advantage of existing optimized slicing algorithm and code infrastructure already in existence. The top level  element specifies a unique id. The  element can also optionally specify a material. The entire mesh geometetry is contained in a single mesh element. The mesh is defined using one  element and one or more  elements. The required  element lists all vertices that are used in this object. Each vertex is implicitly assigned a number in the order in which it was declared, starting at zero. The required child element  gives the position of the point in 3D space using the ,  and  elements.
+After the vertex information, at least one  element must be included. Each volume encapsulates a closed volume of the object, Multiple volumes can be specified in a single object. Volumes may share vertices at interfaces but may not have any overlapping volume.
+Within each volume, the child element  is used to define triangles that tessellate the surface of the volume. Each  element will list three vertices from the set of indices of the previously defined vertices. The indices of the three vertices of the triangles are specified using the ,  and  elements. The order of the vertices must be according to the right-hand rule, such that vertices are listed in counter-clockwise order as viewed from the outside. Each triangle is implicitly assigned a number in the order in which it was declared, starting at zero.
+ <?xml version="1.0" encoding="UTF-8"?>
+ <amf unit="millimeter">
+   <object id="0">
+     <mesh>
+       <vertices>
+         <vertex>
+           <coordinates>
+             <x>0</x>
+             <y>1.32</y>
+             <z>3.715</z>
+           </coordinates>
+         </vertex>
+         ...
+       </vertices>
+       <volume>
+         <triangle>
+           <v1>0</v1>
+           <v2>1</v2>
+           <v3>3</v3>
+         </triangle>
+         ...
+       </volume>
+     </mesh>
+   </object>
+ </amf>
+
+==== Curved triangles ====
+
+In order to improve geometric fidelity, the format allows curving the triangle patches. By default, all triangles are assumed to be flat and all triangle edges are assumed to be straight lines connecting their two vertices. However, curved triangles and curved edges can optionally be specified in order to reduce the number of mesh elements required to describe a curved surface. The curvature information has been shown to reduce the error of a spherical surface by a factor of 1000 as compared to a surface described by the same number of planar triangles. Curvature should not create a deviation of from the plane of the flat triangle that exceeds 50% of the largest dimension of the triangle.
+To specify curvature, a vertex can optionally contain a child element  to specify desired surface normal at the location of the vertex. The normal should be unit length and pointing outwards. If this normal is specified, all triangle edges meeting at that vertex are curved so that they are perpendicular to that normal and in the plane defined by the normal and the original straight edge. When the curvature of a surface at a vertex is undefined (for example at a cusp, corner or edge), an  element can be used to specify the curvature of a single non-linear edge joining two vertices. The curvature is specified using the tangent direction vectors at the beginning and end of that edge. The  element will take precedence in case of a conflict with the curvature implied by a  element. 
+When curvature is specified, the triangle is decomposed recursively into four sub-triangles. The recursion is executed four levels deep, so that the original curved triangle is ultimately replaced by 256 flat triangles. These 256 triangles are generated "on the fly" and stored temporarily only while layers intersecting that triangle are being processed for manufacturing.
+ <vertices>
+   <vertex>
+     <coordinates >
+       ...
+     </coordinates >
+     <normal>
+       <nx>0</nx>
+       <ny>0.707</ny>
+       <nz>0.707</nz>
+     </normal>
+   </vertex>
+   ...
+   <edge>
+     <v1>0</v1>
+     <dx1>0.577</dx1>
+     <dy1>0.577</dy1>
+     <dz1>0.577</dz1>
+     <v2>1</v2>
+     <dx2>0.707</dx2>
+     <dy2>0</dy2>
+     <dz2>0.707</dz2>
+   </edge>
+   ...
+ </vertices>
+
+===Color specification===
+
+Colors are introduced using the  element by specifying the red, green, blue and alpha ( transparency) channels in the sRGB color space as numbers in the range of 0 to 1. The  element can be inserted at the material, object, volume, vertex, or triangle levels, and takes priority in reverse order (triangle color is highest priority). The transparency channel specifies to what degree the color from the lower level is blended in. By default, all values are set to zero.
+ <volume materialid="1">
+   <color>
+     <r>0.9</r>
+     <g>0.9</g>
+     <nowiki><b>0.2</b></nowiki>
+     <a>0.8</a>
+   </color>
+   ...
+A color can also be specified by referring to a formula that can use a variety of coordinate-dependent functions. The formula below will specify a color that transitions vertically from blue to red.
+ <color>
+   <r>z/10</r>
+   <nowiki><b>1-z/10</b></nowiki>
+ </color>
+
+====Texture maps====
+
+Texture maps allow assigning color or material to a surface or a volume, borrowing from the idea of Texture mapping in graphics. The  element is first used to associate a texture-id with particular texture data. The data can be represented as either a 2D or a 3D array, depending on whether the color or material need to be mapped to a surface or a volume. The data is represented as a string of bytes in Base64 encoding, one byte per pixel specifying the grayscale level in the 0-255 range.
+ <texture id="1" width="10" height="26" depth="1">
+   TWFuIGlzIGRpc3Rpbmd1aXNoZWQsIG5vdCB 
+   vbmx5IGJ5IGhpcyByZWFzb24sIGJ1dCBieS
+   B0aGlzIHNpbmd1bGFyIHBhc3Npb24gZnJvb
+   SBvdGhlciBhbmltYWxzLCB3aGljaCBpcyBh
+   ...
+ </texture>
+Once the texture-id is assigned, the texture data can be referenced in a color formula, such as in the example below. 
+ <triangle>
+   <v1>0</v1>
+   <v2>1</v2>
+   <v3>3</v3>
+   <color>
+     <r>tex(1,x,y,z)</r>
+     <g>tex(2,x,y,z)</g>
+     <nowiki><b>tex(3,x,y,z)</b></nowiki>
+     <a>0.1</a>
+   </color>
+ </triangle>
+Usually, however, the coordinated will not be used directly as shown above, but transformed first to bring them from object coordinates to texture coordinates. For example tex(1,f1(x,y,z),f2(x,y,z),f3(x,y,z)) where f1(), f2(), f3() are some functions, typically linear.
+
+===Material specification===
+
+Materials are introduced using the  element. Each material is assigned a unique id. 
+ <material id="1">
+   <metadata type="Name">StiffMaterial</metadata>
+ </material>
+ <material id="2">
+   <metadata type="Name">FlexibleMaterial</metadata>
+ </material>
+Geometric volumes are associated with materials by specifying a material-id within the  element.
+ <object id="0">
+   <mesh>
+     <vertices>
+       ...
+     </vertices>
+     <volume materialid="1">
+       ...
+     </volume>
+     <volume materialid="2">
+       ...
+     </volume>
+   </mesh>
+ </object>
+
+====Mixed, graded, lattice, and random materials====
+
+New materials can be defined as compositions of other materials. The element  is used to specify the proportions of the composition, as a constant or as a formula dependent of the x, y, and z coordinates. A constant mixing proportion will lead to a homogenous material. A coordinate-dependent composition can lead to a graded material. More complex coordinate-dependent proportions can lead to nonlinear material gradients as well as periodic and non-periodic substructure. The proportion formula can also refer to a texture map using the tex(textureid,x,y,z) function. Reference to material-id "0" (void) can be used to specify porous structures. Reference to the rand(x,y,z) function can be used to specify pseudo-random materials. The rand(x,y,z) function returns a random number between 0 and 1 that is persistent for that coordinate.
+ <material id="3">
+   <metadata type="Name">MixedMaterial</metadata>
+   <composite materialid="1">0.4</composite>
+   <composite materialid="2">0.6</composite>
+ </material>
+ <material id="4">
+   <metadata type="Name">VerticallyGraded</metadata>
+   <composite materialid="1">z</composite>
+   <composite materialid="2">10-z</composite>
+ </material>
+ <material id="5">
+   <metadata type="Name">Checkerboard</metadata >
+   <composite materialid="1"> floor(x+y+z%1)+0.5) </composite>
+   <composite materialid="2"> 1-(floor(x+y+z%1)+0.5) </composite>
+ </material>
+ <material id="6">
+   <metadata type="Name">RandomSpeckledMaterial</metadata >
+   <composite materialid="1"> rand(x,y,z) </composite>
+   <composite materialid="2"> 1-rand(x,y,z) </composite>
+ </material>
+
+===Print constellations===
+
+Multiple objects can be arranged together using the  element. A constellation can specify the position and orientation of objects to increase packing efficiency and to describe large arrays of identical objects. The  element specifies the displacement and rotation an existing object needs to undergo to arrive into its position in the constellation. The displacement and rotation are always defined relatively to the original position and orientation in which the object was defined. A constellation can refer to another constellation as long as cyclic references are avoided.
+ <constellation id="2">
+   <instance objectid="1">
+     <deltay>5</deltay>
+     <rz>90</rz>
+   </instance>
+   <instance objectid="1">
+     <deltax>-10</deltay>
+     <deltay>10</deltay>
+     <rz>180</rz>
+   </instance>
+   ...
+ </constellation>
+If multiple top-level constellations are specified, or if multplie objects without constellations are specified, each of them will be imported with no relative position data. The importing program can then freely determine the relative positioning.
+
+===Meta-data===
+
+The  element can optionally be used to specify additional information about the objects, geometries and materials being defined. For example, this information can specify a name, textual description, authorship, copyright information and special instructions. The  element can be included at the top level to specify attributes of the entire file, or within objects, volumes and materials to specify attributes local to that entity.
+ <?xml version="1.0"?>
+   <amf unit="millimeter">
+     <metadata type="description">Product 123</metadata>
+     <metadata type="author">John Smith</metadata>
+     <metadata type="copyright">Smith & Co. 2011</metadata>
+     <metadata type="cad">SolidX 2.2</metadata>
+     <metadata type="name">Part 1</metadata>
+     <metadata type="revision">1.3A</metadata>
+     ...
+     <object ObjectID="0">
+       <metadata type="name">Component 1</metadata>
+       ...
+     </object>
+ </amf>
+
+===Formulas===
+
+In both the  and  elements, coordinate-dependent formulas can be used instead of constants. These formulas can use any of the algebraic mathematical operators and expressions, as well as the functions listed below.
+* Logical operators returns a Boolean value of either 1 or 0, representing TRUE and FALSE, respectively. When processing non Boolean numbers as Boolean values, a zero value represents FALSE, and a nonzero value represents TRUE.
+
+===Compression===
+
+An AMF can be stored either as plain text or as compressed text. A compressed AMF file is typically about half the size of an equivalent compressed binary STL file. If compressed, the compression is in ZIP archive format. The compression can be done manually using compression software, or automatically by the exporting software during write time. Both the compressed and uncompressed files have the AMF extension and it is the responsibility of the parsing program to determine whether or not the file is compressed, and if so to perform decompression during import.
+
+==Design considerations==
+
+When the ASTM Design subcommittee began developing the AMF specifications, a survey of stakeholders revealed that the key priority for the new standard was the requirement for a non-proprietary format. Units and buildability issues were a concern lingering from problems with the STL format. Other key requirements were the ability to specify geometry with high fidelity and small file sizes, multiple materials, color, and microstructures. In order to be successful across the field of additive manufacturing, this file format was designed to address the following concerns
+# Technology independence: The file format must describe an object in a general way such that any machine can build it to the best of its ability. It is resolution and layer-thickness independent, and does not contain information specific to any one manufacturing process or technique. This does not negate the inclusion of properties that only certain advanced machines support (for example, color, multiple materials, etc.), but these are defined in such a way as to avoid exclusivity.
+# Simplicity: The file format must be easy to implement and understand. The format should be readable and editable in a simple text viewer, in order to encourage understanding and adoption. No identical information should be stored in multiple places.
+# Scalability: The file format should scale well with increase in part complexity and size, and with the improving resolution and accuracy of manufacturing equipment. This includes being able to handle large arrays of identical objects, complex repeated internal features (e.g. meshes), smooth curved surfaces with fine printing resolution, and multiple components arranged in an optimal packing for printing.
+# Performance: The file format must enable reasonable duration (interactive time) for read and write operations and reasonable file sizes for a typical large object.
+# Backwards compatibility: Any existing STL file should be convertible directly into a valid AMF file without any loss of information and without requiring any additional information. AMF files are also easily convertible back to STL for use on legacy systems, although advanced features will be lost.
+# Future compatibility: In order to remain useful in a rapidly changing industry, this file format must be easily extensible while remaining compatible with earlier versions and technologies. This allows new features to be added as advances in technology warrant, while still working flawlessly for simple homogenous geometries on the oldest hardware.
+
+==History==
+
+Since the mid-1980s, the STL file format has been the de-facto industry standard for transferring information between design programs and additive manufacturing equipment. The STL format only contained information about a surface mesh, and had no provisions for representing color, texture, material, substructure, and other properties of the fabricated target object. As additive manufacturing technology evolved from producing primarily single-material, homogenous shapes to producing multi-material geometries in full color with functionally graded materials and microstructures, there was a growing need for a standard interchange file format that could support these features. A second factor that ushered the development of the standard was the improving resolution of additive manufacturing technologies. As the fidelity of printing processes approached micron scale resolution, the number of triangles required to describe smooth curved surfaces resulted in unacceptably large file sizes.
+During the 1990s and 2000s, a number of proprietary file formats have been in use by various companies to support specific features of their manufacturing equipment, but the lack of an industry-wide agreement prevented widespread adoption of any single format. In January 2009, a new ASTM Committee F42 on Additive Manufacturing Technologies was established, and a design subcommittee was formed to develop a new standard. A survey was conducted in late 2009 leading to over a year of deliberations on the new standard. The resulting first revision of the AMF standard became official on May 2, 2011
+
+===Adoption===
+
+Adoption of the AMF standard is still in question. The availability of open-source royalty-free reference code is expected to catalyze implementation. A few computer-aided design (CAD) software packages have announced initial adoption.[tpl]weasel word|date=February 2012[/tpl][tpl]cn|date=February 2012[/tpl]
+
+== See also ==
+
+* STL (file format)
+
+==Notes==
+
+ 
+
+== External links ==
+
+* AMF Wiki: A repository of AMF resources, sample files, and source code

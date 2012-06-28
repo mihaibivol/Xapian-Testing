@@ -1,0 +1,46 @@
+
+Collaborative Search Engines (CSEs) are an emerging trend for Web search and Enterprise search within company intranets. CSEs let users concert their efforts in information retrieval (IR) activities, share information resources collaboratively using knowledge tags, and allow experts to guide less experienced people through their searches. Collaboration partners do so by providing query terms, collective tagging, adding comments or opinions, rating search results, and links clicked of former (successful) IR activities to users having the same or a related information need.
+
+== Models of collaboration ==
+
+Collaborative search engines can be classified along several dimensions: intent (explicit and implicit) and synchronization
+ and depth of mediation 
+, task vs. trait , and division of labor and sharing of knowledge .
+
+=== Explicit vs. implicit collaboration ===
+
+Implicit collaboration characterizes Collaborative filtering and recommendation systems in which the system infers similar information needs. I-Spy , Jumper 2.0, Seeks, the Community Search Assistant, the CSE of Burghardt et al., and the works of Longo et al.
+ 
+ 
+ 
+all represent examples of implicit collaboration. Systems that fall under this category identify similar users, queries and links clicked automatically, and recommend related queries and links to the searchers.
+Explicit collaboration means that users share an agreed-upon information need and work together toward that goal. For example, in a chat-like application, query terms and links clicked are automatically exchanged. The most prominent example of this class is SearchTogether published in 2007. SearchTogether offers an interface that combines search results from standard search engines and a chat to exchange queries and links. Reddy et al. (2008) follow a similar approach and compares two implementations of their CSE called MUSE and MUST. Reddy et al. focuses on the role of communication required for efficient CSEs. Representatives for the class of implicit collaboration are I-Spy, the Community Search Assistant, and the CSE of Burghardt et al.. Cerciamo  supports explicit collaboration by allowing one person to concentrate on finding promising groups of documents, while having the other person make in-depth judgments of relevance on documents found by the first person.
+However, in Papagelis et al.[tpl]citation| title = Searchius: A Collaborative Search Engine| year = 2007| author = Athanasios Papagelis, Christos Zaroliagis| journal = ENC '07: Proceedings of the Eighth Mexican International Conference on Current Trends in Computer Science| pages = 88–98| doi = 10.1109/ENC.2007.34| url = http://portal.acm.org/citation.cfm?id=1302894[/tpl] terms are used differently: they combine explicitly shared links and implicitly collected browsing histories of users to a hybrid CSE.
+
+=== Community of practice  ===
+
+Recent work in collaborative filtering and information retrieval has shown that sharing of search experiences among users having similar interests, typically called a community of practice or community of interest, reduces the effort put in by a given user in retrieving the exact information of interest.[ref]
+</ref>.
+Collaborative search deployed within a community of practice deploys novel techniques for exploiting context during search by indexing and ranking search results based on the learned preferences of a community of users.[ref]
+</ref>. The users benefit by sharing information, experiences and awareness to personalize result-lists to reflect the preferences of the community as a whole. The community representing a group of users who share common interests, similar professions.  The best known example is the open-source project Jumper 2.0 <ref name=Jumper2010>
+</ref>.
+
+=== Depth of mediation ===
+
+This refers to the degree that the CSE mediates search. SearchTogether is an example of UI-level mediation: users exchange query results and judgments of relevance, but the system does not distinguish among users when they run queries. Cerchiamo and recommendation systems such as I-Spy keep track of each person's search activity independently, and use that information to affect their search results. These are examples of deeper algorithmic mediation.
+
+=== Task vs. trait ===
+
+This model classifies people's membership in groups based on the task at hand vs. long-term interests; these may be correlated with explicit and implicit collaboration.
+
+== Privacy-aware collaborative search engines ==
+
+Search terms and links clicked that are shared among users reveal their interests, habits, social
+relations and intentions. In other words, CSEs put the privacy of the users at risk. Studies have shown that CSEs increase efficiency 
+
+. Unfortunatelly, by the lack of privacy enhancing technologies, a privacy aware user who wants to benefit from a CSE has to disclose his entire search log. (Note, even when explicitly sharing queries and links clicked, the whole (former) log is disclosed to any user that joins a search session).  Thus, sophisticated mechanisms that allow on a more fine grained level which information is disclosed to whom are desirable.
+As CSEs are a new technology just entering the market, identifying user privacy preferences and integrating Privacy enhancing technologies (PETs) into collaborative search are in conflict. On one hand, PETs have to meet user preferences, on the other hand one cannot identify these preferences without using a CSE, i.e., implementing PETs into CSEs. Today, the only work addressing this problem comes from Burghardt et al. They implemented a CSE with experts from the information system domain and derived the scope of possible privacy preferences in a user study with these experts. Results show that users define preferences referring to (i) their current context (e.g., being at work), (ii) the query content (e.g., users exclude topics from sharing), (iii) time constraints (e.g., do not publish the query X hours after the query has been issued, do not store longer than X days, do not share between working time), and that users intensively use the option to (iv) distinguish between different social groups when sharing information. Further, users require (v) anonymization and (vi) define reciprocal constraints, i.e., they refer to the behavior of other users, e.g., if a user would have shared the same query in turn.
+
+== References ==
+
+

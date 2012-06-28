@@ -1,0 +1,98 @@
+
+Kune is a free/open source distributed social network focused on collaboration rather than just in communication[tpl]cite web|title=Kune Homepage|url=http://kune.ourproject.org|accessdate=3 February 2011[/tpl]. That is, it focuses on online real-time collaborative editing, decentralized social networking and web publishing, while focusing on workgroups rather than just in individuals[tpl]cite news|title=Presentando el proyecto Kune, redes sociales y colaboración libre para grupos|url=http://barrapunto.com/article.pl?sid=11/08/21/2240235|language= Spanish|accessdate=28 August 2011|newspaper=Barrapunto (Spanish Slashdot)|date=22 August 2011[/tpl][tpl]cite news|title=Presentando el proyecto Kune, redes sociales y colaboración libre para grupos|url=http://www.meneame.net/story/presentando-proyecto-kune-redes-sociales-colaboracion-libre|language= Spanish|accessdate=28 August 2011|newspaper=Menéame (Spanish Digg)|date=23 August 2011[/tpl]. It aims to allow the creation of online spaces of collaborative work, where organizations and individuals can build projects online, coordinate common agendas, set up virtual meetings, publish in the web, and join organizations with similar interests. It has a special focus on Free Culture and social movements needs.
+
+== Technical details ==
+
+Kune is programmed using the Java-based GWT in the client-side, integrating Apache Wave (former Google Wave) and using mainly the open protocols XMPP and Wave Federation Protocol. GWT Java sources in the client side generates obfuscated and deeply optimized JavaScript conforming a single page application. Wave extensions (gadgets, bots) run on top of Kune (as in Facebook apps) and can be programmed in Java+GWT, JavaScript or Python.
+The current version has been under development since 2007[tpl]cite video |people= |date= 26 January 2008|title= Video: Status of Kune development (Jan 2008)|url=http://kune.ourproject.org/2008/01/status-jan08/|format= AVI |medium= |language= English |trans_title= |publisher= |location= |archiveurl= |archivedate= |accessdate=28 August 2011|time= |id= |isbn= |oclc= |quote= |ref= [/tpl], with a constant, stable growth and a established codebase[tpl]cite web|title=Kune project in Ohloh|url=http://www.ohloh.net/p/kune|author=Ohloh|accessdate=28 August 2011[/tpl]. 
+Kune is 100% free software and was built only using free software. Its software is licensed under the Affero GPL license while the art is under a Creative Commons BY-SA.
+
+== Philosophy ==
+
+Kune was born in order to face a growing concern from the community behind it. Nowadays, groups (a group of friends, activists, a NGO, a small start-up) that need to work together typically will use multiple free (like beer) commercial centralized for-profit services (e.g. Google Docs, Google Groups, Facebook, Wordpress.com, Dropbox, Flickr, eBay ...) in order to communicate and collaborate online. However, "If You're Not Paying for It, you're the Product". In order to avoid that, such groups of users may ask a technical expert to build them mailing lists, a webpage and maybe to set up a etherpad. However, technicians are need for any new list (as they cannot configure e.g. GNU Mailman), configuration change, etc, creating a strong dependency and ultimately a bottle-neck [tpl]cite web|title=Kune 0.0.9 published (codename “15M”)|url=http://kune.ourproject.org/2011/08/kune-0-0-9-published-codename-15m/|accessdate=12 April 2012|publisher = Kune Blog|date=4 August 2011[/tpl]. 
+Kune aims to cover all those needs of groups to communicate and collaborate together, in an usable way and thus without depending on technical experts
+[tpl]cite news|title=Software libre, hardware libre, ¿servicios libres?|url=http://libertonia.escomposlinux.org/story/2009/5/27/12014/3120|accessdate=3 February 2011|newspaper=Libertonia News|date=27 May 2009[/tpl]. It aims to be a free/libre web service (and thus in the cloud), but decentralized as email so a user can choose the server they want and still interoperate transparently with the rest. 
+Opposite to most distributed social networks, this software focuses on collaboration and building, not only on communication and sharing. Thus, Kune does not aim to ultimately replace Facebook, but also all the above mentioned commercial services. Kune has a strong focus on the construction of Free Culture and eventually facilitate Commons-based peer production.
+
+== History ==
+
+The origin of Kune relies on the community behind Ourproject.org. Ourproject[tpl]cite news|title=There's Life after Microsoft - Free Software Advocates|url=http://www.ipsnews.net/interna.asp?idnews=22073|accessdate=3 February 2011|newspaper=Inter Press Service News Agency|date=24 January 2004[/tpl] aimed to provide for Free Culture (social/cultural projects) what Sourceforge and other software forges meant for free software: a collection of communication and collaboration tools that would boost the emergence of community-driven free projects. However, although Ourproject was relatively successful, it was far from the original aims. The analysis of the situation in 2005 concluded that only the groups that had a techie among them (who would manage Mailman or install a CMS) were able to move forward, while the rest would abandon the service. Thus, new free collaborative tools were needed, more usable and suitable for anyone, as the available free tools required a high technical expertise. It was the birth of Kune, whose name means "together" in Esperanto.
+The first prototypes of Kune were developed using Ruby on Rails and Pyjamas. However, with the release of Java and the Google Web Toolkit as free software, the community embraced these technologies since 2007. In 2009, with a stable codebase and about to release a major version of Kune[tpl]cite news|title=¡Colabora con Kune! Llamado a desarrolladores/as|url=http://www.apesol.org/news/341|publisher=Peru Free Software Association|date=5 May 2009|accessdate=3 February 2011[/tpl], Google announced the Google Wave project and promised it would be released as free software. Wave was using the same technologies of Kune (Java + GWT, Guice, XMPP protocol) so it would be easy to integrate after its release. Besides, Wave was offering an open federated protocol, easy extensibility (through gadgets), easy control versioning, and very good real-time edition of documents. Thus, the community decided to halt the development of Kune, and wait for its release... in the meanwhile developing gadgets that would be integrated in Kune later on[ref]
+</ref>, <ref>
+</ref>, <ref>
+</ref>. In this same period, the community established the [[Comunes Association]] (with an acknowledged inspiration in [[Software in the Public Interest]]) as a non-profit legal umbrella for free software tools for encouraging the [[Commons]] and facilitating the work of [[social movements]]<ref>[tpl]cite interview |last =  |first =  |subjectlink = Interview to [[Comunes Collective]] |interviewer = Serotonina EH |title = |url = http://ondaexpansiva.net/?p=1001  |program = Free Culture Forum 2011 |callsign = Radio Onda Expansiva |city = [[Burgos]], [[Spain]] |date = 9 November 2011 |accessdate =11 April 2012 [/tpl]</ref>. The umbrella covered Ourproject, Kune and Move Commons<ref>
+[/ref], together with some other minor projects.
+In November 2010, the free Apache Wave (previously Wave-in-a-Box) was released, under the umbrella of the Apache Foundation. Since then, the community began integrating its source code within the Kune previous codebase, and with the support of the IEPALA Foundation[ref]
+</ref>. Kune released its Beta and moved to production in April 2012. 
+Since then, Kune has been catalogued as "activism 2.0" and citizen tool [tpl]cite journal|title=Free Knowledge: Collective intelligence for developing free tools and community resources (Conocimiento libre: Inteligencia colectiva para desarrollar herramientas libres y recursos comunitarios)|journal=¡Rebelaos!|year=2012|volume=1|pages=10|accessdate=11 April 2012[/tpl], a tool for NGOs, multi-tool for general purpose (and following that, critiziced for the risk of falling on the second-system effect) and example of the new paradigm . It was selected as "open website of the week" by the Open University of Catalonia  and as one of the #Occupy Tech projects[ref]
+</ref>. Nowadays there are plans of connecting with another federated social network, Lorea (based on [[Elgg]]) <ref>
+[/ref].
+
+== Feature list ==
+
+* All the funcionalities of Apache Wave, that is collaborative federated real-time editing, plus
+* Communication
+** Chat and chatrooms compatible with Gmail and Jabber through XMPP (with several XEP extensions), as it integrates Emite[ref]
+</ref>
+** Social networking (federated)
+* Real-time collaboration for groups in:
+** Documents: as in Google Docs
+** Wikis
+** Lists: as in Google Groups but minimizing emails, through waves
+** Group Tasks
+** Group Calendar: as in Google Calendar, with ical export
+** Group Blogs
+** Web-creation: aiming to publish contents directly on the web (as in Wordpress, with a dashboard and public view) (in development)
+** Bartering: aiming to decentralize bartering as in eBay
+* Advanced email
+** Waves: aims to replace most uses of email
+** Inbox: as in email, all your conversations and documents in all kunes are controlled from your inbox
+** Email notifications (Projected: replies from email)
+* Multimedia & Gadgets
+** Image or Video galleries integrated in any doc
+** Maps, mindmaps, twitter streams, etc
+** Polls, voting, events, etc
+** and more via Apache Wave extensions, easy to program (as in Facebook apps, they run on top of Kune)
+* Federation
+** Distributed Social Networking the same way as e-mail: from one inbox you control all your activity in all kunes, and you can collaborate with anyone or any group regardless of the kune where they were registered.
+** Interoperable with any Kune server or Wave-based system 
+** Chat interoperable with any XMPP server
+* Usability
+** Strong focus on usability for any user
+** Animated tutorials for each tool
+** Drag&Drop for sharing contents, add users to a doc, change roles, delete contents, etc
+** Shortcuts
+* Free culture
+** Developed using free software and released under AGPL 
+** Easy assistant for choosing content licenses for groups. Default license is Creative Commons BY-SA. 
+* Developer-friendly
+** Debian/Ubuntu package for easy installation
+** Wave Gadgets can be programmed in Java+GWT, JavaScript or Python 
+
+== Supporters and adopters ==
+
+Kune has the active support of several organizations and institutions:
+* Comunes Association, whose community is behind Kune development. It hosts a Kune server for free projects: https://kune.cc 
+* IEPALA Foundation[tpl]cite web|title=IEPALA Foundation homepage|url=http://www.iepala.es|accessdate=22 April 2012[/tpl], which is supporting the development with economical and technical resources. It hosts a Kune server for non-governmental organizations: "Social Gloobal" (previously EuroSur). 
+* Grasia Software Agent Research Group[tpl]cite web|title=Grasia Research Group homepage|url=http://grasia.fdi.ucm.es/main/|accessdate=22 April 2012[/tpl] of the Complutense University of Madrid has provided technical resources. It seeks to host a Kune server for academic article collaboration. 
+* Interns from the Master of Free Software from the King Juan Carlos University are participating in the development.
+* Trainees from the American University of Science and Technology (Lebanon) participate in the system administration.
+* Paulo Freire Institute in Brazil participated in the early design and prototypes.
+* The Kune workgroup of the Medialab Prado[tpl]cite web|title=Medialab-Prado (Madrid) homepage|url=http://medialab-prado.es|accessdate=22 April 2012[/tpl] are participating in the beta-testing[tpl]cite web|title=Comunes profile in Medialab-Prado|url=http://medialab-prado.es/person/comunes|accessdate=22 April 2012[/tpl].
+
+== References ==
+
+== See also ==
+
+* Comunes Collective
+* Apache Wave
+* Wave Federation Protocol
+* Distributed social network (comparison)
+* Ourproject.org
+
+== External links ==
+
+* Kune.cc main site
+* Kune information webpage
+* Kune demo for testing
+

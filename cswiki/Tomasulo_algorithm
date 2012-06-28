@@ -1,0 +1,58 @@
+
+The Tomasulo algorithm is a hardware algorithm developed in 1967 by Robert Tomasulo from IBM. It allows sequential instructions that would normally be stalled due to certain dependencies to execute non-sequentially (out-of-order execution). It was first implemented for the IBM System/360 Model 91’s floating point unit.
+This algorithm differs from scoreboarding in that it utilizes register renaming. Where scoreboarding resolves Write-after-Write (WAW), Read-after-Write (RAW) and Write after Read (WAR) hazards by stalling, register renaming allows the continual issuing of instructions. The Tomasulo algorithm also uses a common data bus (CDB) on which computed values are broadcast to all the reservation stations that may need it. This allows for improved parallel execution of instructions which may otherwise stall under the use of scoreboarding.
+Robert Tomasulo received the Eckert-Mauchly Award in 1997 for this algorithm.
+
+==Implementation concepts==
+
+The following are the concepts necessary to the implementation of Tomasulo's Algorithm.
+*Instructions are issued sequentially so that the effects of a sequence of instructions such as exceptions raised by these instructions occur in the same order as they would on an in-order processor, regardless of the fact that they are being executed out-of-order (i.e. non-sequentially).
+*All general-purpose and reservation station registers hold either real or virtual values.  If a real value is unavailable to a destination register during the issue stage, a virtual value is initially used.  The functional unit that is computing the real value is assigned as the virtual value.  The virtual register values are converted to real values as soon as the designated functional unit completes its computation.
+*Functional units use reservation stations with multiple slots.  Each slot holds information needed to execute a single instruction, including the operation and the operands.  The functional unit begins processing when it is free and when all source operands needed for an instruction are real.
+
+==Instruction lifecycle==
+
+The three stages listed below are the stages through which each instruction passes from the time it is issued to the time its execution is complete.
+
+===Stage 1: issue===
+
+In the issue stage, instructions are issued for execution if all operands and reservation stations are ready or else they are stalled. Registers are renamed in this step, eliminating WAR and WAW hazards.
+*Retrieve the next instruction from the head of the instruction queue. If the instruction operands are currently in the registers, then
+**If a matching functional unit is available, issue the instruction.
+**Else, as there is no available functional unit, stall the instruction until a station or buffer is free.
+*Otherwise, we can assume the operands are not in the registers, so use virtual values; the functional unit must calculate the real value, in order to keep track of the functional units that will produce the operand.
+
+===Stage 2: execute===
+
+In the execute stage, the instruction operations are carried out.  Instructions are delayed in this step until all of their operands are available, eliminating RAW hazards.  Program correctness is maintained through effective address calculation to prevent hazards through memory.
+*If one or more of the operands is not yet available then: wait for operand to become available on the CDB.
+*When all operands are available, then: if the instruction is a load or store
+**Compute the effective address when the base register is available, and place it in the load/store buffer
+***If the instruction is a load then: execute as soon as the memory unit is available
+***Else, if the instruction is a store then: wait for the value to be stored before sending it to the memory unit
+*Else, the instruction is an ALU operation then: execute the instruction at the corresponding functional unit
+
+===Stage 3: write result===
+
+In the write Result stage, ALU operations results are written back to registers and store operations are written back to memory.
+*If the instruction was an ALU operation
+**If the result is available, then: write it on the CDB and from there into the registers and any reservation stations waiting for this result
+*Else, if the instruction was a store then: write the data to memory during this step
+
+== See also ==
+
+* Re-order buffer
+* Instruction level parallelism
+* Out-of-order execution
+
+== External links ==
+
+* Dynamic Scheduling - Tomasulo's Algorithm
+
+== Bibliography ==
+
+* An Efficient Algorithm for Exploiting Multiple Arithmetic Units,  IBM Journal of Research and Development, 11(1):25-33, January 1967.
+* WebHASE: Tomasulo's Algorithm: HASE Java applet simulation of the Tomasulo's Algorithm, Institute for Computing Systems Architecture, Edinburgh University.
+* TOMASULO'S ALGORITHM FOR DYNAMIC SCHEDULING
+* Computer Architecture: A Quantitative Approach, John L. Hennessy & David A. Patterson
+

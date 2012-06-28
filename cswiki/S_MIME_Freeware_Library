@@ -1,0 +1,3 @@
+
+The S/MIME Freeware Library (SFL) is an implementation of the IETF S/MIME v3 RFC 3369 Cryptographic Message Syntax (CMS) and RFC 2634 Enhanced Security Services (ESS) specifications. It supports all of the optional ESS security features such as signed receipts, security labels, secure mail list information, and signing certificate attributes. It implements portions of the RFC 2633 Message Specification, RFC 2632 Certificate Handling, and RFC 3370 CMS Algorithms specifications. When used in conjunction with the Crypto++ library, the SFL implements the RFC 2631 Diffie-Hellman (D-H) Key Agreement Method specification.
+

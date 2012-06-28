@@ -1,0 +1,6 @@
+
+LinuxPAE64 is a port of linux kernel running in compatibility mode of x86-64 processor. This kernel is capable of loading i386 modules and device drivers and supports 64-bit linux applications in user mode. http://www.linuxpae64.org 
+
+== References ==
+
+

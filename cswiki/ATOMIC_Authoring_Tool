@@ -1,0 +1,17 @@
+
+ATOMIC Authoring Tool is a tool that enables the creation of Augmented Reality applications, developed especially for non-programmers.
+It was created as a front end (Graphic Interface) for use ARToolKit library without having to know programming.
+The first developper of ARToolkit has been Prof. Hirokazu Kato (media design lab in Japan http://imd.naist.jp/people/member/kato.html).
+It was written in the programming language Processing and is licensed under the GNU GPL
+It is Multi-platform which allows you to use it in operating systems Microsoft Windows, Ubuntu and Mac OS X.
+The first experimental version of ATOMIC Authoring Tool was released on September 7 of 2008 and the first stable version 0.6 was released on March 6 of 2009.
+The main motivation of ATOMIC is to provide to the community an open source tool that can be easily modified and that does not require too much technical knowledge to access the Augmented reality technology.
+
+==See also==
+
+==External links==
+
+* ATOMIC Authoring Tool Official web site.
+* ATOMIC Authoring Tool at SourceForge.net
+* Dependencies, downloads for windows, ubuntu 9.1, OSX
+

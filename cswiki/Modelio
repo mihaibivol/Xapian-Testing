@@ -1,0 +1,27 @@
+
+Modelio is an Open Source UML tool developed by Modeliosoft, based in Paris, France. It supports the UML2 and BPMN standards.
+
+==Licensing==
+
+The core Modelio software was released under the GPLv3 on October 5, 2011.[tpl]cite web| url=http://drdobbs.com/open-source/231900564 |title=French Model Specialist Modeliosoft Goes Open Source |accessdate=2011-11-25 |date=2011-10-11 |last=Bridgewater |first=Adrian | publisher=Dr. Dobb's [/tpl] Key APIs are licensed under the more permissive APL.[tpl]cite web|url=http://www.itpronews.fr/2011/10/modeliosoft-modelio-passe-a-lopen-source/ |title=Modeliosoft / Modelio passe à l’open source  |accessdate=2011-11-26 |date=2011-10-10 |publisher=ITProNews France [/tpl]
+
+==Features==
+
+Modelio supports UML2 Profiles for XSD, WSDL and BPEL,[tpl]cite journal|url=http://www.mallouli.com/recherche/publications/mda4sc2010.pdf |title=A Framework for Modeling and Testing of Web Services Orchestration |accessdate=2012-01-01 |last=Bentakouk |first=Lina  |coauthors=Fayçal Bessayah, Mounir Lallali,, Wissam Mallouli, Andrey Sadovykh[/tpl] SoaML for service modelling in distributed environments[tpl]cite journal|url=http://remics.eu/system/files/SoaML_CLOSER_2011_Paper_Final.pdf |title=Specifying Services using the Service Oriented Architecture Modeling Language (SOAML): A baseline for specification of cloud-based services |accessdate=2012-01-01 |last=Elvesæter |first=Brian  |coauthors=Arne-Jørgen Berre, Andrey Sadovykh  [/tpl]; and BPMN for  business process modelling.[tpl]cite journal|url=http://eprints.hud.ac.uk/10866/1/OleAppA2.pdf |title=ePrOnto: OWL-Based Ontology for Research Information Management (Appendix A) |accessdate=2012-01-01 |last=Olszewska |first=Joanna Isabelle |date=2010-09-30 |coauthors=Simpson, Ron and McCluskey, T.L. [/tpl]
+
+==Interoperability==
+
+Modelio was one of six tools participating in the Interoperability Demonstration held by the OMG's Model Interchange Working Group (MIWG) on December 7, 2009.[tpl]cite web|url=http://www.omg.org/news/releases/pr2009/07-08-09.htm |title=OMG Announces Model Interchange Working Group |accessdate=2011-11-01 |last=Covert |first=Stephanie |date=2009-07-08 |publisher=Object Management Group [/tpl] The event demonstrated XMI interoperability between the participating tools.[tpl]cite web|url=http://www.omg.org/news/releases/pr2010/01-04-10.htm |title=OMG's Model Interoperability Demonstration a Success |accessdate=2011-11-01 |last=Covert |first=Stephanie |date=2011-04-01 |publisher=Object Management Group [/tpl]
+The MADES Project intends to use Modelio to develop new modelling annotations with relevance to avionic and surveillance applications.[tpl]cite journal|url=http://www.txtgroup.com/newsletter/attachment/MADES_HoPES2010_0.4.pdf |title=MADES: Embedded Systems Engineering Approach in the Avionics Domain|accessdate=2012-01-02 |last=Bagnato|first=Alessandra |coauthors=Andrey Sadovykh, Richard F. Paige, Dimitrios S. Kolovos, Luciano Baresi, Angelo Morzenti, Matteo Rossi|publisher=TXT Group [/tpl]
+
+==Community Modules==
+
+Add-on modules are available through the Modelio community Website. These add support for TOGAF business process modeling[tpl]cite web|url=http://www.datamation.com/open-source/60-new-open-source-apps-youve-probably-never-heard-of-3.html |title=60 New Open Source Apps You've (Probably) Never Heard Of |accessdate=2011-11-25 |date=2011-10-25 |last=Harvey |first=Cynthia |publisher=Datamation [/tpl]; SysML system architecture modeling; MARTE for specifying embedded systems, and Java code generation, reverse and roundtrip engineering.
+
+==References==
+
+==External links==
+
+*Modelio Website
+*Modeliosoft Website
+

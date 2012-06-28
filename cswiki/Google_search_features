@@ -1,0 +1,121 @@
+
+: This is a detailed article, for an overview, see: Google Search.
+The Google search features include more than 40 options or keywords to modify the type of search. Google Web Search is a web search engine owned by Google, Inc., and is the most-used search engine on the Web. Google receives several hundred million queries each day through its various services.Almost 12 Billion U.S. Searches Conducted in July, SearchEngineWatch on 2008-09-02.
+(Google Search was created by Larry Page and Sergey Brin in 1997.)
+Beyond the original word-search capability, Google Search provides more than 22 special features, such as: similar synonym words; weather forecasts; time zones; stock quotes; maps; earthquake data; movie showtimes; airports; home listings; sports scores, etc. (see below: Special features). There are special features for numbers: prices; money/unit conversions ("10.5 cm in inches"); temperatures ("50 Fahrenheit in Celsius"); general calculations ( 3*4+sqrt(6)-pi/2 ); package tracking; patents; area codes; plus rudimentary language translation of displayed pages.
+A Google search-results page is ordered by a priority rank called "PageRank" which is kept secret to avoid spammers from forcing their pages to the top. Google Search provides more than 15 options for customizing a search (see below: Search options), such as: exclusion ("-xx"), inclusion ("+xx"), alternatives ("xx OR yy"), and wildcard matching ("*").
+The focus of this page is provide details about each feature, but not teach usage. For how-to guides, see the webpages under References, below.
+
+==General features==
+
+The Google search engine has many features, intended as intuitively obvious to users, to make it more functional. Google is one of the top ten most-visited websites today.[tpl]cite web |url=http://www.alexa.com/site/ds/top_sites?ts_mode=global&lang=none |title=Top 500 |accessdate=2008-04-15 |publisher=Alexa[/tpl] Some of its features include a definition link for most searches, including dictionary words, a list of how many results matched the search, links to other searches (e.g. if words were misspelled, it gives a link to the search results for the correct spellings), and many more.
+
+===Search syntax===
+
+Google's search engine normally accepts queries as a simple text, and breaks up the user's text into a sequence of search terms, which will usually be words that are to occur in the results, but may also be phrases, delimited by quotations marks ("), qualified terms, with a prefix such as "+", "-", or one of several advanced operators, such as "site:". The webpages of "Google Search Basics" describe each of these additional queries and options (see below: Search options).
+Google's Advanced Search web form gives several additional fields which may be used to qualify searches by such criteria as date of first retrieval. All advanced queries transform to regular queries, usually with additional qualified terms.
+
+===Query expansion===
+
+Google applies query expansion to the submitted search query, transforming it into the query that will actually be used to retrieve results. As with page ranking, the exact details of the algorithm Google uses are deliberately obscure, but certainly the following transformations are among those that occur:
+* Term reordering: in information retrieval this is a standard technique to reduce the work involved in retrieving results.  This transformation is invisible to the user, since the results ordering uses the original query order to determine relevance.
+* Stemming is used to increase search quality by keeping small syntactic variants of search terms.http://www.google.com/support/bin/answer.py?answer=35889#stemming
+* There is a limited facility to fix possible misspellings in queries.
+
+==="I'm Feeling Lucky"===
+
+Google's homepage includes a button labeled "I'm Feeling Lucky".  When a user clicks on the button the user will be taken directly to the first search result, bypassing the search engine results page.  The thought is that, if a user is "feeling lucky", the search engine will return the perfect match the first time without having to page through the search results. 
+According to a study by Tom Chavez of "Rapt", this feature costs Google $110 million a year as 1% of all searches use this feature and bypass all advertising.[tpl]cite web | title=""I'm feeling lucky" button costs Google $110 million per year" | year=2007 | publisher=Valleywag | url=http://valleywag.com/tech/google/im-feeling-lucky-button-costs-google-110-million-per-year-324927.php | accessdate=2008-01-19[/tpl]
+
+=== Rich Snippets ===
+
+On 12 May 2009, Google announced that they would be parsing the hCard, hReview and hProduct microformats, and using them to populate search result pages with what they called "Rich Snippets".[tpl]cite web|url=http://googlewebmastercentral.blogspot.com/2009/05/introducing-rich-snippets.html|title=Introducing Rich Snippets|last=Goel|first=Kavi|coauthors=Ramanathan V. Guha, Othar Hansson|date=2009-05-12|work=Google Webmaster Central Blog|publisher=Google|accessdate=2009-05-25[/tpl]
+
+===Special features===
+
+Besides the main search-engine feature of searching for text, Google Search has more than 22 "special features" (activated by entering any of dozens of trigger words) when searching:
+[ref]
+  "Search Features", Google.com, May 2009, webpage:
+  [http://www.google.com/intl/en/help/features.html GFeat].
+[/ref][ref]
+  "Google and Search Engines", [[Emory University Law School]],
+  2006, web: [http://www.law.emory.edu/law-library
+/research/advanced-legal-research-class
+/finding-aids-and-searching/google.html EmUniv-Gfind].
+[/ref]
+* synonym search - A search can match words similar to those specified, by placing the tilde sign (~) immediately in front of a search term, such as:  ~fast food.
+* weather - The weather humidity, temperature and forecast, for many cities, can be viewed by typing "weather" followed by the city and state, U.S. zip code, or city and country (such as: weather Lawrence, Kansas; weather Paris; weather Bremen, Germany). If the city name looks like a common word, then the U.S. state, ZIP code, or nation must also be specified.
+*stock quotes - The market data for a specific company or fund can be viewed, by typing the ticker symbol (or include "stock"), such as: CSCO; MSFT; IBM stock; F stock (lists Ford Motor Co.); or AIVSX (fund). Results show inter-day changes, or a five-year graph, etc.
+* time zone - The current time in many cities (worldwide) can be viewed by typing "time" and the name of the city (such as: time Cairo; time Pratt, KS).
+* sports scores - The scores and schedules, for sports teams, can be displayed by typing the team name or league name into the search box.
+* calculator - Calculation results can be determined, as calculated live, by entering a formula in numbers or words, such as: 6*77 +pi +sqrt(e^3)/888 plus 0.45. The user is given the option to search for the formula, after calculation.
+* unit conversion – Measurements can be converted by entering each phrase, such as: 10.5 cm in inches; or 90 km in miles.
+* currency conversion – A money or currency converter can be selected, by typing the names or currency codes (listed by ISO 4217): 6789 Euro in USD; 150 GBP in USD; 5000 Yen in USD; 5000 Yuan in lira (the U.S. dollar can be USD or "US$" or "$", while Canadian is CAD, etc.).
+* dictionary lookup – A definition for a word or phrase can be found, by entering "define" plus the word(s) to look up (such as: Define philosophy)
+* maps – Some related maps can be displayed, by typing in the name or U.S. ZIP code of a location and the word "map" (such as: New York map; Kansas map; or Paris map).
+* movie showtimes - Reviews or film showtimes can be listed for any movies playing nearby, by typing "movies" or the name of any current film into the search box. If a specific location was saved on a previous search, the top search result will display show times for nearby theaters for that movie. These listings however are sometimes totally incorrect and there is no way to ask Google to correct them; for example, on 07/25 2009, for the El Capitan Theatre, google showtimes lists Up, but according to the El Capitan website, the only movie playing that day is G-Force.[tpl]Citation needed|date=March 2012[/tpl]
+* public data - Trends for population (or unemployment rates) can be found for U.S. states and counties, by typing "population" or "unemployment rate" followed by a state or county name.
+* real estate and housing - Home listings in a given area can be displayed, using the trigger words "housing", "home", or "real estate" followed by the name of a city or U.S. zip code.
+* travel data and airports - The flight status for arriving or departing U.S. flights can be displayed by typing in the name of the airline and the flight number into the search box (such as: American airlines 18). Delays at a specific airport can also be viewed (by typing the name of the city or three-letter airport code plus word "airport").
+* package tracking - Package mail can be tracked by typing the tracking number of a UPS, Fedex or USPS package directly into the search box. Results will include quick links to track the status of each shipment.
+* patent numbers - U.S. patents can be searched by entering the word "patent" followed by the patent number into the search box (such as: Patent 5123123).
+* area code - The geographical location (for any U.S. telephone area code) can be displayed by typing a three-digit area code (such as: 650).
+* U.S. government search - Searching of U.S. government websites can be performed from webpage: www.google.com/ig/usgov.
+There might be other special features, beyond those listed here (see source references:).
+
+===Search options===
+
+The webpages maintained by the Google Help Center have text describing more than 15 various search options.[ref]
+  "Google Help Center - Alternate query types", 2009,
+  webpage: [http://www.google.com/help/operators.html G-help].
+[/ref]
+The Google operators:
+* OR - Search for either one, such as "price high OR low" searches for "price" with "high" or "low".
+* "-" - Search while excluding a word, such as "apple -tree" searches where word "tree" is not used.
+* "+" - (Removed on 10/19/11http://www.frag.co.uk/blog/2011/10/googles-changes-the-operators/, Google changes the operators.) Force inclusion of a word, such as "Name +of +the Game" to require the words "of" & "the" to appear on a matching page.
+* "*" - Wildcard operator to match any words between other specific words.
+Some of the query options are as follows:
+* define: - The query prefix "define:" will provide a definition of the words listed after it.
+* stocks: - After "stocks:" the query terms are treated as stock ticker symbols for lookup.
+* site: - Restrict the results to those websites in the given domain, such as, site:www.acmeacme.com. The option "site:com" will search all domain URLs named with ".com" (no space after "site:").
+* allintitle: - Only the page titles are searched (not the remaining text on each webpage).
+* intitle: - Prefix to search in a webpage title, such as "intitle:google search" will list pages with word "google" in title, and word "search" anywhere (no space after "intitle:").
+* allinurl: - Only the page URL address lines are searched (not the text inside each webpage).
+* inurl: - Prefix for each word to be found in the URL; others words are matched anywhere, such as "inurl:acme search" matches "acme" in a URL, but matches "search" anywhere (no space after "inurl:").
+The page-display options (or query types) are:
+* cache: - Highlights the search-words within the cached document, such as "cache:www.google.com xxx" shows cached content with word "xxx" highlighted.
+* link: - The prefix "link:" will list webpages that have links to the specified webpage, such as "link:www.google.com" lists webpages linking to the Google homepage.
+* related: - The prefix "related:" will list webpages that are "similar" to a specified web page.
+* info: - The prefix "info:" will display some background information about one specified webpage, such as, info:www.google.com. Typically, the info is the first text (160 bytes, about 23 words) contained in the page, displayed in the style of a results entry (for just the 1 page as matching the search).
+Note that Google searches the HTML coding inside a webpage, not the screen appearance: the words displayed on a screen might not be listed in the same order in the HTML coding.
+
+===Error messages===
+
+Some searches will give a 403 Forbidden error with the text:
+ "We're sorry...
+:     ... but your query looks similar to automated requests from a computer virus or spyware application. To protect our users, we can't process your request right now.
+:     We'll restore your access as quickly as possible, so try again soon. In the meantime, if you suspect that your computer or network has been infected, you might want to run a virus checker or spyware remover to make sure that your systems are free of viruses and other spurious software.
+:     We apologize for the inconvenience, and hope we'll see you again on Google."sometimes followed by a CAPTCHA prompt.[tpl]cite web | url=http://www.google.com/support/bin/answer.py?answer=15661 | title=Google error page | accessdate=2008-12-31[/tpl]
+The screen was first reported in 2005, and was a response to the heavy use of Google by search engine optimization companies to check on ranks of sites they were optimizing. The message may also be triggered by high volumes of different searches from a single IP address. Google apparently uses the Google cookie as part of its determination of refusing service. The error usually occurs after the 11th page in your google search. The block is generally removed after a day.[tpl]Citation needed|date=October 2007[/tpl]
+
+==See also==
+
+* Google Translate - tool to translate text to other languages
+
+==References==
+
+==Further reading==
+
+* Google Hacks from O'Reilly is a book containing tips about using Google effectively. Now in its third edition. ISBN 0-596-52706-3.
+* Google: The Missing Manual by Sarah Milstein and Rael Dornfest (O'Reilly, 2004). ISBN 0-596-00613-6
+* How to Do Everything with Google by Fritz Schneider, Nancy Blachman, and Eric Fredricksen (McGraw-Hill Osborne Media, 2003). ISBN 0-07-223174-2
+* Google Power by Chris Sherman (McGraw-Hill Osborne Media, 2005). ISBN 0-07-225787-3
+* SEO for Google  by Paul Bliss - an eBook that describes in precise detail the methods needed to get your site top rankings in Google for your keywords.
+* [tpl]cite journal |last=Barroso |first=Luiz Andre |authorlink= |coauthors=Dean, Jeffrey; Hölzle, Urs |year=2003 |month= |title=Web Search for a Planet: The Google Cluster Architecture |journal=IEEE micro |volume=23 |issue=2 |pages=22–28 |doi=10.1109/MM.2003.1196112 |url= |accessdate= |quote= [/tpl]
+
+==External links==
+
+* Google.com
+* Evolution of Google Home Page from 1998 to 2008
+* A Cached page of Google from 1998
+

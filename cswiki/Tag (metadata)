@@ -1,0 +1,65 @@
+
+In information systems, a tag is a non-hierarchical keyword or term assigned to a piece of information (such as an Internet bookmark, digital image, or computer file). This kind of metadata helps describe an item and allows it to be found again by browsing or searching. Tags are generally chosen informally and personally by the item's creator or by its viewer, depending on the system.
+Tagging was popularized by websites associated with Web 2.0 and is an important feature of many Web 2.0 services. It is now also part of some desktop software.
+
+==History and context==
+
+Labeling and tagging are carried out to perform functions such as aiding in classification, marking ownership, noting boundaries, and indicating online identity. They may take the form of words, images, or other identifying marks. An analogous example of tags in the physical world is museum object tagging. In the organization of information and objects, the use of textual keywords as part of identification and classification long  predates computers. However, computer based searching made the use of keywords a rapid way of exploring records. Online and Internet databases and early websites deployed them as a way for publishers to help users find content. In 2003, the social bookmarking website Delicious provided a way for its users to add "tags" to their bookmarks (as a way to help find them later); Delicious also provided browseable aggregated views of the bookmarks of all users featuring a particular tag.Screenshot of tags on del.icio.us in 2004 and Screenshot of a tag page on del.icio.us, also in 2004, both published by Joshua Schachter on July 9, 2007. Flickr allowed its users to add free-form tags to each of their pictures, constructing flexible and easy metadata that made the pictures highly searchable."An Interview with Flickr's Eric Costello" by Jesse James Garrett, published on August 4, 2005. Quote: "Tags were not in the initial version of Flickr. Stewart Butterfield...liked the way they worked on del.icio.us, the social bookmarking application. We added very simple tagging functionality, so you could tag your photos, and then look at all your photos with a particular tag, or any one person’s photos with a particular tag." The success of Flickr and the influence of Delicious popularized the concept,An example is "Folksonomies - Cooperative Classification and Communication Through Shared Metadata" by Adam Mathes, December 2004. It focuses on tagging in Delicious and Flickr. and other social software websites – such as YouTube, Technorati, and Last.fm – also implemented tagging. "Labels" in Gmail are similar to tags.
+Websites that include tags often display collections of tags as tag clouds. A user's tags are useful both to them and to the larger community of the website's users.
+Tags may be a "bottom-up" type of classification, compared to hierarchies, which are "top-down". In a traditional hierarchical system (taxonomy), the designer sets out a limited number of terms to use for classification, and there is one correct way to classify each item. In a tagging system, there are an unlimited number of ways to classify an item, and there is no "wrong" choice. Instead of belonging to one category, an item may have several different tags. Some researchers and applications have experimented with combining structured hierarchy and "flat" tagging to aid in information retrieval.Tag Hierarchies, research notes by Paul Heymann.
+
+==Examples==
+
+===Within a blog===
+
+Many blog systems allow authors to add free-form tags to a post, along with (or instead of) placing the post into categories. For example, a post may display that it has been tagged with baseball and tickets. Each of those tags is usually a web link leading to an index page listing all of the posts associated with that tag. The blog may have a sidebar listing all the tags in use on that blog, with each tag leading to an index page. To reclassify a post, an author edits its list of tags. All connections between posts are automatically tracked and updated by the blog software; there is no need to relocate the page within a complex hierarchy of categories.
+
+===For an event===
+
+An official tag is a keyword adopted by events and conferences for participants to use in their web publications, such as blog entries, photos of the event, and presentation slides. Search engines can then index them to make relevant materials related to the event searchable in a uniform way. In this case, the tag is part of a controlled vocabulary.
+
+==Special types==
+
+===Triple tags===
+
+A triple tag or machine tag uses a special syntax to define extra semantic information about the tag, making it easier or more meaningful for interpretation by a computer program. Triple tags comprise three parts: a namespace, a predicate, and a value. For example, "geo:long=50.123456" is a tag for the geographical longitude coordinate whose value is 50.123456. This triple structure is similar to the Resource Description Framework model for information.
+The triple tag format was first devised for geoliciousgeo.lici.us : geotagging hosted services by Mikel Maron, November 5, 2004. in November 2004, to map Delicious bookmarks, and gained wider acceptance after its adoption by Mappr and GeoBloggersAdvanced Tagging and TripleTags by Reverend Dan Catt, Geobloggers, January 11, 2006. to map Flickr photos. In January 2007, Aaron Straup Cope at Flickr introduced the term machine tag as an alternative name for the triple tag, adding some questions and answers on purpose, syntax, and use.Machine tags, a post by Aaron Straup Cope in the Flickr API group, January 24, 2007.
+Specialized metadata for geographical identification is known as geotagging; machine tags are also used for other purposes, such as identifying photos taken at a specific event or naming species using binomial nomenclature.Encyclopedia of Life use of machine tag, The Encyclopedia of Life project rules including the required use of a taxonomy machine tag, September 19, 2009.
+
+===Hashtags===
+
+==Advantages and disadvantages==
+
+In a typical tagging system, there is no explicit information about the meaning or semantics of each tag, and a user can apply new tags to an item as easily as applying older tags. Hierarchical classification systems can be slow to change, and are rooted in the culture and era that created them.Smith, Gene (2008). Tagging: People-Powered Metadata for the Social Web. Berkeley, CA: New Riders. ISBN 0-321-52917-0 The flexibility of tagging allows users to classify their collections of items in the ways that they find useful, but the personalized variety of terms can present challenges when searching and browsing.
+When users can freely choose tags (creating a folksonomy, as opposed to selecting terms from a controlled vocabulary), the resulting metadata can include homonyms (the same tags used with different meanings) and synonyms (multiple tags for the same concept), which may lead to inappropriate connections between items and inefficient searches for information about a subject.[ref]Golder, Scott A. Huberman, Bernardo A. (2005).
+"The Structure of Collaborative Tagging Systems." Information Dynamics Lab, HP Labs. Visited November 24, 2005.[/ref] For example, the tag "orange" may refer to the fruit or the color, and items related to a version of Apple's operating system may be tagged "Mac OS X", "Lion", "software", or a variety of other terms. Users can also choose tags that are different inflections of words (such as singular and plural),Singular vs. plural tags in a tag-based categorization system by Keith Devens, December 24, 2004. which can contribute to navigation difficulties if the system does not include stemming of tags when searching or browsing. Larger-scale folksonomies address some of the problems of tagging, in that users of tagging systems tend to notice the current use of "tag terms" within these systems, and thus use existing tags in order to easily form connections to related items. In this way, folksonomies collectively develop a partial set of tagging conventions.
+
+===Complex system dynamics===
+
+Despite the apparent lack of control, research has shown that a simple form of shared vocabularies emerges in social bookmarking systems. Collaborative tagging exhibits a form of complex systems dynamics,Harry Halpin, Valentin Robu, Hana Shepherd The Complex Dynamics of Collaborative Tagging, Proceedings of the 16th International Conference on the World Wide Web (WWW'07), Banff, Canada, pp. 211-220, ACM Press, 2007. Downloadable on the conference's website (or self organizing dynamics). Thus, even if no central controlled vocabulary constrains the actions of individual users, the distribution of tags that describe different resources (e.g., websites) converges over time to stable power law distributions. Once such stable distributions form, simple vocabularies can be extracted by examining the correlations that form between different tags.  This informal collaborative system of tag creation and management has been called a folksonomy.
+
+===Spamming===
+
+Tagging systems open to the public are also open to tag spam, in which people apply an excessive number of tags or unrelated tags to an item (such as a YouTube video) in order to attract viewers. This abuse can be mitigated using human or statistical identification of spam items.Tag Spam, research notes by Paul Heymann. The number of tags allowed may also be limited to reduce spam.
+
+==Syntax==
+
+Some tagging systems provide a single text box to enter tags, so to be able to tokenize the string, a separator must be used. Two popular separators are the space character and the comma. To enable the use of separators in the tags, a system may allow for higher-level separators (such as quotation marks) or escape characters. Systems can avoid the use of separators by allowing only one tag to be added to each input widget at a time, although this makes adding multiple tags more time-consuming.
+A syntax for use within HTML is to use the rel-tag microformat which uses the rel attribute with value "tag" (i.e., rel="tag") to indicate that the linked-to page acts as a tag for the current context.rel tag microformat specification, Microformats Wiki, January 10, 2005.
+
+==See also==
+
+* Ontology
+* Semantic Web
+* Knowledge tags
+* Hashtag
+* Folksonomy
+* Microformats
+
+==References==
+
+==External links==
+
+* Hashtag Techniques for Businesses, Curt Finch. Inc Magazine. May 26, 2011.
+* A Uniform Resource Name (URN) Namespace for Tag Metadata.  Tim Bray.  Internet draft, expires August 5, 2007.
+

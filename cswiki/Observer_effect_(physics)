@@ -1,0 +1,42 @@
+
+[tpl]Other uses|Observer effect (disambiguation)[tpl]![/tpl]Observer effect[/tpl]
+In physics, the term observer effect refers to changes that the act of observation will make on the phenomenon being observed.  This is often the result of instruments that, by necessity, alter the state of what they measure in some manner.  A commonplace example is checking the pressure in an automobile tire; this is difficult to do without letting out some of the air, thus changing the pressure.  This effect can be observed in many domains of physics.
+
+==Particle physics==
+
+For an electron to become detectable, a photon must first interact with it, and this interaction will change the path of that electron. It is also possible for other, less direct means of measurement to affect the electron.[tpl]Citation needed|date=March 2009[/tpl]
+
+==Electronics==
+
+In electronics, ammeters and voltmeters need to be connected to the circuit, and so by their very presence affect the current or the voltage they are measuring by way of presenting an additional real or complex load to the circuit, thus changing the transfer function and behaviour of the circuit itself.
+
+==Thermodynamics==
+
+In thermodynamics, a standard mercury-in-glass thermometer must absorb or give up some thermal energy to record a temperature, and therefore changes the temperature of the body which it is measuring.
+
+==Quantum mechanics==
+
+The Heisenberg uncertainty principle is also frequently confused with the "observer effect". The uncertainty principle actually describes how precisely we may measure the position and momentum of a particle at the same time — if we increase the accuracy in measuring one quantity, we are forced to lose accuracy in measuring the other.Heisenberg, W. (1930), Physikalische Prinzipien der Quantentheorie, Leipzig: Hirzel English translation The Physical Principles of Quantum Theory. Chicago: University of Chicago Press, 1930.
+This is demonstrated in a common thought experiment using the double slit setup. Imagine a double slit experiment where quantum particles are fired towards the two slits. The quantum particles pass through the slits and hit a momentum sensor a distance of D behind the slits. The momentum sensor has the ability to be turned off and on via a pin that stops the movement of the sensor when it is hit by a quantum particle. When the pin is in place, no measurement of the momentum can take place. When the pin is removed, the sensor can recoil when struck by a quantum particle and by measuring the recoil determine from which slit the quantum particle came. 
+If the pin is removed and we can detect from which slit the particle came, then the wave-like passage through both slits cannot occur and no interference pattern will develop. However if we put the pin in place, and can no longer determine from which slit the particle passes through, then an interference pattern can develop.A.C.Phillips. Introduction to Quantum Mechanics. Wiley, 2003, ISBN:0-470-85323-9  This can be taken a step further using the delayed choice experiment.
+This thought experiment was proved correct experimentally. The people conducting the experiment found that when the sensor was turned off, an interference pattern developed, but when it was turned on, the interference pattern was destroyed. It was even found that the level of detection could affect the result. E.Buks, R.Schuster, M.Heiblum, D.Mahalu, V.Umansky (February 1998)."Dephasing in electron interference by a 'which-path' detector", Nature, vol 391, pp 871–874. [tpl]doi|10.1038/36057[/tpl]
+The change of the wave function from ψ to ψn is called the collapse of the wave function and occurs when the measurement takes place. This collapse of the wave function is not explainable using the Copenhagen interpretation. Other explanations on why the wave function collapses have been developed such as the  hidden variable theory.
+The many-worlds interpretation posits the existence of multiple universes in which an observed system displays all possible states to all possible observers. In this model, observation of a system does not change the behavior of the system—it simply answers the question of which universe the observer is located in. In some universes, the observer would observe one result from one state of the system, and in others the observer would observe a different result from a different state of the system.Everett FAQ "What is many-worlds?"
+
+==Social sciences==
+
+In anthropology, sociology, and archaeology, this refers to the obvious bias to record what a civilization is like before the observer was there to observe it. Introducing Western ideas into pre-contact peoples was one of archaeology's main concerns during the late 1900s, and "can be understood in part as the product of the American salvage anthropology. At a time when Native American cultures were rapidly disappearing, anthropologists were committed to preserving their unique cultures"[tpl]cite book|title=Culture and Public Action|year=2004|publisher=In the US, Stanford University Press. The South Asia Edition has been published by Permanent Black|url=http://www.cultureandpublicaction.org/conference/cc_historicalparticularism.htm|authorlink=Amartya Sen|coauthors=Arjun Appadurai, Mary Douglas, Marco Verweij, Timur Kuran, Arjo Klamer, Lourdes Arizpe, Sabina Alkire, Anita Abraham, Jean-Phiippe Platteau, Monica Das Gupta, Carol Jenkins, Fernando Calderon, Alicia Szmuckler, Simon Harragin, Shelton Davis,Vijayendra Rao, Michael Walton|editor=Vijayendra Rao and Michael Walton|accessdate=30 June 2011|archiveurl=http://www.cultureandpublicaction.org/conference/cc_historicalparticularism.htm|archivedate=2004|quote=can be understood in part as the product of the American "salvage" anthropology. At a time when Native American cultures were rapidly disappearing, anthropologists were committed to preserving their unique cultures.[/tpl] . Disappearing cultures continue to be a problem, as people give up their old ways to become 'modern,' leading various organizations to try to reverse or at least slow down the loss of cultural knowledge[tpl]cite web|title=Endangered Languages: Revitalizing Native American Languages|url=http://www.culturalsurvival.org/programs/elc/program|work=Endangered Languages: Revitalizing Native American Languages|publisher=Cultural Survival|accessdate=30 June 2011[/tpl].
+
+==See also==
+
+* Double-slit experiment
+* Interpretations of quantum mechanics
+* Uncertainty principle
+
+==References==
+
+;Culture and public action:
+;Cultural survival:
+;Other:
+* The observer effect by Massimiliano Sassoli de Bianchi http://arxiv.org/abs/1109.3536
+

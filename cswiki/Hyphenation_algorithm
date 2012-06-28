@@ -1,0 +1,32 @@
+
+A hyphenation algorithm is a set of rules (especially one codified for implementation in a computer program) that decides at which points a word can be broken over two lines with a hyphen. For example, a hyphenation algorithm might decide that impeachment can be broken as impeach-ment or im-peachment, but not, say, as impe-achment.
+One of the reasons for the complexity of the rules of word-breaking is that different 'dialects' of English tend to differ on the rule: American English tends to work on sound, while British English tends to look to the origins of the word and then to sound. There are also a large number of exceptions, which further complicates matters.
+Some rules of thumb can be found in the reference "On Hyphenation – Anarchy of Pedantry".  Among algorithmic approaches to hyphenation, the one implemented in the TeX typesetting system is widely used. It is thoroughly documented in the first two volumes of
+Computers and Typesetting and in Frank Liang's dissertation.Liang, Franklin Mark.  "Word Hy-phen-a-tion by Com-pu-ter".  PhD dissertation, Stanford University Department of Computer Science.  Report number STAN-CS-83-977, August 1983. Contrary to the belief that TeX relies on a large dictionary of exceptions, the point of Liang's work was to get the algorithm as accurate as he practically could and keep any exception dictionary small. In TeX's original hyphenation patterns for US English, the exception list contains fourteen words.
+
+== Hyphenation in TeX ==
+
+Ports of the TeX hyphenation algorithm are available as libraries for several programming languages, including Perl, Ruby, Haskell, Python, and PostScript, and TeX itself can be made to show hyphens in the log by using the \showhyphens command.  Note however that TeX does not set out to find all hyphenation points of a word, and is therefore unsuitable for applications such as associating lyrics with musical notes.
+In LaTeX hyphenation correction can be added by user using: 
+ \hyphenation{words} The \hyphenation command declares allowed hyphenation points, where words is a list of words, separated by spaces, in which each hyphenation point is indicated by a - character. For example
+ \hyphenation{fortran er-go-no-mic} declares that in the current job "fortran" should not be hyphenated, and that if "ergonomic" must be hyphenated, to do so at the indicated points.\hyphenation on Hypertext Help with LaTeX
+
+==References==
+
+*[tpl]cite web | title=On Hyphenation - Anarchy of Pedantry | work=PC Update, the magazine of Melbourne PC User Group, Australia | url=http://www.melbpc.org.au/pcupdate/9100/9112article4.htm | accessdate=October 6, 2005 [/tpl]
+*[tpl]cite web | title= TeX hyphenation patterns | work=TeX Users Group (TUG) | url=http://tug.org/tex-hyphen/[/tpl]
+*
+
+*
+
+*[tpl]cite web | title= Knuth-Liang hyphenation for the PostScript language | work=anastigmatix.net | url=http://www.anastigmatix.net/postscript/Hyphenate.html | accessdate=October 6, 2005 [/tpl]
+*[tpl]cite web | title= TeXHyphenator-J: TeX Hyphenator in Java | url=http://texhyphj.sourceforge.net/ | accessdate=September 14, 2006 [/tpl]
+*[tpl]cite web | title= Hyphenation in Python, using Frank Liang's algorithm | url=http://www.nedbatchelder.com/code/modules/hyphenate.py | accessdate=July 10, 2007 [/tpl]
+*[tpl]cite web | title= Hyphenator.js-Hyphenation in JavaScript, using Frank Liang's algorithm | url=http://code.google.com/p/hyphenator/ | accessdate=January 3, 2008 [/tpl]
+*[tpl]cite web | title= Tex::Hyphen - Perl implementation of TeX82 Hyphenation rules | url=http://search.cpan.org/dist/TeX-Hyphen/ [/tpl]
+
+== External links ==
+
+* Test TeX/OpenOffice hyphenation algorithm online
+* Text & Information Processing (TIP), On-line Hyphenator (hyphenates Spanish)
+

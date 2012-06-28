@@ -1,0 +1,21 @@
+
+The JME Molecular Editor [tpl]Ref|Description[/tpl] is a Java applet with which one can make and edit drawings, both of molecules and of reactions (including generation of substructure queries), and can display molecules within an HTML page. The editor can generate Daylight SMILES or MDL Molfiles of the created structures.
+The JME Editor was written by Peter Ertl while at Comenius University and later at Ciba-Geigy, Basel.
+It is available free for non-commercial use and has become a standard for molecular-structure input on the web.[tpl]Ref|Sites[/tpl][tpl]Ref|Users[/tpl]
+
+== See also ==
+
+*Molecule editor
+*Cheminformatics
+*Software for molecular modeling
+
+==External links==
+
+* JME HomePage
+
+==References==
+
+# [tpl]Note|Description[/tpl] P. Ertl, Molecular structure input on the web, J. Cheminformatics 2010, 2:1 
+# [tpl]Note|Sites[/tpl] Interesting cheminformatics services using the JME editor  
+# [tpl]Note|Users[/tpl] List of institutions using the JME applet 
+

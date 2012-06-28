@@ -1,0 +1,29 @@
+
+A new Scientific Workflow Management System is being developed at the Grand École TELECOM Bretagne, France, in a co-venture with Station Biologique de Roscoff and OUEST -genopole. The project name is CapExBio and the scope is to develop a knowledge capitalizing, cooperative workflow environment for the genomics community within a three year period with due date in June 2010.
+
+== Life Science and Bioinformatics ==
+
+Much focus within biological research today is on genomics and post-genomics characterized by mass production of scientific data. Research centers and institutions, as well as small local, and big international companies, are driven by the scientific and/or the monetary aspects of this specific field of study. Data and results are produced within genomic projects everyday thanks to increasingly powerful, innovative and fast computers and software. However, as of now, there is yet no single tool that fully supports the necessary capitalization of knowledge within the field of genomics and that supports cooperation among the primary actors within this specific fieldTiwari, Abhishek & Sekhar, Arvind K.T.. Workflow based framework for the life science informatics. Science Direct. August 10th 2007.  February 21st 2008.; biologists, bioanalysts, bioinformaticians and administratorsPicouet, Philippe. CapExBio. Brest, 2008. Thus, there is a need for environments that offers simplified access to resources, freed from computational barriers, and where the various players in the field of biology can be given room to develop and improve their processes and enrich their knowledge within their field.
+
+== The CapExBio Project ==
+
+CapExBio, an abbreviation for Capitalization of Experimental Bioinformatics Knowledge, is such a workflow based framework being developed in a joint venture between TELECOM Bretagne (former École nationale supérieure des télécommunications de Bretagne) and Station Biologique de RoscoffTelecom Bretagne. CapExBio. Brest, 2007. Previous cooperative work between these two institutions and the OUEST-genopole group, resulted in the workflow environment “BioSideBioSide community site” which federate and access bioinformatics programs. “Bioside”, however, is not a cooperative environment and does not support the sought for capitalization of knowledge.
+The first step of the CapExBio project is to propose models for multi-view representation of software resources, as well as models of cooperation implemented between the different work domains; biologists, bioanalysts, bioinformaticians and administrators. In the second step, based on defined models, the CapExBio project must provide a collaborative environment dedicated to the descriptions of software offered within the area of bioinformatics. Furthermore, the project shall co-design and implement (or even co-analyze) experimental protocols based on these, previously mentioned, descriptions.Picouet, Philippe. CapExBio. Brest, 2008
+Thus, the main objective of the environment is to allow each actor to capitalize and share learning about each program available within the CapExBio environment within the genomics community by describing them in terms of their field of work; biological interpretation or mathematical underlying models. The environment can then support all actors when cooperating in developing the workflow which will allow the biologist to analyze their data. This data will then be a part of the capitalization pool of knowledge enabled by the CapExBio project.Picouet, Philippe. CapExBio. Brest, 2008
+
+=== History ===
+
+*June 22, 2007
+The CapExBio project is initiated
+*February 15, 2008
+The first CapExBio prototype was released. The development name was “BioSide”. This software was built to evaluate different ways of pipelining programs. A community section for distributing workflows/scenarios was also created; the community site, where the software can be downloaded, is found at BioSide.org
+
+==References==
+
+== External links ==
+
+* TELECOM Bretagne
+* Station Biologique de Roscoff
+* Ouest-genopole
+* BioSide community
+

@@ -1,0 +1,20 @@
+
+PRODML (Production Markup Language) is a family of XML and Web Services based upstream oil and natural gas industry standards from Energistics and its PRODML Special Interest Group (PRODML SIG). 
+PRODML Standards support automated production data acquisition, operations monitoring, optimization, reporting, and configuration management business processes. PRODML-based interactions are used by production software components, including field data historians, surveillance applications, model analysis and management applications, optimization applications, simulation applications, etc. 
+The PRODML initiative was started in 2005 by five energy companies: BP, Chevron, ExxonMobil, Shell, and Statoil, joined by eight supplier companies: Halliburton, Invensys, Kongsberg, OSIsoft, Petroleum Experts, Schlumberger, Tieto, and Weatherford as well as Energistics.
+PRODML Standards evolved from the Energistics family of standards for drilling, completions and interventions, WITSML, initiated in 2000. 
+
+==EnergyML==
+
+EnergyML is the foundation for consistency and interoperability among all Energistics data transfer families of standards, including besides the PRODML Standards, WITSML for drilling, completions, and interventions and RESQML(tm) for reservoir characterization.
+
+==See also==
+
+* Energistics
+* WITSML
+
+==External links==
+
+* Energistics Web site
+* PRODML Standards Web site
+

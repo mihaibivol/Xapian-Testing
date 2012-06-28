@@ -1,0 +1,74 @@
+
+TED Notepad is a freeware portable text editor for Microsoft Windows. The software has been developed by Juraj Šimlovič since 2001, originally as a school project. It has a similar cosmetic look to Notepad, but provides variety of features for advanced plain-text editing. Includes experimental features like line completion or selection jumping.
+
+==Overview==
+
+Key features of TED Notepad include simple text-only interface, large variety of text-processing tools, supplemental text clipboards, high accessibility through hotkeys, and respectable number of settings and options. The application offers several innovative and experimental features like secondary search or line-sensitive completion. It is often described as swiss-army-knife text editor on web forums.
+Amongst innovative features, there is a secondary search, which allows to look for two different things at the same time. The editor also allows to select text to the next occurrence while searching. Another unusual feature is in go to dialog, which offers to select text upon jumping and to jump relatively from the current position.
+One of the experimental features is a line completion. Besides the standard word completion, which is based on a dictionary of the actual document, TED Notepad provides a simple way to complete words also according to line similarities. In comparison to the word completion, the line completion is capable of auto-completing punctuation, special characters and source code operators. Therefore, on lines with many operators and braces, completing source code by similar lines can be more efficient than completing by words.
+
+==Features==
+
+===Text tools===
+
+The most visible characteristic of TED Notepad is the amount of text functions it offers, including:
+* Several letter case conversions.
+* Conversions of newlines between Unix and Mac platforms.
+* Tools for reversing text, words or entire lines.
+* Tools for word wrapping and uwrapping lines.
+* Tools for (un)indenting, (un)closing or (un)tabifying text.
+* Exhaustive tool for sorting lines.
+* Unique lines tool, which can exclude or count duplicate lines.
+* Tool for translating characters into other characters.
+* Tool for cutting columns from text and adding line numbers.
+* Extensive text statistics that calculate 12 different values about text.
+* Support for external user-defined text plugins like grep.
+
+===Other features===
+
+Other practical features may include:
+* Favorite Esc key exit.
+* Many hotkeys.
+* Several internal clipboards for usual cliché.
+* File size limited only by actual memory available.
+* Word completion, based on the actual file dictionary - the words are offered according to words already typed.
+* Copy word/line above that quickly inserts words typed directly above - very handy for writing lists, where each line starts with the same/similar words.
+* Favorite files menu.
+* Auto indentation and Tabs as Spaces.
+* Minimize to System tray and stay on top.
+
+==Reception==
+
+===Awards and reviews===
+
+* "Pricelessware" award from alt.comp.freeware participants in 2007.Pricelessware 2007 TEXT
+* "Top 10 Freeware" awards from editors of Freeware-Guide.com in March 2006,Top 10 Freeware - March 2006 June 2006,Top 10 Freeware - June 2006 July 2006Top 10 Freeware - July 2006 and November 2006.Top 10 Freeware - November 2006
+* "6/6 ranking" and "100% Virus & Spyware Clean" award from editors of NoNags.com.NONAGS Text Editors - Freeware
+* "100% clean software" award from Softpedia.com reporting no adware, spyware or viruses present.Download TED Notepad 5.3.1 - TED Notepad is a light-weight plain-text editor with many hotkeys, clipboards and inovative (sic) features - Softpedia
+* Multiple reviews by editors of IDG media in November 2006Bästa textbehandlaren heter Ted och väger in på 116 kilobyte - IDG.se and January 2007.Ted vinner på knockout - IDG.se
+* Review by editors of Svet Kompjutera in December 2006.SVET KOMPJUTERA - PD KUTAK - TED Notepad 5.0.1
+
+===Criticism from users===
+
+To date, TED Notepad does not officially feature versions of the program in any language other than the original English version. The author furthermore forbids anyone to translate and distribute non-official nightly translations. Despite this, there are few non-official translations for Chinese and French, downloadable directly from the main homepage of the program. The author warns, however, about possible danger that may come from using these translations.TED Notepad - An expanding Notepad replacement
+Because of standard windows editbox architecture used in TED Notepad, the editor does not support some of the advanced display and editing techniques like syntax highlighting, line numbering, or block selection. Some users find these features to be the key features of many other professional text editors.
+Several users have requested improvements in design and visual feeling of the application, including the missing toolbar or multiple document interface. In response, the author stated that most of these suggestions were out of scope of his original interest.TED Notepad - An expanding Notepad replacement To date, none of these features was ever implemented. Several users also complained about the menu getting crammed by adding more and more features. Although the respectable number of various editing functions is the main feature of the application, it is also a sticking point of its design.
+Several users have reported various troubles when printing documents from TED Notepad, for example setting up a printing font size.
+
+==April Fools' hoax==
+
+On April 1, 2007, Juraj Šimlovič pulled an April Fools' hoax on the official web-page of the project. He claimed that Microsoft was going to acquire all TED Notepad sources and copyrights for $701.556, which was the current size of the source code (in bytes). The author, would no longer hold the right to develop and further distribute the program or its portions.TED Notepad - An expanding Notepad replacement
+According to the report, which was added later to the same site, the hoax took its price in visit count and visit-to-download rate.
+
+==See also==
+
+*List of text editors
+*Comparison of text editors
+
+== References ==
+
+==External links==
+
+*TED Notepad - An expanding Notepad replacement
+*TED Notepad manual and wiki
+

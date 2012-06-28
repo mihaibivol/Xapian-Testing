@@ -1,0 +1,42 @@
+
+Adventure Game Studio (acronym AGS) is a free softwareTweet by Ron Gilbert[tpl]cite web|url=http://freegamer.blogspot.com/2011/05/ags-adventure-game-studio-open-sourced.html |title=Free Gamer - Open Source Games: AGS: Adventure Game Studio open sourced |publisher=Freegamer.blogspot.com |date=2011-05-08 |accessdate=2012-04-23[/tpl] development tool that is primarily used to create graphical adventure games.[tpl]cite web|url=http://adventuregamestudio.co.uk/ac.shtml |title=What is ags? page on official site |publisher=Adventuregamestudio.co.uk |date=2011-04-17 |accessdate=2012-04-23[/tpl] It is aimed at intermediate-level game designers, and combines an Integrated development environment (IDE) for setting up most aspects of the game with a scripting language to process the game logic.
+
+==History==
+
+Adventure Game Studio was created by British programmer Chris Jones. AGS was originally released in 1997 as an MS-DOS program entitled "Adventure Creator". 
+Jones was inspired by the apparent simplicity of Sierra On-Line's adventure game interface, specifically as showcased in Space Quest IV: Roger Wilco and the Time Rippers.Interview: Chris Jones Adventure-Treff, September 8, 2002 The first version of Adventure Creator allowed users to create only low-resolution, keyboard-controlled games.
+Initially only small tests and demo games were created with AGS, and most of the more ambitious projects were cancelled. As a result of the lack of completed games and engine features, the user base was small, but the community grew slowly. Game developers started requesting more features so that they could create more complex games. Gradually, as these requests were implemented, AGS became a more capable toolkit and it was finally possible to create high-quality games with it.
+After a long period of slow activity, Lassi Quest was released as the first complete AGS game in late 1999. It was not until the Larry Vales and Rob Blanc games had been released in 2000-2001 that the engine gained widespread popularity. There is now an active community containing thousands of members, and a large output of completed games of all sizes. 
+AGS itself continues to be added to and improved upon, with the release of version 3.0 in January 2008 including a complete rewrite of the editor using the .NET Framework and an update to the game engine to support 3D hardware acceleration.
+On 26 October 2010, Chris Jones released the source code for the editor under the terms of the Artistic License, version 2.AGS Editor Source Code Release AGS Forums, October 26, 2010 On 27 April 2011, the runtime engine code was released under the same licence.Initial AGS Engine Source Code release AGS Forums, April 27, 2011
+
+==Capabilities==
+
+The editor and runtime engine are currently designed for Windows operating systems; though Mac OS and Linux ports[tpl]cite web|url=http://www.americangirlscouts.org/agswiki/GNU/Linux |title=AGS wiki: GNU/Linux |publisher=Americangirlscouts.org |date=2010-03-02 |accessdate=2012-04-23[/tpl] of older versions of the engine were also developed. Prior to AGS 2.7, a DOS engine was also available; this has since been discontinued. It is not yet possible to run the editor to create games on operating systems other than Windows without an emulator or API wrapper such as Wine.
+AGS can create games with a graphical range from 256 colours and a resolution of 320×200 (games with more "classic" looks) to truecolor games with a resolution of up to 1024×768 (games with more "modern" looks) and an alpha channel. The higher the resolution, the more demanding a game is on computer resources, resulting in the need for a faster computer.
+It also supports the following graphics filters: none, 2x nearest-neighbor, 3x nearest-neighbor, 4x nearest-neighbor, hq2x, hq3x.
+The program has the support of a sufficiently large number of multimedia formats: mod, S3M, wav, xm, midi, ogg, mp3, avi - version 2.61. Version 2.72 has support for IT and S3M.v2.7 Refresh 2 now released AGS Forums, May 2, 2005
+
+==Games==
+
+Thousands of games have been produced using AGS. Wadjet Eye Games is an Indie game business that has created most of its commercial titles using AGS, most notably the Blackwell series of games and Gemini Rue. The AGS Games Page[tpl]cite web|url=http://www.bigbluecup.com/games.php |title=Games - Adventure Game Studio |publisher=Bigbluecup.com |date= |accessdate=2012-05-27[/tpl] has a complete list; see also :Category:Games created using AGS.
+Development teams AGD Interactive and Infamous Adventures have remade and updated King's Quest and other Sierra releases. LucasFan Games have done the same with LucasArts adventure games.
+
+==Community==
+
+The AGS community is based on the AGS Forum[tpl]cite web|url=http://www.adventuregamestudio.co.uk/forum |title=AGS Forums - Index |publisher=Adventuregamestudio.co.uk |date= |accessdate=2012-05-27[/tpl] and the AGS Internet Relay Chat channel.[irc://irc.bigbluecup.com/AGS There have been real-world meetings of the community each summer for some years, known as "Mittens".http://www.americangirlscouts.org/agswiki/Mittens There is also an ongoing blog[tpl]cite web|url=http://ags-ssh.blogspot.com |title=The AGS blog |publisher=Ags-ssh.blogspot.com |date= |accessdate=2012-05-27[/tpl] covering the latest goings-on in AGS development, games and community. The community runs several competitions to create games, art, writing and music, as well as the annual AGS awards to honour the best of the year.
+
+==See also==
+
+* Amateur adventure game
+* Games created using AGS
+
+==References==
+
+==External links==
+
+* [tpl]Official website|http://www.adventuregamestudio.co.uk[/tpl]
+* Games made by AGS
+* AGS Wiki
+* Linux support page
+

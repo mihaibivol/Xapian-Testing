@@ -1,0 +1,60 @@
+
+SyncML (Synchronization Markup Language) is the former name for a platform-independent information synchronization standard. The project is currently referred to as Open Mobile Alliance Data Synchronization and Device Management. The purpose of SyncML is to offer an open standard as a replacement for existing data synchronization solutions, which have mostly been somewhat vendor-, application- or operating system specific.
+SyncML is most commonly thought of as a method to synchronize contact and calendar information (personal information manager) between some type of handheld device and a computer (personal, or network-based service), such as between a mobile phone and a personal computer. The new version of the specification includes support for push email, providing a standard protocol alternative to proprietary solutions like BlackBerry.
+Philippe Kahn was instrumental in the founding vision for synchronization with Starfish Software, later acquired by Motorola. The founding vision as expressed by Kahn was: "Global synchronization and integration of wireless and wireline devices".
+Several major companies such as Samsung, Motorola, Nokia, Sony Ericsson, LG, IBM and Siemens AG already support SyncML in their products. Some products by now use SyncML for more generic information synchronization purposes, such as to synchronize project task information across a distributed group of team members. SyncML may also be used as a base for backup solutions.
+
+==Problem areas==
+
+* A fairly intricate and vague protocol specification has meant that in general there are major interworking problems with different servers against different clients.
+* In addition to the server address, user name and password, SyncML requires a database name to be specified for opening a connection. This database name is not standardized, and different servers use different names for the same  service. E.g. one server might use card while another ./contacts for the contact database.
+* Only the over-the-air (OTA) interface has any degree of standardization (e.g. OMA CP 1.1, OTA 7.0) whereas synchronization over a local interface is not standardized, and requires specific solution for any device, if available at all.
+* According to the documentation in the Funambol SyncML wiki, there is no conflict resolution. The server can only be set to 'client wins' or 'server wins' in case a field has been edited both on server and on client.
+
+==Advantages==
+
+* The protocol is open and based upon standardized XML communication over HTTP POST which makes it relatively straightforward to implement on any platform.
+* Even though XML documents per definition are text based - the protocol is versatile enough to be used to synchronize any binary file format.
+* Many free services available, including clients and applications.
+
+==SyncML client connectors and plugins==
+
+==SyncML servers==
+
+1SAN = Server Alert Notification. This SyncML Push technology is based on definitions by the Open Mobile Alliance and extends the existing SyncML protocol specification by offering a method of server initiated synchronization.
+
+==SyncML hosted services==
+
+==See also==
+
+* iCalendar
+* The SyncML Initiative
+* Funambol - Free and open source SyncML server software.
+* OpenSync - Free and open source synchronization software written with C-language.
+* Yahoo! Mobile and Yahoo! Calendar - Yahoo services offered in some countries that uses SyncML technology.
+* CalDAV
+* CardDAV
+
+==References==
+
+* OMA Data Synchronization Working Group
+* OMA Data Synchronization V1.2.2 (including SyncML)
+* OpenSync - Open Source synchronization framework
+* libsynthesis - Open Source SyncML client library
+* Duct Tape Solution
+* Toolkits
+* LibSyncML - Open Source SyncML library
+* SyncML C Reference Toolkit
+* SyncML Conformance Test Suite
+* SyncML Compatible Devices list at Funambol.com
+* Everdroid - your phone on internet
+* Device Onboading & Device Client Suite at O3SIS.com
+* SyncML Compatible Devices list at Synchronica.com
+* SyncML Compatible Devices list at Zyb.com
+* SyncML Compatible Devices list at Comease.com 
+* SyncML Compatible Devices list at Synkia.com
+* SyncML Compatible Devices list at phonebackup.eu
+* SyncML Compatible Devices list at Memotoo.com
+* SyncML Compatible Devices list at Phonecopy.com
+* KeySyncML - A JavaCard library allowing SyncML data synchronisation at SIM card level.
+

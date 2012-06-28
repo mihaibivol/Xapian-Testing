@@ -1,0 +1,70 @@
+
+TokBox provides a free API that allows anyone to add group video chat features to their own websites.  Experienced programmers use the OpenTok API to build custom interactive video chat applications.  More casual users can download OpenTok plug-n-play apps that provide the same group video chat capability when users drop them into their personal blogs or websites.
+TokBox was founded by entrepreneurs Serge Faguet and Ron Hose and is financed by Sequoia Capital, Bain Capital and Youniversity Ventures. As of 2010, TokBox has received $14 million in series A and B funding and is headquartered in the South of Market district in San Francisco, CA.
+In 2011, TokBox changed its focus from running a branded video conferencing service to building the OpenTok API platform.http://www.xconomy.com/san-francisco/2011/08/04/tokbox-works-to-break-video-chat-out-of-its-siloes-flank-google-facebook/  
+
+==Features==
+
+===Multi-party video chat===
+
+TokBox's OpenTok platform allows users to start a multi-party video chat with up to 20 people. The API does not require download for use and it is set up to allow the creator of the video chat to invite non-tokbox users into the call via email, instant messaging or by publishing the URL on their Twitter / Facebook / MySpace accounts.
+OpenTok plug-n-play apps are downloadable widgets that allow users to quickly add group video chat functionality to their websites and blogs.
+
+===TokBox Platform & Partnerships===
+
+TokBox makes the OpenTok API available to partners who wish to add multi-party video chat to their own websites or applications.
+TokBox lists SlideShare, eBuddy, Bibbil, ProctorU, McKinney, and PokerView as partners who use the API.
+
+==History==
+
+===2007===
+
+August – Series A funding from Sequoia Capital [tpl]Citation needed|date=February 2012[/tpl] 
+
+October – Launched www.tokbox.com [tpl]Citation needed|date=February 2012[/tpl] 
+
+November – Launched multi-party chat and partnership with Meebo [tpl]Citation needed|date=February 2012[/tpl]
+
+===2008===
+
+April – TokBox Version 2 launched [tpl]Citation needed|date=February 2012[/tpl] 
+
+July – Series B Funding from Bain Capital Ventures and Sequoia Capital [tpl]Citation needed|date=February 2012[/tpl] 
+
+September – Launched the TokBox platform/ API [tpl]Citation needed|date=February 2012[/tpl]
+
+===2009===
+
+Added document collaboration tool—Etherpad (now owned by Google) [tpl]Citation needed|date=February 2012[/tpl]
+
+===2010===
+
+January rolled out its first set of paid features--$9.99 per month. [tpl]Citation needed|date=February 2012[/tpl]November announced the OpenTok API [tpl]Citation needed|date=February 2012[/tpl]
+
+===2011===
+
+February TokBox announced that as of April 5th, 2011 they will be discontinuing the TokBox video chat and video conferencing service to focus solely on their API, OpenTok.http://www.tokbox.com/blog/tokbox-speaks/breaking-up-is-hard-to-do/
+
+==Controversy==
+
+TokBox was the subject of controversy when 50% of their engineering staff was fired in July 2009. This happened around the time TokBox changed CEOs. The VP of Marketing is stated as saying the firings were part of the CEOs new restructuring plan. None of the original founders are currently with TokBox. [tpl]Citation needed|date=February 2012[/tpl]
+Around 2007, one of the users had privacy issues—his friend was able to connect to his account—allowing his friend to view and hear him talk to himself. However, Tokbox seems to have addressed this issue now. [tpl]Citation needed|date=February 2012[/tpl]
+
+== References ==
+
+* http://www.readwriteweb.com/enterprise/2009/08/tokbox-etherpad-video-chat-gets-real-time-document-editing.php
+* http://www.techcrunch.com/2010/01/18/tokbox-rolls-out-paid-features/
+* http://www.techcrunch.com/2009/11/16/tinychat-launches-live-video-streaming-portal-to-take-on-ustream-and-stickam/
+* http://ukwebfocus.wordpress.com/2007/09/19/tokbox-a-useful-video-conferencing-tool-or-something-sinister/
+* http://www.techcrunch.com/2009/07/09/tokbox-fires-50-of-engineering-team-all-founders-gone/
+* http://www.techcrunch.com/2007/10/14/tokbox-gets-some-nytimes-love/
+* http://www.tokbox.com/opentok/api/gallery
+
+== External links ==
+
+* Tokbox home page
+* Tokbox blog
+* PC Magazine article "Tokbox AIR"
+* Tokbox receives financing
+* Cnet article
+

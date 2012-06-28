@@ -1,0 +1,81 @@
+
+Vector space model or term vector model is an algebraic model for representing text documents (and any objects, in general) as vectors of identifiers, such as, for example, index terms. It is used in information filtering, information retrieval, indexing and relevancy rankings.  Its first use was in the SMART Information Retrieval System.
+
+==Definitions==
+
+Documents and queries are represented as vectors.
+Each dimension corresponds to a separate term. If a term occurs in the document, its value in the vector is non-zero. Several different ways of computing these values, also known as (term) weights, have been developed. One of the best known schemes is tf-idf weighting (see the example below).
+The definition of term depends on the application. Typically terms are single words, keywords, or longer phrases. If the words are chosen to be the terms, the dimensionality of the vector is the number of words in the vocabulary (the number of distinct words occurring in the corpus).
+Vector operations can be used to compare documents with queries.
+
+==Applications==
+
+Relevance rankings of documents in a keyword search can be calculated, using the assumptions of document similarities theory, by comparing the deviation of angles between each document vector and the original query vector where the query is represented as same kind of vector as the documents.
+In practice, it is easier to calculate the cosine of the angle between the vectors, instead of the angle itself:
+As all vectors under consideration by this model are elementwise nonnegative, a cosine value of zero means that the query and document vector are orthogonal and have no match (i.e. the query term does not exist in the document being considered). See cosine similarity for further information.
+
+==Example: tf-idf weights==
+
+and
+Using the cosine the similarity between document dj and query q can be calculated as:
+
+==Advantages==
+
+The vector space model has the following advantages over the Standard Boolean model:
+#Simple model based on linear algebra
+#Term weights not binary
+#Allows computing a continuous degree of similarity between queries and documents
+#Allows ranking documents according to their possible relevance
+#Allows partial matching
+
+==Limitations==
+
+The vector space model has the following limitations:
+#Long documents are poorly represented because they have poor similarity values (a small scalar product and a large dimensionality)
+#Search keywords must precisely match document terms; word substrings might result in a "false positive match"
+#Semantic sensitivity; documents with similar context but different term vocabulary won't be associated, resulting in a "false negative match".
+#The order in which the terms appear in the document is lost in the vector space representation.
+#Assumes terms are statistically independent
+#Weighting is intuitive but not very formal
+Many of these difficulties can, however, be overcome by the integration of various tools, including mathematical techniques such as singular value decomposition and lexical databases such as WordNet.
+
+==Models based on and extending the vector space model==
+
+Models based on and extending the vector space model include:
+* Generalized vector space model
+*  (enhanced) Topic-based Vector Space Model
+* Latent semantic analysis
+* Latent semantic indexing
+* DSIR model
+* Term Discrimination
+* Rocchio Classification
+
+==Software that implements the vector space model==
+
+The following software packages may be of interest to those wishing to experiment with vector models and implement search services based upon them.
+
+===Free open source software===
+
+* Apache Lucene. Apache Lucene is a high-performance, full-featured text search engine library written entirely in Java.
+* SemanticVectors. Semantic Vector indexes, created by applying a Random Projection algorithm (similar to Latent semantic analysis) to term-document matrices created using Apache Lucene.
+* Gensim is a Python+NumPy framework for Vector Space modelling. It contains incremental (memory-efficient) algorithms for Tf–idf, Latent Semantic Indexing, Random Projections and Latent Dirichlet Allocation.
+* Compressed vector space in C++ by Antonio Gulli
+* Text to Matrix Generator (TMG)  MATLAB toolbox that can be used for various tasks in text mining specifically  i) indexing, ii) retrieval, iii) dimensionality reduction, iv) clustering, v) classification. Most of TMG is written in MATLAB and parts in Perl. It contains implementations of LSI, clustered LSI, NMF and other methods.
+* SenseClusters, an open source package that supports context and word clustering using Latent Semantic Analysis and word co-occurrence matrices.
+* S-Space Package, a collection of algorithms for exploring and working with statistical semantics.
+
+==Further reading==
+
+* G. Salton, A. Wong, and C. S. Yang (1975), "A Vector Space Model for Automatic Indexing," Communications of the ACM, vol. 18, nr. 11, pages 613–620. (Article in which a vector space model was presented)
+* David Dubin (2004), The Most Influential Paper Gerard Salton Never Wrote (Explains the history of the Vector Space Model and the non-existence of a frequently cited publication)
+* Description of the vector space model
+* Description of the classic vector space model by Dr E Garcia
+
+==See also==
+
+*Inverted index
+*Compound term processing
+
+==References==
+
+

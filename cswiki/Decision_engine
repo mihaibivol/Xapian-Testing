@@ -1,0 +1,37 @@
+
+A decision engine is a type of web search engine that uses input gathered from the user in order to provide more relevant or targeted results.
+Traditional search engines provide results based on key words and site popularity meaning that all users searching for the same phrase receive identical results.  A decision engine uses input to provide customized results for each individual.
+
+==Overview==
+
+Typically, a decision engine operates in one of two ways.  The first is to ask for input at the time of search.  For example, when searching for a digital camera, the engine will allow the user to specify the importance of criteria, such as screen size, megapixels, zoom, body color, etc.  The engine then provides a list only of items that match the user's conditions, removing the need for them to compare specs for all items manually.
+The second way a decision engine can function is by forming a long-term relationship with the user in order to establish preferences and tastes.  Once the engine has a stable profile of the user, it is able to provide very accurate, individual results based on that familiarity.  For example if the user has been using a decision engine to search for puppies and the user inputs the search query “Doxin”, then results including dogs will be ranked more highly.
+
+==Bing==
+
+Microsoft's search engine Bing has been heavily advertised as a "decision engine"http://newsbreaks.infotoday.com/NewsBreaks/Microsofts-New-BingThe-Decision-Engine-54514.asp, though thought by columnist David Berkowitz to be more closely related to a web portal.http://adage.com/digitalnext/post?article_id=137007  It allows users to book flights, watch Hulu, and view movie times all while staying on the Bing site.  It does not provide individualized search results. Bing provides individualized results in the form of physical location as well as search history.http://www.pcmag.com/article2/0,2817,2380080,00.asp  For example when a user inputs “university” Bing will rank local Universities more highly.
+
+==Applications==
+
+===Goldfire from Invention Machine===
+
+Goldfire is a decision engine designed to connect engineers, scientists, and researchers at manufacturing organizations, to one another, and to the information they need to arrive at optimal product decisions. The software consists of 3 main areas: research, collaboration, and idea generation.
+
+===Hunch===
+
+Hunch is a website, designed as a collective intelligence decision-making system that uses decision trees to make decisions based on users' interest.
+
+===Pikimal===
+
+Pikimal has developed a website that uses "Pikis" to help users find the best results to fit their specific needs for various topics. For example, if a user is searching for the best dog breed they can choose a popular template, such as "best dog breed for apartments," or they can adjust all of the criteria manually (size, shed, personality, etc.). This allows a user to express their interests in a product or search via a percentage of preference and to filter unwanted results.
+
+== See also ==
+
+*Web search engines
+*Selection-based search
+*Semantic search
+*List of search engines
+
+==References==
+
+

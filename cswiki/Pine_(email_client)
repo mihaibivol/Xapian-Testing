@@ -1,0 +1,46 @@
+
+Pine is a freeware, text-based email client developed at the University of Washington.  The first version of this client was written in 1989.[tpl]Cite web|url=http://www.washington.edu/pine/overview/project-history.html|title=Pine Project History|accessdate=2009-03-31[/tpl] Source code was available for only the Unix version under a license written by the University of Washington.  Pine is no longer under development, and has been replaced by the new Alpine client, which is licensed as free software.
+
+==Supported platforms==
+
+There are both Unix and Windows versions of Pine. The Unix version is text user interface based—its message editor inspired the text editor Pico.  The Windows (and formerly DOS) version is called PC-Pine. WebPine is available to individuals associated with the University of Washington (students, faculty, etc.)—a version of Pine implemented as a web application.
+
+==Etymology==
+
+Many people believe that Pine stands for "Pine Is Not Elm". However, one of its original authors, Laurence Lundblade, insists this was never the case and that it started off simply as a word and not an acronym, and that his first choice of a backronym for pine would be "Pine Is Nearly Elm".  Over time it was changed by the university to mean Program for Internet News and E-mail.[tpl]Cite web|url=http://www.island-resort.com/pine.htm|accessdate=2006-08-12|title=Laurence's home page: Naming Pine[/tpl]
+
+==Licensing and clones==
+
+Up to version 3.9.1, the Pine license was similar to BSD, and it stated that
+:Permission to use, copy, modify, and distribute this software and its documentation for any purpose and without fee to the University of Washington is hereby granted …
+The University did, however, register a trademark for the name Pine.
+From version 3.9.2, the holder of the copyright, the University of Washington, changed the license so that even if the source code was still available, they did not allow modifications and changes to Pine  to be distributed by anyone other than themselves. They also claimed that even the old license never allowed distribution of modified versions.[tpl]Cite web|url=http://lists.debian.org/debian-legal/2002/11/msg00138.html|title=Branden Robinson remembers UW's unique interpretation of the BSD license|accessdate=2009-08-06[/tpl]
+The trademark for the Pine name was part of their position in this matter.[tpl]Cite web|url=http://linuxmafia.com/~rick/faq/index.php?page=warez#pine|title=What's wrong with Pine|accessdate=2006-07-17[/tpl]
+In reaction, some developers forked version 3.9.1 under the name MANA (for Mail And News Agent) to avoid the trademark issue and the GNU project adopted it as GNU Mana.  Richard Stallman claims that the University of Washington threatened[tpl]Cite web|url=http://lists.debian.org/debian-legal/2000/09/msg00014.html|title=RMS said that UW threatened to sue the FSF|accessdate=2006-12-14[/tpl] to sue the Free Software Foundation for distributing the modified Pine program, resulting in the development of MANA ceasing and no versions being released. [tpl]Cite web|url=http://members.tripod.com/pooka_regent/ethics.html|title=The Golden Rule as Applied to Intellectual Property|accessdate=2006-07-17|date=2002-12-12[/tpl]
+The University of Washington later modified their license somewhat to allow unmodified distribution of Pine alongside collections of free software, but the license still does not conform to the Open Source and the Free Software Guidelines so it is semi-free software.
+
+==Alpine==
+
+In 2006, the University of Washington announced that it stopped development of Pine with Pine 4.64, although Pine continues to be supported.
+In its place is a new family of email tools based upon Pine, called Alpine and licensed under the Apache License, version 2.  November 29, 2006 saw the first public alpha release,[tpl]Cite web|url=http://permalink.gmane.org/gmane.mail.pine.general/3602|title=Announce of Alpine 0.8|accessdate=2006-12-14[/tpl][tpl]Cite web|url=ftp://ftp.cac.washington.edu/alpine/|title=Alpine FTP download directory|accessdate=2006-12-19[/tpl] which forms a new approach since the alpha test of Pine was always non-public.
+Alpine 1.0 was publicly released on December 20, 2007. Version 2.0 was released in 26 August, 2008.[tpl]Cite web|url=http://www.washington.edu/alpine/changes.html|title=Alpine Cronology|accessdate=2010-05-14[/tpl]
+
+==See also==
+
+*Alpine (email client)
+*Comparison of email clients
+
+==References==
+
+==External links==
+
+*[tpl]official website|http://www.washington.edu/pine[/tpl]
+*Alpine's official homepage
+*Pine User statistics (Not updated since April 2007)
+*FAQ for comp.mail.pine
+*All about pine
+*WebPine FAQ
+*Pine and PGP
+**Win32 client - The Windows version is usable as a portable application.
+**Linux client
+

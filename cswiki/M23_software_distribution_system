@@ -1,0 +1,26 @@
+
+m23 is a software distribution and management system for the Debian, Ubuntu, Kubuntu Linux, Xubuntu, Linux Mint, Fedora and openSUSE distributions.
+m23 can partition and format clients and install a Linux operating system and thousands of software packages like office packages, graphic tools, server applications or games via the m23 system. The entire administration is done via a webbrowser and is possible on all computers having access to the m23 server. m23 is developed predominantly by Hauke Goos-Habermann since the end of 2002.
+m23 differentiates between servers and clients. An m23 server is used for software distribution and the management of the clients. Computers which are administrated (e.g. software is installed) through the m23 server are the clients.
+The client is booted over the network during the installation of the operating system. It is possible to start the client with a bootrom on its network card, a boot disk or a boot CD. The client's hardware is detected and set up. The gathered hardware and partition information is sent to the m23 server. Afterwards, this information is shown in the m23 administration interface. Now the administrator has to choose how to partition and format the client. There are other settings, too, e.g. the distribution to be installed on the client.
+The m23 clients can be installed as workstation with the graphical user interfaces KDE 3.x, GNOME 2.x, Xfce and pure X11 or as a server without graphical subsystem. In most server setups, the server doesn't need a user interface because most of the server software runs in text mode. If you choose the Ubuntu distribution you can install "Ubuntu desktop" (Gnome based) or "Kubuntu desktop" (KDE based) on Kubuntu.
+M23 is released under the GNU GPL.
+
+==Some features==
+
+(The complete and topical list of all features is available at http://m23.sf.net/links/news.php?id=1000000007)
+* Three steps to your complete client: To install a client via m23 is rather simple. Only three steps are needed for a completely installed client.
+* Integration of existing clients into m23: Existing Debian systems can be assimilated into the m23 system easily and administrated like a normal client (installed with m23).
+* Group functions: You will like the convenient group functions if you have a big amount of clients that need to install new software or if other routine jobs need to be done. E.g. a new software package can be installed on all clients or be removed from all clients of a group. In addition, an update or client recovery can be accomplished on all group members.
+* Mass installation: The mass installation tools are handy, if you need to install a big amount of clients with similar requirements. A virtual client, that holds the basic settings (such as the default gateway or the group name), is defined. This virtual client can be used to derive and install an arbitrary number of (real) clients.
+* Imaging: Installation using image files: An image file of a partition or entire harddisk can be used to install other clients. These image files are taken from installed clients with all their software packages and settings.
+* Support for software RAIDs: Partitions or entire harddrives can be combined into software RAIDs. m23 supports the RAID levels 0, 1, 4, 5, 6 and 10. RAIDs can be used like normal partitions to install operating systems to or to use them as swap or storage space.
+* User management with LDAP: User accounts can be stored on a central LDAP server. This increases the ease of use in environments with many clients and a lot of users. The OpenLDAP server is shipped with the m23 server and can be administrated via the highly integrated phpLDAPadmin.
+* Pool builder: The pool builder makes it possible to combine software packages from different media (CD, DVD, internet) on the m23 server and convert them to a package source. These package sources can be used to install clients. This can be done without an internet connection or if the internet connection is rather slow. It is possible, too, to add selfmade packages to the pool.
+
+==External links==
+
+* m23 project page with forum, download of the m23 server installation CD,...
+* List of all m23 features
+* Page of the developer for commercial support and development
+

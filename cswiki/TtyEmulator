@@ -1,0 +1,64 @@
+
+TtyEmulator is a Freeware terminal emulator application which can act as a client for the SSH, Telnet, rlogin, and raw TCP computing protocols and as a serial console client.  
+TtyEmulator is written for Microsoft Windows, but it will be ported to various other operating systems, if requested.
+TtyEmulator was written and is maintained by FCS. Several release type can be fetched by the autoupdate feature. 
+
+Users can use this software freeof charge even for private companies.
+
+== Features ==
+
+===Global features===
+
+* Session manager included with two layouts (tree mode or folders).
+* User defined Hotkey to access to the Sessions manager.
+* Help file included only at the moment, English translation is in progress
+* URL registering for Windows
+* Portable Edition : Enables user to store the software, configuration file, and even personal language file on an external storage (USB key, etc.)
+* Users can edit configuration file, while using portable edition (Configuration file in XML format).
+* Proxy support (Socks 4,4a,5, http, local) (proxy authentication also supported)
+* Scripting (with special escape characters support)
+* Auto-update feature.
+* Global and/or session specific Contextual commands.
+* SSH bouncing management (Enables users to connect to a first ssh server and then automatically make a second connection to another ssh server).
+* Display detailed informations about established SSH communications.
+* zlib(at)openssh.com compression support
+* Several languages support (French and English included by default), Users can make language file in order to adapt this software to their natural language.
+* Specifics commands support for :
+** SSH (Ssh bouncing specific commands included)
+** Telnet
+** Serial communication
+* Predefined display (80x25, 132x50, fullscreen, etc.)
+* X11 server automatic launching at session startup.
+* FileZilla or WinSCP interfacing
+
+===Session specific features===
+
+* Eye-candy display features (customized background, font, size, etc.)
+* Own clipboard with eight entries.
+* Session scroll locking.
+* Enables users to easily create Windows shortcuts for sessions.
+* Customized buffer size.
+* User defined session icon.
+
+== Bundled Applications ==
+
+Main functions are realized by TtyEmulator files themselves :
+* TtyEmulator - the Telnet and SSH, serial, tcp-raw, and udpserver itself;
+* SSh Agent - The SSH agent can also emulate Pagent (the PuTTY Ssh agent);
+* Tftp Client - A TFTP client is included.
+
+== See also ==
+
+* Comparison of SSH clients
+* SecureCRT
+* PuTTY
+* Cygwin/X
+* WinSCP
+* FileZilla
+* Xming
+
+==External links==
+
+* [tpl]fr-icon[/tpl] Project home page
+* TtyEmulator's direct download link
+

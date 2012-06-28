@@ -1,0 +1,40 @@
+
+Preference learning is a subfield in machine learning in which the goal is to learn a predictive preference model from observed preference information. In the view of supervised learning, preference learning trains on a set of items which have preferences toward labels or other items and predicts the preferences for all items.
+While the concept of preference learning has been emerged for some time in many fields such as economics, it's a relatively new topic in Artificial Intelligence research. Several workshops have been discussing preference learning and related topics in the past decade.
+
+==Tasks==
+
+The main task in preference learning concerns problems in "learning to rank". According to different types of preference information observed, the tasks are categorized as three main problems in the book Preference Learning :
+
+===Label ranking===
+
+===Instance ranking===
+
+===Object ranking===
+
+==Techniques==
+
+===Utility function===
+
+Finding the utility function is a regression learning problem which is well developed in machine learning.
+
+===Preference relations===
+
+The binary representation of preference information is called preference relation. For each pair of alternatives (instances or labels), a binary predicate can be learned by conventional supervising learning approach. F\"{u}nkranz, Johannes and H\"{u}lermeier proposed this approach in label ranking problem. For object ranking, there is an early approach by Cohen et al.
+Using preference relations to predict the ranking will not be so intuitive. Since preference relation is not transitive, it implies that the solution of ranking satisfying those relations would sometimes be unreachable or more than one solution. A more common approach is to find a ranking solution which is maximally consistent with the preference relations. This approach is a natural extension of pairwise classification.
+
+==Uses==
+
+Preference learning can be used in ranking search results according to feedback of user preference. Given a query and a set of documents, a learning model is used to find the ranking of documents corresponding to the relevance with this query. More discussions on research in this field can be found in Tie-Yan Liu's survey paper.
+Another application of preference learning is recommender systems. Online store may analyze customer's purchase record to learn a preference model and then recommend similar products to customers. Internet content providers can make use of user's ratings to provide more user preferred contents.
+
+==See also==
+
+*Learning to rank
+
+==References==
+
+==External links==
+
+*Preference Learning site
+

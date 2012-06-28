@@ -1,0 +1,16 @@
+
+Ninite is a service that lets users automatically install popular applications for their operating systemhttp://www.pcworld.com/article/181329/free_tools_for_finetuning_your_windows_7_setup.html. It allows users to make a selection from a list of applications and bundles the selection into a single installer package. There are currently two versions of the service, for Windows and Linux. It is free for personal use. A paid version, Ninite Pro, is available for business use. Ninite is developed by Patrick Swieskowski and Sascha Kuzins.
+
+== Features ==
+
+Ninite works on Windows XP, Windows Vista, Windows 7 and Debian-based variants of Linux, such as Ubuntu. It presents the user with a list of programs and generates a custom installer executable based on the user's selection http://lifehacker.com/5388408/ninite-bulk+installs-great-free-windows-apps. When run, the installer downloads and installs the selected applications. The authors of this program claim that their installer does not interfere with your system when you use it to install software chosen from their servicehttp://ninite.com/, although the Linux version does send some information back to the developers.http://www.omgubuntu.co.uk/2010/09/ninite-for-linux-beta-released-installs-apps-for-you-though-can-it-be-trusted
+
+== Other names ==
+
+Ninite was called Volery during the private beta. The name was changed to Ninite when the authors released the official version on their site. http://www.howtogeek.com/howto/4774/getvolery-makes-installing-software-incredibly-simple
+
+== References ==
+
+== External links ==
+
+

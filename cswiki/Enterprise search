@@ -1,0 +1,75 @@
+
+Enterprise search is the practice of making content from multiple enterprise-type sources, such as databases and intranets, searchable to a defined audience.
+
+==Enterprise search summary==
+
+"Enterprise Search" is used to describe the software of search information within an enterprise (though the search function and its results may still be public). http://www.aiim.org/What-is-Enterprise-Search Enterprise search can be contrasted with web search, which applies search technology to documents on the open web, and desktop search, which applies search technology to the content on a single computer.
+Enterprise search systems index data and documents from a variety of sources such as: file systems, intranets, document management systems, e-mail, and databases. Many enterprise search systems integrate structured and unstructured data in their collections.http://www.allbusiness.com/management/3604258-1.html Enterprise search systems also use access controls to enforce a security policy on their users.http://www.ideaeng.com/tabId/98/itemId/118/Mapping-Security-Requirements-to-Enterprise-Search.aspx
+
+==Components of an enterprise search system==
+
+In an enterprise search systems, content goes through various phases from source repository to search results:
+
+=== Content ingestion ===
+
+Content ingestion (or "content collection") is usually either a push or pull model. In the push model, a source system is integrated with the search engine in such a way that it connects to it and pushes new content directly to its APIs. This model is used when realtime indexing is important. In the pull model, the software gathers content from sources using a connector such as a web crawler or a database connector. The connector typically polls the source with certain intervals to look for new, updated or deleted content.Understanding Content Collection and Indexing
+
+=== Content processing and analysis ===
+
+Content from different sources may have many different formats or document types, such as XML, HTML, Office document formats or plain text. The content processing phase processes the incoming documents to plain text using document filters. It is also often necessary to normalize content in various ways to improve recall or precision. These may include stemming, lemmatization, synonym expansion, entity extraction, part of speech tagging.
+As part of processing and analysis, tokenization is applied to split the content into tokens which is the basic matching unit. It is also common to normalize tokens to lower case to provide case-insensitive search, as well as to normalize accents to provide better recall.http://packages.python.org/Whoosh/stemming.html
+
+=== Indexing ===
+
+The resulting text is stored in an index, which is optimized for quick lookups without storing the full text of the document. The index may contain the dictionary of all unique words in the corpus as well as information about ranking and term frequency.
+
+=== Query parsing ===
+
+Using a web page, the user issues a query to the system. The query consists of any terms the user enters as well as navigational actions such as faceting and paging information.
+
+=== Matching ===
+
+The processed query is then compared to the stored index, and the search system returns results (or "hits") referencing source documents that match. Some systems are able to present the document as it was indexed.
+
+==Differences from web search==
+
+Beyond the difference in the kinds of materials being indexed, enterprise search systems also typically include functionality that is not associated with the mainstream web search engines. These include:
+*Adapters to index content from a variety of repositories, such as databases and content management systems.
+*Federated search, which consists of
+# transforming a query and broadcasting it to a group of disparate databases or external content sources with the appropriate syntax,
+# merging the results collected from the databases,
+# presenting them in a succinct and unified format with minimal duplication, and
+# providing a means, performed either automatically or by the portal user, to sort the merged result set.
+*Enterprise bookmarking, collaborative tagging systems for capturing knowledge about structured and semi-structured enterprise data.
+*Entity extraction that seeks to locate and classify elements in text into predefined categories such as the names of persons, organizations, locations, expressions of times, quantities, monetary values, percentages, etc.
+*Faceted search, a technique for accessing a collection of information represented using a faceted classification, allowing users to explore by filtering available information.
+*Access control, usually in the form of an Access control list (ACL), is often required to restrict access to documents based on individual user identities. There are many types of access control mechanisms for different content sources making this a complex task to address comprehensively in an enterprise search environment.
+*Text clustering, which groups the top several hundred search results into topics that are computed on the fly from the search-results descriptions, typically titles, excerpts (snippets), and meta-data.  This technique lets users navigate the content by topic rather than by the meta-data that is used in faceting. Clustering compensates for the problem of incompatible meta-data across multiple enterprise repositories, which hinders the usefulness of faceting.
+*User interfaces, which in web search are deliberately kept simple in order not to distract the user from clicking on ads, which generates the revenue.  Although the business model for enterprise search could include showing ads, in practice this is not done.  To enhance end user productivity, enterprise vendors continually experiment with rich UI functionality which occupies significant screen space, which would be problematic for web search.
+
+==Relevance factors for enterprise search==
+
+The factors that determine the relevance of search results within the context of an enterprise overlap with but are different from those that apply to web search. In general, enterprise search engines cannot take advantage of the rich link structure as is found on the web's hypertext content, however, a new breed of Enterprise search engines based on a bottom-up Web 2.0 technology are providing both a contributory approach and hyperlinking within the enterprise. Algorithms like PageRank exploit hyperlink structure to assign authority to documents, and then use that authority as a query-independent relevance factor. In contrast, enterprises typically have to use other query-independent factors, such as a document's recency or popularity, along with query-dependent factors traditionally associated with information retrieval algorithms.  Also, the rich functionality of enterprise search UIs, such as clustering and faceting, diminish reliance on ranking as the means to direct the user's attention.
+
+==Search Relevance Testing options==
+
+Search application relevance can be determined by following relevance testing options:Enterprise search application Relevance testing options
+*Empirical Testing
+*A/B Testing
+*Log Analysis on a Beta Production Site
+*Online Ratings.
+
+==See also==
+
+*List of enterprise search vendors
+* Collaborative Search Engine
+*Enterprise bookmarking
+*Enterprise information access
+*Knowledge management
+*Text mining
+*Faceted search
+*Information Extraction
+
+==References==
+
+

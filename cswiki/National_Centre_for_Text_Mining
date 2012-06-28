@@ -1,0 +1,26 @@
+
+The National Centre for Text Mining (NaCTeM)
+[tpl]cite journal| author=Ananiadou S| title=The National Centre for Text Mining: A Vision for the Future | journal=Ariadne | year= 2007 | issue= 53 | url=http://www.ariadne.ac.uk/issue53/ananiadou/  [/tpl] is a publicly funded text mining (TM) centre. It was established to provide support, advice, and information on TM technologies and to disseminate information from the larger TM community, while also providing tailored services and tools in response to the requirements of the United Kingdom academic community. 
+The software tools and services which NaCTeM supplies allow researchers to apply text mining techniques to problems within their specific areas of interest - examples of these tools are highlighted below. In addition to providing services, the Centre is also involved in, and makes significant contributions to, the text mining research community both nationally and internationally in initiatives such as UK PubMed Central.
+The Centre is located in the Manchester Interdisciplinary Biocentre and is operated and organized by the University of Manchester School of Computer Science. NaCTeM contributes expertise in information extraction, natural language processing and parallel and distributed mining systems.
+
+==Services==
+
+TerMine is a domain independent method for automatic term recognition which can be used to help locate the most important terms in a document and automatically ranks them. [tpl]cite journal| author=Frantzi, K., Ananiadou, S. and Mima, H.| title=Automatic recognition of multi-word terms | journal=International Journal of Digital Libraries | year= 2007 | volume=3 |issue= 2 | pages= 117-132|  url=http://personalpages.manchester.ac.uk/staff/sophia.ananiadou/IJODL2000.pdf [/tpl] 
+AcroMine finds all known expanded forms of acronyms as they have appeared in Medline entries or conversely, it can be used to find possible acronyms of expanded forms as they have previously appeared in Medline and disambiguates them.[tpl]cite journal| author=Okazaki N, Ananiadou S| title=Building an abbreviation dictionary using a term recognition approach. | journal=Bioinformatics | year= 2006 | volume= 22 | issue= 24 | pages= 3089–95 | pmid=17050571 | doi=10.1093/bioinformatics/btl534 | pmc= | url=http://www.ncbi.nlm.nih.gov/entrez/eutils/elink.fcgi?dbfrom=pubmed&tool=sumsearch.org/cite&retmode=ref&cmd=prlinks&id=17050571  [/tpl] 
+Medie is  an intelligent search engine, for semantic retrieval of sentences containing biomedical correlations from Medline abstracts.
+ Facta+ is a MEDLINE search engine for finding associations between biomedical concepts.[tpl]cite journal| author=Tsuruoka Y, Tsujii J, Ananiadou S| title=FACTA: a text search engine for finding associated biomedical concepts | journal=Bioinformatics | year= 2008 | volume= 24 | issue= 21 | pages= 2559–60 | pmid=18772154 | doi=10.1093/bioinformatics/btn469 | pmc=2572701   [/tpl] 
+KLEIO is a faceted semantic information retrieval system based on MEDLINE.
+Info-PubMed provides information and graphical representation of biomedical interactions extracted from Medline using deep semantic parsing technology. This is supplemented with a term dictionary consisting of over 200,000 protein/gene names  and identification of disease types and organisms.
+
+==Resources==
+
+BioLexicon a large-scale terminological resource for the biomedical domain
+GENIA a collection of reference materials for the development of biomedical text mining systems
+
+==References==
+
+==External links==
+
+* http://www.nactem.ac.uk
+

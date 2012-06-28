@@ -1,0 +1,51 @@
+
+The Turnkey Linux Virtual Appliance Library is an open source project developing a free virtual appliance library of pre-packaged servers based on Ubuntu that can be deployed on virtual machines, in cloud computing infrastructures or installed in physical computers.
+
+== Features ==
+
+Each virtual appliance is a ready-to-use solution that's optimized for ease of use in server-type usage scenarios.[tpl]cite web | title = Software Appliance | work = TurnKey Linux | url = http://www.turnkeylinux.org/ | accessdate = March 23, 2009 [/tpl] Each appliance is designed to "just work" with little to no configuration required.
+The project currently maintains over 40 virtual appliances, which are packaged in multiple build formats:
+# Amazon Machine Image: provisioned on-demand via the Amazon Elastic Compute Cloud.
+# Virtual appliance: a ready-to-run Virtual Machine with optimized builds available for  OpenStack, OVF, OpenVZ and Xen. Does not require installation. TKL OVZ appliances are also available in Proxmox VE with direct download from within the PVE WebUI (via TKL mod for PVE v1.x [tpl]cite web |url=http://www.turnkeylinux.org/blog/openvz-proxmox |title=Announcing TurnKey OpenVZ optimized builds (+ Proxmox VE channel)|date=24 February 2012 |work=Alon Swartz |accessdate=15 April 2012[/tpl] or by default from PVE v2.0 on[tpl]cite web |url=http://forum.proxmox.com/threads/8462-Appliance-downloads-are-back-%28Proxmox-VE-2-0rc1%29-including-TurnKey-Linux-library |title=Appliance downloads are back (Proxmox VE 2.0rc1) including TurnKey Linux library|date=23 February 2012 |work=Martin Maurer - Proxmox VE project lead via ProxmoxVE announcement thread|accessdate=15 April 2012[/tpl]
+# Installable Live CD: an ISO image which installs on both bare metal (I.e., a non-virtualized physical machine) and virtual machines, including VMware, Xen, VirtualBox, and KVM. This image can also run live in non-persistent demo mode.
+Pre-integrated server applications include LAMP, Joomla, Drupal, WordPress, MySQL, MediaWiki, Domain controller, File server, Ruby on Rails, phpBB, and many others.
+
+== History ==
+
+Founded by engineers of an Israeli startup,[tpl]cite news | last = Scannell | first = Ed | date = March 10, 2009 | title = TurnKey Linux Delivers Open Source Appliances | work = InformationWeek | url = http://www.informationweek.com/news/software/linux/showArticle.jhtml?articleID=215801604&subSection=Integration | accessdate = March 23, 2009 [/tpl] the project was conceived in mid-2008 as a community-oriented open source project that would focus on helping users piece together turnkey solutions from open source components in the largest Linux distributions. According to one of TurnKey Linux's co-founders, the project was in part inspired by a desire to provide open source alternatives to proprietary virtual appliance vendors that would be aligned with user interests and could engage the community.[tpl]cite news | last = Panettieri | first = Joe | date = March 12, 2009 | title = 12 Ubuntu Server Appliances Meet the Cloud | work = WorksWithU | url = http://www.workswithu.com/2009/03/12/12-ubuntu-server-appliances-meet-the-cloud/ | accessdate = March 23, 2009 [/tpl]
+The project launched in September 2008 with three prototype appliances for Drupal, Joomla and LAMP, based on the Ubuntu 8.04.1 build.[tpl]cite journal | year = 2008 | title = TurnKey Linux: new project builds Ubuntu based Live CD appliances | journal = Ubuntu Weekly Newsletter | issue = 108 | url = https://wiki.ubuntu.com/UbuntuWeeklyNewsletter/Issue108#TurnKey%20Linux:%20new%20project%20builds%20Ubuntu%20based%20Live%20CD%20appliances | accessdate = March 23, 2009 [/tpl] In the following months usability was improved and a dozen additional appliances were released including Ruby on Rails, MediaWiki and Django.[tpl]cite news | last = Fransen | first = Matto | date = February 25, 2009 | title = Kant-en-klare open source bedrijfsapplicaties | work = Infoworld | url = http://www.infoworld.nl/web/Artikel/Kant-en-klare-open-source-bedrijfsapplicaties.htm | accessdate = March 23, 2009 [/tpl] 
+In October 2009, the project released 40 appliances based on Ubuntu 8.04.3 including 25 new additions to the virtual appliance library. The release included support for Amazon Elastic Compute Cloud, and a new Virtual Machine image format with OVF support.
+TurnKey Linux was listed as a winner of the 2009 "Bossies" by InfoWorld as one of the "Top 40 open source products" of that year.[tpl]cite news | last1 = Dineley | first1 = Doug | last2 = Borck | first2 = James R. | last3 = Mobley | first3 = High | date = August 31, 2009 | title = Best of Open Source Software Awards 2009 | work = InfoWorld | url = http://infoworld.com/d/open-source/best-open-source-software-awards-2009-628?page=0,2 | accessdate = 24 February 2010 [/tpl]2009 BOSSie for Open Source Platforms and Middleware, see Slide 7
+Turnkey Linux was nominated for the SourceForge February 2012 Project of the Month[tpl]cite web |url= http://sourceforge.net/blog/february-potm-vote/ | title=SourceForge.net: VOTE for the February Project Of The Month|date=10 January 2012 |work=SourceForge.net |accessdate=15 April 2012[/tpl]
+
+== Design ==
+
+TurnKey's virtual appliances are a series of "stripped down" versions of Ubuntu. To this they add the TurnKey Core, which includes all the common features for the project's virtual appliances,[tpl]cite web | title = TurnKey Linux Core - Common Base Appliance | work = TurnKey Linux | url = http://www.turnkeylinux.org/core | accessdate = March 23, 2009 [/tpl] including:
+* di-live: a live installer, derived from debian-installer.
+* A configuration console: developed in Python for the project to allow users to perform basic configuration tasks (for example, networking configuration, reboots)
+* An automatic mechanism that installs security patches on a daily basis.
+* Web administration interface based on Webmin which includes a selection of generic add-on control and configuration modules.
+The TurnKey Core has a footprint of approximately 110 MB, and is available as a separate download. Application software is installed on top of the Core, which typically increases the size of a virtual appliance up to approximately 160 MB.[tpl]cite news | date = March 9, 2009 | title = Open source server appliances ship | work = LinuxDevices.com | url = http://www.linuxdevices.com/news/NS9199443802.html | accessdate = March 23, 2009 [/tpl] By downloading and installing the appliance package to the hard drive, it is intended by the developers that administrators would gain an easy method of setting up a dedicated server.
+TurnKey's virtual appliances can be customized and extended using TKLPatch,TKLPatch - a simple appliance customization mechanism a simple appliance modification mechanism. New virtual appliances can be built as high-level patches to the closest starting point in the library.
+TurnKey Linux is designed to run as a virtual machine with VirtualBox and VMWare, although the former has been described as having been provided with more documentation.[tpl]cite news | last = Proffitt | first = Brian | date = February 15, 2010 | title = Virtual Appliances Offer Fast Sandboxes, Production Environments | work = ITWorld | url = http://www.itworld.com/open-source/96666/virtual-appliances-offer-fast-sandboxes-production-environments | accessdate = 24 February 2010 [/tpl]
+
+== Screenshots ==
+
+Image:Confconsole0.9.4-1.jpg|Configuration console
+Image:Webmin-system_0.jpg|Web management interface - System overview
+Image:Webmin-mysql-fw.png|Web management interface - Firewall
+Image:Webshell1.jpg|AJAX web shell
+
+== See also ==
+
+* Virtual appliance
+* Software appliance
+* Live CD
+
+== References ==
+
+== External links ==
+
+* Project website
+* Development wiki
+

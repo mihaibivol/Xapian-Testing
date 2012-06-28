@@ -1,0 +1,13 @@
+
+Mediabot is the name given to the web crawler that Google uses to crawl webpages for purposes of analysing the content so Google AdSense can serve contextually relevant advertising to the page. 
+Mediabot visits those pages running AdSense ads that have not blocked its access via a robots.txt file and it's a Google recommendation that webmasters specifically add a command to their robots.txt file granting Mediabot access to the entire siteGoogle AdSense Help Center: "How do I grant access to your crawler?". Here is how to do it:
+ User-agent: Mediapartners-Google*
+ Disallow:The Mediabot identifies itself with the user agent string "Mediapartners-Google/2.1".
+The Mediabot revisits pages on a regular, but unpredictable basis. Changes made to a page therefore do not immediately cause changes to the ads displayed on the page. Note that ads can still be shown on a page even if the Mediabot has not yet visited it, in which case the ads chosen will be based on the overall theme of the other pages on the site. If no ads can be chosen, public service announcements are displayed instead.
+You can keep some parts of the text from being crawled using:
+google_ad_section_start(weight=ignore) -->
+-- google_ad_section_end -->
+
+==References==
+
+

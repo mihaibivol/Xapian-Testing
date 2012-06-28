@@ -1,0 +1,83 @@
+
+Pegasus Mail is a donationware (previously freeware), proprietary, email client that is developed and maintained by David Harris and his team. It was originally released in 1990 for internal and external mail on Netware networks with MS-DOS clients, and was subsequently ported to Microsoft Windows, which became the most widely used version. A version for Apple Macintosh also used to be available.
+
+== Features ==
+
+Pegasus Mail (PMail) is suitable for single or multiple users on stand-alone computers and for internal and Internet mail on local area networks. Pegasus Mail has minimal system requirements compared with competing products, for instance the installed program (excluding mailboxes) for version 4.52 requires only around 13.5 MB of hard drive space. Since Pegasus Mail does not make changes to the Windows registry or the system directory, it is suitable as a portable application for USB drives. Language packs are available for languages other than English.
+Some commentators have described Pegasus Mail as convoluted and cumbersome to configure, whereas others value Pegasus Mail for the features it offers. A key feature of Pegasus Mail is that it does not use the HTML layout engine that is installed with every Microsoft operating system since 1997: The ubiquity of the Microsoft engine, which is used by all Microsoft products and much third-party software, makes it a frequent target of malware such as the Melissa and ILOVEYOU exploits. Mail clients such as Pegasus Mail that have their own HTML rendering engine are inherently immune to these security exploits. Pegasus Mail will also not execute automation commands (for example ActiveX or JavaScript) embedded in an e-mail, further reducing the chances of a security breach.
+Pegasus has the facility, not provided by all mail clients, optionally to download headers only, allowing the user to select mail to ignore for now and deal with later, download and delete from the server (normal mail operation), download a copy of a message while leaving it on the server, or delete without downloading. Mail may be marked by the user as read or unread, overriding the default setting.
+
+=== Supported protocols ===
+
+The original version worked with Novell NetWare networks and their Message Handling System (MHS) mail system; a cut-down MHS-only version called FirstMail was bundled with NetWare. Early versions used only a non-standard format for mail folders; later versions offer the standard Unix mailbox format as an alternative to the Pegasus Mail format. Although no longer developed or supported, older versions for MS-DOS and Apple Macintosh are still available.
+A problem with early versions is that mail was stored on the Netware System volume. This was not a problem when messages were brief text files. Later it was possible, although rather complicated, to store received mail on another volume, but new mail had to remain on System. This caused problems with Netware servers with a small System volume and larger ones for data storage, as users often kept many large messages in their new mail folders.
+Pegasus Mail supports the POP3, IMAP, and SMTP protocols as well as Novell's MHS. Release 4.41 added support for filtering of spam with header and body checking for key phrases (already before download). Release 4.41 also offers an improved HTML rendering engine, better support for special character encoding (especially with UTF-8), phishing protection, a full-fledged Bayesian spam filter, and much more.
+Pegasus Mail for Windows can be used as a standalone mail client using POP3 or IMAP for incoming mail and SMTP for outgoing, or on a Netware or Windows network in conjunction with the Mercury Mail Transport System for Windows or Netware, also by David Harris, running on a network server to receive mail and distribute it to users. While Pegasus Mail and Mercury handle email only, the function of Pegasus Mail is comparable to Microsoft Outlook's mail handling, and Mercury to Microsoft Exchange Server.
+
+=== Criticism of features ===
+
+Pegasus Mail pioneered many features now taken for granted with other email clients, such as filtering and simultaneous access to multiple POP3 and IMAP4 accounts,Pegasus manual explains how to access POP3 and IMAP and preview pane and continues to out-perform many other email clients.[tpl]citation needed|date=December 2011[/tpl] However, the free distribution of Microsoft Outlook Express or later email client as a standard part of Microsoft Windows since Windows 98, and, the distribution of Microsoft Outlook initially free of charge with PC magazines, and then as an integral part of Microsoft Office, from 1997 dealt a significant blow to the market share of Pegasus Mail and other email clients, from which many never fully recovered.
+Also, with the widespread distribution of Microsoft Outlook, user expectations of the range of features a program incorporating an email client should offer (Outlook's email, newsgroups, calendar, etc., eventually as part of an integrated suite) did not fulfill new users' expectations, regardless of the features of the email client proper.[tpl]citation needed|date=December 2011[/tpl] Trends in interface design have also changed throughout the years, and Pegasus Mail has not followed those changes, still having essentially the same user interface it had in its first Windows version, with very few later additions (such as the "preview window" mode).
+Pegasus was initially a text-mode application for networks, handling both internal and Internet mail, often operating in conjunction with the Mercury mail transport. Pegasus Mail for stand-alone machines was initially developed at a time when the typical email user had to be somewhat more knowledgeable of the way computers, the Internet and particularly email operate than most of today's users have to be, as PCs and the Internet have become more widespread, reached a broader audience and adapted themselves to those new users' needs. At the time Pegasus Mail was first conceived, its extensive array of features coupled with a simple user interface provided an ideal mix for most users' needs. As years went by it was seen as departing from the de-facto standard, and lacking features expected by the typical user.
+
+== Advanced features ==
+
+Pegasus Mail's takes an "old-fashioned" approach with advantages for knowledgeable users with complex email usage patterns, or who need special features. Some examples include:
+* support for three encoding standards (MIME, uuencoding and BinHex);
+* a powerful filtering system, so much so that it is possible to run a fully automated client-based electronic mailing list (including processing subscriptions, unsubscriptions and forwards to moderation) using solely Pegasus Mail;
+* the ability to automatically select which email address to send a reply from, based on the mail folder containing the original received message;
+* the ability to include custom e-mail header lines (useful for tracking emails, for example);
+* the ability to delete attachments without deleting the message's text body, or to delete the HTML version of a message while keeping the plain-text version, or vice versa, saving disk space;
+* easy access to a message, including all headers, in raw form, which is difficult or impossible in some other clients;
+* a "tree view" of the structure of a multipart message with all its sections and attachments, giving access to view or save any of the parts separately.
+The drop in usage and funding slowed development, and features that were initially to be included in version 4 were not implemented. Some of these features are scheduled for inclusion in version 5[tpl]Citation needed|date=January 2012[/tpl].
+
+== Development status of Pegasus Mail ==
+
+Until 2006 all versions of Pegasus Mail were supplied free of charge, and printed user manuals were available for purchase. In January 2007 it was announced that distribution and development of Pegasus Mail had ceased due to inadequate financial support from the sale of the manuals. Later in the month, due to an avalanche of support from the user community, it was announced that development will resume. However, Pegasus Mail will change from freeware to donationware and Mercury will change to a licence for fee for configurations with more than a certain number of email boxes. A donation button was added to the website on 1 March 2007.
+A public beta test version of version 4.5http://www.vandenbogaerde.net/pegasusmail/p45_index.html was announced on 3 October 2008 which is stated to be "very complete and stable, but is provided without formal technical support - you should almost certainly apply due diligence testing to it before using it in a production environment".Pegasus Mail v4.5 public beta 1 now available The new version has not only been developed further beyond earlier versions, but has been ported from now obsolete v5.02 of Borland C++ to Microsoft Visual Studio 2008, a major undertaking in itself. A list of changes and other information is linked from here.
+On 2 February 2009 David Harris said that bug reports from version 4.51 beta were being reviewed with the intention of getting a formal release out in the next few weeks.Status of Pegasus Mail as of 2 Feb 09
+On 19 June 2009 David Harris announced on the Pegasus Mail site that all development of Pegasus Mail and the associated Mercury program could only continue if sufficient users would commit to donating US$50 annually; on 21 July 2009 he said that there had been a good start.
+On 3 July 2009 Pegasus Mail 4.51 (final) and Mercury/32 v4.72 were released.
+On 23 January 2010 Pegasus Mail 4.52 (final) was released (includes improvements for Windows 7).
+On 2 November 2010, David Harris posted the following message regarding the progress of development
+on the newest release of Pegasus Mail, PMail Version 5.0 : "Progress continues on the new contacts manager for Pegasus Mail version 5. The new contact manager uses an SQL-based back-end for storage, and offers an incredibly rich range of attributes and options: it will exist alongside the now aging Pegasus Mail addressbook format, and while existing addressbooks will continue to work, there will also be options to import their contents into the new contact manager database. The new code has been designed heavily with external synchronization in mind, but at least initially, we will not be including any built-in synchronization clients: there is an extensive API that other developers can use to perform synchronization (down to the attribute level) though, and as real-world usage solidifies after release, we will evaluate what synchronization clients might be most appropriate to provide as standard options. We hope to release an initial version of Pegasus Mail version 5 with the new contact manager in place either late in December this year, or early in 2011. A subsequent version with the entirely-new message store I have been working on for over a year will follow at a later stage. I'm personally very excited about the new contact manager - I believe it could have an enormous impact on the way many people work in a world of e-mail overload"
+On 23 February 2011 Pegasus Mail 4.61 was released. It includes a new HTML renderer which uses the built-in Windows renderer of Internet Explorer, but the BearHTML renderer has also been improved and can be used instead. V. 4.61 has new graphics, an updated interface, a number of smaller changes or improvements and various bug fixes. v4.62 had  improvements to the editor and elsewhere.
+On 22 December 2011 bug fix version 4.63, expected to be the last release before version 5, became available.
+
+=== Community support site ===
+
+An official community Support site for Pegasus Mail was opened in May 2007 at community.pmail.com. The site offers monitored forums for shared technical support and blogs from the developers.
+
+=== Pegasus Mail Wiki ===
+
+From February 2009, Pegasus Mail has had its own Wiki, used as an on-line knowledge resource.
+
+=== Linux and Pegasus Mail ===
+
+There is no Linux version of Pegasus Mail. Pegasus runs under Linux using the Wine Windows emulator. SSL e-mail access in Pegasus Mail under Wine did not work as such [tpl]As of|2012|1|lc=1[/tpl] due to an error in the Wine Cryptlib. Secure operation was possible using Stunnel, and work on use of OpenSSL and other matters which were expected to provide full secure functionality were in progress.
+
+== See also ==
+
+* Comparison of e-mail clients
+* Comparison of feed aggregators
+* Mercury Mail Transport System
+
+== Further reading ==
+
+* [tpl]cite book |last= Kocmoud |first= David J. |authorlink= |coauthors= J. Matthew Pierce, Michael O. Stegman |title= Pegasus Mail for Windows: How to Make Your E-Mail Fly |year= 1996 |publisher= Prentice Hall |location= |isbn= 978-0-13-261900-4 [/tpl]
+
+== Notes and references ==
+
+== External links ==
+
+* Official site
+* Official Community
+* Official Wiki
+* Pegasus Mail for Windows Version History (see "My version 4.6 index page" for latest 4.6x version)
+* Pegasus Mail Discussion List
+*Pegasus Mail Related Links
+* Pegasus Mail for Windows Discussion List
+* Han van den Bogaerde's Pegasus Mail support site
+* The Register article on Pegasus' development ending announcement
+

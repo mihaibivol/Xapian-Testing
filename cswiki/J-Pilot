@@ -1,0 +1,31 @@
+
+J-Pilot is an open source GTK+-based desktop organizer for Unix-like systems written by Judd Montgomery, designed to work with Palm OS-based handheld PDAs.Judd Montgomery. "J-Pilot: Desktop Organizer Software for the Palm Pilot", October 22, 2005. Retrieved on May 13, 2008. It uses the pilot-link libraries to communicate with Palm devices. It is released under the GNU GPL, version 2.Judd Montgomery. "J-Pilot User Manual: Copyright", 1999. Retrieved on May 13, 2008.
+
+==Linux support==
+
+Palm does not provide a version of the software for Linux operating system, nor do they officially support the ones developed by third parties such as J-Pilot, Gnome-Pilot.Synchronizing with a Linux Desktop - a note at the official technical support Web site of Palm.
+
+==Summary of Features==
+
+*Third-party Application SupportJ-Pilot Key Features
+*Plugin Support
+*Import and Export Features
+*Supports Palm Application Features
+*Supports Datebook, Address, To Do List, and Memo Pad
+*Supports the newer Contacts and Memos (Calendar and Tasks not yet)
+
+== Requirements ==
+
+* Before J-Pilot working, users should install Pilot-link and get the newest version available. 
+* Users must have GTK+version greater than 1.2.0 installed and also need to gtk-devel rpms, or packages installed to build from source.
+
+==See also==
+
+*Palm Desktop
+*Gnome-Pilot
+*ColdSync
+*PilotManager
+
+==References==
+
+

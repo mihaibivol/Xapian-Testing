@@ -1,0 +1,60 @@
+
+The Player Project (formerly the Player/Stage Project) is a project to create free software for research into robotics and sensor systems [ref]Gerkey, B., Vaughan, R., and Howard, A. (2003) The Player/Stage Project: Tools for Multi-Robot and Distributed Sensor Systems. ''Proceedings of the International Conference on Advanced Robotics
+ 317-323[/ref]. Its components include the Player network server and the Stage robot platform simulators. Although accurate statistics are hard to obtain, Player is one of the most popular open-source robot interfaces in research and post-secondary educationCollet, T. H. J., MacDonald, B. A., and Gerkey, B. (2005) Player 2.0: Toward a practical robot programming framework.  Proceedings of the Australasian Conference on Robotics and Automation (ACRA)'' . Most of the major intelligent robotics journals and conferences regularly publish papers featuring real and simulated robot experiments using Player and Stage. 
+
+==Overview==
+
+The Player Project is an umbrella under which two robotics-related software projects are currently developed.  These include the Player networked robotics server, and the Stage 2D robot simulation environment.  The project was founded in 2000 by Brian Gerkey, Richard Vaughan and Andrew Howard at the University of Southern California at Los Angeles, and is widely used in robotics research and education.PlayerUsers - Player It releases its software under the GNU General Public License with documentation under the GNU Free Documentation License.
+The Player is set of APIs (eg. position2d, bumper, ir, speech, power) that can be implemented by a robot chasis (Roomba, Khephera etc.), possibly over serial line or network, or by Stage (2D simulator) or Gazebo (3D simulator).
+Being that the software is GPL and open source, Player Project is free in both senses (free as in free-beer and free as in free-speech).
+
+=== Player ===
+
+The Player software runs on POSIX-compatible operating systems, including Linux, Mac OS X, Solaris, the BSD variants, and Microsoft Windows.  Player can be described as a 'robot abstraction layer,' in that all devices are abstracted into a set of pre-defined interfaces.
+Player supports a wide variety of hardware (sensor devices and robot platforms alike)Player Manual.  It also contains client library support for a number of programming languages including C, C++, Python and Ruby.  Third-party client libraries are available in languages like Java and Tcl.  Additional features include a minimal and flexible design, support for interfacing with multiple devices concurrently, and on-the-fly server configuration.
+
+=== Stage ===
+
+The Stage simulator is a 2D multiple-robot simulation environment built on top of FLTK.  Stage provides a basic simulation environment that can be scaled to model one to hundreds of robots at a time.  Stage can be used alone to simulate robot behaviors via user-defined control programs.  Stage can also interface with Player, allowing users of the Player to access simulated sensors and devices through the Player interfaces.
+
+=== Gazebo ===
+
+The Gazebo 3D robot simulator was a component in the Player Project from 2004 through 2011. Gazebo integrated the  ODE physics engine, OpenGL rendering, and support code for sensor simulation and actuator control. In 2011, Gazebo became an independent project support by  Willow Garagehttp://www.gazebosim.org - Gazebo Simulator.
+
+== Supported robots ==
+
+* Acroname's Garcia
+* Botrics's Obot d100
+* CoroWare Inc. Corobot and Explorer
+* Evolution Robotics' ER1 and ERSDK robots
+* iRobot's Roomba vacuuming robot
+* K-Team's Robotics Extension Board (REB) attached to Kameleon 376BC
+* K-Team's Khephera
+* MobileRobots' (formerly ActivMedia) PSOS/P2OS/AROS-based robots
+* Nomadics' NOMAD200 (and possibly related) mobile robots
+* RWI/iRobot's RFLEX-based robots (e.g., B21r, ATRV Jr)
+* Segway's Robotic Mobility Platform (RMP)
+* UPenn GRASP's	Clodbuster
+* Videre Design's ERRATIC mobile robot platform
+* White Box Robotics' 914 PC-BOT
+
+== See also ==
+
+* Simbad robot simulator
+* Microsoft Robotics Studio
+* Webots
+* URBI
+* Turtle (robot)
+* RoSta
+* Mobile Robot Programming Toolkit
+* CARMEN
+* ROS (Robot Operating System)
+
+==References==
+
+==External links==
+
+* [tpl]Official|http://playerstage.sourceforge.net[/tpl]
+* Player Project wiki
+* Gazebo Simulator
+

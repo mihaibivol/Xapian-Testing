@@ -1,0 +1,32 @@
+
+FreeWRL is an open source compliant VRML/X3D browser for Microsoft Windows, Linux and Mac OS X.
+
+==History==
+
+It was originally developed by Tuomas Lukka circa 1998. Also during 1998, Canarie funded a project titled "Distributed Interactive Virtual Environment (DIVE) over CA*net II", with three partners, the universities of
+Ottawa and Western Ontario, and
+CRC Canada. FreeWRL was used by CRC in this project, as it ran on their platform of choice, Linux, and supported VRML additions (the EAI protocol) that allowed control of a VRML scene from outside entities.
+At the end of the DIVE project, CRC took the knowledge gained from it, and combined this knowledge with other on-going projects (European Commission funded projects of Meccano, MERCI and MICE http://www-mice.cs.ucl.ac.uk/multimedia/projects/) and created a form of conferencing by designing a distributed multicast enabled virtual world with position-dependent audio capabilities. This project, MVIP http://mvip.sourceforge.net, and the follow on, MVIP-II http://mvip.sourceforge.net, leveraged VRML and Multicast to enable interaction in shared worlds where participants were physically distant, by removing both high bitrate applications (video) and  "time sinks" (client-server interaction) to best give the participants the feeling of being in a shared space.
+MVIP and MVIP source is available http://mvip.sourceforge.net, and papers describing MVIP can be found on acm.org here and
+here.
+MVIP-II tests were conducted between Ottawa, Canada, and Denmark, and between Ottawa, and Hawaii.
+CRC, with the valued support of Open Source contributors, continued to develop FreeWRL during the MVIP and MVIP-II projects. CRC co-sponsored the Web3D Consortium's
+Software Development Kit, and chaired the Web3D Consortium's Conformance Working Group, giving both industry and the public a common set of functionality to strive for.
+As of the 2007-2008 timeframe, CRC was researching better ways of bridging audio, physical interfaces, and 3D visuals. To this end, FreeWRL now interfaces with MIDI
+devices on both Linux and Mac OS X; and with Propellerheads Reason.
+FreeWRL has been developed by Open Source contributors, and managed by John Stewart, CRC Canada. It is believed to be the first sanctioned Open Source project
+supported by the Federal Government of Canada, and gave CRC considerable in-depth knowledge on this and related technologies, in accordance with CRC's mandate. In April 2010 CRC cancelled its financial and official support of the project. The participants and project continued to thrive and in mid-2011 the list of ongoing improvements included smart phone and GPU initiatives.
+FreeWRL follows the Web3D Consortium's ISO standards, and is certified "Interchange Profile" Compliant by the Web3D Consortium.
+It is in daily use worldwide. It is multi-threaded, written in C, and uses OpenGL for rendering. Source code is available http://freewrl.sourceforge.net. Development of FreeWRL has been continuous,
+and is expected to continue, with focus on interactivity, usability, and rendering fidelity. As with most Open Source projects, help with code development and testing is
+always welcome.
+
+==See also==
+
+* Xj3D
+
+==External links==
+
+* Official website
+* An article on VRML by FreeWRL developer Tuomas Lukka in the 1999 Linux Journal.
+

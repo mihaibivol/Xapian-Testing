@@ -1,0 +1,24 @@
+
+PubSubHubbub is an open protocol for distributed publish/subscribe communication on the Internet. The protocol extends the Atom (and RSS) protocols for data feeds. The main purpose is to provide near-instant notifications of change updates, which would improve on the typical situation where a client periodically polls the feed server at some arbitrary interval.
+In essence it provides for pushed Atom/RSS update notifications instead of requiring clients to poll whole feeds.
+
+== Protocol ==
+
+Under PubSubHubbub, there is an ecosystem of publishers, subscribers, and hubs.
+A subscriber initially pulls the Atom (or RSS) feed in the conventional way, i.e. by requesting it from the feed server. The subscriber then inspects the feed, and if it references a hub, the subscriber can subscribe to the feed URL topic on that hub. The subscriber runs a server so that hubs can directly notify it when any of its subscribed topics have updated.
+Publishers expose their content as Atom (or RSS) feeds, but with the inclusion of hub references. They post notifications to those referenced hubs whenever they publish something. Thus, when a publication event occurs, the publisher calls its hubs and the hubs call their subscribers.
+It is expected that the protocol will support any kind of arbitrary content, effectively allowing subscription to any web resource. Similarly, work is being done to allow support for private/protected data.
+
+== See also ==
+
+* Publish/subscribe
+* RSS Cloud
+
+==External links==
+
+* PubSubHubbub Project Home
+* WordPress implementation announcement
+
+== References ==
+
+

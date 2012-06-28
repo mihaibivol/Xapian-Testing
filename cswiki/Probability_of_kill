@@ -1,0 +1,15 @@
+
+Computer games, simulations, models, and operations research programs often require a mechanism to determine statistically whether the engagement between a weapon and a target resulted in a kill, or the probability of kill. Statistical decisions are required when all of the variables that must be considered are not incorporated into the model, similar to the actuarial methods used by insurance companies to deal with large numbers of customers and huge numbers of variables.  Likewise, military planners rely on such calculations to determine the amount of weapons necessary to destroy an enemy force.
+The Probability of Kill (or Pk) is usually based on a uniform random number generator. This algorithm creates a number between 0 and 1 that is approximately uniformly distributed in that space. If the Pk of a weapon/target engagement is 30% (or 0.30), then every random number generated that is less than 0.3 is considered a kill. Every number greater than 0.3 is considered a "not kill". When used many times in a simulation, the average result will be that 30% of the weapon/target engagements will be a kill and 70% will not be a kill.
+This measure may also be used to express the accuracy of a weapon system. For example, if a weapon is expected to hit a target nine times out of ten with a representative set of ten engagements, one could say that this weapon has a “Phit” of 0.9. If the percentage of hits is nine out of ten, but the probability of a kill with a hit is .5, then the Pk becomes .45 or 45%. This reflects the fact that even modern warheads may not always destroy a target such as an aircraft, missile or main battle tank.
+Additional factors include probability of detection (Pd), reliability of the targeting system (Rsys), and reliability of the weapon (Rw), to name a few.  For example, if a missile operates properly 90% of the time (assuming a good shot), the targeting system operates properly 85% of the time, and enemy targets are detected at %50, we can increase the accuracy of our Pk estimation.  
+Pk = Phit * Pd * Rsys * RwPk = 0.9 * 0.5 * 0.85 * 0.90 = 0.344
+You can also specify a probability according to a class of targets, for example, it has been stated that the SA-10 surface-to-air missile system has a Pk of 0.9 against highly maneuvering targets, whereas its Pk against non-maneuvering targets is much higher.
+Certain unusual weapons, such as the Davy Crockett nuclear device, nuclear-armed Mark 45 torpedo or purpose-built suicide bomb, may be said to have a probability of kill greater than one, to reflect the fact that they are likely or certain to kill the firer of the weapon, as well as likely or certain to kill the target. Probabilities greater than one do not work with normal kill-probability calculations.
+
+==References==
+
+*A.M. Law and W.D. Kelton, Simulation Modeling and Analysis, McGraw Hill, 1991.
+*J. Banks (editor), Handbook of Simulation: Principles, Methodology, Advances, Applications, and Practice, John Wiley & Sons, 1998.
+*R. Smith and D. Stoner, "Fingers of Death: Algorithms for Combat Killing", Game Programming Gems 4, Charles River Media, 2004.
+

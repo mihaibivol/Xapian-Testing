@@ -1,0 +1,23 @@
+
+AppStream is an agreement between major GNU/Linux vendors (i.e. Red Hat, Canonical, Novell/SUSE, Debian, Mandriva, etc.) to create a common application installer for Linux and one unified application installation GUI and sharing of metadata.2011 AppInstaller meeting
+The project describes itself as: "an initiative of cross-distro collaboration, which aims at creating an unified software metadata database, and also a centralized OCS (Open Collaboration Services) user-contributed content database, thus providing the best user experience."
+
+==See also==
+
+*Package management system
+*Packagekit
+*Listaller
+*RUNZ
+*ZeroInstall
+*Ubuntu Software Center
+
+== References ==
+
+==External links==
+
+* AppStream at freedesktop.org
+* Project Bretzn
+* Phoronix - Introducing AppStream, Multi-Distro App Framework
+* Google Summer of Code 2011 - PackageKit backend and AppStream integration for Software Center
+* OpenSuse's Application Manager
+

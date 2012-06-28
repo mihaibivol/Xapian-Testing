@@ -1,0 +1,30 @@
+
+Fourier division or cross division is a pencil-and-paper method of division which helps to simplify the process when the divisor has more than two digits. It was invented by Joseph Fourier.
+
+==Method==
+
+The following exposition assumes that the numbers are broken into two-digit pieces, separated by commas: e.g. 3456 becomes 34,56. In general x,y denotes x·100 + y and x,y,z denotes x·10000 + y·100 + z, etc.
+Suppose that we wish to divide c by a, to obtain the result b. (So a × b = c.)
+Note that a1 may not have a leading zero; it should stand alone as a two-digit number.
+We can find the successive terms b1, b2, etc., using the following formulae:
+Each time we add a term to the numerator until it has as many terms as a. From then on, the number of terms remains constant, so there is no increase in difficulty. Once we have as much precision as we need, we use an estimate to place the decimal point.
+It will often be the case that one of the b terms will be negative. For example, 93,−12 denotes 9288, while −16,32 denotes −1600 + 32 or −1568. (Note: 45,−16,32 denotes 448432.) Care must be taken with the signs of the remainders also.
+The general term is
+
+===Partial quotients with more than two digits===
+
+The last partial sum is the value for b.
+
+==Example==
+
+Find the reciprocal of π ≈ 3.14159.
+The result is 32,-17,10 or 31,83,10 yielding 0.318310.
+
+==Bibliography==
+
+* Ronald W Doerfler. Dead Reckoning: Calculating without Instruments. Gulf Publishing, 1993.
+
+==External links==
+
+*Alternative Division Algorithms: Double Division, Partial Quotients & Column Division, Partial Quotients Movie
+

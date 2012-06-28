@@ -1,0 +1,25 @@
+
+In Unix computing, lxrun is a compatibility layer to allow Linux binaries to run on UnixWare, SCO OpenServer and Solaris without recompilation. It was created by Mike Davidson. It has been an open source software project since 1997, and is available under the Mozilla Public License. Both SCO and Sun Microsystems began officially supporting lxrun in 1999.
+
+== Timeline ==
+
+*August 22, 1997: lxrun is cited as a proof of concept of cross-platform binary compatibility at the 86open conference hosted by SCO in Santa Cruz, CA.
+*August 29, 1997: lxrun's first mention on Usenet, in comp.unix.sco.misc.  Most notably, the post mentions lxrun's availability in source and binary form from the SCO Skunkware FTP site.  A later post in the thread mentions contributions by various authors, both inside and outside of SCO.
+*October 1, 1997: The official lxrun website is established.
+*June 19, 1998: Ronald Joe Record, Michael Hopkirk, and Steven Ginzburg present a paper on lxrun at the USENIX 1998 Technical Conference in New Orleans, LA.
+*Mar 1, 1999: SCO announces Linux compatibility in UnixWare 7 and demonstrates lxrun at LinuxWorld Expo and Conference in San Jose, CA.
+*May 12, 1999: Sun Microsystems announces support for Linux binaries on Solaris using lxrun.
+
+== Current status ==
+
+According to the official lxrun website, lxrun is now in "maintenance" mode, meaning that it is no longer being actively developed. Reasons cited for the declining interest in lxrun include the wide availability of real Linux machines, and the availability of more capable emulation systems, such as SCO's Linux Kernel Personality (LKP), OpenSolaris BrandZ, and various virtual machine solutions.  Newer Linux applications and host operating systems are not officially supported by lxrun.
+
+==References==
+
+==External links==
+
+*Official lxrun Website
+*Sun's lxrun Website
+*Sun's Solaris get compatible with Linux apps (CNN, Fri 14 May 1999)
+*Lxrun - why wasn't it released under the GPL? (Pamela Jones, Groklaw, Wed 16 Aug 2006)
+

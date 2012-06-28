@@ -1,0 +1,12 @@
+
+SIP is a toolbox for processing images in Scilab. SIP is meant to be a free, complete, and useful image toolbox for Scilab. Its goals include tasks such as filtering, blurring, edge detection, thresholding, histogram manipulation, segmentation, mathematical morphology, and color image processing.
+Though SIP is still in early development it can currently import and output image files in many formats including BMP, JPEG, GIF, PNG, TIFF, XPM, and PCX. SIP uses ImageMagick to accomplish this.
+SIP is licensed under the GPL.
+
+== External links ==
+
+* SIP homepage
+* Scilab site
+* Unofficial SIP manual
+* Lab Macambira: the entity fostering the dev team behind SIP.
+

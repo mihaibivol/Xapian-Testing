@@ -1,0 +1,11 @@
+
+Patch dynamics is a term used in physics to bridge, using algorithms, the models describing macroscale behavior and to predict large-scale patterns in fluid flow. It uses locally averaged properties of short space-time scales to advance and predict long space-time scale dynamics.
+In patch dynamics and finite difference approximations, the macroscale variables are defined at the grid points of a mesh chosen to resolve the solution. The standard PDE adaptive grid methods can be used to resolve gradients in the macroscale solution. Both patch dynamics and finite difference methods generate time derivatives mesh points; these time derivatives then help advance the solution in time.http://ieeexplore.ieee.org/iel5/5992/30777/01425395.pdf?isnumber=&arnumber=1425395
+
+==See also==
+
+*Dynamical system#Rectification
+
+==References==
+
+

@@ -1,0 +1,31 @@
+
+Diffusing-wave spectroscopy (DWS) is an optical technique derived from dynamic light scattering (DLS) that studies the dynamics of scattered light in the limit of strong multiple scattering.[ref]
+
+</ref><ref>
+
+[/ref] It has been widely used in the past to study colloidal suspensions, emulsions, foams, gels, biological media and other forms of soft matter. If carefully calibrated, DWS allows the quantitative measurement of microscopic motion in a soft material, from which the rheological properties of the complex medium can be extracted via the so-called microrheology approach.
+
+==One-speckle diffusing-wave spectroscopy==
+
+Laser light is sent to the sample and the outcoming transmitted or backscattered light is detected by an optoelectric sensor. The light intensity detected is the result of the interference of all the optical waves coming from the different light paths. 
+Image:figureDWS.png|Typical setup of diffusing-wave spectroscopy
+The signal is analysed by calculating the intensity autocorrelation function called g2. 
+For the case of non-interacting particles suspended in a (complex) fluid a direct relation between g2-1  and the mean square displacement of the particles 2> can be established. Let's note P(s) the probability density function (PDF) of the photon path length s. The relation can be written as follows:
+For simple cell geometries, it is thus possible to calculate the mean square displacement of the particles 2> from the measured g2-1 values analytically. For example, for the backscattering geometry, an infinitely thick cell, large laser spot illumination and detection of photons coming from the center of the spot, the relation ship between g2-1 and 2> is:
+For less thick cells and in transmission, the relationship depends also on l* (the transport length).
+
+==Multispeckle Diffusing-Wave Spectroscopy (MSDWS)==
+
+This technique either uses a camera to detect many speckle grains (see speckle pattern) or a ground glass to create a large number of speckle realizations (Echo-DWS http://spie.org/x8591.xml?highlight=x2404&ArticleID=x8591). In both cases an average over a large number of statistically independent intensity values is obtained, allowing a much faster data acquisition time.
+Image:figureMSDWS.png|Typical setup of Multispeckle Diffusing-wave spectroscopy
+MSDWS is particularly adapted for the study of slow dynamics and non ergodic media. Echo-DWS allows seamless integration of MSDWS in a traditional DWS-scheme with superior temporal resolution down to 12 ns. Camera based adaptive image processing allows online measurement of particle dynamics for example during drying.[ref]
+
+</ref>
+
+==References==
+
+==External links==
+
+*Diffusing Wave Spectroscopy Overview with video
+*Diffusing Wave Spectroscopy Overview
+

@@ -1,0 +1,33 @@
+
+The term Carousel was applied because the content of the transmission stream is provided in a cyclic fashion.
+
+== History ==
+
+Carousels are commonly depicted as a circle, wherein each piece of content takes a set position on the edge of the circle.  The circle then rotates, along with the all the pieces of content as if they are attached to the circle.  The exit point from the carousel into the transmission stream remains at one fixed location.  As each piece of content rotates past the exit point, it then enters the transmission stream.
+
+== Software Carousel ==
+
+A software carousel is a concept applied for repeatedly delivering data in a continuous cycle. Carousels allow data to be pushed from a broadcaster to multiple receivers by transmitting a data set repeatedly in a standard format. A set-top box receiver may tune to the data stream at any time and is able to reconstitute the data into a virtual file system. The carousel may therefore be considered as a transport file system or file broadcasting system that allows data files to be transmitted from the broadcaster to multiple receivers or clients simultaneously.
+In a unidirectional broadcast environment, the receiver is unable to request the retransmission of any data that was missed or received incorrectly. Repeated retransmission of data allows the receiver to cope with random tuning to a channel at an unpredictable time, for instance as the user changes a channel.
+The carousel cycle period generally determines the maximum time required for a receiver to acquire an application or specific datum. It is possible to reduce the access time for commonly used files by broadcasting some data  more often than others.
+
+== Usage and Applications ==
+
+Data and Object Carousels are most commonly used in DVB, which has standards for broadcasting digital television content using carousels.  The standard format for a carousel is known as DSM-CC. This is specified in ISO/IEC 13818-6 and is part of the DAVIC DVB standard for digital video broadcasting.
+DSM CC is an acronym for Digital Storage Media Command and Control. The specification provides support for a variety of communication models, including provision for interactive transport control of audio and video streams in a bi-directional environment such as a cable television video on demand system.
+The DSM-CC standard specifies two types of carousel, a data carousel and an object carousel. The object carousel extends the more limited data carousel and specifies a standard format for representing a file system directory structure comprising a root directory or service gateway and one or more files and directories.
+Files and directories are encapsulated in a DSM-CC object carousel in several layers. Objects are encapsulated in modules, which are carried within download data blocks, within DSM-CC sections encoded in MPEG private sections which are assembled from packets.
+
+== Carousel Management ==
+
+Carousel complexity can increase dramatically based on various factors such as the content type or the content filling algorithm.  Generally the content of a transmission carousel is dynamic, based on a multitude of variables, such as duration of the carousel transmission [tpl]cite web |url=http://www.google.com/patents?id=0nqAAAAAEBAJ&dq=7240286 |title=US Patent 7,240,286 |accessdate=2008-05-13 |author=Yamaguchi et al. |date=2007-07-03[/tpl], and is either determined by some type of algorithm or management utility.  
+Concepts such as embedded carousels are well-known and in use.  This is when the main transmission carousel has a particular piece of content dynamically changing itself based on a sub-carousel content provider.[tpl]cite web |url=http://www.google.com/patents?id=5jqGAAAAEBAJ&dq=2003/0154203 |title=US Patent Application Publication 2003/0154203 |accessdate=2008-05-13 |author=Morris et al. |date=2003-08-04[/tpl]
+
+==References==
+
+== See also ==
+
+*DVB (Digital Video Broadcasting)
+*DVB-C (Digital Video Broadcasting - Cable)
+*DSM-CC (Digital Storage Media Command and Control)
+

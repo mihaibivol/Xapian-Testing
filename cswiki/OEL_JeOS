@@ -1,0 +1,31 @@
+
+In computing, Oracle Enterprise Linux JeOS (OEL JeOS), an opensource  JeOS project, aims at making it easy to create  software appliances. OEL JeOS includes a pre-packaged, small-footprint Oracle Enterprise Linux (OEL) image (either OEL 4.7 or OEL 5.2) for x86 and x86-64, along with a script to customize the image. This results in a freely re-distributable  OS-image designed to work with Oracle VM virtualization.
+
+== Technical highlights ==
+
+* Easy-to-use configuration scripts allow automation and script-template creation
+* Small footprint (around 250 MB) - permits starting small and adding just the packages (rpms) needed for end-user software to run
+* Packaged as an Oracle VM template, importable using Oracle VM Manager
+* Based on Oracle Enterprise Linux
+
+== Released templates ==
+
+* Oracle Application Server 10g Release 3 Webcenter
+* Oracle Database Templates
+* Oracle Enterprise Linux Templates
+* Oracle Enterprise Manager Templates
+* Oracle Fusion Middleware Service Oriented Architecture on WebLogic Server 9.2
+* Oracle Siebel CRM Templates
+
+== See also ==
+
+* Software appliance
+
+== External links ==
+
+* Oracle Enterprise Linux JeOS
+* Oracle Enterprise Linux JeOS on Amazon EC2
+
+== References ==
+
+

@@ -1,0 +1,13 @@
+
+Principle of Deferred Decisions is a technique used in analysis of randomized algorithms.
+
+== Definition ==
+
+A randomized algorithm makes a set of random choices. These random choices may be intricately related making it difficult to analyze it. In many of these cases Principle of Deferred Decisions is used. The idea behind the principle is that the entire set of random choices are not made in advance, but rather fixed only as they are revealed to the algorithm.
+
+== Applications ==
+
+== References ==
+
+* M. Mitzenmacher and E. Upfal. Probability and Computing : Randomized Algorithms and Probabilistic Analysis. Cambridge University Press, New York (NY), 2005. Section 1.3, page 9.
+

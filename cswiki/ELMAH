@@ -1,0 +1,9 @@
+
+ELMAH (Error Logging Modules and Handlers) is an open sourceELMAH License debugging tool for ASP.NET web services.Official website When added to a running web application on a machine, exceptions that are thrown trigger event handlers in the ELMAH tool. These event handlers can include logging to various database back-ends, logging which can be viewed from a web portal, and the sending of notification emails, tweets and RSS articles to advise administrators of the problem. ELMAH provides a pluggable implementation of error logging.MSDN: Using HTTP Modules and Handlers to Create Pluggable ASP.NET Components
+
+==References==
+
+==External links==
+
+*[tpl]Official website|http://code.google.com/p/elmah/[/tpl]
+

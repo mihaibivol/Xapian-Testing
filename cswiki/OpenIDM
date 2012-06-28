@@ -1,0 +1,27 @@
+
+OpenIDM is a free, open source identity management system written in the Java programming language. The OpenIDM source code is available under the Common Development and Distribution License (CDDL). OpenIDM is designed with flexibility in mind, leverages JavaScript as default scripting language to define business rules during provisioning. All capabilities of OpenIDM exposes RESTful interfaces. As an integration layer, OpenIDM leverages the Identity Connectors (adopted by ForgeRock as OpenICF) and has a set of default connectors.
+
+== History ==
+
+ForgeRock launched the OpenIDM project in October 27 following a 6 month internal development process at GOSCON in Portland.[tpl]cite web|title=ForgeRock Establishes OpenIDM Project for Open Source Identity Management|url=http://www.openidm.info/content/forgerock-establishes-openidm-project-open-source-identity-management|accessdate=20 March 2012[/tpl]
+ForgeRock felt there was no strong open source identity provisioning project, and launched OpenIDM under CDDL licensing for compatibility with OpenAM and OpenDJ.[tpl]cite web|last=Phipps|first=Simon|title=Announcing OpenIDM|url=http://webmink.com/2010/10/27/announcing-openidm/|accessdate=20 March 2012[/tpl]
+Full leveraging the Open Source project Identity Connector Framework from Sun Microsystems as integration layer to resources, ForgeRock announced to adopt the project and forming a community around the framework, all under the new name OpenICF.[tpl]cite web|title=Adopting the ICF project under the new name OpenICF|url=http://www.openidm.info/content/global-openicf-open-source-identity-connector-community-launched|accessdate=20 March 2012[/tpl]
+Gartner identifies ForgeRock OpenIDM as an interesting option to many organizations seeking alternatives to large IAM vendors in their Magic Quadrant for User Administration/Provisioning published December 22, 2011.[tpl]cite web|title=Magic Quadrant for User Administration/Provisioning|url=http://www.gartner.com/technology/reprints.do?id=1-18JCFRC&ct=120104&st=sb|publisher=Gartner|accessdate=20 March 2012[/tpl]
+January 17, 2012 ForgeRock announces OpenIDM 2.0 which is latest stable release of OpenIDM.[tpl]cite web|title=ForgeRock announces OpenIDM 2.0|url=http://www.prnewswire.com/news-releases/forgerock-announces-openidm-20-137478653.html|accessdate=20 March 2012[/tpl]
+
+== Roadmap ==
+
+ForgeRock posted an OpenIDM roadmap stretching from release date to end of 2012 also outlining the project principles.[tpl]cite web|title=OpenIDM Roadmap|url=https://wikis.forgerock.org/confluence/display/openidm/OpenIDM+Roadmap|accessdate=20 March 2012[/tpl]
+*OpenIDM 1.0, launched October 27, 2010.
+*OpenIDM 2.0, released January 17, 2012 - provided the initial architecture, Basic CRUD capabilities all exposed via REST and password synchronization capabilites.
+*OpenIDM 2.1, is to focus on workflow and business process engine integration.
+*OpenIDM 2.2, is expected to introduce role based provisioning.
+
+== References ==
+
+==External links==
+
+*OpenIDM project page
+*OpenIDM project wiki
+*OpenIDM Source Code Browser
+

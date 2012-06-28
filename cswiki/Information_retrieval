@@ -1,0 +1,221 @@
+
+Information retrieval (IR) is the area of study concerned with searching for documents, for information within documents, and for metadata about documents, as well as that of searching structured storage, relational databases, and the World Wide Web. There is overlap in the usage of the terms data retrieval, document retrieval, information retrieval, and text retrieval, but each also has its own body of literature, theory, praxis, and technologies.  IR is interdisciplinary, based on computer science, mathematics, library science, information science, information architecture, cognitive psychology, linguistics, statistics and law.
+Automated information retrieval systems are used to reduce what has been called "information overload". Many universities and public libraries use IR systems to provide access to books, journals and other documents. Web search engines are the most visible IR applications.
+
+== History ==
+
+The idea of using computers to search for relevant pieces of information was popularized in the article As We May Think by Vannevar Bush in 1945.[tpl]cite journal |last=Singhal |first=Amit |title=Modern Information Retrieval: A Brief Overview |journal=Bulletin of the IEEE Computer Society Technical Committee on Data Engineering |volume=24 |issue=4 |pages=35–43 |year =2001 |url=http://singhal.info/ieee2001.pdf [/tpl] The first automated information retrieval systems were introduced in the 1950s and 1960s. By 1970 several different techniques had been shown to perform well on small text corpora such as the Cranfield collection (several thousand documents). Large-scale retrieval systems, such as the Lockheed Dialog system, came into use early in the 1970s.
+In 1992, the US Department of Defense along with the National Institute of Standards and Technology (NIST), cosponsored the Text Retrieval Conference (TREC) as part of the TIPSTER text program. The aim of this was to look into the information retrieval community by supplying the infrastructure that was needed for evaluation of text retrieval methodologies on a very large text collection. This catalyzed research on methods that scale to huge corpora. The introduction of web search engines has boosted the need for very large scale retrieval systems even further.
+The use of digital methods for storing and retrieving information has led to the phenomenon of digital obsolescence, where a digital resource ceases to be readable because the physical media, the reader required to read the media, the hardware, or the software that runs on it, is no longer available. The information is initially easier to retrieve than if it were on paper, but is then effectively lost.
+
+=== Timeline ===
+
+* Before the 1900s
+*: 1801: Joseph Marie Jacquard invents the Jacquard loom, the first machine to use punched cards to control a sequence of operations.
+*: 1880s: Herman Hollerith invents an electro-mechanical data tabulator using punch cards as a machine readable medium.
+*: 1890 Hollerith cards, keypunches and tabulators used to process the 1890 US Census data.
+* 1920s-1930s
+*: Emanuel Goldberg submits patents for his "Statistical Machine” a document search engine that used photoelectric cells and pattern recognition to search the metadata on rolls of microfilmed documents.
+* 1940s–1950s
+*: late 1940s: The US military confronted problems of indexing and retrieval of wartime scientific research documents captured from Germans.
+*:: 1945: Vannevar Bush's As We May Think appeared in Atlantic Monthly.
+*:: 1947: Hans Peter Luhn (research engineer at IBM since 1941) began work on a mechanized punch card-based system for searching chemical compounds.
+*: 1950s: Growing concern in the US for a "science gap" with the USSR motivated, encouraged funding and provided a backdrop for mechanized literature searching systems (Allen Kent et al.) and the invention of citation indexing (Eugene Garfield).
+*: 1950: The term "information retrieval" appears to have been coined by Calvin Mooers.Mooers, Calvin N.; Theory Digital Handling Non-numerical Information (Zator Technical Bulletin No. 48) 5, cited in "information, n.". OED Online. December 2011. Oxford University Press.
+*: 1951: Philip Bagley conducted the earliest experiment in computerized document retrieval in a master thesis at MIT.[tpl]cite book |last=Doyle |first=Lauren |last2=Becker |first2=Joseph |title=Information Retrieval and Processing |publisher=Melville |year=1975 |pages=410 pp. |isbn=0-471-22151-1 [/tpl]
+*: 1955: Allen Kent joined Case Western Reserve University, and eventually became associate director of the Center for Documentation and Communications Research. That same year, Kent and colleagues published a paper in American Documentation describing the precision and recall measures as well as detailing a proposed "framework" for evaluating an IR system which included statistical sampling methods for determining the number of relevant documents not retrieved.
+*: 1958: International Conference on Scientific Information Washington DC included consideration of IR systems as a solution to problems identified. See: Proceedings of the International Conference on Scientific Information, 1958 (National Academy of Sciences, Washington, DC, 1959)
+*: 1959: Hans Peter Luhn published "Auto-encoding of documents for information retrieval."
+* 1960s:
+*: early 1960s: Gerard Salton began work on IR at Harvard, later moved to Cornell.
+*: 1960: Melvin Earl (Bill) Maron and John Lary Kuhns[tpl]cite journal |title=An Historical Note on the Origins of Probabilistic Indexing |last=Maron | first=Melvin E. |journal=Information Processing and Management |volume=44 |year=2008 |pages=971–972 |url=http://yunus.hacettepe.edu.tr/~tonta/courses/spring2008/bby703/maron-on-probabilistic%20indexing-2008.pdf |doi=10.1016/j.ipm.2007.02.012 |issue=2 [/tpl] published "On relevance, probabilistic indexing, and information retrieval" in the Journal of the ACM 7(3):216–244, July 1960.
+*: 1962:
+*:* Cyril W. Cleverdon published early findings of the Cranfield studies, developing a model for IR system evaluation. See: Cyril W. Cleverdon, "Report on the Testing and Analysis of an Investigation into the Comparative Efficiency of Indexing Systems". Cranfield Collection of Aeronautics, Cranfield, England, 1962.
+*:* Kent published Information Analysis and Retrieval.
+*: 1963:
+*:* Weinberg report "Science, Government and Information" gave a full articulation of the idea of a "crisis of scientific information."  The report was named after Dr. Alvin Weinberg.
+*:* Joseph Becker and Robert M. Hayes published text on information retrieval. Becker, Joseph; Hayes, Robert Mayo. Information storage and retrieval: tools, elements, theories. New York, Wiley (1963).
+*: 1964:
+*:* Karen Spärck Jones finished her thesis at Cambridge, Synonymy and Semantic Classification, and continued work on computational linguistics as it applies to IR.
+*:* The National Bureau of Standards sponsored a symposium titled "Statistical Association Methods for Mechanized Documentation." Several highly significant papers, including G. Salton's first published reference (we believe) to the SMART system.
+*:mid-1960s:
+*::* National Library of Medicine developed MEDLARS Medical Literature Analysis and Retrieval System, the first major machine-readable database and batch-retrieval system.
+*::* Project Intrex at MIT.
+*:: 1965: J. C. R. Licklider published Libraries of the Future.
+*:: 1966: Don Swanson was involved in studies at University of Chicago on Requirements for Future Catalogs.
+*: late 1960s: F. Wilfrid Lancaster completed evaluation studies of the MEDLARS system and published the first edition of his text on information retrieval.
+*:: 1968:
+*:* Gerard Salton published Automatic Information Organization and Retrieval.
+*:* John W. Sammon, Jr.'s RADC Tech report "Some Mathematics of Information Storage and Retrieval..." outlined the vector model.
+*:: 1969: Sammon's "A nonlinear mapping for data structure analysis" (IEEE Transactions on Computers) was the first proposal for visualization interface to an IR system.
+* 1970s
+*: early 1970s:
+*::* First online systems—NLM's AIM-TWX, MEDLINE; Lockheed's Dialog; SDC's ORBIT.
+*::* Theodor Nelson promoting concept of hypertext, published Computer Lib/Dream Machines.
+*: 1971: Nicholas Jardine and Cornelis J. van Rijsbergen published "The use of hierarchic clustering in information retrieval", which articulated the "cluster hypothesis." (Information Storage and Retrieval, 7(5), pp. 217–240, December 1971)
+*: 1975: Three highly influential publications by Salton fully articulated his vector processing framework and term discrimination model:
+*::* A Theory of Indexing (Society for Industrial and Applied Mathematics)
+*::* A Theory of Term Importance in Automatic Text Analysis (JASIS v. 26)
+*::* A Vector Space Model for Automatic Indexing (CACM 18:11)
+*: 1978: The First ACM SIGIR conference.
+*: 1979: C. J. van Rijsbergen published Information Retrieval (Butterworths). Heavy emphasis on probabilistic models.
+* 1980s
+*: 1980: First international ACM SIGIR conference, joint with British Computer Society IR group in Cambridge.
+*: 1982: Nicholas J. Belkin, Robert N. Oddy, and Helen M. Brooks proposed the ASK (Anomalous State of Knowledge) viewpoint for information retrieval. This was an important concept, though their automated analysis tool proved ultimately disappointing.
+*: 1983: Salton (and Michael J. McGill) published Introduction to Modern Information Retrieval (McGraw-Hill), with heavy emphasis on vector models.
+*: 1985: Blair and Maron publish: An Evaluation of Retrieval Effectiveness for a Full-Text Document-Retrieval System
+*: mid-1980s: Efforts to develop end-user versions of commercial IR systems.
+*:: 1985–1993: Key papers on and experimental systems for visualization interfaces.
+*:: Work by Donald B. Crouch, Robert R. Korfhage, Matthew Chalmers, Anselm Spoerri and others.
+*: 1989: First World Wide Web proposals by Tim Berners-Lee at CERN.
+* 1990s
+*: 1992: First TREC conference.
+*: 1997: Publication of Korfhage's Information Storage and Retrieval[tpl]cite book |last=Korfhage |first=Robert R. |title=Information Storage and Retrieval |publisher=Wiley |year=1997 |pages=368 pp. |isbn=978-0-471-14338-3 |url=http://www.wiley.com/WileyCDA/WileyTitle/productCd-0471143383,descCd-authorInfo.html [/tpl] with emphasis on visualization and multi-reference point systems.
+*: late 1990s: Web search engines implementation of many features formerly found only in experimental IR systems. Search engines become the most common and maybe best instantiation of IR models, research, and implementation.
+
+== Overview ==
+
+An information retrieval process begins when a user enters a query into the system. Queries are formal statements of information needs, for example search strings in web search engines. In information retrieval a query does not uniquely identify a single object in the collection. Instead, several objects may match the query, perhaps with different degrees of relevancy.
+An object is an entity that is represented by information in a database. User queries are matched against the database information. Depending on the application the data objects may be, for example, text documents, images,[tpl]cite journal |first=Abby A. |last=Goodrum |title=Image Information Retrieval: An Overview of Current Research |journal=Informing Science |volume=3 |number=2 |year=2000 [/tpl] audio,[tpl]cite journal |first=Jonathan |last=Foote |title=An overview of audio information retrieval |journal=Multimedia Systems |year=1999 |publisher=Springer [/tpl] mind maps[tpl]cite document |first=Jöran |last=Beel |first2=Bela |last2=Gipp |first3=Jan-Olaf |last3=Stiller |contribution=Information Retrieval On Mind Maps - What Could It Be Good For? |contribution-url=http://www.sciplore.org/publications_en.php |title=Proceedings of the 5th International Conference on Collaborative Computing: Networking, Applications and Worksharing (CollaborateCom'09) |year=2009 |publisher=IEEE |place=Washington, DC [/tpl] or videos. Often the documents themselves are not kept or stored directly in the IR system, but are instead represented in the system by document surrogates or metadata.
+Most IR systems compute a numeric score on how well each object in the database matches the query, and rank the objects according to this value. The top ranking objects are then shown to the user. The process may then be iterated if the user wishes to refine the query.[tpl]cite book |last=Frakes |first=William B. |title=Information Retrieval Data Structures & Algorithms |publisher=Prentice-Hall, Inc. |year=1992 |isbn=0-13-463837-9 |url=http://www.scribd.com/doc/13742235/Information-Retrieval-Data-Structures-Algorithms-William-B-Frakes [/tpl]
+
+== Performance and correctness measures ==
+
+Many different measures for evaluating the performance of information retrieval systems have been proposed. The measures require a collection of documents and a query. All common measures described here assume a ground truth notion of relevancy: every document is known to be either relevant or non-relevant to a particular query. In practice queries may be ill-posed and there may be different shades of relevancy.
+
+=== Precision ===
+
+Precision is the fraction of the documents retrieved that are relevant to the user's information need.
+In binary classification, precision is analogous to positive predictive value. Precision takes all retrieved documents into account. It can also be evaluated at a given cut-off rank, considering only the topmost results returned by the system. This measure is called precision at n or P@n.
+Note that the meaning and usage of "precision" in the field of Information Retrieval differs from the definition of accuracy and precision within other branches of science and technology.
+
+=== Recall ===
+
+Recall is the fraction of the documents that are relevant to the query that are successfully retrieved.
+In binary classification, recall is often called sensitivity. So it can be looked at as the probability that a relevant document is retrieved by the query.
+It is trivial to achieve recall of 100% by returning all documents in response to any query. Therefore recall alone is not enough but one needs to measure the number of non-relevant documents also, for example by computing the precision.
+
+=== Fall-Out ===
+
+The proportion of non-relevant documents that are retrieved, out of all non-relevant documents available:
+It is trivial to achieve fall-out of 0% by returning zero documents in response to any query.
+
+=== F-measure ===
+
+The weighted harmonic mean of precision and recall, the traditional F-measure or balanced F-score is:
+
+=== Average precision ===
+
+This integral is in practice replaced with a finite sum over every position in the ranked sequence of documents:
+This finite sum is equivalent to:
+Average precision is also sometimes referred to geometrically as the area under the precision-recall curve.[tpl]Citation needed|date=August 2011[/tpl]
+
+=== R-Precision ===
+
+Precision at R-th position in the ranking of results for a query that has R relevant documents. This measure is highly correlated to Average Precision. Also, Precision is equal to Recall at the R-th position.
+
+=== Mean average precision ===
+
+Mean average precision for a set of queries is the mean of the average precision scores for each query.
+where Q is the number of queries.
+
+=== Discounted cumulative gain ===
+
+DCG uses a graded relevance scale of documents from the result set to evaluate the usefulness, or gain, of a document based on its position in the result list. The premise of DCG is that highly relevant documents appearing lower in a search result list should be penalized as the graded relevance value is reduced logarithmically proportional to the position of the result.
+
+=== Other Measures ===
+
+* Mean reciprocal rank
+* Spearman's rank correlation coefficient
+
+== Model types ==
+
+For the information retrieval to be efficient, the documents are typically transformed into a suitable representation. There are several representations. The picture on the right illustrates the relationship of some common models. In the picture, the models are categorized according to two dimensions: the mathematical basis and the properties of the model.
+
+=== First dimension: mathematical basis ===
+
+* Set-theoretic models represent documents as sets of words or phrases. Similarities are usually derived from set-theoretic operations on those sets. Common models are:
+** Standard Boolean model
+** Extended Boolean model
+** Fuzzy retrieval
+* Algebraic models represent documents and queries usually as vectors, matrices, or tuples. The similarity of the query vector and document vector is represented as a scalar value.
+** Vector space model
+** Generalized vector space model
+** (Enhanced) Topic-based Vector Space Model
+** Extended Boolean model
+** Latent semantic indexing aka latent semantic analysis
+* Probabilistic models treat the process of document retrieval as a probabilistic inference. Similarities are computed as probabilities that a document is relevant for a given query. Probabilistic theorems like the Bayes' theorem are often used in these models.
+** Binary Independence Model
+** Probabilistic relevance model on which is based the okapi (BM25) relevance function
+** Uncertain inference
+** Language models
+** Divergence-from-randomness model
+** Latent Dirichlet allocation
+* Feature-based retrieval models view documents as vectors of values of feature functions (or just features) and seek the best way to combine these features into a single relevance score, typically by learning to rank methods. Feature functions are arbitrary functions of document and query, and as such can easily incorporate almost any other retrieval model as just a yet another feature.
+
+=== Second dimension: properties of the model ===
+
+* Models without term-interdependencies treat different terms/words as independent. This fact is usually represented in vector space models by the orthogonality assumption of term vectors or in probabilistic models by an independency assumption for term variables.
+* Models with immanent term interdependencies allow a representation of interdependencies between terms. However the degree of the interdependency between two terms is defined by the model itself. It is usually directly or indirectly derived (e.g. by dimensional reduction) from the co-occurrence of those terms in the whole set of documents.
+* Models with transcendent term interdependencies allow a representation of interdependencies between terms, but they do not allege how the interdependency between two terms is defined. They relay an external source for the degree of interdependency between two terms. (For example a human or sophisticated algorithms.)
+
+== Major figures ==
+
+* Thomas Bayes
+* Claude E. Shannon
+* Gerard Salton
+* Hans Peter Luhn
+* Cyril Cleverdon
+* W. Bruce Croft
+* Karen Spärck Jones
+* Calvin Mooers
+* C. J. van Rijsbergen
+* Stephen E. Robertson
+* Martin Porter
+* Amit Singhal
+
+== Awards in the field ==
+
+* Tony Kent Strix award
+* Gerard Salton Award
+
+==See also==
+
+* Adversarial information retrieval
+* Collaborative information seeking
+* Controlled vocabulary
+* Cross-language information retrieval
+* Data mining
+* European Summer School in Information Retrieval
+* Human–computer information retrieval
+* Information extraction
+* Information Retrieval Facility
+* Information science
+* Information seeking
+* Knowledge visualization
+* Multimedia Information Retrieval
+* Personal information management
+* Relevance (Information Retrieval)
+* Relevance feedback
+* Rocchio Classification
+* Search index
+* Social information seeking
+* Special Interest Group on Information Retrieval
+* Subject indexing
+* Tf-idf
+* XML-Retrieval
+
+== References ==
+
+==External links==
+
+* ACM SIGIR: Information Retrieval Special Interest Group
+* BCS IRSG: British Computer Society - Information Retrieval Specialist Group
+* Text Retrieval Conference (TREC)
+* Forum for Information Retrieval Evaluation (FIRE)
+* Information Retrieval (online book) by C. J. van Rijsbergen
+* Information Retrieval Wiki
+* Information Retrieval Facility
+* Information Retrieval @ DUTH
+* Introduction to Information Retrieval (online book) by Christopher D. Manning, Prabhakar Raghavan and Hinrich Schütze, Cambridge University Press. 2008.  
+

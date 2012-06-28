@@ -1,0 +1,28 @@
+
+A tipping point is an example of hysteresis in which the point at which an object is displaced from a state of stable equilibrium into a new equilibrium state qualitatively dissimilar from the first.
+
+== In electric power ==
+
+Tipping points are commonly used in electric switches to assure fast opening and closing of switch contacts, so as to minimize electric arc formation and prevent burning or welding of the switch contacts. 
+
+=== Toggle switches ===
+
+The switch mechanism is designed to have two tipping points that are a mirror image of each other, with the contact actuator always resting at one tipping point or the other. Movement of the switch control lever applies tension to a spring, until the control lever crosses the equilibrium point of the contact actuator. The spring then pushes the actuator to the opposite tipping point, releasing the spring tension.
+There are several advantages to the tipping point mechanism in comparison to old-fashioned direct-operated knife switches:
+* The speed at which the control lever is operated does not affect the speed at which the spring releases its tension. Moving the control quickly or slowly simply compresses the spring, and the actuator does not move until the tipping point is crossed.
+* The tipping point design prevents damage to the contacts due to the switch being opened slowly, resulting in arc formation, or the switch contacts not being closed completely and firmly.
+* The tipping point also provides some protection against physical impacts that could cause the actuator to open, since the tipping point spring applies steady pressure across the contacts.
+However large springs and levers can produce a loud clunking noise as they suddenly release. In homes this noise is undesirable, resulting in the development of much simpler tipping point mechanisms of low mass, using leaf springs and a very small strip of metal as the contact actuator.
+
+=== Microswitches ===
+
+Tipping points with a very small separation distance between equilibrium states are used in microswitches. Large switches use separate springs, levers, and hinges to construct the tipping point, but the microswitch uses a very small kinked metal leaf spring. The strip is secured at one end very close to the kink, which bends the strip in an upward direction.
+Pressure is applied very close to the kink, which causes the strip to invert the kink and pop downward, swinging the end of the strip down and moving the switch contacts. Releasing the pressure on the spring causes it to pop back to its original shape, swinging the end of the strip upward and reverting the switch to its original state.
+Because hinge points are eliminated and the motion is due to stressing of a thin metal strip, microswitches are extremely reliable, operating for millions of cycles without failure. A larger switch constructed of separate springs and levers wears out more quickly, due to the hinge points rubbing together under the high pressure of the tipping point spring.
+
+=== Set-point thermostats ===
+
+Electrical equipment that utilizes heating and cooling systems often incorporate small pop-disc thermostats which open or close at a set temperature that cannot be changed by the end-user. The disc is formed from a bi-metallic sheet, with two layers of metal that expand at different rates, and is stamped into the final bowl shape. The switch contacts are in the center and around the circumference of the bowl.
+At the transition temperature, the metallic expansion stresses on the bowl cause it to suddenly "pop" and invert itself. Depending on switch contact arrangement above and below the bowl, inversion may either open or close the electric circuit.
+The inverted bowl is held under tension in the inverted shape, and it takes a certain amount of temperature drop for the bi-metallic stresses to build up sufficiently in the opposite direction, causing the bowl to "unpop" back to its original shape.
+

@@ -1,0 +1,68 @@
+
+Chellow is open source Energy accounting software for checking the correctness of UK electricity bills. 
+Energy accounting software is a class of software products used for tracking, managing, processing, reporting and analyzing for accuracy of utility bills and energy information. Such software is needed to check the accuracy of utility bills, so that accurate billing data can then be processed by energy management software.
+There are many proprietary packages on the market and these deal very well with the needs of the majority of users - typically retail chains will have many sites each with one billed supply and no on site generation.  
+Chellow originated by the Wessex Water Energy Team, following a survey of the best available competing products which found that they all had one or more deficiencies when it came to dealing with large complex organisations such as a water company.  The company had, for example, many sites fed from one supply, and many cases where many supplies feed one site; Also, the existing software solutions could not deal adequately with on site generation such as combined heat and power - CHP and diesel generators.
+Chellow was produced by analysts working for Wessex Water to cover all these issues and is thought to be unique in its breadth and capabilities and the fact that it is open source and therefore free.
+The software has recently completed a series of rigorous comparisons with other commercial offerings and found to be overall superior, in that it can do anything the other systems can do, but also can do many things the other systems cannot.
+Summary
+Chellow is a web application for checking that UK electricity bills are correct. It can scale up to organizations with a large number of sites / supplies. It can hold an accurate model of supplies and their characteristics, including embedded generator supplies and third party supplies. Half-hourly data is checked for errors and stored in Chellow. Bills can be stored in Chellow, and can be checked against virtual bills. Many standard reports are available in Chellow for viewing the data it holds, including graphs and summary data reports.
+Physical model
+Chellow holds a physical model of an organization's supplies containing all the information necessary to check bills including:
+Many-to-many mapping of sites and supplies.
+Supplies connected to generators (CHP, Load Management, Turbine).
+Supplies connected to the public distribution system.
+Third party supplies (where the supply goes from or to a third party, rather than the public distribution network).
+MPANs associated with each supply, together with their Agreed Supply Capacity and Standard Settlement Configuration. From the MPAN, Chellow works out: Voltage Level, Import / Export, Profile Class and Distribution Area.
+Chellow holds a history of the state of each supply.
+Half-hourly data (including kVAr, kWh, import and export)
+The data can be uploaded using CSV files or entered manually using web forms.
+A general philosophy behind Chellow is that any data entered is immediately checked for internal consistency with data already in Chellow. Inconsistent header data is immediately rejected, and errors in hh data are held in a dynamic list.
+Half-hourly Data
+HH data files can be imported manually, or with some custom programming can be downloaded automatically from the Data Collector's server. As mentioned earlier, errors in hh data are stored, and then if a subsequent upload corrects the error it automatically disappears. The errors detected by Chellow are channel level (negative values, estimates, missing data) and site level (exporting more than is being generated for example).
+The error list is accessible via a URL and so can be made available to the Data Collector.
+Virtual Bills
+Chellow comes with the ability to calculate standard pass-through costs including:
+CCL
+TRIAD (including a facility for estimated TRIADs)
+VAT
+AAHEDC
+BSUoS
+System Prices
+Transmission Loss Multipliers
+RCRC
+For System Prices, Transmission Loss Multipliers, BSUoS and RCRC the data is automatically downloaded from Elexon / National grid.
+Also, the DUoS charges for DNO areas 14, 20 and 22 are built into Chellow:
+Availability
+DUoS Day and Night
+Reactive Power
+Standing Charge
+With a custom script, the supplier tariff can be built on top of these pass-through charges to create virtual bills.
+Chellow holds the Elexon Market Domain Data set. This means that for NHH supplies with HH data, Chellow uses the SSC to determine the timeslots for the energy tariff to create a virtual bill.
+Bills
+Bills from suppliers, DCs and MOPs can be stored in Chellow, imported from a variety of formats including EDI and CSV. For NHH bills, register reads are stored as part of the bill. A bill-check report can be run, that compares the actual bill with the virtual bill, so that differences can be challenged with the supplier.
+Comparison Against ECOES
+There's a report that tells you all the differences between ECOES and Chellow.http://chellow.wikispaces.com/Overview
+Reports
+Here are a few examples of reports from Chellow:
+Graph of site usage
+Generation graph
+Monthly kWh, MD / kW, MD / kVA, Supply Capacity for each supply.
+Monthly site level report of Imported, Displaced and Used kWh and Imported £.
+Forecasting cost.
+
+==See also==
+
+* EnergyCAP
+* Energy accounting software
+* Electricity distribution
+* Energy management software
+* Electricity meter
+* Meter Point Administration Number
+* Electricity billing in the UK
+
+==External links==
+
+* Chellow sourceforge page
+Open Source Bill Checking software - http://www.meniscus.co.uk/pagedisplay.aspx?article=83&name=Chellow
+

@@ -1,0 +1,35 @@
+
+Sequerome is a web-based Sequence profiling tool for integrating the results of a BLAST sequence-alignment report with external research tools and servers that perform advanced sequence manipulations, and allowing the user to record the steps of such an analysis. Sequerome is a web based Java tool that acts as a front-end to BLAST queries and provides simplified access to web-distributed resources for protein and nucleic acid analysis. 
+Since its inception in 2005, the tool has been featured in Science"A Bigger BLAST", NetWatch, Science VOL 309, 23 Sep 2005, p-1971 [tpl]doi|10.1126/science.309.5743.1971b[/tpl],"Seq and Find" and officially linked to many bioinformatics portals around the globe.
+
+==Description==
+
+Sequerome has the following features:  profiling Sequence alignment reports from BLAST by linking the results page to a panel of third party services, tabbed browsing allowing user to come back earlier operations, visit third party services to perform customized sequence manipulations, one-box any-format sequence input and alternate options for sequence input including visiting third party sites, cached storage of input sequences and retrieval, a three pane browsing environment allowing simultaneous input and analysis of multiple sequences, and archival options on top of each icon, for results from each pane
+The software application can be accessed directly. The homepage shows three panels:  Query pane, Results pane and the Search History pane. The user may resize these panes to perform parallel actions in any of these panes. In a single browser it is possible to run parallel BLAST searches on different sequences, analyzing them or viewing the restriction digests for each document of a BLAST result  
+
+===Query Pane===
+
+Each browser session can be initiated perform without asking too many questions at the outset. The user has to just dump in the sequence in the Query pane, and BLAST the sequence right away under standard parameters. Experienced users have a choice to perform further special operations under the Advanced options. Some of features include selection of specific databases to BLAST from, upload facility to work with FASTA files stored in individual computers, sequence retrieval using NCBI IDs and visit any user-defined URL to drag-N-drop the sequences. Alternatively the user can also perform a variety of other actions including Sequence manipulation, analysis, and alignment using existing tools available in the web. The One-box any-sequence, takes input in any format (FASTA, with or without spaces/numbers...). Alerts also exist to warn wrong selection of choices (DNA/RNA/Protein). Results obtained from 'sequence manipulation' e.g. translation, can be further carried on to do further BLAST analysis while preserving the history of the earlier search.  
+
+===Results Pane===
+
+Sequerome directly queries the input sequence against a variety of databases/tools (‘popular public domains’ and ‘privately hosted services’) including BLAST, PDB, REBASE and others, and generates outputs that are intuitive and easily comprehensible. Access to various analysis tools, (including viewing a 3D structure-viewer from a PDBid), is provided as separate command buttons to analyze every record from a BLAST report before making a final selection. In case of results from a protein BLAST, PDBids are displayed prominently in appropriate cases next to the BLAST record, so that the structure of the molecule with a match can be viewed directly (with an already downloaded version of molecular structure viewer e.g. Cn3D, ‘Rasmol’....  Once the BLAST report is displayed on the Results pane, the user can to directly perform an analysis on any of the BLAST hits using a series of command buttons that are linked to the respective servers/ sites. Most of the results from third party servers can be viewed directly in the Results pane without opening up as many browsers e.g. ORF prediction, Protparam.  
+
+===Search History Pane===
+
+One of the key features of a profiling an input sequence data is to store, retrieve and effectively combine and re-use the older inputs. These can be further enhanced if there is retrieval options for each of the operations performed. The bottom right panel in the browser does this while also storing all the input sequences entered earlier. Thus the browser lends an environment to carry out tabbed browsing.. For each of the icons linking to the stored results, the user has a choice of archiving them, including print, save and mail options. These can be seen as small colored pictures on top of each icon. 
+
+==Implementation==
+
+Sequerome has a three-tiered architecture that uses Java servlet and Server Page technologies with Java database connectivity (JDBC), making it both server and platform-independent. Sequerome is compatible with essentially all Java-enabled, graphical browsers but is better accessed  using Internet Explorer and can be run on most operating systems equipped with a Java Virtual Machine (JVM) and Jakarta Tomcat server. End-users have to download plugins for viewing structure of molecules from PDB e.g. Cn3D, Rasmol, SwissPDB etc.   
+
+==Further directions==
+
+The "post-genomics" era has given rise to a range of web based tools and software to compile, organize, and deliver large amounts of primary sequence information, as well as protein structures, gene annotations, sequence alignments, and other common bioinformatics tasks. A simple web-search returns any number of such services and software tools. 
+
+==References==
+
+* "A Bigger BLAST", NetWatch, Science VOL 309, 23 Sep 2005, p-1971 [tpl]doi|10.1126/science.309.5743.1971b[/tpl]
+* "Seq and Find", WebWatch feature,  Biotechniques, Volume 39, Number 5: pp 629 
+* "A web based interface facilitating sequence to structure analysis of BLAST alignment reports", Biotechniques Volume 39, Number 2: pp 186–188
+

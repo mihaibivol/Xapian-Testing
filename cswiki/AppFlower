@@ -1,0 +1,29 @@
+
+AppFlower is an open source application builder for use in building web-based applications. AppFlower provides a visual designer (Studio) to develop applications without prior knowledge of programming, using drag and drop and no coding. Advanced users can create more complex applications.
+AppFlower is based the model–view–controller (MVC) development framework Symfony, and the JavaScript library Ext JS.
+
+==Features==
+
+* Enterprise-level application builder
+* Web-based Visual Designer (IDE)
+* Widget, Layout and Theme builder
+* No coding philosophy
+* Native REST integration for all Widgets
+* Modern web 2.0 user-interface with Sencha
+* RAD for web 2.0
+* Open-source and Extendable (based on Symfony & Sencha)
+* Integrated Debugging and Benchmarker utilities
+* Large community-base with plugins from both AppFlower, Sencha, Symfony (and 3rd party php frameworks like Zend).
+
+==Sponsors==
+
+The AppFlower project is sponsored by AppFlower ApS, a Danish software development agency.
+
+==References==
+
+==External links==
+
+* [tpl]Official website|http://www.appflower.com/[/tpl]
+* Symfony; a PHP Framework and Sencha; a Javascript library
+* AppFlower application showcase and AppFlower Screencasts
+

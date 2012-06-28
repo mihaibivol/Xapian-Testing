@@ -1,0 +1,7 @@
+
+Subsetting is a concept used in research communities (for example, earth sciences) to describe the process of retrieving just the parts of large files which are of interest for a specific purpose. This occurs usually in a client—server setting, where the extraction of the parts of interest occurs on the server before the data is sent to the client over a network. The main purpose of subsetting is to save bandwidth on the network and storage space on the client computer.
+
+==External links==
+
+*Subset.org
+

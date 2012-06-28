@@ -1,0 +1,25 @@
+
+Web Services-Management (WS-Management) is a DMTF open standard defining a SOAP-based protocol for the management of servers, devices, applications and various Web services. The DMTF has published the standards document DSP0226 with version v1.1.0 of 2010-03-03http://www.dmtf.org/standards/published_documents/DSP0226_1.1.pdf.  
+The specification is based on DMTF open standards and Internet standards for Web services.  WS-Management was originally developed by a coalition of vendors.  The coalition started with AMD, Dell, Intel, Microsoft, Sun Microsystems and expanded to a total of 13 members before being subjugated to the DMTF in 2005.  
+WS-Management provides a common way for systems to access and exchange management information across the IT infrastructure.
+The specification is quite rich, supporting much more than get/set of simple variables, and in that it is closer to WBEM or Netconf than to SNMP. A mapping of the DMTF-originated Common Information Model into WS-Management was also defined.
+
+==Implementations and application support==
+
+* Microsoft has implemented the WS-Management standard in Windows Remote Management 1.1 (WinRM), available for Windows XP, Windows Server 2003, Windows Vista and Windows Server 2008.
+* Using WS-Management (WinRM 2.0), Windows PowerShell 2.0 allows scripts and cmdlets to be invoked on a remote machine or a large set of remote machines.[tpl]cite web | url = http://blogs.msdn.com/powershell/archive/2007/11/06/what-s-new-in-ctp-of-powershell-2-0.aspx | title = What's New in CTP of PowerShell 2.0 | accessdate = 2007-12-12[/tpl]
+* Novell is working to develop an open source implementation of the WS-Management specification for SUSE Linux Enterprise.[tpl]cite web | url = http://www.novell.com/news/press/microsoft_and_novell_announce_technical_collaboration_for_customers | title = Microsoft and Novell Announce Technical Collaboration for Customers | accessdate = 2007-12-12[/tpl]
+* WinRM 2.0 for Windows XP and Windows Server 2003 was released on Oct 26, 2009.[tpl]cite web | url = http://www.microsoft.com/downloads/details.aspx?FamilyID=60cb5b6c-6532-45e0-ab0f-a94ae9ababf5 | title = Windows Management Framework Core for Windows XP | accessdate = 2009-10-28[/tpl]
+* A European research project (ITEA 2 programme, a strategic pan-European programme for advanced pre-competitive R&D in Software-intensive Systems and Services), named SODA (Service Oriented Device and Delivery Architecture) developed several implementations of WS-Managament in ANSI C, Java, and for OSGi. These implementations are specifically targeted to be used with an open web service protocol stack named DPWS (Devices Profile for Web Services), and were optimized to be integrated in micro-devices with only 100kB of memory. These implementations are open source, and source code is available on the SOA4D forge.
+
+==References==
+
+==External links==
+
+* WS-Management specifications
+* Openwsman: Open-source implementation of WS-Management
+* Wiseman: Open-source java implementation of WS-Management
+* SOA4D (Service Oriented Architecture for Devices): Open-source C and Java implementation of DPWS stack and WS-Management
+* A live WS-Management example for experimentation
+* WinRM (Windows Remote Management): a Microsoft Windows implementation of WS-Management Protocol based on SOAP (Simple Object Access Protocol)
+

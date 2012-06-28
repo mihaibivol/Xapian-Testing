@@ -1,0 +1,69 @@
+
+DRMAA or Distributed Resource Management Application API is a high-level Open Grid Forum API specification for the submission and control of jobs to a Distributed Resource Management (DRM) system, such as a Cluster or Grid computing infrastructure. The scope of the API covers all the high level functionality required for applications to submit, control, and monitor jobs on execution resources in the DRM system.
+In 2007, DRMAA was one of the first two (the other one was GridRPC) specifications that reached the full recommendation status in the Open Grid Forum.[tpl]cite web|url=http://www.ogf.org/News/newscal_enews.php?oct07#LINK3|title=DRMAA and GridRPC Documents Achieve "Grid Recommendation" Status|date=2008-01-07|publisher=Open Grid Forum[/tpl]
+
+== Development Model ==
+
+The development of this API was done through the Global Grid Forum, in the model of IETF standard development, and it was originally co-authored by: 
+*Roger Brobst from Cadence Design Systems
+*Waiman Chan from IBM
+*Fritz Ferstl from Sun Microsystems, now Univa
+*Jeff Gardiner from John P. Robarts Research Institute
+*Andreas Haas from Sun Microsystems (Co-Chair)
+*Bill Nitzberg from Altair Engineering
+*Hrabri Rajic from Intel (Maintainer & Co-Chair)
+*John Tollefsrud from Sun Microsystems Founding (Chair)
+This specification was first proposed at Global Grid Forum 3 (GGF3)GGF3 - The Third Global Grid Forum October 7 - 11, 2001 in Frascati, Italy, but gained most of its momentum at Global Grid Forum 4 in Toronto, Ontario. The development of the specification was first proposed with the objective to facilitate direct interfacing of applications to existing DRM systems by application's builders, portal builders, and Independent Software Vendors (ISVs). Because the API was co-authored by participants from a wide-selection of companies and included participants from industries and education, its development resulted in an open standard that received a relatively good reception from a wide audience quickly.
+
+== Significance ==
+
+Without DRMAA, no standard model existed to submit jobs to component regions of a Grid, assuming each region was running local DRMSs.  The first version of DRMAA API has been implemented in Sun's Grid Engine and also in the University of Wisconsin–Madison's program Condor.  Furthermore C, Java, and IDL binding documents have been made available.
+
+=== Implementations ===
+
+* Grid Engine[tpl]cite web|url=http://www.gridforum.org/Public_Comment_Docs/Documents/Mar-2007/sge_DRMAA_experience_report.pdf|title=N1 Grid Engine DRMAA 1.0 Implementation – Experience Report|date=2008-01-04|publisher=Open Grid Forum[/tpl]
+* Univa Grid Engine[tpl]cite web|url=http://www.univa.com/sites/gridengine.drupalgardens.com/files/Grid%20Engine%208.0.pdf|title=Univa Grid Engine 8.0 - Data Sheet|date=2011-05-11|publisher=Univa Corporation[/tpl]
+* Condor[tpl]cite web|url=http://www.ggf.net/Public_Comment_Docs/Documents/Mar-2007/condor_DRMAA_experience_report.pdf|title=Condor DRMAA 1.0 Implementation – Experience Report|date=2008-01-04|publisher=Open Grid Forum[/tpl]
+* Torque/PBS[tpl]cite web|url=http://www.ogf.org/documents/GFD.117.pdf|title=PBS/Torque DRMAA 1.0 Implementation – Experience Report |date=2008-01-04|publisher=Open Grid Forum[/tpl]
+* GridWay[tpl]cite web|url=http://www.gridforum.org/Public_Comment_Docs/Documents/Mar-2007/gridway_DRMAA_experience_report.pdf|title=GridWay DRMAA 1.0 Implementation – Experience Report|date=2008-01-04|publisher=Open Grid Forum[/tpl]
+* Xgrid[tpl]cite web|url=http://sourceforge.net/projects/xgrid-drmaa/|title=XgridDRMAA|date=2008-01-04|publisher=SourceForge[/tpl]
+* EGEE (LCG2 / gLite)
+* Platform LSF[tpl]cite web|url=http://www.platform.com/press-releases/2007/jkhkhkj|title=Platform Computing Adopting DRMAA Standards |date=2007-12-18|publisher=Platform Computing Corp[/tpl]
+* UNICORE[tpl]cite web|url=http://ieeexplore.ieee.org/xpl/freeabs_all.jsp?tp=&arnumber=1654618&isnumber=34688|title=A DRMAA-based target system interface framework for UNICORE|date=2006-07-12|publisher=IEEE[/tpl]
+* Kerrighed Cluster Framework[tpl]cite web|url=http://www.kerrighed.org/docs//KerrighedSummit08/MN-kerrighed-job-management.pdf|title=February 1, 2008|date=2008-02-01[/tpl]
+* IBM Tivoli Workload Scheduler LoadLeveler[tpl]cite web|url=http://apps.man.poznan.pl/trac/ll-drmaa|title=PSNC DRMAA for IBM LoadLeveler |date=2010-12-20[/tpl]
+* SLURM[tpl]cite web|url=http://apps.man.poznan.pl/trac/slurm-drmaa|title=PSNC DRMAA for SLURM|date=2010-12-20[/tpl]
+
+=== Language Bindings ===
+
+* C/C++
+* Java/JavaScript[tpl]cite web|url=http://blogs.sun.com/rhierlmeier/entry/java_drmaa_binding_with_javascript|title=Java DRMAA binding with JavaScript|date=2008-05-25|publisher=Sun Microsystems[/tpl]
+* Perl[tpl]cite web|url=http://search.cpan.org/~tharsch/Schedule-DRMAAc-0.81/Schedule_DRMAAc.pod|title=Schedule::DRMAAc[/tpl]
+* Python
+* Rubydrmaa4ruby at github.com
+Other language bindings can be generated easily from SWIG, which was first used by the Perl binding.
+
+== DRMAA applications ==
+
+A number of software solutions use DRMAA to interface with different resource management systems:[tpl]cite web|url=http://www.drmaa.org/stories.php|title=DRMAA Success Stories[/tpl]
+* tigr-workflow[tpl]cite web|url=http://tigr-workflow.sourceforge.net/|title=Work Flow Project Home Page|publisher=Sourceforge[/tpl]
+* eXludus RepliCator[tpl]cite web|url=http://www.exludus.com/|title=EXLUDUS - MultiCore Optimization[/tpl]
+* GridwiseTech Grid Engine-Globus Toolkit adapter[tpl]cite web|url=http://www.gridwisetech.com/ge-gt/|title=GE-GT Adapter[/tpl]
+
+== References ==
+
+*Distributed Resource Management Application API Specification 1
+*GGF3 Event List
+*GGF4 Event List
+
+== External links ==
+
+*DRMAA's Project Page
+*Global Grid Forum
+*Sun Grid Engine
+*Condor Homepage
+*DRAMM binding for Platform LSF
+*Condor Extensions Project
+*DRMAA binding for Ruby
+*DRMAA HOWTOs and Tutorials
+

@@ -1,0 +1,40 @@
+
+Smolt is a computer software that gathers hardware information from computers running Linux, and submits them to a central server for statistical purposes, quality assurance and support. It was initiated by Fedora, with the release of Fedora 7, and is now a combined effort of various Linux projects. Information collection is voluntary (opt-in) and anonymous. Smolt does not run automatically. It requests permission before uploading new data to the Smolt server.
+
+==General==
+
+Before Smolt there was no widely-accepted system for assembling Linux statistics in one place. Smolt is not the first nor the only attempt, but it is the first accepted by major Linux distributions. 
+Collecting this kind of data across distributions can:
+* aid developers in detecting hardware that is poorly supported
+* focus efforts on popular hardware
+* provide workaround and fix tips
+* help users to choose the best distribution for their hardware
+* convince hardware vendors to support Linux
+
+== Getting Smolt ==
+
+Currently you can use Smolt on:
+* Fedora, officially included
+* openSUSE, officially included since openSUSE 11.1; for older versions see openSUSE Software search
+* RHEL and CentOS see http://download.fedora.redhat.com/pub/epel/
+* Gentoo see http://packages.gentoo.org/package/app-admin/smolt
+* MythTV see http://mythbuntu.org/smolt
+
+== Smolt server ==
+
+The smolt server, at http://www.smolts.org/, stores all collected data.
+
+== See also ==
+
+* Linux Counter
+* The Debian Popularity Contest package
+
+== External links ==
+
+* Smolt main page. 
+* Smolt wiki
+* openSUSE about Smolt
+
+== References ==
+
+

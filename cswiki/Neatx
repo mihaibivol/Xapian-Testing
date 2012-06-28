@@ -1,0 +1,22 @@
+
+Neatx is an open-source NX server based on NoMachine's NX technology. It is created by Google. Neatx is written mostly in Python, with the exception of very few wrapper scripts in BASH and one program written in C.
+
+== History ==
+
+Google announced the release of Neatx on July 7, 2009.Google-opensource.blogspot.com
+There will be no new releases for the time being as they are constantly fixing small problems that arise.code.google.com/p/neatx
+The source repository was last updated in February 2010.
+
+== See also ==
+
+* Comparison of remote desktop software
+* Thinstation thin client Linux implementation with optional built-in NX client.
+== References ==	 
+
+== External links ==
+
+* Google Code page for Neatx
+* TechWorld article covering the release
+* Official Google blog post announcing the release
+* The FreeNX Stable PPA (repository) for Ubuntu also features Neatx for Ubuntu releases 9.10 and 10.04
+

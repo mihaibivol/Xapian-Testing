@@ -1,0 +1,63 @@
+
+Marionnet is a virtual network laboratory: it allows users to define, configure and run complex computer networks without any need for physical setup. Only a single, possibly even non-networked GNU/Linux host machine is required to simulate a whole Ethernet network complete with computers, routers, hubs, switches, cables, and more.
+Support is also provided for integrating the virtual network with the physical host network.
+
+==History==
+
+Marionnet was born in April 2005 as a simple textual interface to Netkit, written in OCaml by Jean-Vincent Loddo at the Paris 13 University for his own networking course.
+The code has since been completely rewritten and redesigned in September 2005, in order to remove the dependency from Netkit and to ease the construction of a graphical interface, partly built on DOT.
+The architecture was further extended and the system made more general when Luca Saiu joined the project in 2007, contributing in particular to the dynamic reconfiguration aspects.
+The system is now in active use in several universities in Metropolitan FranceA practical exercise with Marionnet: Cédric Messiant, Paris 13 University (in French)Marionnet used at the IUT de Bézier, Université Montpellier 2. and other countriesThe University of La Reunion IUT mentions its adoption of Marionnet..
+
+===Current development===
+
+Marionnet has reached a fairly stable state and is being successfully used for teaching networks in several universities around the world. The current development is centered around making the system easier to use for the average end user, with a particular emphasis on documentation.
+Internationalization is on the way (mostly in the marionnet_i18n branch) through GNU Gettext.
+So far Marionnet has been presented at two international Computer Science conferences, many French eventsSome Marionnet presentations. and at FOSDEMFOSDEM talk about Marionnet..
+
+==Design==
+
+On top of a GNU/Linux host, the emulation of guest machines is achieved through User Mode Linux technology that allows to run many Linux kernels in user space as regular processes.
+VDE - Virtual Distributed Ethernet project is responsible of linking together Uml machines in a virtual network,
+its purpose is to emulate cable, hub and switch devices allowing also to introduce perturbations in the communication.
+On top of this raw emulated network Marionnet acts as a coherent manager and as a GUI.
+Marionnet is an example of a complex concurrent application written in a functional language, using relatively advanced programming techniquesStatus Report: Marionnet --- How to Implement a Virtual Network Laboratory in Six Months and Be Happy: ACM SIGPLAN Workshop on ML, Freiburg (Germany), 2007..
+
+==Features==
+
+* Dynamic reconfiguration of the network.
+* Full binary compatibility with user-level GNU/Linux software which runs on virtual machines.
+* Ability to use host X server to run graphical application (wireshark...).
+* Copy-on-write file systems, allowing to economize on disk space usage.
+* "Gateway" device to connect virtual network to host network.
+* Intuitive GUI with the network diagram dynamically updated.
+
+==Performance==
+
+Marionnet has showed good performance with complex networks (~15 machines) even on relatively old machines, remaining very responsive.
+The main concern is disk usage but that largely depends on the distribution of choice; pinocchio is the custom distro that was developed to meet average needs.
+
+==Uses==
+
+The main goal of Marionnet is the teaching of computers networks in university laboratoriesMarionnet : un logiciel graphique pour l’apprentissage et l’enseignement des réseaux locaux d’ordinateurs: Premier Workshop pédagogique “Réseaux & Télécoms”, Saint-Pierre de la Réunion (France), 2007. In French., although it could be a valuable tool also for high schools.
+Despite being teaching-oriented Marionnet may be used to emulate networks for test or development purposesMarionnet: a virtual network laboratory and simulation tool: SimulationWorks, Marseille (France), 2008.. It is quite easy to set up, fast even with complicated configurations and the possibility of reverting filesystem changes on virtual machines makes it quite flexible.
+
+==See also==
+
+* User-mode Linux
+* OCaml
+* Gtk
+* DOT language
+
+==References==
+
+==External links==
+
+* Marionnet Official Web Site
+* Marionnet wiki, 2009-01-15
+* VDE Official Web Site
+* Netkit
+* Cloonix-Net
+* VIRCONEL (uses OpenVZ)
+* Network-In! (Another simulator using the same technologies)
+

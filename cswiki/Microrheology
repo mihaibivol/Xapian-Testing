@@ -1,0 +1,53 @@
+
+Microrheology is a technique to measure the rheological properties of a medium, such as microviscosity, via the measurement of the trajectory of a flow tracer (a micrometre-size particle). It is a new way of doing rheology, traditionally done using a rheometer. The size of the tracer is around a micrometre. There are two types of microrheology: passive microrheology and active microrheology. Passive microrheology uses inherent thermal energy to move the tracers, whereas active microrheology uses externally applied forces, such as from a magnetic field or an optical tweezer, to do so.  Microrheology can be further differentiated into 1- and 2-particle methods[ref]
+
+</ref>
+[ref]
+
+</ref>.
+
+== Passive microrheology==
+
+ Passive microrheology  uses the thermal energy (kT) to move the tracers. The trajectories of the tracers are measured optically either by microscopy or by diffusing-wave spectroscopy (DWS). From the mean square displacement with respect to time (noted MSD or 2> ), one can calculate the visco-elastic moduli G′(ω) and G″(ω) using the generalized Stokes–Einstein relation (GSER). Here is a view of the trajectory of a particle of micrometer size.
+Image:Brownian_trajectory.png|Typical trajectory of a Brownian particle (simulation)
+Image:examples_MSD_pure_viscous_and_elastic.png|Two examples of MSD: one for a purely viscous fluid (free diffusion) and one for a viscolelastic fluid (trapped by elastic network)
+Image:Film particule ds polymere.gif|Animation of a particle in a polymer-like network
+Observing the MSD for a wide range of time scales gives information on the microstructure of the medium where are diffusing the tracers. If the tracers are having a free diffusion, on can deduce that the medium is purely viscous. If the tracers are having a sub-diffusive mean trajectory, it indicates that the medium presents some viscoelastic properties. For example, in a polymer network, the tracer may be trapped. The excursion δ of the tracer is related to the elastic modulus G′ with the relation G′ = kBT/(6πaδ2).
+Microrheology is another way to do linear rheology. Since the force involved is very weak (order of 10−15 N), microrheology is guaranteed to be in the so-called linear region of the strain/stress relationship. It is also able to measure very small volumes (biological cell).
+with 
+:kB: Boltzmann constant
+:T: temperature in kelvins
+:s: the Laplace frequency
+:a: the radius of the tracer
+A related method of passive microrheology involves the tracking positions of a particle at a high frequency, often with a quadrant photodiode[ref]
+{{cite journal
+ |author=Schnurr, B. and Gittes, F. and MacKintosh, F. C. and Schmidt, C. F.
+ |year=1997
+ |title=Determining Microscopic Viscoelasticity in Flexible and Semiflexible Polymer Networks from Thermal Fluctuations
+ |journal=Macromolecules
+ |volume=30 
+ |pages=7781–7792
+ |doi= 10.1021/ma970555n
+{{cite journal
+ |author=Gittes, F. and Schnurr, B. and Olmsted, P. D. and MacKintosh, F. C. and Schmidt, C. F.
+ |year=1997
+ |title=Determining Microscopic Viscoelasticity in Flexible and Semiflexible Polymer Networks from Thermal Fluctuations
+ |journal=[[Physical Review Letters]]
+ |volume=79 
+ |pages=3286–3289
+ |doi= 10.1103/PhysRevLett.79.3286
+
+==Active microrheology==
+
+Active microrheology may use a magnetic field 
+ or optical tweezers to apply a force on the tracer and then find the stress/strain relation.
+
+==References==
+
+==External links==
+
+* Harvard Weitz Lab page 
+* Review of microrheology in optical tweezers
+* Review on microrheology 
+* Illustrated description of microrheology and a microrheology analysis, with movies 
+

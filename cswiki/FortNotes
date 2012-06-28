@@ -1,0 +1,36 @@
+
+FortNotes Online Password Manager is a pay what you want password management web site based on the AES encryption in the browser developed by a developer in Ukraine.
+
+==Overview==
+
+After a user registration and logging in a password is set to locally encrypt/decrypt data using SJCL (Stanford Javascript Crypto Library)http://crypto.stanford.edu/sjcl/.
+The server-side stores only an encrypted data. The registration and authentication is also anonymous.
+Single piece of information in the system is called "note". There are types of notes: email, site, jabber/icq/msn/skype account, ssh/ftp. Each note consists of one or more "entries" - line of text, URI, email address or multi-line block of text.
+A list of tags can be assigned to a note. There is a set of system tags. Tags are used to perform server-side searching. Client-side additional filtration is available after a search.
+
+==Features==
+
+*Notes, entries and tags are encrypted/decrypted locally in the browser
+*One master password
+*Cross-browser access
+*Tag-based search with additional filtering
+*Secure random password generation
+
+==Source code==
+
+FortNotes is an open source project and available in the mercurial public repository https://bitbucket.org/DarkPark/fortnotes.
+
+== See also ==
+
+* Clipperz
+* KeePass
+* LastPass
+* Passpack
+
+==References==
+
+==External links==
+
+*Official website
+*FortNotes Forum
+

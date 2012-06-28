@@ -1,0 +1,15 @@
+
+sw8t.xml is a JavaScript XML parser. It is non-validating and parses XML from a URL or string into a DOM-like structure. It is free and open source software, distributed under the terms of the GNU Lesser General Public License version 3.
+
+== Features ==
+
+sw8t.xml aims to provide an intuitive, lightweight solution for XML parsing in the JavaScript space much like JDOM provides in the Java space.
+
+== Limitations ==
+
+sw8t.xml is non-validating.  sw8t.xml does not process XSLT stylesheet declarations.  sw8t.xml does not include an XPath processor.
+
+==References==
+
+*SourceForge Project Page
+

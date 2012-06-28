@@ -1,0 +1,43 @@
+
+BigTable is a compressed, high performance, and proprietary data storage system built on Google File System, Chubby Lock Service, SSTable and a few other Google technologies. It is not distributed outside Google, although Google offers access to it as part of its Google App Engine.
+
+==History==
+
+Big Table development began in 2004"First an overview. BigTable has been in development since early 2004 and has been in active use for about eight months (about February 2005)."As said by AswiniKumar Google's BigTable and is now used by a number of Google applications, such as web indexing "Bigtable: A Distributed Storage System for Structured Data", MapReduce, which is often used for generating and modifying data stored in BigTable,"Bigtable can be used with MapReduce, a framework for running large-scale parallel computations developed at Google. We have written a set of wrappers that allow a Bigtable to be used both as an input source and as an output target for MapReduce jobs". pg 3 of "Bigtable: A Distributed Storage System for Structured Data", 2006 Google Reader,"Reader is using Google's BigTable in order to create a haven for what is likely to be a massive trove of items." Official Google Reader blog. Google Maps,"There are currently around 100 cells for services such as Print, Search History, Maps, and Orkut." Google's BigTable Google Book Search, "My Search History", Google Earth, Blogger.com, Google Code hosting, Orkut, YouTube,"Their new solution for thumbnails is to use Google’s BigTable, which provides high performance for a large number of rows, fault tolerance, caching, etc. This is a nice (and rare?) example of actual synergy in an acquisition." YouTube Scalability Talk and Gmail."How Entities and Indexes are Stored - Google App Engine - Google Code" Google's reasons for developing its own database include scalability and better control of performance characteristics."We have described Bigtable, a distributed system for storing structured data at Google....Our users like the performance and high availability provided by the Bigtable implementation, and that they can scale the capacity of their clusters by simply adding more machines to the system as their resource demands change over time...Finally, we have found that there are significant advantages to building our own storage solution at Google. We have gotten a substantial amount of flexibility from designing our own data model for Bigtable." from the Conclusion of "Bigtable: A Distributed Storage System for Structured Data", 2006
+
+==Design==
+
+BigTable maps two arbitrary string values (row key and column key) and timestamp (hence three dimensional mapping) into an associated arbitrary byte array. It is not a relational database and can be better defined as a sparse, distributed multi-dimensional sorted map.[ref]http://research.google.com/archive/bigtable.html Fay Chang, Jeffrey Dean, Sanjay Ghemawat, Wilson C. Hsieh, Deborah A. Wallach
+Mike Burrows, Tushar Chandra, Andrew Fikes, Robert E. Gruber. Bigtable: A Distributed Storage System for Structured Data
+[/ref] BigTable is designed to scale into the petabyte range across "hundreds or thousands of machines, and to make it easy to add more machines to the system and automatically start taking advantage of those resources without any reconfiguration".*"Database War Stories #7: Google File System and BigTable" Bigtable: A Distributed Storage System for Structured Data 
+Each table has multiple dimensions (one of which is a field for time, allowing for versioning and garbage collection). Tables are optimized for Google File System (GFS) by being split into multiple tablets - segments of the table are split along a row chosen such that the tablet will be ~200 megabytes in size. When sizes threaten to grow beyond a specified limit, the tablets are compressed using the algorithm BMDiffGoogle, Bigtable, Compression, Zippy and BMDiff (referenced in Data compression using long common strings Bentley McIlroy DCC ‘99 Data Compression Using Long Common Strings) and the Zippy compression algorithmGoogle's Bigtable publicly known and open-sourced as Snappy,Snappy project on Google Code which is a less space-optimal variation of LZ77 but more efficient in terms of computing time. The locations in the GFS of tablets are recorded as database entries in multiple special tablets, which are called "META1" tablets. META1 tablets are found by querying the single "META0" tablet, which typically resides on a server of its own since it is often queried by clients as to the location of the "META1" tablet which itself has the answer to the question of where the actual data is located. Like GFS's master server, the META0 server is not generally a bottleneck since the processor time, bandwidth necessary to discover and transmit META1 locations is minimal and clients aggressively cache locations to minimize queries.
+
+==Other similar software==
+
+*Apache Accumulo — built on top of Hadoop, ZooKeeper, and Thrift. Has cell-level access labels and a server-side programming mechanism. Written in Java.
+*Apache Cassandra — brings together Dynamo's fully distributed design and BigTable's  data model. Written in Java.
+*HBase — Written in Java. Provides BigTable-like support on the Hadoop Core.Hadoop Core HBase - Hadoop Wiki, Background section
+*Hypertable — Hypertable is designed to manage the storage and processing of information on a large cluster of commodity servers.http://www.hypertable.org/about.html
+*KDI — Kosmix attempt to make a BigTable clone. Written in C++.
+*LevelDB — Google's embedded key/value store that uses similar design concepts as the BigTable TabletLeveldb file layout and compactions
+
+==See also==
+
+* Amazon SimpleDB
+* Big data
+* Distributed data stores, an overview
+* Dynamo (storage system)
+* Column-oriented DBMS
+* Hadoop
+
+==References==
+
+==External links==
+
+*Bigtable: A Distributed Storage System for Structured Data -(official paper; PDF)
+*BigTable: A Distributed Structured Storage System (video)
+**more video
+**Google's BigTable -(notes on the official presentation)
+*"How Google Works"
+*Is the Relational Database Doomed?
+

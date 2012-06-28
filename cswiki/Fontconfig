@@ -1,0 +1,44 @@
+
+Fontconfig (or fontconfig) is a computer program library designed to provide system-wide font configuration, customization, and application access. Fontconfig is written and was originally maintained by Keith Packard. Its current maintainer is Behdad Esfahbod.http://lists.freedesktop.org/archives/fontconfig/2009-June/003177.html
+Fontconfig is free software distributed under a permissive free software license.
+Applications can use fontconfig in two ways:
+# by querying it for the available fonts on the system, or
+# by asking it for a font matching certain parameters (pattern). Fontconfig will then return a font whose properties match those specified in the pattern as closely as possible.
+To perform font matching, fontconfig stores typesetting information about all of the installed fonts, including the name of the font family, style, weight, DPI, and Unicode coverage. This information is also used to perform font substitution.
+
+==Files==
+
+Fontconfig uses XML format for its configuration files. The Document Type Definition (DTD) for fontconfig files is normally located at /etc/fonts/fonts.dtd.
+The master configuration file - usually /etc/fonts/fonts.conf - references a few other configuration locations which may or may not exist:
+* /etc/fonts/local.conf
+* /etc/fonts/conf.d directory
+* ~/.fonts.conf
+A simple example of a configuration file:
+
+==Utilities==
+
+Fontconfig ships with four command line utilities to manage the font configuration:
+* fc-list: Lists all fonts fontconfig knows about or all fonts matching a pattern.
+* fc-cache: Creates a cache of all FreeType readable fonts in a specified directory or create a cache of all FreeType readable fonts from all directories specified in Configuration files.
+* fc-cat: Reads the font information from cache files or related to font directories and emits it in ASCII form.
+* fc-match: Matches font-pattern (empty pattern by default) using the normal fontconfig matching rules to find the most appropriate font available.
+Fontconfig depends on FreeType, a font renderer, and expat, an XML parser library, both of which are free software.
+Fontconfig is commonly used under GNU and Unix-like systems for querying and listing installed fonts and their properties. It is used by toolkits like GTK+ and Qt, document preparation systems like XeTeX (which also uses it under MS Windows), font managers like Fontmatrix, and other applications like Mozilla Firefox.
+
+==Versioning scheme==
+
+Fontconfig uses a versioning scheme in which values of 90 or above in the last number indicate prerelease versions.
+
+==See also==
+
+*X logical font description
+*Xft
+
+==References==
+
+==External links==
+
+* fontconfig website
+* fontconfig manual
+* Font Configuration and Customization for Open Source Systems (PDF)
+

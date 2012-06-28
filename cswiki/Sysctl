@@ -1,0 +1,25 @@
+
+Sysctl is an interface for examining and dynamically changing parameters in the BSD and Linux operating systems. The implementation mechanism in these two systems is very different.
+In BSD these parameters are generally objects in a management information base (MIB) that describe tunable limits such as the size of a shared memory segment, the number of threads the operating system will use as an NFS client, or the maximum number of processes on the system; or describe, enable or disable behaviors such as IP forwarding, security restrictions on the superuser (the "securelevel"), or debugging output.
+In BSD a system call or system call wrapper is usually provided for use by programs, as well as an administrative program and a configuration file (for setting the tunable parameters when the system boots).
+This feature appeared in 4.4BSD. It has the advantage over hardcoded constants that changes to the parameters can be made dynamically without recompiling the kernel.
+In Linux the sysctl interface mechanism is also exported as part of procfs under the sys directory.  This difference means checking the  value of some parameter requires opening a file in a virtual filesystem, reading its contents, parsing them and closing the file.  The sysctl system call does exist on Linux, but does not have a wrapping function in glibc and is not recommended for usehttp://linux.die.net/man/2/sysctl.
+
+==Performance considerations==
+
+In BSD the system call is implemented directly in the kernel, as described in the sysctl(3) manual pagehttp://www.freebsd.org/cgi/man.cgi?query=sysctl&sektion=3.  In Linux, the sysctl is implemented as a wrapper around file system routines that access contents of files in the /proc directory.  The result is that it is much more expensive to use the sysctl interface in Linux. The effect of this can be easily seen with system monitoring tools. On Linux, running top and holding the spacebar to force it to refresh quickly uses large amounts of CPU time, which is not the case on BSD systems.  On Linux sysctl interfaces are typically not called repeatedly or frequently in this fashion so this impact is rarely an important consideration.
+
+==Examples==
+
+When IP forwarding is enabled, the operating system kernel will act as a router. In FreeBSD, NetBSD, OpenBSD, DragonFly BSD, and Darwin/Mac OS X the parameter net.inet.ip.forwarding can be set to 1 to enable this behavior.  In Linux's emulation of sysctl, the parameter is called net.ipv4.ip_forward.
+In most systems, the command sysctl -w parameter=1 will enable a certain behavior. This will persist until the next reboot. If the behavior should be enabled whenever the system boots, the line parameter=1 can be added/rewritten to the file /etc/sysctl.conf. Additionally, some sysctl variables cannot be modified after the system is booted. These variables (depending on the variable, the version and flavor of BSD) need to either be set statically in the kernel at compile time or set in /boot/loader.conf.
+
+==References==
+
+==External links==
+
+*sysctl(3) man page via OpenBSD
+*http://sysctl.enderunix.org 
+*Sysctl.conf example for BSD
+*Sysctl.conf example for Linux
+

@@ -1,0 +1,101 @@
+
+The MIPS Magnum was a line of computer workstations designed by MIPS Computer Systems, Inc. and based on the MIPS series of RISC microprocessors. The first Magnum was released in March, 1990, and production of various models continued until 1993 when SGI bought MIPS Technologies. SGI cancelled the MIPS Magnum line to promote their own workstations including the entry-level SGI Indy. The early, R3000-based Magnum series ran only RISC/os, a variant of BSD Unix, but the subsequent Magnum workstations based on the Jazz architecture ran both RISC/os and Windows NT. In addition to these proprietary operating systems, both Linux and NetBSD have been ported to the Jazz-based MIPS Magnum machines.
+Some models of MIPS Magnum were rebadged and sold by Groupe Bull and Olivetti. In addition, headless (i.e., without a framebuffer or video card) versions were marketed as servers under the name "MIPS Millennium".
+
+== Series ==
+
+Model number information.
+
+=== MIPS Magnum 3000 ===
+
+*Alternative model name: MIPS RC3230
+*Release: March, 1990
+*Initial price: $9000 USD
+*Bus: TURBOchannel
+*Maximum possible RAM: 128 MB
+
+=== MIPS Magnum R4000 ===
+
+*Two subtypes: The R4000 PC-50 and R4000 SC-50
+*Release: April, 1992
+*Initial price: $12,000.00 USD
+*Bus: EISA
+*Maximum possible RAM: 256 MB
+
+== Components ==
+
+=== Processors ===
+
+The MIPS Magnum 3000 has a 25 or 33 MHz MIPS R3000A microprocessor.
+The MIPS Magnum R4000 PC-50 has a MIPS R4000PC processor with only 16 kB L1 cache (but no L2 cache), running at an external clock rate of 50 MHz (which was internally doubled in the microprocessor to 100 MHz). The MIPS Magnum R4000 SC-50 is identical to the Magnum R4000PC, but includes one megabyte of secondary cache in addition to the primary cache.
+
+=== Memory ===
+
+For main memory, the MIPS Magnum 3000 accepted 30-pin true-parity, 80ns SIMMs up to a maximum of 128 MB.
+The MIPS Magnum R4000 accepted eight 72-pin true-parity SIMMs, up to a maximum of 256 MB.
+
+=== SCSI ===
+
+The MIPS Magnum R4000 (both the R4000 PC-50 and R4000 SC-50) includes a single on-board SCSI bus using the on-board NCR 53c94 fast-narrow SCSI chipset. An internal cable with four 50-pin connections links internal SCSI devices, and also interfaces external SCSI devices via an endlink mounted on the rear of the case.
+
+=== Ethernet ===
+
+The MIPS Magnum R4000 includes an on-board SONIC Ethernet chipset and an AUI Ethernet connector mounted on the case.
+
+=== Framebuffer ===
+
+The video output for the Magnum R4000 consists of a proprietary framebuffer available as a custom full-length option card — the G364 framebuffer. The G364 includes a SUN 13W3-style output (which can be converted to the more common VGA pin-out), and is capable of pixel screen resolutions of 640x480, 800x600, 1024x768, or 1280x1024. Because it is a simple framebuffer, the G364 does not include any accelerated graphics functions.
+
+=== Serial and Parallel I/O ===
+
+The MIPS Magnum R4000 also includes two standard RS232-capable serial ports and an IBM AT-compatible parallel port.
+
+=== Floppy disk ===
+
+Also, the MIPS Magnum R4000 had an IBM AT-compatible floppy disk controller and a single floppy drive bay.
+
+== Historical development ==
+
+The MIPS Magnum 3000 used a MIPS R3000 processor and a custom, proprietary motherboard which incorporated the TURBOchannel bus (it is noted that DEC also manufactured the DECstation line of workstations running Ultrix, which also used MIPS processors and the TURBOchannel bus). The Magnum 3000 ran only RISC/os, which was MIPS Computer Systems, Inc.'s proprietary port of BSD Unix including some System V features.
+The later Magnums, the MIPS Magnum R4000PC and MIPS Magnum R4000SC, also used a MIPS microprocessor — the MIPS R4000, a full 64-bit microprocessor available either in a low-cost version (the R4000PC) having 16 kB of L1 cache but no L2 cache, or a higher-performance version (the R4000SC) with 1 MB of secondary cache in addition to the 16 kB of primary cache.
+As MIPS Computer Systems, Inc. had co-founded the Advanced Computing Environment consortium with Silicon Graphics, Microsoft, Motorola and others, the MIPS Magnum R4000 was intended to be MIPS' entry into the Windows NT workstation market. However, because MIPS Computer Systems, Inc.'s in-house effort to design a MIPS-based Windows NT system had met delays, MIPS Technologies abandoned its in-house efforts and instead licensed the Jazz design which Microsoft had developed in the early 1990s to facilitate the porting and development of Windows NT (it is to be noted that Windows NT was first developed on the MIPS architecture, and was only later ported to the Intel 386, Alpha, and PowerPC architectures).
+As such, the MIPS Magnum R4000 (and indeed all Jazz-based systems, such as the Acer PICA, NEC RISCstation, Olivetti M700, etc.) incorporated many features more common to Intel-based PC's than to the commercial UNIX workstations of the era — for example, the Magnum R4000 included an EISA bus, used IBM PS/2-compatible keyboards and mice, and used commodity chipset components whose control registers were mapped to memory locations set forth in the IBM AT standard.
+
+== Operating Systems ==
+
+The MIPS Magnum R4000 ran either Windows NT (beginning with version 3.1) when equipped with the little-endian ARC firmware, or RISC/os when MIPS Computer Systems, Inc.'s proprietary big-endian firmware (the "MIPS Monitor") was installed. The firmware could be switched between ARC or MIPS Monitor by loading either one into the Magnum's Flash memory/NVRAM from floppy disk, and thus the Magnum R4000 could dual-boot between Windows or Unix.
+
+=== Windows NT ===
+
+The MIPS Magnum R4000 was supported by Windows NT from version 3.1 (released in 1993) through version 4.0 (released in 1996). However, support by Microsoft for all MIPS systems ended after the release of Windows NT version 4.0, and useful software for Windows/MIPS — either from Microsoft or third-party vendors — was very scarce even when MIPS was supported (for example, Microsoft never ported its own Microsoft Office suite to MIPS).
+The MIPS Magnum 3000, unlike the MIPS Magnum R4000, was not able to run Windows NT.
+
+=== RISC/os ===
+
+All Magnums could run RISC/os, MIPS Computer System, Inc.'s proprietary port of UNIX. Running RISC/os on the MIPS Magnum R4000 requires use of the big-endian MIPS Monitor firmware.
+
+=== BSD ===
+
+The MIPS Magnum can run NetBSD, and it also ran OpenBSD at one point, but lack of developer interest and proper resources lead to the termination of the arch's support prior to the December 1, 1998 2.4 release.
+For the earlier, RISC/os-only MIPS Magnum 3000 machines, the correct port is NetBSD/mipsco. For the later, Windows NT-capable MIPS Magnum R4000, the correct port is NetBSD/arc.
+
+=== Linux ===
+
+The MIPS Magnum R4000 was among the earliest supported machines in the effort to port Linux to MIPS, with initial support begun April, 1995. Support for the Magnum R4000 became stable in the 2.1 development tree (around 1999); however, support for the Magnum in Linux has atrophied since then.
+
+=== QEMU ===
+
+The QEMU PC emulator version 0.9.1 can emulate the MIPS Magnum (and Acer Pica 61) using the "-M" parameter ("-M magnum" or "-M pica61").
+QEMU can run the MIPS compiled version of Debian GNU/Linux on an x86 platform, along with Windows NT 3.5,3.51 & 4.0 with binaries here
+
+== Offline publications ==
+
+* BYTE, December 1990; Tom Yager. Sony NeWS and MIPS Magnum: A Double Shot of RISC
+
+== External links ==
+
+*Linux/MIPS article about Jazz architecture
+*Information on MIPS systems
+*NetBSD/mipsco port homepage
+*NetBSD/arc port homepage
+

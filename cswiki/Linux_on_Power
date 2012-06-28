@@ -1,0 +1,56 @@
+
+Linux on Power known as PowerLinux as  is the combination of any Linux-based operating system running on Power Architecture technology, a microprocessor architecture.
+
+==Introduction==
+
+Power Architecture is one of the many architectures the Linux kernel has been compiled to run on allowing computers such as PowerPC-based Power Macintosh computers originally designed to run Mac OS to use GNU/Linux distributions such as Debian.
+IBM supports Linux on Power with its line of Power servers, which has gone through an evolution of names; eServer p5 series, RS/6000, P Series, System P, and as of April 2008, IBM Power Systems. Linux releases that run on this type of hardware are a ppc64 Linux port compiled to run on IBM POWER based servers.
+Since the release of eServer p5 series and the Linux 2.6 kernel, many Linux distributions can take advantage of POWER hardware features such as logical partitioning, Micro-Partitioning and RTAS. IBM at one time offered an entry/midrange line of servers called OpenPower which only run Linux, as opposed to other POWER-based servers that can also run the AIX operating system.
+
+==Virtualization on Power6 and OpenPower==
+
+POWER6 based IBM systems have built in virtualization capabilities derived from mainframe technology. On System P, this virtualization package is referred to as PowerVM. There is an additional layer between hardware and operating systems which is called the hypervisor. IBM Power6 systems support up to 256 logical partitions on one machine, with a maximum of 10 per processor. These micropartitions can run in a shared processor pool and utilize automatic load balancing.
+The hypervisor also allows the assignment of virtual I/O and network adapters to logical partitions.
+*The hypervisor acts as a virtual switch for internal network connectivity. This allows for network communication between the LPARs to be direct (memory to memory) and not have to leave the physical machine. A dedicated virtual I/O server (VIO) partition (running a Linux or AIX-based system) can act as a network bridge between the internal VLAN, on which the VIO server is connected, to a physical external network.
+*SCSI virtualization is implemented via virtual SCSI device assignment from the VIO to the client LPAR. The VIO server has the physical storage; parts of that storage (whole disks, logical volumes or partitions) are shared to the clients through a VSCSI server to VSCSI client relationship.
+Any SUSE Linux distributions or Debian installation with real resources assigned can be used as a virtual I/O server. There are only two kernel modules, ibmvscsis and ibmveth, that need to be loaded to provide this functionality. Both modules are licensed under the GPL and part of the distribution kernel.
+For dynamic LPAR changes on the fly (for example, adding CPU or memory, or removing a PCI adapter), some lopdiags additional packages are needed for RSCT (Reliable Scalable Cluster Technology) communication with the HMC (Hardware Management Console). Those packages are provided from IBM in RPM format but not in source code. After installing these packages, dynamic reconfiguration of CPU and hotpluggable PCI adapters can be done without rebooting the operating system. Reducing the memory amount assigned to the logical partition still requires reboot of the target LPAR.
+
+==Pricing and costs==
+
+The two largest commercial Linux vendors, Red Hat and SuSE, offer licensing and support based on a "per physical machine" system for System P servers. Cost is not based on number of processors installed, which is different from pricing on IBM's System Z servers, where licensing and support is based on the number of IFLs.  Purchasing higher model numbered servers, such as a p570 or p590, allows for a smaller monetary investment but yet leaves room for more physical expansion if capacity exceeds the original investment. Each LPAR on a System P machine can be as small as 0.1 processors. This allows the total number of LPARs on a physical machine to go as high as 10 times the number of physical processors. A higher number of logical servers reduces the "per-server" cost.
+
+==Systems==
+
+Systems running Linux on Power Architecture are:
+*IBM POWER Systems
+*JS43, JS23, JS20, JS21, QS20, QS21, QS22 Blade Center
+*OpenPower
+*Cell blade server from Mercury Computer Systems
+*PlayStation 3
+
+==Linux distributions==
+
+===Officially supported distributions===
+
+*For IBM System p and i – SUSE SLES8, SLES9, SLES10 and SLES11[tpl]Citation needed|date=September 2007[/tpl]
+*For IBM System p and i –  Red Hat EL AS 3, 4 and 5[tpl]Citation needed|date=September 2007[/tpl]
+
+===Working distributions===
+
+*CRUX PPC
+*Debian
+*Fedora Core
+*Gentoo
+*openSUSE
+*Ubuntu
+
+==See also==
+
+*Linux on zSeries
+*Linux on the PlayStation 3
+
+==External links==
+
+* IBM developerWorks "Think Power Linux" Community site 
+

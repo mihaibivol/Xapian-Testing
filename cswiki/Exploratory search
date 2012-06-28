@@ -1,0 +1,56 @@
+
+Exploratory search is a specialization of information exploration which represents the activities carried out by searchers who are either:* a) unfamiliar with the domain of their goal (i.e. need to learn about the topic in order to understand how to achieve their goal)
+* b) unsure about the ways to achieve their goals (either the technology or the process)
+* c) or even unsure about their goals in the first place.
+Consequently, exploratory search covers a broader class of activities than typical information retrieval, such as investigating, evaluating, comparing, and synthesizing, where new information is sought in a defined conceptual area; exploratory data analysis is another example of an information exploration activity. Typically, therefore, such users generally combine querying and browsing strategies to foster learning and investigation.
+
+==History==
+
+Exploratory search is a topic that has grown from the fields of information retrieval and information seeking but has become more concerned with alternatives to the kind of search that has received the majority of focus (returning the most relevant documents to a Google-like keyword search). The research is motivated by questions like "what if the user doesn't know which keywords to use?" or "what if the user isn't looking for a single answer?" Consequently, research has begin to focus on defining the broader set of information behaviors in order to learn about the situations when a user is, or feels, limited by only having the ability to perform a keyword search.
+In the last few years, a series of workshops have been held at various related and key events. In 2005, the Exploratory Search Interfaces workshop focused on beginning to define some of the key challenges in the field. Since then a series of other workshops have been held at related conferences: Evaluating Exploratory Search at SIGIR06 and Exploratory Search and HCI at CHI07 (in order to meet with the experts in human–computer interaction).
+In March 2008, an Information Processing and Management special issue has focused particularly on the challenges of evaluating exploratory search, given the reduced assumptions that can be made about scenarios of use.
+In June 2008, the National Science Foundation sponsored an invitational workshop to identify a research agenda for exploratory search and similar fields for the coming years.
+
+==Research challenges==
+
+===Important scenarios===
+
+With the majority of research in the information retrieval community focusing on typical keyword search scenarios, one challenge for exploratory search is to further understand the scenarios of use for when keyword search is not sufficient. An example scenario, often used to motivate the research by mSpace states: if a user does not know much about classical music, how should they even begin to find a piece that they might like.
+
+===Designing new interfaces===
+
+With one of the motivations being to support users when keyword search is not enough, some research has focused on identifying alternative user interfaces and interaction models that support the user in different ways. An example is faceted search which presents diverse category-style options to the user, so that they can choose from a list instead of guess a possible keyword query.
+Many of the interactive forms of search, including faceted browsers, are being considered for their support of exploratory search conditions.
+Computational cognitive models of exploratory search have been developed to capture the cognitive complexities involved in exploratory search. Model-based dynamic presentation of information cues are proposed to facilitate exploratory search performance.Fu, W.-T., Kannampalill, T. G., & Kang, R. (2010). Facilitating exploratory search by model-based navigational cues. In Proceedings of the ACM International conference on Intelligent User Interface. 199-208.  http://portal.acm.org/citation.cfm?id=1719970.1719998
+
+===Evaluating interfaces===
+
+As the tasks and goals involved with exploratory search are largely undefined or unpredictable, it is very hard to evaluate systems with the measures often used in information retrieval. Accuracy was typically used to show that a user had found a correct answer, but when the user is trying to summarize a domain of information, the correct answer is near impossible to identify, if not entirely subjective (for example: possible hotels to stay in Paris). In exploration, it is also arguable that spending more time (where time efficiency is typically desirable) researching a topic shows that a system provides increased support for investigation. Finally, and perhaps most importantly, giving study participants a well specified task could immediately prevent them from exhibiting exploratory behavior.
+
+===Models of exploratory search behavior===
+
+There has been recent attempts to develop process model of exploratory search behavior, especially in social information system (e.g., see models of collaborative tagging.
+.[ref]
+</ref> The process model assumes that user-generated information cues, such as social tags, can act as navigational cues that facilitate exploration of information that others have found and shared with other users on a social information system (such as [[social bookmarking]] system). These models provided extension to existing process model of information search that characterizes information-seeking behavior in traditional fact-retrievals using search engines.<ref>
+
+</ref><ref>Kitajima, M., Blackmon, M. H., & Polson, P. G. (2000). A comprehension-based
+model of Web navigation and its application to Web usability analysis. In S. Mc-
+Donald, Y. Waern, & G. Cockton (Eds.), People and computers XIV—Usability or else!
+New York: Springer-Verlag.[/ref][ref]Miller, C. S., & Remington, R.W. (2004). Modeling information navigation: Implications
+for information architecture. Human Computer Interaction, 19, 225–271.[/ref]
+
+==Major figures==
+
+Key figures, including experts from both information seeking and human–computer interaction, are:
+*Ryen White
+*Gary Marchionini
+*Nicholas Belkin
+*m.c. schraefel
+
+==References==
+
+#White, R.W., Kules, B., Drucker, S.M., and schraefel, m.c. (2006). Supporting Exploratory Search, Introduction to Special Section of Communications of the ACM, Vol. 49, Issue 4, (2006), pp. 36–39.
+#Ryen W. White, Gary Marchionini, Gheorghe Muresan (2008). Evaluating exploratory search systems: Introduction to special topic issue of information processing and management Vol. 44, Issue 2, (2008), pp. 433–436
+#Ryen W. White and Resa A. Roth (2009). Exploratory Search: Beyond the Query-Response Paradigm, San Rafael, CA: Morgan and Claypool.
+#P. Papadakos, S. Kopidaki, N. Armenatzoglou and Y. Tzitzikas (2009). Exploratory Web Searching with Dynamic Taxonomies and Results Clustering,13th European Conference on Digital Libraries (ECDL'09), Corfu, Greece, Sep-Oct 2009
+

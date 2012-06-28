@@ -1,0 +1,12 @@
+
+The Open JTAG project is an Open Source project released under GNU License.
+It is a complete hardware and software JTAG reference design, based on a simple hardware composed by a FTDI FT245 USB front-end and an Altera EPM570 MAX II CPLD. The capabilities of this hardware configuration make the Open JTAG device able to output TCK signals at 24 MHz using macro-instructions sent from the host end.
+The scope is to give the community a JTAG device not based on the PC parallel port: Open JTAG uses the USB channel to communicate with the internal CPLD, sending macro-instructions as fast as possible. The complete project (Beta version) is available at OpenCores.comOpenCores Open JTAG project and the Open JTAG project official siteOpen JTAG official site.
+
+==See also==
+
+* JTAG
+
+== References ==
+
+

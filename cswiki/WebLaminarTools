@@ -1,0 +1,112 @@
+
+WebLaminarTools ("WLT") is a mashup supported by WebLaminar LLC. It consists of over 35 open source and freeware applications, running on Microsoft Windows from a USB stick.  WebLaminarTools provides tools to support IT administrators, engineers, scientists and entrepreneurs.  Its main components are MediaWiki for documentation and portable applications.
+
+==History==
+
+*23 February 2010 - WebLaminarTools - WLT 1.0 download enabled on WebLaminar website for IT administrators
+*25 November 2010 - WebLaminarTools - WLT 2.1 download enabled on WebLaminar website for entrepreneurs, students, scientists and engineers.
+*25 April 2011 - WebLaminarTools - WLT2.1_IT Download enabled on the WebLaminar website for IT administrators upgraded to MediaWiki 1.16 and vector skin.
+*24 August 2011 - WebLaminarTools - WLT 2.2 upgraded for contributions tracking and updated getting started page
+
+==Usage==
+
+The combination of documentation, collaboration and tools attempts to support Kolb's experiential learning model.  A portable platform was chosen for ease of use and zero installation requirements.
+* Collecting concrete experience, - wiki documentation with collaboration - group thought
+* Observation of and reflection on that experience, - reviewing the wiki - models, visualizations, videos
+* Formation of abstract concepts based upon the reflection, - brainstorming for procedures, solutions and implementations. - mind map, forum
+* Testing the new concepts, - Admin. tools integrated in the wiki
+
+=== Study group ===
+
+The ease of installation and MediaWiki plug-ins allows the student or group to create a private wiki for collaboration and knowledge sharing.  Security can be set to allow only your team to view and edit.
+
+=== IT Administration ===
+
+The distribution of IT administration is organized to help the user achieve greater effectiveness by incrementally building on the lessons of the previous day in a personal wiki.  Search capabilities and a customizable menu system make the wiki ideal to ease retrieval of data. You can make decisions quicker and become proactive.
+
+=== Entrepreneur/Scientist ===
+
+The Entrepreneur/Scientist mashup is collated to help with brainstorming, idea formation, hypothesis testing and factual reporting.  It has business infrastructure tools to support finance, sales and support for a fledgling start-up so you can concentrate on the business at hand.  It is intended to be a personal or team notebook that can be built on as your ideas and business pursuits expand.
+All WebLaminarTools distributions can securely enable access to the wiki through the use of MoWeS technology.
+
+==List of applications==
+
+===Presentation===
+
+* MediaWiki 1.16
+**Math LaTeX
+**CategoryTree NB: this tool is used within Wikipedia itself.
+**Website_in_iFrame
+**wikihiero
+**Calendar
+**AWC forum
+**JMOL structures
+* Joomla CMS 1.5 - a content management system
+
+===Admin Tools===
+
+*7-Zip - File Compression
+*KeePass - Password Safe 	
+*Notepad++ - ASCII Editor 	
+*PuTTY SSH - shell access 	
+*WinSCP SFTP - file transfer 	
+*Lightscreen - Screen Capture 	
+*ClamWin - Virus Scan 	
+*CamStudio - Video Capture 	
+*JKDefrag - Disk Defragmentation 	
+*CommandPrompt - DOS Prompt 	
+*Cygwin w/Vi - Unix Prompt 	
+*DBbrowser - Database browser
+
+===Web Tools===
+
+*GIMP - Image Editing 	
+*Kompozer - HTML Editor 	
+*Digg - DNS 	
+*Wget - Command Line URL 	
+*cURL - Command Line URL 	
+*Greenfish - Icon Editor
+
+===Project Tools===
+
+* Open Office
+*Gantt Project - Gantt Charting 	
+*FreeMind - Brainstorming 	
+*DIA - 	Drawing
+*Coccinella - IM / Whiteboard
+
+===Math, Science and Entrepreneurial===
+
+*TaskFreak - Task Mgmt 	
+*Mantis - Bug tracking 	
+*Tiger - CRM 	
+*OS Ticket - Work Request 	
+*MathSpeQ - Calculations 	
+*SciLab - Calculations - Advanced 	
+*Jmol - Jmol 3D chemical structures 	
+*OSP[tpl]disambiguation needed|date=December 2011[/tpl] - OSP Physics visualizations 	
+*LilyPond - LilyPond Music Scoring
+
+===Browsers===
+
+* Mozilla Firefox - web browser
+
+===Software Development===
+
+*Eclipse
+*PHP 5
+*Perl 5.10
+*MySql 5
+
+==See also==
+
+*Portable application
+*Portable application creators
+*List of portable software
+
+==References==
+
+==External links==
+
+*WebLaminarTools - Official Site
+

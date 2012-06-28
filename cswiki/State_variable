@@ -1,0 +1,32 @@
+
+In control systems engineering, a state variable is one of the set of variables that are used to describe the mathematical "state" of a dynamical system.  Intuitively, the state of a system describes enough about the system to determine its future behaviour. Models that consist of coupled first-order differential equations are said to be in state-variable form
+
+==Examples==
+
+*In mechanical systems, the position coordinates and velocities of mechanical parts are typical state variables; knowing these, it is possible to determine the future state of the objects in the system.
+*In a thermodynamic system, properties such as temperature, pressure, volume, internal energy, enthalpy, and entropy are state variables.
+*In electronic circuits, the voltages of the nodes and the currents through components in the circuit are usually the state variables.
+*In ecosystem models, population sizes (or concentrations) of plants, animals and resources (nutrients, organic material) are typical state variables.
+
+==Control Systems Engineering==
+
+In Control Engineering and other areas of science and engineering, state variables are used to represent the states of a general system. The state variables can be used to describe the state space of the system. The equations relating the current state and output of a system to its current input and past states are called the state equations. The state equations for a linear time invariant system are expressed with Coefficient matrices:
+
+===Discrete-Time Systems===
+
+===Continuous Time Systems (Analog)===
+
+==See also==
+
+*State space (controls)
+*Control theory
+*Equation of state
+*State (computer science)
+*Dynamical systems
+*State (functional analysis)
+*State diagram
+*State variable filter
+
+==References==
+
+

@@ -1,0 +1,44 @@
+
+ETSI Satellite Digital Radio (SDR or ETSI SDR) describes a standard of satellite digital radio. It is an activity of the european standardisation organisation ETSI.
+It addresses systems where a satellite broadcast directly to mobile and handheld receivers in L band or S band and is complemented by terrestrial transmitters. The broadcast content consists of multicast audio (digital radio), video (mobile TV) and data (program guide, text and graphical information, as well as off-line content). The satellite component allows geographical coverage at low cost, whereas the terrestrial component improves reception quality in built up areas. The specifications considers conditional access and Digital Rights Management. ETSI TR 102 525 v1.1.1 (2006-09) Satellite Earth Stations and Systems (SES); Satellite Digital Radio (SDR) service; Functionalities, architecture and technologies.
+1worldspace will use ETSI SDR in its new network covering Europe from 2009WORLDSPACE(R) Satellite Radio Signs Fraunhofer IIS to Develop 'Blueprint' for European Satellite Radio Receivers. Also Ondas Media has announced to use ETSI SDRONDAS Media: Helping to Set the Standards for Satellite Digital Radio in Europe (Ondas Media).
+The ETSI SDR is also similar to the Sirius XM Radio, the S-DMB used in South Korea for multimedia broadcasting since may 2005, the China Multimedia Mobile Broadcasting (CMMB) and the defunct MobaHo! service (2004-2009). The DVB-SH specifications, which the DVB Project has created, target similar broadcast systems as ETSI SDR. 
+
+==ETSI SDR Standard==
+
+The ETSI SDR standard allows to implement parts of such networks in an interoperable way. ETSI has so far standardised the physical layer of the air interface (radio interface). This allows to implement demodulators in integrated circuits. The physical layer is described by the following parts of ETSI EN 302 550:
+* ETSI EN 302 550-1-1 "Satellite Earth Stations and Systems (SES); Satellite Digital Radio (SDR) Systems; Part 1: Physical Layer of the Radio Interface; Sub-Part 1: Outer Physical Layer"
+* ETSI EN 302 550-1-2 "Satellite Earth Stations and Systems (SES); Satellite Digital Radio (SDR) Systems; Part 1: Physical Layer of the Radio Interface; Sub-Part 2: Inner Physical Layer Single Carrier Modulation"
+* ETSI EN 302 550-1-3 "Satellite Earth Stations and Systems (SES); Satellite Digital Radio (SDR) Systems; Inner Physical Layer of the Radio Interface; Part 1: Physical Layer of the Radio Interface; Sub-Part 3: Inner Physical Layer Multi Carrier Modulation" 
+These three parts replace the previous ETSI SDR standards ETSI TS 102 550, ETSI TS 102 551-1 and ETSI TS 102 551-2. 
+The following technical report contains guidelines for the use of these standards:
+* ETSI TR 102 604 Satellite Earth Stations and Systems (SES); Satellite Digital Radio (SDR) Systems; Guidelines for the use of the physical layer standards
+The following technical report describes the facts and assumptions on which the SDR standards are based:
+* ETSI TR 102 525 "Satellite Earth Stations and Systems (SES); Satellite Digital Radio (SDR) service; Functionalities, architecture and technologies"
+Note that in this document the word "may" replaces the word "shall" due to a decision of the ETSI Board in June 2006.
+All ETSI specifications are open standards available at ETSI Publications Download Area (this will open ETSI document search engine; free registration is required to download PDF files).
+
+==See also==
+
+* Digital Audio Broadcasting (DAB)
+* Digital Multimedia Broadcasting (DMB)
+* Digital Radio Mondiale (DRM)
+* DVB-H (Digital Video Broadcasting - Handhelds)
+* DVB-T (Digital Video Broadcasting - Terrestrial)
+* Sirius Satellite Radio
+* Solaris Mobile
+* XM Satellite Radio
+
+==References==
+
+==External links==
+
+*ETSI (European Telecommunications Standards Institute)
+*WorldSpace Europe
+*Ondas Media
+*1worldspace
+*Solaris Mobile
+*Inmarsat
+*AT&T CruiseCast
+*News and information on the new digital broadcasting systems
+

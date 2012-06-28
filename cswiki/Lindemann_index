@@ -1,0 +1,14 @@
+
+The Lindemann index[tpl]cite journal |author=Lindemann FA |title=The calculation of molecular vibration frequencies |journal=Physik. Z. |volume=11 |year=1910 |pages=609–612[/tpl] is a simple measure of thermally driven disorder in atoms or molecules. The local Lindemann index is defined as:[tpl]cite journal |author=Zhang K, Stocks GM, Zhong J |title=Melting and premelting of carbon nanotubes |journal=Nanotechnology |volume=18 |issue=285703 |year=2007 |doi=10.1088/0957-4484/18/28/285703 |pages=285703[/tpl]
+Where angle brackets indicate a time average. The global Lindemann index is a system average of this quantity.
+;In condensed matter physics : a departure from linearity in the behaviour of the global Lindemann index or an increase above a threshold value related to the  spacing between atoms (or micelles, particles, globules, etc.) is often taken as the indication that a solid-liquid phase transition has taken place. See Lindemann melting criterion.
+;In Biomolecules : biomolecules often possess separate regions with different order characteristics. In order to quantify or illustrate local disorder, the local Lindemann index can be used.[tpl]cite journal |author=Rueda M, Ferrer-Costa C, Meyer T, Perez A, Camps J, Hospital A, Gelpi JL, Orozco M |title=A consensus view of protein dynamics |journal=PNAS |date=2007-01-16|volume=104 |number=3 |pages=796–801 |doi=10.1073/pnas.0605534104 |pmid=17215349 |issue=3 |pmc=1783393[/tpl]
+Care must be taken if the molecule possesses globally defined dynamics, such as about a hinge or pivot, because these motions will obscure the local motions which the Lindemann index is designed to quantify. An appropriate tactic in this circumstance is to sum the rij only over a small number of neighbouring atoms to arrive at each qi. A further variety of such modifications to the Lindemann index are available and have different merits, e.g. for the study of glassy vs crystalline materials.[tpl]cite journal |author=Zhou Y, Karplus M, Ball KD, Berry RS |title=The distance fluctuation criterion for melting: Comparison of square-well and Morse potential models for clusters and homopolymers |journal=J. Chem. Phys. |volume=116 |issue=5 |page=2323 |year=2002 |doi=10.1063/1.1426419[/tpl]
+
+==See also==
+
+*Lindemann melting criterion
+
+==References==
+
+

@@ -1,0 +1,12 @@
+
+Googleshare is a measure of mindshare based on the results of Google search engine queries.http://chestofbooks.com/computers/search/55-Ways-to-Have-Fun-With-Google/23-Googleshare.html It is a percentage measuring how closely one thing belongs to another according to page counts returned by Google (similar measures using other search engines are possible). The idea was proposed by Steven Berlin Johnson in a 2002 weblog post, and the term was coined by Gene Smith.
+
+==Example==
+
+For example you can query Google for "Beatles" and "Paul", versus "Beatles" and "Ringo", and see who has a higher Googleshare for "Beatles". All one needs to do is calculate the percentage of the page count with the extra keyword, compared to the page count without the extra keyword.
+The calculation in this example runs as follows.
+"Ringo"'s Googleshare of "Beatles" is therefore (790000 / 4990000) * 100 = 15.83%; over 15% of webpages mentioning "Beatles" also mention "Ringo". Compared to other randomly selected names, this is high—we can therefore assume "Ringo" and "Beatles" are somehow connected, though correlation does not imply causation.
+
+==References==
+
+

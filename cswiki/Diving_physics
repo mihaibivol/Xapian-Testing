@@ -1,0 +1,62 @@
+
+Diving Physics explains the effects that divers and their equipment are subject to underwater.
+
+== Laws of physics for diving ==
+
+The main laws of physics that govern the physics of the SCUBA diver and of diving equipment are:
+* Archimedes' Principle (Buoyancy) - Ignoring the minor effect of surface tensions, an object, wholly or partially immersed in a fluid, is buoyed up by a force equal to the weight of the fluid displaced by the object.  Thus, when in water (a fluid), the weight of the volume of water displaced as compared to the weight of the materials in the diver's body and in the diver's equipment, determine whether the diver floats or sinks.[tpl]cite journal |author=Acott, C |title=The diving "Law-ers": A brief resume of their lives. |journal=South Pacific Underwater Medicine Society Journal |volume=29 |issue= |year=1999 |issn=0813-1988 |oclc=16986801 |url=http://archive.rubicon-foundation.org/5990 |accessdate=2008-07-07 [/tpl][tpl]cite web |author=Larry "Harris" Taylor, Ph.D. |title=Practical Buoyancy Control |url=http://www-personal.umich.edu/~lpt/practical.htm |publisher=University of Michigan  |accessdate=2008-10-10[/tpl]
+Buoyancy control, and being able to maintain neutral buoyancy in particular, is an important safety skill. The diver needs to understand buoyancy to be able to effectively and safely operate drysuits, buoyancy compensators, diving weighting systems and lifting bags.
+* Boyle's law - as pressure changes, the volume of gases in the diver's body and soft equipment changes too.
+The volume of air in a non-rigid container (such as a diver's lungs or buoyancy compensation device), decreases as external pressure increases while the diver descends in the water. Likewise, the volume of air in such non-rigid containers increases on the ascent. Changes in the volume of gases in the diver and the diver's equipment affect buoyancy. This creates a positive feedback loop on both ascent and descent.
+The quantity of open circuit gas breathed by a diver increases with pressure and depth.
+* Gay-Lussac's second law – as temperature increases the pressure in a diving cylinder increases (originally described by Guillaume Amontons).[tpl]cite web |url=http://chemed.chem.purdue.edu/genchem/topicreview/bp/ch4/gaslaws3.html#amonton |title=Amonton's Law |publisher=Purdue University |accessdate=2008-07-08[/tpl]
+This is why a diver who enters cold water with a warm diving cylinder, for instance after a recent quick fill, finds the gas pressure of the cylinder drops by an unexpectedly large amount.
+* Dalton's law - in mixtures of breathing gases the concentration of the individual components of the gas mix is measured by partial pressure
+Partial pressure is a useful measure for expressing limits for avoiding nitrogen narcosis and oxygen toxicity. 
+* Henry's law - as pressure increases the quantity of gas adsorbed by the tissues of the human body increases.[tpl]cite web | title=Henry's Law |url=http://cancerweb.ncl.ac.uk/cgi-bin/omd?Henry%27s+law |publisher=Online Medical Dictionary  |accessdate=2008-10-10[/tpl]
+This helps explain nitrogen narcosis, oxygen toxicity and decompression sickness.
+* Snell's law - the index of refraction of water is similar to that of the cornea of the eye—30% greater than air.[tpl]cite web |title=Snell's Law |url=http://scienceworld.wolfram.com/physics/SnellsLaw.html |publisher=scienceworld.wolfram  |accessdate=2008-10-10[/tpl]
+This is the reason a diver cannot see clearly underwater without a diving mask with an internal airspace.
+
+== Physical effects of water for divers ==
+
+The physical effects of water or the underwater environment are:
+* Pressure - the overall pressure on a diver is the sum of the atmospheric pressure and the water pressure.[tpl]cite web |title=Pressure |url=http://library.thinkquest.org/28170/32.html |publisher=Oracle ThinkQuest  |accessdate=2008-10-10[/tpl]
+* Density - of the water, the diver's body and equipment determines the diver's buoyancy and the use of buoyant equipment.[tpl]cite web |title=Density and the Diver |url=http://www.deep-six.com/page69.htm |publisher=Diving with Deep-Six  |accessdate=2008-10-10[/tpl]
+Divers use high density materials such as lead for diving weighting systems and low density materials such as air in buoyancy compensators and lifting bags.
+* Thermal conductivity of water is higher than that of air.[tpl]cite web |title=Thermal Conductivity of some common Materials |url=http://www.engineeringtoolbox.com/thermal-conductivity-d_429.html |publisher=The Engineering Toolbax  |accessdate=2008-10-10[/tpl]
+As water conducts heat 20 times more than air, divers in cold water must insulate their bodies with diving suits to avoid hypothermia. Gases used in diving have very different thermal conductivity; trimix conducts heat more than air and argon conducts less heat than air hence the reason many trimix divers inflate their drysuits with argon.[tpl]cite journal |author=Nuckols ML, Giblo J, Wood-Putnam JL. |title=Thermal Characteristics of Diving Garments When Using Argon as a Suit Inflation Gas. |journal=Proceedings of the Oceans 08 MTS/IEEE Quebec, Canada Meeting |publisher=MTS/IEEE |date=September 15–18, 2008 |url=http://archive.rubicon-foundation.org/7962 |accessdate=2009-03-02[/tpl][tpl]cite web |author=Eric Maiken |title=Why Argon |url=http://www.decompression.org/maiken/Why_Argon.htm |publisher=Author  |accessdate=2011-04-11[/tpl]
+* Absorption of light and loss of colour underwater.[tpl]cite journal |author=Luria SM, Kinney JA |title=Underwater vision |journal=Science |volume=167 |issue=3924 |pages=1454–61 |year=1970 |month=March |pmid=5415277 |doi= 10.1126/science.167.3924.1454|url=http://www.sciencemag.org/cgi/pmidlookup?view=long&pmid=5415277 |accessdate=2008-07-06[/tpl][tpl]cite web |title=Why is Water Blue |author= Reproduced from J. Chem. Edu., 1993, 70(8), 612 |url=http://www.dartmouth.edu/~etrnsfer/water.htm |publisher=Dartmoth College  |accessdate=2008-10-10[/tpl]
+The red end of the spectrum of light is absorbed even in shallow water. Divers use artificial light underwater to reveal these absorbed colours. In deeper water no light from the surface penetrates.
+* Under pressure, gases are compressible but liquids are not.
+Air spaces in the diver's body and gas held in flexible equipment shrink as the diver descends and expand as the diver ascends.[tpl]cite web |title=Compressibility and Ideal Gas Approximations |url=http://www.shodor.org/unchem/advanced/gas/compress.html |publisher=UNC-Chapel Hill  |accessdate=2008-10-10[/tpl]
+* The absolute (dynamic) viscosity of water is higher (order of 100 times) than that of air.Dougherty, R.L., Franzini, J.B. (1977)Fluid Mechanics with Engineering Applications, 7th ed., pp 539-541, McGraw-Hill, Kogakusha. ISBN 0-07-085144-1 This increases the drag on an object moving through water, and it requires more effort for propulsion in water relative to the speed of movement.
+
+== Physical phenomena of interest to divers ==
+
+The physical phenomena found in large bodies of water are:
+* Effects of weather such as wind, which causes waves, and changes of temperature and atmospheric pressure on and in the water.
+Even moderately high winds can prevent diving because of the increased risk of becoming lost at sea or injured. Low water temperatures make it necessary for divers to wear diving suits and can cause problems such as freezing of diving regulators.
+* Haloclines, or strong, vertical salinity gradients.
+For instance where fresh water enters the sea, the fresh water floats over the denser saline water and may not mix immediately. Sometimes visual effects, such as shimmering and reflection, occur at the boundary between the layers, because the refractive indices differ.
+* Ocean currents can transport water over thousands of kilometres, and may bring water with different temperature and salinity into a region. 
+Some ocean currents have a huge effect on local climate, for instance the warm water of the North Atlantic drift moderates the climate of the north west coast of Europe.
+* Thermoclines, or sudden changes in temperature.
+Where the air temperature is higher than the water temperature, shallow water may be warmed by the air and the sunlight but deeper water remains cold resulting in a lowering of temperature as the diver descends. This temperature change may be concentrated over a small vertical interval, when it is called a thermocline.
+Where cold, fresh water enters a warmer sea the fresh water may float over the denser saline water, so the temperature rises as the diver descends.
+In lakes exposed to geothermal activity, the temperature of the deeper water may be warmer than the surface water. This will usually lead to convection currents.
+Water at near-freezing temperatures is less dense than slightly warmer water - maximum density of water is at about 4°C - so when near freezing, water may be slightly warmer at depth than at the surface.
+* Tidal currents and changes in sea level caused by gravitational forces and the earth's rotation.
+Some dive sites can only be dived safely at slack water when the tidal cycle reverses and the current slows. Strong currents can cause problems for divers. Buoyancy control can be difficult when a strong current meets a vertical surface. Divers consume more breathing gas when swimming against currents. Divers on the surface can be separated from their boat cover by currents. 
+On the other hand, drift diving is only possible when there is a reasonable current.
+
+==See also==
+
+*Ambient pressure
+*Atmospheric pressure
+*Buoyancy
+*Pressure
+
+== References ==
+
+

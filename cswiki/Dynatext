@@ -1,0 +1,11 @@
+
+DynaText is an SGML publishing tool. It was introduced in 1990, and was the first system to handle arbitrarily large SGML documents, and to render them according to multiple style-sheets that could be switched at will.
+DynaText and its Web sibling DynaWeb won multiple Seybold and other awards http://xml.coverpages.org/ebt-award.htmlhttp://xml.coverpages.org/dynaweb3-dvi.html, and there are eleven US Patents related to the DynaText technology: 5,557,722; 5,644,776; 5,708,806; 5,893,109; 5,983,248; 6,055,544; 6,101,511; 6,101,512; 6,105,044; 6,167,409; and 6,546,406.
+DynaText was developed by Electronic Book Technologies, Incorporated, of Providence, Rhode Island. EBT was founded by Louis Reynolds, Steven DeRose, Jeffrey Vogel, and Andries van Dam, and was sold to Inso corporation in 1996.
+DynaText heavily influenced stylesheet technologies such as DSSSL and CSS, and XML chairman Jon Bosak cites EBT chief architect Steven DeRose as the origin of the notion of well-formedness formalized in XML, as well as DynaText for influencing the design of Web browsers in general http://www.ibiblio.org/bosak/cv.htm.
+Inso corporation went out of business in 2002. 
+
+==References==
+
+*DynaText Notes by Tim Berners-Lee
+

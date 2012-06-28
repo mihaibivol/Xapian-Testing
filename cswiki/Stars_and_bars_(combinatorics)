@@ -1,0 +1,33 @@
+
+In the context of combinatorial mathematics, stars and bars is a graphical aid for deriving certain combinatorial theorems. It was popularized by William Feller in his classic book on probability.Feller, W. (1950) An Introduction to Probability Theory and Its Applications, Wiley, Vol 1, 2nd ed.
+
+== Statements of theorems ==
+
+=== Theorem one ===
+
+=== Theorem two ===
+
+== Proofs ==
+
+=== Theorem one ===
+
+Suppose one has k objects (to be represented as stars; in the example below k = 7) to be placed into n bins (in the example n = 3), such that all bins contain at least one object; one distinguishes the bins (say they are numbered 1 to n) but one does not wish to distinguish the k stars (so configurations are only distinguished by the number of stars present in each bin; in fact a configuration is represented by a n-tuple of positive integers as in the statement of the theorem). Instead of starting to place stars into bins, one starts by placing the stars on a line:
+|}
+where the stars for the first bin will be taken from the left, followed by the stars for the second bin, and so forth. Thus the configuration will be determined once one knows what is the first star going to the second bin, and the first star going to the third bin, and so on. One can indicate this by placing n − 1 separating bars  at some places between two stars; since no bin is allowed to be empty, there can be at most one bar between a given pair of stars:
+|-
+|align="center" |Fig. 2: two bars give rise to three bins containing 4, 1, and 2 objects
+|}
+
+=== Theorem two ===
+
+== Example ==
+
+For example, if k = 5, n = 4, and a set of size n is {a, b, c, d},
+then ★|★★★||★ would represent the multiset {a, b, b, b, d} or the 4-tuple (1,3,0,1). The representation of any multiset for this example would use 5 stars (k) and 3 bars (n − 1).
+
+== References ==
+
+==Further reading==
+
+*[tpl]cite book |last=Pitman |first=Jim |title=Probability |publisher=Springer-Verlag |location=Berlin |year=1993 |pages= |isbn=0-387-97974-3 |oclc= |doi=[/tpl]
+

@@ -1,0 +1,37 @@
+
+The DVB's Portable Content Format (PCF) is a data format designed by the DVB project for the description of interactive digital television (iTV) services. It is intended to support the business-to-business interchange of interactive content and to enable deployment on multiple target platforms with a minimum amount of re-authoring.
+
+==Introduction==
+
+Today's digital television platforms offer a wide variety of interactive services.  However, different television platforms use different technologies for interactive services and so a large amount of interactive content has to be developed bespoke for each platform. This is time consuming and results in high production costs limiting interactive content to high-profile programming and revenue generating propositions.
+
+==The DVB Portable Content Format==
+
+The DVB PCF is a response to this situation.  The PCF provides a standard format for the description of an author’s intended viewer experience of an interactive service, which can be translated as required for each target platform.
+
+==Characteristics of the DVB PCF==
+
+PCF is a platform-independent description of "what" the viewer experience should be, rather than "how" it should be achieved.  This description must be transformed into a platform-specific format by a "transcoder". This transformation step uses the available features of a particular platform to create the viewer experience described in PCF.
+The PCF supports independent description of different aspects of the interactive service, i.e. content, presentation (layout and style), behaviour and navigation.  Furthermore, the PCF does not require all aspects of a service to be described as one physical unit, such as a file. For example, service descriptions can be arbitrarily distributed across files located on the Internet, using references represented as Uniform Resource Identifiers (URIs).
+
+==Use of Existing Standards==
+
+The PCF embodies a high-level declarative model that is based on industry standard formats, including XML syntax, MIME types and UML.
+
+==Objectives of PCF==
+
+* Provide the industry with a standard for the description of interactive content;
+* Be capable of describing the majority of existing interactive services.  Those that it is not capable of describing fully would still benefit in some way from the interoperable framework that the PCF will provide;
+* Be complementary to existing, deployed interactive technologies.
+
+==Benefits of PCF==
+
+* Simplified interchange of interoperable interactive content, both between content providers, and between content providers and platform operators;
+* The ability for content providers and platform operators to choose the best possible tool for their business at all points of the iTV production chain;
+* Deployment of interactive content beyond primary markets;
+* Reduced production costs for interactive content stimulating new business models.
+
+==Current status==
+
+The PCF specification was published by ETSI in September 2006.
+

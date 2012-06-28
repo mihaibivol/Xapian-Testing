@@ -1,0 +1,59 @@
+
+OMA Device Management is a device management protocol specified by the Open Mobile Alliance (OMA) Device Management (DM) Working Group and the Data Synchronization (DS) Working Group.  The current specification of OMA DM is version 1.2, the latest modifications to this version released in April 2006.[tpl]cite web | url = http://www.openmobilealliance.org/Technical/DM.aspx | title = Device Management Working Group | publisher = Open Mobile Alliance | accessdate = 2008-03-07[/tpl] 
+
+==Overview==
+
+OMA DM specification is designed for management of small mobile devices such as mobile phones, PDAs and palm top computers.  The device management is intended to support the following typical uses:
+* Provisioning – Configuration of the device (including first time use), enabling and disabling features
+* Configuration of Device – Allow changes to settings and parameters of the device
+* Software Upgrades – Provide for new software and/or bug fixes to be loaded on the device, including applications and system software.
+* Fault Management – Report errors from the device, query about status of device
+All the above functions are supported by the OMA DM specification, and a device may optionally implement all or a subset of these features.  Since OMA DM specification is aimed at mobile devices, it is designed with sensitivity to the following:
+* small foot-print devices, where memory and storage space may be limited
+* bandwidth of communication could be constrained, such as in wireless connectivity
+* tight security, as the devices are vulnerable to virus attacks and the like; authentication and challenges are made part of the specifications
+
+==Technical description==
+
+OMA DM was originally developed by The SyncML Initiative Ltd, an industry consortium formed by many mobile device manufacturers.   The SyncML Initiative got consolidated into the OMA umbrella as the scope and use of the specification was expanded to include many more devices and support global operation.
+Technically the OMA DM uses XML for data exchange, more specifically the sub-set defined by SyncML.  The device management takes place by communication between a server (which is managing the device) and the client (the device being managed).  OMA DM is designed to support and utilize any number of data transports such as:
+* physically over both wireline (USB, RS-232) and wireless media (GSM, CDMA, IrDA or Bluetooth)
+* transport layers implemented over any of WSP (WAP), HTTP or OBEX or similar transports
+The communication protocol is a request-response protocol.  Authentication and challenge of authentication are built-in to ensure the server and client are communicating only after proper validation.  The server and client are both stateful, meaning a specific sequence of messages are to be exchanged only after authentication is completed to perform any task.
+The communication is initiated by the OMA DM server, asynchronously, using any of the methods available such as a WAP Push or SMS.  The initial message from server to client is said to be in the form of a notification, or alert message.
+Once the communication is established between the server and client, a sequence of messages might be exchanged to complete a given device management task.  OMA DM does provide for alerts, which are messages that can occur out of sequence, and can be initiated by either server or client.  Such alerts are used to handle errors, abnormal terminations etc.
+Several parameters relating to the communication such as the maximum message size can be negotiated between the server and client during the initiation of a session.  In order to transfer large objects, the protocol does allow for sending them in smaller chunks.
+Error recovery based on timeouts are not specified completely, hence, different implementations could possibly differ (protocol is not fully specified relating to these, and seem to leave them open intentionally).
+The protocol specifies exchange of Packages during a session, each package consisting of several messages and each message in turn consisting of one or more commands.  The server initiates the commands and the client is expected to execute the commands and return the result via a reply message.
+
+==Implementations and application support==
+
+OMA DM is supported by several mobile devices, such as PDAs and mobile phones. 
+Supported mobile device platforms include:
+*Nokia Series 40 (Nokia OS-based)
+*Nokia S60 (Symbian OS-based)
+*Nokia Series 80 (Symbian OS-based)
+*UIQ (Symbian OS-based)
+*Zyxel WiMAX Series
+*Sony Ericsson Xperia X10 (Android-based)
+*Microsoft Windows Mobile[tpl]cite web | url = http://msdn2.microsoft.com/en-us/library/bb737369.aspx | title = OMA Device Management | publisher = MSDN | accessdate = 2008-03-07[/tpl]
+Even though these implementations are based on OMA DM, the manufacturers continue to package it as a proprietary solution, supposedly due to security and the alleged need for tight control over the device management.
+*IBM WebSphere Everyplace Device Manager provides a solution for managing various mobile devices based on OMA DM. In V6.0, it supports OMA DM 1.1.2 and 1.2 devices.[tpl]cite web | url = http://www.ibm.com/developerworks/library/wi-oma/index.html | title = An introduction to OMA Device Management | publisher = IBM | accessdate = 2008-03-07[/tpl]
+*Microsoft System Center Mobile Device Manager 2008 provides a solution for device security and over-the-air policy enforcement. It supports OMA DM. But currently, this product is only focused on Windows Mobile 6.1 devices
+*InnoPath Software provides OMA-DM standards-based client & server solutions to wireless operators and handset manufacturers.  
+*Motive, Inc. allows providers to remotely monitor, diagnose and manage mobile devices and the applications and services that run on them, making it easier and more profitable to roll out and support new services. 
+*ProSyst mPower Remote Manager allows remote device management and software provisioning system for OMA DM-enable devices and others.
+
+==References==
+
+==Books==
+
+*[tpl]cite book|url=http://developer.symbian.com/main/documentation/books/books_files/comms/index.jsp|title=Symbian OS Communications Programming|first=Iain|last=Campbell|isbn=0-470-51228-8[/tpl]
+
+==External links==
+
+*OMA Device Management Working Group 
+*Released DM 1.2 Enabler
+*JSR 233: J2EE Mobile Device Management and Monitoring Specification
+*Open Source OMA-DM simulator - Eclipse Koneki project
+

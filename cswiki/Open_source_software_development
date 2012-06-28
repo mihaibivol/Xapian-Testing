@@ -1,0 +1,130 @@
+
+Open source software development is the process by which open source software (or similar software whose source code is publicly available) is developed. These are software products “available with its source code and under an open source license to study, change, and improve its design”. Examples of popular open source software products are Mozilla Firefox, Google Chromium, Android and the OpenOffice.org Suite.
+In the past, the open source software development method has been very unstructured, because no clear development tools, phases, etc., had been defined like with development methods such as Dynamic Systems Development Method. Instead, every project had its own phases. However, more recently there has been much better progress, coordination, and communication within the open source community.
+
+==History==
+
+In 1997, Eric S. Raymond wrote The Cathedral and the Bazaar[tpl]Ref|Raymond[/tpl]. In this book, Raymond makes the distinction between two kinds of software development. The first is the conventional closed source development. These kind of development methods are, according to Raymond, like the building of a cathedral; central planning, tight organization and one process from start to finish. The second is the progressive open source development, which is more like a “a great babbling bazaar of differing agendas and approaches out of which a coherent and stable system could seemingly emerge only by a succession of miracles.” The latter analogy points to the discussion involved in an open source development process. In some projects, anyone can submit suggestions and discuss them. The ‘coherent and stable systems’ Raymond mentions often do emerge from open source software development projects.
+Differences between the two styles of development, according to Bar & Fogel,[tpl]Ref|Barfogel[/tpl] are in general the handling (and creation) of bug reports and feature requests, and the constraints under which the programmers are working. In closed source software development, the programmers are often spending a lot of time dealing with and creating bug reports, as well as handling feature requests. This time is spent on prioritizing and creation of further development plans. This leads to (part of) the development team spending a lot of time on these issues, and not on the actual development. Also, in closed source projects, the development teams must often work under management-related constraints (such as deadlines, budgets, etc.) that interfere with technical issues of the software. In open source software development, these issues are solved by integrating the users of the software in the development process, or even letting these users build the system themselves.[tpl]Fact|date=April 2012[/tpl]
+
+==Open source software development phases==
+
+Open source software development can be divided into several phases. The phases specified here are derived from Sharma et al.[tpl]Ref|Sharma[/tpl]. A diagram displaying the process-data structure of open source software development is shown on the right. In this picture, the phases of open source software development are displayed, along with the corresponding data elements. This diagram is made using the meta-modeling and meta-process modeling techniques.
+The process starts with a choice between the adopting of an existing project, or the starting of a new project. If a new project is started, the process goes to the Initiation phase. If an existing project is adopted, the process goes directly to the Execution phase.
+
+==Types of open source projects==
+
+One can distinguish several different types of open source projects. First, there is the garden variety of software programs and libraries. They are standalone pieces of code. Some might even be dependent on other open source projects. These projects serve a specified purpose and fill a definite need. Examples of this type of project include the Linux kernel, the Firefox web browser and the OpenOffice.org office suite of tools.
+Distributions are another type of open source project. Distributions are collections of software that are published from the same source with a common purpose. The most prominent example of a "distribution" is an operating system. There are a large number of Linux distributions (such as Debian, Fedora Core, Mandriva, Slackware, Ubuntu etc.) which ship the Linux kernel along with many user-land components. There are also other distributions, like ActivePerl, the Perl programming language for various operating system, and Cygwin distributions of open-source programs for Microsoft Windows.
+Other open source projects, like the BSD derivatives, maintain the source code of an entire operating system, the kernel and all of its core components, in one revision control system; developing the entire system together as a single team. These operating system development projects closely integrate their tools, more so than in the other distribution-based systems.
+Finally, there is the book or standalone document project. These items usually do not ship as part of an open source software package. The Linux Documentation Project hosts many such projects that document various aspects of the GNU/Linux operating system. There are many other examples of this type of open source project.
+
+==Starting an open source project==
+
+There are several ways in which work on an open source project can start:
+# An individual who senses the need for a project announces the intent to develop the project in public. The individual may receive offers of help from others. The group may then proceed to work on the code.
+# A developer working on a limited but working codebase, releases it to the public as the first version of an open-source program. The developer continues to work on improving it, and possibly is joined by other developers.
+# The source code of a mature project is released to the public, after being developed as proprietary software or in-house software.
+# A well-established open-source project can be forked by an interested outside party. Several developers can then start a new project, whose source code then diverges from the original.
+Eric Raymond observed in his famous essay "The Cathedral and the Bazaar" that announcing the intent for a project is usually inferior to releasing a working project to the public.
+It's a common mistake to start a project when contributing to an existing similar project would be more effective (NIH syndrome). To start a successful project it is very important to investigate what's already there.
+
+==Open source software development methods==
+
+It is hard to run an open source project following a more traditional software development method like the waterfall model, because in these traditional methods it is not allowed to go back to a previous phase. In open source software development requirements are rarely gathered before the start of the project; instead they are based on early releases of the software product, as Robbins describes[tpl]Ref|Robbins[/tpl]. Besides requirements, often volunteer staff is attracted to help develop the software product based on the early releases of the software. This networking effect is essential according to Abrahamsson et al.[tpl]Ref|Abrahamsson[/tpl]: “if the introduced prototype gathers enough attention, it will gradually start to attract more and more developers”. However, Abrahamsson et al. also point out that the community is very harsh, much like the business world of closed source software: “if you find the customers you survive, but without customers you die”.
+Alfonso Fuggetta mentions[tpl]Ref|Fuggetta[/tpl] that “rapid prototyping, incremental and evolutionary development, spiral lifecycle, rapid application development, and, recently, extreme programming and the agile software process can be equally applied to proprietary and open source software”.
+One open source development method mentioned by Fuggetta is an agile method called Extreme Programming. All the Agile methods are in essence applicable to open source software development, because of their iterative and incremental character.
+Another Agile method, Internet-Speed Development, is also suitable for open source software development in particular because of the distributed development principle it adopts. Internet-Speed Development used geographically distributed teams to ‘work around the clock’. This method is mostly adopted by large closed source firms like Microsoft, because only big software firms are able to create distributed development centers in different time zones. Of course if software is developed by a large group of volunteers in different countries, this is being achieved naturally and without the investment needed like with closed source software development.
+
+==Tools used for open source development==
+
+===Communication channels===
+
+Developers and users of an open source project are not all necessarily working on the project in proximity. They require some electronic means of communications. E-mail is one of the most common forms of communication among open source developers and users. Often, electronic mailing lists are used to make sure e-mail messages are delivered to all interested parties at once. This ensures that at least one of the members can reply to it (in private or to the whole mailing list). In order to communicate in real time, many projects use an instant messaging method such as IRC (although there are many others available). Web forums have recently become a common way for users to get help with problems they encounter when using an open source product. Wikis have become common as a communication medium for developers and users.
+
+===Software engineering tools===
+
+====Version control systems====
+
+In OSS development the participants, who are mostly volunteers, are distributed amongst different geographic regions so there is need for tools to aid participants to collaborate in the development of source code.
+Concurrent Versions System (CVS) is a prominent example of a source code collaboration tool being used in OSS projects. CVS helps manage the files and codes of a project when several people are working on the project at the same time. CVS allows several people to work on the same file at the same time. This is done by moving the file into the users’ directories and then merging the files when the users are done. CVS also enables one to easily retrieve a previous version of a file.
+The Subversion revision control system (SVN) was created to replace CVS. It is quickly gaining ground as an OSS project version control system.
+Many open source projects are now using distributed revision control systems, which scale better than centralized repositories such as SVN and CVS.  Popular examples are git, used by the Linux kernel, and Mercurial, used by the Python programming language.
+
+====Bug trackers and task lists====
+
+Most large-scale projects require a bug tracking system (usually web or otherwise Internet based) to keep track of the status of various issues in the development of the project. A simple text file is not sufficient, because they have many such bugs, and because they wish to facilitate reporting and maintenance of bugs by users and secondary developers. Some popular bug trackers include:
+* Bugzilla - a sophisticated web-based bug tracker from the Mozilla house.
+* Mantis Bug Tracker - a web-based PHP/MySQL bug tracker.
+* Trac - integrating a bug tracker with a wiki, and an interface to the Subversion version control system.
+* Request tracker - written in Perl. Given as a default to CPAN modules - see rt.cpan.org.
+* GNATS - The GNU Bugtracking system.
+* SourceForge and its forks provide a bug tracker as part of its services. As a result many projects hosted at SourceForge.net and similar services default to using it.
+* LibreSource
+* SharpForge includes forums, work item tracking, release management, wiki and version control management
+* JIRA - Atlassian's project management and issue tracking tool.
+
+===Testing tools===
+
+Since OSS projects undergo frequent integration, tools that help automate testing during system integration are used. An example of such tool is Tinderbox. Tinderbox enables participants in an OSS project to detect errors during system integration. Tinderbox runs a continuous build process and informs users about the parts of source code that have issues and on which platform(s) these issues arise. Furthermore, this tool identifies the author of the offending code. The author is then held responsible for ensuring that error is resolved. Mainly because normal testing tools are quite expensive, open source testing tools are gaining popularity.
+A debugger is a computer program that is used to debug (and sometimes test or optimize) other programs. GNU Debugger (GDB) is an example of a debugger used in Open source software development. This debugger offers remote debugging, what makes it especially applicable to Open source software development. Also, some memory leak detectors have been designed to work with GDB.
+A memory leak tool or memory debugger is a programming tool for finding memory leaks and buffer overflows. A memory leak is a particular kind of unnecessary memory consumption by a computer program, where the program fails to release memory that is no longer needed. Examples of memory leak detection tools used by Mozilla are the XPCOM Memory Leak tools.
+Validation tools are used to check if pieces of code conform to the specified syntax. They are most often used in the context of HTML/XML, but can also be used with programming languages. An example of a validation tool is LCLint, now called Splint.
+
+===Package management===
+
+A package management system is a collection of tools to automate the process of installing, upgrading, configuring, and removing software packages from a computer. The Red Hat Package Manager (RPM) for .rpm and Advanced Packaging Tool (APT) for .deb file format, are package management systems used by a number of Linux distributions.
+
+==Common development methodologies==
+
+===Refactoring, rewrites and other revamps===
+
+Often open source developers feel that their code requires a revamp. This can be either because the code was written or maintained without proper refactoring (as is often the case if the code was inherited from a previous developer), or because a proposed enhancement or extension of it cannot be cleanly implemented with the existing codebase. A final reason for wishing to revamp the code is that the code "smells bad" (to quote Martin Fowler's Refactoring book) and does not meet the developer's
+standards.
+There are several kinds of revamps:
+# Refactoring implies that the code is moved from one place to another, methods, functions or classes are extracted, duplicate code is eliminated and so forth - all while maintaining an integrity of the code. Such refactoring can be done in small amounts (so-called "continuous refactoring") to justify a certain change, or one can decide on large amounts of refactoring to an existing code that last for several days or weeks.
+# "Partial rewrites" involve rewriting a certain part of the code from scratch, while keeping the rest of the code. Such partial rewrites have been common in the Linux kernel development, where several subsystems were rewritten or re-implemented from scratch, while keeping the rest of the code intact.
+# Complete rewrites involve starting the project from scratch, while possibly still making use of some old code. A good example of a complete rewrite was the Subversion version control system, whose developers started from scratch: they believed the codebase of CVS (an older attempt at creating a version control system), was useless and needed to be completely scrapped.  Another good example of such a rewrite was the Apache web server, which was almost completely re-written between version 1.3.x and version 2.0.x.
+
+===Automated tests===
+
+Software testing is an integral part of open source development. While many open source packages were known to be released with some glaring bugs even in some stable releases, most open source software eventually becomes very stable.
+Traditionally, in most of the open source there was a general lack of awareness for automated tests, in which one writes automated test scripts and programs that run the software and try to find out if it behaves correctly. Recently, however, this awareness has been growing, possibly because of influence from Extreme Programming, and because of some high-profile software packages that incorporated such test suites.
+Most open source software is either command line or alternatively APIs and as such is very easy to test automatically.
+
+==Publicizing a project==
+
+===Software directories and release logs===
+
+Freshmeat, directory.fsf.org, etc.
+
+===Articles===
+
+O'Reilly Net, Linux Weekly News, IBM developerworks, etc.
+
+===Mailing lists===
+
+== See also ==
+
+* Open-source software
+* Open source software security
+* Software development process
+* Release Management
+* Software engineering
+* Meta-Modeling
+* Meta-Process Modeling
+
+==References==
+
+#  [tpl]note|Raymond[/tpl]Raymond, E.S. (1999). The Cathedral & the Bazaar. O'Reilly Retrieved from http://www.catb.org/~esr/writings/cathedral-bazaar/. See also: The Cathedral and the Bazaar.
+#  [tpl]note|Barfogel[/tpl]Bar, M. & Fogel, K. (2003). Open Source Development with CVS, 3rd Edition. Paraglyph Press. (ISBN 1-932111-81-6)
+#  [tpl]note|Sharma[/tpl]Sharma, S., Sugumaran, V. & Rajagopalan, B. (2002). A framework for creating hybrid-open source software communities. Information Systems Journal 12 (1), 7-25.
+#  [tpl]note|Robbins[/tpl]Robbins, J. E. (2003). Adopting Open Source Software Engineering (OSSE) Practices by Adopting OSSE Tools. Making Sense of the Bazaar: Perspectives on Open Source and Free Software, Fall 2003.
+#  [tpl]note|Abrahamsson[/tpl]Abrahamsson, P, Salo, O. & Warsta, J. (2002). Agile software development methods: Review and Analysis. VTT Publications.
+#  [tpl]note|Fuggetta[/tpl]Fuggetta, A. (2003). Open source software - an evaluation, Journal of Systems and Software, 66, 77-90.
+#  [tpl]note|Mockus[/tpl]Mockus, A., Fielding, R. & Herbsleb, J. (2002). Two case studies of open source software development: Apache and mozilla, ACM Transactions on Software Engineering and Methodology 11 (3), 1 – 38.
+
+==External links==
+
+* Software Release Practice HOWTO by Eric Raymond
+

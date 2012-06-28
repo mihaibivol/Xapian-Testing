@@ -1,0 +1,28 @@
+
+The EXtensible Cross-Linguistic Automatic Information Machine (EXCLAIM) is an integrated tool for cross-language information retrieval (CLIR), created at the University of California, Santa Cruz in early 2006. It is currently in a beta stage of development, with some support for more than a dozen languages. The lead developers are Justin Nuger and Jesse Saba Kirchner.
+Early work on CLIR depended on manually constructed parallel corpora for each pair of languages. This method is labor-intensive compared to parallel corpora created automatically. A more efficient way of finding data to train a CLIR system is to use matching pages on the web which are written in different languages.
+EXCLAIM capitalizes on the idea of latent parallel corpora on the web by automating the alignment of such corpora in various domains. The most significant of these is Wikipedia itself, which includes articles in 250 languages. The role of EXCLAIM is to use semantics and linguistic analytic tools to align the information in these Wikipedias so that they can be treated as parallel corpora. EXCLAIM is also extensible to incorporate information from many other sources, such as the Chinese Community Health Resource Center (CCHRC).
+One of the main goals of the EXCLAIM project is to provide the kind of computational tools and CLIR tools for minority languages and endangered languages which are often available only for powerful or prosperous majority languages.
+
+==Current status==
+
+EXCLAIM is in a beta state, with varying degrees of functionality for different languages. Support for CLIR using the Wikipedia dataset and the most current version of EXCLAIM (v.0.5), including full UTF-8 support and Porter stemming for the English component, is available for the following twenty-three languages:
+Support using the Wikipedia dataset and an earlier version of EXCLAIM (v.0.3) is available for the following languages:
+Significant developments in the most recent version of EXCLAIM include support for Mandarin Chinese. By developing support for this language, EXCLAIM has added solutions to segmentation and encoding problems which will allow the system to be extended to many other languages written with non-European orthographic conventions. This support is supplied through the Trimming And Reformatting Modular System (TARMS) toolkit.
+Future versions of EXCLAIM will extend the system to additional languages. Other goals include incorporation of available latent datasets in addition to the Wikipedia dataset.
+The EXCLAIM development plan calls for an integrated CLIR instrument usable searching from English for information in any of the supported languages, or searching from any of the supported languages for information in English when EXCLAIM 1.0 is released. Future versions will allow searching from any supported language into any other, and searching from and into multiple languages.
+
+==Further applications==
+
+EXCLAIM has been incorporated into several projects which rely on cross-language query expansion as part of their backends. One such project is a cross-linguistic readability software generation framework, detailed in work presented at ACL 2009.
+
+==Notes and references==
+
+==External links==
+
+*EXCLAIM Website
+*Semantic Web Roadmap
+*Chinese Cultural Health Resource Center
+*Justin Nuger's professional webpage
+*Jesse Saba Kirchner's professional webpage
+

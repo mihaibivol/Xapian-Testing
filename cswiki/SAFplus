@@ -1,0 +1,23 @@
+
+[tpl]Third-party|date=May 2012[/tpl][tpl]orphan|date=June 2012[/tpl][tpl]notability|date=June 2012[/tpl]
+The SAFplus Availability/Scalability Platform is an open source software library used to provide high availability, scalability/clustering, and management services for software applications running in a tightly coupled distributed system.  SAFplus Platform is most commonly used within the defense, telecom and aerospace industries due to the high performance and reliability requirements required by these systems.  SAFplus Platform provides a comprehensive implementation of the SA Forum APIs and also includes significant performance and functionality on top of the SA Forum services.
+
+==Origin==
+
+The SAFplus Platform (originally called OpenClovis ASP) is built by a Silicon Valley startup OpenClovis, Inc. starting in 2002.  The product was open-sourced in December 2006.  OpenClovis, Inc. has developed and supported the product continuously since its introduction.  In 2011, OpenClovis released version 6.0 and moved development to a public github repository located at: https://github.com/openclovis.
+
+==Architecture==
+
+The SAFplus Platform adheres very closely to the architecture defined in the SA Forum documents.  SAFplus essentially is a set of server programs that run on each node on the cluster and a client library that applications link against.  This infrastructure provides services to applications such as startup/shutdown, failure detection, assignment of tasks and active/standby roles, inter-node and inter-process messaging, group membership, logs, events, distributed hash tables (checkpointing), integration with hardware events (such as over-temperature alarms), and more.
+
+==Modelling==
+
+SAFplus Platform provides an eclipe-based cluster modelling GUI.  This GUI allows a user to define complex clusters and application redundancy configuration using a simple UML interface.  This definition is then used to auto-generate a skeleton project that creates:
+* template code for each application defined
+* a complete "make" build environment
+* all configuration files needed to define the cluster configuration
+Essentially, everything that is needed to build and deploy a skeleton cluster is automatically generated.
+
+==External links==
+
+Category:Free software[tpl]catimprove|date=June 2012[/tpl]

@@ -1,0 +1,46 @@
+
+ViewMinder is a computer application for managing content, rights and usage of digital images using structured metadata. The program was first published in August 2003. The freeware version, ViewMinder Express, had the same features but could organize no more than 250 pictures.
+Version 4.01 supported Windows XP and Windows 2000. In October 2007 its publisher, ViewMinder Limited of Cambridge, England announced that consumer versions of the program had been discontinued.
+
+== Organizer ==
+
+ViewMinder manages images by using structured metadata stored in an embedded relational database. This is claimed to produce more accurate search results than traditional image organizers that find image content according to a list of keywords.
+It uses a subset of the metadata proposed by the DIG35 Initiatives Group http://www.i3a.org/i_dig35.html. Although this group was formed by the I3A http://www.i3a.org/about.html association, representing major international imaging companies, ViewMinder seems to be the only implementation of the DIG35 specification.
+XML was the recommended implementation structure for DIG35 http://xml.coverpages.org/FU-Berlin-DIG35-v10-Sept00.pdf  but ViewMinder instead uses SQLite http://www.sqlite.org/, an ACID-compliant relational database management system.
+A picture's content can be described using any number of elements – people, places, events and "others". In addition to describing what is shown, an element can have an "unseen" field, where things related to the image but not appearing in it can be mentioned without creating misleading search results.
+ViewMinder also tracks image authors (photographers or designers) and can monitor image rights and usage.
+
+== Formats ==
+
+ViewMinder accepts images in the formats jpg, bmp, png and uncompressed tif. The technical data (Exif or DCF) embedded in files from digital cameras is imported into the database at the same time and can later be used in searches.
+To save disc space, tif images can be converted to png during import and converted back during export. Images sizes and filenames can be changed automatically during export.
+
+== Image editing ==
+
+ViewMinder contains a simple image editor that can rotate and crop images, and adjust brightness. Alternatively, the user can define one or several external image editing programs, which can then can be invoked transparently to edit images while ViewMinder is running.
+To be compatible in this way, the external image editor must accept a filename as an argument i.e. in response to the command editor.exe,image.jpg the editing program editor.exe must open the file image.jpg. Photoshop Elements and IrfanView are given as examples of compatible external editors.
+
+== Searches ==
+
+Images are displayed in classes, a different set of classes for Dates, Countries, Authors, Lightboxes, People, Locations and Events. When the user places an image in a certain class, the class information is written to the database. When the user selects the class, the database is searched for the class information. Images imported from other ViewMinder users therefore arrange themselves into the correct classes.
+There is also a full metadata editor for creating detailed descriptions and an advanced search function to seek images that meet a complex set of rules.
+
+== Backup ==
+
+Image classes appear to be directories (folders) but their names and relative positions are determined by information in ViewMinder’s database, not by their location in the Windows file structure. All images, the database file and the XML files for collection structure are held in the same directory, so an entire image collection can be backed up by copying a single directory.
+
+== Version history ==
+
+*4.10 – August 2007: Vista support
+*4.00 – May 2007: Content classes (people, places, events) added to the class pane for faster image cataloging and management.
+*3.00 – August 2006: All management functions (class sorting, image searches, data editing) accessed via taskpanes opening to the left and right of the thumbnail tray.  Image printing via user’s own printer or on-line services, using Microsoft’s XP Service platform. Win 98 and Win 95 no longer supported.
+*2.20 – March 2006: Resizable preview within the thumbnail tray, makes better use of desktop space than the conventional "filmstrip view" on wideview screens.
+* 2.10 – December 2006: Timeline pane becomes "Class pane" with date, country, author and lightbox views.
+Image locking to prevent accidental description changes during batch operations.
+* 2.06 – September 2005: Version management tool "Dual" for editing duplicates while preserving originals.
+* 2.04 – August 2005: External image editor can be accessed from ViewMinder instead of its own image editor. Up to six external editors can be set up.
+* 2.03 – July 2005: "Multi" toggle button on toolbar allows selection of multiple images without the keyboard (Ctrl).
+* 2.02 – May 2005: Latin added to description content languages for labelling scientific images.
+* 2.01 – December 2004: New export wizard for  packaging, destination and batch handling functions (size, format, fields, filenames,  usage, rights).
+* 2.0 – August 2004: Horizontal timeline replaced by vertical pane of years, each year separately expandable into months. Allows access to images spanning many years without scrolling.
+

@@ -1,0 +1,125 @@
+
+MeVisLab is a cross-platform application framework for medical image processing and scientific visualization. It includes advanced algorithms for image registration, segmentation, and quantitative morphological and functional image analysis. An IDE for graphical programming and rapid user interface prototyping is available.
+MeVisLab is written in C++ and uses the Qt framework for graphical user interfaces. It is available cross-platform on Windows, Linux, and Mac OS X. The software development is done in cooperation between MeVis Medical Solutions AG and Fraunhofer MEVIS.
+A freeware version of the MeVislab SDK is available (see Licensing). Open source modules are delivered as MeVisLab Public Sources in the SDK and available from the MeVisLab Community and Community Sources project.
+
+==MeVisLab==
+
+===History===
+
+MeVisLab development began in 1993 with the software ILAB1 of the CeVis Institute, written in C++. It allowed to interactively connect algorithms of the Image Vision Library (IL) on Silicon Graphics (SGI) to form image processing networks. In 1995, the newly founded MeVis Research GmbH (which became Fraunhofer MEVIS in 2009) took over the ILAB development and released ILAB2 and ILAB3. OpenInventor and Tcl scripting was integrated but both programs were still running on SGI only.
+[tpl]cite web|url=http://www.mevislab.de/mevislab/history/ |title=MeVisLab History |publisher=Mevislab.de |accessdate=January 21, 2012[/tpl]
+In 2000, ILAB4 was released with the core rewritten in Objective-C for Windows. For being able to move away from the SGI platform, the Image Vision Library was substituted by the platform-independent, inhouse-developed MeVis Image Processing Library (ML). In 2002, the code was adapted to work on the application framework Qt.
+In 2004, the software was released under the name MeVisLab. It contained an improved IDE and was available on Windows and Linux[tpl]cite web|url=http://www.mevislab.de/index.php?id=17&backPID=17&begin_at=20&tt_news=5 |title=MeVisLab 1.0 Release News |publisher=Mevislab.de |accessdate=January 21, 2012[/tpl]. See the Release history for details.
+In 2007, MeVisLab has been acquired by MeVis Medical Solutions AG. Since then, MeVisLab has been continued as a collaborative project between the MeVis Medical Solutions and Fraunhofer MEVIS.
+
+===Features===
+
+MeVisLab features include[tpl]cite web|url=http://www.mevislab.de/mevislab/features/ |title=MeVisLab Features |publisher=Mevislab.de |accessdate=January 21, 2012[/tpl][tpl]cite web|url=http://www.mevislab.de/developer/documentation/ |title=MeVisLab Documentation |publisher=Mevislab.de |accessdate=January 21, 2012[/tpl][tpl]cite web|url=http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=6088923 |title=Ritter F, Boskamp T, Homeyer A, Laue H, Schwier M, Link F, Peitgen H-O. Medical Image Analysis: A Visual Approach. IEEE Pulse. 2011; 2(6):60–70 |doi=10.1109/MPUL.2011.942929 |publisher=Ieeexplore.ieee.org |date=December 1, 2011 |accessdate=January 21, 2012[/tpl]:
+* Image processing with the MeVis Image Processing Library (ML): The ML is a request-driven, page-based, modular, expandable C++ image processing library supporting up to six image dimensions (x, y, z, color, time, user dimensions). It offers a priority-controlled page cache and high performance for large data sets.
+* 2D image viewing: Fast, modular, extensible 2D viewers with combined 2D/3D rendering are implemented, supporting slab rendering (volume rendering/MIP), overlays, point/ROI selection, Multiplanar Reformations (MPR), as well as interactive editing of marker objects (points, vectors, discs, spheres, etc.)
+* Volume rendering: A high-quality volume renderer (Giga Voxel Renderer, GVR) based on OpenGL/Open Inventor is availableLink F, König M, Peitgen H-O; Multi-Resolution Volume Rendering with per Object Shading. In: Kobbelt L, Kuhlen T, Westermann R, eds. Vision Modelling and Visualization. Berlin, Aachen: Aka; 2006:185–191. It supports large image volumes (e.g., 512x512x2000 CT volumes, 12bit), time-varying data (e.g. dynamic MRI volumes), lookup tables, interactive region of interest, sub-volume selection, modular, multi-purpose GLSL shader frameworkSoGVR Renderer Module Documentation.
+* DICOM and other file formats: DICOM is supported via an import step that automatically recognizes series of 2D DICOM frames that belong to the same 3D/4D image volume. The data can be browsed with a configurable DICOM browser. DICOM storage to PACS is possible. Other supported file formats include TIFF (2D/3D, RGBA), Analyze, RAW, PNG, JPG, BMP, and more.
+* Tool frameworks: Modular class and module libraries for markers, curves, histograms, Winged-Edged Meshes (WEM) and Contour Segmentation Objects (CSO) are available.
+* Qt integration: Qt is used as application framework. The Qt API is integrated via PythonQt, allow to access Qt Style Sheets, Qt Widgets, QT Core classes, etc. by scripting from within MeVisLab.
+* Scripting support: Python can be used for script controlled access to a large part of the MeVisLab functionality. The script binding to Qt is implemented via PythonQt. For image processing via Python, NumPy is available. Object-oriented Python programming in MeVisLab is possible[tpl]cite web|url=http://www.mevis-research.de/~fheckel/publications/Heckel2009b_GI.pdf |title=Heckel F, Schwier M, Peitgen H-O; Object-oriented application development with MeVisLab and Python; Lecture Notes in Informatics (Informatik 2009: Im Focus das Leben), 2009, 154, pp. 1338–1351 |format=PDF |accessdate=January 21, 2012[/tpl]. JavaScript based on QSA is available as legacy support (QSA has been discontinued by Trolltech in 2008 in favor of QtScript).
+* Integrated open source image processing and visualization libraries: Three open source libraries are integrated: Open Inventor, based on the original SGI source code released as open source in 2000[tpl]cite web|url=http://www.mevislab.de/mevislab/features/open-inventor/ |title=Open Inventor Reference |publisher=Mevislab.de |accessdate=January 21, 2012[/tpl]; Insight Toolkit (ITK), made available as MeVisLab modulesRexilius J, Jomier J, Spindler W, Link F, König M, Peitgen H-O; Combining a Visual Programming and Rapid Prototyping Platform with ITK. In: Bildverarbeitung für die Medizin. Berlin: Springer, 2005: 460–464[tpl]cite web|url=http://www.insight-journal.org/browse/publication/12 |title=Rexilius J, Spindler W, Jomier J, Koenig M, Hahn H-K, Link F, Peitgen H-O; A Framework for Algorithm Evaluation and Clinical Application Prototyping using ITK. The Insight Journal 2005; ISC/NA-MIC/MICCAI Workshop on Open-Source Software |publisher=Insight-journal.org |accessdate=January 21, 2012[/tpl][tpl]cite web|url=http://ieeexplore.ieee.org/xpl/freeabs_all.jsp?arnumber=4135654 |title=Bitter I, van Uitert R, Wolf I, Ibanez L, Kuhnigk J-M; Comparison of Four Freely Available Frameworks for Image Processing and Visualization That Use ITK; IEEE Trans Visual Comput Graphics,13(3): 483–493, 2007 May/June |doi=10.1109/TVCG.2007.1001 |publisher=Ieeexplore.ieee.org |date=March 19, 2007 |accessdate=January 21, 2012[/tpl]; Visualization Toolkit (VTK): made available as MeVisLab modulesKoenig M, Spindler W, Rexilius J, Jomier J, Link F, Peitgen H-O; Embedding VTK and ITK into a Visual Programming and Rapid Prototyping Platform. In: Proceedings of SPIE – Volume 6141 Medical Imaging 2006 Image Processing. Bellingham: SPIE, 2006: in pressVTK Module Reference.
+* Comprehensive module library: The MeVisLab module library comprises a total of 2600 modules, including 800 standard modules and 1800 ITK/VTK modules.
+
+===MeVisLab principles===
+
+MeVisLab is a modular development framework. Based on modules, networks can be created and applications can be built.  
+To support the creation of image processing networks, MeVisLab offers an IDE that allows data-flow modelling by visual programming. Important IDE features are the multiple document interface (MDI), module and connection inspectors with docking ability, advanced search, scripting and debugging consoles, movie and screenshot generation and galleries, module testing and error handling support[tpl]cite web|url=http://www.mevislab.de/fileadmin/docs/current/MeVisLab/Resources/Documentation/Publish/SDK/MeVisLabManual/index.html |title=MeVisLab Reference Manual |publisher=Mevislab.de |date=September 3, 2011 |accessdate=January 21, 2012[/tpl].  
+In the visual network editor, modules can be added and combined to set up data flow and parameter synchronization. The resulting networks can be modified dynamically by scripts at runtime. Macro modules can be created to encapsulate subnetworks of modules, scripting functionality and high-level algorithms.
+On top of the networks, the medical application level with viewers and UI panels can be added. Panels are written in the MeVisLab Definition Language (MDL), can be scripted with Python or JavaScript and styled using MeVisLab-internal mechanisms or Qt features. 
+The development of own modules written in C++ or Python is supported by wizards.
+
+===Image gallery===
+
+===MeVisLab forum===
+
+MeVisLab offers a very well-supported public forum in which core developers as well as users of all levels of experience share information. A free registration is necessary.
+
+===Release history===
+
+The table below lists all main releases, without release candidates and maintenance releases. Various larger changes were made from version 1.6 to version 2.0. For detailed changes in the ML, see the ML Release Notes. For release news, see Release News on the MeVisLab Homepage.
+
+===Fields of application, research projects===
+
+MeVisLab has been used in a wide range of medical and clinical applications, including surgery planninghttp://isgwww.cs.uni-magdeburg.de/visualisierung/wiki/lib/exe/fetch.php?media=files:animation_exploration:muehler_2010_eurovis.pdf for liver[tpl]cite web|url=http://www.mevis-research.de/~crieder/pdf/SPIE09_paper.pdf |title=Rieder C, Schwier M, Weihusen A, Zidowitz S, Peitgen, H-O; Visualization of Risk Structures for Interactive Planning of Image Guided Radiofrequency Ablation of Liver Tumors; SPIE Medical Imaging: Visualization, Image-Guided Procedures, and Modeling, Orlando, 2009 |format=PDF |accessdate=January 21, 2012[/tpl][tpl]cite web|url=http://www.springerlink.com/content/k827u48175785111/ |title=Zidowitz S, Hansen C, Schlichting S, Kleemann M, Peitgen, H-O; Software assistance for intra-operative guidance in liver surgery; World Congress on Medical Physics and Biomedical Engineering 2009. Vol.6: Surgery, minimal invasive interventions, edoscopy and image guided therapy, pages 205–208, 2009 |publisher=Springerlink.com |accessdate=January 21, 2012[/tpl][tpl]cite web|url=http://www.mevis-research.de/~chansen/publications/CARS_2010_Hansen.pdf |title=Hansen C, Lindow B, Zidowitz S, Schenk A, Peitgen H-O; Towards Automatic Generation of Resection Surfaces for Liver Surgery Planning; Proceedings of Computer Assisted Radiology and Surgery (CARS) 2010, 5 (Suppl. 1), pp. 119–120 |format=PDF |accessdate=January 21, 2012[/tpl][tpl]cite web|url=http://www.mevis.de/mre/en/Liver.html |title=Liver projects at Fraunhofer MEVIS |publisher=Mevis.de |accessdate=January 21, 2012[/tpl], lung[tpl]cite web|url=http://dx.doi.org/10.1016/j.ics.2005.03.203 |title=Dicken V, Kuhnigk J-M, Bornemann L, Zidowitz S, Krass S, Peitgen H-O; Novel CT data analysis and visualization techniques for risk assessment and planning of thoracic surgery in oncology patients; in H.U. Lemke, K. Inamura, K. Doi, M.W. Vannier, and A.G. Farman, editors, Proc CARS: Computer Assisted Radiology and Surgery, volume 1281 of Computer Assisted Radiology and Surgery, pages 783–787, Amsterdam, 2005 |publisher=Dx.doi.org |date=June 22, 2005 |accessdate=January 21, 2012[/tpl][tpl]cite web|url=http://www.mevis.de/mre/en/Lung.html |title=Lung projects at Fraunhofer MEVIS |publisher=Mevis.de |accessdate=January 21, 2012[/tpl], head[tpl]cite web|url=http://www.mevis-research.de/~crieder/pdf/DGNC08.pdf |title=Rieder C, Görge H-H, Ritter F, Hahn H-K, Peitgen H-O; Efficient Visualization of Risk Structures along Virtual Access Paths for Neurosurgical Planning; 59th Annual Meeting of the German Society of Neurosurgery (DGNC), Würzburg, 2008 |format=PDF |accessdate=January 21, 2012[/tpl][tpl]cite web|url=http://www.mevis.de/mre/en/Neuro.html |title=Neuro projects at Fraunhofer MEVIS |publisher=Mevis.de |accessdate=January 21, 2012[/tpl] and neck and other body regions, analysis of dynamic, contrast enhanced breast[tpl]cite web|url=http://www.mevis.de/mre/en/Breast.html |title=Breast projects at Fraunhofer MEVIS |publisher=Mevis.de |accessdate=January 21, 2012[/tpl]Hahn H-K, Harz M-T, Seyffarth H, Zöhrer F, Böhler T, Filippatos K, Wang L, Homeyer A, Ritter F, Laue H, Günther M, Twellmann T, Tabár L, Bick U, Schilling K; Concepts for Efficient and Reliable Multi-Modal Breast Image Reading; International Workshop on Digital Mammography (IWDM 2010, June 16–18, Girona, Spain), pp. and Prostate MRI, quantitative analysis of neurologic[tpl]cite web|url=http://www.mevis-research.de/~ola/publications/Klein_CG2009.pdf |title=Visual computing for medical diagnosis and treatment |format=PDF |accessdate=January 21, 2012[/tpl] and cardiovascular image series[tpl]cite web|url=http://www.mevis-research.de/~ola/publications/Schaap_MedIA2009.pdf |title=Standardized evaluation methodology and reference database for evaluating coronary artery centerline extraction algorithms |format=PDF |accessdate=January 21, 2012[/tpl][tpl]cite web|url=http://www.mevis.de/mre/en/Cardio.html |title=Cardio projects at Fraunhofer MEVIS |publisher=Mevis.de |accessdate=January 21, 2012[/tpl], orthopedic quantification and visualization, tumor lesion volumetry[tpl]cite web|author=USA |url=http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?db=pubmed&cmd=Retrieve&dopt=AbstractPlus&list_uids=17433595&query_hl=6&itool=pubmed_docsum |title=Bolte H, Jahnke T, Schafer F-K, Wenke R, Hoffmann B, Freitag-Wolf S, Dicken V, Kuhnigk J-M, Lohmann J, Voss S, Knoss N, Heller M, Biederer J; Interobserver-variability of lung nodule volumetry considering different segmentation algorithms and observer training levels; Eur J Radiol, 64(2): 285–295, 2007 April |publisher=Ncbi.nlm.nih.gov |date=October 3, 2011 |accessdate=January 21, 2012[/tpl] and therapy monitoring[tpl]cite web|url=http://www.mevis-research.de/~crieder/pdf/EuroVis2010_paper109.pdf |title=Rieder C, Weihusen A, Schumann C, Zidowitz S, Peitgen H-O; Visual Support for Interactive Post-Interventional Assessment of Radiofrequency Ablation Therapy; Computer Graphics Forum (Special Issue on Eurographics Symposium on Visualization) 29, 3 (1093–1102), 2010 |format=PDF |accessdate=January 21, 2012[/tpl], enhanced visualization of mammograms, 3D breast ultrasound and tomosynthesis image data, and many other applications. MeVisLab is also used as a training and teaching tool[tpl]cite web|url=http://www.mevis-research.de/~ritter/awakeideas/files/publications/EG2008-VisualPrototyping.pdf |title=Klein J, Bartz D, Friman O, Hadwiger M, Preim B, Ritter F, Vilanova A, Zachmann G; Advanced Algorithms in Medical Computer Graphics; Eurographics 2008, Crete, April 14–18. State-of-the-Art Report (EG-STAR‘08) |format=PDF |accessdate=January 21, 2012[/tpl][tpl]cite web|author=Felix Ritter |url=http://www.mevis-research.de/~ritter/awakeideas/mevislab-vis2007.html |title=Ritter F; Visual Programming for Prototyping of Medical Applications; IEEE Visualization 2007, Sacramento, October 28 – November 1. Tutorial: "Introduction to Visual Medicine: Techniques, Applications and Software" by Dirk Bartz, Klaus Mueller, Felix Ritter, Bernhard Preim, and Karel Zuiderveld |publisher=Mevis-research.de |accessdate=January 21, 2012[/tpl] for image processing (both general and medicalBornemann L, Dicken V, Kuhnigk J-M, Beyer F, Shin H, Bauknecht C, Diehl V, Fabel-Schulte M, Meier S, Kress O, Krass S, Peitgen H-O; Software Assistance for Quantitative Therapy Monitoring in Oncology; Proc Workshop on Medical Image Processing: Challenges in Clinical Oncology: 40–46, 2006 ]) and visualization techniques.
+MeVisLab is and has been used in many research projects, including:
+* VICORA Virtuelles Institut für Computerunterstützung in der klinischen Radiologie (2004–2006)
+* DOT-MOBI
+* HAMAM
+* List of research projects at Fraunhofer MEVIS
+Based on MeVisLab, the MedicalExplorationToolkit was developed to improve application development[tpl]cite web|url=http://isgwww.cs.uni-magdeburg.de/visualisierung/wiki/lib/exe/fetch.php?media=files:misc:muehler_2010_tvcg.pdf |title=Mühler K, Tietjen C, Ritter F, Preim B; The Medical Exploration Toolkit: An Efficient Support for Visual Computing in Surgical Planning and Training; IEEE Transactions on Visualization and Computer Graphics (133–146), Los Alamitos, CA, USA, 2010 |format=PDF |accessdate=January 21, 2012[/tpl]. It is available as AddOn package for MeVisLab 1.5.2. and 1.6 on Windows.
+
+===Licensing===
+
+The MeVisLab SDK can be downloaded at no cost and without prior registration. The software can be used under three different license models[tpl]cite web|url=http://www.mevislab.de/mevislab/versions-and-licensing/ |title=MeVisLab Versions and Licensing |publisher=Mevislab.de |accessdate=January 21, 2012[/tpl]:
+* MeVisLab SDK Unregistered: This license model applies if the MeVisLab SDK is used without an additional license file. Under this license, a restricted feature set is available. The terms of use are identical to those of the Non-commercial MeVisLab SDK (see below).
+* Non-commercial MeVisLab SDK license: For strictly private use or for use at non-commercial institutions, such as universities, other academic institutions or non-profit organizations. Full feature set, requires a separate license file with costs.
+* Commercial MeVisLab SDK license: For use at commercial companies, institutions or research laboratories. Full feature set, requires a separate license file with costs.
+None of the above license models permits the redistribution of the MeVisLab SDK or parts thereof, or using MeVisLab or parts thereof as part of a commercial service or product.
+The Fraunhofer MEVIS Release Modules are intellectual property of Fraunhofer MEVIS and strictly for non-commercial purposes.
+
+==Related open source projects==
+
+===MeVisLab public sources===
+
+As of MeVisLab 1.3, selected MeVisLab Standard modules are open source and available as MeVisLab Public Sources[tpl]cite web|url=http://www.mevislab.de/index.php?id=17&backPID=17&begin_at=10&tt_news=16 |title=MeVisLab Public Sources |publisher=Mevislab.de |accessdate=January 21, 2012[/tpl]. As of MeVisLab 2.0, these public sources are fully integrated in the MeVisLab SDK.
+The source code is released under BSD license.
+
+===MeVisLab community and community sources===
+
+In the MeVisLab Community Project, open-source modules for MeVisLab are contributed by a number of institutions. Contributors as of 2010 are:
+* Erasmus University Rotterdam, NL
+* Medical Imaging Research Center, Katholieke Universiteit Leuven, BE
+* Division of Image Processing (LKEB), Leiden University Medical Center, NL
+* Computer Vision Laboratory, ETH Zurich, CH
+* Institut für Simulation und Graphik, Universität Magdeburg, DE
+* Center for Medical Image Science and Visualization (CMIV), University of Linköping, SE
+* MeVis Medical Solutions AG
+* Fraunhofer MEVIS
+The source code is released under BSD or LGPL license and managed in a central repository on SourceForge. Continuous builds are offered for various platforms.
+
+===PythonQt===
+
+PythonQt is a Python script binding for the Qt framework. It was originally written to make MeVisLab scriptable and then published as open source in 2007 under LGPL. An introduction of PythonQt was published in Qt Quarterly, which also includes a comparison to Pyqt.
+PythonQt sources and documentation are available from SourceForge.
+
+==Similar software projects==
+
+* Slicer (3DSlicer), an open source, multi-platform project for image analysis and scientific visualization; originally developed by the Surgical Planning Laboratory at the Brigham and Women's Hospital and the MIT Artificial Intelligence Laboratory
+* SciRun, an open source, multi-platform scientific problem solving environment (PSE) for modeling, simulation and visualization of scientific problems, developed at the Center for Integrative Biomedical Computing at the SCI, University of Utah
+* eXtensible Imaging Platform (XIP) an open source, multi-platform project for rapidly developing medical imaging applications from an extensible set of modular elements; originally developed at Siemens Corporate Research in Princeton
+* Medical Imaging Interaction Toolkit (MITK) an open source project for developing interactive medical image processing software, developed at the Deutsche Krebsforschungszentrum, Heidelberg
+* Voreen, an open source, multi-platform volume rendering engine, maintained by the Visualization and Computer Graphics Research Group (VisCG) at the University of Muenster
+* DeVIDE, an open source, multi-platform software for rapid prototyping, testing and deployment of visualisation and image processing algorithms, developed by the Visualisation group at the TU Delft.
+* Amira, a commercial multi-platform software for visualization, analysis and manipulation of bio-medical data
+
+==See also==
+
+* Scientific visualization
+* Graphical programming
+* Medical imaging
+
+==References==
+
+==Further reading==
+
+* MeVisLab Publications
+* Medical Image Analysis: A Visual Approach
+* Using VTK in MeVisLab (PDF)
+* Object-oriented application development with MeVisLab and Python
+* Entwicklung eines Werkzeugs zur Koordinaten- und Grauwertinterpolation von MRI- und PET-Daten in der objektorientierten Umgebung MeVisLab (Diplomarbeit)
+
+==External links==
+
+* MeVisLab Home Page
+* MeVisLab Community Sources
+* MeVisLab Support Forum
+* MeVis Medical Solutions AG
+* Fraunhofer MEVIS
+* MeVisLab for Mac OS X, Intro and Demos
+

@@ -1,0 +1,24 @@
+
+An Ultrasonic grating is a type of diffraction grating produced by an ultrasonic wave.  An ultrasonic wave is a sound wave having a frequency greater than 20 kHz. Because of the very small wavelength of ultrasonic waves compared to X-rays they have considerable penetrating power. The human ear can not recognize ultrasonic waves, but animals such as bats and dogs can easily sense the ultrasonic wave. It is produced by the phenomena of the Piezo-electric effect and magnetostriction. 
+
+==Mechanism==
+
+When ultrasonic waves are generated in a liquid kept in rectangular vessel, the wave can be reflected from the walls of the vessel.These reflected waves are called echos. The direct and reflected waves get superimposed, which causes a standing wave to be formed.  The density of the liquid at the node will be more than the density at an antinode. Under these conditions, if a parallel beam of light is passed through the liquid at right angles to the wave the liquid acts as a diffraction grating. Such a grating is known as an acoustical grating.
+Here, the antinode acts as the transmitting slit and the node acts as the opaque part...thus resembling a normal ruled diffraction grating.
+This is obvious because the antinodes have points of minimum density and hence allow more amount of light to pass through them than those at nodes. Thus, the antinodes act like slits.
+
+==Mathematics==
+
+or
+If v is the velocity of the ultrasonic wave in the liquid  
+we can calculate the velocity of the wave with:
+or,
+
+==Debye-Sears method==
+
+*This method is used to determine the wavelength of monochromatic light using acoustic or ultrasonic grating. This method utilises the concept of Piezo electricity to obtain ultrasonic grating.
+:::The phenomenon of Diffraction of light using ultrasonic grating was first observed by Debye and Sears in 1932. When ultrasonic waves are propagated in a liquid, the density varies from layer to layer due to periodic variation of pressure. If under this condition, monochromatic light is passed through the liquid at right angles to the waves, the liquid behaves as diffraction grating. Hence such a grating is called acoustic grating. This acoustical grating behaves in the same way as that of a normal ruled grating. Hence these can be used to determine the wavelength of monochromatic light as well as the speed of waves depending on wavelength.
+
+==References==
+
+

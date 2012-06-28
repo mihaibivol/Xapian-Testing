@@ -1,0 +1,13 @@
+
+iGoogle Gadget is a Google Web API which allows users to create widgets (web plugin, portlet, webpart) to run in a user iGoogle page or other web page quickly and easily. Users have the ability to add a gadget to their iGoogle portal, or have it coded into their own website, by specifying a URL (this may be done indirectly via the gadget registry. Users will appear in the registry if the gadget has been submitted to iGoogle).
+The gadget is rendered as an iframe. Security constraints will be present, preventing users from damaging the portal and other gadgets. Users communicate with other gadgets via a remote call to a common third party server.
+
+==References==
+
+==External links==
+
+* iGoogle Homepage
+* iGoogle Mobile Homepage
+* iGoogle Gadget API Documentation
+* Webpage Gadgets Directory
+

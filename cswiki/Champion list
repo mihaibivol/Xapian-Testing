@@ -1,0 +1,3 @@
+
+A champion list, also called top doc or fancy list is a precomputed list sometimes used with the vector space model to avoid computing relevancy rankings for all documents each time a document collection is queried. The champion list contains a set of n documents with the heighest weights for the given term. The number n can be chosen to be different for each term and is often higher for rarer terms. The weights can be calculated by for example tf-idf.
+

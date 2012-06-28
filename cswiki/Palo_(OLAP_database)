@@ -1,0 +1,43 @@
+
+Palo is a memory resident multidimensional (online analytical processing (OLAP) or multidimensional online analytical processing (MOLAP)) database server and typically used as a business intelligence tool for controlling and budgeting purposes with spreadsheet software acting as the user interface. Beyond the multidimensional data concept, Palo enables multiple users to share one centralised data storage (single version of the truth).
+This type of database is suitable to handle complex data models for business management and statistics. Apart from multidimensional queries, data can also be written back and consolidated real-time. To give rapid access to all data, Palo stores them in the memory during run time. The server is available as open source and proprietary software.
+Jedox was founded by Kristian Raue in 2002 and developed by Jedox AG, a company based in Freiburg, Germany. The firm currently employs approximately 60 people.
+
+==Features==
+
+Palo for Excel is a open source plug-in for Microsoft Excel. There is also an open source plug-in for OpenOffice.org named PalOOCa, with Java and web client also available from the JPalo project.Tools, Consulting and Service for Palo Palo can also be integrated into other systems via its client libraries for Java, PHP, C/C++, or .NET Framework. It is fairly easy to communicate with Palo OLAP Server, since it uses representational state transfer (REST).
+Starting in October 2008, Palo supports XML for Analysis and MultiDimensional eXpressions (MDX) APIs for connectivity, and OLE DB for OLAP interface which allows standard Excel pivot tables to serve as a client tool.[tpl]cite web |title=Palo Open Source OLAP Server now supports MDX and Excel Pivot Tables |url=http://www.jedox.com/en/news/press_jedox/Palo_Open_Source_OLAP_Server_now_supports_MDX_and_Excel_Pivot_Tables.html[/tpl]
+Starting September 2011, Palo supports SDX dialect of LINQ.
+
+==Architecture==
+
+Palo Suite is a tightly integrated framework consisting of: Palo MOLAP Server, Palo ETL Server, Palo Web (Palo Spreadsheet - Connection, User, ETL, File and Report Manager), Palo for Excel, Palo Supervision Server and the Palo Client Libraries.
+The Data in Palo database is stored as a cube in the Palo MOLAP server.  The Palo Excel Add-In component is used as a service to communicate between the Excel and the Palo MOLAP Server.
+
+==References==
+
+===Additional sources===
+
+* Bernd Held, Hartmut Erb: Advanced Controlling mit Excel. Unternehmenssteuerung mit OLAP und PALO, m. CD-ROM., Franzis, Poing 2006, ISBN 978-3-7723-7585-9 (in German)
+* Guides - Documentation to Palo (pdf) in the download section of the website
+* Interview with Kristian Raue - CEO of Jedox about Palo
+* Business Intelligence: One Version of the Truth ComputerWorld, Julia King, 2003-12-22
+* Announcing Enterprise Excel Exceluser.com, Charley Kyd, Dec 2006
+* b-eye network article - Open Source OLAP in the Retail Environment. John Hobson, Feb 2008
+* Palo 3.0 Manual - Advanced Palo Manual (free download), Palo Toolbox, Aug 2009, (German)
+* Localised Russian PALOOCA - Russian localised client Palo Server
+
+===See also===
+
+* MOLAP
+* Business intelligence
+* Comparison of OLAP Servers
+
+===External links===
+
+* [tpl]official website|www.palo.net[/tpl], documentation, demos, forum
+* Palo project on SourceForge.net - Palo project on SourceForge.net
+* Palo project page on ohloh.net - Palo project page on ohloh.net
+* JPalo - Java software for Palo
+* Russian Forum - Forum Russian users
+

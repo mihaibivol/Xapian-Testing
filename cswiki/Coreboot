@@ -1,0 +1,65 @@
+
+Coreboot (formerly known as LinuxBIOS) is a free software project, endorsed by the Free Software Foundation,The Free Software Foundation's Campaign for Free BIOS aimed at replacing the proprietary BIOS firmware found in most computers with a lightweight system designed to perform only the minimum of tasks necessary to load and run a modern 32-bit or 64-bit operating system.
+
+==History==
+
+The coreboot project was started in the winter of 1999 in the Advanced Computing Laboratory at Los Alamos National Laboratory (LANL).coreboot FAQ: Who is working on coreboot?
+The goal was a BIOS that would start fast and handle errors intelligently.Anton Borisov: The Open Source BIOS is Ten. An interview with the coreboot developers. The H, 2009.
+It is licensed under the terms of the GNU General Public License (GPL). Main contributors have been LANL, AMD, coresystems GmbH and Linux Networx, Inc, as well as motherboard vendors MSI, Gigabyte and Tyan, by offering coreboot next to their standard BIOS or providing specifications of the hardware interfaces for some of their recent motherboards. However, Tyan seems to have ceased support of coreboot.[tpl]Citation needed|date=January 2008[/tpl]
+Google partly sponsors the coreboot project.Google Sponsors the LinuxBIOS project CME Group, a cluster of futures exchanges, began supporting the coreboot project in 2009.CME Group Dives Into Coreboot
+Code from Das U-Boot was assimilated to enable support for the ARM architecturehttp://blogs.coreboot.org/blog/2011/06/05/gsoc2011week-1-analysis-of-u-boot-arm-boot-code/.
+
+==Supported platforms==
+
+Besides x86 and x86-64 architectures, coreboot support also exists for the AMD Geode solutions. Support started with the Geode GX processor developed by AMD for the OLPC, Artec Group then added Geode LX support for its model DBE61 ThinCan. Recently, that code was adopted by AMD and further polished for the OLPC after they upgraded to the Geode LX platform. That code is now being further developed by the coreboot community to support other AMD Geode solutions. Coreboot can be flashed onto an AMD Geode platform using Flashrom.
+From that initial development on AMD Geode based platforms, coreboot support has been extended onto many AMD processors and chipsets. The processor list includes Family 0Fh and 10h (K8 core), and recently Family 14h (Bobcat core, Fusion APU). Coreboot support also extends to AMD chipsets: RS690, RS7xx, SB600, and SB8xx. It is expected that as new processors and chipsets are introduced, coreboot will quickly support them as well.
+
+==Design==
+
+Coreboot usually loads a Linux kernel, but it can load any other stand-alone ELF executable, such as Etherboot, which can boot Linux over a network, or SeaBIOSSeaBIOS (previously known as LegacyBIOS) is an open-source legacy BIOS implementation, which can load Linux, Microsoft Windows 2000 and later, and *BSD (previously, Windows 2000/XP and OpenBSD support was provided by ADLOcoreboot Add-on Layer (ADLO)SEBOS, Security Enhanced Bootloader for Operating Systems, Phase 2 , adding PC BIOS Services to coreboot via Bochs BIOS (Link noted to be defunct on 18 July 2008. See SEBOS page archived on archive.org Archived copy of SEBOS Phase 2)).
+Coreboot can also load almost any operating system from any supported device, such as Myrinet, Quadrics, or SCI cluster interconnects. Some OSes (such as Windows 2000/XP/Vista/7 and *BSD) require legacy BIOS functions which are provided by SeaBIOS.
+A unique feature of coreboot is that the x86 version runs in 32-bit mode after executing only ten instructionscoreboot v3 early startup code (almost all other x86 BIOSes run exclusively in 16-bit mode).  This is similar to the modern UEFI firmware, which is used on Intel-based Macintosh computers and other newer PC hardware.
+Coreboot can boot other kernels, or pass control to a boot loader to boot a kernel/image instead. It can also boot a Plan 9 from Bell Labs kernel directly [tpl]clarify|reason=Implies booting of plan 9 differs from "other kernels" but it is not clear how|date=May 2011[/tpl]. A coreboot-capable version of GNU GRUB 2 exists.
+By default, coreboot does not provide BIOS call services. A payload called SeaBIOS can be used to provide BIOS calls and thus allow coreboot to load operating systems that require those services, however most modern operating systems access hardware in another manner and only use BIOS calls during early initialization and as a fallback mechanism.
+
+==Developing and debugging coreboot==
+
+Since coreboot must initialize the bare hardware, it must be ported to every chipset and motherboard that it supports. Before initializing RAM, coreboot initializes the serial port (addressing cache and registers only), so it can send out debug text to a connected terminal. It can also send byte codes to port 0x80 that are displayed on a two-hex-digit display of a connected POST card. Another porting aid is the commercial "RD1 BIOS Savior" product from IOSS,IOSS which is a combination of two boot memory devices that plugs into the boot memory socket and has a manual switch to select between the two devices. The computer can boot from one device, and then the switch can be toggled to allow the computer to reprogram or "flash" the second device.  A more expensive alternative is an external EPROM/flash programmer. There are also CPU emulators that either replace the CPU or connect via a JTAG port, with the Sage SmartProbeSage Engineering being an example. Code can be built on, or downloaded to, BIOS emulators rather than flashing the BIOS device.
+
+==Payloads==
+
+Coreboot can load a payload. Payloads can be written using the libpayload helper-library, but it is not required. Existing payloads include:
+* SeaBIOS, a tiny implementation of x86 BIOS, written mostly in 16-bit C using the GNU C compiler. It is able to boot traditional PC operating systems.
+* FILO, a GRUB-like bootloader with USB boot support.
+* Etherboot, it can boot an operating system over the network
+* gPXE, the successor to Etherboot, works when run under SeaBIOS.
+* TianoCore
+* A branch of Das U-Boot used by Google for Chromium OS
+
+==Initializing DRAM==
+
+The most difficult hardware that coreboot initializes is the DRAM controllers and DRAM. In some cases, technical documentation on this subject is NDA restricted or unavailable. RAM initialization is particularly difficult because before the RAM is initialized it cannot be used. Therefore, to initialize DRAM controllers and DRAM, the initialization code may have only the CPU's general purpose registers or Cache-as-RAM as temporary storage.
+romcc, a C compiler that uses registers instead of RAM, eases the task. Using romcc, it is relatively easy to make SMBus accesses to the SPD ROMs of the DRAM DIMMs, that allows the RAM to be used.
+With newer x86 processors, the processor cache can be used as RAM until DRAM is initialized. The processor cache has to be initialized into Cache-as-RAMA Framework for Using Processor Cache as RAM (CAR) mode as well, but this needs fewer instructions than initializing DRAM. Also, the Cache-as-RAM mode initialization is specific to CPU architectures, thus more generic than DRAM initialization, which is specific to each chipset and mainboard.
+
+==See also==
+
+* OpenBIOS
+* Open Firmware
+* ThinCan
+* Rapid Boot
+* LOBOS
+
+==References==
+
+== Further reading ==
+
+* Open BIOSes for Linux, by Peter Seebach
+* LinuxBIOS ready to go mainstream, by Bruce Byfield
+* First desktop motherboard supported by LinuxBIOS: GIGABYTE M57SLI-S4, by Brandon Howard
+* Video recording of Ron Minnich's LinuxBIOS talk from FOSDEM 2007
+
+== External links ==
+
+* [tpl]Official|http://www.coreboot.org/[/tpl]
+

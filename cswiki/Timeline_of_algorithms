@@ -1,0 +1,131 @@
+
+The following timeline outlines the development of algorithms (mainly "mathematical recipes") since their inception.
+
+==Before modern era==
+
+* Before - Writing about "recipes" (on cooking, rituals, agriculture and other themes)
+* c. 1600 BC - Babylonians develop earliest known algorithms for factorization and finding square roots
+* c. 300 BC - Euclid's algorithm
+* c. 200 BC - the Sieve of Eratosthenes
+* 263 AD - Gaussian elimination described by Liu Hui
+* 628 - Chakravala method described by Brahmagupta
+* c. 820 - Al-Khawarizmi described algorithms for solving linear equations and quadratic equations in his Algebra; the word algorithm comes from his name
+* 825 - Al-Khawarizmi described the algorism, algorithms for using the Hindu-Arabic numerals, in his treatise On the Calculation with Hindu Numerals, which was translated into Latin as Algoritmi de numero Indorum, where "Algoritmi", the translator's rendition of the author's name gave rise to the word algorithm (Latin algorithmus) with a meaning "calculation method"
+* c. 850 - Cryptanalysis and frequency analysis algorithms developed by Al-Kindi (Alkindus) in A Manuscript on Deciphering Cryptographic Messages, which contains algorithms on breaking encryptions and ciphers.Simon Singh, The Code Book, pp. 14-20
+* c. 1025 - Ibn al-Haytham (Alhazen), was the first mathematician to derive the formula for the sum of the fourth powers, and in turn, he develops an algorithm for determining the general formula for the sum of any integral powers, which was fundamental to the development of integral calculusVictor J. Katz (1995). "Ideas of Calculus in Islam and India", Mathematics Magazine 68 (3), p. 163-174.
+* c. 1400 - Ahmad al-Qalqashandi gives a list of ciphers in his Subh al-a'sha which include both substitution and transposition, and for the first time, a cipher with multiple substitutions for each plaintext letter; he also gives an exposition on and worked example of cryptanalysis, including the use of tables of letter frequencies and sets of letters which can not occur together in one word
+
+==Before 1940==
+
+* 1614 - John Napier develops method for performing calculations using logarithms
+* 1671 - Newton–Raphson method developed by Isaac Newton
+* 1690 - Newton–Raphson method independently developed by Joseph Raphson
+* 1706 -  John Machin develops a quickly converging inverse-tangent series for π and computes π to 100 decimal places,
+* 1789 -  Jurij Vega improves Machin's formula and computes π to 140 decimal places,
+* 1805 - FFT-like algorithm known by Carl Friedrich Gauss
+* 1903 - A Fast Fourier Transform algorithm presented by Carle David Tolme Runge
+* 1926 - Borůvka's algorithm
+* 1934 - Delaunay triangulation developed by Boris Delaunay
+* 1936 - Turing machine, an abstract machine developed by Alan Turing, with others developed the modern notion of algorithm.
+
+==1940s==
+
+* 1942 -  A Fast Fourier Transform algorithm developed by G.C. Danielson and Cornelius Lanczos
+* 1945 - Merge sort developed by John von Neumann
+* 1947 - Simplex algorithm developed by George Dantzig
+
+==1950s==
+
+* 1952 - Huffman coding developed by David A. Huffman
+* 1953 - Simulated annealing introduced by Nicholas Metropolis
+* 1954 - Radix sort computer algorithm developed by Harold H. Seward
+* 1956 - Kruskal's algorithm developed by Joseph Kruskal
+* 1957 - Prim's algorithm developed by Robert Prim
+* 1957 - Bellman–Ford algorithm developed by Richard E. Bellman and L. R. Ford, Jr.
+* 1959 - Dijkstra's algorithm developed by Edsger Dijkstra
+* 1959 - Shell sort developed by Donald L. Shell
+* 1959 - De Casteljau's algorithm developed by Paul de Casteljau
+
+==1960s==
+
+* 1960 - Karatsuba multiplication
+* 1962 - AVL trees
+* 1962 - Quicksort developed by C. A. R. Hoare
+* 1962 - Ford–Fulkerson algorithm developed by L. R. Ford, Jr. and D. R. Fulkerson
+* 1962 - Bresenham's line algorithm developed by Jack E. Bresenham
+* 1964 - Heapsort developed by J. W. J. Williams
+* 1964 - multigrid methods first proposed by R. P. Fedorenko
+* 1965 - Cooley–Tukey algorithm rediscovered by James Cooley and John Tukey
+* 1965 - Levenshtein distance developed by Vladimir Levenshtein
+* 1965 - Cocke–Younger–Kasami (CYK) algorithm independently developed by Tadao Kasami
+* 1966 - Dantzig algorithm for shortest path in a graph with negative edges
+* 1967 - Viterbi algorithm proposed by Andrew Viterbi
+* 1967 - Cocke–Younger–Kasami (CYK) algorithm independently developed by Daniel H. Younger
+* 1968 - A* graph search algorithm described by Peter Hart, Nils Nilsson, and Bertram Raphael.
+
+==1970s==
+
+* 1970 - Knuth–Bendix completion algorithm developed by Donald Knuth and Peter B. Bendix
+* 1970 - BFGS method of the quasi-Newton class
+* 1972 - Graham scan developed by Ronald Graham
+* 1972 - Red-black trees and B-trees discovered
+* 1973 - RSA encryption algorithm discovered by Clifford Cocks
+* 1973 - Jarvis march algorithm developed by  R. A. Jarvis
+* 1974 - Pollard's p − 1 algorithm developed by John Pollard
+* 1975 - Genetic algorithms popularized by John Holland
+* 1975 - Pollard's rho algorithm developed by John Pollard
+* 1975 - Aho–Corasick string matching algorithm developed by Alfred V. Aho and Margaret J. Corasick
+* 1976 - Salamin–Brent algorithm independently discovered by Eugene Salamin and Richard Brent
+* 1976 - Knuth–Morris–Pratt algorithm developed by Donald Knuth and Vaughan Pratt and independently by J. H. Morris
+* 1977 - Boyer–Moore string search algorithm for searching the occurrence of a string into another string.
+* 1977 - RSA encryption algorithm rediscovered by Ron Rivest, Adi Shamir, and Len Adleman
+* 1977 - LZ77 algorithm developed by Abraham Lempel and Jacob Ziv
+* 1977 - multigrid methods developed independently by Achi Brandt and Wolfgang Hackbusch
+* 1978 - LZ78 algorithm developed from LZ77 by Abraham Lempel and Jacob Ziv
+* 1978 - Bruun's algorithm proposed for powers of two by Georg Bruun
+* 1979 - Khachiyan's ellipsoid method developed by Leonid Khachiyan
+* 1979 - ID3 decision tree algorithm developed by Ross Quinlan
+
+==1980s==
+
+* 1981 - Quadratic sieve developed by Carl Pomerance
+* 1983 - Simulated annealing developed by S. Kirkpatrick, C. D. Gelatt and M. P. Vecchi
+* 1983 - Classification and regression tree (CART) algorithm developed by Leo Breiman, et al.
+* 1984 - LZW algorithm developed from LZ78 by Terry Welch
+* 1984 - Karmarkar's interior-point algorithm developed by Narendra Karmarkar
+* 1985 - Simulated annealing independently developed by V. Cerny
+* 1985 - Splay trees discovered by Sleator and Tarjan
+* 1986 - Blum Blum Shub proposed by L. Blum, M. Blum, and M. Shub
+* 1987 - Fast multipole method developed by Leslie Greengard and Vladimir Rokhlin
+* 1988 - Special number field sieve developed by John Pollard
+
+==1990s==
+
+* 1990 - General number field sieve developed from SNFS by Carl Pomerance, Joe Buhler, Hendrik Lenstra, and Leonard Adleman
+* 1991 - Wait-free synchronization developed by Maurice Herlihy
+* 1992 - Deutsch–Jozsa algorithm proposed by D. Deutsch and Richard Jozsa
+* 1992 - C4.5 algorithm, a descendent of ID3 decision tree algorithm, was developed by Ross Quinlan
+* 1993 - Apriori algorithm developed by Rakesh Agrawal and Ramakrishnan Srikant
+* 1994 - Shor's algorithm developed by Peter Shor
+* 1994 - Burrows–Wheeler transform developed by Michael Burrows and David Wheeler
+* 1994 - Bootstrap aggregating (bagging) developed by Leo Breiman
+* 1995 - AdaBoost algorithm, the first practical boosting algorithm, was introduced by Yoav Freund and Robert Schapire
+* 1995 - soft-margin support vector machine algorithm was published by Vladimir Vapnik and Corinna Cortes. It adds a soft-margin idea to the 1992 algorithm by Boser, Nguyon, Vapnik, and is the algorithm that people usually refer to when saying SVM.
+* 1995 - Ukkonen's algorithm for construction of suffix trees
+* 1996 - Bruun's algorithm generalized to arbitrary even composite sizes by H. Murakami
+* 1996 - Grover's algorithm developed by Lov K. Grover
+* 1996 - RIPEMD-160 developed by  Hans Dobbertin, Antoon Bosselaers, and Bart Preneel
+* 1998 - PageRank algorithm was published by Larry Page
+* 1998 - rsync algorithm developed by Andrew Tridgell
+* 1999 - gradient boosting algorithm developed by Jerome H. Friedman
+* 1999 - Yarrow algorithm designed by Bruce Schneier, John Kelsey, and Niels Ferguson
+
+==2000s==
+
+* 2001 - Lempel–Ziv–Markov chain algorithm for compression developed by Igor Pavlov
+* 2001 - Viola–Jones algorithm for real-time face detection was developed by Paul Viola and Michael Jones.
+* 2002 - AKS primality test developed by Manindra Agrawal, Neeraj Kayal and Nitin Saxena
+
+==References==
+
+

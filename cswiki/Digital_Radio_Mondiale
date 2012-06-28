@@ -1,0 +1,108 @@
+
+Digital Radio Mondiale (abbreviated DRM; mondiale being Italian and French for "worldwide") is a set of digital audio broadcasting technologies designed to work over the bands currently used for AM broadcasting, particularly shortwave. DRM can fit more channels than AM, at higher quality, into a given amount of bandwidth, using various MPEG-4 codecs.
+Digital Radio Mondiale is also the name of the international non-profit consortium designing and implementing the platform. Radio France Internationale, TéléDiffusion de France, BBC World Service, Deutsche Welle, Voice of America, Telefunken (now Transradio) and Thomcast (now Technicolor SA) took part at the formation of the DRM consortium.
+The principle of DRM is that bandwidth is the limited element, and computer processing power is cheap; modern CPU-intensive audio compression techniques enable more efficient use of available bandwidth, at the expense of processing resources.
+
+==Features==
+
+DRM can deliver FM-comparable sound quality on frequencies below 30 MHz (long wave, medium wave and short wave), which allow for very-long-distance signal propagation. VHF is under consideration, under the name "DRM+". DRM has been designed especially to use portions of older AM transmitter facilities such as antennas, avoiding major new investment. DRM is robust against the fading and interference which often plague conventional broadcasting on these frequency ranges.
+The encoding and decoding can be performed with digital signal processing, so that a cheap embedded computer with a conventional transmitter and receiver can perform the rather complex encoding and decoding.
+As a digital medium, DRM can transmit other data besides the audio channels (datacasting) — as well as RDS-type metadata or program-associated data as Digital Audio Broadcasting (DAB) does. Unlike most other DAB systems, DRM uses in-band on-channel (IBOC) technology and can operate in a hybrid mode called Single Channel Simulcast, simulcasting both analog signal and digital signal.
+
+==Status==
+
+The LW/MW/SW standard has been approved by the IEC, and the ITU has approved its use in most of the world.  Approval for ITU region 2 (North and South America and the Pacific) is pending amendments to existing international agreements.  The inaugural broadcast took place on June 16, 2003, in Geneva, Switzerland, at the ITU's annual World Radio Conference.
+Current broadcasters include All India Radio, BBC World Service, Deutschlandradio, biteXpress, HCJB, Radio Canada International, Deutsche Welle, Radio Netherlands Worldwide, RTÉ Radio (RTÉ), Radio Exterior de España, RAI,The experimentation on DRM Kuwait Radio, Radio New Zealand International, Vatican Radio, Voice of Russia and Radio Romania International.http://www.drm.org/for-listeners/live-broadcast-schedule/
+Until now DRM receivers have typically used a personal computer. A few manufacturers are presently selling stand alone DRM receivers (Himalaya Electronics, Technisat, Morphy Richards, Starwaves, UniWave, Sarapulsky Radiozavod), which are mostly based upon the no longer available Radioscape RS500 module. The UniWave set is based upon the Chengdu NewStar Electronics WR608 module. New modules are expected from Chengdu NewStar Electronics (WR998), from Analog Devices, and others. Kenwood and Fraunhofer presented a prototype standalone receiver chip in September 2006.
+Morphy Richards is mass producing DRM receivers, which are being promoted by the broadcaster Deutsche Welle.article: DRM radios available internationally for less than 200 € The receivers cost under £169.99 in the UK (as of October 2008).http://www.igear.com/product_details.php?item_id=1478& At the time of writing[tpl]When|date=February 2011[/tpl], Morphy Richards are only distributing these sets around Germany, Austria and the UK, but Europe-wide distribution is expected shortly, with grey market importers using German sourced radios to distribute across Europe. UniWave has created a receiver called the Di-Wave 100, capable of receiving MOT Slideshow, pictures, and text (Journaline) streams. Support of low bitrate videos (Diveemo) is expected in an upcoming version of this receiver. It is not currently offered for sale.http://www.drm.org/uploads/media/20090327-New_DRM_receiver_unveiled_and_reiterated_support_for_DRM_from_EBU_ABU_01.pdfhttp://www.universal-radio.com/catalog/portable/0023.html
+Chengdu NewStar Electronics is offering the DR111 from May 2012 on which meets the minimum requirements for DRM receivers specified by the DRM consortium and is sold worldwide.http://www.cdnse.com/products/dr111
+The British Broadcasting Corporation BBC has trialed the technology by broadcasting BBC Radio Devon in the Plymouth area. The trial lasted for year (April 2007 - April 2008).http://www.bbc.co.uk/devon/content/articles/2009/05/11/digital_medium_wave_report_feature.shtml Digital medium wave trial report (BBC) Digital Radio Mondiale is being considered by Ofcom for introduction in Britain in 2012[tpl]Citation needed|date=February 2012[/tpl] on the present AM medium wave band.http://www.ofcom.org.uk/consult/condocs/futureradio/ The Future of Radio (Ofcom, 2007 - 5 yrs out of date now)
+RTÉ has also run single and multiple programme overnight tests during a similar period on the 252 kHz LW transmitter in Trim, Co.Meath, Ireland which was upgraded to support DRM after Atlantic 252 closed.
+
+===International regulation===
+
+On 28 September 2006, the Australian spectrum regulator, the Australian Communications and Media Authority, announced that it had "placed an embargo on frequency bands potentially suitable for use by broadcasting services using Digital Radio Mondiale until spectrum planning can be completed" "those bands being "5950–6200, 7100–7300, 9500–9900, 11650–12050, 13600–13800, 15100–15600, 17550–17900, 21450–21850 and 25670–26100 kHz.article: ACMA embargoes spectrum to plan for Digital Radio Mondiale
+The United States Federal Communications Commission states in [tpl]CodeFedReg|47|73|758[/tpl] that:  "For digitally modulated emissions, the Digital Radio Mondiale (DRM) standard shall be employed."  Part 73, section 758 is for HF broadcasting only.
+
+==DRM Plus ==
+
+While the initial version of DRM covers the broadcasting bands below 30 MHz, the DRM consortium voted in March 2005 to begin the process of extending the system to the VHF bands up to 108 MHz.DRM+ Presentation, DRM.org, accessed 2009-02-02 DRM Plus (DRM+) will be the name of this technology.
+On 31 August 2009, DRM+ has become an official broadcasting standard with the publication of the technical specification by the European Telecommunications Standards Institute; this is effectively a new release of the whole DRM spec with the additional mode permitting operation above 30 MHz up to 174 MHz.ETSI ES 201 980 V3.1.1
+Wider bandwidth channels are used, which allows radio stations to use higher bit rates, thus providing higher audio quality. A 100 kHz DRM+ channel has sufficient capacity to carry one low-definition 0.7 megabit/s wide mobile TV channel: it would be feasible to distribute mobile TV over DRM+ rather than DMB or DVB-H.
+DRM Plus is now successfully tested in Band III, and this gives the DRM system the widest frequency usage; it can be used in band I, II and III. It is possible that DRM+ can co exist with DAB in band III.Symposium about the DRM+ field trial in VHF band III but the also the present FM-band can be utilized. The ITU has published three recommendations on DRM+, known in the documents as Digital System G.  This indicate  the introduction of the full DRM system (DRM 30 and DRM+).
+ITU-R Rec. BS.1114 is the ITU recommendation for sound broadcasting in the frequency range 30 MHz to 3 GHz.  DAB, HD-Radio and ISDB-T were already recommended in this document as Digital Systems A, C and F respectively.
+2011 the paneuropean organisation Community Media Forum Europe Community Media Forum Europe has recommended to the European Commission that DRM+ should rather be used for small scale broadcasting (local radio, community radio) than DAB/DAB+.
+
+==Technique==
+
+===Audio source coding===
+
+Useful bitrates for DRM range from 6.1 kbit/s (Mode D) to 34.8 kbit/s (Mode A) for a 10 kHz bandwidth (+/- 5 kHz around the central frequency).  It is possible to achieve bit rates up to 72 kbit/s (Mode A) by using a standard 20 kHz (+/-10 kHz) wide channel. (For comparison, pure digital HD Radio can broadcast 20 kbit/s using channels 10 kHz wide and up to 60 kbit/s using 20 kHz channels.)[tpl]PDFlink|The Structure and Generation of Robust Waveforms for AM In-Band On-Channel Digital Broadcasting[/tpl]  Useful bitrate depends also on other parameters, such as:
+* desired robustness to errors (error coding)
+* power needed (modulation scheme)
+* robustness in regard to propagation conditions (multipath propagation, doppler effect), etc.
+DRM offers the possibility to use different audio coding system (source coding) depending on the bitrate:
+*MPEG-4  HE-AAC (High Efficiency Advanced Audio Coding). AAC is a perceptual coder suited for voice and music and the High Efficiency is an optional extension for reconstruction of high frequencies (SBR: spectral bandwidth replication) and stereo image (PS: Parametric Stereo). 24 kHz or 12 kHz sampling frequencies can be used for core AAC (no SBR) which correspond respectively to 48 kHz and 24 kHz when using SBR oversampling.
+*MPEG-4 CELP which is a parametric coder suited for voice only (vocoder) but that is robust to errors and needs a small bit rate.
+*MPEG-4 HVXC which is also a parametric coder for speech programs that uses an even smaller bitrate than CELP.
+All codecs can optionally be combined with spectral band replication.
+Broadcasters have some freedom of choice depending on the material they send. The most commonly used mode is HE-AAC (also called AAC+) that offers an acceptable audio quality somewhat comparable to FM broadcast.
+
+===Bandwidth===
+
+DRM broadcasting can be done using a choice of different bandwidths:
+*4.5 kHz.  Gives the ability for the broadcaster to do a simulcast and use the lower-sideband area of a full 9 kHz channel for single sideband AM (designated H3E by the ITU), with a 4.5 kHz DRM signal occupying the area traditionally taken by the upper-sideband.[tpl]cite web |url=http://www.etsi.org/deliver/etsi_ts/102500_102599/102509/01.01.01_60/ts_102509v010101p.pdf |title=See section 5: "DRM/AM single channel simulcast"[/tpl] However the resulting bit rate and audio quality is not great. This would only apply to the region–1 (European) medium wave and long wave bands, or to the region–3 (Asian/Oceanian) medium wave band.
+*5 kHz.  Gives the ability for the broadcaster to do a simulcast and use the lower-sideband area of a full 10 kHz channel for H3E single sideband AM, with a 5 kHz DRM signal occupying the area traditionally taken by the upper-sideband. However the resulting bit rate and audio quality is marginal (7.1—16.7 kbit/s for 5 kHz). This regime would apply to the AM band in region–2 and to the short wave bands the world over.
+*9 kHz. Occupies all the standard bandwidth of a region–1 long wave or medium wave broadcast channel so that the existing frequency plan can be reused. Also used for the region–3 medium wave band.
+*10 kHz. Occupies all the standard bandwidth of a region–2 AM or worldwide short wave broadcast channel (giving 14.8—34.8 kbit/s) so the existing frequency plan can be reused.
+*18 kHz. Occupies an adjacent pair of region–1 long wave or medium wave channels or an adjacent pair of region–3 medium wave channels according to the existing frequency plan. This offers the possibility of offering better audio quality.
+*20 kHz. Occupies an adjacent pair of region–2 AM or worldwide short wave channels according to the existing frequency plan. This offers the possibility of offering better audio quality (giving 30.6—72 kbit/s).
+* 100 kHz for DRM+. This bandwidth can be used in band I, II and III and DRM+ can transmit four different programs in this bandwidth.
+
+===Modulation===
+
+The modulation used for DRM is COFDM (Coded Orthogonal Frequency Division Multiplexing), where every carrier is modulated with QAM (Quadrature Amplitude Modulation) with a selectable error coding.
+The choice of transmission parameters depends on signal robustness wanted and propagation conditions. Transmission signal is affected by noise, interference, multipath wave propagation and Doppler effect.
+It is possible to choose among several error coding schemes and several modulation patterns: 64-QAM, 16-QAM and 4-QAM. OFDM modulation has some parameters that must be adjusted depending on propagation conditions. This is the carrier spacing which will determine the robustness against Doppler effect (which cause frequencies offsets, spread: Doppler spread) and OFDM guard interval which determine robustness against multipath propagation (which cause delay offsets, spread: delay spread). The DRM consortium has determined four different profiles corresponding to typical propagation conditions:
+*A: Gaussian channel with very little multipath propagation and Doppler effect. This profile is suited for local or regional broadcasting.
+*B: multipath propagation channel. This mode is suited for medium range transmission. It is nowadays frequently used.
+*C: similar to mode B, but with better robustness to Doppler (more carrier spacing). This mode is suited for long distance transmission.
+*D: similar to mode B, but with a resistance to large delay spread and Doppler spread. This case exists with adverse propagation conditions on very long distance transmissions. The useful bit rate for this profile is decreased.
+The trade-off between these profiles stands between robustness, resistance in regards to propagation conditions and useful bit rates for the service.
+This table presents some values depending on these profiles. The more the carrier spacing is the more the system is resistant to Doppler effect (Doppler spread). The more the guard interval is the more the system is resistant to long multipath propagation (delay spread).
+The resulting low-bit rate digital information is modulated using COFDM.  It can run in simulcast mode by switching between DRM and AM, and it is also prepared for linking to other alternatives (e.g. DAB or FM services).
+DRM has been tested successfully on shortwave, mediumwave (with 9 as well as 10 kHz channel spacing) and longwave.
+There is also a lower bandwidth two-way communication version of DRM as a replacement for SSB communications on HFWinDRM - software for Audio and Fast Data over HF SSB - note that it is NOT compatible with the official DRM specification. It may be possible in some future time for the 4.5 kHz bandwidth DRM version used by the Amateur Radio community to be merged with the existing DRM specification.
+The Dream software will receive the commercial versions and also limited transmission mode using the FAAC AAC encoder.
+
+===Error coding===
+
+Error coding can be chosen to be more or less robust.
+This table shows an example of useful bitrates depending on protection classes
+* OFDM propagation profiles (A or B)
+* carrier modulation (16QAM or 64QAM)
+* and channel bandwidth (9 or 10 kHz)
+The lower the protection class the higher the level of error correction.
+
+==See also==
+
+* AMSS AM signalling system
+* Digital Audio Broadcasting (DAB)
+* Digital Multimedia Broadcasting (DMB)
+* Digital Radio Oceane (DRO)
+* DVB-H (Digital Video Broadcasting - Handhelds)
+* DVB-T (Digital Video Broadcasting - Terrestrial)
+* ETSI Satellite Digital Radio (SDR)
+* HD Radio, American system for digital radio
+* ISDB-Tsb, Japanese system for digital radio.
+
+==References==
+
+==External links==
+
+*Digital Radio Mondiale (DRM) - official homepage
+*How to receive DRM on the long-, medium- and shortwave bands
+* Diorama DRM receiver. An open source DRM receiver written by the Institute of Telecommunications of the University Kaiserslautern (Germany))
+* WinDRM DRM software for amateur radio users.
+*Dream - an open-source software DRM Receiver
+

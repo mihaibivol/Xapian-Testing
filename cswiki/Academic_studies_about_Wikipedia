@@ -1,0 +1,144 @@
+
+In recent years there have been numerous academic studies about Wikipedia in peer-reviewed publications. This research can be grouped into two categories. The first analyzed the production and reliability of the encyclopedia content, while the second investigated social aspects, such as usage and administration. Such studies are greatly facilitated by the fact that Wikipedia's database can be downloaded without needing to ask the assistance of the site owner.[tpl]Cite journal|doi=10.1145/1641309.1641326|isbn=978-1-60558-730-1|title=Measuring the wikisphere|first2=James|year=2009|last2=Purtilo|author=Stuckman, Jeff |journal=Proceedings of the 5th International Symposium on Wikis and Open Collaboration|page=1|publisher=WikiSym '09[/tpl]
+
+== Content ==
+
+=== Production ===
+
+==== A minority of editors produce the majority of persistent content ====
+
+In a landmark peer-reviewed paper, also mentioned in The Guardian,[tpl]cite web|last=Baker|first=Nicholson|title=How I fell in love with Wikipedia |url=http://www.guardian.co.uk/technology/2008/apr/10/wikipedia.internet|work=The Guardian|accessdate=2010-11-29|date=2008-04-10[/tpl] a team of six researchers from the University of Minnesota measured the relationship between editors' edit count and the editors' ability to convey their writings to Wikipedia readers, measured in terms of persistent word views (PWV)—the number of times a word introduced by an edit is viewed. The accounting method is best described using the author's own words: "each time an article is viewed, each of its words is also viewed. When a word written by editor X is viewed, he or she is credited with one PWV." The number of times an article was viewed was estimated from the web server logs.
+The researchers analyzed 25 trillion PWVs attributable to registered users in the interval September 1, 2002 − October 31, 2006. At the end of this period, the top 10% of editors (by edit count) were credited with 86% of PWVs, the top 1% about 70%, and the top 0.1% (4200 users) were attributed 44% of PWVs, i.e. nearly half of Wikipedia's "value" as measured in this study. The top 10 editors (by PWV) contributed only 2.6% of PWVs, and only three of them were in top 50 by edit count. From the data, the study authors derived the following relationship:
+
+The study also analyzed the impact of bots on content. By edit count, bots dominate Wikipedia; 9 of the top 10 and 20 of the top 50 are bots. In contrast, in the PWV ranking only two bots appear in the top 50, and none in the top 10.
+Based on the steady growth of the influence on those top 0.1% editors by PWV, the study concluded unequivocally:
+
+==== Work distribution and social strata ====
+
+A peer-reviewed paper noted the "social stratification in the Wikipedia society" due to the "admins class". The paper suggested that such stratification could be beneficial in some respects but recognized a "clear subsequent shift in power among levels of stratification" due to the "status and power differentials" between administrators and other editors.[tpl]cite web|url=http://www.viktoria.se/altchi/index.php?action=showsubmission&id=41|date=2007-01-31|title=Power of the Few vs. Wisdom of the Crowd: Wikipedia and the Rise of the Bourgeoisie |author=Chi, Ed; Kittur, Aniket; Pendleton, Bryan A.; Suh, Bongwon; and Mytkowicz, Todd |work=Computer/Human Interaction 2007 Conference |publisher=Association for Computing Machinery|accessdate=2010-11-29[/tpl]
+Analyzing the entire edit history of Wikipedia up to July 2006, the same study determined that the influence of administrator edits on contents has steadily diminished since 2003, when administrators performed roughly 50% of total edits, to 2006 when only 10% of the edits were performed by administrators. This happened despite the fact the average number of edits per administrator had increased more than fivefold during the same period. This phenomenon was labeled the "rise of the crowd" by the authors of the paper. An analysis that used as metric the number of words edited instead of the number of edit actions showed a similar pattern. Because the admin class is somewhat arbitrary with respect to the number of edits, the study also considered a breakdown of users in categories based on the number of edits performed. The results for "elite users", i.e. users with more than 10,000 edits, were somewhat in line with those obtained for administrators, except that "the number of words changed by elite users has kept up with the changes made by novice users, even though the number of edits made by novice users has grown proportionally faster". The elite users were attributed about 30% of the changes for 2006. The study concludes:
+
+=== Reliability ===
+
+=== Geography ===
+
+Wikipedia articles cover about half a million places on Earth. However, research conducted by the Oxford Internet Institute has shown that the geographic distribution of articles is highly uneven. Most articles are written about North America, Europe, and East Asia, with very little coverage of large parts of the developing world, including most of Africa.[tpl]cite web|url=http://zerogeography.blogspot.com/2009/11/mapping-geographies-of-wikipedia.html |title=Mapping the Geographies of Wikipedia Content |author=Graham, Mark |work=Mark Graham: Blog|publisher=ZeroGeography|date=2009-11-12 |accessdate=2009-11-16[/tpl]
+
+=== Natural language processing ===
+
+The textual content and the structured hierarchy of Wikipedia has become an important knowledge source for researchers in natural language processing and artificial intelligence. In 2007 researchers at Technion - Israel Institute of Technology developed a technique called Explicit Semantic Analysis[tpl]cite conference|url=http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.76.9790&rep=rep1&type=pdf |title=Computing Semantic Relatedness using Wikipedia-based Explicit Semantic Analysis |first1=Evgeniy | last1=Gabrilovich | first2=Shaul | last2=Markovitch | year=2007 | pages=1606–1611 | publisher=Morgan Kaufmann Publishers Inc. | booktitle=Proceedings of IJCAI[/tpl]  which uses the world knowledge contained in Wikipedia articles. Conceptual representations of words and texts are created automatically and used to compute the similarity between words and texts.
+Researchers at Ubiquitous Knowledge Processing Lab use the linguistic and world knowledge encoded in Wikipedia and Wiktionary to automatically create linguistic knowledge bases which are similar to expert-built resources like WordNet.[tpl]cite conference|url=http://atlas.tk.informatik.tu-darmstadt.de/Publications/2008/lrec08_camera_ready.pdf | first1=Torsten | last1=Zesch | first2=Christoph| last2=Müller | first3=Iryna | last3=Gurevych | year=2008 | booktitle=Proceedings of the Conference on Language Resources and Evaluation (LREC) [/tpl] Strube and Ponzetto created an algorithm to identify relationships among words by traversing Wikipedia via its categorization scheme, and concluded that Wikipedia had created "a taxonomy able to compete with WordNet on linguistic processing tasks."[tpl]Cite document|title=WikiRelate! Computing semantic relatedness using Wikipedia psu.edu|author=M Strube, SP Ponzetto|publisher=Proceedings of the National Conference|date=2006|url=http://www.aaai.org/Papers/AAAI/2006/AAAI06-223.pdf|postscript=[/tpl]
+
+== Social aspects ==
+
+=== Demographics ===
+
+A 2007 study by Hitwise, reproduced in Time magazine,[tpl]cite news|url=http://www.time.com/time/business/article/0,8599,1614751,00.html|title=Who's Really Participating in Web 2.0|author=Bill Tancer|publisher=Time Magazine|date=2007-04-25|accessdate=2007-04-30| archiveurl= http://web.archive.org/web/20070430011528/http://www.time.com/time/business/article/0,8599,1614751,00.html| archivedate= 30 April 2007 | deadurl= no[/tpl] found that visitors to Wikipedia are almost equally split 50/50 male/female, but that 60% of edits are made by male editors.
+In an article published in 2012 in PLoS ONE, Yasseri et al. [tpl]cite web|url=http://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0030091|title=Circadian Patterns of Wikipedia Editorial Activity: A Demographic Analysis|author=Taha Yasseri et al.|publisher=PLoS ONE|date=2012-01-17|accessdate=2012-01-23[/tpl] reported that based on circadian activity pattern analysis, the shares of contributions to English Wikipedia, from North America and Europe are almost equal, whereas this increases to 75% of European contributions for the Simple English Wikipedia. The research also covers some other demographic analysis on the other editions in different languages.
+
+=== Policies and guidelines ===
+
+A descriptive study[tpl]cite journal | last1 = Butler | first1 = Brian | last2 = Joyce | first2 = Elisabeth | last3 = Pike | first3 = Jacqueline | title = Don't look now, but we've created a bureaucracy | page = 1101 | year = 2008 | doi = 10.1145/1357054.1357227 [/tpl] that analyzed Wikipedia's policies and guidelines up to September 2007 identified a number of key statistics:
+* 44 official policies
+* 248 guidelines
+Even a short policy like "ignore all rules" was found to have generated a lot of discussion and clarifications:
+
+The study sampled the expansion of some key policies since their inception:
+*Wikipedia:Ignore all rules: 3600% (including the additional document explaining it)
+*Wikipedia:Consensus: 1557%
+*Wikipedia:Copyrights: 938%
+*Wikipedia:What Wikipedia is not: 929%
+*Wikipedia:Deletion policy: 580%
+*Wikipedia:Civility: 124%
+The number for "deletion" was considered inconclusive however because the policy was split in several sub-policies.
+
+===Power plays===
+
+A 2007 joint peer-reviewed study[tpl]cite journal | last1 = Kriplean | first1 = Travis | last2 = Beschastnikh | first2 = Ivan | last3 = McDonald | first3 = David W. | last4 = Golder | first4 = Scott A. | title = Community, consensus, coercion, control | page = 167 | year = 2007 | doi = 10.1145/1316624.1316648 [/tpl] conducted by researchers from the University of Washington and HP Labs examined how policies are employed and how contributors work towards consensus by quantitatively analyzing a sample of active talk pages. Using a November 2006 database dump, the study focused on 250 talk pages in the tail of the distribution: 0.3% of all talk pages, but containing 28.4% of all talk page revisions, and more significantly, containing 51.1% of all links to policies. From the sampled pages' histories, the study examined only the months with high activity, called critical sections—sets of consecutive months where both article and talk page revisions were significant in number.
+The study defined and calculated a measure of policy prevalence. A critical section was considered policy-laden if its policy factor was at least twice the average. Articles were tagged with 3 indicator variables:
+* controversial
+* featured
+* policy-laden
+All possible levels of these three factors yielded 8 sampling categories. The study intended to analyze 9 critical sections from each sampling category, but only 69 critical sections could be selected because only 6 articles (histories) were simultaneously featured, controversial, and policy laden.
+The study found that policies were by no means consistently applied. Illustrative of its broader findings, the report presented the following two extracts from Wikipedia talk in obvious contrast:
+* a discussion where participants decided that calculating a mean from data provided by a government agency constituted original research:
+
+* a discussion where logical deduction was used as counterargument for the original research policy:
+
+Claiming that such ambiguities easily give rise to power plays, the study identified, using the methods of grounded theory (Strauss), 7 types of power plays:
+* article scope (what is off-topic in an article)
+* prior consensus (past decisions presented as absolute and uncontested)
+* power of interpretation (a sub-community claiming greater interpretive authority than another)
+* legitimacy of contributor (his/her expertise)
+* threat of sanction (blocking etc.)
+* practice on other pages (other pages being considered models to follow)
+* legitimacy of source (authority of references being disputed)
+Due to lack of space, the study detailed only the first 4 types of power plays that were exercised by merely interpreting policy. A fifth power play category was analyzed; it consisted of blatant violations of policy that were forgiven because the contributor was valued for his contributions despite his lack of respect for rules.
+
+====Article scope====
+
+The study considers that Wikipedia's policies are ambiguous on scoping issues. The following vignette is used to illustrate the claim:
+
+The study gives the following interpretation for the heated debate:
+
+====Prior consensus====
+
+The study remarks that in Wikipedia consensus is never final, and what constitutes consensus can change at any time. The study finds that this temporal ambiguity is fertile ground for power plays, and places the generational struggle over consensus in larger picture of the struggle for article ownership:
+
+The study uses the following discussion snippet to illustrate this continuous struggle:
+
+====Power of interpretation====
+
+A vignette illustrated how administrators overrode consensus and deleted personal accounts of user/patients suffering from an anonimized illness (named Frupism in the study). The administrator's intervention happened as the article was being nominated to become as a featured article.
+
+====Legitimacy of contributor====
+
+This type of power play is illustrated by a contributor (U24) that draws on his past contributions to argue against another contributor who is accusing U24 of being unproductive and disruptive:
+
+====Explicit vie for ownership====
+
+The study finds that there are contributors who consistently and successfully violate policy without sanction:
+
+=== Obtaining administratorship ===
+
+Researchers from Carnegie Mellon University devised[tpl]cite journal | last1 = Burke | first1 = Moira | last2 = Kraut | first2 = Robert | title = Taking up the mop | page = 3441 | year = 2008 | doi = 10.1145/1358628.1358871 [/tpl] a probit model of editors who have successfully passed the peer review process to become admins. Using only Wikipedia metadata, including the text of edit summaries,  their model is 74.8% accurate in predicting successful candidates.
+The paper observed that despite protestations to the contrary, "in many ways election to admin is a promotion, distinguishing an elite core group from the large mass of editors." Consequently, the paper used policy captureStumpf, S. A., & London, M. (1981). Capturing rater policies in evaluating candidates for promotion. The Academy of Management Journal, 24(4), 752–766. – a method that compares nominally important attributes to those that actually lead to promotion in a work environment.
+The overall success rate for promotion was 53%, dropping from 75% in 2005 to 42% in 2006 and 2007. This sudden increase in failure rate was attributed to a higher standard that recently promoted administrators had to meet, and supported by anecdotal evidence from another recent studyForte, A., and Bruckman, A. Scaling consensus: Increasing decentralization in Wikipedia governance. Proc. HICSS 2008. quoting some early admins who have expressed doubt that they would pass muster if their election (RfA) were held recently. In light of these developments the study argued that:
+
+Significant factors affecting RfA outcome, numbers in parentheses are not statistically significant at pContrary to expectations perhaps, "running" for administrator multiple times is detrimental to the candidate's chance of success.  Each subsequent attempt has a 14.8% lower chance of success than the previous one. Length of participation in the project makes only a small contribution to the chance of a successful RfA.
+Another significant finding of the paper is that one Wikipedia policy edit or WikiProject edit is worth ten article edits. A related observation is that candidates with experience in multiple areas of the site stood better chance of election. This was measured by the diversity score, a simple count of the number of areas that the editor has participated in. The paper divided Wikipedia in 16 areas: article, article talk, articles/categories/templates for deletion (XfD), (un)deletion review, etc. (see paper for full list). For instance, a user who has edited articles, her own user page, and posted once at (un)deletion review would have a diversity score of 3. Making a single edit in any additional region of Wikipedia correlated with a 2.8% increased likelihood of success in gaining administratorship.
+Making minor edits also helped, although the study authors consider that this may be so because minor edits correlate with experience. In contrast, each edit to an Arbitration or Mediation committee page, or a Wikiquette notice, all of which are venues for dispute resolution, decreases the likelihood of success by 0.1%. Posting messages to administrator noticeboards (ANI) had a similarly deleterious effect. The study interpreted this as evidence that editors involved in escalating or protracted conflicts lower their chances of becoming administrators.
+Saying "thanks" or variations thereof in edit summaries, and pointing out point of view ("POV") issues (also only in edit summaries because the study only analyzed metadata) were of minor benefit, contributing to 0.3% and 0.1% to candidate's chances in 2006–2007, but did not reach statistical significance before.
+A few factors that were found to be irrelevant or marginal at best:
+* Editing user pages (including one's own) does not help. Somewhat surprisingly, user talk page edits also do not affect the likelihood of administratorship.
+* Welcoming newcomers or saying "please" in edit summaries had no effect.
+* Participating in consensus-building, such as RfA votes or the village pump, does not increase the likelihood of becoming admin. The study admits however that participation in consensus was measured quantitatively but not qualitatively.
+* Vandal-fighting as measured by the number of edits to the vandalism noticeboard had no effect. Every thousand edits containing variations of "revert" was positively correlated (7%) with adminship for 2006–2007, but did not attain statistical significance unless one is willing to lower the threshold to pThe study suggests that some of the 25% unexplained variability in outcomes may be due to factors that were not measured, such as quality of edits or participation in off-site coordination, such as the (explicitly cited) secret mailing list reported in The Register.http://www.theregister.co.uk/2007/12/04/wikipedia_secret_mailing The paper concludes:
+
+== See also ==
+
+* Wikipedia:Wikipedia in research
+* Wikipedia:Wikipedia in academic studies
+* Wikimedia Research Index
+
+== References ==
+
+== Further reading ==
+
+* Adler, B. T., & L. de Alfaro (2007). "A content-driven reputation system for the wikipedia." Proceedings of the 16th international conference on World Wide Web, http://doi.acm.org/10.1145/1242572.1242608
+* Amichai–Hamburger, Y., N. Lamdan, R. Madiel, & T. Hayat (2008). "Personality characteristics of Wikipedia members." Cyberpsychology & Behavior, 11(6), http://dx.doi.org/10.1089/cpb.2007.0225
+* Blumenstock, J. E. (2008). "Size matters: word count as a measure of quality on Wikipedia." Proceeding of the 17th international conference on World Wide Web, http://doi.acm.org/10.1145/1367497.1367673
+* Bryant, S. L., A. Forte, & A. Bruckman (2005). "Becoming Wikipedian: transformation of participation in a collaborative online encyclopedia." Proceedings of the 2005 international ACM SIGGROUP conference on Supporting group work, http://doi.acm.org/10.1145/1099203.1099205
+* [tpl]cite journal | last = Farrell | first = Henry | coauthors = Melissa Schwartzberg | date = 2008-12-30 | title = Norms, Minorities, and Collective Choice Online | journal = Ethics & International Affairs | volume = 22 | issue = 4 | publisher = Carnegie Council for Ethics in International Affairs | url = http://www.cceia.org/resources/journal/22_4/essays/002.html | accessdate = 2009-02-03 | archiveurl= http://web.archive.org/web/20090120200727/http://www.cceia.org/resources/journal/22_4/essays/002.html| archivedate= 20 January 2009 | deadurl= no[/tpl]
+* Hu, M., E. P. Lim, A. Sun, H. W. Lauw, & B.-Q. Vuong (2007). "Measuring article quality in wikipedia: models and evaluation." Proceedings of the sixteenth ACM conference on Conference on information and knowledge management, http://doi.acm.org/10.1145/1321440.1321476
+* Kuznetsov, S. (2006).  "Motivations of contributors to Wikipedia." ACM SIGCAS Computers and Society, http://doi.acm.org/10.1145/1215942.1215943
+* Luyt, B., T. C. H. Aaron, L. H. Thian, & C. K. Hong (2007).  "Improving Wikipedia's accuracy: Is edit age a solution?" Journal of the American Society for Information Science and Technology, http://dx.doi.org/10.1002/asi.v59:2
+* Medelyan, O., C. Legg, D. Milne, & I. H. Witten (2008).  "Mining meaning from Wikipedia." arXiv, http://arxiv.org/abs/0809.4530
+* Park, Taemin Kim (2011) "The visibility of Wikipedia in scholarly publications" First Monday, Volume 16, Number 8, 1 August 2011 http://firstmonday.org/htbin/cgiwrap/bin/ojs/index.php/fm/article/viewArticle/3492/3031
+* Shachaf, P. (2009). "The paradox of expertise: Is the Wikipedia reference desk as good as your library?" Journal of Documentation, 65(6), 977-996,  http://www.slis.indiana.edu/news/story.php?story_id=2064
+* Shachaf, P. and Hara, N. (2010), "Beyond vandalism: Wikipedia trolls", Journal of Information Science, 36 (3), 357–370  http://jis.sagepub.com/content/36/3/357.abstract
+* Stein, K., & C. Hess (2007). "Does it matter who contributes: a study on featured articles in the German Wikipedia." Proceedings of the eighteenth conference on Hypertext and hypermedia, http://doi.acm.org/10.1145/1286240.1286290
+* [tpl]cite journal |last1= Suh, Bongwon; Chi, Ed H.; Kittur, Aniket; and Pendleton, Bryan A. |first1= Bongwon |year= 2008 |last2= Chi |first2= Ed H. |last3= Kittur |first3= Aniket |last4= Pendleton |first4= Bryan A.|title= Lifting the veil: improving accountability and social transparency in Wikipedia with wikidashboard|journal= Proceeding of the twenty-sixth annual SIGCHI conference on Human factors in computing systems |page= 1037 |publisher= Association for Computing Machinery|isbn= 978-1-60558-011-1|doi=10.1145/1357054.1357214[/tpl]
+* Urdaneta, G., Pierre, G., van Steen, M. (2009). "Wikipedia Workload Analysis for Decentralized Hosting." Elsevier Computer Networks 53(11), pp. 1830–1845, July 2009. http://www.globule.org/publi/WWADH_comnet2009.html
+* Vuong, B.-Q., E. P. Lim, A. Sun, M.-T. Le, & H. W. Lauw (2008). "On ranking controversies in Wikipedia: models and evaluation." Proceedings of the international conference on Web search and web data mining, http://doi.acm.org/10.1145/1341531.1341556
+

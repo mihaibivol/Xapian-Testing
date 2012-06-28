@@ -1,0 +1,11 @@
+
+Impact is an open source finite element program suite which can be used to predict most dynamic events such as car crashes or metal sheet punch operations. They usually involve large deformations and high velocities.
+Simulations are made on a virtual three dimensional model which can be created with a pre-processor or with the built-in Fembic language. Results are viewed in a post-processor.
+Impact is designed to interface with the included pre- and postprocessor by default, but there are also interfaces available for more advanced pre-and postprocessors such as GiD or Gmsh. Impact also has rudimentary support for Nastran file format.
+Development is made by a team of volunteers from all over the world with the aim of creating a clean and compact program which is simple to understand and use.
+
+==External links==
+
+* Impact Wiki
+* Source Forge Project Page
+

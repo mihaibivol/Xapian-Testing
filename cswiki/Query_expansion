@@ -1,0 +1,43 @@
+
+Query expansion (QE) is the process of reformulating a seed query to improve retrieval performance in information retrieval operations.[ref]
+</ref>
+In the context of web search engines, query expansion involves evaluating a user's input (what words were typed into the search query area, and sometimes other types of data) and expanding the search query to match additional documents.  Query expansion involves techniques such as:
+* Finding synonyms of words, and searching for the synonyms as well
+* Finding all the various morphological forms of words by stemming each word in the search query
+* Fixing spelling errors and automatically searching for the corrected form or suggesting it in the results
+* Re-weighting the terms in the original query
+Query expansion is a methodology studied in the field of computer science, particularly within the realm of natural language processing and information retrieval.
+
+== Precision and recall tradeoffs ==
+
+Search engines invoke query expansion to increase the quality of user search results.  It is assumed that users do not always formulate search queries using the best terms. Best in this case may be because the database does not contain the user entered terms.  
+By stemming a user-entered term, more documents are matched, as the alternate word forms for a user entered term are matched as well, increasing the total recall. This comes at the expense of reducing the precision.  By expanding a search query to search for the synonyms of a user entered term, the recall is also increased at the expense of precision.  This is due to the nature of the equation of how precision is calculated, in that a larger recall implicitly causes a decrease in precision, given that factors of recall are part of the denominator. It is also inferred that a larger recall negatively impacts overall search result quality, given that many users do not want more results to comb through, regardless of the precision.
+The goal of query expansion in this regard is by increasing recall, precision can potentially increase (rather than decrease as mathematically equated), by including in the result set pages which are more relevant (of higher quality), or at least equally relevant. Pages which would not be included in the result set, which have the potential to be more relevant to the user's desired query, are included, and without query expansion would not have, regardless of relevance.  At the same time, many of the current commercial search engines use word frequency (Tf-idf) to assist in ranking.  By ranking the occurrences of both the user entered words and synonyms and alternate morphological forms, documents with a higher density (high frequency and close proximity) tend to migrate higher up in the search results, leading to a higher quality of the search results near the top of the results, despite the larger recall.
+This tradeoff is one of the defining problems in query expansion, regarding whether it is worthwhile to perform given the questionable effects on precision and recall. Critics[tpl]Who|date=March 2009[/tpl] state one of the problems is that the dictionaries and thesauri, and the stemming algorithm, are driven by human bias and while this is implicitly handled by the query expansion algorithm, this explicitly affects the results in a non-automated manner (similar to how statisticians can 'lie' with statistics). Other critics[tpl]Who|date=March 2009[/tpl] point out potential for corporate influence on the dictionaries, promoting advertising of online web pages in the case of web search engines. [tpl]Citation needed|date=December 2007[/tpl]
+
+==See also==
+
+* Search engine
+* Search engine indexing
+* Information retrieval
+* Document retrieval
+* Linguistics
+* Natural language processing
+* Stemming
+* Morphology (linguistics)
+
+== Software libraries ==
+
+*LucQE - open-source, Java.  Provides a framework along with several implementations that allow to perform query expansion with the use of Apache Lucene.
+*LuceneQE State-of-Art query expansion for Lucene
+
+== References ==
+
+* D. Abberley, D. Kirby, S. Renals, and T. Robinson, The THISL broadcast news  retrieval system. In Proc. ESCA ETRW Workshop Accessing Information in Spoken Audio, (Cambridge), pp. 14–19, 1999. Section on Query Expansion - Concise, mathematical overview.
+* R. Navigli, P. Velardi. An Analysis of Ontology-based Query Expansion Strategies. Proc. of Workshop on Adaptive Text Extraction and Mining (ATEM 2003), in the 14th European Conference on Machine Learning (ECML 2003), Cavtat-Dubrovnik, Croatia, September 22-26th, 2003, pp. 42–49 - An analysis of query expansion methods relying on WordNet as the reference ontology.
+* Y. Qiu and H.P. Frei. Concept Based Query Expansion. In Proceedings of SIGIR-93, 16th ACM International Conference on Research and Development in Information Retrieval, Pittsburgh, SIGIR Forum, ACM Press, June 1993 - Academic document on a specific method of query expansion
+* Efthimis N. Efthimiadis. Query Expansion. In: Martha E. Williams (ed.), Annual Review of Information Systems and Technology (ARIST), v31, pp 121–187, 1996 - An introduction for less-technical viewers.
+
+=== Notes ===
+
+

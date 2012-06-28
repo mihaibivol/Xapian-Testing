@@ -1,0 +1,28 @@
+
+The Eötvös rule, named after the Hungarian physicist Loránd (Roland) Eötvös (1848–1919) enables the prediction of the surface tension of an arbitrary liquid pure substance at all temperatures. The density, molar mass and the critical temperature of the liquid have to be known. At the critical point the surface tension is zero.
+The first assumption of the Eötvös rule is:
+1. The surface tension is a linear function of the temperature.
+:This assumption is approximately fulfilled for most known liquids. When plotting the surface tension versus the temperature a fairly straight line can be seen which has a surface tension of zero at the critical temperature.
+The Eötvös rule also gives a relation of the surface tension behaviour of different liquids in respect to each other:
+2. The temperature dependence of the surface tension can be plotted for all liquids in a way that the data collapses to a single master curve. To do so either the molar mass, the density, or the molar volume of the corresponding liquid has to be known.
+
+== The Eötvös rule ==
+
+If V is the molar volume and Tc the critical temperature of a liquid the surface tension γ is given by[tpl]cite web|url=http://www.nikhef.nl/~h73/kn1c/praktikum/phywe/LEP/Experim/1_4_05.pdf|title=Surface Tension by the Ring Method (Du Nouy Method)|accessdate=2007-09-08|publisher=PHYWE|format=pdf[/tpl]
+where k is a constant valid for all liquids. The Eötvös constant has a value of 2.1×10−7 J/(K·mol−2/3).
+More precise values can be gained when considering that the line normally passes the temperature axis 6 K before the critical point:
+The molar volume V is given by the molar mass M and the density ρ
+A useful representation that prevents the use of the unit mol−2/3 is given by the Avogadro constant NA :
+As John Lennard-Jones and Corner showed in 1940 by means of the statistical mechanics the constant k′ is nearly equal to the Boltzmann constant.
+
+=== Water ===
+
+For water, the following equation is valid between 0 and 100 °C.
+
+== Historical ==
+
+As student Eötvös started to research surface tension and developed a new method for its determination. The Eötvös rule was first found phenomenological and published in 1886.[tpl]cite journal|first=L. |last=Eötvös |journal=Annalen der Physik |year=1886 |volume=27 |page=448[/tpl] Cited in: [tpl]cite journal|last=Palit|first=Santi R.|title=Thermodynamic Interpretation of the Eötvös Constant|journal=Nature|year=1956|volume=177|issue=4521|pages=1180–1180|doi=10.1038/1771180a0|bibcode = 1956Natur.177.1180P [/tpl] In 1893 William Ramsay and Shields showed an improved version considering that the line normally passes the temperature axis 6 K before the critical point. John Lennard-Jones and Corner published (1940) a derivation of the equation by means of statistical mechanics. In 1945 E. A. Guggenheim gave a further improved variant of the equation.
+
+==References==
+
+

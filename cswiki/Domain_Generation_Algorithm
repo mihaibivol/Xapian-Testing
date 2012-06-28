@@ -1,0 +1,26 @@
+
+Domain Generation Algorithm are algorithms seen in various families of malware that are used to periodically generate a large number of domain names that can be used as rendezvous points with their controllers. The large number of potential rendezvous points makes it difficult for law enforcement to effectively shut down botnets since infected computers will attempt to contact some of these domain names every day to receive updates or commands. By using public key cryptography, it is unfeasible for law enforcement and other actors to mimic commands from the malware controllers as some worms will automatically reject any updates not signed by the malware controllers.
+For example, an infected computer could create thousands of domain names such as: www.aopwn47cn38vm1c5c.com and would attempt to contact a portion of these with the purpose of receiving an update or commands. 
+The technique was popularized by the family of worms Conficker.a and .b which, at first generated 250 domain names per day. Starting with Conficker.C, the malware would generate 50,000 domain names every day of which it would attempt to contact 500, giving a infected machine a 1% possibility of being updated every day if the malware controllers registered only 1 domain per day. To prevent infected computers from updating their malware, law enforcement would have needed to pre-register 50,000 new domain names every day.
+Recently, the technique has been adopted by other malware authors. According to network security firm Damballa (company), the top 5 most prevalent DGA-based crimeware families are Conficker, Murofet, BankPatch, Bonnana and Bobax.http://www.damballa.com/downloads/r_pubs/WP_DGAs-in-the-Hands-of-Cyber-Criminals.pdf Top-5 Most Prevalent DGA-based Crimeware Families, page 4
+
+==See also==
+
+*Botnet
+*Conficker
+*Zeus (Trojan horse)
+*Srizbi botnet
+
+==References==
+
+*An analysis of Conficker
+* Malware Authors Expand Use of Domain Generation Algorithms to Evade Detection, PC World
+*Detecting Algorithimically Generated Malicious Domain Names
+*DGAs in the Hands of Cyber-Criminals - Examining the state of the art in malware evasion techniques
+*DGAs and Cyber-Criminals: A Case Study
+
+==Additional Reading==
+
+#How Criminals Defend Their Rogue Networks, Abuse.ch
+#TECHNICAL DETAILS OF SRIZBI'S DOMAIN GENERATION ALGORITHM
+

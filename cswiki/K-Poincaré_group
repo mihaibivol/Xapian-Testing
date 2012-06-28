@@ -1,0 +1,11 @@
+
+In physics and mathematics, the κ-Poincaré group, named after Henri Poincaré, is a quantum group, obtained by deformation of the Poincaré group into an Hopf algebra.
+The commutation rules reads:
+and the commutation rules reads:
+The coproducts are classical, and encode the group composition law:
+Also the antipodes and the counits are classical, and represent the group inversion law and the map to the identity:
+The κ-Poincaré group is the dual Hopf algebra to the K-Poincaré algebra, and can be interpreted as its “finite” version.
+
+==References==
+
+

@@ -1,0 +1,10 @@
+
+clone() is a system call in the Linux kernel that creates a child process that may share parts of its execution context with the parent. It is often used to implement multithreading. In practice, clone() is not often called directly, but instead using a threading library (such as pthreads) that uses clone() when starting a thread (such as during a call to pthread_create()).
+The syntax for calling clone under a Linux program is:
+clone creates a new thread that starts with the function pointed to by the fn argument (as opposed to fork() which continues with the next command after fork().) The child_stack argument is a pointer to a memory space to be used as the stack for the new thread (which must be malloc'ed before that; on most architectures stack grows down, so the pointer should point at the end of the space), flags specify what gets inherited from the parent process, and arg is the argument passed to the function. It returns the process ID of the child process or -1 on failure.
+
+== See also ==
+
+* Native POSIX Thread Library – POSIX implementation of thread functions for Linux
+* POSIX Threads
+

@@ -1,0 +1,8 @@
+
+Plash is a system for sandboxing GNU/Linux computer programs. Plash's aim is to protect you from the programs you run by letting you run them with the minimum authority and privileges they need do do their job—this is the Principle of Least Authority (POLA). Plash can run programs in a secure, restricted execution environment with access to a limited subset of your files.
+Plash is geared towards granting authority dynamically. Sandboxes are lightweight and can be created for each instance of a program. A sandboxed program can be given additional rights at runtime via the FilePowerbox GUI.
+
+==External links==
+
+* Homepage
+

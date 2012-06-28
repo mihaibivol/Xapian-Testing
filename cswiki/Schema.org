@@ -1,0 +1,18 @@
+
+Schema.org is an initiative launched on 2 June 2011 by Bing, Google and Yahoo!Google's blog postBing's blog postYahoo!s blog posts to "create and support a common set of schemas for structured data markup on web pages." On 1 November Yandex (largest search engine in Russia) joined the initiative Techcrunch "Yandex joins Google, Yahoo! and Bing to collaborate on Schema.org"Schema Blog "Yandex now supports schema.org markup". The operators of the world's largest search engines[tpl]cite web |url=http://gs.statcounter.com/#search_engine-ww-monthly-201010-201012 |title=Top 5 Search Engines from Oct to Dec 10 | StatCounter Global Stats |author= |date= |work= |publisher=StatCounter |accessdate=17 January 2011[/tpl] propose to mark up website content as metadata about itself, using microdata, according to their schemas. Those schemas can be recognized by search engine spiders and other parsers, thus gaining access to the meaning of the sites. The initiative started with a small number of formats, but the long term goal is to support a wider range of schemas.Getting started guide The initiative also describes an extension mechanism for adding additional properties.[tpl]cite web|url=http://www.schema.org/docs/extension.html|title=Extending Schemas|date=2011-06-02|work=schema.org|accessdate=2 June 2011[/tpl] A mailing list is provided, for discussion of the initiative.[tpl]cite web|url=http://groups.google.com/group/schemaorg-discussion|title=Schema.org Discussion|date=2011-06-02|work=Google Groups|accessdate=2 June 2011[/tpl]
+Much of the vocabulary on schema.org was inspired by earlier formats such as Microformats, FOAF, GoodRelations and OpenCyc.[tpl]cite web|url=http://www.schema.org/docs/faq.html|title=FAQ|work=schema.org|accessdate=2 June 2011[/tpl] Microformats such as hCard, however, continue to be published more than schema and others on the web.[tpl]cite web|url=http://webdatacommons.org/ |date=2012-03-22 |work= 2012-03-22: Extraction results from the 2012 Common Crawl corpus available for download, 2012-03-13: Extraction results from the 2009/2010 Common Crawl corpus available for download |accessdate=2012-04-09 |title=Web Data Commons: Extracting Structured Data from the Common Web Crawl[/tpl]
+A canonical[tpl]cn|date=October 2011[/tpl] mapping from the terms defined in Schema.org to RDF (expressed in RDF Schema) is available. Schema.RDFS.org
+
+== Example ==
+
+The following is an example of how to embed information about a movie and the structure of the information into a website. In order to mark up the data the attribute itemtype along with the url of the schema is used. The attribute itemscope defines the scope of the itemtype. The kind of the current item can be defined by using the attribute itemprop. Within the schema for a movie is a schema for a person.
+
+==References==
+
+== External links ==
+
+* Schema.org
+* original discussion group, now moved to W3C
+* GetSchema Annotating HTML5 with Schema.org and Microdata. An Example Wiki.
+* Free Schema.org Parser 
+

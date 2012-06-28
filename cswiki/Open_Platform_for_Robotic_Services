@@ -1,0 +1,12 @@
+
+The Open Platform for Robotic Services (OPRoS) is an open source platform based on components.  It provides an Integrated Development Environment (IDE) for developing components and monitoring robots, a robot framework for controlling the components in the robot and managing their faults, a simulator for simulation of components and contents, a server for managing the component repository and agents for execution of the proxy services instead of the components in the robot, and a test and evaluation system for components, contents, and developed SW. Especially, The IDE consists of Component Editor, Component Composer, and Task Editor. OPRoS was started in 2007, the source code has been available since August 2009.
+
+==See also==
+
+* Robot software
+
+==External links==
+
+* OPRoS Web Site [tpl]ko icon[/tpl] [tpl]en[/tpl]
+* OPRoS Korea Association of Robot Industry Wiki
+

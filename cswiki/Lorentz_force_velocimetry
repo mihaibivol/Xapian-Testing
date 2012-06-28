@@ -1,0 +1,24 @@
+
+Lorentz force velocimetry (abbreviated LFV) is a noncontact electromagnetic flow measurement technique. LFV is particularly suited for the measurement of velocities in liquid metals like steel or aluminium and is currently under development for metallurgical applications. A Lorentz force velocimetry system is called Lorentz force flowmeter.
+
+== Principle ==
+
+The principle of Lorentz force velocimetry is shown in the figure. When an electrically conducting fluid, for instance liquid aluminium, moves under the influence of a magnetic field created by a permanent magnet, eddy currents are induced in the liquid metal. These eddy currents give rise to an electromagnetic force - the Lorentz force - which retards the motion of the liquid metal. By virtue of Newton's third law "actio=reactio" a force with the same magnitude but opposite direction acts upon the permanent magnet. This force is indicated with a yellow arrow pointing to the right in the figure. The force is proportional to the mean velocity and to the electrical conductivity of the liquid. By measuring this force it is possible to determine the flow velocity. 
+Liquid metals are paramagnetic or diamagnetic and are only weakly attracted by permanent magnets. The Lorentz force used in LFV has nothing to do with magnetic attraction or repulsion. It is only due to the eddy currents whose strength depends on the electrical conductivity, the relative velocity between the liquid and the permanent magnet as well as the magnitude of the magnetic field.
+
+== History ==
+
+Lorentz force velocimetry was invented by the British physicist Arthur Shercliff in the 1950s. However it did not find practical application in these early years. It was not until the advent of strong permanent magnets, accurate force measurement techniques and simulation software for magnetohydrodynamic problems that this principle could be turned into a working flow measurement technique. LFV is currently being developed for applications in metallurgy as described in the reference (Kolesnikov et al. 2011) given below.
+
+== References ==
+
+* Arthur J. Shercliff: Theory of Electromagnetic Flow Measurement. Cambridge University Press, ISBN 978-0-521-33554-6.
+* [tpl]Literatur | Autor = A. Thess, E. V. Votyakov, Y. Kolesnikov | Titel = Lorentz Force Velocimetry | Sammelwerk = Physical Review Letters | Band = 96 | Jahr = 2006 | Nummer = 16| Seiten = 164501| DOI= 10.1103/PhysRevLett.96.164501[/tpl] (open access)
+* [tpl]Literatur | Autor = Y. Kolesnikov, C. Karcher, A. Thess | Titel = Lorentz Force Flowmeter for Liquid Aluminum: Laboratory Experiments and Plant Tests | Sammelwerk = Metall. Mat. Trans. B | Band = 42B | Jahr = 2011 | Seiten = 241-250.| DOI= 10.1007/s11663-011-9477-6[/tpl] (open access)
+* [tpl]Literatur | Autor = A. Thess, E. Votyakov, B. Knaepen, O. Zikanov | Titel = Theory of the Lorentz Force Flowmeter | Sammelwerk = New Journal of Physics | Band = 9 | Jahr = 2007 | Seiten = 290.| DOI= 10.1088/1367-2630/9/8/299[/tpl] (open access)
+* [tpl]Literatur | Autor = J. Priede, D. Buchenau., G. Gerbeth | Titel = Single-Magnet Rotary Flowmeter for Liquid Metals | Sammelwerk = J. Appl. Phys. | Band = 110 | Jahr = 2010 | Seiten = 03451.| DOI= 10.1063/1.3610440[/tpl]
+
+== External links ==
+
+* TU Ilmenau, website of the research training group "Lorentz force velocimetry and Lorentz force eddy current testing"
+

@@ -1,0 +1,45 @@
+
+Cosine similarity is a measure of similarity between two vectors by measuring the cosine of the angle between them. The cosine of 0 is 1, and less than 1 for any other angle; the lowest value of the cosine is -1. The cosine of the angle between two vectors thus determines whether two vectors are pointing in roughly the same direction.
+This is often used to compare documents in text mining. In addition, it is used to measure cohesion within clusters in the field of data mining.P.-N. Tan, M. Steinbach & V. Kumar, "Introduction to Data Mining", , Addison-Wesley (2005), ISBN 0-321-32136-7, chapter 8; page 500.
+
+==Definition==
+
+The cosine of two vectors can be easily derived by using the Euclidean dot product formula:
+Given two vectors of attributes, A and B, the cosine similarity, θ, is represented using a dot product and magnitude as
+The resulting similarity ranges from −1 meaning exactly opposite, to 1 meaning exactly the same, with 0 usually indicating independence, and in-between values indicating intermediate similarity or dissimilarity.
+For text matching, the attribute vectors A and B are usually the term frequency vectors of the documents.  The cosine similarity can be seen as a method of normalizing document length during comparison.
+In the case of information retrieval, the cosine similarity of two documents will range from 0 to 1, since the term frequencies (tf-idf weights) cannot be negative. The angle between two term frequency vectors cannot be greater than 90°.
+
+=== Angular similarity ===
+
+The term "cosine similarity" has also been used on occasion to express a different coefficient, although the most common use is as defined above. Using the same calculation of similarity, the normalised angle between the vectors can be used as a bounded similarity function within 0,1, calculated from the above definition of similarity by:
+in a domain where vector coefficients may be positive or negative, or
+in a domain where the vector coefficients are always positive.  
+Although the term "cosine similarity" has been used for this angular distance, the term is oddly used as the cosine of the angle is used only as a convenient mechanism for calculating the angle itself and is no part of the meaning. The advantage of the angular similarity coefficient is that, when used as a difference coefficient (by subtracting it from 1) the resulting function is a proper distance metric, which is not the case for the first meaning. However for most uses this is not an important property. For any use where only the relative ordering of similarity or distance within a set of vectors is important, then which function is used is immaterial as the a resulting order will be unaffected by the choice.
+
+=== Confusion with "Tanimoto" coefficient ===
+
+On occasion, Cosine Similarity has been confused as a specialised form of a similarity coefficient with a similar algebraic form:
+In fact, this algebraic form was first defined by Tanimoto as a mechanism for calculating the Jaccard coefficient in the case where the sets being compared are represented as bit vectors. While the formula extends to vectors in general, it has quite different properties from Cosine Similarity and bears little relation other than its superficial appearance.
+
+=== Ochiai coefficient ===
+
+This coefficient is also known in biology as Ochiai coefficient or Ochiai-Barkman coefficient or Otsuka-Ochiai coefficient Ochiai A. Zoogeographical studies on the soleoid fishes found Japan and its neighboring regions. II // Bull. Jap. Soc. sci. Fish. 1957. V. 22. № 9. P. 526-530. Barkman J.J. Phytosociology and ecology of cryptogamic epiphytes, including a taxonomic survey and description of their vegetation units in Europe. – Assen. Van Gorcum. 1958. 628 p. :
+
+== See also ==
+
+* Sørensen's quotient of similarity
+* Hamming distance
+* Correlation
+* Dice's coefficient
+* Jaccard index
+* SimRank
+* Information retrieval
+
+==References==
+
+== External links ==
+
+* Weighted cosine measure
+* http://www.miislita.com/information-retrieval-tutorial/cosine-similarity-tutorial.html#Cosim
+

@@ -1,0 +1,35 @@
+
+Linux-based devices or Linux devices are computer appliances that are powered by the Linux kernel and possibly other parts of the Linux operating system. They are often minimalistic and purpose-built, thus may be environmentally friendly and create less electronic waste per unit.
+Linux devices are built to run Linux by their manufacturers. This reduces their initial development, on-going support costs and usually aids in time to market. The reasons of using Linux may be various - low cost, security, stability, scalability or customizability. Many original equipment manufacturers use free and open source software to brand their products. Community maintained Linux devices are also available.
+
+==Reasoning==
+
+Due to its nature of being open source, Linux is available for many computer architectures and can be easily ported.
+
+== Community maintained devices ==
+
+These devices were not intended to run Linux at the time of their production, but a community effort made possible either full or partial Linux support. Because of the open source philosophy that free and open source software brings to the software world, many people have ported the Linux kernel to run on devices other than a typical desktop, laptop or server computer. Some ports are performed by committed individuals or groups to provide alternative software on their favorite hardware.iPods, PlayStations, Xbox, TiVo, WRT54G
+The original hardware vendors are in some cases supportive of these effortsLinksys with the WRT54G or at the least tolerate the use of such software by end users.TiVo hacking Others go to great lengths to try and stop these alternative implementations.Sony warns hackers
+
+==Android==
+
+The Android system, used for smartphones, is arguably one of the most successful Linux-based systems, becoming the best-selling smartphone platform worldwide in Q4 2010 [tpl]cite news | url = http://uk.reuters.com/article/2011/01/31/oukin-uk-google-nokia-idUKTRE70U1YT20110131 | title = Google topples Symbian from smartphones top spot | accessdate = 1 February 2011 | author = Tarmo Virki and Sinead Carew | work = Reuters | date = 2011-01-31 [/tpl][tpl]cite web | url = http://www.canalys.com/pr/2011/r2011013.html | title = Google's Android becomes the world's leading smart phone platform (Canalys research release: r2011013) | work = Canalys | date = 31 January 2011 | accessdate = 1 February 2011 [/tpl] with over 200 million Android devices in use by November 2011[tpl]cite web |url=http://www.guardian.co.uk/technology/2011/oct/14/android-google-ad-revenue |title=Mobile generating equivalent of $2.5bn a year, says Google chief |author=Charles Arthur |publisher=Guardian |date=2011-10-14 |accessdate=2011-10-15[/tpl] and, as of December 2011, with over 700,000 Android devices activated every day.[tpl]cite web|url=http://techcrunch.com/2011/12/22/android-700000/ |title=Android Phones Pass 700,000 Activations Per Day, Approaching 250 Million Total |publisher=TechCrunch |date=22 December 2011|accessdate=22 December 2011[/tpl] The "official" line of phones is the Google Nexus series, however, there are (as of 2011) over 100 different Android devices by several manufacturers.
+
+==License violations==
+
+In most of these cases the OEMs are open about their use of such software and fulfil the requirements of their Free software licenses, such as the GNU General Public License (GPL), but in a small number of cases this use is masked, either deliberately or through professed ignorance or misunderstanding. Violators are usually found through public records,NIST SHS Validation List, which lists devices and their software where they may be forced to declare their implementations, or through their own advertising, for example "Embedded Software Engineers with Mandatory Linux Experience Required" on their careers pages, and yet their site or product documentation offers no source download or offer to supply the software source as required by the license GPL.
+Organizations such as gpl-violations.org, the Free Software Foundation (FSF) and the Software Freedom Law Center (SFLC) are now more organized at pursuing such violators and obtaining compliance. Usually, they seek voluntary compliance as a first step and only enter legal proceedings when blocked. When notified of violations they confirm them by asking the supplier, examining available product samples, or even going so far as to make blind purchases of the product through front companies.
+
+==See also==
+
+*Open design
+*Open-source robotics
+
+== References ==
+
+== External links ==
+
+*LinuxDevices, a website on devices that can run embedded Linux
+*LinuxDevices Forum
+*Linux Receivers
+

@@ -1,0 +1,25 @@
+
+DigiSigner is a tool for viewing and digitally signing portable document format (PDF) files.
+There are free and professional DigiSigner versions.
+The free DigiSigner version is capable of viewing PDF documents and creating digital signatures in them using X.509 certificates. The tool supports and manages certificates from file key stores (PFX/PKCS#12). Both visible and invisible signatures can be produced. Visible signatures can be positioned everywhere in the document using mouse cursor. The tool is capable of verifying and showing information to existing visible signatures in PDF documents.
+The professional version includes additional functionality like support for smartcards, USB sticks (PKCS#11) and certificates from internal Microsoft Windows key store. Multiple signature appearances can be created and edited. Different certification levels can be applied to PDF files to allow or disallow specific kinds of changes in signed documents. Support of time stamp servers is provided. 
+DigiSigner is implemented with Java technology and runs everywhere Java runs. The software distributions for Microsoft Windows, Mac OS X and Linux platforms are available.
+
+== Product Reviews ==
+
+DigiSigner was reviewed by following online editions:
+* MakeUseOf.com http://www.makeuseof.com/dir/digisigner-digitally-sign-pdf-documents/
+* ComputerBild.de http://www.computerbild.de/artikel/cb-News-Software-DigiSigner-Freeware-PDF-Adobe-Signatur-6034447.html
+* PCWorld.cz http://pcworld.cz/download/freeware-digisigner-tvori-digitalni-podpisy-pro-pdf-16100
+
+== References ==
+
+==External links==
+
+*http://www.digisigner.com DigiSigner website
+*http://download.cnet.com/DigiSigner/3000-2092_4-75211540.html CNET DigiSigner
+
+== See also ==
+
+* List of PDF software
+

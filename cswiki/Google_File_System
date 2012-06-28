@@ -1,0 +1,39 @@
+
+Google File System (GFS or GoogleFS) is a proprietary distributed file system developed by Google Inc. for its own use."Despite having published details on technologies like the Google File System, Google has not released the software as open source and shows little interest in selling it. The only way it is available to another enterprise is in embedded form—if you buy a high-end version of the Google Search Appliance, one that is delivered as a rack of servers, you get Google's technology for managing that cluster as part of the package.""How Google Works" It is designed to provide efficient, reliable access to data using large clusters of commodity hardware. A new version of the Google File System is codenamed Colossus.High Scalability: Google's Colossus Makes Search Real-Time By Dumping MapReduce
+
+==Design==
+
+GFS is optimized for Google's core data storage and usage needs (primarily the search engine), which can generate enormous amounts of data that needs to be retained;"All this analysis requires a lot of storage. Even back at Stanford, the Web document repository alone was up to 148 gigabytes, reduced to 54 gigabytes through file compression, and the total storage required, including the indexes and link database, was about 109 gigabytes. That may not sound like much today, when you can buy a Dell laptop with a 120-gigabyte hard drive, but in the late 1990s commodity PC hard drives maxed out at about 10 gigabytes." "How Google Works". Google File System grew out of an earlier Google effort, "BigFiles", developed by Larry Page and Sergey Brin in the early days of Google, while it was still located in Stanford."To cope with these demands, Page and Brin developed a virtual file system that treated the hard drives on multiple computers as one big pool of storage. They called it BigFiles. Rather than save a file to a particular computer, they would save it to BigFiles, which in turn would locate an available chunk of disk space on one of the computers in the server cluster and give the file to that computer to store, while keeping track of which files were stored on which computer. This was the start of what essentially became a distributed computing software infrastructure that runs on top of Linux." "How Google Works" Files are divided into fixed-size chunks of 64 megabytes,"The files managed by the system typically range from 100 megabytes to several gigabytes. So, to manage disk space efficiently, the GFS organizes data into 64-megabyte "chunks," which are roughly analogous to the "blocks" on a conventional file system—the smallest unit of data the system is designed to support. For comparison, a typical Linux block size is 4,096 bytes. It's the difference between making each block big enough to store a few pages of text, versus several fat shelves full of books." "How Google Works" similar to clusters or sectors in regular file systems, which are only extremely rarely overwritten, or shrunk; files are usually appended to or read. It is also designed and optimized to run on Google's computing clusters, dense nodes which consist of cheap, "commodity" computers, which means precautions must be taken against the high failure rate of individual nodes and the subsequent data loss. Other design decisions select for high data throughputs, even when it comes at the cost of latency.
+GFS cluster consists of multiple nodes.These nodes are divided into two types: one Master node and a large number of Chunkservers. Each file is divided into fixed-size chunks. Chunkservers store these chunks. Each chunk is assigned a unique 64-bit label by the master node at the time of creation, and logical mappings of files to constituent chunks are maintained. Each chunk is replicated several times throughout the network, with the minimum being three, but even more for files that have high end-in demand or need more redundancy.
+The Master server doesn't usually store the actual chunks, but rather all the metadata associated with the chunks, such as the tables mapping the 64-bit labels to chunk locations and the files they make up, the locations of the copies of the chunks, what processes are reading or writing to a particular chunk, or taking a "snapshot" of the chunk pursuant to replicate it (usually at the instigation of the Master server, when, due to node failures, the number of copies of a chunk has fallen beneath the set number). All this metadata is kept current by the Master server periodically receiving updates from each chunk server ("Heart-beat messages").
+Permissions for modifications are handled by a system of time-limited, expiring "leases", where the Master server grants permission to a process for a finite period of time during which no other process will be granted permission by the Master server to modify the chunk. The modifying chunkserver, which is always the primary chunk holder, then propagates the changes to the chunkservers with the backup copies. The changes are not saved until all chunkservers acknowledge, thus guaranteeing the completion and atomicity of the operation. 
+Programs access the chunks by first querying the Master server for the locations of the desired chunks; if the chunks are not being operated on (e.g. no outstanding leases exist), the Master replies with the locations, and the program then contacts and receives the data from the chunkserver directly (similar to Kazaa and its supernodes).
+As opposed to other file systems, GFS is not implemented in the kernel of an operating system, but is instead provided as a userspace library.
+
+== Performance ==
+
+Deciding from benchmarking results,Sanjay Ghemawat, Howard Gobioff, and Shun-Tak Leung. "The Google File System" when used with relatively small number of servers (15), the file system achieves reading performance comparable to that of a single disk (80 – 100 MB/s), but has a reduced write performance (30 MB/s), and is relatively slow (5 MB/s) in appending data to existing files. (The authors present no results on random seek time.) As the master node is not directly involved in data reading (the data are passed from the chunk server directly to the reading client), the read rate increases significantly with the number of chunk servers, achieving 583 MB/s for 342 nodes. Aggregating a large number of servers also allows big capacity, while it is somewhat reduced by storing data in three independent locations (to provide redundancy).
+
+==See also==
+
+* BigTable
+* Cloud storage
+* CloudStore
+* Fossil, the native file system of Plan 9
+* GPFS IBM's General Parallel File System.
+* Hadoop and its "Hadoop Distributed File System" (HDFS), an open source Java product similar to GFS.
+* List of Google products
+* MapReduce
+
+==References==
+
+*"The Google File System", Sanjay Ghemawat, Howard Gobioff, and Shun-Tak Leung; pub. 19th ACM Symposium on Operating Systems Principles, Lake George, NY, October, 2003.
+
+==External links==
+
+* GFS: Evolution on Fast-forward 
+* Google File System Eval: Part I at StorageMojo
+* How Google Works
+* Recordings from a Course about Distributed Systems by Google, which also features a Lecture on GFS
+* ZDnet article on GFS
+

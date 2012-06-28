@@ -1,0 +1,55 @@
+
+AguaClara is a project in Civil and Environmental Engineering at Cornell University that designs water treatment plants using the open source model. The program's aims are to "improve drinking water quality through innovative research, knowledge transfer, open source engineering and design of sustainable, replicable water treatment systems."[tpl]cite web|url=https://confluence.cornell.edu/display/AGUACLARA/About+Us |title=AguaClara's About page[/tpl]  AguaClara plants are unique among municipal-scale facilities in that they have no electrical or complex mechanical components, instead using hydraulic processes driven by gravity to operate.
+
+==History==
+
+AguaClara was formed in 2005 by Cornell University professor Monroe Weber-Shirk.
+
+==Design tool==
+
+AguaClara has developed an automated design tool that allows interested parties to input basic design parameters such as flow rate into a simple frontend and receive customized designs via email in five minutes or less. The user frontend communicates with the AguaClara server to populate MathCad scripts that calculate design parameters for input into AutoCAD scripts, which produce the final design. The design algorithms can be continuously improved and any changes will be immediately implemented the next time a design is requested.[tpl]cite web | url=https://confluence.cornell.edu/display/AGUACLARA/Download+Design+Tool | title=Link to download design tool from AguaClara website | accessdate=May 16, 2011[/tpl]
+The AguaClara design tool applies an economy of scale to water treatment design, in that there are almost no marginal costs to produce an additional design. This is significant considering that the World Health Organization estimates the global unmet demand for improved water at approximately 844 million people,[tpl]cite web|url=http://www.wssinfo.org/data-estimates/introduction/|title=WHO/UNICEF Joint Monitoring Program|accessdate=May 15, 2011[/tpl] including 100 million using surface water sources that would be viable for treatment with AguaClara technology. From the AguaClara website:[tpl]cite web|url=https://confluence.cornell.edu/display/AGUACLARA/AguaClara+and+Sustainability | title=AguaClara and Sustainability|accessdate=May 15, 2011[/tpl] 
+"Thus 125 million people need AguaClara water treatment plants. If we further assume that our goal is to meet this demand in 10 years and that there are an average of 12,000 people per water treatment plant, we obtain an estimate of 1000 plants per year! This estimate does not include population growth or the need to replace aging infrastructure."
+
+==Plants==
+
+AguaClara designs gravity-powered water treatment plants that require no electricity and are constructed by its implementation partners. The plants use hydraulic flocculators and high-flow vertical-flow sedimentation tanks to remove turbidity from surface waters.
+La 34, or "La treinta y quatro," once a numbered plantation run by United Fruit, is the first site of an AguaClara plant."Students' project in Honduras brought clean water to rural village", Cornell University News Service, July 28, 2005.  Construction on the La 34 plant began in December 2004 and was inaugurated in August 2005.  The plant serves a population of 2000 with a design flow of 285 Lpm (Liters per minute)
+Ojojona Construction on the Ojojona plant began in June 2006 and was completed in January 2007, serving a population of 2000 with a design flow of 375 Lpm.
+Tamara Construction on the Tamara plant began in January 2008 and was inaugurated on June 15, 2008, serving a population of 3500 with a design flow of 738 Lpm.
+Marcala Construction of the Marcala plant began in the Fall of 2007 and was completed in June 2008, serving a population of 5400 with a design flow of 1900 Lpm. The plant was upgraded in May 2011 to a flow rate of 55 L/s.
+Cuatro Comunidades In the Fall 2008 the AguaClara team designed a water treatment plant with shallower tanks that doesn't need an elevated platform for the plant operator. The full scale pilot facility for this new design was built for the four communities of Los Bayos, Rio Frio[tpl]dn|date=February 2012[/tpl], Aldea Bonito and Las Jaguas. Construction  was completed in March 2009.
+Agalteca is located in the municipality of Cedros, Francisco Morazán, Honduras. The community has a population of 2,160. Construction of this plant began September 2009.  Completed January 2010.
+
+==Sponsors==
+
+* The Sanjuan Fund
+* Ken Brown '74 & Elizabeth Sanjuan
+* Rotary Clubs
+* Cornell University School of Civil & Environmental Engineering
+* Cornell University College of Engineering
+* Engineers for a Sustainable World
+* National Rural Water Association
+* EPA P3 Award Student design competition for sustainability
+* Kaplan Family Distinguished Faculty Fellowships(CU Public Service)
+
+==Awards==
+
+2011 Intel Environment Tech Award 
+
+==See also==
+
+*Open Source
+*Open Design
+*Water Purification
+*Cornell University
+*Honduras
+
+==Notes and references==
+
+*This article incorporates text from the AguaClara website, licensed under a Creative Commons Attribution-Share Alike 3.0 United States License.
+
+==External links==
+
+*AguaClara Homepage
+

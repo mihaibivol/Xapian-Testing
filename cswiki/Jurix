@@ -1,0 +1,17 @@
+
+jurix is an early day, mainly floppy based Linux distribution that is now discontinued. It was created and maintained by Florian La Roche from the legal department at Saarland University, and stamped with a copyright for at least the span from 1994 to 1996. In the end of the period two forth-level domains "jurix" and "susix," underneath "jura.uni-sb.de," were used for communicating and publishing of the distribution.
+As documented in the web[tpl]Where|date=July 2011[/tpl], the origins of the name jurix aren't from La Roche but from Alexander Sigel, a staff member at the University of Saarland. In 1994 Sigel named the department's first internet server "jurix". There is no indication if the name was in any way related to the nearby Dutch law and IT organisation JURIX or rather just a portmanteau between "Jura" and "Unix"/"Linux". In 1995 La Roche officially became systems administrator for the "jurix" server.
+A discussion on the history of Linux contained that quote:
+:Fabian (in fact meant: Florian La Roche) had previously been in the Debian project, but left due to the fighting. The initial version of JURIX were tarballs.
+The last known still archived distribution had this basic features:
+:jurix is a Linux distribution with the following features: kernel 1.3.91, libc 5.2.18, gcc 2.7.2, ncurses 1.9.9e, shadow passwords, XFree86 3.1.2-S, tcl 7.5b3, tk 4.1b3. - jurix readme, Florian La Roche, 24th April 1996
+The jurix distribution was ahead of its time, besides the common features in other distributions of the era, it touted several more features including a scriptable installer that allowed the reproduction of a certain installation setup (on a set of relatively similar machines.) Standards like bootp and NFS were supported. The main file system intended for use was the ext2 file system.
+This jurix distribution later on formed the starting point for creating the SuSE Linux distribution. In the progress the creator of jurix joined SuSE as well and was then creator and responsible for e.g. the installer and configuration tool YaST.
+
+== Links ==
+
+* jurix readme at ibiblio.org
+* jurix description and download from softpedia.com
+* History of Internet presence of the Law department at University of Saarland
+* a graphical Linux distributions time line approach
+

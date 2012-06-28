@@ -1,0 +1,40 @@
+
+The WGR614L (also known as the WGR614v8) is an 802.11b/g wireless network router created by NETGEAR. It was officially launched on June 30, 2008.  The WGR614L runs an open source linux firmware and supports the installation of third party packages such as DD-WRT, Tomato, and OpenWrt.
+
+== Hardware ==
+
+*Broadcom BCM5354 240 MHz SoC
+*4 MB Flash memory
+*16 MB RAM
+*16 kB instruction cache
+*16 kB data cache
+*1000 byte pre-fetch cache
+*4 MB CPU cache
+*2 dBi gain antennas (1 internal and 1 external dipole)
+*802.11 b/g wireless support
+*Certified for use with Windows Vista
+
+== Features ==
+
+*Supports installation of OpenWrt, Tomato firmware, and DD-WRT
+*Supports Wi-Fi Protected Setup (WPS)
+*Automatically detects ISP type, exposed host (DMZ), MAC address authentication, URL content filtering, logs and email alerts of Internet activity
+*Static & dynamic routing with TCP/IP, VPN pass-through (IPsec, L2TP), NAT, PPTP, PPPoE, DHCP (client & server) 
+
+== Applications ==
+
+The WGR614L is designed to be used in home or business environments.  It is often used in connection with third-party firmware and solutions, such as SputnikNet and Titan Hotspots.  The router can also be used as a wireless client bridge (utilizing OpenWrt firmware) and as a wireless repeater bridge (using DD-WRT firmware).
+
+== External links ==
+
+*List Of WGR614L Resources
+*Official Product Page
+*Official Support Page
+*The WGR614L at DD-WRT.com
+*Press Release announcing WGR614L
+*Using the WGR614L As A Wireless Repeater Bridge Using DD-WRT
+*Using the WGR614L As a Wireless Client Bridge using OpenWrt Firmware
+;Firmware downloads
+* DD-WRT Router Database (lookup WGR614L).
+* Old DD-WRT, Tomato and OpenWrt links over on My Open Router website.
+

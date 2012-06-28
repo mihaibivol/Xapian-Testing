@@ -1,0 +1,77 @@
+
+The Information Retrieval Facility (IRF), founded 2006 and located in Vienna, Austria, is a research platform for networking and collaboration for professionals in the field of information retrieval.
+The IRF has members in the following categories:
+* Researchers in information retrieval (IR) or related scientific areas
+* Industrial/corporate information management professionals
+* Patent authorities and governmental institutions* Students of one of the above
+
+==The Scientific Board==
+
+C.J. van Rijsbergen, Chairman of the Scientific Board, 
+Maristella Agosti, Professor, Department of Information Engineering, University of Padova
+Gerhard Budin, Director of the Center of Translation Studies at the University of Vienna,
+Director of the Department of Corpuslinguistics and Text Technology, Austrian Academy of Sciences
+Jamie Callan, Professor, Language Technologies Institute, CMU, Carnegie Mellon University
+Yves Chiaramella, Professor Emeritus, Department of Computer Science and Applied Mathematics, Joseph Fourier University
+Kilnam Chon, Professor, Computer Science Department, Korea Advanced Institute of Science and Technology (KAIST)
+W. Bruce Croft, Distinguished Professor, Department of Computer Science and Director Center for Intelligent IR University of Massachusetts Amherst
+Hamish Cunningham, Research Professor, Computer Science Department University Sheffield
+Norbert Fuhr, Professor, Institute of Informatics and Interactive Systems University Duisburg-Essen
+David Hawking, Science Leader, Project Leader, CSIRO ICT Centre
+Noriko Kando, Professor, Software Engineering Research, Software Research Division, National Institute of Informatics (NII)
+Arcot Desai Narasimhalu, Associate Dean, School of Information Systems Singapore Management University
+John Tait, Chief Scientific Officer of the IRF, Until July 2007 Professor of Intelligent Information Systems and Associate Dean of the School of Computing and Technology
+Benjamin T'sou, Director, Language Information Sciences Research Centre, City University of Hong Kong
+
+==Scientific Goals==
+
+* Modelling innovative and specialised information retrieval systems for global patent document collections.
+* Investigating and developing an adequate technical infrastructure that allows interactive experimentation with formal, mathematical retrieval concepts for very large-scale document collections.* Studying the usability of multi modal user-interfaces to very large-scale information retrieval systems.
+* Integrating real users with actual information needs into the research process of modelling information retrieval systems to allow accurate performance evaluation.
+* Ability to create different views of patent data depending on the focus of the information need.
+* Defining standardised methods for benchmarking the information retrieval process in patent document collections.
+* Ability to handle text and non-text parts of a patent in a coherent manner.
+* Designing, experimenting and evaluating search engines able to retrieve structured and semi-structured documents in very large-scale patent collections.
+* Integrating the temporal dimension of patent documents in retrieval strategies.
+* Improving effectiveness and precision of patent retrieval, based on ontologies and natural-language understanding techniques.
+* Refining IR methods that allow unstructured querying by exploiting available structure within the patent documents.
+* Formal (mathematical) identification and specification of relevant business information needs in the field of intellectual property information.
+* Investigating efficient scaling mechanisms for information retrieval taking into account the characteristics of patent data.
+* Investigating and experimenting with computing architectures for very high-capacity information management.
+* Establishing an open eScience platform that enables a standardised and easy way of creating and performing IR experiments on a common research infrastructure.
+* Discovering and investigating novel use cases and business applications deriving from intellectual property information.
+* Enabling the formal information retrieval, natural language and semantic processing research to grow into the field of applied sciences in the global, industrial context.
+* Development and integration of different information access methods.
+* Research on effective methods for interactive information retrieval.
+
+==Semantic Supercomputing==
+
+Current technologies to extract concepts from unstructured documents are extremely computational intensive. To allow interactive experimentation with rich and huge text corpora, the IRF has built a high performance computing environment, into which the latest technological advances have been implemented:
+* multi-node clusters (currently 80 cores, up to 1024)
+* highest speed interconnect technology
+* single system image with large compound memory (currently 320 GB, up to 4 TB)
+* fully integrated configurable computing (currently 4 FPGA cores, up to 256)
+The combination of these HPC features to accelerate text mining represents the IRF implementation of semantic supercomputing. 
+
+==The World Patent Corpus==
+
+The IRF aims to bring state-of-the-art information retrieval technology to the community of patent information professionals. We expect information retrieval (IR) technology to become the focus of information technology very soon. All industry sectors can profit from applying modern and future text mining processes to the special requirements of patent research. Although all ideas and concepts are universally applicable to all sorts of intellectual property information, patents require the most sophistication, and confront us with challenging technical and organisational problems. 
+The entire body of patent-related documents possibly constitutes the largest corpus of compound documents, making it a rewarding target for text mining scientists and end-users alike. What’s more, patents have become a crucial issue, in particular for large global corporations and universities. The industrial users of patent data are among the most demanding and important information professionals. As a consequence, they could benefit the most from technology that relieves the burden of researching the large body of patent information. 
+
+== Research Collections ==
+
+The IRF provides a number of test data collections that have either been developed by the IRF, by one of its members or by third parties. These data collections can be used freely for scientific experimentations.
+The MAtrixware REsearch Collection (MAREC) is the first standardised patent data corpus for research purposes. It consists of 19 million patent documents in different languages, normalised to a highly specific XML format. The collection has been developed by Matrixware for the IRF.
+The ClueWeb09 collection is a 25 terabyte dataset of about 1 billion web pages crawled in January and February, 2009. It has been created by the Language Technologies Institute at Carnegie Mellon University to support research on information retrieval and related human language technologies.
+
+==External links==
+
+* Official site: ir-facility.org
+* YouTube: The future of information retrieval Part1 
+* YouTube: The future of information retrieval Part2
+
+==References==
+
+* Patent medicine for information retrievers, Information World Review
+* The IRF and its Role in Professional Information Research, ECIR 2008
+

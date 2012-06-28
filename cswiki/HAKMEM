@@ -1,0 +1,26 @@
+
+HAKMEM, alternatively known as AI Memo 239, is a February 1972 "memo" (technical report) of the MIT AI Lab that describes a wide variety of hacks, primarily useful and clever algorithms for mathematical computation. There are also some schematic diagrams for hardware. Contributors included about two dozen members and associates of the AI Lab.
+
+== History ==
+
+HAKMEM is notable as an early compendium of algorithmic technique, particularly for its practical bent, and as an illustration of the wide-ranging interests of AI Lab people of the time, which included almost anything other than AI research.
+HAKMEM contains original work in some fields, notably continued fractions.
+
+== Introduction ==
+
+Its introduction is:
+:Compiled with the hope that a record of the random things people do around here can save some duplication of effort -- except for fun.
+:Here is some little known data which may be of interest to computer hackers. The items and examples are so sketchy that to decipher them may require more sincerity and curiosity than a non-hacker can muster. Doubtless, little of this is new, but nowadays it's hard to tell. So we must be content to give you an insight, or save you some cycles, and to welcome further contributions of items, new or used.
+
+==References==
+
+The bibliographical reference for this memo is:
+*Beeler, Michael; Gosper, R. William; and Schroeppel, Rich; "HAKMEM", Memo 239, Artificial Intelligence Laboratory, Massachusetts Institute of Technology, Cambridge, Mass., 1972.
+* Or its citable URL at DSpace@MIT's AI Memos collection, http://hdl.handle.net/1721.1/6086
+
+==External links==
+
+*Its official record at the AI Memos collection
+*HAKMEM as browseable pages
+*HAKMEM facsimile (PDF) (searchable version)
+

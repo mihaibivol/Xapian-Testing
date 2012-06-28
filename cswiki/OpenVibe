@@ -1,0 +1,30 @@
+
+OpenViBE is a software platform dedicated to designing, testing and using brain-computer interfaces. The package includes a Designer tool to create and run custom applications, along with several pre-configured and demo programs which are ready for useOpenViBE: Open-Source Software for Brain-Computer Interfaces ERCIM News, accessed March 2011. 
+OpenViBE is software for real-time neuroscience (that is, for real-time processing of brain signals). It can be used to acquire, filter, process, classify and visualize brain signals in real time.
+
+==Applications==
+
+The main OpenViBE application fields are medical (assistance to disabled people, real-time biofeedback, neurofeedback, real-time diagnosis), multimedia (virtual reality, video games), robotics and all other application fields related to brain-computer interfaces and real-time neurosciences.
+OpenViBE users can either be programmers or people not familiar with programming. This includes medical doctors, video game developers, researchers in signal processing or robotics, etc.
+
+==Interface==
+
+The user interface of OpenVibe is easy to use for creating BCI scenarios and saving them for later use, to access and to manipulate.
+OpenVibe is the first library of functions written in C++ of this type developed by INRIA - Institut national de recherche en informatique et automatique (France) - it can be integrated and applied quickly and easily .
+
+==See also==
+
+* Brain–computer interface
+* Neurofeedback
+* Comparison of neurofeedback software
+
+==References==
+
+==External links==
+
+* Project homepage
+* "Now, you can control computer commands by thought" The Economic Times, accessed March 2011
+* "Brainwaves put patients in touch" BBC News, accessed March 2011
+* "OpenViBE: An Open-Source Software Platform to Design, Test, and Use Brain–Computer Interfaces in Real and Virtual Environments" MIT Press Journal "Presence," February 2010, Vol. 19, No. 1, Pages 35–53
+* "OpenViBE: See Your Brain in Action" Medgadget, accessed March 2011
+

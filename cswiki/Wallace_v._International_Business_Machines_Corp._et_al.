@@ -1,0 +1,26 @@
+
+Wallace v. International Business Machines Corp. et al., 467 F.3d 1104 (7th Cir. 2006), was a significant case in the development of free software.  The case decided, at the Court of Appeals for the Seventh Circuit, that in United States law the GNU General Public License (GPL) did not contravene federal antitrust laws.
+
+==Background==
+
+Daniel Wallace, a United States citizen, sued the Free Software Foundation (FSF) for price fixing. In a later lawsuit, he unsuccessfully sued IBM, Novell, and Red Hat. Wallace claimed that free Linux prevented him from making a profit from selling his own operating system.[tpl]cite news |author= Eric J. Sinrod  |title=How GPL fits in with the future of antitrust regulation |url=http://www.news.com/2010-7344-6137894.html  |publisher=News.com|date=November 22, 2006 |accessdate=2007-09-29[/tpl]
+
+==FSF lawsuit==
+
+In 2005, Daniel Wallace filed suit against the FSF in Indiana, stating that the GPL, by requiring copies of computer software licensed under it to be made available freely (without legal restriction), and possibly even at no cost, is tantamount to price fixing. In November 2005 the case was dismissed without prejudice, and Wallace filed multiple amended complaints in an effort to satisfy the requirements of an antitrust allegation.  His fourth and final amended complaint was dismissed on 20 March 2006, by Judge John Daniel Tinder, and Wallace was ordered to pay the FSF's costs. In its decision to grant the motion to dismiss, the Court ruled that Wallace had failed to allege any antitrust injury on which his claim could be based, since Wallace was obligated to claim not only that he had been injured but also that the market had. The Court instead found that
+:The GPL encourages, rather than discourages, free competition and the distribution of computer operating systems, the benefits of which directly pass to consumers. These benefits include lower prices, better access and more innovation.
+The Court also noted that prior cases have established that the Sherman Act was enacted to assure customers the benefits of price competition, and have emphasized the act's primary purpose of protecting the economic freedom of participants in the relevant market. This decision thus supports the right of authors and content creators to offer their creations free of charge.
+
+==IBM, Novell, and Red Hat lawsuit==
+
+In 2006, Daniel Wallace filed a lawsuit against the software companies IBM, Novell, and Red Hat, who profit from the distribution of open-source software, specifically the GNU/Linux operating system.[tpl]Cite web | author=Peter Brown| title=The GPL tested in US courts - Wallace Vs FSF | year=2006 | url=http://www.fsf.org/news/wallace-vs-fsf | publisher=Free Software Foundation | accessdate=May 21, 2006 [/tpl] Wallace's allegation was that these software companies were engaging in anticompetitive price fixing.
+On May 16, 2006, Judge Richard L. Young dismissed the case with prejudice:
+:Wallace has had two chances to amend his complaint ....  His continuing failure to state an antitrust claim indicates that the complaint has “inherent internal flaws.”  ... Wallace will not be granted further leave to file an amended complaint because the court finds that such amendment would be futile.
+Wallace later filed an appeal in the Seventh Circuit Appeal Court, where his case was heard de novo in front of a three-judge panel led by Frank Easterbrook. He lost his appeal, with the judge citing a number of problems with his complaint.[tpl]Cite web | author=Anne Broache| title=Open Source Earns Legal Victory|  year=2006| url=http://news.com.com/2061-10796_3-6134573.html|accessdate=November 12, 2006[/tpl]
+
+==References==
+
+==External links==
+
+*PLAINTIFF DANIEL WALLACE'S MEMORANDUM ON MOTION FOR SUMMARY JUDGMENT (Groklaw)
+

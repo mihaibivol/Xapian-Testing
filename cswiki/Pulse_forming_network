@@ -1,0 +1,34 @@
+
+A Pulse Forming Network (PFN) accumulates electrical energy over a comparatively long time, then releases the stored energy in the form of a relatively square pulse of comparatively short duration for various pulsed power applications. In practice, a PFN is charged by means of a high voltage power source, then rapidly discharged into a load via a high voltage switch, such as a spark gap or hydrogen thyratron. The load may be a high power microwave oscillator such as a klystron or magnetron, a flashtube, or even an electromagnet. Depending upon the application, the output pulse repetition rate may range from a fraction of a Hertz to over 10kHz.
+
+== Implementation ==
+
+A PFN consists of a series of high voltage energy storage capacitors and inductors. These components are interconnected (as a "ladder network") that behaves similarly to a length of transmission line. For this reason, a PFN is sometimes called an "artificial, or synthetic, transmission line". Electrical energy is initially stored within the charged capacitors of the PFN. 
+Sometimes an actual length of transmission line is used as the pulse forming network. This can give substantially flat topped pulses at the inconvenience of using of a large length of cable.
+A Blumlein transmission line is a particular configuration of transmission lines used to create high-voltage pulses with short rise and fall times. Its principle is closely related to a pulse-forming transmission line discharge, although a Blumlein's output voltage is the same as the charging voltage whereas the Pulse-forming transmission line outputs half the charging voltage.  On August 30, 1944, the executor for A. D Blumlein filed the patent application, and patent 2,465,840 was granted March 29, 1949.
+
+== Uses of PFNs ==
+
+Upon command, a high voltage switch transfers the energy stored within the PFN into the load. When the switch "fires" (closes), the network of capacitors and inductors within the PFN creates an approximately square output pulse of short duration and high power. This high power pulse becomes a brief source of high power to the load. 
+Sometimes a specially designed pulse transformer is connected between the PFN and load. This technique improves the impedance match between the PFN and the load so as to improve power transfer efficiency. A pulse transformer is typically required when driving higher impedance devices such as klystrons or magnetrons from a PFN. Because the PFN is charged over a relatively long time and then discharged over a very short time, the output pulse may have a peak power of megawatts or even terawatts. 
+The combination of high voltage source, PFN, HV switch, and pulse transformer (when required) is sometimes called a "power modulator" or "pulser".
+
+==See also==
+
+* Pulse-code modulation
+* Pulse-position modulation
+* Pulse-width modulation
+* Pulse-density modulation
+* Crossatron
+* radar modulators
+* missile operations 
+* lasers
+* pulsed power
+* particle accelerators
+
+==External links and references==
+
+* Eric Heine, "Conversion". NIKHEF Electronic Department, Amsterdam, The Netherlands.
+* Riepe, Kenneth B., "High-voltage microsecond pulse-forming network". Review of Scientific Instruments Vol 48(8) pp. 1028–1030. August 1977. (Abstract)
+* Glasoe, G. Norris, Lebacqz, Jean V., "Pulse Generators", McGraw-Hill, MIT Radiation Laboratory Series, Volume 5, 1948.
+

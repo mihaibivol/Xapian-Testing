@@ -1,0 +1,9 @@
+
+Microviscosity, also known as microscopic viscosity, is the friction experienced by a single particle undergoing diffusion because of its interaction with its environment at the micrometer length scale.  The concept of microviscosity is intimately related to the concept of single particle diffusion and can be measured using microrheology.    
+Understanding microviscosity requires an understanding of viscosity and diffusion i.e. macroscopic viscosity and bulk diffusion and where their assumptions break down at the micro to nanometer scale where physicists are still trying to replace phenomenological laws with physical laws governing the behavior of single particle mobility.  
+In the field of biophysics, a typical microviscosity problem is understanding how a biomolecule's mobility is hindered within a cellular compartment which will depend upon many factors such as the size, shape, charge, quantity and density of both the diffusing particle and all members of its environment.  
+Microviscosity can be probed by measuring the rotational correlation time of a probe molecule using either fluorescence correlation spectroscopy or the linewidths of the probe's electron spin resonance. The friction experienced by a single particle can be thought of as a microscopic viscosity (microviscosity) and should not necessarily agree with the bulk viscosity since it is a measure of the probe's local friction whereas bulk viscosity analogously would be the measure of an infinitely large probe. Both the crowding density and relative size of each co-solute in a mixture will contribute to the measured microviscosity as assessed by altered translational mobility.Goins, A.B., H. Sanabria, M. N. Waxham. 2008. Macromolecular crowding and size effects on probe microviscosity. Biophys. J. 95:5362-5373.
+
+==References==
+
+

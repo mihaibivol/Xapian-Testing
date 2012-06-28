@@ -1,0 +1,126 @@
+
+util-linux (with lower case 'u') is a standard package of the Linux operating system.  A fork, util-linux-ng—with ng meaning "next generation"—was created when development stalled,[tpl]cite web|title=|url=https://lkml.org/lkml/2006/12/18/19|date=18 Dec 2006[/tpl] but [tpl]As of|2011|01|lc=on[/tpl] has been renamed back to util-linux, and is the official version of the package.[tpl]cite web|title=|url=https://lkml.org/lkml/2010/12/1/464|date=1 Dec 2010[/tpl]
+It includes the following utilities:
+*addpart
+*agetty
+*arch (deprecated in favor of uname or arch from coreutils)
+*blkid
+*blockdev
+*cal
+*cfdisk
+*chfn
+*chkdupexe
+*chrt
+*chsh
+*clock
+*col
+*colcrt
+*colrm
+*column
+*ctrlaltdel
+*cytune
+*ddate (no longer included by default)https://git.kernel.org/?p=utils/util-linux/util-linux.git;a=commit;h=4a8962f3a7cb970b28add7d770528edebbe03635
+*delpart
+*dmesg
+*elvtune (obsolete since Linux kernel version 2.6.9)
+*fallocate
+*fdformat
+*fdisk
+*findfs
+*findmnt
+*flock
+*fsck
+*fsck.cramfs
+*fsck.minix
+*fsfreeze
+*fstab
+*fstrim
+*getopt
+*hexdump
+*hwclock, query and set the hardware clock (RTC)
+*ionice
+*ipcmk
+*ipcrm
+*ipcs
+*isosize
+*kill
+*ldattach
+*line (deprecated in favor of head)
+*logger
+*login
+*look
+*losetup
+*lsblk
+*lscpu
+*mcookie
+*mesg
+*mkfs
+*mkfs.bfs
+*mkfs.cramfs
+*mkfs.minix
+*mkswap
+*more
+*mount
+*mountpoint
+*namei
+*newgrp (deprecated in favor of newgrp from shadow-utils)
+*nologin
+*partx
+*pg
+*pivot_root
+*raw
+*readprofile
+*rename
+*renice
+*reset
+*rev
+*rtcwake
+*script
+*scriptreplay
+*setarch (including architecture symlinks such as i386, linux32, linux64, x86_64, etc.)
+*setsid
+*setterm
+*sfdisk
+*swaplabel
+*swapoff
+*swapon
+*switch_root
+*tailf
+*taskset
+*tunelp
+*ul
+*umount
+*unshare
+*uuidd
+*uuidgen
+*vigr (deprecated in favor of vigr from shadow-utils)
+*vipw (deprecated in favor of vipw from shadow-utils)
+*whereis
+*wipefs
+*write
+Utilities that used to be included, but are now removed:
+*fastboothttps://git.kernel.org/?p=utils/util-linux/util-linux.git;a=commit;h=0ff9e65ea30ee7e3548d11992a180d95d0a02fe9
+*fasthalt
+*halt
+*initctl
+*ramsize (was a symlink to rdev)
+*rdevhttps://git.kernel.org/?p=utils/util-linux/util-linux.git;a=commit;h=a3e40c14651fccf18e7954f081e601389baefe3f
+*reboot
+*rootflags (was a symlink to rdev)
+*shutdown
+*simpleinit
+*vidmode (was a symlink to rdev)
+
+==See also==
+
+*GNU Core Utilities
+
+==References==
+
+==External links==
+
+*Git repository on kernel.org (primary)
+*Git repository on GitHub (backup)
+*FTP at kernel.org
+*Mailing list
+

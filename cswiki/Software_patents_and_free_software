@@ -1,0 +1,77 @@
+
+Opposition to software patents is widespread in the free software community.  In response, various mechanisms have been tried to defuse the perceived problem.
+
+==Positions from the community==
+
+Community leaders such as Richard Stallman, Alan Cox, Bruce Perens,/home/bruce/Patents.html and Linus Torvalds and companies such as Red Hat,redhat.com | Red Hat Patent Policy and MySQL,MySQL AB :: MySQL Public Patent Policy and community groups such as FSFE,FSFE - Software Patents in Europe IFSO,Software Patentability & EU Directive COD/2002/0047 all believe that patents cause problems for free software.
+
+==Patent licensing==
+
+Leading open-source figures and companies http://www.networkworld.com/community/node/66807 have complained that software patents are overly broad and the USPTO should reject most of them. Bill Gates has said http://news.swpat.org/2010/06/late-comers-guide-what-is-bilski-anyway/ "If people had understood how patents would be granted when most of today’s ideas were invented, and had taken out patents, the industry would be at a complete standstill today".
+
+==Benefits of free software==
+
+US patent attorney Dan Ravicher argues that free software's distributed development model which leads to fewer concentrations of wealth, plus free software's public benefit create economic and legal protections.
+
+==Problems for free software==
+
+Free software projects cannot agree to patent licences that include any kind of per-copy fee.  No matter how low the fee is, there is no way for a free software distributor to know how many copies are being made. Also, adding any requirements to pay or to notify someone each time a copy is made would make the software no longer free software.
+A patent licence that is royalty-free, or provides a one-time worldwide payment is acceptable.  Version 2 of the GNU General Public License does not allow software to be distributed if that software requires a patent licence that does not "permit royalty-free redistribution of the Program by all those who receive copies directly or indirectly through you".
+
+==The 2004 OSRM study==
+
+In 2004, Open Source Risk Management commissioned a patent study, carried out by Dan Ravicher.  For this study, Ravicher performed patent searches to estimate the patent-risk of the Linux kernel:
+ In conclusion, he found that no court-validated software patent is
+infringed by the Linux kernel. However, Ravicher also found 283 issued but
+not yet court-validated software patents that, if upheld as valid by the
+courts, could potentially be used to support patent claims against Linux.
+
+==Techniques for opposing patents==
+
+===Patent retaliation===
+
+"Patent retaliation" clauses are included in several free software licences. The goal of these clauses is to create a penalty so as to discourage the licensee (the user/recipient of the software) from suing the licensor (the provider/author of the software) for patent infringement by terminating the licence upon the initiation of such a lawsuit.
+The Free Software Foundation included a narrow patent retaliation clause in drafts 1 and 2 of version 3 of the GPL, however, this clause was removed in draft 3 as its enforceability and effectiveness was decided to be too dubious to be worth the added complexity.
+Examples of broader clauses are those of the Apache License and the Mozilla Public License.
+
+===Patent pools===
+
+In 2005, IBM, Novell, Philips, Red Hat, and Sony founded the Open Invention Network (OIN).  OIN is a company that acquires patents and offers them royalty free "to any company, institution or individual that agrees not to assert its patents against the Linux operating system or certain Linux-related applications".[tpl]cite web | date = November 10, 2005 | url=http://www.openinventionnetwork.com/press_release11_05.php | title=Open Invention Network formed to promote Linux and spur innovation globally through access to key patents |publisher = Open Invention Network | accessdate = April 17, 2006[/tpl]
+Novell donated the valuable Commerce One web services patents to OIN.  These potentially threaten anyone who uses web services.  OIN's founders intend for these patents to encourage others to join, and to discourage legal threats against Linux and Linux-related applications.  Along with several other projects, Mono is listed as a covered project.
+
+===Lobbying for legislative change===
+
+Movements have formed to lobby against the existence and enforceability of software patents.  The earliest was the League for Programming Freedom in the USA.  Probably the most successful was the anti-software-patent campaign in Europe that resulted in the rejection by the European Parliament of the Proposed directive on the patentability of computer-implemented inventions which, the free software community argues, would have made software patents enforceable in the European Union.  A fledgling movement also exists in South Africa.
+
+==Promises from patent holders==
+
+Some software companies who hold significant patent portfolios have made non-aggression pledges to the free software community.  These have varied in scope and have received a variety of responses.  IBM, Sun, and Nokia are three examples.  These have been described by Richard Stallman as "significant", "not really anything", and "next to nothing", respectively.
+Microsoft has pledged not to assert any claims against open source developers which CEO Steve Ballmer called "an important step and significant change in how we share information about our products and technologies."  This pledge has been accepted with some skepticism.
+
+==Infringement claims==
+
+Microsoft has claimed that free software such as OpenOffice.org and the Linux kernel violate 235 Microsoft patents and said that it will seek licence fees, but has so far failed to disclose which patents they violate.  However, the 2009 lawsuit against TomTom involved the use of Microsoft's patents for long filenames on FAT filesystems, the code for which is in the Linux kernel, not in any TomTom-developed software.
+In January 2008, Trend Micro accused Barracuda Networks of patent infringement for distribution of the ClamAV anti-virus software.
+
+==Microsoft's patent deals==
+
+In November 2006, a highly controversial agreement was made between Novell and Microsoft that included patent licensing.  This led to much criticism of Novell by the free software community.
+In June 2007, Xandros announced a similar deal.[tpl]cite web | url = http://www.groklaw.net/article.php?story=20070604183519938 | title=Groklaw article on Xandros' Microsoft deal[/tpl]
+On June 13, 2007, a deal was reached between Microsoft and Linspire.Linspire, Microsoft in Linux-related deal In return, Linspire would change its default search engine from Google to Live search.Slashdot | Linspire Signs Patent Pact With MS
+Ubuntu founder and director Mark Shuttleworth has said that Ubuntu will not be making any such deal, as have Red Hat.  These have been joined by a weaker statement from Mandriva that "we don’t believe it is necessary for us to get protection from Microsoft".
+On October 2007, IP Innovation LLC, a company specialized in patent-protection, filed a suit for patent infringement against Red Hat and NovellThe U.S. patent 5,072,412 concerns the desktop User Interface, see here. However, IP Innovation LLC is a subsidiary of a company classified by some as a patent troll, and commentators suspect a strong connection between this company and Microsoft.
+In December 2007, Microsoft granted the Samba project access to certain proprietary documents and must maintain a list of related patents for a one-time fee of 10,000 Euros.
+
+==See also==
+
+* Software patent
+* Software patent debate
+
+==References==
+
+==External links==
+
+* CNN: Microsoft takes on the free world, discusses Microsoft and FSF's position regarding software patents and free software
+* Examples of Software Patents that hurt Free Software, published by Free Software Foundation
+* Free software projects harmed by software patents, End Software Patents
+

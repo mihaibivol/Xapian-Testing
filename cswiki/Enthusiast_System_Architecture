@@ -1,0 +1,18 @@
+
+Enthusiast System Architecture (ESA) is a royalty-free protocol for two-way communication of PC components. Announced in 2007, ESA is used for monitoring temperature of computer hardware components such as the computer case and power supply unit. The latest release of the ESA specification is version 1.0, released in 2007. ESA was created by Nvidia and some other companies. It failed.
+The ESA is built around the current USB human interface device class specification and ESA was sent to the USB Implementers Forum HID subcommittee for discussion and approval. All ESA-certified devices must pass USB 2.0 logo compliance. Readings of temperature, voltage, current, power, activity level, water level, status, position and so on can be monitored via the nTune application, while operating mode, voltages, rpm and so on can be also be adjusted in the utility.
+ESA devices have a microcontroller that integrates a USB 2.0-compliant full-speed device controller and ESA-compliant hardware components connects to the motherboard via a USB cable. ESA-compliant hardware components are seen as 'Collections'. Within the collections there are 'Zones'. Sensors and controls are organized into zones.
+Only one software implementation exists; it is Nvidia's proprietary "System Tools with ESA Support" which only works on nForce-based motherboards and only runs on Windows.
+
+== See also ==
+
+* System monitor
+
+== External links ==
+
+* http://www.nvidia.com/esa
+** Tech Brief
+** Certification Requirements
+* Press Release November 5, 2007
+* Press Release March 13, 2008
+

@@ -1,0 +1,19 @@
+
+RESQML(tm) (Reservoir Characterization Markup Language) is a family of XML and Web Services based upstream oil and natural gas industry standards from Energistics and its RESQML Special Interest Group (RESQML SIG). 
+RESQML Standards support reservoir analysis and characterization business processes. RESQML-based interactions are used by reservoir related software components, including applications for earth model and reservoir model generation, analysis, and processing. 
+The RESQML initiative was started in 2009 as a successor to the RESCUE Work Group. From inception, the purpose of the RESCUE Work Group was to develop an open standard for the transfer of data from geomodels to upscalers using binary data files and software class libraries to read and write these files. The final version of the RESCUE materials, including version 37.8 of the software class libraries, is available through Energistics.
+
+==EnergyML==
+
+EnergyML(tm) is the foundation for consistency and interoperability among all Energistics data transfer families of standards, including besides the RESQML Standards, PRODML(tm) for production and WITSML(tm) for drilling, completions, and interventions.
+
+==See also==
+
+* Energistics
+* WITSML
+* PRODML
+
+==External links==
+
+* Energistics Web site
+

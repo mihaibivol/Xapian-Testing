@@ -1,0 +1,65 @@
+
+The Open Mobile Alliance (OMA) is a standards body which develops open standards for the mobile phone industry.
+
+== Principles ==
+
+; Mission: To provide interoperable service enablers working across countries, operators and mobile terminals.
+; Network-agnostic: The OMA only standardises applicative protocols; OMA specifications are meant to work with any cellular network technologies being used to provide networking and data transport. These networking technology are specified by outside parties.  In particular, OMA specifications for a given function are the same with either GSM, UMTS or CDMA2000 networks.
+; Voluntary adherence: adherence to the standards is entirely voluntary; the OMA does not have a mandative role. The OMA is not a formal government-sponsored standards organization like the ITU, but a forum for industry stakeholders to agree on common specifications for products and services. The goal is that by agreeing on common standards, stakeholders will be able to "share slices from a larger pie".
+; "FRAND" intellectual property licensing: OMA members that own intellectual property rights (e.g. patents) on technologies that are essential to the realization of a specification agree in advance to provide licenses to their technology on "fair, reasonable and non-discriminatory" terms to other members.
+; Legal status: the OMA is a British limited company.http://www.openmobilealliance.org/docs/Articles_of_Association2004.pdf
+
+==History==
+
+The OMA was created in June 2002 as an answer to the proliferation of industry forums each dealing with a few application protocols: WAP Forum (focused on browsing and device provisioning protocols), the Wireless Village (focused on instant messaging and presence), The SyncML Initiative (focused on data synchronization), the Location Interoperability Forum, the Mobile Games Interoperability Forum and the Mobile Wireless Internet Forum. Each of these forums had its bylaws, its decision-taking procedures, its release schedules, and in some instances there was some overlap in the specifications, causing duplication of work. The OMA was created to gather these initiatives under a single umbrella.
+Members include traditional wireless industry players such as equipment and mobile systems manufacturers (Ericsson, Thomson, Siemens, Reti Radiotelevisive Digitali, Nokia, Openwave, Sony Ericsson, Philips, Motorola, Samsung, LG Electronics, Texas Instruments) and mobile operators (Telefónica, Vodafone, Orange, T-Mobile, LG Telecom), and also software vendors (Microsoft, Sun Microsystems, IBM, Oracle Corporation, Symbian, Celltick, Expway, Mformation, InnoPath, Motive).
+
+== Relation to other standards bodies ==
+
+The OMA liaises with other standards bodies on a regular basis to avoid overlap in specifications:
+* 3GPP
+* 3GPP2
+* IETF
+* W3C
+
+== Standard specifications ==
+
+The OMA maintains a number of specifications, including
+* Browsing specifications, now called "Browser and Content", previously called WAP browsing. In their current version, these specifications rely essentially on XHTML Mobile Profile.
+* MMS specifications for multimedia messaging
+* OMA DRM specifications for Digital Rights Management
+* OMA Instant Messaging and Presence Service (OMA IMPS) specification, which is a system for instant messaging on mobile phones (formerly known as Wireless Village).
+* OMA SIMPLE IM Instant messaging based on SIP-SIMPLE
+* OMA CAB Converged Address Book
+* OMA CPM Converged IP Messaging
+* OMA Client Provisioning (OMA CP) specification for Client Provisioning.
+* OMA Data Synchronization (OMA DS) specification for Data Synchronization using SyncML.
+* OMA Device Management (OMA DM) specification for Device Management using SyncML.
+* OMA BCAST specification for Mobile Broadcast Services.
+* OME RME specification for Rich Media Environment.
+* OMA PoC specification for Push to talk Over Cellular.
+* OMA Presence SIMPLE specification for Presence based on SIP-SIMPLE.
+* OMA Service Environment
+* FUMO Firmware update
+* SUPL, an IP-based service for assisted GPS on handsets
+* MLP, an IP-based protocol for obtaining the position/location of mobile handset
+* WAP1, Wireless Application Protocol 1, 5-layer stack of protocolsdret.net Glossary WAP1
+
+== See also ==
+
+* OMA PAG
+* Linux Phone Standards Forum (LiPS)
+* LiMo Foundation
+* Open Handset Alliance
+* Mobile Platform
+* 3GPP
+* European Telecommunications Standards Institute (ETSI)
+
+== References ==
+
+== External links ==
+
+* Open Mobile Alliance
+* Open Mobile Alliance Publicly Available Documents
+* OMA Browsing V2.4 Release Specification
+

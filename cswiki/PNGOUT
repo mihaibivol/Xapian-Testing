@@ -1,0 +1,23 @@
+
+PNGOUT is a freeware command line optimizer for PNG images written by Ken Silverman. The compression is lossless, meaning that the resulting image will have exactly the same appearance as the source image. According to its author, this program can often get higher compression than other optimizers by 5–10%.PNGOUT project homepage
+PNGOUT is also available as a plug-in for the freeware image viewer IrfanView and can be enabled as an option when saving files. It allows editing of various PNGOUT settings via a dialog box.
+In 2006, a commercial version of PNGOUT with a graphical user interface, known as PNGOUTWin, was released by Ardfry Imaging, a small company Silverman co-founded in 2005. There is also a freeware GUI frontend to PNGOUT available, known as PNGGauntlet.http://pnggauntlet.com/
+
+==Main operation==
+
+PNGOUT is used mainly to reduce the size of image data contained in the IDAT chunk. This chunk is compressed using the DEFLATE algorithm. Deflate algorithms can vary in speed and compression ratio. In general it requires more processing time to achieve a higher compression ratio. Ken Silverman wrote a new DEFLATE compressor for PNGOUT. It is slower than the ones used in most graphics software, but it produces smaller files. PNGOUT also performs automatic bit depth, color, and palette reduction where appropriate.
+
+==See also==
+
+* AdvanceCOMP
+* pngcrush
+
+==References==
+
+==External links==
+
+* Ken Silverman's Utility Page — official PNGOUT site
+* PNGOUT tutorial by Kerry Watson
+* PNGOUTWin — official site
+* Official Linux/BSD/Mac OS X ports of PNGOUT
+

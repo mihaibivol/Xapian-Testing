@@ -1,0 +1,27 @@
+
+A mailcap file can be used to find the correct program to open a file with, based on MIME information. While the name is "mailcap" and is related to MIME (mail filetypes) it actually has use outside the domain of electronic mail (see more about this in MIME). 
+In UNIX-type systems, the mailcap file is usually located at /etc/mailcap and/or $HOME/.mailcap
+RFC 1524 A User Agent Configuration Mechanism For Multimedia Mail Format Information describes the format of the contents of this file.
+Lines can be comments starting with the # character, or a mime-type followed by how to handle that mime type. The first part is called the content-type, and the second part is called the view-command.
+For example
+video/mpeg; xmpeg %s says if a file encoded in mime has type video/mpeg, run the xmpeg program with the file name as a parameter.
+
+== mime.types ==
+
+An associated file is the mime.types file, which associates filename extensions with a MIME type. If the MIME type is properly set, this is unnecessary, but MIME types may be incorrectly set, or set to a generic type such as application/octet-stream, and mime.types allows one to fall back on the extension in these cases. Similarly, since many file systems do not store MIME type information, but instead rely on the filename extension, a mime.types file is frequently used by web servers to determine MIME type.
+When viewing a file, these two work together as follows: mime.types associates an extension with a MIME type, while mailcap associates a MIME type with a program.
+In UNIX-type systems, the mime.types file is usually located at /etc/mime.types and/or $HOME/.mime.types and the format is simply that each line is a space-delimited list of a MIME type, followed by zero or more extensions. For example, the HTML type can be associated with the extensions .htm, .html by the following line:
+ text/html      htm   html
+
+=== Netscape use ===
+
+The mime.types file dates to Netscape, where it used a different format;WEBMASTERS: mime types, John McAnally, Thu, 22 Jan 1998 15:29:29 -0600 (CST) it used key-value pairs and a comma-separated list of extensions, together with a standard header, as follows.
+ #--Netscape Communications Corporation MIME Information
+ # Do not delete the above line. It is used to identify the file type.
+ type=text/html exts=htm,html
+
+== References ==
+
+*http://linux.die.net/man/4/mailcap
+*http://tools.ietf.org/html/rfc1524
+

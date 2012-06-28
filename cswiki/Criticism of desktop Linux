@@ -1,0 +1,52 @@
+
+The criticism of desktop Linux is a history of comment on the perceived shortcomings of Linux distributions in desktop computing use. These criticisms have questioned the plethora of choice, their usefulness as desktop systems and also for multi-media playback and audio development.
+
+==Choice==
+
+The choice of applications that free software development offers has led people to criticize Linux as confusing for new users in the past as well as the large number of choices in Linux desktop operating systems,[tpl]cite web|last=Woodward|first=Matt|title=Free Software: Some choice = good; too much choice = bad|url=http://arstechnica.com/old/content/2003/04/403.ars|publisher=ars technica|accessdate=27 March 2011[/tpl] although it has been argued that choice is one of the key strengths of Linux.[tpl]cite web|last=Martin|first=Caitlyn|title=Are You Intimidated By Breakfast Cereal?|url=http://broadcast.oreilly.com/2010/09/are-you-intimidated-by-breakfa.html|accessdate=27 March 2011[/tpl]
+
+== Third-party application installation support ==
+
+Tony Mobily, editor of Free Software Magazine, identified problems in the server roots of Linux in his article 2009: software installation in GNU/Linux is still broken – and a path to fixing it:
+However, as of Ubuntu 11.10, the Ubuntu Software Center hides system software packages, which are required by end user software packages.
+
+==Viability for use as a desktop system==
+
+Linux has been criticized for a number of reasons, including lack of user-friendliness and having a high learning curve, being inadequate for desktop use, lacking support for exotic hardware, having a relatively small games library, lacking native versions of widely-used applications and missing standardization in terms of GUI API.[tpl]cite web|url=http://linuxfonts.narod.ru/why.linux.is.not.ready.for.the.desktop.html|title=Why Linux is not (yet) Ready for the Desktop|first=Artem|last=Tashkinov|date=2009-05-18|accessdate=2010-09-23[/tpl]
+Some critics do not believe Linux will ever gain a large share in the desktop market. In May 2009 Preston Gralla, contributing editor to Computerworld.com, believed that Linux will never be important to desktop/notebook users, even though he felt it was simple and straightforward to use, but that its low usage is indicative of its low importance in the desktop market.
+Eric S. Raymond stated that the lack of usability in many open-source and Linux tools in his essay Luxury of Ignorance: An Open-Source Horror Story is not from lack of manuals but from a lack of thought about the users experience. 
+James Donald from the Princeton University analyzed shared library concepts of several operation systems. In his 2003 paper titled Improved Portability of Shared Libraries, he worried about the lack of a Windows Application Compatibility Group equivalent. 
+
+===Missed opportunities===
+
+Desktop Linux was criticized in late 2010 by two writers for having missed its opportunity to become a significant force in desktop computing. PC World Executive Editor Robert Strohmeyer commented that although Linux has exceptional security and stability, as well as great performance and usability, the time for desktop Linux to succeed has been missed.[tpl]Cite news|url = http://www.pcworld.com/businesscenter/article/207999-1/desktop_linux_the_dream_is_dead.html|title = Desktop Linux: The Dream Is Dead|accessdate = 12 November 2010|last = Strohmeyer|first = Robert|authorlink = |year = 2010|month = October| work = PC World[/tpl] Nick Farrell, writing for TechEye felt that the release of Vista was a missed opportunity to grab significant market share.[tpl]Cite news|url = http://www.techeye.net/software/linuxs-chance-has-gone|title = Linux's chance has gone: Desktop dream deader than a Norwegian Blue |accessdate = 12 November 2010 |last = Farrell |first =Nick|authorlink = |year = 2010|month = October| work = Tech Eye|quote=There was an opportunity for it to happen. Canonical had got its Ubuntu Operating System up to speed and Redmond was still shipping its piss poor Vista Operating System. Even Apple's Leopard was nothing to write home about. But it didn't happen and now it is unlikely to do so. While Linux will rule supreme on the server it will never make it to the desktop.[/tpl]
+Both critics indicated that Linux did not fail on the desktop due to being  "too geeky," "too hard to use," or "too obscure". Both had praise for distributions, Strohmeyer saying "the best-known distribution, Ubuntu, has received high marks for usability from every major player in the technology press". Both laid the blame for this failure on the open source community. Strohmeyer named the "fierce ideology of the open-source community at large" as being responsible, while Farrell stated "The biggest killer of putting penguin software on the desktop was the Linux community. If you think the Apple fanboys are completely barking, they are role models of sanity to the loudmouthed Open Sauce religious loonies who are out there. Like many fundamentalists they are totally inflexible – waving a GNU as if it were handed down by God to Richard Stallman".
+The accusation of over-zealous advocacy has been dealt with previously, in 2006 Dominic Humphries stated that the aims of the Linux
+community is not desktop market-share and popularity but in Linux being the best operating system that can be made for the community.[tpl]cite web|url = http://linux.oneandoneis2.org/LNW.htm|title = Linux is Not Windows|accessdate = 12 November 2010|last = Humphries|first = Dominic|authorlink = |year = 2005|month = December[/tpl]
+
+== Development platform for multimedia software ==
+
+It is debatable why Linux remains a weaker platform for multimedia and gaming use than other operating systems.
+Adam Geitgey questioned the compatibility of the open-source culture with respect to the game development process. In his article Where are the Good Open Source Games?, 2004 he stated that he felt perceived open-source development advantages don't work for games because users don't give back to the project because they move on to new games relatively quick and development of music and art is not built up from the work of others in the same way that coding would be. He argues that high quality art content is required, which is typically produced commercially by paid artists. While Linux operates on the open-source philosophy, this may not benefit game development. 
+
+=== Audio development ===
+
+The lack of strong API standards for multimedia has been criticised. For example the Adobe Systems development blog penguin.SWF discusses the complicated Linux audio infrastructure in the analysis Welcome to the jungle. The nearly one dozen actively supported systems are called an audio jungle,[tpl]cite web|url=http://insanecoding.blogspot.com/2009/06/state-of-sound-in-linux-not-so-sorry.html|title=State of sound in Linux not so sorry after all|date=2009-06-18|publisher=insanecoding.com[/tpl]
+Pulseaudio main developer Lennart Poettering stated that it is very difficult for programmers to know which audio API to use for which purpose.
+
+==Driver support==
+
+Linux has in the past been criticized for a lack of driver support, however this was largely due to manufacturers not supporting the Linux system. [tpl]Citation needed|date=December 2010[/tpl] It wasn't until 2004 that ATI started development of Linux drivers.  Major adoption of Linux in servers and Android has encouraged driver development for Linux. [tpl]Citation needed|date=December 2010[/tpl]
+
+===Wireless support===
+
+Wireless driver support has been a problem area for Linux. At one time many drivers were missing and users were required to use solutions such as ndiswrapper, which utilizes drivers made for the Windows operating system. Broadcom was particularly criticized for not releasing drivers. This issue was also worked around by extracting proprietary firmware for use on Linux. Broadcom has since released free and open-source drivers for the Linux Kernel eliminating the issues for modern Broadcom chipsets.
+The problem has been largely fixed in recent years and there are now a fairly large number of drivers, adding support to most wireless cards available today. However, many features are still missing from these drivers, mostly due to manufacturers not providing specifications and documentation, and thus forcing developers to reverse engineer cards.List of drivers on wireless.kernel.org
+
+==See also==
+
+* Criticism of Linux
+
+==References==
+
+

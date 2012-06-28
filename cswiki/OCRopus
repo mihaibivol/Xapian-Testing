@@ -1,0 +1,45 @@
+
+OCRopus is a free document analysis and optical character recognition (OCR) system released under the Apache License, Version 2.0 with a very modular design through the use of plugins. These plugins allow OCRopus to swap out components easily. 
+OCRopus is currently developed under the lead of Thomas Breuel from the German Research Centre for Artificial Intelligence in Kaiserslautern, Germany and is sponsored by Google. 
+OCRopus is developed for Linux; however, users have reported success with OCRopus on Mac OS X and an application called TakOCRTakOCR website has been developed that installs OCRopus on Mac OS X and provides a simple droplet interface.
+
+== How it works ==
+
+OCRopus is an OCR system that combines pluggable layout analysis, pluggable character recognition, and pluggable language modeling.
+It aims primarily for high-volume document conversion, namely for Google Book Search, but also for desktop and office use or for vision impaired people.
+OCRopus used Tesseract as its only character recognition plugin, but it uses its own engine in the 0.4 release.OCRopus doesn't even link with Tesseract by default This is especially useful in expanding functionality to include additional languages and writing systems.  OCRopus also contains disabled code  for a handwriting recognition engine which may be repaired in the future.
+OCRopus's layout analysis plugin does image preprocessing and layout analysis: it chops up the scanned document and passes the sections to a character recognition plugin for line-by-line or character-by-character recognition.
+As of the alpha release, OCRopus uses the language modeling code from another Google-supported project, OpenFST,Official OpenFST website optional as of version pre-0.4.
+
+== History ==
+
+Release history:
+* Initial announcement - 9 April 2007Announcing the OCRopus Open Source OCR System (Thomas Breuel, OCRopus Project Leader)
+* 0.1.0 (alpha) - 22 Oct 2007
+* 0.1.1 (alpha) 14 Dec 2007 - Improved build system
+* 0.2 (alpha 2) - 31 May 2008
+* 0.3 (alpha 3)- 16 Oct 2008.release notes
+* pre-0.4 (alpha 4) available for download May 2009Announcements - new repositories available
+* 0.4.3 July 2009
+* 0.4.4 March 2010
+* 0.5 June 2012
+* Updated Roadmap
+
+== Usage ==
+
+OCRopus can  be used from the command line or inside gscan2pdf. Once installed, it can be invoked by specifying the input images. It will output hOCR (HTML-based) code to standard out. If more precise control is needed, options can be specified on the command line to perform specific operations (e.g. recognizing a single line).
+
+== See also ==
+
+* Document Layout Analysis
+* Tesseract
+
+== References ==
+
+==External links==
+
+* OCRopus (project page on Google Code)
+* OCRopus Wiki
+* IUPR Publication Server (papers behind many of the algorithms used in OCRopus)
+* OCRopus course (outline of OCRopus code and how to contribute)
+

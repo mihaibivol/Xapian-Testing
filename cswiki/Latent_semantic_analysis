@@ -1,0 +1,116 @@
+
+Latent semantic analysis (LSA) is a technique in natural language processing, in particular in vectorial semantics, of analyzing relationships between a set of documents and the terms they contain by producing a set of concepts related to the documents and terms.  LSA assumes that words that are close in meaning will occur in similar pieces of text.  A matrix containing word counts per paragraph (rows represent unique words and columns represent each paragraph) is constructed from a large piece of text and a mathematical technique called singular value decomposition (SVD) is used to reduce the number of columns while preserving the similarity structure among rows.  Words are then compared by taking the cosine of the angle between the two vectors formed by any two rows.  Values close to 1 represent very similar words while values close to 0 represent very dissimilar words.[tpl]cite journal | title=Latent Semantic Analysis | author=Susan T. Dumais |year=2005 | doi=10.1002/aris.1440380105 | journal=Annual Review of Information Science and Technology | volume=38 | pages=188[/tpl]                         
+LSA was patented in 1988 (US Patent 4,839,853) by Scott Deerwester, Susan Dumais, George Furnas, Richard Harshman, Thomas Landauer, Karen Lochbaum and Lynn Streeter. In the context of its application to information retrieval, it is sometimes called Latent Semantic Indexing (LSI).[tpl]cite web | url=http://lsa.colorado.edu/ | title=The Latent Semantic Indexing home page[/tpl]
+
+== Occurrence matrix ==
+
+LSA can use a term-document matrix which describes the occurrences of terms in documents; it is a sparse matrix whose rows correspond to terms and whose columns correspond to documents. A typical example of the weighting of the elements of the matrix is tf-idf (term frequency–inverse document frequency): the element of the matrix is proportional to the number of times the terms appear in each document, where rare terms are upweighted to reflect their relative importance.
+This matrix is also common to standard semantic models, though it is not necessarily explicitly expressed as a matrix, since the mathematical properties of matrices are not always used.
+
+== Rank lowering ==
+
+After the construction of the occurrence matrix, LSA finds a low-rank approximationMarkovsky I. (2012) Low-Rank Approximation: Algorithms, Implementation, Applications, Springer, 2012, ISBN 978-1-4471-2226-5 [tpl]pn|date=January 2012[/tpl] to the term-document matrix. There could be various reasons for these approximations:
+* The original term-document matrix is presumed too large for the computing resources; in this case, the approximated low rank  matrix is interpreted as an approximation (a "least and necessary evil").
+* The original term-document matrix is presumed noisy: for example, anecdotal instances of terms are to be eliminated. From this point of view, the approximated matrix is interpreted as a de-noisified matrix (a better matrix than the original).
+* The original term-document matrix is presumed overly sparse relative to the "true" term-document matrix.  That is, the original matrix lists only the words actually in each document, whereas we might be interested in all words related to each document—generally a much larger set due to synonymy.
+The consequence of the rank lowering is that some dimensions are combined and depend on more than one term:
+:: {(car), (truck), (flower)} -->  {(1.3452 * car + 0.2828 * truck), (flower)}
+This mitigates the problem of identifying synonymy, as the rank lowering is expected to merge the dimensions associated with terms that have similar meanings. It also mitigates the problem with polysemy, since components of polysemous words that point in the "right" direction are added to the components of words that share a similar meaning. Conversely, components that point in other directions tend to either simply cancel out, or, at worst, to be smaller than components in the directions corresponding to the intended sense.
+
+== Derivation ==
+
+Now a row in this matrix will be a vector corresponding to a term, giving its relation to each document: 
+Likewise, a column in this matrix will be a vector corresponding to a document, giving its relation to each term:
+The matrix products giving us the term and document correlations then become
+These are not the eigenvectors, but depend on all the eigenvectors.
+You can now do the following:
+* Documents and term vector representations can be clustered using traditional clustering algorithms like k-means using similarity measures like cosine.
+* Given a query, view this as a mini document, and compare it to your documents in the low dimensional space.
+To do the latter, you must first translate your query into the low dimensional space. It is then intuitive that you must use the same transformation that you use on your documents:
+
+== Applications ==
+
+The new low dimensional space typically can be used to:
+* Compare the documents in the low dimensional space (data clustering, document classification).
+* Find similar documents across languages, after analyzing a base set of translated documents (cross language retrieval).
+* Find relations between terms (synonymy and polysemy).
+* Given a query of terms, translate it into the low dimensional space, and find matching documents (information retrieval).
+* Find the best similarity between small groups of terms, in a semantic way (i.e. in a context of a knowledge corpus), as for example in multi choice questions MCQ answering model.[tpl]cite journal | url=http://hal.archives-ouvertes.fr/docs/00/38/41/43/PDF/eLSA1-brm20.pdf |format=PDF| title=Effect of tuned parameters on an LSA multiple choice questions answering model | author=Alain Lifchitz, Sandra Jhean-Larose, Guy Denhière | journal=Behavior Research Methods | volume=41 | issue=4 | pages=1201–1209 | year=2009  | doi=10.3758/BRM.41.4.1201 | pmid=19897829 [/tpl]
+Synonymy and polysemy are fundamental problems in natural language processing: 
+* Synonymy is the phenomenon where different words describe the same idea. Thus, a query in a search engine may fail to retrieve a relevant document that does not contain the words which appeared in the query. For example, a search for "doctors" may not return a document containing the word "physicians", even though the words have the same meaning.
+* Polysemy is the phenomenon where the same word has multiple meanings. So a search may retrieve irrelevant documents containing the desired words in the wrong meaning. For example, a botanist and a computer scientist looking for the word "tree" probably desire different sets of documents.
+
+== Applications in human memory ==
+
+The use of Latent Semantic Analysis has been prevalent in the study of human memory, especially in areas of free recall and memory search.  Howard and Kahana found a positive correlation between the semantic similarity of two words (as measured by LSA) and the probability that the words would be recalled one after another in free recall tasks using study lists of random common nouns. They also noted that in these situations, the inter-response time between the similar words was much quicker than between dissimilar words.  These findings are referred to as the Semantic Proximity Effect.[tpl]cite journal | url=http://psycnet.apa.org/journals/xlm/25/4/923.pdf |format=PDF| title=Contextual Variability and Serial Position Effects in Free Recall | author=Marc W. Howard and Michael J. Kahana |year=1999[/tpl]
+Expanding on these semantic proximity effects, in 2006 Zaromb et al. found that when participants made mistakes in recalling studied items, these mistakes tended to be items that were more semantically related to the desired item and found in a previously studied list.  These prior-list intrusions, as they have come to be called, seem to compete with items on the current list for recall. Zaromb et al. found that the PLIs had larger cosine values to the just-recalled word in LSA space than the correct item did.[tpl]cite journal | url=https://memory.psych.upenn.edu/files/pubs/ZaroEtal06.pdf |format=PDF| title=Temporal Associations and Prior-List Intrusions in Free Recall | author=Franklin M. Zaromb et al. | booktitle=Interspeech'2005|year=2006[/tpl]  
+Another model, termed Word Association Spaces (WAS) is also used in memory studies and was developed by Douglas Nelson  at the University of South Florida by collecting free association data from a series of experiments and which includes measures of word relatedness for over 72,000 distinct word pairs.[tpl]cite web|last=Nelson|first=Douglas|title=The University of South Florida Word Association, Rhyme and Word Fragment Norms|url=http://w3.usf.edu/FreeAssociation/Intro.html|accessdate=5/8/2011[/tpl]
+
+== Implementation ==
+
+The SVD is typically computed using large matrix methods (for example, Lanczos methods) but may also be computed incrementally and with greatly reduced resources via a neural network-like approach, which does not require the large, full-rank matrix to be held in memory.[tpl]cite conference | url=http://www.dcs.shef.ac.uk/~genevieve/gorrell_webb.pdf |format=PDF| title=Generalized Hebbian Algorithm for Latent Semantic Analysis | author=Geneviève Gorrell and Brandyn Webb | booktitle=Interspeech'2005 |year=2005[/tpl]
+A fast, incremental, low-memory, large-matrix SVD algorithm has recently been developed.[tpl]cite journal | url=http://www.merl.com/reports/docs/TR2006-059.pdf |format=PDF| title=Fast Low-Rank Modifications of the Thin Singular Value Decomposition | author=Matthew Brand | journal=Linear Algebra and Its Applications | volume=415 | pages=20–30 | year=2006 | doi=10.1016/j.laa.2005.07.021 [/tpl] MATLAB and Python implementations of these fast algorithms are available. Unlike Gorrell and Webb's (2005) stochastic approximation, Brand's algorithm (2003) provides an exact solution.
+
+== Limitations ==
+
+Some of LSA's drawbacks include:
+* The resulting dimensions might be difficult to interpret. For instance, in
+:: {(car), (truck), (flower)} -->  {(1.3452 * car + 0.2828 * truck), (flower)}
+:the (1.3452 * car + 0.2828 * truck) component could be interpreted as "vehicle". However, it is very likely that cases close to
+:: {(car), (bottle), (flower)} -->  {(1.3452 * car + 0.2828 * bottle), (flower)}
+:will occur. This leads to results which can be justified on the mathematical level, but have no interpretable meaning in natural language.
+* LSA cannot capture polysemy (i.e., multiple meanings of a word).  Each occurrence of a word is treated as having the same meaning due to the word being represented as a single point in space.  For example, the occurrence of "chair" in a document containing "The Chair of the Board" and in a separate document containing "the chair maker" are considered the same.  The behavior results in the vector representation being an average of all the word's different meanings in the corpus, which can make it difficult for comparison.  However, the effect is often lessened due to words having a predominant sense throughout a corpus (i.e. not all meanings are equally likely).
+* Limitations of bag of words model (BOW), where a text is represented as an unordered collection of words.
+* The probabilistic model of LSA does not match observed data: LSA assumes that words and documents form a joint Gaussian model (ergodic hypothesis), while a Poisson distribution has been observed.  Thus, a newer alternative is probabilistic latent semantic analysis, based on a multinomial model, which is reported to give better results than standard LSA.[tpl]cite conference | url=http://www.cs.brown.edu/people/th/papers/Hofmann-UAI99.pdf |format=PDF| title=Probabilistic Latent Semantic Analysis | author=Thomas Hofmann | booktitle=Uncertainty in Artificial Intelligence |year=1999[/tpl]
+
+==Commercial Applications==
+
+LSA has been used to assist in performing prior art searches for patents.[tpl]Cite journal | author=Gerry J. Elman | title=Automated Patent Examination Support - A proposal | journal=Biotechnology Law Report | date=October 2007 | doi=10.1089/blr.2007.9896 | volume=26 | issue=5 | pages=435 | postscript=[tpl]inconsistent citations[/tpl][/tpl]
+
+== See also ==
+
+* Compound term processing
+* Latent Dirichlet allocation
+* Latent semantic mapping
+* Latent Semantic Structure Indexing
+* Principal components analysis
+* Probabilistic latent semantic analysis
+* Spamdexing
+* Vectorial semantics
+* Coh-Metrix
+
+== References ==
+
+* 
+
+* 
+ Original article where the model was first exposed.
+* 
+ (PDF). Illustration of the application of LSA to document retrieval.
+* 
+
+* 
+
+* 
+
+==External links==
+
+===Articles on LSA===
+
+* Latent Semantic Analysis, a scholarpedia article on LSA written by Tom Landauer, one of the creators of LSA.
+
+===Talks and Demonstrations===
+
+* LSA Overview, talk by Prof. Thomas Hofmann describing LSA, its applications in Information Retrieval, and its connections to probabilistic latent semantic analysis.
+* Complete LSA DEMO in C# for Windows. DEMO includes enumeration of text files, filtering stop words, stemming, making document-term matrix and SVD. Project can be used as template. C# version of SVDLIBC is used.
+
+===Implementations===
+
+Due to its cross-domain applications in Information Retrieval, Natural Language Processing (NLP), Cognitive Science and Computational Linguistics, LSA has been implemented to support many different kinds of applications.
+* Sense Clusters, an Information Retrieval-oriented perl implementation of LSA
+* S-Space Package, a Computational Linguistics and Cognitive Science-oriented Java implementation of LSA
+* Semantic Vectors applies Random Projection, LSA, and Reflective Random Indexing to Lucene term-document matrices
+* Infomap Project, an NLP-oriented C implementation of LSA (superseded by semanticvectors project)
+* Text to Matrix Generator, A MATLAB Toolbox for generating term-document matrices from text collections, with support for LSA
+* Gensim contains a fast, online Python implementation of LSA for matrices larger than RAM.
+

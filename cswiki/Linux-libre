@@ -1,0 +1,43 @@
+
+Linux-libre is a project that releases and maintains modified versions of the Linux kernel. Their kernel version removes any software that does not include its source code, has its source code obfuscated or released under proprietary licenses. The parts that have no source code are called binary blobs and are generally proprietary firmware which, while generally redistributable, generally do not give the user the freedom to modify or study them. 
+Linux-libre is endorsed by the Free Software Foundation, is a major component of the totally free GNU/Linux distributions, and is maintained and released by the Free Software Foundation Latin America (FSFLA).
+
+== Method of proprietary firmware removal ==
+
+The removal process is achieved by using a script called deblob-main. This script is inspired by the one used for gNewSense. Jeff Moe made subsequent modifications ​​to meet certain requirements for its use with the BLAG Linux and GNU distribution. There is another script called deblob-check, which is used to check if a kernel source file, a patch or a compressed sources file still contains software which is suspected of being proprietary.
+
+== Effects of removing proprietary firmware ==
+
+Aside from the primary intended effect of running a system with only free software, the practical consequences of removing device firmware that a user is not allowed to study or modify has both positive and negative effects. 
+Advantages include the removal of device firmware which cannot be audited for bugs and/or security problems, or fixed by the Linux kernel maintainers themselves even if they know of them. It is possible for the entire system to be compromised by a malicious firmware, and without the ability to perform a security audit on manufacturer-provided firmware, even an innocent bug could undermine the safety of the running system.[tpl]cite conference|conference=hack.lu|url=http://esec-lab.sogeti.com/dotclear/public/publications/10-hack.lu-nicreverse_slides.pdf|title=Reversing the Broacom NetExtreme's Firmware|date=2010-11-21|accessdate=2012-04-18|first=Guillaume|last=Delugré|format=PDF|publisher=Sogeti[/tpl]
+The downside of removing proprietary firmware from the kernel is that it will cause loss of functionality of certain hardware that does not have a free software replacement available. This affects certain sound, video,  TV tuner, and network cards, as well as some other devices. When possible, free software replacement firmware is provided as a substitute.[tpl]cite web|url=http://libreplanet.org/wiki/LinuxLibre:Devices_that_require_non-free_firmware |title=LinuxLibre:Devices that require non-free firmware |publisher=LibrePlanet |date=2011-02-05 |accessdate=2012-04-17[/tpl]
+
+== Availability ==
+
+The source code and precompiled packages of the deblobbed Linux kernel are available directly from the distributions which use the Linux-Libre scripts. Freed-ora is a subproject which prepares and maintains RPM packages based on the Fedora kernel. There are also precompiled packages for Debian and derived distributions such as Ubuntu.
+
+== Linux-libre distributions ==
+
+The following distributions have announced plans to use Linux-libre as its kernel:
+* dyne:bolic
+* Musix GNU/Linux
+
+== Real-time version ==
+
+The kernel of the dyne:bolic distribution has been compiled to work in real-time, giving it better performance for multimedia editing and other tasks which require hard latency guarentees. In addition, a realtime kernel is available in Trisquel as an optional download.
+
+== See also ==
+
+* Free Software Foundation Latin America
+* GNU
+* Linux kernel
+
+== References ==
+
+== External links ==
+
+* Linux-libre, Free as in Freedo (official site)
+* Linux (BLOB free version)
+* The Linux Kernel Archives
+* Free Software Corsica official .deb builder for the Free Software Latino America since 2010 
+

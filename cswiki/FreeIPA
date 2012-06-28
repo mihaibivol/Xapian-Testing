@@ -1,0 +1,16 @@
+
+FreeIPA is a Red Hat sponsored open source project which aims to provide an easily managed Identity, Policy and Audit (IPA) suite primarily targeted towards networks of Linux and Unix computers. FreeIPA can be compared to Novell's Identity Manager or Microsoft's Active Directory in that the goals and mechanisms used are similar.
+FreeIPA currently uses 389 Directory Server for its LDAP implementation, MIT's Kerberos 5 for authentication and single sign-on, the Apache and Python for the management framework and Web UI, and (optionally) Dogtag for the integrated CA and BIND with a custom plugin for the integrated DNS. Development versions also use Samba to integrate with Microsoft's Active Directory by way of Cross Forest Trusts.
+While each of the major components of FreeIPA is a pre-existing open source project it is the bundling of these components into a single manageable suite with a Comprehensive Management Interface that make FreeIPA more comparable to its proprietary software cousins, Identity Manager and Active Directory.
+FreeIPA aims to provide support not just for Linux and Unix based computers but ultimately Microsoft Windows and Apple Macintosh computers also.
+
+== See also ==
+
+* List of LDAP software
+* Identity management
+* List of single sign-on implementations
+
+== External links ==
+
+* Official website
+

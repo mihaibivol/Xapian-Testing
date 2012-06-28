@@ -1,0 +1,49 @@
+
+Archivista is a open source document management system which can be deployed as a virtual appliance on any platform (Linux/Windows), in addition, it can be run as embedded box or as cluster solution with multi core functionality.
+
+== License ==
+
+The ArchivistaBox falls under the GNU General Public License (Version 2). All versions of the ArchivistaBox are published pursuant to the GPL licence, i.e. the open source Edition is 100% the same in its make up as every commercial ArchivistaBox.
+
+== Usage ==
+
+ArchivistaBox comes with a web-based user interface and is set up with a few mouse clicks whether a single workstation is concerned or a storage cluster. No further software is needed. Document scanners, multi function copiers and internal services can be connected any time. The integrated print server (CUPS), for example, converts spool files automatically into an archive friendly format and sends them to the database where they remain in absolutely audit proof storage.
+
+== Features ==
+
+The ArchivistaBox concept comprises a set of ready-to-use DMS systems which can be put into operation without further ado: all the required features are pre-installed and implementation is kept to an absolute minimum. The advantages: 
+* Easy installation 
+* Webbased maintenance 
+* Modular design 
+* Scanner integration 
+* Backup concept 
+* Compatible with any Archivista solution 
+* Platform independence
+* No laborious filing of individual documents 
+* Convenient and comfortable searching in entire archives (incl. full text searches) 
+* Centrally controlled authorisations for users and user groups 
+* Multi-tenancy archives
+* Up to 80 user specific fields
+* Automatic OCR
+* Barcode and form recognition when scanning documents
+* Data upload
+* PDF download of every document
+* Graphics import from all standard commercial digital cameras
+* Internal user administration (with LDAP or HTTP request)
+* Optional ArchivistaERP module
+
+==External links==
+
+* Archivista live DEMO
+* Download ISO
+* Download Archivista RichClient 2007/III
+
+== References ==
+
+* 
+
+* 
+
+* 
+
+

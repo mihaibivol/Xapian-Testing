@@ -1,0 +1,32 @@
+
+In cryptography, the Anti-Statistical Block Encryption (ASBE) algorithm is described as anti-statistical + key-dependent block encryption. The encryption algorithm was released in 2011 by mathematician and cryptographer, Paul H. (Prem) Sobel, and is the first encryption to use variable encryption keys that scale in size from 251 bytes up to 2 GB.Prem Sobel Background Research New Statistical Algorithm and Work Leading to ASBE Algorithm 
+The algorithm is designed to defeat the attack models and methods of Cryptanalysis including Impossible Differential Cryptanalysis and Integral Cryptanalysis techniques which were introduced in 1998 by cryptographic researcher Lars Knudsen, as well as Differential Cryptanalysis,James McLaughlin Differential Cryptanalysis Chapter 2  Brute-Force attack, Davies' Attack,Donald W. Davies Publications In Cryptography and Information Systems Boomerang attack, and others.
+In March 2011, software using the ASBE algorithm was reviewed by National Security Agency and approved for export by US Bureau of Industry and Security as ECCN 5D992.cBIS/NSA ECCN 5D992.c Mass Market encryption with large key lengths for use in mass market.
+
+== ASBE Algorithm Characteristics ==
+
+* The algorithm is symmetric encryption.
+* Each encryption process always results in a different cyphertext with varying length, even when repeating the same input (plaintext to encrypt, key, and password).
+* Variable key length scales between 251 bytes and 2 gigabytes
+* Passwords scale to 64K bytes in length. The password is encrypted and becomes part of the resulting cyphertext.
+* The key and the password are sequences of bytes extracted from randomly generated data or from the contents of a digital file.
+::Automated Key and Password Generation: Random data generators create-destroy-recreate parameter-controlled keys  as needed by the user
+::Manual Key and Password Generation: The user designates settings, parameters, and inputs from the contents of any chosen digital file.
+
+== Exponential Mathematics in Cryptography ==
+
+Mathematical exponential notation is the quantity representing the power to which a number or expression is to be raised. An exponential quantity is a number with a superscripted number. This indicates that one should multiply the number by itself, the number of times of the superscripted number. For example 23  = 2 x 2 x 2 = 8.
+In cryptography, encryption keys are fixed in length, repeating over and over to produce the cyphertext. Brute force guesses and cryptanalysis deduces to determine the key and extract plaintext from cyphertext. The ASBE algorithm allows for keys of variable length from 2008 bits to 2 gigabyte. A 2008-bit key is a billion times a billion times a billion (times a Billion 58 times) stronger than a 256-bit key length. Every additional bit in a key doubles the number of possibilities and doubles the time to break it by brute force. Thus, each additional byte in the key increases by a multiplier of 28  = 256 times.
+The ASBE algorithm further allows passwords, with the same exponential characteristics as the key. Using the largest password of 64KB this multiplies the number of possibilities by 28 X 65535, which is 2524280 which is approximately 10157284. The cryptosystem of the ASBE algorithm extracts keys and passwords from any existing file or from randomly generated data. Using a 2-GB data source, there are up to 4,000,000,000,000,000,000 possible keys or 1,200,000,000,000,000 possible passwords. 
+
+== Cryptographic Contributions ==
+
+* The algorithm is not subject to attack models and methods of CryptanalysisSysAdmin, Audit, Network, Security Institute White PaperDepartment of the Arny Field ManualTech Target Definitions Types of Cryptanalysis defined
+* Mathematical approach of factoring or ECDLP or similar analysis cannot be used against the algorithm, as it uses a sequence of non-linear steps, which exhibit no periodic repetition.
+* Key generation, communication, and storage cannot be detected, as keys are generated-destroyed-recreated, on demand. Key transfer between end points is not necessary.
+* The use of the key is not cyclic in its length. Standard differential analysis and byte frequency cannot be used against it.
+* The encryption engine scrubs memory before exiting so the key, password, and other parameters are not available to be discovered by another program which allocates all available memory to examine it’s contents.
+
+== References ==
+
+

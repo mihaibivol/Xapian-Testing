@@ -1,0 +1,40 @@
+
+click.to is an Application software based on the Copy and Paste principle, and is part of the company Axonic Informationssysteme GmbH, which is headquartered in Karlsruhe, Germany. The application identifies data stored on the clipboard and automatically provides the user with a choice of appropriate program or web page features from a context menu.
+
+== How it works ==
+
+Underpinning click.to is the Copy & Paste principle; files, or the content of a document from an application in the cache, can be later reused from the clipboard in the same or another application. After  Installation, click.to runs automatically in the background. Once the clipboard is being used, the application identifies possible re-use options for the saved information and provides the user with these in a context menu, via the mouse cursor. click.to automatically and independently performs all the usual steps between the application being used at that moment and the target one, including opening programs or Web pages, performing searches, or entering login information.
+
+== Actions ==
+
+Each individual user can decide which features they want to use and which features to add to click.to. There are currently 23 actions included in the standard Freeware package.
+
+=== Default Actions ===
+
+=== Extensions ===
+
+Users and developers will be given the opportunity, either through an embedded form or by the use of the click.to  API, to customize functions and add search queries.  customized-actions / CustomizedActions. Online help click.to website. Accessed on 15 August 2011 .
+
+== System Requirements ==
+
+click.to is currently supported by the  operating systems;Windows    2000, XP,Vista, and Windows 7, the latter in both the 32-bit and 64-bit versions. It's also available for Apple's Mac OS X.
+
+== Competitors ==
+
+click.to is similar in functionality to the "Accelerators", which can be installed as an Add-on for Internet Explorers. This program also provides the installation of a small context menu with mouse cursor speed-dial functions within the browser functions.
+
+== External links ==
+
+* click.to Website
+* Skype blog with click.to integration reference from December, 2011
+* Publication on Techcrunch.com
+* Article from Mashable "Spark of Genius Series" September, 2011
+* Huffington Post article from October, 2011
+* SmallbizTechnology.com article from October, 2011 
+* pcmag.com article from October, 2011
+* Killerstartups.com article from July, 2011
+* Lifehacker.com article from July, 2011
+
+== References ==
+
+

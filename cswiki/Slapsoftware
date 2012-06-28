@@ -1,0 +1,54 @@
+
+The Slapsoftware, or Software Livre da Administração Processual ("Free Software of the Procedural Management"), is a Brazilian open source system, developed by a staff to be used in the automation of judicial, administrative and legislative procedures of the Public power. It's registered in INPI (National Industrial Propriety Institute).[tpl]cite web|url=http://revistas.inpi.gov.br/pdf/PATENTES2039.pdf|title=Patentes - Revista da Propriedade Industrial nº 2039|date=2 February 2010|publisher=Revista do Instituto Nacional de Propriedade Industrial|accessdate= 21 March 2012[/tpl] The applications of procedural automation or management are those that deal with a core activity related to the public management, more specifically to the procedures (sets of acts with a purpose), systems with features of research, control, follow-up and storing of data, beyond other ones. That applications are known by various names, like judicial automation, digital procedure, electronic process of law or even protocol.
+
+== Purposes ==
+
+The project Slapsoftware was created with the main purpose of economy to public treasure by the reuse of modules in the systems of the various Public Departments, Public powers and scopes of the Public Management.
+It intends too to eliminate the institutional wasting with successive installations of new systems because of fails caused by different ethiologies.[tpl]cite web|url=http://tjmt.myclipp.inf.br/file/pdf/dodia/2011Jul05_noticias.pdf|title=Sistema Privado é Melhor para Virtualizar a Justiça|author=Tribunal de Justiça do Mato Grosso|date=5 July 2011|publisher=Myclipp|accessdate=22 March 2012[/tpl] Finally, to set into this theme's community a set of knowledge items in the scope of the interdisciplinarity between law and IT.
+
+== Concepts ==
+
+The Slapsoftware starts, as basic principle, with the idea of generalization. This appears in conceiving that there is a root principiology in which concerns his concept in information systems, agrouping three big subsets (judicial, administrative and legisative), as the most granularized divisions (civil, criminal), their applications in various environments (instance of jurisdiction, departments, special courts) and, finally, the kind of materializing documents (paper or electronics).[tpl]cite web|url=http://www.mauricio.bastos.nom.br/processo-eletronico/9887-slapsoftware-voce-ja-ouviu-falar.html|title=Slapsoftware, Alguém Já Ouviu Falar?|publisher=Maurício Bastos Juiz do Trabalho|accessdate=22 March 2012[/tpl]
+Beyond, the modularization and reuse appear as fundamental concepts, related to necessity of adapting and communication between different systems in a country of continental size. Its core is founded in IT conceptions of object-orientation, component-orientatation and parametrized system. The idea of open source or free software, mixed with the wiki paradigm, are detached in the concepts of Slapsoftware because it starts from the premise of this type of development as a nowadays reality in all other areas of IT application.[tpl]cite web|url=http://erguesdajustica.blogspot.com.br/2009_10_01_archive.html|title=E Viva o Processo Digital|date=13 October 2009|publisher=Ergues da Justiça a Clava Forte|accessdate=22 March 2012[/tpl]
+
+== Modules ==
+
+The Slapsoftware,Slapsoftware talking about formal elements, has a case, example applications, documentations UML and handbooks directed to all the spectrum of its public.
+
+== Interation with community ==
+
+The Slapsoftware interacts with the general midia,[tpl]cite web|url=http://tribunadonorte.com.br/print.php?not_id=129521|title=Juiz Desenvolve Projeto para Administrações Públicas|date=27 October 2009|publisher=Tribuna do Norte|accessdate=21 March 2012[/tpl][tpl]cite web|url=http://www.correiodatarde.com.br/editorias/correio_natal-49234|title=Juiz Desenvolve Sistema para Integrar Administração PúblicaJuiz |date=3 November 2009|publisher=Correio da Tarde|accessdate=21 March 2012[/tpl] with the official institutions,[tpl]cite web|url=http://www.tjrn.jus.br:8080/sitetj/GerenciadorServlet.do?action=GerenciadorWeb&operacao=exibirInternet&id=4681&secaoSelecionada_id=9&registrarLeitura=true|title=Juiz Desenvolve Sistema para Integrar Administração Pública|date=28 October 2009|publisher=Tribunal de Justiça do Rio Grande do Norte|accessdate=21 March 2012[/tpl][tpl]cite web|url=http://www.amarn.com.br/_resources/files/_modules/publicacao/publicacao_92_20091120125955bc16.pdf|title=Boletim Eletrônico Amarn|date=7 November 2009|publisher=Associação dos Magistrados do Rio Grande do Norte|accessdate=21 March 2012[/tpl] as well as the different social networksTwitter and other available tools in the world wide web.Yahoo GruposSourceforge
+
+== History ==
+
+It started in January 2008[tpl]citation needed|date=March 2012[/tpl], in progress nowadays. Since then it's shown in lectures[tpl]cite web|url=http://www.roraimaemfoco.com/colunistas/geral-mainmenu-45/4737-informatiza-do-poder-judicio-serema-de-palestra-durante-encontro-de-magistrados.html|title=Informatização do Poder Judiciário será Tema de Palestra Durante Encontro de Magistrados|publisher=Roraima em Foco|accessdate=22 March 2012[/tpl] and thereby studied by interested student,  executive and staff members, in the way of becoming institutional to achieve the public economy.
+
+== See also ==
+
+*Lawsuit
+*Virtual world
+*Audiovisual
+*Electronic process of law in Brazil
+
+== References ==
+
+== Bibiliography ==
+
+* Almeida Filho, José Carlos Araújo, Processo Eletrônico e Teoria Geral do Processo Eletrônico, Forense, 2007
+* Clementino, Edilberto Barbosa, Processo Judicial Eletrônico em Conformidade com a Lei 11.419, de 19/12/2006, Juruá, 2006
+* Larman, Craig. Utilizando UML e Padrões. 3rd Ed. Bookman, 2007. FOWLER, Martin. UML [tpl]Not a typo|Essencial[/tpl] – Um breve guia para a linguagem padrão de modelagem de objetos. 3rd Ed.
+* Bookman, 2005. Blaha, Michael; RUMBAUGH, James. Modelagem e Projetos Baseados em Objetos com UML 2. 1st Ed. Campus, 2006.
+* Meilir, Page Jones. Fundamentos Do Desenho Orientado a Objeto Com Uml. 1st Ed. Makron Books, 2001.
+* Booch, Grady; Rumbaugh, James; Jacobson, Ivar. UML - Guia do usuário. 2nd Ed. Campus, 2006.
+* Block, Joshua. Java Efetivo. 3rd Ed. Alta Books, 2008.
+* Deitel, Harvey M.; Deitel, Paul J. Java: Como Programar. 6th Ed. Prentice-Hall, 2005.
+* Linden, Peter Van Der. Simplesmente Java 2. 6th Ed. Alta Books, 2005. PRESSMAN, Roger S. Engenharia de Software. 6th Edição. McGraw-Hill, 2006. Sommerville, Ian. Engenharia de Software. 8ª Ed. Pearson Education Do Brasil, 2007.
+
+== External links ==
+
+* Official site
+* Twitter
+* Forum
+* Talk group
+* Source
+

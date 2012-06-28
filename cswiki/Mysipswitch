@@ -1,0 +1,54 @@
+
+MySIPSwitch is a Voice over IP (VoIP) open-source software under BSD licence and a free service.
+
+==MySIPSwitch==
+
+MySIPSwitch is an experimental stateful SIP Proxy server sponsored by Blue Face to allow the use of multiple supplier SIP accounts from a single SIP login. It basically means that you can use many SIP accounts with a single piece of hardware (IP Phone, ATA or softphone).
+The service is based on a dial plan (written either in Asterisk-like syntax or in Ruby). This dial plan allows routing of inbound and outbound calls depending on the parameters you want : call prefix, time of the day, availability … You can fork an incoming call to various end points, you can forward the call to a second or third end point if the first ones are not responding, you can block calls, you can create a speed dial directory (for instance if you press *1 or *2 …, it automatically dials, the number you specified …). On top of these call management features you have various debugging tools that allow playing with and testing the service.
+MySIPSwitch also allows the handling of  SIP phone calls from web browsers: hangup, transfer, forward, hold and resume. It is possible to take an incoming call from one provider and forward it onto another provider without having to have a device registered. This makes it possible to receive a call without the need for a VoIP device at all.www.mysipswitch.com/forum/viewtopic.php?p=387#387
+MySIPSwitch has a user discussion forum  allowing developers to improve it according to the feedback from users.[tpl] cite web |title=MySIPSwitch user forum |url=http://www.mysipswitch.com/forum/index.php [/tpl]
+The development language is C#, the database environment is PostgreSQL and the interface is a website.
+The source code can be downloaded from SIPSwitch's page on Codeplex.
+
+==Features==
+
+* SIP account creation
+* Setting up a customised dial plan
+* Setting up 3rd party SIP Registrations
+* SIP traffic forwarding
+* SIP Accounts activity monitoring via the website
+* SIP traffic monitoring via telnet
+* Online switchboard: call hold/resume, call transfer/forward, call hangup
+* Usual security features
+* Click to Call (Beta)
+* Possibility to run it on a local computer
+* Multiple call forwarding
+* RUBY Dial plans
+* ENUM Lookup
+
+==History==
+
+* November 2006: Created by Aaron Clauson from Blueface
+* January 2007: Improvements thanks to user's feedback
+* April 2007: New features: call management functions, new dial plan interface
+* July 2007: Creation of a dedicated forum
+* August 2007: Bugs corrections and 3rd party registrations improvements
+* October 2007: New layout (it now looks much better)
+* October 2007: new feature: possibility to use the dial plan for incoming calls
+* February 2008: new features : click to call and local version
+* March 2008: Ruby (programming language) Dial plan
+* February 2009: New tool to automatically generate Ruby Dial Plans. more info
+* June 2009: New accounts are no longer being accepted. The mysipswitch.com site recommends that users use their new non-free service at sipsorcery.com
+
+==References==
+
+==External links==
+
+*MySIPSwitch official site
+
+==See also==
+
+*VoIP
+*Voice over IP
+*SIP
+

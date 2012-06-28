@@ -1,0 +1,41 @@
+
+The Ubuntu-Med project  is a Kubuntu-based operating system customization created to provide a co-ordinated operating system and collection of available free software packages that are suited to the requirements of medical practices and research.
+
+== Packages ==
+
+Ubuntu-Med includes packages in the categories:
+* Electronic health record (electronic medical record) server / client systems:
+:*OpenVistA EHR
+* Medical practice and patient management
+* Medical imaging
+* Documentation and research
+* Other software:
+:*Website software (Drupal)
+:*Wiki software (MediaWiki)
+:*Group calendaring server (DAViCal)
+:*Teleconferencing server (BigBlueButton)
+:*Patient education / online teaching server (Moodle)
+All software and packages are open-source, with a goal of GPL-licensure.
+This system has been in use by some medical practitioners.[tpl]cite web|title=Ubuntu Doctors Guild: Community Portal |url=http://ubuntudoctorsguild.dyndns.org/public/index.php/Ubuntu_Doctors_Guild:Community_Portal| publisher=Ubuntu Doctors Guild (Jan 2010)[/tpl]
+
+== Availability ==
+
+Ubuntu-Med is available as a self-installing Live CD image (which is a Kubuntu remaster) or as a Filesystem Archive. Both are available from the project website at Sourceforge.
+
+== See also ==
+
+* Electronic health record
+* Health informatics
+
+== References ==
+
+== External links ==
+
+* Ubuntu-Med – Homepage of the Project
+
+== Related projects ==
+
+* Debian-Med - a collection of packages intended for use in medical situations for Debian-based operating systems
+* Project EU Spirit – European portal for open-source based software in medicine
+* Open Med – Support for free medical software (German)
+

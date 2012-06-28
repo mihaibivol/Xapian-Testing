@@ -1,0 +1,18 @@
+
+xdelta is a command line program for delta encoding, which generates two file difference. This is similar to diff and patch, but it is targeted for binary files and does not generate human readable output.
+It is first released in 1997.mention of first version It is based on the algorithm of rsync, which is developed by Andrew Tridgell. The developer of xdelta is Joshua MacDonald and the program is currently maintained by him.
+Recent xdelta3 has some unique functions. It can generate standardized VCDIFF format, and it realized the compatibility among other delta encoding software which supports VCDIFF format. It runs on Unix-like operating systems and Microsoft Windows. xdelta can handle up to 264 bytes files in any platform,xdelta3 memory tuning and it is suitable for large scale backup.
+
+== See also ==
+
+*Delta encoding
+*VCDIFF
+
+== References ==
+
+== External links  ==
+
+* Official homepage
+* Andrew Tridgell's PHD on rsync, with a section on xdelta
+* RFC 3284, The VCDIFF Generic Differencing and Compression Data
+

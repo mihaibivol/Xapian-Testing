@@ -1,0 +1,79 @@
+
+NetKernel is an implementation of the resource oriented computing (ROC) abstraction. ROC is a logical computing model that resides on top of but is completely isolated from the physical realm of code and objects. In ROC information and services are identified by logical addresses which are resolved to physical endpoints for the duration of a request and then released. Logical indirect addressing results in flexible systems that can be changed while the system is in operation. In NetKernel the boundary between the logical and physical layers is intermediated by an operation-system caliber microkernel that can perform various transparent optimization.
+The idea of using resources to model abstract information stems from the REST architectural style
+and the World Wide Web. The idea of using a uniform addressing model stems from the Unix operating system. NetKernel can be considered a unification of the Web and Unix implemented as a
+software operating system running on a microkernel within a single computer.
+NetKernel was developed by 1060 Research and is offered under a dual open source and commercial software license.
+
+==Concepts==
+
+===Resource===
+
+A resource is identifiable information within a computer system. Resources are an abstract notion and they cannot be manipulated directly. When a resource is requested, a concrete, immutable representation
+is provided which captures the current state of the resource. This is directly analogous to the way the World Wide Web functions. On the Web, a URL address identifies a globally accessible resource. When a browser issues a request for the resource it is sent a representation of the resource in the response.
+
+===Addresses===
+
+A resource is identified by an address within an address space. In NetKernel Uniform Resource Identifier (URI) addresses are used to identify  all resources.
+Unlike the Web, which has a single global address space, NetKernel supports an unlimited number of address spaces and supports relationships between address spaces.
+NetKernel supports a variety of URI schemes and introduces new ones specifically applicable to URI addressing within a software system.
+
+===Request===
+
+The fundamental operation in NetKernel is a resource request, or request.
+A  request consists of a resource URI address and a verb.
+Supported verbs include  
+SOURCE, SINK, NEW, DELETE, EXISTS and META.
+Each request is dispatched to a microkernel which resolves the URI address to a physical endpoint and assigns and schedules a
+thread for processing.
+When the endpoint completes processing the microkernel returns the response to the initiating client.
+
+==Programming==
+
+The fundamental instruction in NetKernel is a resource request, specified by a URI. Mechanisms that sequence URI requests are located above the microkernel. In the current Java-based implementation, requests are dispatched using a Java API. This implies that any language that can call a Java API can be used to program NetKernel.
+The set of languages currently (November 2007) supported includes: Java, Ruby, JavaScript, Python, Groovy, Beanshell, PHP, DPML, and XML related languages such as XQuery, etc. The URI specification itself has sufficient richness to express a functional programming language.
+
+===Active URI Scheme===
+
+The 
+active URI scheme was proposed by Hewlett-Packard as a means to encode
+a functional program within a URI.
+ active: {function-name} {parameter-name} @ {parameter-value-URI}*
+For example, the following URI calls a random number generator
+ active:random and the following uses an XSLT service to transform an XML document with an XSLT stylesheet:
+ active:xslt+operator@file:/style.xsl+operand@file:/document.xml Because the argument values may be URI addresses themselves, a tree-structured set of
+function calls can be encoded in a single URI.
+
+===Transports===
+
+Transports are a mechanism used to introduce requests from outside of NetKernel to the NetKernel address space. 
+Transports are available for the HTTP protocol, JMS (Java Messaging Service), and CRON.
+Other transports can be easily added as they are independent from the rest of NetKernel.
+The role of the transport is to translate an external request based on one protocol into a NetKernel request with a URI and a specific verb (SOURCE, SINK, etc.) and then to send the returned representation back to the client via the supported protocol.
+Two mappings are handled by a transport. The first is between the address space of the externally supported protocol to the internal NetKernel address space. And the second is between the verb or action specified externally into a NetKernel verb.
+For example, in the case of the HTTP transport, the external address space is a sub-space of a URL. 
+The following mapping illustrates this point.
+ http://www.mywebsite.com/publications/...
+              |
+             v
+file:/src/publications/...In addition, the HTTP protocol supports methods such as GET, PUT, HEAD, etc.
+which are mapped to NetKernel verbs.
+
+===Scripting Languages===
+
+A mechanism is needed to issue the URI requests, capture the returned representations, and communicate with clients.
+Scripting languages are executed by their runtime engine, which is itself a service. 
+For example, the Groovy language runtime will run a program contained in the file
+file:/program.gy with the following:
+ active:groovy+operator@file:/program.gy
+
+== See also ==
+
+* Representational State Transfer
+* Resource (Web)
+
+== External links ==
+
+* 1060 Research
+* netkernel.org
+

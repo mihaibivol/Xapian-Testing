@@ -1,0 +1,72 @@
+
+The Common Manageability Programming Interface (CMPI) is an open standard that defines a programming interface between a CIM server and CIM providers.
+
+==Overview==
+
+The CMPI standard is defined by the CMPI Working Group of The Open Group and is implementation neutral.
+The CMPI programming interface is defined for the C programming language. Its C header files are enabled for C++. In addition, there are C++ utility macros that allow accessing the interface in a way that is more typical to C++.
+
+==Benefits==
+
+Before the introduction of CMPI, each CIM server implementation had its own specific programming interface for CIM providers (e.g. WMI COM API, OpenPegasus C++ API, OpenWBEM C++ API, etc.). CMPI allows CIM providers to be developed that are mostly or completely agnostic to the type of CIM server they are being used with. Therefore, CMPI providers can be deployed across a variety of operating environments with no or minimal adaptation work. This protects the investment in these CIM providers.
+
+==Standards development==
+
+The original input to the CMPI standard was submitted by IBM to The Open Group in 2003. Along with the submission, an implementation was conducted as part of the SBLIM project.[tpl]cite web | url = http://www.opengroup.org/sophocles/show_mail.tpl?CALLER=show_archive.tpl&source=L&listname=wbemsource&id=413 | title = OpenGroup wbemsource mailing list: CMPI Based Instrumentation Available | year = 2003 | accessdate = 2009-04-23[/tpl]
+In late 2004, CMPI V1.0 was released by The Open Group as a Technical Standard.
+The current version of CMPI is V2.0 and was released in late 2006.
+
+==List of products or projects supporting CMPI==
+
+Note: The following list is likely incomplete. Please help to complete the list.
+
+===CIM servers===
+
+* OpenPegasus
+* Small Footprint CIM Broker (SFCB)
+* WBEM Solutions C WBEM Server
+* WBEM Solutions J WBEM Server
+* OpenWBEM
+
+===CIM providers===
+
+* SBLIM CMPI providers for Linux
+* XenSource CMPI providers for Xen
+* CMPI providers for libvirt/KVM
+* CIM support on IBM z/OS 1.10
+* CIM support on IBM AIX 6.1
+
+===Tools===
+
+* Extensible CIM UML Tooling Environment (ECUTE)
+* CIMPLE Provider Development Environment (SimpleWBEM)
+* Konkret CMPI 
+* OpenDRIM C++ Template
+
+==See also==
+
+* CIM
+
+==References==
+
+==External links==
+
+===CMPI 2.0 Standard===
+
+* CMPI 2.0 Specification
+* CMPI 2.0 C header files
+
+===CMPI 1.0 Standard===
+
+* CMPI 1.0 Specification
+* CMPI 1.0 Technical Corrigendum 1
+* CMPI 1.0 Technical Corrigendum 2
+* CMPI 1.0 header files on SBLIM project
+
+===General links===
+
+* CMPI Working Group at TOG
+* Developing CMPI Providers for z/OS
+* The Open Group (TOG)
+* SBLIM project on SourceForge
+

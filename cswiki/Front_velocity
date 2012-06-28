@@ -1,0 +1,13 @@
+
+In physics, front velocity is the speed at which the first rise of a pulse above zero moves forward.
+In mathematics, it is also used to describe the velocity of a possibly propagating front in the solution of hyperbolic partial differential equation.
+
+== Various velocities ==
+
+Associated with propagation of a disturbance are several different velocities.[tpl]cite book |title=Fast light, slow light and left-handed light |author=Peter W Milonni |url=http://books.google.com/books?id=kE8OUCvt7ecC&pg=PA26 |pages=26 ff |isbn=0-7503-0926-1 |year=2004 |publisher=CRC Press[/tpl] For definiteness, consider an amplitude modulated electromagnetic carrier wave. The phase velocity is the wave speed of the carrier. The group velocity is the wave speed of the modulation or envelope. Initially it was thought that the group velocity coincided with the speed at which information traveled. However, it turns out that this speed can exceed the speed of light in some circumstances, causing a conflict with the theory of relativity. That observation led to consideration of what constitutes a signal.
+A signal involves new information or an element of 'surprise' that cannot be predicted from the wave motion at an earlier time. Thus, a possible form for a signal is:
+where u(t)  is the Heaviside step function. Using such a form for a signal, it can be shown, subject to the (expected) condition that the refractive index of any medium tends to one as the frequency tends to infinity, that the wave discontinuity, called the front, propagates at a speed less than or equal to the speed of light c in any medium. In fact, the earliest appearance of the front (the precursor) travels at the front velocity c, no matter what the medium.[tpl]cite book |title=Electromagnetic theory |author=Julius Adams Stratton |url=http://books.google.com/books?id=zFeWdS2luE4C&pg=PA337 |page=337 |isbn=0-470-13153-5 |publisher=Wiley/IEEE |year=2007 |edition=Classic reissue of 1941 [/tpl] However, the process always starts from zero amplitude and builds up.
+
+== References ==
+
+

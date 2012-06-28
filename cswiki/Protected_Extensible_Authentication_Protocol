@@ -1,0 +1,42 @@
+
+: PEAP is also an acronym for Personal Egress Air Packs.
+The Protected Extensible Authentication Protocol, also known as Protected EAP or simply PEAP, is a protocol that encapsulates the Extensible Authentication Protocol (EAP) within an encrypted and authenticated Transport Layer Security (TLS) tunnel.Microsoft's PEAP version 0, draft-kamath-pppext-peapv0-00, §1.1Protected EAP Protocol (PEAP) Version 2, draft-josefsson-pppext-eap-tls-eap-10, abstractProtected EAP Protocol (PEAP) Version 2, draft-josefsson-pppext-eap-tls-eap-10, §1 The purpose was to correct deficiencies in EAP; EAP assumed a protected communication channel, such as that provided by physical security, so facilities for protection of the EAP conversation were not provided.Protected EAP Protocol (PEAP) Version 2, draft-josefsson-pppext-eap-tls-eap-07, §1
+PEAP was jointly developed by Cisco Systems, Microsoft, and RSA Security. PEAPv0 was the version included with Microsoft Windows XP and was nominally defined in draft-kamath-pppext-peapv0-00. PEAPv1 and PEAPv2 were defined in different versions of draft-josefsson-pppext-eap-tls-eap. PEAPv1 was defined in draft-josefsson-pppext-eap-tls-eap-00 through draft-josefsson-pppext-eap-tls-eap-05,Protected EAP Protocol (PEAP), draft-josefsson-pppext-eap-tls-eap-05, §2.3 and PEAPv2 was defined in versions beginning with draft-josefsson-pppext-eap-tls-eap-06.Protected EAP Protocol (PEAP), draft-josefsson-pppext-eap-tls-eap-06, §2.3
+The protocol only specifies chaining multiple EAP mechanisms and not any specific method.Protected EAP Protocol (PEAP) Version 2, draft-josefsson-pppext-eap-tls-eap-10, §2 However, use of the EAP-MSCHAPv2 and EAP-GTC methods are the most commonly supported.[tpl]Citation needed|date=April 2010[/tpl]
+
+==Overview==
+
+PEAP is similar in design to EAP-TTLS, requiring only a server-side PKI certificate to create a secure TLS tunnel to protect user authentication, and uses server-side public key certificates to authenticate the server. It then creates an encrypted TLS tunnel between the client and the authentication server. In most configurations, the keys for this encryption are transported using the server's public key. The ensuing exchange of authentication information inside the tunnel to authenticate the client is then encrypted and user credentials are safe from eavesdropping.
+As of May 2005, there were two PEAP sub-types certified for the updated WPA and WPA2 standard. They are:
+* PEAPv0/EAP-MSCHAPv2
+* PEAPv1/EAP-GTC
+PEAPv0 and PEAPv1 both refer to the outer authentication method and are the mechanisms that create the secure TLS tunnel to protect subsequent authentication transactions.  EAP-MSCHAPv2, EAP-GTC, and EAP-SIM refer to the inner authentication methods which provide user or device authentication. 
+Within Cisco products, PEAPv0 supports inner EAP methods EAP-MSCHAPv2 and EAP-SIM while PEAPv1 supports inner EAP methods EAP-GTC and EAP-SIM. Since Microsoft only supports PEAPv0 and doesn’t support PEAPv1, Microsoft simply calls PEAPv0 PEAP without the v0 or v1 designator. Another difference between Microsoft and Cisco is that Microsoft only supports the EAP-MSCHAPv2 method and not the EAP-SIM method. 
+However, Microsoft supports another form of PEAPv0 (which Microsoft calls PEAP-EAP-TLS) that Cisco and other third-party server and client software don’t support. PEAP-EAP-TLS  requires client installation of a client-side digital certificate or a more secure smartcard. PEAP-EAP-TLS is very similar in operation to the original EAP-TLS but provides slightly more protection because portions of the client certificate that are unencrypted in EAP-TLS are encrypted in PEAP-EAP-TLS. Ultimately, PEAPv0/EAP-MSCHAPv2 is by far the most prevalent implementation of PEAP, due to the integration of PEAPv0 into Microsoft Windows products. Cisco's CSSC client now supports PEAP-EAP-TLS.
+PEAP has been so successful in the market place that even Funk Software, the defunct inventor and backer of EAP-TTLS, had no choice but to support PEAP in their server and client software for wireless networks.
+
+==PEAPv0 with EAP-MSCHAPv2==
+
+PEAPv0/EAP-MSCHAPv2 is the most common form of PEAP in use, and what is usually referred to as PEAP.  The inner authentication protocol is Microsoft's Challenge Handshake Authentication Protocol, meaning it allows authentication to databases that support the MS-CHAPv2 format, including Microsoft NT and Microsoft Active Directory.
+Behind EAP-TLS, PEAPv0/EAP-MSCHAPv2 is the second most widely supported EAP standard in the world. There are client and server implementations of it from various vendors, including support in all recent releases from Microsoft, Apple Computer and Cisco. Other implementations exist, such as the xsupplicant from the Open1x.org project, and wpa supplicant.
+As with other 802.1X and EAP types, dynamic encryption can be used with PEAP.
+A CA certificate must be used at each client to authenticate the server to each client before the client submits authentication credentials. If the CA certificate is not validated it is generally trivially easy (in wireless networks) to introduce a fake Access Point which allows gathering MS-CHAPv2 handshakes, which on recent hardware can be cracked in a matter of seconds.
+
+== PEAPv1 with EAP-GTC ==
+
+PEAPv1/EAP-GTC was created by Cisco to provide interoperability with existing token card and directory based authentication systems via a protected channel.  Even though Microsoft co-invented the PEAP standard, Microsoft never added support for PEAPv1 in general, which means PEAPv1/EAP-GTC has no native Windows OS support. Since Cisco has typically recommended lightweight EAP protocols such as LEAP and EAP-FAST protocols instead of PEAP, PEAP has not been as widely adopted as some had hoped.  
+With no interest from Microsoft to support PEAPv1 and no promotion from Cisco, PEAPv1 authentication is rarely used.[tpl]when|date=April 2010[/tpl]
+Even in Windows 7, released in late 2009, Microsoft has not added support for any other authentication system other than MSCHAPv2.
+[tpl]As of|2010[/tpl], there are very few operating systems with native support for this EAP protocol. Nokia E66 and later mobile phones ship with a version of Symbian which includes EAP-GTC support.
+
+==References==
+
+* http://blogs.zdnet.com/Ou/index.php?p=67 - Understanding the updated WPA and WPA2 standards.
+
+==External links==
+
+* draft-kamath-pppext-peapv0 - Microsoft's PEAP version 0
+* draft-josefsson-pppext-eap-tls-eap - The EAP-TLS protocol specifications
+* Configure RADIUS for secure 802.1x wireless LAN
+* How to self-sign a RADIUS server for secure PEAP or EAP-TTLS authentication
+

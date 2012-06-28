@@ -1,0 +1,65 @@
+
+The RVU Alliance (RVUA) is a standards body created to manage the RVU protocol standard as used by manufacturers of consumer electronics to allow entertainment devices within the home to share their content with each other across a home network.
+
+==Overview==
+
+The RVU Alliance exists to further the adoption and acceptance of the RVU protocol, a communications protocol, built substantially upon the pre-existing Digital Living Network Alliance (DLNA) standards. The RVU protocol is intended to solve the problems inherent in viewing live or recorded digital media remotely across a Home network. For example, an RVU compliant TV will be able to view music, photos & video from an RVU compliant media server.  The RVU protocol specifically can deal with the passing of broadcast video coming from a Multichannel video programming distributor through a residential gateway or dedicated media server to other consumer electronic devices in the home. The RVU protocol includes a pixel-accurate Remote User Interface (RUI) technology that allows the media server to fully control the client user experience.
+
+==Remote User Interface==
+
+The RUI concepts makes use of a server device which implements all content bitmaps and graphics functions for a number of remote client devices. In this way a server can be used to generate a user guide experience specific to a TV service providers “look and feel”, and send that experience to a client device. The client can then display this graphics data without the need for any proprietary software from that service provider. RVU technology enables a compliant client device to offer user interface interactions such as guide, trick play, and interactive applications all without the presence of a dedicated set-top box. 
+RVU Server devices will be provided by television content providers such as satellite, cable and telco broadcasters. Client devices such as televisions, Blu Ray players and PCs need only be compliant with the requirements of the RVU Protocol to work with an RVU server.
+
+==Aims==
+
+The published aims of the RVU Alliance are to expand the use of the RVU Protocol to enable users to:  
+*Receive the same experience at every TV through the same look and feel
+*Provide access to high-definition programming from any TV in the home
+*Record and playback high-definition programming from any TV in the home
+*Access to personal media content (e.g., videos and photos) from any TV in the home
+*Interact with weather, enhanced sports, and other interactive applications from any TV in the home
+*Access content available on more devices (including personal media players and PCs)
+
+==Participating companies==
+
+There are 5 founding members: Broadcom, Cisco Systems, DIRECTV, Samsung Electronics and Verizon.
+As of January 2012, there are:
+* 14 promoter members:
+:Entropic Communications, Huawei, Humax, JetHead Development, LG Electronics, Morega Systems, Pace, Qualcomm Atheros, Sigma Designs, SKY, STMicroelectronics, Technicolor, Trident Microsystems and ViXS Systems.
+* 18 contributor members:
+:Allegro Software, Beechwoods Software, Bouygues Telecom, CSR plc, Echostar Technologies,  Lantiq Deutschland GmbH, Marvell International, Mediatek Inc., MStar Semiconductor, NDS Limited, Probrand International, Inc., Quantenna Communications Inc., Red Embedded Consulting, Sony Corporation, UNH-IOL, Universal Electronics Inc., Wistron NeWeb Corporation and Zinwell Corporation.
+The RVUA is run by a board of directors consisting of the RVUA President and representatives from all five founding members:Board of Directors Link 
+The board of directors oversees the activity of the following Working Groups: 
+*Certification Working Group (CWG), overseeing the certification program and its evolutions.
+*Marketing Working Group (MWG), actively promoting RVUA worldwide.
+*Technical Working Group (TWG), writing the RVUA technical guidelines and evolving the RVU protocol specification.
+*Wireless Working Group (WWG), expanding the RVUA guidelines for use in a wireless environment.
+
+==History==
+
+RVUA was formed in August 2009 as the RVU Alliance.
+
+==Specification==
+
+The RVU protocol specification V1.0 is currently ratified by the board and available to members for implementation. The RVU Alliance started working on RVU 2.0 in early 2012 to expand the protocol to mobile and cloud based devices.
+Any product with a network interface (e.g. MoCA, Ethernet, WiFi or otherwise) can become an RVU-connected device by installing RVU compatible software.
+The specification is in large part dependent on the DLNA specification.
+The specification uses DTCP/IP as "link protection" for copyright-protected commercial content between one device and another.http://www.dlna.org/about_us/roadmap/DLNA_Whitepaper.pdf page 4, Table 1
+
+==Certification==
+
+The RVUA certification program went live in June 2011.
+Certification will involve Conformance Testing and Interoperability Testing of RVU-compatible devices. 
+Once certified, a product is granted a license to use the RVU logo.
+
+==Products supporting RVU==
+
+The first RVU-compatible consumer products were released at the end of 2011. See www.rvualliance.org/products for more details.
+
+==External links==
+
+* RVU Alliance
+
+==References==
+
+

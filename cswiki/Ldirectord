@@ -1,0 +1,4 @@
+
+ldirector  (Linux Director Daemon) is used to monitor and administer real servers in the LVS (Linux Virtual Server) cluster.
+Ldirectord monitors the health of the real servers by periodically requesting a known URL and checking that the response contains an expected string. If a service fails on a server, then the server is taken out of the pool of real-servers and will be reinserted once it comes back on line.
+

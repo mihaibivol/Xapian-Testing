@@ -1,0 +1,61 @@
+
+Computer science in sport is an interdisciplinary discipline that has its goal in combining the theoretical as well as practical aspects and methods of the areas of informatics and sport science. The main emphasis of the interdisciplinarity is placed on the application and use of computer-based but also mathematical techniques in sport science, aiming in this way at the support and advancement of theory and practice in sports.[tpl]cite web|author=Daniel Link & Martin Lames|title=Sport Informatics – Historical Roots, Interdisciplinarity and Future Developments|year=2009[/tpl] IJCSS Volume 8 Edition 2, 68-87. The reason why computer science has become an important partner for sport science is mainly connected with “the fact that the use of data and media, the design of models, the analysis of systems etc. increasingly requires the support of suitable tools and concepts which are developed and available in computer science”.[tpl]cite web|author=Arnold Baca|title=Computer science in sport: an overview of history, present fields and future applications (part I)|year=2006[/tpl] IJCSS Special Edition 2/2006, 25-35.
+
+== Historical background ==
+
+Going back in history, computers in sports were used for the first time in the 1960s, when the main purpose was to accumulate sports information. Databases were created and expanded in order to launch documentation and dissemination of publications like articles or books that contain any kind of knowledge related to sports science. Until the mid 1970s also the first organization in this area called IASI (International Association for Sports Information) was formally established. Congresses and meetings were organized more often with the aim of standardization and rationalization of sports documentation. Since at that time this area was obviously less computer-oriented, specialists talk about sports information rather than sports informatics when mentioning the beginning of this field of science.
+Based on the progress of computer science and the invention of more powerful computer hardware in the 1970s, also the real history of computer science in sport began.[tpl]cite web|author=Jürgen Perl|title=Computer science in sport: an overview of history, present fields and future applications (part II)|year=2006[/tpl] IJCSS Special Edition 2/2006, 36-46. This was as well the first time when this term was officially used and the initiation of a very important evolution in sports science.
+In the early stages of this area statistics on biomechanical data, like different kinds of forces or rates, played a major role. Scientists started to analyze sports games by collecting and looking at such values and features in order to interpret them. Later on, with the continuous improvement of computer hardware - in particular microprocessor speed – many new scientific and computing paradigms were introduced, which were also integrated in computer science in sport. Specific examples are modeling as well as simulation, but also pattern recognition and design. 
+As another result of this development, the term 'computer science in sport' has been added in the encyclopedia of sports science in 2004.
+
+== Areas of research ==
+
+The importance and strong influence of computer science as an interdisciplinary partner for sport and sport science is mainly proven by the research activities in computer science in sport. The following IT concepts are thereby of particular interest:
+* Data acquisition and data processing
+* Databases and expert systems
+* Modelling (mathematical, IT based, biomechanical, physiological)
+* Simulation (interactive, animation etc.)
+* Presentation
+Based on the fields from above, the main areas of research in computer science in sport include amongst others:
+* Training and coaching
+* Biomechanics
+* Sports equipment and technology
+* Computer-aided applications (software, hardware) in sports
+* Ubiquitous computing in sports
+* Multimedia and Internet
+* Documentation
+* Education
+
+== Research communities ==
+
+A clear demonstration for the evolution and propagation towards computer science in sport is also the fact that nowadays people do research in this area all over the world. Since the 1990s many new national and international organizations regarding the topic of computer science in sport were established. These associations are regularly organizing congresses and workshops with the aim of dissemination as well as exchange of scientific knowledge and information on all sort of topics regarding the interdisciplinary discipline.
+
+=== Historical survey ===
+
+As a first example, in Australia and New Zealand scientists have built up the MathSport group of ANZIAM (Australia and New Zealand Industrial and Applied Mathematics), which since 1992 organizes biennial meetings, initially under the name “Mathematics and Computers in Sport Conferences”, and now "MathSport".MathSport, www.anziam.org.au Main topics are mathematical models and computer applications in sports, as well as coaching and teaching methods based on informatics.
+The European community was also among the leading motors of the emergence of the field. Some workshops on this topic were successfully organized in Germany since the late 1980s. In 1997 the first international meeting on computer science in sport was held in Cologne. The main aim was to spread out and share applications, ideas and concepts of the use of computers in sports, which should also make a contribution to the creation of internationalization and thus to boost research work in this area.
+Since then, such international symposia took place every 2 years all over Europe. As the first conferences were a raving success, it was decided to go even further and the foundation of an organization was the logical consequence. This step was accomplished in 2003, when the International Association of Computer Science in Sport (IACSS) was established during the 4th international symposium in Barcelona, when Prof. Jürgen Perl was also chosen as the first president. Almost at the same time, the first international e-journal on this topic (International Journal of Computer Science in Sport) was released too. The internationalization is confirmed moreover by the fact that the last 3 conferences took place outside of Europe - in Calgary (Canada) in 2007, Canberra (Australia) in 2009 and Shanghai (China) in 2011. During the symposium in Calgary additionally the president position changed - it has been assigned to Prof. Arnold Baca, who has been re-elected in 2009 and 2011.
+
+=== National organizations ===
+
+In addition to the international associations from above, currently the following national associations on computer science in sport exist (if available, the web addresses are also given):
+* Austrian Association of Computer Science in Sport
+* Croatian Association of Computer Science in Sport
+* Section Computer Science in Sport of the German Association of Sport Science - http://www.dvs-sportinformatik.de (in German)
+* Indian Federation of Computer Science in Sport - http://www.ifcss.in
+* Turkish Association of Computer Science in Sport - http://www.sbbd.org/indexENG.php
+* Chinese Association of Computer Science in Sport
+
+== References ==
+
+== Further reading ==
+
+* Dabnichki P. & Baca, A. (2008). Computers in Sport, WIT Press. ISBN 978-1-84564-064-4
+
+== External links ==
+
+* MathSport - ANZIAM (Australia and New Zealand Industrial and Applied Mathematics)
+* ECSS (European College of Sport Science)
+* ISEA (International Sports Engineering Association)
+* IACSS (International Association of Computer Science in Sport)
+

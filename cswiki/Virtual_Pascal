@@ -1,0 +1,38 @@
+
+Virtual Pascal is a free 32-bit Pascal compiler, IDE, and debugger for OS/2 and Microsoft Windows, with some limited Linux support. Although it had a wide user base in the late 1990s, VP has not evolved significantly for several years, and the owner declared in 2005 that development had ceased.Virtual Pascal: News Mon Apr 4, 2005 – 01:21:43 – "Virtual Pascal has died" I don't know if anyone has noticed, but I am sad to report that Virtual Pascal has died a quiet death. It was born in 1995, and died in 2005 at the ripe old age (for software) of 10 years." Virtual Pascal was developed by Vitaly Miryanov and later maintained by Allan Mertner.
+
+== Features ==
+
+The compiler is compatible with Turbo Pascal, Borland Delphi, and Free Pascal, although language- and RTL-compatibility is limited for features introduced after Delphi v2 and FPC 1.0.x. 
+VP was primarily useful for the following purposes:
+* Easily port existing 16-bit Turbo Pascal programs to 32 bits 
+* Port existing 16-bit OWL programs to 32-bit Windows (in theory)
+* Write console (text-mode) programs for several platforms
+* Pascal development using the 32-bit Windows API (the classic development, no COM!)
+* Learn object-oriented programming
+Significant features of Virtual Pascal include:
+* Text-mode IDE
+* Debugger is integrated directly into the IDE and is reminiscent of Turbo Debugger
+* Fast compilation
+* Tool-chain written mostly in Intel assembly
+
+== History ==
+
+The compiler was quite popular in the BBS scene, probably because of its OS/2 port and being one of the few affordable multi-target compilers. Also Turbo Pascal had been popular in the BBS scene too, but its successor, Delphi was suddenly for Windows only. Virtual Pascal provided a migration path for existing codebases.
+There has been pressure from some users for Virtual Pascal to be made into open-source software. This has not been done, provided the following reasoning:
+* The compiler source is mostly written in Intel assembly which is hard to change and maintain.
+* Part of the run-time library is proprietary to Borland
+* Documentation and help are maintained with expensive proprietary tools
+* There is nobody who fully understands the code. Alan said that some of the deeper areas were no-touch for him (original code by Vitaly)
+
+== References ==
+
+== See also ==
+
+* Free Pascal
+
+== External links ==
+
+* Community set up by the author of Virtual Pascal
+* Download site that has the last version
+

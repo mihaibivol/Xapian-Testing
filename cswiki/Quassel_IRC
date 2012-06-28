@@ -1,0 +1,22 @@
+
+Quassel IRC, or Quassel, is a graphical, distributed, cross-platform IRC client, introduced in 2008."Changelog". Quassel-IRC.org. It is released under the GNU General Public License for Linux and Unix-like operating systems, OS X, and Microsoft Windows. Since the release of Kubuntu 9.04 (Jaunty Jackalope) Quassel is Kubuntu's default IRC client."Kubuntu 9.04 Out in the Wild". Kubuntu.org. 23 April 2009, retrieved 27 November 2009.Overa, Adam (October 19, 2009). "Large IRC Clients". Tom's Hardware. Quassel uses the class library Qt 4.
+
+== Structure ==
+
+Quassel is based on a client–server model. The core application uses the Internet to connect to one or more clients, and also various IRC servers. The client does not communicate with the IRC server directly; it does so through the core. This way, the connection to the IRC network is maintained by the core, even though no clients are using it."10 of the Best Free Linux IRC Clients : Quassel IRC". LinuxLinks.com. August 30, 2009. A monolith version of the application is also supported; which acts like a normal IRC client, with no separation between core and client.
+This system is similar to what Irssi, WeeChat with GNU Screen, and Smuxi use.
+
+== Features ==
+
+Quassel allows simultaneous connections to multiple IRC servers. Different identities can be created, and used on one or more of the servers the core connects to. These identities each contain default nicknames, fallback nicknames, away messages and so on. Each identity can be assigned to one or more servers."About Quassel IRC". Quassel-IRC.org
+Quassel stores discussion history in either a PostgreSQL or a SQLite database. When scrolling up through the chat window, older sections of chat are loaded automatically from stored logs. In this way, one can seamlessly view logs of past discussions.
+Aliases, command shortcuts, are also available; with these, a user can create an alias for a long command with many parameters. The connection between the client and the core can be encrypted using Secure Sockets Layer (SSL), and proxies are supported.
+In a 2009 roundup of large IRC clients for Tom's Hardware, Adam Overa described Quassel as being "fully featured" with "tons of options,"  and, "even new users should have no problem connecting to servers and finding channels using the GUI tools for server presets and channel lists."
+
+== See also ==
+
+* Comparison of IRC Clients
+
+== References ==
+
+

@@ -1,0 +1,8 @@
+
+CHAOS (Clustered High Availability Operating System) is a Linux distribution produced within the Livermore Computing center at the Lawrence Livermore National Laboratory. It augments the standard Red Hat Enterprise Linux distribution with kernel modifications and user-space tools to support HPC (high-performance computing) clustering. This means that it helps to bring multiple computers together to run as one; numerously increasing the power of an everyday computer.
+
+It is used on Linux clusters within the Livermore Computing center.
+
+== References ==
+
+

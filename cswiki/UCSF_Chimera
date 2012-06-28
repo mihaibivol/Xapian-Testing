@@ -1,0 +1,83 @@
+
+UCSF Chimera (or simply Chimera) is an extensible program for interactive visualization and analysis of molecular structures and related data, including density maps, supramolecular assemblies, sequence alignments, docking results, trajectories, and conformational ensembles. High-quality images and movies can be created. Chimera includes complete documentation and can be downloaded free of charge for noncommercial use.
+Chimera is developed by the Resource for Biocomputing, Visualization, and Informatics (RBVI) at the University of California, San Francisco. Development is funded by the National Institutes of Health (NCRR grant 2P41RR001081, NIGMS grant 9P41GM103311).
+
+== General Structure Analysis ==
+
+* automatic identification of atom types
+* hydrogen addition and partial charge assignment
+* high-quality hydrogen bond, contact, and clash detection
+* measurements: distances, angles, surface area, volume
+* calculation of centroids, axes, planes and associated measurements
+* amino acid rotamer libraries, protein Ramachandran plot
+* structure building and bond rotation
+* molecular dynamics trajectory playback (many formats), distance and angle plots  
+* morphing between conformations of a protein or even different proteins
+* display of attributes (B-factor, hydrophobicity, etc.) with colors, radii, "worms"
+* easy creation of custom attributes with simple text file inputs
+* ViewDock tool to facilitate interactive screening of docking results
+* rich set of commands, powerful specification syntax
+* many formats read, PDB and Mol2 written
+* web fetch from Protein Data Bank, EDS (density maps), EMDB (density maps), ModBase (comparative models), CASTp (protein pocket measurements), Pub3D (small molecule structures), VIPERdb (icosahedral virus capsids), UniProt (protein sequences with feature annotations), others
+
+== Presentation Images and Movies ==
+
+* high-resolution images
+* visual effects including depth-cueing, silhouette edges, lighting, colored backgrounds
+* stick, ball-and-stick, sphere, ribbon, and surface displays of molecules
+* ellipsoids to show anisotropic B-factors
+* nonmolecular geometric objects
+* renderings of density maps and other volume data (see below)
+* labeling with text, symbols, arrows, color keys
+* different structures can be clipped differently and at any angle
+* optional raytracing with bundled POV-Ray
+* scene export to X3D and other formats
+* simple graphical interface for creating movies interactively
+* alternatively, movie content and recording can be scripted
+* movie recording is integrated with morphing and MD trajectory playback
+
+== Volume Data Tools  ==
+
+* many formats of volume data maps (electron density, electrostatic potential, others) read, several written 
+* interactive threshold adjustment, multiple isosurfaces (mesh or solid), transparent renderings
+* fitting of atomic coordinates to maps and maps to maps
+* density maps can be created from atomic coordinates
+* markers can be placed in maps and connected with smooth paths
+* display of single data planes, optionally as topographic maps
+* volume data time series playback and morphing
+* many tools for segmenting and editing maps
+* Gaussian smoothing, Fourier transform
+* measurements: surface area, surface-enclosed volume, map symmetry, others
+
+== Sequence-Structure Tools  ==
+
+* many sequence alignment formats read, written
+* sequence alignments can be created, edited
+* sequences automatically associate with structures
+* sequence-structure crosstalk: highlighting in one highlights the other
+* protein BLAST search via Web service
+* interface to  MODELLER  for homology modeling
+* structure superposition with or without pre-existing sequence alignment
+* generation of structure-based sequence alignments from multiple superpositions
+* several methods for calculating conservation and displaying values on associated structures
+* RMSD header (histogram above the sequences) showing variability of associated structures
+* user-defined headers including histograms and colored symbols
+* UniProt feature annotations shown as colored boxes on sequences
+* trees in Newick format read/displayed
+
+== See also ==
+
+* List of molecular graphics systems
+* Molecular modelling
+* Molecular graphics
+* Molecular dynamics
+* Software for molecular mechanics modeling
+
+== External links ==
+
+* UCSF Chimera home page
+* Chimera Image Gallery and Animation Gallery
+* publications about Chimera 
+* Resource for Biocomputing, Visualization, and Informatics
+* University of California, San Francisco
+

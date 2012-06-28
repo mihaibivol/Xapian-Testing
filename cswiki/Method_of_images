@@ -1,0 +1,11 @@
+
+See also Method of image charges for applications in electrostatics and magnetostatics
+The method may also be used in magnetostatics for calculating the magnetic field of a magnet which is close to a superconducting surface. Here, the component of the magnetic field normal to the superconductor is zero.  Another use is in fluid dynamics: the movement of a vortex near a wall may be calculated using an image vortex.
+A textbook example is an infinite flat conducting surface (see Fig. 1). In this case the field distribution between the surface and a charge is the same as between this charge and another charge (imaginary charge), which is the mirror image of the real charge in respect to the surface but has the opposite sign. Evidently, in case of an electrical dipole, the vector of the mirrored dipole will have the opposite sign. Therefore, the force between the electrical charge or system of charges and the conducting surface is attractive. It is also interesting (but not obvious) that the total surface charge influenced on the conducting surface (which can be obtained by integration of the surface charge, for example) exactly matches the opposite value of the point charge (-q). 
+In case of magnet-superconductor pair, if the superconductor is an ideal diamagnet (into which the magnetic field does not penetrate), the mirror image of the magnet will have a magnetization vector which is mirrored but of the same sign (see Fig. 2). This can be thought as due to additional sign change upon mirroring of an axial vector which the magnetization is. The force between the magnet and the superconducting surface is therefore repulsive. In order to take into account the magnetic flux pinning phenomenon in type-II superconductors, the frozen mirror image method is used.
+
+== Further reading ==
+
+* [tpl]cite book | author=Feynman, Richard; Leighton, Robert; Sands, Matthew | title=Feynman Lectures on Physics, Mainly Electromagnetism and Matter | publisher=Addison-Wesley | year=1989 | isbn=0-201-51003-0[/tpl]
+* James Jeans (1908) The Mathematical Theory of Electricity and Magnetism, Chapter 8, Cambridge University Press.
+

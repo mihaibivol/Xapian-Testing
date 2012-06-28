@@ -1,0 +1,21 @@
+
+In computing, klibc is a minimalistic subset of the standard C library developed by H. Peter Anvin. It was developed mainly to be used during the Linux startup process, and it is part of the early user space, i.e. components used during kernel startup, but which do not run in kernel mode.http://free-electrons.com/kerneldoc/latest/early-userspace/README These components do not have access to the standard library (usually glibc) used by normal userspace programs.
+The development of klibc library was part of the 2002 effort to move some Linux initialization code out of the kernel.Jonathan Corbet, (November 2002) Initramfs arrives, LWN.net[tpl]cite web |url=http://marc.info/?l=linux-kernel&m=103622506919278&w=2 |title=initramfs merge, part 1 of N  |date=2002-02-11  [/tpl][tpl]cite web |url= http://marc.info/?l=linux-kernel&m=103626389507412&w=2 |title= Re: initramfs merge, part 1 of N  |date=2002-02-11  [/tpl] According to its documentation, the klibc library is optimized for correctness and small size. Because of its design, klibc is also technically suitable for embedded software in general, and even some full-featured programmes such as the MirBSD Korn Shell. Unlike many other open source libraries, klibc is licensed under the full GPL license, which (unlike LGPL) imposes itself on any code linked with it. (This only applies to klibc as a whole due to embedding some Linux kernel derived files; most of the library source code is actuallyusr/klibc/LICENSE as of klibc-1.5.18 available under a BSD licence from UCB or the Historical Permission Notice and Disclaimer.) This may limit its applicability to commercial embedded software.Hagen, p. 286
+During the Linux startup process, klibc is loaded from within a temporary RAM file system, initramfs. It is incorporated by default into initial RAM file systems that are created by the mkinitramfs script in Debian Debian Lenny Klibc retrieved February 2010. and Ubuntu. Furthermore it has a set of small Unix utilities that are useful in early user space: cpio, dash, fstype, mkdir, mknod, mount, nfsmount, run-init, etc. all using the klibc library. [tpl]cite web |url=http://git.kernel.org/?p=libs/klibc/klibc.git;a=tree;f=usr;h=f3224b691ca990bed5081ea31106bed47ce23653;hb=HEAD|title=libs/klibc/klibc.git / tree [/tpl].  An alternate strategy is to include everything in one executable, like BusyBox, which determines the program via arguments or a symlink.
+
+== Other klibc ==
+
+kLIBC and kNIX appears to be a SUS/C99 environment for OS/2.
+
+==References==
+
+General references
+*[tpl]cite book |author=Hagen, William W. |title=The Definitive Guide to GCC, Second Edition |publisher=APress |location=Berkeley, CA |year=2006 |pages=286–289 |isbn=1-59059-585-8 [/tpl]
+
+==External links==
+
+* Source archive
+* Browsable development tree
+* Mailing list
+* initramfs and where user space truly begins - LWN, Jonathan Corbet, July 11, 2006.
+

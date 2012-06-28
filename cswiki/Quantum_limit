@@ -1,0 +1,23 @@
+
+A quantum limit in physics is a limit on measurement accuracy at quantum scalesVladimir Borisovich Braginskiĭ and Farid Ya. Khalili. "Quantum Measurement." 1995..  Depending on the context, the limit may be absolute (such as the Heisenberg limit), or it may only apply when the experiment is conducted with naturally occurring quantum states (e.g. the standard quantum limit in interferometry) and can be circumvented with advanced state preparation and measurement schemes. 
+The terms "quantum limit" and "standard quantum limit" are sometimes used interchangeably.  Usually, "quantum limit" is a general term which refers to any restriction on measurement due to quantum effects, while the "standard quantum limit" in any given context refers to a quantum limit which is ubiquitous in that context.
+
+==Examples==
+
+In the context of interferometry or other optical measurements, the standard quantum limit usually refers to the minimum level of quantum noise which is obtainable without squeezed states.M. T. Jaekel and S. Reynaud, “Quantum limits in interferometric measurements”, Europhys. Lett. 13, 301. 1990.
+There is additionally a quantum limit for phase noise, reachable only by a laser at high noise frequencies.
+In spectroscopy, the shortest wavelength in an X-ray spectrum is called the quantum limit.Donald Stover Piston, "The Polarization of X-rays from Thin Targets." 1935.
+
+==Misleading relation to the classical limit==
+
+Note that due to an overloading of the word "limit", the classical limit is not the opposite of the quantum limit.  In "quantum limit", "limit" is being used in the sense of a physical limitation (e.g. the Armstrong limit).  In "classical limit", "limit" is used in the sense of a limiting processNote that there is no simple rigorous mathematical limit which fully recovers classical mechanics from quantum mechanics, the Ehrenfest theorem notwithstanding..
+
+==See also==
+
+*Classical limit
+*Heisenberg limit
+*Relativistic limit
+
+==References and Notes==
+
+

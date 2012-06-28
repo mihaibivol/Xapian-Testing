@@ -1,0 +1,40 @@
+
+The Derjaguin approximation due to the Russian scientist Boris Derjaguin expresses the force profile acting between finite size bodies in terms of the force profile between two planar semi-infinite walls.B. V. Derjaguin, Kolloid Z. 1934, 69, 155-164. This approximation is widely used to estimate forces between colloidal particles, as forces between two planar bodies are often much easier to calculate. The force F(h) between two bodies as a function of the surface separation can be expressed asW. B. Russel, D. A. Saville, W. R. Schowalter,Colloidal Dispersions,Cambridge University Press, 1989.
+where W(h) is the interaction energy per unit area between the two planar walls and Reff the effective radius. When the two bodies are two spheres of radii R1 and R2, respectively, the effective radius is given by
+Experimental force profiles between macroscopic bodies as measured with the surface forces apparatus (SFA)J. Israelachvili, Intermolecular and Surface Forces, Academic Press, London, 1992. or colloidal probe atomic force microscopy[ref]W. A. Ducker, T. J. Senden, R. M. Pashley, Nature 1991, 353, 239-241; 
+H. J. Butt, Biophys. J. 1991, 60, 1438-1444.[/ref] are therefore often reported as the ratio F(h)/Reff.
+
+==Quantities Involved and Validity==
+
+The force F(h) between two bodies is related to the interaction free energy U(h) as
+where h is the surface-to-surface separation. Conversely, when the force profile is known, one can evaluate the interaction energy as
+When one considers two planar walls, the corresponding quantities are expressed per unit area. The swelling pressure is the force per unit area and can be expressed by the derivative
+where W(h) is the surface free energy per unit area. Conversely, one has
+The main restriction of the Derjaguin approximation is that it is only valid at distances much smaller than the size of the objects involved, namely h « R1 and h « R2. Furthermore, it is a continuum approximation and thus valid at distances larger than the molecular length scale. When rough surfaces are involved, this approximation is only valid at distances larger than the characteristic size of the surface roughness features (e.g., root mean square roughness).
+
+==Special Cases==
+
+Frequent geometries considered involve the interaction between two identical spheres of redius R where the effective radius becomes 
+In the case of interaction between a sphere of radius R and a planar surface, one has
+The above two relations can be obtained as special cases of the expression for Reff given further above. For the situation of crossed cylinders as used in the surface forces apparatus, one has
+where R1 and R2 are the curvature radii of the two cylinders involved.
+
+==Derivation==
+
+Consider the force F(h) between two identical spheres of radius R as an illustration. The surfaces of the two respective spheres are thought to be sliced into infinitesimal disks of width dr and radius r as shown in figure. The force is given by the sum of the corresponding swelling pressures between the two disks 
+where x is the distance between the disks and dA the area of one of these disks. This distance can be expressed as x=h+2y. By considering the Pythagorean theorem on the grey triangle shown in figure one has
+Expanding this expression and realizing that y « R one finds that the area of the disk can be expressed as 
+The force can now be written as 
+where W(h) is the surface free energy per unit area introduce further above. When introducing the equation above, the upper integration limit was replaced by infinity, which is approximately correct as long as h « R.
+
+==See also==
+
+*Atomic force microscopy
+*Colloid
+*DLVO theory
+*Surface forces apparatus (SFA)
+*Van der Waals force
+
+== References ==
+
+

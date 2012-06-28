@@ -1,0 +1,12 @@
+
+eDexter is a program that helps you to use Internet filtering by acting as a local-only web server. eDexter substitutes images stored on your computer in place of images from a website.[tpl]cite web|last=Gorilla Design Studios|title=eDexter|url=http://www.accs-net.com/hosts/eDexter.html|accessdate=21 May 2012[/tpl] Substituting images with eDexter helps avoid problems with spyware, web-based exploits and images from advertisers.[tpl]cite web|last=Pollock|first=Dan|title=How to Make the Internet Not Suck (As Much)|url=http://someonewhocares.org/hosts/|accessdate=21 May 2012[/tpl]
+
+== How it works ==
+
+eDexter is a supplemental program that works with a hosts file. Using a hosts file to block website images leaves gaps on a website. These spaces created by not having pictures may alter the way a website displays. eDexter fills the blocked images space with a picture from your computer displayed the same size as the blocked image.  This allows a website to keep its formatting and also fills gaps that would otherwise be left by not having pictures displayed.
+
+==References==
+
+http://www.accs-net.com/hosts/eDexter.html
+http://someonewhocares.org/hosts/
+

@@ -1,0 +1,37 @@
+
+An autolink is a hyperlink added automatically to a hypermedia document, after it has been authored or published. Segments of the hypermedia are identified through a process of pattern matching. For example in hypertext, the software could recognise textual patterns for street addresses, phone numbers, ISBNs, or URLs.
+In a distributed hypermedia system, such as the World Wide Web, autolinking can be carried out by client or server software. For example, a web server could add links to a web page as it sends it to a web browser. A browser can also add links to a page after it has received it from the server.
+
+== Google Toolbar ==
+
+AutoLink is a feature of the Google Toolbar. Users can convert street addresses, ISBNs in a web page in their browser to links by clicking a button on Google Toolbar. The links direct the users to Google Maps for street addresses and Amazon.com for book information. 
+Since introduced in February 2005, there has been a lot of controversy about this feature. Some webmasters expressed their concerns over AutoLink feature claiming that Google had no rights to modify their webpages or to direct the users to a commercial website (i.e. Amazon). 
+This caused Barnes & Noble, a competitor of Amazon, to link all ISBN's on their site back to themselves to prevent people clicking them to take them to their competitor.
+Google sceptics compare it with Microsoft's unpopular SmartTags, which ultimately proved too controversial and were dropped.
+
+== Trac Wiki Engine ==
+
+Trac is a web application for issue tracking in software development. It has a wiki engine which is used for all text and documentation in the system. This includes not only wiki pages but also tickets and check-in log messages. These pieces of text have AutoLinks created, for example the text ticket:1 links to ticket 1. This is an example of server-side AutoLinking.
+
+== AutoLinker ==
+
+AutoLinker is a plugin application which has been developed for vBulletin forum software.  It allows keywords which are set by the Board administrator to be turned into hyperlinks or popups automatically any time they are used in a forum post or message.
+
+== Tomboy Notes ==
+
+Tomboy Notes is a personal wiki and text editor for Linux that creates automatic hyperlinks while the text is being edited.
+
+==See also==
+
+* Code folding
+
+== References ==
+
+#Google Toolbar Help
+#Google Answers: Google Toolbar Autolink feature
+#Trac Wiki Engine
+#Trac Links
+#Autolinker.com
+#Automatic Free Links
+#Linkator - Firefox Plugin
+

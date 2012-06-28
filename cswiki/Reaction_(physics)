@@ -1,0 +1,72 @@
+
+The third of Newton's laws of motion of classical mechanics states that forces always occur in pairs. This is related to the fact that a force results from the interaction of two object. Every force ('action') on one object is accompanied by a 'reaction' on another, of equal magnitude but opposite direction. The attribution of which of the two forces is action or reaction is arbitrary. Each of the two forces can be considered the action, the other force is its associated reaction.
+
+==Examples==
+
+===Interaction with ground===
+
+When something is exerting force on the ground, the ground will push back with equal force in the opposite direction. In certain fields of applied physics, such as biomechanics, this force by the ground is called 'ground reaction force'; the force by the object on the ground is viewed as the 'action'.
+When someone wants to jump, he or she exerts additional downward force on the ground ('action'). Simultaneously, the ground exerts upward force on the person ('reaction'). If this upward force is greater than the person's weight, this will result in upward acceleration. Because these forces are perpendicular to the ground, they are also called normal force.
+Likewise, the spinning wheels of a vehicle attempt to slide backward across the ground. If the ground is not too slippery, this results in a pair of friction forces: the 'action' by the wheel on the ground in backward direction, and the 'reaction' by the ground on the wheel in forward direction. This forward force propels the vehicle.
+
+===Gravitational forces===
+
+The Earth orbits around the Sun because the gravitational force exerted by the Sun on the Earth, the action, serves as the centripetal force that maintains the planet in the neighborhood of the Sun. Simultaneously, the Earth exerts a gravitational attraction on the Sun, the reaction, which has the same amplitude as the action and an opposite direction (in this case, pulling the Sun towards the Earth). Since the Sun's mass is very much larger than the Earth's, it does not appear to be reacting to the pull of the Earth, but in fact it does. A correct way of describing the combined motion of both objects (ignoring all other celestial bodies for the moment) is to say that they both orbit around the center of mass of the combined system.
+
+===Supported mass===
+
+Any mass on earth is pulled down by the gravitational force of the earth; this force is also called its weight. The corresponding 'reaction' is the gravitational force that mass exerts on the planet.
+If the object is supported so that it remains at rest, for instance by a cable from which it is hanging, or by a surface underneath, or by a liquid on which it is floating, there is also a support force in upward direction (tension force, normal force, buoyant force, respectively). This support force is an 'equal and opposite' force; we know this not because of Newton's Third Law, but because the object remains at rest, so that the forces must be balanced.
+To this support force there is also a 'reaction': the object pulls down on the supporting cable, or pushes down on the supporting surface or liquid. In this case, there are therefore four forces of equal magnitude:
+* F1. gravitational force by earth on object (downward)
+* F2. gravitational force by object on earth (upward)
+* F3. force by support on object (upward)
+* F4. force by object on support (downward)
+Forces F1 and F2 are equal because of Newton's Third Law; the same is true for forces F3 and F4.
+Forces F2 and F3 are only equal if the object is in equilibrium, and no other forces are applied. This has nothing to do with Newton's Third Law.
+
+===Mass on a spring===
+
+If a mass is hanging from a spring, the same considerations apply as before. However, if this system is then perturbed (e.g., the mass is given a slight kick upwards or downwards, say), the mass starts to oscillate up and down. Because of these accelerations (and subsequent decelerations), we conclude from Newton's second law that a net force is responsible for the observed change in velocity. The gravitational force pulling down on the mass is no longer equal to the upward elastic force of the spring. In the terminology of the previous section, F2 and F3 are no longer equal.
+However, it is still true that F1 = F2 and F3 = F4, as this is required by Newton's Third Law. 
+
+==Misconceptions==
+
+The reaction is one of the least understood of the basic physical concepts,[tpl]Citation needed|date=November 2010[/tpl] perhaps because it is often poorly taught or incorrectly described in many publications.[tpl]Or|date=November 2010[/tpl]
+
+===Causal misinterpretation===
+
+The terms 'action' and 'reaction' have the unfortunate suggestion of causality, as if the 'action' is the cause and 'reaction' is the effect. It is therefore easy to think of the second force of being there because of the first, and even happening some time after the first. This is incorrect; the forces are perfectly simultaneous, and are there for the same reason.
+When the forces are caused by a person's volition (e.g. a soccer player kicks a ball), this volitional cause often leads to an asymmetric interpretation, where the force by the player on the ball is considered the 'action' and the force by the ball on the player, the 'reaction'. But physically, the situation is symmetric. The forces on ball and player are both explained by their nearness, which results in a pair of contact forces (ultimately due to electric repulsion). That this nearness is caused by a decision of the player has no bearing on the physical analysis. As far as the physics is concerned, the labels 'action' and 'reaction' can be flipped.
+
+==='Equal and opposite'===
+
+One problem frequently observed by physics educators[tpl]Citation needed|date=March 2012[/tpl] is that students tend to apply Newton's Third Law to pairs of 'equal and opposite' forces acting on the same object. This is incorrect; the Third Law refers to forces on two different objects. For example, a book lying on a table is subject to a downward gravitational force (exerted by the earth) and to an upward normal force by the table. Since the book is not accelerating, these forces must be exactly balanced, according to Newton's First or Second law. They are therefore 'equal and opposite'. However, these forces are not always equally strong; they will be different if the book is pushed down by a third force, or if the table is slanted, or if the table-and-book system is in an accelerating elevator.
+A possible cause of this problem is that the Third Law is often stated in an abbreviated form: For every action there is an equal and opposite reaction, without the details, namely that these forces act on two different objects. Moreover, there is a causal connection between the weight of something and the normal force: if an object had no weight, it would not experience support force from the table, and the weight dictates how strong the support force will be. This causal relationship is not due to the Third Law but to other physical relations in the system; but this point is often lost on students.
+
+===Centripetal and centrifugal force===
+
+Another common mistake[tpl]Or|date=November 2010[/tpl] is to state that
+:: The centrifugal force that an object experiences is the reaction to the centripetal force on that object.
+Clearly, if an object were simultaneously subject to both a centripetal force and an equal and opposite centrifugal force, the resultant force would vanish and the object could not experience a circular motion. The centrifugal force is sometimes called a fictitious force or pseudo force, to underscore the fact that such a force only appears when calculations or measurements are conducted in non-inertial reference frames.
+However, the term 'centrifugal force' can also be used, in a different meaning, to denote the reaction force to the centripetal force; it is than called reactive centrifugal force. For instance, in a hammer throw, the athlete spins a ball at the end of a cable. While the athlete exerts in inward centrifugal force on the ball, the ball exerts outward 'centripetal' force on the athlete. This is a genuine example of Newton's Third Law. 
+
+===Remote action and reaction===
+
+A particularly subtle common mistake is to confuse the forces that cause action and reaction with the actual action and reaction.[tpl]Or|date=November 2010[/tpl]
+This mistake comes about partly because the very definition of force is all about a mass experiencing an acceleration, and there is an assumption that an object's entire mass is always the entity that is accelerating. Actually, though, when an object experiences a common impact-type of force, at the instant the force is applied, only the atoms and molecules at the surface of the object begin to accelerate.  These push on neighboring atoms and molecules, and a mechanical wave of force propagates through the body of the object at the speed of sound in the substance of the object.  The well-understood field of seismology is full of information about forces traveling through a number of different substances at the different speed-of-sound in each substance, and the time it takes for distant things to be affected by those forces.  Naturally, since ordinary objects are much smaller than the Earth, they become wholly affected by applied forces much more quickly -- typically, the entire mass of an ordinary object experiences an applied force in a thousandth of a second or less (just divide speed of sound in substance, into longest-physical-dimension of object) --which makes it easy to assume (especially in eras before modern instrumentation existed) that the whole mass of the object can instantly experience the force.  From this description, however, it should be obvious that during the time that the wave of force propagates through an object, only part of the mass of the object is accelerating, not all of it.  Another result of that description is that when two significantly different masses interact, even though the force between them, which causes action and reaction, happens perfectly simultaneously, the two masses may not fully respond/accelerate/act/react simultaneously.  An actual example of this is a weapon under development, known as a "rarefaction wave gun".  It is possible to open the breech of a cannon during firing (at just the right moment!) such that the recoil is reduced, but the velocity of the shell is not, because, by the time it takes the rarefaction-wave-of-reduced-gas-pressure/force to traverse the distance between the breech and the shell, the shell will have exited the gun barrel and is beyond reach of its effects.  Another variant on the theme is Valve float, in which the force applied by a spring, which can move a valve in an internal combustion engine, doesn't affect the whole valve quickly enough to keep it in contact with a rapidly rotating cam.
+
+==See also==
+
+* Ground reaction force
+* Reactive centrifugal force
+* Isaac Newton
+* Ibn Bajjah 
+* Reaction engine/jet engine
+
+==References==
+
+* Feynman, R. P., Leighton and Sands (1970) The Feynman Lectures on Physics, Volume 1, Addison Wesley Longman, ISBN 0-201-02115-3.
+* Resnick, R. and D. Halliday (1966) Physics, Part 1, John Wiley & Sons, New York, 646 pp + Appendices.
+* Warren, J. W. (1965) The Teaching of Physics, Butterworths, London,130 pp.
+

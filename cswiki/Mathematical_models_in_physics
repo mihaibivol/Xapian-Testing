@@ -1,0 +1,12 @@
+
+Mathematical models are of great importance in physics. Physical theories are almost invariably expressed using mathematical models, and the mathematics involved is generally more complicated than in the other sciences. Different mathematical models use different geometries that are not necessarily accurate descriptions of the geometry of the universe. Euclidean geometry is much used in classical physics, while special relativity and general relativity are examples of theories that use geometries which are not Euclidean.
+It is common to use idealized models in physics to simplify things. Massless ropes, point particles, ideal gases and the particle in a box are among the many simplified models used in physics.
+Throughout history, more and more accurate mathematical models have been developed. Newton's laws accurately describe many everyday phenomena, but at certain limits relativity theory and quantum mechanics must be used, even these do not apply to all situations and need further refinement. It is possible to obtain the less accurate models in appropriate limits, for example relativistic mechanics reduce to Newtonian mechanics when the speed much less than the speed of light. Quantum mechanics reduce to classical physics when the quantum numbers are high. If we say that a tennis ball is a particle and calculate its de Broglie wavelength it will turn out to be insignificantly small so it is seen that classical physics is better to use than quantum mechanics in this case.
+The laws of physics are represented with simple equations such as Newton's laws, Maxwell's equations and the Schrödinger equation. These laws are such as a basis for making mathematical models of real situations. Many real situations are very complex and thus modeled approximate on a computer, a model that is computationally feasible to compute is made from the basic laws or from approximate models made from the basic laws. For example, molecules can be modeled by molecular orbital models that are approximate solutions to the Schrödinger equation. In engineering, physics models are often made by mathematical methods such as finite element analysis.
+
+==See also==
+
+*Linear algebra
+*Differential equations
+*Probability
+

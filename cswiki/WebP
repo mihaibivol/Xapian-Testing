@@ -1,0 +1,37 @@
+
+WebP (pronounced "weppy")[tpl]web cite|url=http://code.google.com/speed/webp/|title=WebP Home ("Did you know? WebP is pronounced "weppy". /(wĕpˈē)/ ")|accessdate=2010-08-02[/tpl] is an image format that employs both lossy and lossless compression. It is developed by Google, based on technology acquired with the purchase of On2 Technologies.
+As a derivative of the video format VP8, it is a sister project to the multimedia container format WebM. WebP related software is released under a BSD license.
+The format was first announced in 2010 and is supposed to be a new open standard for lossily-compressed true-color graphics on the web, thereby being presented as a direct competitor to the older JPEG scheme, to which it is meant to compare favorably with the production of smaller files for comparable image quality. On October 3, 2011 they announced WebP support for animation, ICC profile, XMP metadata and tiling (compositing very large images from max. 16384×16384 tiles).WebP-Mux (RIFF based container) framework On November 18, 2011 they introduced lossless compression and support for transparency (alpha channel) in both the lossless and lossy modes. According to Google's measurements, a PNG to WebP conversion results in a 45% reduction in file size when starting with PNGs found on the web, and a 28% reduction in size compared to PNGs that are re-compressed with pngcrush and pngout.Google Code blog: Lossless and transparency encoding in WebP 
+
+== Technology ==
+
+WebP's lossy compression algorithm is based on the intra-frame coding of the VP8 video format and the classical Resource Interchange File Format (RIFF) as a container format. As such it is a block-based transformation scheme with eight bits of color depth and a luminance-chrominance model with chroma subsampling by a ratio of 1:2 (YCbCr 4:2:0). Without further content the mandatory RIFF container leads to an overhead of only twenty bytes and can hold additional metadata. The side length of WebP images is limited to 16383 pixels (14 bits).
+WebP is based on block prediction. Each block is predicted on the values from three blocks above it and from one block left of it (block decoding is done in raster-scan order: left to right and top to bottom). There are four basic modes of block prediction: horizontal, vertical, DC (one color), and TrueMotion. Mispredicted data and non-predicted blocks are compressed in a 4×4 pixel sub-block with Discrete cosine transform and (rare) Walsh–Hadamard transform. Both transforms are done with fixed-point arithmetic to avoid rounding errors. The output is compressed with entropy encoding. WebP also has explicit support for parallel decoding.
+The free reference implementation consists of a converter software in the form of a command-line program for Linux (webpconv) and a programming library for the decoding (the same as for WebM). The open source community quickly managed to port the converter to other platforms, such as Windows.
+
+== Support ==
+
+Amongst web browsers, Google Chrome and Opera natively support WebP. All WebM-compatible browsers may also display WebP via a JavaScript shim. WebP can also be displayed in all major browsers using WebPJS JavaScript library (IE6+ support is achieved by using Flash).
+Amongst the graphics software, Picasa (from version 3.9)Picasa and Picasa Web Albums Release Notes, Pixelmator , ImageMagick , ReaConverter , Konvertor , XnViewXnView • View topic - WebP support, IrfanViewHistory of IrfanView changes and GDAL  all natively support WebP. Telegraphics has released a free plug-in that enables WebP support in Adobe Photoshop CS5 and earlier. GIMP-2.6 via a plugin. Google has also released a plug-in for Microsoft Windows that enables WebP support in Windows Photo Viewer, Microsoft Office 2010, and any other application that uses Windows Imaging Component.
+Gmail and Picasa Web Albums (both Google web applications) support WebP. Support for WebP is also planned for Google App Engine. The Instant Previews feature of Google Search currently uses WebP internally to reduce disk space used by previews. Android 4.0 supports encoding and decoding WebP images (via bitmap and Skia).Android 4.0 Platform Highlights. SDL_image supports the format since 1.2.11.
+
+== Criticism ==
+
+In September 2010, Jason Garrett-Glaser, a developer of the x264 encoder, gave several points of criticism for WebP. Using a comparison of different encodings (JPEG, x264, and WebP) of a reference image, he stated that the quality of the WebP-encoded result was the worst of the three, mostly because of blurriness on the image. His main remark was that "libvpx, a much more powerful encoder than ffmpeg's jpeg encoder, loses because it tries too hard to optimize for PSNR" (peak signal-to-noise ratio), arguing instead that "good psycho-visual optimizations are more important than anything else for compression." Google's WebP encoder technology has improved significantly since then. 
+
+== See also ==
+
+* WebM, a multimedia container format introduced by Google earlier in 2010, on which WebP is based
+* JPEG 2000, an improvement intended to replace the older JPEG by the JPEG committee, introduced in 2000
+* JPEG XR, a computationally lightweight alternative to JPEG 2000, introduced in 2009
+* Portable Network Graphics, lossless bitmap image format
+
+== References ==
+
+== External links ==
+
+* [tpl]Official website|http://code.google.com/speed/webp/[/tpl]
+* Windows codec
+* WebP for .NET
+* Bugzilla@Mozilla: 600919 - (WebP) Implement WebP image support
+

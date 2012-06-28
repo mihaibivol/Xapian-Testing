@@ -1,0 +1,11 @@
+
+GLIMPSE is a text indexing and retrieval software program originally developed at the University of Arizona by Udi Manber, Sun Wu, and Burra Gopal. A web server version called WebGlimpse is now being maintained under a pay per line licence. Neither project could be considered open source although there are some similarities.
+GLIMPSE stands for GLobal IMPlicit SEarch. While many text indexing schemes create quite large indexes (usually around 50% of the size of the original text), a GLIMPSE-created index is only 2-4% of the size of the original text. 
+GLIMPSE uses and takes a great deal of inspiration from Agrep, which was also developed at the University of Arizona, but GLIMPSE uses a high level index whereas Agrep parses all the text each time.
+The basic algorithm is similar to other text indexing and retrieval engines, except that the text records in the index are huge, consisting of multiple files each. This index is searched using a boolean matching algorithm like most other text indexing and retrieval engines. After one or more of these large text records is matched, Agrep is used to actually scan for the exact text desired. While this is slower than traditional totally indexed approaches, the advantage of the smaller index is seen to be advantageous to the individual user. This approach would not work particularly well across websites, but would work reasonably well for a single site, or a single workstation. In addition, the smaller index can be created more quickly than a full index.
+
+==External links==
+
+*Glimpse and WebGlimpse home page
+*Original Glimpse paper (PDF)
+

@@ -1,0 +1,11 @@
+
+PICMG 2.10 is a specification by PICMG that defines the use of the keying mechanisms defined in IEC 1076-4-101 for the J4/P4 connector and in IEEE 1101.10 for handle and cardguide hardware.   Backplanes can be designed for 3.3V VIO or 5V VIO operation. These are differentiated by having 'Cadmium Yellow' colored keys for 3.3V or 'Brilliant Blue' color for 5V operation. If the cPCI card operates on a particular VIO voltage the card shall have the respective colored coding key. If the card is compatible with both voltages then it may not have any coding key.  Other coding keys exists for use of backplanes and cards that support PICMG 2.5.
+
+==Status==
+
+Adopted : 10/1/1999
+Current Revision : 1.0
+
+==References==
+
+

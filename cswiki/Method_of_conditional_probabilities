@@ -1,0 +1,200 @@
+
+In mathematics and computer science, the probabilistic method is used to prove the existence of mathematical objects with desired combinatorial properties. The proofs are probabilistic — they work by showing that a random object, chosen from some probability distribution, has the desired properties with positive probability. Consequently, they are nonconstructive — they don't explicitly describe an efficient method for computing the desired objects.
+The method of conditional probabilities 
+[tpl]harv|Erdös|Selfridge|1973[/tpl], 
+[tpl]harv|Spencer|1987[/tpl], 
+converts such a proof, in a "very precise sense", 
+into an efficient deterministic algorithm,
+one that is guaranteed to compute an object with the desired properties.
+That is, the method derandomizes the proof.
+The basic idea is to replace each random choice in a random experiment
+by a deterministic choice, so as to keep the conditional probability of failure,
+given the choices so far, below 1. 
+The method is particularly relevant in the context of randomized rounding
+(which uses the probabilistic method to design approximation algorithms).
+When applying the method of conditional probabilities,
+the technical term pessimistic estimator  refers to a quantity used 
+in place of the true conditional probability (or conditional expectation)
+underlying the proof.
+
+== Overview ==
+
+[tpl]harv|Raghavan|1988[/tpl]  gives this description:
+:We first show the existence of a provably good approximate solution using the probabilistic method... then show that the probabilistic existence proof can be converted, in a very precise sense, into a deterministic approximation algorithm.
+(Raghavan is discussing the method in the context of randomized rounding, 
+but it works with the probabilistic method in general.)
+To apply the method to a probabilistic proof, the randomly chosen object in the proof
+must be choosable by a random experiment that consists of a sequence of "small" random choices.
+Here is a trivial example to illustrate the principle.
+:Lemma: It is possible to flip three coins so that the number of tails is at least 2.
+:Probabilistic proof. If the three coins are flipped randomly, the expected number of tails is 1.5.  Thus, there must be some outcome (way of flipping the coins) so that the number of tails is at least 1.5.  Since the number of tails is an integer, in such an outcome there are at least 2 tails.  QED
+In this example the random experiment consists of flipping three fair coins.
+The experiment is illustrated by the rooted tree in the diagram to the right.
+There are eight outcomes, each corresponding to a leaf in the tree.
+A trial of the random experiment corresponds to taking a random walk
+from the root (the top node in the tree, where no coins have been flipped) to a leaf.
+The successful outcomes are those in which at least two coins came up tails.
+The interior nodes in the tree correspond to partially determined outcomes,
+where only 0, 1, or 2 of the coins have been flipped so far.
+To apply the method of conditional probabilities,
+one focuses on the ''conditional probability of failure,
+given the choices so far'' as the experiment proceeds step by step.
+In the diagram, each node is labeled with this conditional probability.
+(For example, if only the first coin has been flipped,
+and it comes up tails, that corresponds to the second child of the root.
+Conditioned on that partial state, the probability of failure is 0.25.)
+The method of conditional probabilities replaces the random root-to-leaf walk 
+in the random experiment by a deterministic root-to-leaf walk, 
+where each step is chosen to inductively maintain the following invariant:
+::the conditional probability of failure, given the current state, is less than 1.
+In this way, it is guaranteed to arrive at a leaf with label 0, that is, a successful outcome.
+The invariant holds initially (at the root), because the original proof
+showed that the (unconditioned) probability of failure is less than 1.
+The conditional probability at any interior node
+is the average of the conditional probabilities of its children.
+The latter property is important because it implies that
+any interior node whose conditional probability is less than 1 has at least one child whose conditional probability is less than 1.
+Thus, from any interior node, one can always choose some child
+to walk to so as to maintain the invariant.
+Since the invariant holds at the end, when the walk arrives at a leaf
+and all choices have been determined,
+the outcome reached in this way must be a successful one.
+
+== Efficiency ==
+
+In a typical application of the method, 
+the goal is to be able to implement the resulting deterministic process
+by a reasonably efficient algorithm 
+(formally, one taking time polynomial in the input size),
+even though typically the number of possible outcomes is huge (exponentially large).
+In the ideal case, given a partial state (a node in the tree),
+the conditional probability of failure (the label on the node)
+can be efficiently and exactly computed.
+(The example above is like this.)
+If this is so, then the algorithm can select the next node to go to
+by computing the conditional probabilities at each of the children
+of the current node, then moving to any child whose conditional
+probability is less than 1.
+As discussed above, there is guaranteed to be such a node.
+Unfortunately, in most applications, 
+the conditional probability of failure is not easy to compute efficiently.
+There are two standard and related techniques for dealing with this:
+
+== Example using conditional expectations ==
+
+This example demonstrates the method of conditional probabilities using a conditional expectation.
+
+=== Max-Cut Lemma ===
+
+the Max cut problem is to color each vertex of the graph with one of two colors (say black or white)
+so as to maximize the number of edges whose endpoints have different colors.
+(Say such an edge is cut.)
+
+=== Probabilistic proof of Max-Cut lemma ===
+
+Color each vertex black or white by flipping a fair coin.
+
+=== The method of conditional probabilities with conditional expectations ===
+
+To apply the method of conditional probabilities, 
+first model the random experiment as a sequence of small random steps.
+In this case it is natural to consider each step to be the choice of color
+Next, replace the random choice at each step by a deterministic choice,
+so as to keep the conditional probability of failure, given the vertices colored so far,
+In this case, the conditional probability of failure is not easy to calculate.
+Indeed the original proof did not calculate the probability of failure directly;
+instead, the proof worked by showing that the expected number 
+To keep the conditional probability of failure below 1,
+(This is because as long as the conditional expectation 
+so the conditional probability of reaching such an outcome is positive.)
+the algorithm will, at each step, color the vertex under consideration
+This suffices, because there must be some child whose conditional expectation is
+at least the current state's conditional expectation 
+Given that some of the vertices are colored already, 
+what is this conditional expectation?
+Following the logic of the original proof,
+the conditional expectation of the number of cut edges is
+::the number of edges whose endpoints are colored differently so far
+::+ (1/2)*(the number of edges with at least one endpoint not yet colored).
+
+=== Algorithm ===
+
+The algorithm colors each vertex to maximize the resulting value of the above conditional expectation.
+and so is guaranteed to keep the conditional probability of failure below 1,
+which in turn guarantees a successful outcome.
+By calculation, the algorithm simplifies to the following:
+Because of its derivation, this deterministic algorithm is guaranteed to cut at least half the edges of the given graph.
+(This makes it a 0.5-approximation algorithm for Max-cut.)
+
+== Example using pessimistic estimators ==
+
+The next example demonstrates the use of pessimistic estimators.
+
+=== Turán's theorem  ===
+
+One way of stating Turán's theorem is the following:
+
+=== Probabilistic proof of Turan's theorem ===
+
+Clearly the process computes an independent set.
+(The inequality above follows because 
+so the left-hand side is minimized,
+
+=== The method of conditional probabilities using pessimistic estimators ===
+
+We will replace each random step by a deterministic step
+This will ensure a successful outcome, that is,
+realizing the bound in Turan's theorem.
+Given that the first t steps have been taken,
+Given the first t steps,
+following the reasoning in the original proof,
+which is called a pessimistic estimator for the conditional expectation.
+The algorithm will make each choice to keep the pessimistic estimator from decreasing,
+Since the pessimistic estimator is a lower bound on the conditional expectation,
+which in turn will ensure that the conditional probability of failure stays below 1.
+the pessimistic estimator is unchanged.
+the expected increase in the pessimistic estimator is non-negative.
+Thus, the expected decrease in the sum is at most 1.
+
+=== Algorithm maximizing the pessimistic estimator ===
+
+By the previous considerations, this keeps the pessimistic estimator from decreasing
+and guarantees a successful outcome.
+
+=== Algorithms that don't maximize the pessimistic estimator ===
+
+For the method of conditional probabilities to work,
+it suffices if the algorithm keeps the pessimistic estimator from decreasing (or increasing, as appropriate).
+The algorithm does not necessarily have to maximize (or minimize) the pessimistic estimator.
+This gives some flexibility in deriving the algorithm.
+The next two algorithms illustrate this.
+ 2. While the remaining graph is not empty:
+Each algorithm is analyzed with the same pessimistic estimator as before.
+With each step of either algorithm, the net increase in the pessimistic estimator is 
+
+== See also ==
+
+* Probabilistic method
+* Derandomization
+
+== References ==
+
+* 
+.
+* 
+
+* 
+.
+
+== Further reading ==
+
+* 
+
+* 
+
+* 
+
+==External links==
+
+*The probabilistic method — method of conditional probabilities, blog entry by Neal E. Young, accessed 19/04/2012.
+

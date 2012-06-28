@@ -1,0 +1,50 @@
+
+OBiBa is an international software development project committed to building a full suite of open source software for biobanksOBiBa Website. OBiBa is a core project of Public Population Project in Genomics (P3G)P3G Website,European Journal of Human Genetics (2008) 16, 664–665; [tpl]doi|10.1038/ejhg.2008.55[/tpl]; published online 2 April 2008  Population Genomics: The Public Population Project in Genomics (P3G): a proof of concept? http://www.nature.com/ejhg/journal/v16/n6/full/ejhg200855a.html, an international consortium whose mission is to provide the human population genomics community with tools and resources that foster collaboration and knowledge sharing.
+
+==Organization and Objectives==
+
+OBiBa consists of several software development projects focused on building software modules that support different biobank activities. OBiBa’s main objective is to provide a common infrastructure for different biobank projects, that consists of independent yet compatible modules that can be integrated to form a comprehensive software suite. All software source code is freely available under the GPL v3 licence.
+OBiBa aims to develop software that supports various biobank activities including:
+* Subject recruitment
+* Clinical evaluation
+* Biosample management
+* Genomic data management and analysis
+* Data integration and warehousing
+* Statistical analysis of high-volume data
+* Database federation
+OBiBa offers a collaborative infrastructure to its teams and to other developers who may wish to join the OBiBa community. The infrastructure for developers includes integrated tools for documentation, issue tracking, deployment, and project management.
+
+==Current projects==
+
+OBiBa currently has four ongoing projects.
+
+===The Enrollment and Tracking Application===
+
+The Enrollment and Tracking Application (ETA)The ETA Software provides participant enrollment and appointment scheduling functionality for biobank assessment centres. This application is being developed by the Australian Informatics ResourceThe AIR Website (formerly called WAGER) group at the University of Western Australia, in Perth.  The application is currently in the design phase.
+
+===The Onyx Application===
+
+OnyxThe Onyx Application is a web-based application that manages participant baseline interviews at assessment centres or clinics. Onyx is being developed in collaboration with the Canadian Partnership for Tomorrow (CPT)The Canadian Partnership for Tomorrow, a network of five Canadian prospective cohort studies on cancer that aims to recruit 300,000 participants by 2012. The Onyx development team is based in Montreal and Toronto. Onyx is currently in production.
+
+===The Opal Application===
+
+OpalThe Opal Application is a central biobank data repository application that integrates cohort participant data—of various types, formats and sources—into a single database. Opal is being developed in partnership with the CPT and by the same team as the Onyx application.
+
+===GenoByte===
+
+GenoByteThe Genobyte Software is a Java API for storing and querying data resulting from the aggregation of high-throughput genotyping experiments across many subjects.  GenoByte is being developed at the McGill University and Génome Québec Innovation Centre to accommodate the needs of the Genotyping Platform which routinely handles large volumes of data for its customers.
+
+==History==
+
+OBiBa was founded in 2007 as a research project at Genome Québec (GQ) by Vincent Ferretti who is the Principal Investigator in biocomputing at the Ontario Institute for Cancer Research. A few months later, OBiBa became a core project of P3G and released the GenoByte API developed by Philippe Laflamme, software architect at GQ and co-investigator at OBiBa. In 2008, OBiBa received substantial funding from the Canadian Partnership for Tomorrow Project to build a comprehensive, customizable biobank information management system (the Onyx and Opal projects). In 2009, The Australian Informatics Resource, led by Paul White from the University of Western Australia, joined OBiBa. Paul White and his team are currently developing the ETA application.
+
+==References==
+
+==External links==
+
+* [tpl]Official website|http://www.obiba.org[/tpl]
+* The P3G Observatory Website
+* The Ontario Institute for Cancer Research Website
+* The Genome Quebec Website
+* The University of Western Australia Website
+

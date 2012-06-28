@@ -1,0 +1,45 @@
+
+In computer science, an in-place algorithm (or in Latin in situ) is an algorithm which transforms input using a data structure with a small, constant amount of extra storage space. The input is usually overwritten by the output as the algorithm executes. An algorithm which is not in-place is sometimes called not-in-place or out-of-place.
+An algorithm is sometimes, informally, called in-place as long as it overwrites its input with its output. In reality, this is not sufficient (as the case of quicksort demonstrates), nor is it necessary; the output space may be constant, or may not even be counted, for example if the output is to a stream. On the other hand, sometimes it may be more practical to count the output space in determining whether an algorithm is in-place, such as in the first reverse example below; this makes it difficult to strictly define in-place algorithms. In theory applications such as log-space reductions, it's more typical to always ignore output space (in these cases it's more essential that the output is write-only).
+
+== Examples ==
+
+Suppose we want to reverse an array of n items. One simple way to do this is:
+  '''function''' reverse(a[0..n])
+      allocate b[0..n]
+      '''for''' i '''from''' 0 '''to''' n
+          b[n - i] = a[i]
+      '''return''' b
+Unfortunately, this requires O(n) extra space to create the array b, and allocation is often a slow operation. If we no longer need a, we can instead overwrite it with its own reversal using this in-place algorithm:
+  '''function''' reverse_in_place(a[0..n])
+      '''for''' i '''from''' 0 '''to''' floor(n/2)
+          swap(a[i], a[n-i])
+As another example, there are a number of sorting algorithms that can rearrange arrays into sorted order in-place, including: Bubble sort, Comb sort, Selection sort, Insertion sort, Heapsort, Shell sort.
+Quicksort is commonly described as an in-place algorithm[tpl]Citation needed|date=November 2010[/tpl], but is not in fact one. Most implementations require O(log n) space to support its divide and conquer recursion.
+Most selection algorithms are also in-place, although some considerably rearrange the input
+array in the process of finding the final, constant-sized result.
+Some text manipulation algorithms such as trim and reverse may be done in-place.
+
+== In computational complexity ==
+
+In computational complexity theory, in-place algorithms include all algorithms with O(1) space complexity, the class DSPACE(1). This class is very limited; it equals the regular languages.Maciej Liśkiewicz and Rüdiger Reischuk. The Complexity World below Logarithmic Space. Structure in Complexity Theory Conference, pp. 64-78. 1994. Online: p. 3, Theorem 2. In fact, it does not even include any of the examples listed above.
+For this reason, we also consider algorithms in L, the class of problems requiring O(log n) additional space, to be in-place. Although this seems to contradict our earlier definition, we have to consider that in the abstract world our input can be arbitrarily large. On a real computer, a pointer requires only a small fixed amount of space, because the amount of physical memory is limited, but in general O(log n) bits are required to specify an index into a list of size n.
+Does this mean quicksort is in-place after all? Not at all—technically, it requires O(log2 n) space, since each of its O(log n) stack frames contains a constant number of pointers (each of size O(log n)).
+Identifying the in-place algorithms with L has some interesting implications; for example, it means that there is a (rather complex) in-place algorithm to determine whether a path exists between two nodes in an undirected graph,Omer Reingold. Undirected ST-connectivity in Log-Space.  Electronic Colloquium on Computational Complexity. No. 94. a problem that requires O(n) extra space using typical algorithms such as depth-first search (a visited bit for each node). This in turn yields in-place algorithms for problems such as determining if a graph is bipartite or testing whether two graphs have the same number of connected components. See SL (complexity)/SL for more information.
+
+== Role of randomness ==
+
+In many cases, the space requirements for an algorithm can be drastically cut by using a randomized algorithm. For example, say we wish to know if two vertices in a graph of n vertices are in the same connected component of the graph. There is no known simple, deterministic, in-place algorithm to determine this, but if we simply start at one vertex and perform a random walk of about 20n3 steps, the chance that we will stumble across the other vertex provided that it's in the same component is very high. Similarly, there are simple randomized in-place algorithms for primality testing such as the Miller-Rabin primality test, and there are also simple in-place randomized factoring algorithms such as Pollard's rho algorithm. See RL and BPL for more discussion of this phenomenon.
+
+== In functional programming ==
+
+Functional programming languages often discourage or don't support explicit in-place algorithms that overwrite data, since this is a type of side effect; instead, they only allow new data to be constructed. However, good functional language compilers will often recognize when an object very similar to an existing one is created and then the old one thrown away, and will optimize this into a simple mutation "under-the-hood".
+Note that it is possible in principle to carefully construct in-place algorithms that don't modify data (unless the data is no longer being used), but this is rarely done in practice.  See purely functional data structures.
+
+==See also==
+
+*Table of in-place and not-in-place algorithms
+
+== References ==
+
+

@@ -1,0 +1,30 @@
+
+NNPDF is used to denote the  parton distribution functions from the NNPDF Collaboration which is based on a
+combination of a Monte Carlo method for experimental data sampling with the use of neural networks as basic interpolating functions.
+
+== The NNPDF approach ==
+
+The NNPDF approach can be divided into four main steps:
+* The generation of a large sample of Monte Carlo replicas of the original experimental data, in a way that central values, errors and correlations are reproduced with enough accuracy.
+* The neural network training is stopped dynamically before entering into the overlearning regime, that is, so that the PDFs learn the physical laws which underlie experimental data without fitting simultaneously statistical noise.
+* Once the training of the MC replicas has been completed, a set of statistical estimators can be applied to the set of PDFs, in order to assess the statistical consistency of our results. For example, the stability with respect PDF parametrization can be explicitly verified.
+
+== Examples of PDF plots ==
+
+The image below shows the gluon at small-x from the  the NNPDF1.0 analysis, available
+through the LHAPDF interface
+File:Gluon log ref.jpg|The NNPDF1.0 gluon
+
+== NNPDF Parton Distributions releases ==
+
+The NNPDF releases are summarised in the following table:
+All PDF sets are available through the LHAPDF interface.
+
+==External links==
+
+*The NNPDF Collaboration homepage
+*Download NNPDF Parton Distribution sets
+*The NNPDF1.0 analysis
+*The NNPDF Non-Singlet analysis
+*The LHAPDF interface
+

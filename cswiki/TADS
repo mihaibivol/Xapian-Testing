@@ -1,0 +1,47 @@
+
+Text Adventure Development System (TADS) is a prototype-based domain-specific programming language and set of standard libraries for creating interactive fiction (IF) games.
+
+==History==
+
+The original TADS 1 was released by High Energy Software as shareware in the late 1980s, and was followed by TADS 2 not long after.  In the early 1990s, TADS established itself as the number one development tool for interactive fiction, in place of simpler systems like AGT (Adventure Game Toolkit).[tpl]Citation needed|date=November 2008[/tpl] In the late 1990s, it was joined by Inform as the most popular interactive fiction development language.
+TADS 2 syntax is based on C, with bits of Pascal. TADS 2 has been maintained and updated at regular intervals by its creator, Michael J. Roberts, even after it became freeware in July 1996.  Graham Nelson, creator of Inform, describes Inform and TADS as the "only two systems... widely used" in the last half of the 1990s, and TADS has been called "The second most commonly used IF programming language today". Multimedia TADS, introduced in 1998, allows games to display graphics, animation and play sounds, if the platform supports it.
+In 2006, TADS received a major overhaul with the release of TADS 3, which is a complete rewrite of the TADS engine, only retaining the platform-dependent code to ease porting.  TADS 3 uses a language with a syntax that resembles C++ and Java. It has many new features, such as efficient dynamic objects (with automatic garbage collection), structured exceptions, native UTF-8 strings, and many useful function classes.
+The TADS 3 compiler and interpreter have been ported to the DOS, Macintosh and Unix platforms. Several TADS 3 games have been released.
+
+==TADS games==
+
+Games written in TADS are compiled to a platform-independent format that can be played on any computer for which a suitable virtual machine (VM) exists. Such virtual machines exist for several platforms, and in this respect, TADS closely follows the example of the original Infocom Z-machine, as well as modern languages such as Java and C#.
+Whereas the TADS 1 and 2 VMs had to parse the commands entered by the player, before sending the results on to the game, TADS 3 employs a more general-purpose virtual machine, where the command-parsing is done by the game code itself, akin to Inform. The rationale for this is that it is easier to customize the parser.[tpl]cite web|last=Roberts|first=Michael J|title=Differences between TADS 2 and 3|url=http://www.tads.org/t3_feat.htm|work=TADS Website|publisher=Michael J Roberts|accessdate=5 January 2012[/tpl]
+
+===Notable games developed in TADS 2===
+
+* Uncle Zebulon's Will, by Magnus Olsson (1995). It won the TADS category at the inaugural 1995 Interactive Fiction Competition and was included on Activision's 1996 commercial release of Classic Text Adventure Masterpieces of Infocom.
+* The Frenetic Five vs. Sturm und Drang, the first game in the "Frenetic Five" series by Neil deMause (1997). The game won a XYZZY Award for Best NPCs that year.
+* Worlds Apart by Suzanne Britton (1999). Winner of XYZZY Award for Best Story and finalist in seven other XYZZY Award categories in 1999, the game features a huge amount of detailed worldbuilding.[tpl]Citation needed|date=November 2008[/tpl]
+* Kaged by Ian Finley (2000). Winner of the 2000 annual Interactive Fiction Competition.
+* 1893: A World's Fair Mystery by Peter Nepstad (2002). The game is one of a handful to be released commercially in recent years, garnering attention from the New York Times and the Associated Press.  It also won the 2002 XYZZY Award for Best Setting.
+
+===Notable games developed in TADS 3===
+
+* Max Blaster and Doris de Lightning Against the Parrot Creatures of Venus by Dan Shiovitz and Emily Short (2003). Winner of the 2003 Spring Thing; a somewhat unusual example of multiple player characters (or PCs).[tpl]Citation needed|date=November 2008[/tpl]
+* The Elysium Enigma by Eric Eve (2006). Eve was awarded XYZZY Award for Best Game, XYZZY Award for Best Individual NPC, and took third place in the 2006 annual Interactive Fiction Competition.
+
+==See also==
+
+* Interactive fiction#Development systems, lists software similar to TADS
+
+==References==
+
+==External links==
+
+* [tpl]official website|http://www.tads.org[/tpl]
+* The TADS page
+* TADS 2 and TADS 3 games on Baf's Guide
+* Cloak of Darkness: TADS presents a short game implemented in TADS, as well as other languages for comparison.
+* The TADS 3 mailing list
+;Interpreters
+* TADS 2 interpreters for several platforms
+* Jetty - Java Applet Interpreter for TADS 2 games
+* TADS 3 interpreters for DOS, Windows, and source for Unix
+* HyperTADS, a Mac OS multimedia interpreter for TADS 2 and 3
+

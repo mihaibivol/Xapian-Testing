@@ -1,0 +1,128 @@
+
+Natural Language User Interfaces (LUI) are a type of computer human interface where linguistic phenomena such as verbs, phrases and clauses act as UI controls for creating, selecting and modifying data in software applications.
+In interface design natural language interfaces are sought after for their speed and ease of use, but most suffer the challenges to understanding wide varieties of ambiguous input.Hill, I. (1983). "Natural language versus computer language." In M. Sime and M. Coombs (Eds.) Designing for Human-Computer Communication. Academic Press.
+Natural language interfaces are an active area of study in the field of natural language processing and computational linguistics. An intuitive general Natural language interface is one of the active goals of the Semantic Web.
+It is important to note that text interfaces are 'natural' to varying degrees, and that many formal (un-natural) programming languages incorporate idioms of natural human language. Likewise, a traditional keyword search engine could be described as a 'shallow' Natural language user interface.
+
+==Overview==
+
+A natural language search engine would in theory find targeted answers to user questions (as opposed to keyword search). For example, when confronted with a question of the form 'which U.S. state has the highest income tax?', conventional search engines ignore the question and instead search on the keywords 'state, income and tax'. Natural language search, on the other hand, attempts to use natural language processing to understand the nature of the question and then to search and return a subset of the web that contains the answer to the question. If it works, results would have a higher relevance than results from a keyword search engine.
+From a commercial standpoint, advertising on the results page could also be more relevant and could have a higher revenue potential than that of keyword search engines.[tpl]Citation needed|reason=now|date=May 2008[/tpl]
+
+==History==
+
+Along the history the natural languages ​​have evolved in parallel with the development and evolution of the human species. In recent years, applications designers have tried to promote the communication between humans and machines which have been included voice recognition methods. Today the field of natural language recognition is working to improve outcomes, overcoming the different difficulties which are discussed below.
+Prototype Nl interfaces had already appeared in the late sixties and early seventies.[ref]Natural Language Interfaces to Databases – An Introduction,
+I. Androutsopoulos,
+G.D. Ritchie,
+P. Thanisch,
+Department of Artificial Intelligence, University of Edinburgh[/ref]
+*Lunar, a natural language interface to a database containing chemical analyses of Apollo-11 moon rocks by William A. Woods.
+*Chat-80 transformed English questions into Prolog expressions, which were evaluated against the Prolog database.  The code of Chat-80 was circulated widely, and formed the basis of several other experimental Nl interfaces.
+* Janus is also one of the few systems to support temporal questions.
+* Intellect from Trinzic (formed by the merger of AICorp and Aion).
+* BBN’s Parlance built on experience from the development of the Rus  and Irus systems.
+* IBM Languageaccess
+* Q&A from Symantec.
+* Datatalker from Natural Language Inc.
+* Loqui  from Bim.
+* English Wizard from Linguistic Technology Corporation.
+
+==Natural language processing==
+
+===Difficulties of recognition===
+
+Recognition systems can be divided in two main types, pattern recognition systems and phonetic systems. Pattern recognition systems compare patterns with other patterns already known and classified to determine similarity. Phonetic systems, on the other hand, use the knowledge of the human body (speech production and hearing) to compare language features (phonetics such as vowel sounds). More modern systems focus on the pattern recognition approach, which combines nicely with current computing methods and tends to have greater accuracy.
+There are some factorshttp://liceu.uab.es/~joaquim/speech_technology/tecnol_parla/recognition/speech_recognition/reconocimiento.html#reconocimiento_tratamiento_senal that make these processes difficult, because they affect the frequency of the signal and therefore the recognition. Some of them are:
+* The inter-speaker and intra-speaker phonetic variation: The inter-speaker variation, is the results when you are issuing a specific sequence of words with the same style of speech, and without geographic or social differences, but still there are variations in the language. On the other hand intra-speaker variation, study what changes in each person when he is speaking spontaneously or reading.
+* The styles of speech: Among all speakers there is a wide range of styles that are indexed to modify the speech intelligibility. "The style depends on the speaker's attention to the characteristics of their own language production" (William Labov).
+* Disfluencies in spontaneous speech: In this section we can find a wide range of variations that change the flow of linguistics. Among them are the pauses, repetitions, truncated words, vowel lengthening, interruptions, unfinished sentences and even variations in speed.
+* Characteristics of the environment: Finally we have the external factor, because the environmental changes can significantly interfere with the signal processing. In this case we find noise that can distort or mask, and surround sound changes that can modify the signal temporarily.
+
+===Signal processing===
+
+The implementation of a natural language recognition system,http://www.tldp.org/HOWTO/Speech-Recognition-HOWTO/ involves the treatment of acoustic signals through different blocks that help us in extracting the needed features to implement the system. This process can be summarized as follows:
+1. The first step is capturing the voice signal. It uses a microphone through an analog-to-digital converter (ADC) which converts the acoustic signal into an electrical signal, which performs the extraction parameters. In this step there is an added difficulty caused by the nonlinearity and frequency loss introduced by the system microphone/converter. 2. The next stage is segmenting and labeling here the system try to find the stable regions where the characteristics are constant. One of the most used methods is using overlap between the windowing, to avoid parts without analyzing. At this level also are typically applied standarization and pre-emphasis filters, which prepare signals for processing. 3. Thirdly, performs the parameters calculation, which provides a spectral representation of the voice signal features that can be used to train the recognition system (Hidden Markov model (HMM), neural networks, among others). The most common methods in this stage are the filter bank analysis and LPC. To calculate the coefficients that characterize the signal, the system follows a pattern of blocks standardized by the European Telecommunications Standards Institute (ETSI).
+
+===Types of speech recognition===
+
+The voice recognition systems can be divided into several classes, categorized by the description of the different types of expressions that have the ability to be recognized. These classes are based on the fact that one of the difficulties of automatic speech recognition (ASR) is the ability to determine when a speaker starts and finishes speaking. Below are some of these types:
+* Isolated word recognizers usually need a statement delimited (the lack of an audio signal) to both sides of the sample window. This doesn't mean it accepts only one word, but that it receives only one expression each time. Often, these systems have the states listen or not-listen, which require speakers to pause for a short time between words.
+* Connected word systems (expressions connected) are similar to isolated words, but in contrast they allow expressions to be separated by a minimum silence between them.
+* Continuous recognition is the most difficult to create because they must use special methods to determine the emission limits. Continuous speech recognizers allow users to speak almost naturally, while the computer determines the meaning.
+* Spontaneous speech has been given a variety of definitions, but can be considered as the natural sound of unrehearsed speech. An ASR system with this ability should be able to handle a variety of natural language features.
+* Verification-identification voice encompasses those systems of automatic speech recognition that have the ability to identify specific users. This kind of recognition is mainly based on specific features extracted from the subject to verify or identify. Features include the signal amplitude, frequency, and cepstral coefficients from the Mel scale, mel-frequency cepstrum (MFCC).
+
+==Challenges==
+
+Natural language interfaces have in the past led users to anthropomorphize the computer, or at least to attribute more intelligence to machines than is warranted. On the part of the user, this has led to unrealistic expectations of the capabilities of the system. Such expectations will make it difficult to learn the restrictions of the system if users attribute too much capability to it, and will ultimately lead to disappointment when the system fails to perform as expected as was the case in the AI winter of the 1970s and 80s. 
+A 1995 paper titled 'Natural Language Interfaces to Databases – An Introduction', describes some challenges:
+* Modifier attachment
+The request “List all employees in the company with a driving licence” is ambiguous unless you know companies can't have drivers licences.
+* Conjunction and disjunction
+“List all applicants who live in California and Arizona” is ambiguous unless you know that a person can't live in two places at once.
+* Anaphora resolution
+- resolve what a user means by 'he', 'she' or 'it', in a self-referential query.
+Other goals to consider more generally are the speed and efficiency of the interface, in all algorithms these two points are the main point that will determine if some methods are better than others and therefore have greater success in the market.
+Finally, regarding the methods used, the main problem to be solved is creating a general algorithm that can recognize the entire spectrum of different voices, while disregarding nationality, gender or age. The significant differences between the extracted features - even from speakers who says the same word or phrase - must be successfully overcome.
+
+==Uses and applications==
+
+The natural language interface and his recognition with satisfactory results, give rise to this technology to be used for different uses and applications. Some of the main uses are:
+* Dictation, is the most common use for ASR systems today. This includes medical transcriptions, legal and business dictation, and general word processing. In some cases special vocabularies are used to increase the accuracy of the system.
+* Command and control, ASR systems that are designed to perform functions and actions on the system are defined as command and control systems. Utterances like "Open Netscape" and "Start a new xterm" will do just that.
+* Telephony, some PBX/Voice Mail systems allow callers to speak commands instead of pressing buttons to send specific tones.
+* Wearables, because inputs are limited for wearable devices, speaking is a natural possibility.
+* Medical, disabilities, many people have difficulty typing due to physical limitations such as repetitive strain injuries (RSI), muscular dystrophy, and many others. For example, people with difficulty hearing could use a system connected to their telephone to convert a caller's speech to text.
+* Embedded applications, some new cellular phones include C&C speech recognition that allow utterances such as "call home". This may be a major factor in the future of automatic speech recognition (ASR) and Linux.
+Below are named and defined some of the applications that use natural language recognition, and so have integrated utilities listed above.
+
+===Ubiquity===
+
+Ubiquity, an add-on for Mozilla Firefox, is a collection of quick and easy natural-language-derived commands that act as mashups of web services, thus allowing users to get information and relate it to current and other webpages.
+
+===Wolfram Alpha===
+
+Wolfram Alpha is an online service that answers factual queries directly by computing the answer from structured data, rather than providing a list of documents or web pages that might contain the answer as a search engine would.[tpl]cite news |url=http://www.guardian.co.uk/technology/2009/mar/09/search-engine-google |title=British search engine 'could rival Google' |last=Johnson |first=Bobbie |date=2009-03-09 |work=The Guardian |accessdate=2009-03-09[/tpl] It was announced in March 2009 by Stephen Wolfram, and was released to the public on May 15, 2009.[tpl]cite web|url=http://blog.wolframalpha.com/2009/05/08/so-much-for-a-quiet-launch/ |title=So Much for A Quiet Launch |publisher=Wolfram Alpha Blog |date=2009-05-08 |accessdate=2009-10-20[/tpl]
+
+===Siri===
+
+Siri is a personal assistant application for the operating system iOS. The application uses natural language processing to answer questions and make recommendations. The iPhone app is the first public product by its makers, who are focused on artificial intelligence applications.
+Siri's marketing claims include that it adapts to a user's individual preferences over time and personalizes results, and performs tasks such as making dinner reservations while trying to catch a cab.Siri webpage
+
+===Others===
+
+* Anboto Group provides Web customer service and e-commerce technology based on semantics and natural language processing. The main offer of Anboto Group are the virtual sales agent and intelligent chat.
+* Q-go - The Q-go technology provides relevant answers to users in response to queries on a company’s internet website or corporate intranet, formulated in natural sentences or keyword input alike. Q-go was acquired by RightNow Technologies in 2011
+* Ask.com - The original idea behind Ask Jeeves (Ask.com) was traditional keyword searching with an ability to get answers to questions posed in everyday, natural language. The current Ask.com still supports this, with added support for math, dictionary, and conversion questions.
+* C-PhraseC-Phrase - is a web-based natural language front end to relational databases. C-Phrase runs under Linux, connects with PostgreSQL databases via ODBC and supports both select queries and updates. Currently there is only support for English. C-Phrase is hosted on Google Code site.
+* GNOME Do - Allows for quick finding miscellaneous artifacts of GNOME environment (applications, Evolution and Pidgin contacts, Firefox bookmarks, Rhythmbox artists and albums, and so on) and execute the basic actions on them (launch, open, email, chat, play, etc.).Ubuntu 10.04 Add/Remove Applications description for GNOME Do
+* Braina Project - Braina is a natural language user interface software which is currently under developmental stage. It is being developed by one programmer named Akash Shastri. The main goal of this project is to make computer understand the human language so that a user can control a computer without use of any commands.
+* Invention Machine Goldfire - powered by a semantic research engine that has the capability to transform unstructured documents from various electronic sources into an index that, when searched, delivers answers to research questions. Goldfire’s Natural Language query interface enables the user to put a question in a free text format, which would be the same format as if the question were given to another person. And, once knowledge has been retrieved, Goldfire presents the results in a way that makes their meaning readily apparent. 
+* Brainboost — No longer available
+* hakia - hakia is an Internet search engine. The company has invented an alternative new infrastructure to indexing that uses SemanticRank algorithm, a solution mix from the disciplines of ontological semantics, fuzzy logic, computational linguistics, and mathematics.
+* Lexxe - Lexxe is an Internet search engine that uses natural language processing for queries (semantic search). Searches can be made with keywords, phrases, and questions, such as "How old is Wikipedia?" When it comes to facts, Lexxe is quite effective, though needs much improvement in natural language analysis in the area of facts and in other areas.
+* Pikimal - Pikimal uses natural language tied to user preference to make search recommendations by template.
+* Powerset — On May 11, 2008, the company unveiled a tool for searching a fixed subset of Wikipedia using conversational phrases rather than keywords.[tpl]cite news |url=http://bits.blogs.nytimes.com/2008/05/12/powerset-debuts-with-search-of-wikipedia/ |title=Powerset Debuts With Search of Wikipedia |publisher=The New York Times |first=Miguel |last=Helft |date=May 12, 2008[/tpl] On July 1, 2008, it was purchased by Microsoft.[tpl]cite web |url=http://www.powerset.com/blog/articles/2008/07/01/microsoft-to-acquire-powerset |archiveurl=http://web.archive.org/web/20090225064356/http://www.powerset.com/blog/articles/2008/07/01/microsoft-to-acquire-powerset |archivedate=February 25, 2009 |title=Microsoft to Acquire Powerset |publisher=Powerset Blog |first=Mark |last=Johnson |date=July 1, 2008[/tpl]
+* START (MIT project) - START, Web-based question answering system. Unlike information retrieval systems such as search engines, START aims to supply users with "just the right information," instead of merely providing a list of hits. Currently, the system can answer millions of English questions about places, movies, people and dictionary definitions.
+* Swingly - Swingly is an answer engine designed to find exact answers to factual questions. Just ask a question in plain English - and Swingly will find you the answer (or answers) you're looking for (according to their site).
+* Yebol - Yebol is a vertical "decision" search engine that had developed a knowledge-based, semantic search platform. Yebol's artificial intelligence human intelligence-infused algorithms automatically cluster and categorize search results, web sites, pages and content that it presents in a visually indexed format that is more aligned with initial human intent. Yebol uses association, ranking and clustering algorithms to analyze related keywords or web pages. Yebol integrates natural language processing, metasynthetic-engineered open complex systems, and machine algorithms with human knowledge for each query to establish a web directory that actually 'learns', using correlation, clustering and classification algorithms to automatically generate the knowledge query, which is retained and regenerated forward.Humphries, Matthew. "Yebol.com steps into the search market" Geek.com. 31 July 2009.
+* Inbenta - Inbenta's Search Engine is a multilingual, scalable, linguistic, and semantic-based search engine for the enterprise. It is based on the latest developments of the Meaning-Text Theory and provides intuitive search experiences using natural language.
+* Mnemoo - Mnemoo is an answer engine that aimed to directly answer questions posed in plain text (Natural Language), which is accomplished using a database of facts and an inference engine.
+* Natural Date and Time - Natural language date and time zone engine. It allows you to ask questions about time, daylight saving information and to do time zone conversions via plain english questions such as 'What is the time in Sao Paolo when it is 6pm on the 2nd of June in Detroit'.
+
+==See also==
+
+*Noisy text
+*Question answering
+*Selection-based search
+*Semantic search
+*Semantic Web
+
+==References==
+
+==External links==
+
+* History of Search Engines
+* Human Language Interface
+

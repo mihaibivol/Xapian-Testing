@@ -1,0 +1,50 @@
+
+Vbuzzer or Vbuzzer Messenger, is a voice over IP and instant messaging software and service, based on open protocols of XMPP (for instant messaging) and Session Initiation Protocol (for voice over IP). It competes against proprietary  protocol based software like Skype, Yahoo! Voice, as well as other open standard based VoIP software. Vbuzzer offers free basic offers PC-PC, Phone-to-PC calling service as well as a paid PC-Phone service.
+
+==Technology==
+
+Vbuzzer is a closed source software developed by Softroute Corporation located in Markham, Ontario, Canada. It adopts the common server-client architecture to route the calls and exchange text messages. Vbuzzer text messaging employs the popular XMPP protocol and its internet telephony employs the Session Initiation Protocol (SIP). Vbuzzer has released versions that run on Windows 2000, Windows XP, Windows Vista and MacOS 10.0+ operating systems. Vbuzzer can also be installed on iPhone, Android, Windows mobile, Nokia and Blackberry platforms. The current release is Vbuzzer Messenger 2.5.072.
+
+== Deceptive business practices ==
+
+The software and the service has been tagged with multiple issues by their users See, for example http://download.cnet.com/Vbuzzer-Messenger/3640-2349_4-10478059-1.html?v=1, including non-existent technical and billing support. As of August 2011, the web site does not list any email address or phone number where to be reached.
+
+==Features==
+
+* Vbuzzer allow users to exchange text messaging, call/fax to the PSTN and reveive incoming PSTN calls/faxes.
+* Vbuzzer also offers free Voicemail, Call forward, Caller ID, Chat history logs and RSS Feeds.
+* Version 2.0.282 and up can work with Windows Live Messenger (WLM).[tpl]Fact|date=August 2008[/tpl]
+* Receive a US or Canada phone number for unlimited incoming calls.
+* Free Faxing within US, Canada and China
+* Works with Nokia E61,E51,N95 cell phone SIP client[tpl]fact|date=September 2008[/tpl]
+
+==Security==
+
+Vbuzzer is based on open standards XMPP and Session Initiation Protocol as its communication protocols, no security concerns have been reported so far.[tpl]Fact|date=August 2008[/tpl]
+
+==Other issues==
+
+In June 2005, Vbuzzer was reported to be using source code from the open source instant messaging software Miranda IM; within about 4 weeks after said report, Vbuzzer had removed all of the relevant code.[tpl]cite news |first= |last= |authorlink= |coauthors= |title=Miranda beklagt GPL-Verstöße. StarMessenger und vbuzzer sollen Mirandas Lizenz verletzen  |url=http://www.golem.de/0506/38714.html |work=Golem.de |publisher= |date=2005-06-20|language=German  |accessdate=2008-07-23 [/tpl][tpl]Verify source|date=August 2008[/tpl]
+Starting from March 17, 2012 there was a service outage in Canada for more than 2 days. Their website was also not accessible during that period.
+
+==Compatible software==
+
+* Yahoo! Messenger
+* Windows Live Messenger
+* Google Talk
+
+==See also==
+
+* Instant Messaging
+* List of XMPP client software
+* Comparison of instant messaging clients
+* Comparison of instant messaging protocols
+
+==References==
+
+*[tpl]cite news |first= |last= |authorlink= |coauthors= |title=Vbuzzer challenges Skype |url=http://www.theglobeandmail.com/servlet/story/RTGAM.20051201.gtvbuzzer1201/BNStory/Technology   |work=The Globe and Mail (Toronto) |publisher= |date=December 1, 2005  |accessdate=2008-07-23 [/tpl]
+
+==External links==
+
+* Vbuzzer website
+

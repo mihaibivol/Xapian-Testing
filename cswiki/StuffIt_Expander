@@ -1,0 +1,41 @@
+
+StuffIt Expander is a proprietary, freeware, closed source, decompression software utility developed by Allume Systems (a subsidiary of Smith Micro Software formerly known as Aladdin Systems). It runs in Mac OS Classic, Mac OS X, Microsoft Windows, and Linux x86/UNIX.
+As of November 2010, the latest Macintosh version is 2011 (15.0.2), which requires Mac OS X v10.5 or later. Version 2010 (14.0.1) runs on Mac OS X v10.4, version 10.0.2 runs on Mac OS X v10.3, and version 8.0.2 runs on Mac OS X v10.0–Mac OS X v10.2. The latest version for Mac OS 9 is 7.0.3.Stuffit Expander (Mac) download page 
+As of September 2011, Linux version is no longer available for download from the official page.
+StuffIt has been a target of criticism and dissatisfaction from Mac users in the past as the file format changes frequently, notably during the introduction of StuffIt version 5.0. Expander 5.0 contained many bugs, and its file format was not readable by the earlier version 4.5, leaving Mac users of the time without a viable compression utility.
+The latest stand-alone version for Windows is 2009 (13.0). Contrary to the version 12.0, which was only able to decompress the newer .sitx (and ZIP) archives, version 2009 claims to be able to decompress over 30 formats, some listed below. The executables require both, the .NET v2.0 framework and MSVC 2008 (9.0) runtimes. The previous stand-alone version able to decompress .sit and other Mac OS specific archives was 7.02, distributed with StuffIt v7.0.x for Windows.
+From versions 7.5.x to 11 the Expander capabilities were actually performed by the StuffIt Standard Edition, that allowed decompression even after the end of the trial period. To start StuffIt in Expander mode the following command line switches were used: -expand -uiexpander.Answer Note that the registration reminder dialogue box is not shown in this case.
+There is also a command line DOS application called UNSTUFF v1.1 that allows decompression of .sit files.
+StuffIt Expander 2009 decompresses files in the following formats:
+* 7-Zip (.7z, .cb7)
+* AppleSingle (.as)
+* Arc (.arc)
+* ARJ (.arj)
+* BinHex (.hqx), all versions
+* BTOA (.b2a, .btoa)
+* bzip2 (.bzip, .bzip2, .bz, .bz2, .tbz, .tbz2, .tar.bz, .tar.bz2)
+* CAB (.cab)
+* Compact Pro (.cpt)
+* gzip (.gz, .tgz)
+* LHA (.lha, .lzh)
+* LZMA (.lzma, .tlzma, .tar.lzma)
+* MacBinary (.bin, .macbin), all versions
+* MIME/Base 64 (.mime)
+* Private File (.pF), Aladdin's encryption file format
+* RAR (.rar, .rNN, .cbr, .partNN.rar), including segmented
+* SpaceSaver StuffIt compression format used in versions prior 5.x
+* StuffIt (.sit, .sitx, .sit.N, .partNN.sitx, .sea, .exe) v1.5.1 to 8.0.x, including encrypted, segmented and self-extracting archive
+* tar (.tar, .gtar, .gnutar, .ustar, .cbt)
+* Unix Compress (.Z, .z, .taz)
+* UU (.uu, .uue, .enc), PC/Unix 8 bit to 7 bit encoding similar to BinHex (.hqx)
+* yEncode (.ync, .y)
+* ZIP (.zip, .zNN, .cbz, .exe), including encrypted, Zip64, segmented and self-extracting archive
+
+==References==
+
+== External links ==
+
+* Stuffit Expander homepage
+* Stuffit Expander (Mac) download page
+* Stuffit Expander (Windows) download page
+

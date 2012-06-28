@@ -1,0 +1,62 @@
+
+ 
+Opsi (open PC server integration) is a software distribution and management system for Microsoft Windows clients, based on GNU/Linux servers.  Opsi is developed and maintained by uib GmbH from Mainz, Germany. The main parts of Opsi are Open Source licensed under the GNU General Public License[tpl]Citation | url = http://www.opsi.org/license/ | publisher = Opsi | title = License[/tpl]..
+
+== Features ==
+
+The key features[tpl]Citation | url = http://www.opsi.org/features/ | publisher = Opsi | title = Features[/tpl]. of opsi are:
+* Automated operating system installation (OS deployment)
+* Software distribution
+* Patch management
+* Inventory (hardware and software)
+* License Management / Software Asset Management
+A tools for automated installations is important and necessary for standardization, maintainability and cost saving of larger PC networks. 
+opsi supports the client operating systems MS Windows XP, Server 2003, Windows Vista, Server 2008, Windows 7 and Server 2008R2. The 32- and the 64-bit versions are supported. For the installation of an opsi-server there are packages available for the GNU/Linux distributions Debian, Ubuntu, SLES, Univention Corporate Server, CentOS, RHEL and OpenSuse.
+
+== Automated operating system installation ==
+
+Via management interface a client may be selected for OS-Installation. If the client boots via PXE it loads a boot image from the opsi-depotserver.  This bootimage prepares the hard disk, copies the required installation files, drivers and the opsi client agent and starts finally an unattended OS-Installation. Opsi uses the automatic detection of the necessary drivers for PCI-, HD-Audio- and USB-Devices.  OS-installation via Disk image is also supported.
+
+== Software distribution ==
+
+For the automatic software distribution some software, the opsi-client-agent, has to be installed on each client.  Every time the client boots the opsi-client-agent connects to the opsi-server and asks if there is anything to install (default).  If this shall be done a script driven installation program (opsi-winst) starts and installs the required software on the client. During the installation process the user login can be blocked for integrity reasons. To integrate a new software packet into the software deployment system, a script must be written to specify the installation process. This script provides all the information on how this software packet has to be installed  silent or unattended or by using tools like AutoIt or Autohotkey. With the opsi-winst steps like copy files or edit the registry can be done.  The opsi-client-agent can also be triggered by other events or via push-installation from the opsi-server.
+
+== Patch-Management ==
+
+The mechanism of the software deployment can also be used to deploy software patches and hotfixes.
+
+== Inventory (hardware and software) ==
+
+The hard- and software inventory also uses the opsi-client-agent. The hardware information is collected via calls to   WMI while the software information is gathered from the registry. The inventory data are sent back to the opsi-server by a web service. The inventory data may imported via a web service to a CMDB e.g. in OTRS.[tpl]Citation | url = http://www.cape-it.de/product-kix4otrs.html | publisher = Cape IT | title = Product | contribution = Kix44OTRS | place = DE[/tpl].
+
+== License management / Software Asset Management ==
+
+The opsi License Management module supports the administration of different kinds of licenses like Retail, OEM and Volume licenses. It counts the licenses that are used with the software deployment. Using the combination of the License Management and the software inventory, Software Asset Management reports on the number of free and installed licenses can be generated. The License Management module is part of a Co-funding Project and not released as open source yet.
+
+== opsi-server ==
+
+The opsi-server provides the following services:
+* The configuration-server stores the configuration data of the clients and provides the methods to manage these data via a web service or the command-line. The data can be stored in files, in OpenLDAP or in a MySQL Database. 
+* The depot-server stores software packages that may be installed on the clients. To provide support for multiple locations, multiple depot-servers may be controlled by one configuration-server.
+* A TFTP-Server provides the boot images for the OS-Installations.
+* A DHCP-Server may be integrated in the opsi-server
+
+== Management interface ==
+
+For managing opsi a graphical user interface[tpl]Citation | url = http://www.opsi.org/screenshots/ | publisher = Opsi | title = Screenshots[/tpl]. is available as an application or as a browser Applet.  Management is also possible with a command line tool or via web service[tpl]Citation | url = http://download.uib.de/opsi_stable/doc/opsi-manual-stable-en.pdf | publisher = UIB | place = DE | title = Opsi manual, stable | format = PDF | chapter = opsi-admin[/tpl]..
+
+== License ==
+
+The opsi core features are Open Source according to the GNU General Public License Version 3 and are free of charge.  The core features are software distribution (or software deployment), OS deployment and hard- and software-inventory.  These free components can be supplemented with closed source add-ons that require the payment of a fee. They are called Co-funding Projects.
+
+== Co-funding projects ==
+
+Even though opsi is open source, there are some components which are not for free at the moment. These components are developed in a co-funding project. This means, that these parts are only available for those customers who paid a contribution to the cost of development. As soon as the development of a co-funding project is refinanced, the component will be part of the free opsi-version and can be used free of charge. It will be open source (as long as not prevented caused by technical reasons). The first of these co-funding Projects was the opsi support for Windows Vista/Windows 7. It was completed on 1st of February 2008 and is free of charge since 1st of March 2010.  The source code was divided from the not yet paid parts and is open source since since 30th of November 2010.  At the moment (January 2011) there are three co-funding projects: Treeview builds hierarchical groups of clients to manage; MySQL as backend for all data; and the license management module.  The main focus of co-funding projects is to create software once for a pool of purchasers who share the cost and make it open source as soon as it paid in full[tpl]Citation | url = http://uib.de/en/opsi_cofunding/ | publisher = UIB | place = DE | title = Opsi cofunding[/tpl].[tpl]Citation | url = http://www.opsi.org/statistics/cofunding%20opsiclientd/ | publisher = Opsi | title = Statistics | contribution = Cofunding OpsiClientD[/tpl]..
+
+==References and sources==
+
+== External links ==
+
+* [tpl]URL | http://opsi.org | Opsi[/tpl]
+* [tpl]Citation | url = http://www.linux-magazine.com/Issues/2009/108/Opsi | contribution = Opsi | title = Linux Magazine | year = 2009 | issue = 108[/tpl]
+

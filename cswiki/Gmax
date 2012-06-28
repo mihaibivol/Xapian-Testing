@@ -1,0 +1,39 @@
+
+Gmax is a 3D modeling application based on Autodesk's  3ds Max application used by professional computer graphics artists. Whereas 3ds Max is a comprehensive modeling, animation, and rendering package with some secondary post-production and compositing features, Gmax is much more limited due to its singular intended use—game content creation. Tools and features rarely used or completely unrelated to creating 3D game models were removed (most if not all of the more complex rendering, materials, shaders, physics simulation, and some of the more advanced geometry tools, plus the rendering engine), leaving the core modeling, texturing, and basic animation rigging and keyframing capabilities. In 2005, the software was discontinued at version 1.2
+
+==Features==
+
+Gmax can be expanded by "game packs," which feature customized tools with the purpose of creating and exporting customizable content to games and websites. As Gmax was bereft of its progenitor's rendering engine, game packs were typically required to provide such a feature for Gmax if deemed necessary (Maxis was the first company to write a dedicated renderer for their Gmax gamepack, BAT (Building Architect Tool) for SimCity 4).
+The introduction of Gmax and Autodesk's distribution of the core tools was thought to be aimed towards remedying the 'limited-options piracy' of 3D modeling packages that had been widespread among amateur 3D modeling and game mod communities to that point. Until the introduction of Gmax, and a similar 'game modeler' version of Maya soon after, amateur modelers had extremely limited access to the tools needed to do so. Gmax enabled modelers to have legitimate access to content creation tools similar to those used by professionals.
+
+===Redistribution===
+
+Microsoft distributed Gmax with Microsoft Flight Simulator (MSFS) beginning with the 2002 version. Most of the freeware and also payware add-on aircraft and scenery is created with Gmax and it's considered to be the standard modeller for MSFS, although it does have competition in the form of the more user-friendly Flight Simulator Design Studio. It can make use of special animations through XML coding written into parts.
+
+==Cancellation==
+
+As of October 16, 2005 AutoDesk Media and Entertainment has discontinued and no longer supports Gmax. Instead, the company has decided to focus on 3ds Max. However, the last version of Gmax is available for free to download from the official support website.
+
+==Software license agreement==
+
+There has been some debate as to whether exporting Quake 3 models for use with a game other than Quake 3 is a violation of the gmax software license agreement (or EULA). Product manager Paul Perreault has publicly stated that "gmax is a tool to create 3d content—what you create with gmax is your business, not ours." He continues, "Discreet is not opposed to exporting data from gmax—provided Discreet is the decision maker about what formats are supported."[tpl]Cite web |url=http://www.turbosquid.com/Forum/Index.cfm/stgAct/PostList/intThreadID/8525 |title=Discreet Position on gmax exporter |accessdate=2008-07-23 |date=2001-11-28[/tpl] Export to the Quake 3 model format is officially supported by Discreet. Therefore using gmax to create and export models to the .md3 format does not appear to be a violation of the terms of the gmax EULA.
+
+== See also ==
+
+* 3D computer graphics software
+* Blender
+* Crystal Space
+* Milkshape
+* OGRE Engine
+* Panda3D
+* 3ds Max
+* Irrlicht Engine
+
+==References==
+
+==External links==
+
+* Official Gmax support web site
+* Trainz Content Creation Pack GMax game pack for Auran's Trainz railway simulator
+*gMax game pack chooser for Microsoft Flight Simulator
+

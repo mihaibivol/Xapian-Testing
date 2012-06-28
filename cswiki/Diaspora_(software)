@@ -1,0 +1,38 @@
+
+Diaspora (stylized DIASPORA*) is a free personal web server[tpl]cite web|url=http://www.kickstarter.com/projects/196017994/diaspora-the-personally-controlled-do-it-all-distr|title=Decentralize the web with Diaspora — Kickstarter|last=Salzberg|first=Maxwell|coauthors=Daniel Grippi, Raphael Sofaer, and Ilya Zhitomirskiy|work=Kickstarter|accessdate=May 13, 2010[/tpl] that implements a distributed social networking service. Installations of the software form nodes (termed "pods") which make up the distributed Diaspora social network.
+The project was founded by Dan Grippi, Maxwell Salzberg, Raphael Sofaer and Ilya Zhitomirskiy, students at New York University's Courant Institute of Mathematical Sciences. The group received donations in excess of $200,000 via Kickstarter. A consumer alpha version was released on November 23, 2010.
+
+==Concept==
+
+Diaspora is intended to address privacy concerns related to centralized social networks by allowing users set up their own server (or "pod") to host content; pods can then interact to share status updates, photographs, and other social data.[tpl]cite web|title=Diaspora: A first peek at Facebook's challenger|url=http://www.computerworld.com/s/article/9186498/Diaspora_A_first_peek_at_Facebook_s_challenger|publisher=Computerworld|accessdate=September 17, 2010[/tpl] It allows its users to host their data with a traditional web host, a cloud-based host, an ISP, or a friend. The framework, which is being built on Ruby on Rails, is free software and can be experimented with by external developers.
+A key part of the Diaspora software design concept is that it should act as a "social aggregator", allowing posts to be easily imported into Facebook, Tumblr and Twitter. As Village Voice writer Nick Pinto explained, "the idea is that this lowers the barriers to joining the network, and as more of your friends join, you no longer need to bounce communications through Facebook. Instead, you can communicate directly, securely, and without running exchanges past the prying eyes of Zuckerberg and his business associates."[tpl]cite news|url = http://www.villagevoice.com/2012-02-15/news/the-facebook-killers/3/|title = Rise of the Facebook-Killers page 3|accessdate = 20 February 2012|last = Pinto|first = Nick|date = 15 February 2012| work = The Village Voice[/tpl]
+
+==Development==
+
+After the project raised over $200,000 in funding via the Kickstarter website by June 1, 2010, the group began working on the software. A developer preview with a number of security holes was released on September 15, 2010.[tpl]cite web|last=Goodin|first=Dan|title=Code for open-source Facebook littered with landmines|url=http://www.theregister.co.uk/2010/09/16/diaspora_pre_alpha_landmines/|publisher=The Register|accessdate=September 17, 2010[/tpl] On November 23, a redesigned website was published in preparation for the alpha release, with the old site still available as a blog section. The early security holes were fixed with the alpha release.[tpl]cite web|url=http://blog.joindiaspora.com/2010/11/23/private-alpha-released.html | title =Private Alpha Invites Going Out Today|work=joindiaspora|accessdate=December 17, 2010|date=December 10, 2010[/tpl]
+After its foundation is completed, Diaspora's developers intend to concentrate on creating a "battery of add-on modules" in order to "facilitate any type of communication," and plan to offer a paid hosting service for Diaspora seeds.[tpl]cite web|url=http://blog.joindiaspora.com/project.html|accessdate=2010-05-12|title=join diaspora — the project[/tpl]
+Development was shifted to free office space provided by Pivotal Labs in San Francisco, California. The software’s alpha version was released in September 2010. The early alpha version contained many bugs and security flaws, but feedback on the free software lead to quick improvements.[tpl]cite news|url = http://www.businessweek.com/articles/2012-05-10/on-diasporas-social-network-you-own-your-data|title = On Diaspora's Social Network, You Own Your Data|accessdate = 14 May 2012|last = Weise|first = Karen|date = 15 May 2012| work = Bloomberg Businessweek[/tpl]
+The software's beta release was originally scheduled for November 2011, but was postponed due to the need to add new design features and also Zhitomirskiy’s death.
+In February 2012 the developers indicated that they had completed work on the software back-end to improve both pod up time and website response time. The next phase of work involved changes to the user interface and its associated terminology to reflect the way users are actually interacting, as the software moves towards beta status, anticipated for later on in 2012.[tpl]Cite news|url = http://blog.diasporafoundation.org/2012/02/03/diaspora-grows-up.html|title = DIASPORA* grows up|accessdate = 4 February 2012|last = Grippi|first = Dan, et al|date = 3 February 2012| work = Diaspora Foundation Blog[/tpl]
+By May 2012 development was underway to allow a high degree of customization of user posts, permitting users to post different media, such as text, photos and video with a high degree of personalization and individual expression. The developers felt that allowing individual creativity in posts will differentiate the Diaspora platform from competitors.
+In June 2012 the development team is scheduled to move to Mountain View, California as part of work with startup accelerator Y-Combinator.
+
+==Reception==
+
+Konrad Lawson, blogging for the Chronicle of Higher Education, suggested Diaspora in July 2011 as an alternative to corporately produced software.[tpl]cite web|last=Lawson|first=Konrad|title=Remembering Diaspora: The Open Source Social Network|url=http://chronicle.com/blogs/profhacker/remembering-diaspora-the-open-source-social-network/34627?sid=wc&utm_source=wc&utm_medium=en|work=Chronicle of Higher Education|publisher=|accessdate=15 July 2011| quote=Even if they never dominate the field, their decentralized approach and rallying cry to “take back your network” may help maintain a sustained pressure on the Googles and Facebooks of the world.[/tpl]
+
+== See also ==
+
+* Freedom Box
+* Friendica
+* List of social networking websites
+* Social media
+
+== References ==
+
+== External links ==
+
+* [tpl]Official website|http://diasporafoundation.org/[/tpl]
+* Diaspora GitHub repository
+* Kickstarter pitch
+

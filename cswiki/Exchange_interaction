@@ -1,0 +1,62 @@
+
+In physics, the exchange interaction is a quantum mechanical effect without classical analogue which increases or decreases the expectation value of the energy or distance between two or more identical particles when their wave functions overlap. For example, the exchange interaction results in identical particles with spatially symmetric wave functions (bosons) appearing closer together than would be expected of distinguishable particles, and in identical particles with spatially antisymmetric wave functions (fermions) appearing farther apart.  The exchange interaction is the mechanism responsible for ferromagnetism, among other consequences.
+Although sometimes erroneously described as a force, the exchange interaction is a purely quantum mechanical effect without any analog in classical mechanics. It is due to the wave function of indistinguishable particles being subject to exchange symmetry, that is, the wave function describing two particles that cannot be distinguished must be either unchanged (symmetric) or inverted in sign (antisymmetric) if the labels of the two particles are changed.
+For example, if the expectation value of the distance between two particles in a spatially symmetric or antisymmetric state is calculated, the exchange interaction may be seen.David J. Griffiths, "Introduction to Quantum Mechanics", Second Edition, pp. 207–210
+Both bosons and fermions can experience the exchange interaction provided that the particles in question are indistinguishable.
+Exchange interaction effects were discovered independently by physicists Werner HeisenbergMehrkörperproblem und Resonanz in der Quantenmechanik, W. Heisenberg, Zeitschrift für Physik 38, #6–7 (June 1926), pp. 411–426. DOI 10.1007/BF01397160. and P. A. M. DiracOn the Theory of Quantum Mechanics, P. A. M. Dirac, Proceedings of the Royal Society of London, Series A 112, #762 (October 1, 1926), pp. 661—677. in 1926.
+The exchange interaction is sometimes called the exchange force, but it is not a true force and should not be confused with the exchange forces produced by the exchange of force carriers, such as the electromagnetic force produced between two electrons by the exchange of a photon, or the strong force between two quarks produced by the exchange of a gluon.Exchange Forces, HyperPhysics, Georgia State University, accessed June 2, 2007.
+
+==Exchange Interactions between localized electron magnetic moments==
+
+Quantum mechanical particles are classified as bosons or fermions. The spin-statistics theorem of quantum field theory demands that all particles with half-integer spin behave as fermions and all particles with integer spin behave as bosons. Multiple bosons may occupy the same quantum state; by the Pauli exclusion principle, however, no two fermions can occupy the same state. Since electrons have spin 1/2, they are fermions. This means that the overall wave function of a system must be antisymmetric when two electrons are exchanged, i.e. interchanged with respect to both spatial and spin coordinates.  First, however, exchange will be explained with the neglect of spin.
+
+===Exchange of spatial coordinates===
+
+Alternatively, we may also construct the overall position–space wave function by using a symmetric combination of the product wave functions in position space:
+Treating the exchange interaction in the hydrogen molecule by the perturbation method, the overall Hamiltonian is:
+Two eigenvalues for the system energy are found:
+The terms in parentheses in Eqs. (4) and (6) correspond to: proton–proton repulsion (Rab), electron–electron repulsion (r12), and electron–proton attraction (ra1/a2/b1/b2).
+Although in the hydrogen molecule the exchange integral, Eq. (6), is negative, Heisenberg first suggested that it changes sign at some critical ratio of internuclear distance to mean radial extension of the atomic orbital.Derivation of the Heisenberg Hamiltonian, Rebecca Hihinashvili, accessed on line October 2, 2007.Quantum Theory of Magnetism: Magnetic Properties of Materials, Robert M. White, 3rd rev. ed., Berlin: Springer-Verlag, 2007, section 2.2.7.  ISBN 3-540-65116-0.The Theory of Electric and Magnetic Susceptibilities, J. H. van Vleck, London: Oxford University Press, 1932, chapter XII, section 76.
+
+===Inclusion of spin===
+
+The symmetric and antisymmetric combinations in Eqs. (1) and (2) did not include the spin variables (α = spin-up; β = spin down); there are also antisymmetric and symmetric combinations of the spin variables:
+To obtain the overall wave function, these spin combinations have to be coupled with Eqs. (1) and (2).  The resulting overall wave functions, called spin-orbitals, are written as Slater determinants. When the orbital wave function is symmetrical the spin one must be anti-symmetrical and vice versa. Accordingly, E+ above corresponds to the spatially symmetric/spin-singlet solution and E− to the spatially antisymmetric/spin-triplet solution. 
+J. H. Van Vleck presented the following analysis:Van Vleck, J. H. "Electric and Magnetic Susceptibilities, Oxford, Clarendon Press, p. 318 (1932).
+:and, hence,
+Dirac pointed out that the critical features of the exchange interaction could be obtained in an elementary way by neglecting the first two terms on the right-hand side of Eq. (9), thereby considering the two electrons as simply having their spins coupled by a potential of the form:    
+Jab is not the same as the quantity labeled Jex in Eq. (6).  Rather, Jab, which is termed the exchange constant, is a function of Eqs. (4), (5), and (6), namely,
+However, with orthogonal orbitals (in which B = 0), for example with different orbitals in the same atom, Jab = Jex.
+
+===Effects of exchange===
+
+If Jab is positive the exchange energy favors electrons with parallel spins; this is a primary cause of ferromagnetism in materials in which the electrons are considered localized in the Heitler–London model of chemical bonding, but this model of ferromagnetism has severe limitations in solids (see below).  If Jab is negative, the interaction favors electrons with antiparallel spins, potentially causing antiferromagnetism.  The sign of Jab is essentially determined by the relative sizes of Jex and the product of CB2. This can be deduced from the expression for the difference between the energies of the triplet and singlet states, E− − E+:
+Although these consequences of the exchange interaction are magnetic in nature, the cause is not; it is due primarily to electric repulsion and the Pauli exclusion principle. Indeed, in general, the direct magnetic interaction between a pair of electrons (due to their electron magnetic moments) is negligibly small compared to this electric interaction.
+Exchange energy splittings are very elusive to calculate for molecular systems at large internuclear distances. However, analytical formulae have been worked out for the hydrogen molecular ion (see references herein).
+Normally, exchange interactions are very short-ranged, confined to electrons in orbitals on the same atom (intra-atomic exchange) or nearest neighbor atoms (direct exchange) but longer-ranged interactions can occur via intermediary atoms and this is termed Superexchange.
+
+==Direct exchange interactions in solids==
+
+In a crystal, generalization of the Heisenberg Hamiltonian in which the sum is taken over the exchange Hamiltonians for all the (i,j) pairs of atoms of the many-electron system gives:. 
+For a body-centered cubic lattice,
+and for a face-centered cubic lattice,
+The form of Eq. (14) corresponds identically to the Ising mechanical model of ferromagnetism except that in the Ising model, the dot product of the two spin angular momenta is replaced by the scalar product SijSji.  The Ising model was invented by Wilhelm Lenz in 1920 and solved for the one-dimensional case by his doctoral student Ernst Ising in 1925. The energy of the Ising model is defined to be:
+
+===Limitations of the Heisenberg Hamiltonian and the localized electron model in solids===
+
+==See also==
+
+* Double-exchange mechanism
+* Exchange symmetry
+* Pauli exclusion principle
+* Slater determinant
+* Superexchange
+* Holstein–Herring method
+
+==References==
+
+==External links==
+
+* Exchange Interaction and Energy
+* Exchange Interaction and Exchange Anisotropy
+

@@ -1,0 +1,10 @@
+
+TeLQAS (Telecommunication Literature Question Answering System) is an experimental question answering system developed for answering English questions in the telecommunications domainMahmoudreza Hejazi, Maryam S. Mirian , Kourosh Neshatian, Azam Jalali, and Bahadorreza Ofoghi, A Telecommunication Literature Question/Answering System Benefits from a Text Categorization Mechanism, International Conference on Information and Knowledge Engineering (IKE2003), July 2003, USA..
+
+==Architecture==
+
+TeLQAS includes three main subsystems: an online subsystem, an offline subsystem, and an ontology. The online subsystem answers questions submitted by users in real time. During the online process, TeLQAS processes the question using a natural language processing component that implements part-of-speech tagging and simple syntactic parsing. The online subsystem also utilizes an inference engine in order to carry out necessary inference on small elements of knowledge. The offline subsystem automatically indexes documents collected by a focused web crawler from the web. An ontology server along with its API is used for knowledge representationKourosh Neshatian and Mahmoudreza Hejazi, An Object Oriented Ontology Interface for Information Retrieval Purposes in Telecommunication Domain, International Symposium on Telecommunication (IST2003).. The main concepts and classes of the ontology are created by domain experts. Some of these classes, however, can be instantiated automatically by the offline components.
+
+==References==
+
+

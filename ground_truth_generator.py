@@ -3,6 +3,7 @@
 import sys
 from apiclient.discovery import build
 from pprint import pprint as pp
+import codecs
 
 def main(args):
     query = args[1]
@@ -18,12 +19,14 @@ def main(args):
     # Get search results from en.wikipedia.org
     res = service.cse().list(q=query, cx="*.org", siteSearch="http://en.wikipedia.org").execute()
 
-    out = open(output, "w")
+    out = codecs.open(output, "w", "utf-8")
+    out.write(query + "\n")
 
     for r in res['items']:
         out.write(r["formattedUrl"] + "\n")
-        out.write(query + "\n")
         out.write(r["snippet"] + "\n")
+
+    out.close()
 
 if __name__ == "__main__":
     main(sys.argv)

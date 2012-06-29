@@ -25,11 +25,12 @@
 #include <iostream>
 #include <fstream>
 #include <string>
+#include <map>
 
 #include <cstdlib> // For exit().
 #include <cstring>
 
-#define QUERY_LEN 1024
+#define BUFF_LEN 1024
 
 using namespace std;
 
@@ -40,11 +41,23 @@ test_file(
 	Xapian::Enquire &	    enquire)
 {
     ifstream file(filename);
-    char query_s[QUERY_LEN];
-    file.getline(query_s, QUERY_LEN);
+    char buff[BUFF_LEN];
+    file.getline(buff, BUFF_LEN);
 
-    cout << query_s << "\n";
-    Xapian::Query query = qp.parse_query(string(query_s));
+    string query_s(buff);
+    // Get the ground truth snippets for each url.
+    map<string, string> ground_truth;
+    while (!file.eof()) {
+	file.getline(buff, BUFF_LEN);
+	string url(buff);
+	// Hardcoded only for wikipedia files.
+	url.replace(0, strlen("en.wikipedia.org/wiki/"), "");
+	file.getline(buff, BUFF_LEN);
+	string snippet(buff);
+	ground_truth[url] = snippet;
+    }
+
+    Xapian::Query query = qp.parse_query(query_s);
     enquire.set_query(query);
     Xapian::MSet matches = enquire.get_mset(0, 10);
 
@@ -60,6 +73,9 @@ test_file(
     for (Xapian::MSetIterator i = matches.begin(); i != matches.end(); ++i) {
 	// Get only the sample from the document data.
 	string gen_text = i.get_document().get_data();
+	// Get url name
+	string url = gen_text.substr(5, gen_text.find('\n') - 5);
+	cout << url << endl;
 	string sample_mark("sample=");
 	string type_mark("type=");
 
@@ -72,6 +88,7 @@ test_file(
 	cout << i.get_rank() + 1 << ": " << i.get_weight() << " docid=" << *i
 	     << " [" << snipper.generate_snippet(matches, gen_text) << "]\n\n";
     }
+    file.close();
 }
 
 int

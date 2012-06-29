@@ -50,6 +50,7 @@ test_file(
 
     Xapian::Snipper snipper;
     Xapian::Stem stemmer("english");
+    snipper.set_stemmer(stemmer);
     // Find the top 10 results for the query.
 
     // Display the results.
@@ -71,7 +72,6 @@ test_file(
 	cout << i.get_rank() + 1 << ": " << i.get_weight() << " docid=" << *i
 	     << " [" << snipper.generate_snippet(matches, gen_text) << "]\n\n";
     }
-   snipper.set_stemmer(stemmer);
 }
 
 int

@@ -75,7 +75,7 @@ test_file(
 	string gen_text = i.get_document().get_data();
 	// Get url name
 	string url = gen_text.substr(5, gen_text.find('\n') - 5);
-	cout << url << endl;
+	cout << "for URL: " << url << endl;
 	string sample_mark("sample=");
 	string type_mark("type=");
 
@@ -85,8 +85,10 @@ test_file(
 	size_t type_pos = gen_text.rfind(type_mark);
 	gen_text.erase(gen_text.begin() + type_pos, gen_text.end());
 
-	cout << i.get_rank() + 1 << ": " << i.get_weight() << " docid=" << *i
-	     << " [" << snipper.generate_snippet(matches, gen_text) << "]\n\n";
+	cout << snipper.generate_snippet(matches, gen_text) << endl;
+	cout << ground_truth[url] << endl;
+	cout << endl;
+
     }
     file.close();
 }

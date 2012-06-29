@@ -1,7 +1,7 @@
 linus torvalds kernel
 en.wikipedia.org/wiki/Linus_Torvalds
 Linus Benedict Torvalds (Swedish pronunciation: [ˈliːn.ɵs ˈtuːr.valds] ( listen)  ; born .... Initially Torvalds wanted to call the kernel he developed Freax (a ...
-en.wikipedia.org/wiki/Tanenbaum–Torvalds_debate
+en.wikipedia.org/wiki/Tanenbaum-Torvalds_debate
 The Tanenbaum–Torvalds debate is a debate between Andrew S. Tanenbaum   and Linus Torvalds, regarding Linux and kernel architecture in general.
 en.wikipedia.org/wiki/Linux
 Andrew S. Tanenbaum (left), author of the MINIX operating system, and Linus   Torvalds (right), principal author of the Linux kernel ...

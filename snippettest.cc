@@ -67,15 +67,11 @@ test_file(
     // Find the top 10 results for the query.
 
     // Display the results.
-    cout << matches.get_matches_estimated() << " results found.\n";
-    cout << "Matches 1-" << matches.size() << ":\n" << endl;
-
     for (Xapian::MSetIterator i = matches.begin(); i != matches.end(); ++i) {
 	// Get only the sample from the document data.
 	string gen_text = i.get_document().get_data();
 	// Get url name
 	string url = gen_text.substr(5, gen_text.find('\n') - 5);
-	cout << "for URL: " << url << endl;
 	string sample_mark("sample=");
 	string type_mark("type=");
 
@@ -85,9 +81,11 @@ test_file(
 	size_t type_pos = gen_text.rfind(type_mark);
 	gen_text.erase(gen_text.begin() + type_pos, gen_text.end());
 
-	cout << snipper.generate_snippet(matches, gen_text) << endl;
-	cout << ground_truth[url] << endl;
-	cout << endl;
+	if (ground_truth[url].length() != 0) {
+	    cout << snipper.generate_snippet(matches, gen_text) << endl;
+	    cout << ground_truth[url] << endl;
+	    cout << endl;
+	}
 
     }
     file.close();

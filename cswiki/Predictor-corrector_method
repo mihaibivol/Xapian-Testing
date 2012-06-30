@@ -1,0 +1,41 @@
+
+In mathematics, particularly numerical analysis, a predictor–corrector method is an algorithm that proceeds in two steps.  First, the prediction step calculates a rough approximation of the desired quantity.  Second, the corrector step refines the initial approximation using another means.
+
+== Predictor–corrector methods for solving ODEs ==
+
+When considering the numerical solution of ordinary differential equations (ODEs), a predictor­­–corrector method typically uses an explicit method for the predictor step and an implicit method for the corrector step.
+
+=== Example: Euler method with the trapezoidal rule ===
+
+A simple predictor–corrector method can be constructed from the Euler method (an explicit method) and the trapezoidal rule (an implicit method).
+Consider the differential equation
+Next, the corrector step: improve the initial guess using trapezoidal rule, 
+That value is used as the next step.
+
+=== PEC mode and PECE mode ===
+
+There are different variants of a predictor­–corrector method, depending on how often the corrector method is applied. The Predict–Evaluate–Correct–Evaluate (PECE) mode refers to the variant in the above example:
+It is also possible to evaluate the function f only once per step by using the method in Predict–Evaluate–Correct (PEC) mode:
+Additionally, the corrector step can be repeated in the hope that this achieves an even better approximation to the true solution. If the corrector method is run twice, this yields the PECECE mode:
+The PECEC mode has one fewer function evaluation. More generally, if the corrector is run k times, the method is in P(EC)kor P(EC)kE mode. If the corrector method is iterated until it converges, this could be called PE(CE)∞. [tpl]harvnb|Butcher|2003|p=104[/tpl]
+
+== See also ==
+
+* Backward differentiation formula
+* Beeman's algorithm
+* Heun's method
+* Mehrotra predictor–corrector method
+* Numerical continuation
+
+==Notes==
+
+==References==
+
+* [tpl]Citation | last1=Butcher | first1=John C. | author1-link=John C. Butcher | title=Numerical Methods for Ordinary Differential Equations | publisher=John Wiley & Sons | location=New York | isbn=978-0-471-96758-3 | year=2003[/tpl].
+*[tpl]Cite book | last1=Press | first1=WH | last2=Teukolsky | first2=SA | last3=Vetterling | first3=WT | last4=Flannery | first4=BP | year=2007 | title=Numerical Recipes: The Art of Scientific Computing | edition=3rd | publisher=Cambridge University Press |  publication-place=New York | isbn=978-0-521-88068-8 | chapter=Section 17.6. Multistep, Multivalue, and Predictor-Corrector Methods | chapter-url=http://apps.nrbook.com/empanel/index.html#pg=942[/tpl]
+
+== External links ==
+
+* [tpl]MathWorld |title=Predictor-Corrector Methods |urlname=Predictor–Corrector Methods[/tpl]
+* Predictor–corrector methods for differential equations
+

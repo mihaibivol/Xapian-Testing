@@ -1,0 +1,133 @@
+
+In type theory, Hindley–Milner (HM) (also known as Damas–Milner or Damas–Hindley–Milner) is a classical type inference method with parametric polymorphism for the lambda calculus, first described by J. Roger HindleyR. Hindley, (1969) The Principal Type-Scheme of an Object in Combinatory Logic, Transactions of the American Mathematical Society, Vol. 146, pp. 29–60 http://www.jstor.org/stable/1995158
+and later rediscovered by Robin Milner.Milner, (1978) A Theory of Type Polymorphism in Programming. Journal of Computer and System Science (JCSS) 17, pp. 348–374http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.67.5276&rep=rep1&type=pdf
+Luis Damas contributed a close formal analysis and proof of the method in his PhD thesis.Luis Damas (1985): Type Assignment in Programming Languages. PhD thesis, University of Edinburgh (CST-33-85)Damas,Milner (1982), Principal type-schemes for functional programs. 9th Symposium on Principles of programming languages (POPL'82) pp. 207–212, ACM: http://ian-grant.net/hm/milner-damas.pdf Among the properties making HM so outstanding is completeness and its ability to deduce the most general type of a given source without the need of any type annotations or other hints. HM is a fast algorithm, computing a type almost in linear time with respect to the size of the source, making it practically usable to type large programs. HM is preferably used for functional languages. It was first implemented as part of the type system of the programming language ML. Since then, HM has been extended in various ways, most notably by constrained types as used in Haskell.
+
+== Introduction ==
+
+Organizing their original paper, Damas and Milner clearly separated two very different tasks. One is to describe what types an expression can have and another to present an algorithm actually computing a type. Keeping both aspects apart from each other allows to focus separately on the logic (i.e. meaning) behind the algorithm, as well as to establish a benchmark for the algorithm's properties.
+How expressions and types fit to each other is described by means of a deductive system. Like any proof system, it allows different ways to come to a conclusion and since one and the same expression arguably might have different types, dissimilar conclusions about an expressions are possible. Contrary to this, the type inference method itself (Algorithm W) is defined as a step-by-step procedure, leaving no choice what to do next. Thus clearly, decisions not present in the logic might have been made constructing the algorithm, which demand a closer look and justifications but would perhaps remain non-obvious without the above differentiation.
+
+== Syntax ==
+
+Logic and algorithm share the notions of "expression" and "type", whose form is made precise by the syntax.
+The expressions to be typed are exactly those of the lambda calculus, enhanced by a let-expression.
+Readers unfamiliar with the lambda calculus might not only be puzzled by the syntax, which can
+anonymous function or function literal, common in most contemporary programming languages,
+Types as a whole are split into two groups, called mono- and polytypes.Polytypes are called "type schemes" in the original article.
+a function mapping all finite sets to integers. The count of members is a value for this type. Note that qualifiers can only appear top level, i.e. a
+
+=== Free type variables ===
+
+This is certainly the hardest part of HM, perhaps because polytypes containing free variables are not represented in programming languages like Haskell. Likely, one does not have clauses with free variables in Prolog clauses. In particular developers experienced with both languages and actually knowing all the prerequisites of HM, are likely to slip this point. In Haskell for example, all type variables implicitly occur qualified, i.e. a Haskell type
+
+=== Context and typing ===
+
+Consequently, to get the yet disjoint parts of the syntax, expressions and types together meaningfully, a third
+
+=== Note on expressiveness ===
+
+Since the expression syntax might appear far too inexpressive to readers unfamiliar with the lambda calculus, and because the examples given below will likely support this misconception, some notes that the HM is not dealing with toy languages might be helpful. As a central result in research on computability, the expression syntax defined above (without the let-variant) is able to express any computable function. Moreover all other programming language constructions can be relatively directly transformed syntactically into expressions of the lambda calculus. Therefore, this simple expression is used as a model for programming languages in research. A method known to work well for the lambda calculus can easily be extended to all or at least many other syntactical construction of a particular programming language using the before mentioned syntactical transformations.
+It is added to expression syntax in HM only to support generalization during the type inference and not because syntax lacks computational strength. 
+Thus HM deals with inference of types in programs in general and the various functional languages using this method demonstrate, how well a result formulated only for the syntax of the lambda calculus can be extend to syntactically complex languages.
+Contrary to the impression, that the expressions might be too inexpressive for practical application, they are actually far too expressive to be meaningfully typed at all. This is a consequence of the decision problem being undecidable for anything as expressive as the expression of the lambda calculus. Consequently, computing typings is a hopeless venture in general. Depending on the nature of the type system, it will either never terminate or otherwise refuse to work.
+HM belongs to the later group of type systems. A collapse of the type system presents itself then as more subtle situation in that suddenly only one and the same type is yielded for the expressions of interest. This is not a fault in HM, but inherent in the problem of typing itself and can easily be created within any strongly typed programming language e.g. by coding an evaluator (the universal function) for the "too simple" expression. One then has a single concrete type that represents the universal data type as usual in untyped languages. The type system of the host programming language is then collapsed and cannot longer differentiate between the various types of values handed to or produced by the evaluator. In this context, it still delivers or checks types, but always the same, just as if the type system were not longer present at all.
+
+== Polymorphic type order ==
+
+Thus the specialization rules makes sure that no free variable, i.e. monotype in the pristine type becomes unintentionally bound by a qualifier, but originally qualified variable can be replaced with whatever, even with types introducing new qualified or unqualified type variables. 
+
+== Deductive system ==
+
+The syntax of HM is carried forward to the syntax of the inference rules that form the body of the formal system, by using the typings as judgments. Each of the rules define what conclusion could be drawn from what premises. Additionally to the judgments, some extra conditions introduced above might be used as premises, too.
+
+=== Typing rules ===
+
+The side box shows the deduction rules of the HM type system. One can roughly divide them into two groups:
+The following two examples exercise the rule system in action
+could be written
+Example 3: To demonstrate generalization,
+is shown below:
+
+=== Principal type ===
+
+As mentioned in the introduction, the rules allow to deduce different types for one and the same expression. See for instance, Example 2, steps 1,2 and Example 3, steps 2,3 for three different typings of the same expression. Clearly, the different results are not fully unrelated, but connected by the type order. It is an important property of the rule system and this order that whenever more but one type can be deduced for an expression, among them is (modulo alpha-renaming of the type variables) a unique most general type in the sense, that all others are specialization of it. Though the rule system must allow to derive specialized types, a type inference algorithm should deliver this most general or principal type as its result.
+
+=== Let-polymorphism ===
+
+== Towards an algorithm ==
+
+Now that the deduction system of HM is at hand, one could present an algorithm and validate it w.r.t. the rules.
+Alternatively, it might be possible to derive it by taking a closer look on how the rules interact and proof are
+formed. This is done in the remainder of this article focusing on the possible decisions one can make while proving a typing.
+
+=== Degrees of freedom choosing the rules ===
+
+Isolating the points in a proof, where no decision is possible at all,
+the first group of rules centered around the syntax leaves no choice since
+to each syntactical rule corresponds a unique typing rule, which determines
+a part of the proof, while between the conclusion and the premises of these
+could occur. Such a chain could also exist between the conclusion of the
+proof and the rule for topmost expression. All proof must have
+the so sketched shape.
+Because the only choice in a proof with respect of rule selection are the
+form of the proof suggests the question whether it can be made more precise,
+where these chains might be needed. This is in fact possible and leads to a
+variant of the rules system with no such rules.
+
+=== Syntax-directed rule system ===
+
+A contemporary treatment of HM uses a purely syntax-directed rule system due to
+ClementClement, (1987). The Natural Dynamic Semantics of Mini-Standard ML. TAPSOFT'87, Vol 2. LNCS, Vol. 250, pp 67–81
+Jeff Vaughan. A proof of correctness for the Hindley–Milner type inference algorithm.http://www.cs.ucla.edu/~jeff/docs/hmproof.pdf though, namely
+
+=== Degrees of freedom instantiating the rules ===
+
+Within the rules themselves, assuming a given expression, one is free to pick
+the instances for (rule) variables not occurring in this expression. These are
+the instances for the type variable in the rules. Working towards finding the
+most general type, this choice can be limited to picking suitable types for
+The decision of a suitable choice cannot be made locally, but its quality becomes apparent
+two different types, namely the function's formal and actual parameter type have
+to come together as one.
+Therefore, the general strategy for finding a proof would be to make the most
+error is needed, since an effective method is known to compute all the choices,
+in combination with the so-called Union-Find algorithm.
+To briefly summarize the union-find algorithm, given the set of all types in a proof, it allows one
+procedure. Emphasizing on the word procedure in the sense of side effect,
+we're clearly leaving the realm of logic to prepare an effective algorithm.
+the representative is arbitrarily one of them, while uniting a variable and a term, the term becomes the representative. Assuming an implementation of union-find at hand, one can formulate the unification of two monotypes as follows:
+ unify(ta,tb):
+   ta = find(ta)
+   tb = find(tb)
+   '''if''' both ta,tb are terms of the form D p1..pn with identical D,n '''then'''
+     unify(ta[i],tb[i]) for each corresponding ''i''th parameter
+   '''else'''
+   '''if''' at least one of ta,tb is a type variable '''then'''
+     union(ta,tb)
+   '''else'''
+     error 'types do not match'
+
+== Algorithm W ==
+
+Because the procedures used in the algorithm have near O(1) cost, the overall cost of the algorithm is close linear to the size of the expression for which a type is to be inferred. This is in strong contrast to many other attempts to derive type inference algorithms, which often came out to be NP-hard, if not undecidable w.r.t. termination. Thus the HM performs as good as the best fully informed type-checking algorithms can. Type-checking here means, that an algorithm does not have to find a proof, but only to validate a given one.
+
+=== Original presentation of Algorithm W ===
+
+In the original paper, the algorithm is presented more formally using a substitution style instead of side effects in the method above. In the later form, the side effect invisibly takes care of all places where a type variable is used. Explicitly using substitutions not only makes the algorithm hard to read, because the side effect occurs virtually everywhere, but also gives the false impression that the method might be costly. When implemented using purely functional means or for the purpose of proving the algorithm to be basically equivalent to the deduction system, full explicitness is of course needed and the original formulation a necessary refinement.
+
+== Further topics ==
+
+=== Recursive definitions ===
+
+A central property of the lambda calculus is, that recursive definitions are non-elemental, but can instead be expressed by a fixed point combinator.
+The original paper notes that recursion can realized by this combinator's type
+Alternatively an extension of the expression syntax and an extra typing rule is possible as:
+where
+formulation perhaps best summarizes the essence of let-polymorphism.
+
+== Notes ==
+
+== References ==
+
+

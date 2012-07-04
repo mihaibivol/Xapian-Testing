@@ -66,6 +66,8 @@ test_file(
     snipper.set_stemmer(stemmer);
     // Find the top 10 results for the query.
 
+    string dump_filename(filename);
+    dump_filename += "_0";
     // Display the results.
     for (Xapian::MSetIterator i = matches.begin(); i != matches.end(); ++i) {
 	// Get only the sample from the document data.
@@ -81,7 +83,11 @@ test_file(
 	size_t type_pos = gen_text.rfind(type_mark);
 	gen_text.erase(gen_text.begin() + type_pos, gen_text.end());
 
+
 	if (ground_truth[url].length() != 0) {
+	    snipper.set_dumpfile(dump_filename);
+	    // Hack, no more than 10 results per file.
+	    dump_filename[dump_filename.length() - 1]++;
 	    cout << snipper.generate_snippet(matches, gen_text) << endl;
 	    cout << ground_truth[url] << endl;
 	    cout << endl;

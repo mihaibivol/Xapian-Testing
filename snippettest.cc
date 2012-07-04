@@ -88,6 +88,8 @@ test_file(
 	    snipper.set_dumpfile(dump_filename);
 	    // Hack, no more than 10 results per file.
 	    dump_filename[dump_filename.length() - 1]++;
+	    cout << "From: " << url << endl;
+	    cout << "With Query: " << query_s << endl;
 	    cout << snipper.generate_snippet(matches, gen_text) << endl;
 	    cout << ground_truth[url] << endl;
 	    cout << endl;

@@ -91,6 +91,7 @@ test_file(
 	    cout << "From: " << url << endl;
 	    cout << "With Query: " << query_s << endl;
 	    cout << snipper.generate_snippet(matches, gen_text) << endl;
+	    cout << "Google snippet:" << endl;
 	    cout << ground_truth[url] << endl;
 	    cout << endl;
 	}

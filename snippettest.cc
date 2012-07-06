@@ -64,6 +64,7 @@ test_file(
     Xapian::Snipper snipper;
     Xapian::Stem stemmer("english");
     snipper.set_stemmer(stemmer);
+    snipper.set_mset(matches);
     // Find the top 10 results for the query.
 
     string dump_filename(filename);
@@ -90,7 +91,7 @@ test_file(
 	    dump_filename[dump_filename.length() - 1]++;
 	    cout << "From: " << url << endl;
 	    cout << "With Query: " << query_s << endl;
-	    cout << snipper.generate_snippet(matches, gen_text) << endl;
+	    cout << snipper.generate_snippet(gen_text) << endl;
 	    cout << "Google snippet:" << endl;
 	    cout << ground_truth[url] << endl;
 	    cout << endl;

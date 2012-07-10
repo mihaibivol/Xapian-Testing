@@ -65,7 +65,7 @@ static int word_in_list(const string& word, const string& list)
 {
     string::size_type split = 0, split2;
     int count = 0;
-    while ((split2 = list.find(' ', split)) != string::npos) {
+    while ((split2 = list.find('\t', split)) != string::npos) {
 	if (word.size() == split2 - split) {
 	    if (memcmp(word.data(), list.data() + split, word.size()) == 0)
 		return count;
@@ -237,8 +237,20 @@ test_file(
 	gen_text.erase(gen_text.begin() + type_pos, gen_text.end());
 
 
-	std::string snippet = snipper.generate_snippet(gen_text);
-	snippet = html_highlight(snippet, query_s, "", "");
+	string snippet = snipper.generate_snippet(gen_text);
+	string query_termlist;
+
+	Xapian::TermGenerator termgen;
+	Xapian::Document querydoc;
+
+	termgen.set_document(querydoc);
+	termgen.set_stemmer(stemmer);
+	termgen.index_text(query_s);
+
+	for (Xapian::TermIterator it = querydoc.termlist_begin(); it != querydoc.termlist_end(); it++)
+	    query_termlist += *it + "\t";
+
+	snippet = html_highlight(snippet, query_termlist, "", "");
 	if (ground_truth[url].length() != 0) {
 	    // Hack, no more than 10 results per file.
 	    dump_filename[dump_filename.length() - 1]++;

@@ -34,6 +34,158 @@
 
 using namespace std;
 
+string
+html_escape(const string &str)
+{
+    string res;
+    string::size_type p = 0;
+    while (p < str.size()) {
+	char ch = str[p++];
+	switch (ch) {
+	    case '<':
+	        res += "&lt;";
+	        continue;
+	    case '>':
+	        res += "&gt;";
+	        continue;
+	    case '&':
+	        res += "&amp;";
+	        continue;
+	    case '"':
+	        res += "&quot;";
+	        continue;
+	    default:
+	        res += ch;
+	}
+    }
+    return res;
+}
+
+static int word_in_list(const string& word, const string& list)
+{
+    string::size_type split = 0, split2;
+    int count = 0;
+    while ((split2 = list.find(' ', split)) != string::npos) {
+	if (word.size() == split2 - split) {
+	    if (memcmp(word.data(), list.data() + split, word.size()) == 0)
+		return count;
+	}
+	split = split2 + 1;
+	++count;
+    }
+    if (word.size() == list.size() - split) {
+	if (memcmp(word.data(), list.data() + split, word.size()) == 0)
+	    return count;
+    }
+    return -1;
+}
+
+static string
+html_highlight(const string &s, const string &list,
+	       const string &bra, const string &ket)
+{
+    Xapian::Stem stemmer("english");
+
+    string res;
+
+    using namespace Xapian::Unicode;
+
+    Xapian::Utf8Iterator j(s);
+    const Xapian::Utf8Iterator s_end;
+    while (true) {
+	Xapian::Utf8Iterator first = j;
+	while (first != s_end && !is_wordchar(*first)) ++first;
+	if (first == s_end) break;
+	Xapian::Utf8Iterator term_end;
+	string term;
+	string word;
+	const char *l = j.raw();
+	if (*first < 128 && isupper(*first)) {
+	    j = first;
+	    Xapian::Unicode::append_utf8(term, *j);
+	    while (++j != s_end && *j == '.' && ++j != s_end && *j < 128 && isupper(*j)) {
+		Xapian::Unicode::append_utf8(term, *j);
+	    }
+	    if (term.length() < 2 || (j != s_end && is_wordchar(*j))) {
+		term.resize(0);
+	    }
+	    term_end = j;
+	}
+	if (term.empty()) {
+	    j = first;
+	    while (is_wordchar(*j)) {
+		Xapian::Unicode::append_utf8(term, *j);
+		++j;
+		if (j == s_end) break;
+		if (*j == '&' || *j == '\'') {
+		    Xapian::Utf8Iterator next = j;
+		    ++next;
+		    if (next == s_end || !is_wordchar(*next)) break;
+		    term += *j;
+		    j = next;
+		}
+	    }
+	    term_end = j;
+	    if (j != s_end && (*j == '+' || *j == '-' || *j == '#')) {
+		string::size_type len = term.length();
+		if (*j == '#') {
+		    term += '#';
+		    do { ++j; } while (j != s_end && *j == '#');
+		} else {
+		    while (j != s_end && (*j == '+' || *j == '-')) {
+			Xapian::Unicode::append_utf8(term, *j);
+			++j;
+		    }
+		}
+		if (term.size() - len > 3 || (j != s_end && is_wordchar(*j))) {
+		    term.resize(len);
+		} else {
+		    term_end = j;
+		}
+	    }
+	}
+	j = term_end;
+	term = Xapian::Unicode::tolower(term);
+	int match = word_in_list(term, list);
+	if (match == -1) {
+	    string stem = "Z";
+	    stem += stemmer(term);
+	    match = word_in_list(stem, list);
+	}
+	if (match >= 0) {
+	    res += html_escape(string(l, first.raw() - l));
+	    if (!bra.empty()) {
+		res += bra;
+	    } else {
+		static const char * colours[] = {
+		    "ffff66", "99ff99", "99ffff", "ff66ff", "ff9999",
+		    "990000", "009900", "996600", "006699", "990099"
+		};
+		size_t idx = match % (sizeof(colours) / sizeof(colours[0]));
+		const char * bg = colours[idx];
+		if (strchr(bg, 'f')) {
+		    res += "<b style=\"color:black;background-color:#";
+		} else {
+		    res += "<b style=\"color:white;background-color:#";
+		}
+		res += bg;
+		res += "\">";
+	    }
+	    word = string(first.raw(), j.raw() - first.raw());
+	    res += html_escape(word);
+	    if (!bra.empty()) {
+		res += ket;
+	    } else {
+		res += "</b>";
+	    }
+	} else {
+	    res += html_escape(string(l, j.raw() - l));
+	}
+    }
+    if (j != s_end) res += html_escape(string(j.raw(), j.left()));
+    return res;
+}
+
 void
 test_file(
 	const char *		    filename,
@@ -85,18 +237,23 @@ test_file(
 	gen_text.erase(gen_text.begin() + type_pos, gen_text.end());
 
 
+	std::string snippet = snipper.generate_snippet(gen_text);
+	snippet = html_highlight(snippet, query_s, "", "");
 	if (ground_truth[url].length() != 0) {
-	    snipper.set_dumpfile(dump_filename);
 	    // Hack, no more than 10 results per file.
 	    dump_filename[dump_filename.length() - 1]++;
-	    cout << "From: " << url << endl;
-	    cout << "With Query: " << query_s << endl;
-	    cout << snipper.generate_snippet(gen_text) << endl;
-	    cout << "Google snippet:" << endl;
-	    cout << ground_truth[url] << endl;
-	    cout << endl;
+	    cout << "From: " << url << " <br/> " << endl;
+	    cout << "With Query: " << query_s << " <br/> " << endl;
+	    cout << snippet << " <br/> " << endl;
+	    cout << "Google snippet:" << " <br/> " << endl;
+	    cout << ground_truth[url] << " <br/> " << endl;
+	    cout << " <br/> " << endl;
+	} else {
+	    cout << "From: " << url << " <br/> " << endl;
+	    cout << "With Query: " << query_s << " <br/> " << endl;
+	    cout << snippet << " <br/> " << endl;
 	}
-
+	cout << " <br/> " << endl;
     }
     file.close();
 }

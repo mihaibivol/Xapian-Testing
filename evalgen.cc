@@ -7,6 +7,7 @@
 
 #include <cstdlib> // For exit().
 #include <cstring>
+#include <sstream>
 
 #define BUFF_LEN 1024
 
@@ -205,7 +206,9 @@ void
 test_file(
 	const char *		    filename,
 	Xapian::QueryParser &	    qp,
-	Xapian::Enquire &	    enquire)
+	Xapian::Enquire &	    enquire,
+	vector<string>&		    data,
+	vector<string>&		    form_ids)
 {
     ifstream file(filename);
     char buff[BUFF_LEN];
@@ -257,15 +260,66 @@ test_file(
 		    snipper.set_smoothing_coef(alphavals[i]);
 		    for (int j = 0; j < 3; j++) {
 			snipper.set_window_size(ws[j]);
+			data.push_back(query_s + "\\n" + url);
+			stringstream id;
+			id << queryno << "_" << ++snippetno;
+			form_ids.push_back(id.str());
 
 			string snippet = snipper.generate_snippet(gen_text);
-			print_snippet(snippet, query_s, queryno, ++snippetno);
+			print_snippet(snippet, query_s, queryno, snippetno);
 		    }
 		}
 	    }
 	}
     }
     file.close();
+}
+
+void
+print_php_script(const vector<string>& data, const vector<string>& form_ids)
+{
+    cout << "<?php" << endl;
+    cout << "if(isset($_POST[\"submit\"])) {" << endl;
+
+    // Open file.
+    cout << "\t$filename = $_POST[\"username\"] . \".txt\";" << endl;
+    cout << "\t$file = fopen($filename, 'w') or die(\"Error\");" << endl;
+
+    // Write data.
+    for (unsigned int i = 0; i < data.size(); i++) {
+	cout << "\t$info = $_POST[\"" << form_ids[i] << "\"];" << endl;
+
+	string doc_info = data[i] + "\\n" + form_ids[i] + "\\n";
+	cout << "\tfwrite($file,\"" << doc_info << "\");" << endl;
+	cout << "\t$info = $info . \"\\n\";" << endl;
+	cout << "\tfwrite($file, $info);" << endl;
+    }
+    cout << "\tfclose($file);" << endl;
+    cout << "}" << endl;
+    cout << "?>";
+}
+
+void
+print_html_bra()
+{
+    cout << "<!DOCTYPE html>"
+	    "<html>"
+	    "<head>"
+	    "<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\">"
+	    "<title>Snippet assessor</title>"
+	    "</head>"
+	    "<body>";
+    cout << "<form action=\"\" method=\"post\">";
+    cout << "<h3> Name </h3>";
+    cout << "<input type=\"text\" name=\"username\">";
+}
+
+void
+print_html_ket()
+{
+    cout << "<input type=\"submit\" name=\"submit\" value=\"submit\">"
+	    "</form>";
+    cout << "</body> </html>";
 }
 
 int
@@ -300,12 +354,12 @@ main(int argc, char **argv)
 	qp.set_stemmer(stemmer);
 	qp.set_database(db);
 	qp.set_stemming_strategy(Xapian::QueryParser::STEM_SOME);
-	cout << "<form action=\"\" method=\"post\">";
-	cout << "<h3> Name </h3>";
-        cout << "<input type=\"text\" name=\"username\">";
-	test_file(argv[2], qp, enquire);
-	cout << "<input type=\"submit\" name=\"submit\" value=\"submit\">"
-		"</form>";
+	vector<string> data;
+	vector<string> form_ids;
+	print_html_bra();
+	test_file(argv[2], qp, enquire, data, form_ids);
+	print_html_ket();
+	print_php_script(data, form_ids);
     } catch (const Xapian::Error &e) {
         cout << e.get_description() << endl;
         exit(1);

@@ -5,10 +5,10 @@ ITU-T Recommendation (the ITU's term for standard) G.9960, which received approv
 
 ==Unified communication==
 
-G.hn is a specification for existing-wire home networking. It is a complementary counterpart to Wi-Fi.[tpl]citation needed|date=March 2012[/tpl] G.hn targets gigabit per second data ratesDS2 Blog: How fast can G.hn be? and operation over three types of legacy home wires: telephone wiring, coaxial cables and power lines. A single G.hn semiconductor device is able to network over any of the supported home wire types. Some benefits of a multi-wire standard are lower equipment development costs and lower deployment costs for service providers (by allowing customer self-install).
-The majority of devices in which G.hn may become embedded (such as televisions, set-top boxes, residential gateways, personal computers or network-attached storage devices) will be AC-powered, so configurations that have at least one power line networking interface are likely to become the most common. This [tpl]clarify|date=March 2012[/tpl] will also facilitate integration with home control and demand side management applications for AC-powered appliances.
-The ITU-T extended the technology [tpl]clarify|date=March 2012[/tpl] with multiple input, multiple output (MIMO) technology to increase data rates and signalling distance[tpl]Citation needed|date=May 2011[/tpl]. The work on MIMO for G.hn at ITU-T is under the G.9963 standard.
-By developing dual mode devices [tpl]clarify|date=March 2012[/tpl], G.hn proponents believe [tpl]opinion|date=March 2012[/tpl] it can provide an evolution path from other wired home networking technologies such as Multimedia over Coax Alliance (MoCA), HomePNA 3.1 over coax and phone wires (already an ITU standard G.9954), and HomePlug AV, Universal Powerline Association (UPA) and HD-PLC over powerline. In February 2009 the key promoters [tpl]who|date=March 2012[/tpl] of two of these interfaces united behind the latest version of the standard.
+G.hn is a specification for existing-wire home networking. It is a complementary counterpart to Wi-Fi. G.hn targets gigabit per second data ratesDS2 Blog: How fast can G.hn be? and operation over three types of legacy home wires: telephone wiring, coaxial cables and power lines. A single G.hn semiconductor device is able to network over any of the supported home wire types. Some benefits of a multi-wire standard are lower equipment development costs and lower deployment costs for service providers (by allowing customer self-install).
+The majority of devices in which G.hn may become embedded (such as televisions, set-top boxes, residential gateways, personal computers or network-attached storage devices) will be AC-powered, so configurations that have at least one power line networking interface are likely to become the most common. This  will also facilitate integration with home control and demand side management applications for AC-powered appliances.
+The ITU-T extended the technology . The work on MIMO for G.hn at ITU-T is under the G.9963 standard.
+By developing dual mode devices  of two of these interfaces united behind the latest version of the standard.
 
 ==Technical specifications==
 
@@ -74,7 +74,7 @@ HomeGrid Forum members are Allion Test Labs, Inc., AT&T, BC Institute of Technol
 
 ===Silicon and IP Vendors===
 
-Immediately after G.hn's consent five vendors, Aware, CopperGate, DS2, Ikanos and TangoTec announced support for the new G.hn standard.[tpl]Citation needed|date=March 2011[/tpl]
+Immediately after G.hn's consent five vendors, Aware, CopperGate, DS2, Ikanos and TangoTec announced support for the new G.hn standard.
 Other silicon vendors actively involved in the development of G.hn include DSL vendors Lantiq and Metanoia, microprocessor manufacturer Intel (which on June 2009 said "... a single networking technology for all three types of existing home wiring will make it easier to expand the market for Intel’s home networking products"),Intel publishes white-paper on G.hn standard and SoC vendor Sigma Designs, which on July 2009 said "Sigma intends to support the proliferation of G.hn-based products starting with reference platforms that will power the next-generation of home content delivery".SIGMA DESIGNS JOINS HOMEGRID FORUM BOARD OF DIRECTORS
 The world’s first live public demonstration of G.hn interoperability was shown at CES, January 10–13, 2012. HomeGrid Forum members Lantiq, Marvell, Metanoia, and Sigma Designs joined together to highlight real-world G.hn capabilities.
 
@@ -101,7 +101,7 @@ Panasonic, one of the largest manufacturers of consumer electronics, is also a c
 
 ===Industry Analysts===
 
-On April 2012 Jeff Heynen with Infonetics said:[tpl]cquote|"HomeGrid Certified G.hn was built from the ground up with Service Provider contributions around manageability, robustness, quality, and coverage in the home.  All these issues are being addressed with G.hn.  It offers whole home coverage for multiple HD IPTV streaming and no new wires need to be installed in the home. It could be a real game changer for Service Providers.”[/tpl]
+On April 2012 Jeff Heynen with Infonetics said:
 -Jeff Heynen, Directing Analyst, Broadband and Video, Infonetics 
 On June 2008, Michael Wolf, director at ABI Research said:New G.hn Home Networking Standard Has Significant Potential, ABI Research
 On December 2008, Kurt Scherf, analyst with market research firm Parks Associates, said:New global standard for fully networked home

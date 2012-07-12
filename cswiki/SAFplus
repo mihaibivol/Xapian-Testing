@@ -1,5 +1,5 @@
 
-[tpl]Third-party|date=May 2012[/tpl][tpl]orphan|date=June 2012[/tpl][tpl]notability|date=June 2012[/tpl]
+
 The SAFplus Availability/Scalability Platform is an open source software library used to provide high availability, scalability/clustering, and management services for software applications running in a tightly coupled distributed system.  SAFplus Platform is most commonly used within the defense, telecom and aerospace industries due to the high performance and reliability requirements required by these systems.  SAFplus Platform provides a comprehensive implementation of the SA Forum APIs and also includes significant performance and functionality on top of the SA Forum services.
 
 ==Origin==
@@ -20,4 +20,4 @@ Essentially, everything that is needed to build and deploy a skeleton cluster is
 
 ==External links==
 
-Category:Free software[tpl]catimprove|date=June 2012[/tpl]
+Category:Free software

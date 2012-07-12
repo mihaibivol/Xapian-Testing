@@ -1,5 +1,5 @@
 
-Compute Node Linux (CNL) is a runtime environment based on the Linux kernel for the Cray XT3, Cray XT4, Cray XT5, Cray XT6, and Cray XE6 supercomputer systems based on SUSE Linux Enterprise Server.Compute Node Linux: Overview, Progress to Date & RoadmapCompute Node Linux: New Frontiers in Compute Node Operating System CNL forms part of the UNICOS/lc operating system from release 2.0 onwards (UNICOS/lc was later renamed Cray Linux Environment). [tpl]As of|2011|11[/tpl] systems running CNL were ranked 3rd, 6th and 8th among the fastest supercomputers in the world.[tpl]cite news | url=http://www.top500.org/lists/2011/11 | title=TOP500[/tpl]
+Compute Node Linux (CNL) is a runtime environment based on the Linux kernel for the Cray XT3, Cray XT4, Cray XT5, Cray XT6, and Cray XE6 supercomputer systems based on SUSE Linux Enterprise Server.Compute Node Linux: Overview, Progress to Date & RoadmapCompute Node Linux: New Frontiers in Compute Node Operating System CNL forms part of the UNICOS/lc operating system from release 2.0 onwards (UNICOS/lc was later renamed Cray Linux Environment). 
 
 ==See also==
 

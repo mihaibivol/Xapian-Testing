@@ -6,7 +6,7 @@ Jedox was founded by Kristian Raue in 2002 and developed by Jedox AG, a company 
 ==Features==
 
 Palo for Excel is a open source plug-in for Microsoft Excel. There is also an open source plug-in for OpenOffice.org named PalOOCa, with Java and web client also available from the JPalo project.Tools, Consulting and Service for Palo Palo can also be integrated into other systems via its client libraries for Java, PHP, C/C++, or .NET Framework. It is fairly easy to communicate with Palo OLAP Server, since it uses representational state transfer (REST).
-Starting in October 2008, Palo supports XML for Analysis and MultiDimensional eXpressions (MDX) APIs for connectivity, and OLE DB for OLAP interface which allows standard Excel pivot tables to serve as a client tool.[tpl]cite web |title=Palo Open Source OLAP Server now supports MDX and Excel Pivot Tables |url=http://www.jedox.com/en/news/press_jedox/Palo_Open_Source_OLAP_Server_now_supports_MDX_and_Excel_Pivot_Tables.html[/tpl]
+Starting in October 2008, Palo supports XML for Analysis and MultiDimensional eXpressions (MDX) APIs for connectivity, and OLE DB for OLAP interface which allows standard Excel pivot tables to serve as a client tool.
 Starting September 2011, Palo supports SDX dialect of LINQ.
 
 ==Architecture==
@@ -35,7 +35,7 @@ The Data in Palo database is stored as a cube in the Palo MOLAP server.  The Pal
 
 ===External links===
 
-* [tpl]official website|www.palo.net[/tpl], documentation, demos, forum
+* , documentation, demos, forum
 * Palo project on SourceForge.net - Palo project on SourceForge.net
 * Palo project page on ohloh.net - Palo project page on ohloh.net
 * JPalo - Java software for Palo

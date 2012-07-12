@@ -1,5 +1,5 @@
 
-Microsoft Video 1 or MS-CRAM[tpl]cite web|url=http://support.microsoft.com/kb/142946 |title=Troubleshooting Video Codecs in Windows 95 |publisher=Support.microsoft.com |date=2006-11-15 |accessdate=2009-10-25[/tpl] is an early video compression and decompression algorithm (codec) that was released with version 1.0 of Microsoft's Video for Windows in November 1992.  It is based on MotiVE, a vector quantization codec which Microsoft licensed from Media Vision.
+Microsoft Video 1 or MS-CRAM is an early video compression and decompression algorithm (codec) that was released with version 1.0 of Microsoft's Video for Windows in November 1992.  It is based on MotiVE, a vector quantization codec which Microsoft licensed from Media Vision.
 In 1993, Media Vision marketed the Pro Movie Spectrum, an ISA board that captured video in both raw and MSV1 formats (the MSV1 processing was done in hardware on the board).
 
 == References ==

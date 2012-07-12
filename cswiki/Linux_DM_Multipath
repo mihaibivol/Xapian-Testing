@@ -1,5 +1,5 @@
 
-DM-Multipathing (DM-MPIO) provides I/O failover and load-balancing within Linux for block devices.[tpl]cite web|last=Goggin|first=Edward|last=Kergon|first=Alasdair|last=Varoqui|first=Christophe|last=Olien|first=David|title=Linux Multipathing|url=http://www.kernel.org/doc/ols/2005/ols2005v1-pages-155-176.pdf[/tpl][tpl]cite web|last= Varoqui|first= Christophe|title=The Linux multipath implementation|url=http://christophe.varoqui.free.fr/refbook.html[/tpl][tpl]cite web|last=Oberg|first=Michael|title=Exploration of Parallel Storage Achitectures for a Blue Gene/L on the TeraGrid|url=http://www.csc.cs.colorado.edu/~matthew/papers/200804-lci2008-maelstrom-paper.pdf[/tpl] By utilizing device-mapper, multipathd provides the host-side logic to use multiple paths of a redundant network to provide continuous availability and higher bandwidth connectivity between the host server and the block-level device.[tpl]cite book|last=van Vugt|first=Sander|title=A Practical Guide to XEN High Availability|url=http://books.google.com/books?id=6efeN_O2hdEC&lpg=PA7&ots=kIh2IgWOFC&dq=%22Linux%20Multipath%22&lr&pg=PP1#v=onepage&q=%22Linux%20Multipath%22&f=false[/tpl]  DM-MPIO handles the rerouting of block I/O to an alternate path in the event of a path failure.  DM-MPIO can also balance the I/O load across all of the available paths that are typically Fibre Channel (FC) or iSCSI SAN environments.[tpl]cite web|last=SUSE|title=Storage Administration Guide, SUSE Linux Enterprise Server 11 SP1|url=http://www.suse.com/documentation/sles11/pdfdoc/stor_admin/stor_admin.pdf|work=SLES11 Documentation, pg.49[/tpl]
+DM-Multipathing (DM-MPIO) provides I/O failover and load-balancing within Linux for block devices.
 DM-MPIO is based on the Device mapper which provides the basic framework that maps one block device onto another.
 
 == Considerations ==
@@ -23,7 +23,7 @@ User-space – multipath-tools – provides the tools to manage multipathed devi
 ===Configuration file===
 
 The configuration file /etc/multipath.conf allows many of the DM-MPIO features to be user configurable. The multipath and the kernel daemon multipathd uses information found in this file.  The file is only consulted during the configuration of the multipath devices.  Changes must be made prior to running the multipath command.  Changes to the file afterwards will require multipath to be executed again.
-The multipath.conf has 5 sections[tpl]cite web|last=RedHat|url=http://www.centos.org/docs/5/html/5.1/DM_Multipath/config_file_overview.html|title=Using Device-Mapper Multipath|work=Using Device-Mapper Multipath[/tpl] :
+The multipath.conf has 5 sections :
 #System level defaults ("defaults"): User can override system level defaults.
 #Blacklisted devices ("blacklist"): User specifies the list of devices that is not be to under the control of DM-MPIO.
 #Blacklist execptions ("blacklist_exceptions"): Specific devices to be treated as multipath devices even if listed in the blacklist.
@@ -33,18 +33,18 @@ A fully annotated  multipath.conf  file.
 
 ==Terminology==
 
-*HBA: Host Bus Adapter provide the physical interface between the input/output (I/O) host bus of Fibre Channel devices and the underlying Fibre Channel network.[tpl]cite book|last=Gupta|first=Meeta|title=Storage Area Network Fundamentals|year=2002|publisher=Cisco Press|location=Indianapolis, IN|isbn=1-58705-065-X|pages=81[/tpl]
+*HBA: Host Bus Adapter provide the physical interface between the input/output (I/O) host bus of Fibre Channel devices and the underlying Fibre Channel network.
 *Path: Connection from the server through the HBA to a specific LUN.
 *DM Path States: The device mapper's view of the path condition.  Only two conditions are possible:
 ** Active: The last I/O operation sent through this path successfully completed. Analogous to ready path state.
 ** Failed: The last I/O operation sent through this path did not successfully complete. Analogous to faulty path state.
-*Failover: When a path is determined to be in a failed state, a path that is in ready state will be made active.[tpl]cite web|last=Anderson|first=Michael|title=SCSI Mid-Level Multipath|url=http://landley.net/kdocs/ols/2003/ols2003-pages-23-33.pdf[/tpl]
-*Failback: When a failed path is determined to be active  again, multipathd may choose to failback to the path as determined by the failback policy.[tpl]cite web|last=SUSE|title=Storage Administration Guide|url=http://www.suse.com/documentation/sles11/pdfdoc/stor_admin/stor_admin.pdf|SLES11 Documentation, pg.73[/tpl]
+*Failover: When a path is determined to be in a failed state, a path that is in ready state will be made active.
+*Failback: When a failed path is determined to be active  again, multipathd may choose to failback to the path as determined by the failback policy.
 *Failback Policy: Three options as set in the multipath.conf configuration file.
 **Immediate: Immediately failback to the highest priority path.
 **Number of seconds: Wait for a specified number of seconds to allow the I/O to stabilize, then failback to the highest priority path.
 **Manual: The failed path is not monitored, requires user intervention to failback.
-*Active/Active: In a system that has two storage controllers, each controller can process I/O.[tpl]cite web|last=Centos|title=Overview of DM-Multipath|url=http://www.centos.org/docs/5/html/5.2/DM_Multipath/MPIO_description.html|work=Using Device-Mapper Multipath[/tpl]
+*Active/Active: In a system that has two storage controllers, each controller can process I/O.
 *Active/Passive: In a system that has two storage controllers, only one controller at a time is able to process I/O, the other (passive) is in a standby mode.
 *LUN: SCSI Logical Unit Number
 *WWID: Worldwide Identifier is an identifier for the multipath device that is guaranteed to be globally unique and unchanging.

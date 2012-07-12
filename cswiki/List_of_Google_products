@@ -18,7 +18,7 @@ These products must be accessed via a web browser:
 * Blog search – weblog search engine, with a continuously-updated search index. Results include all blogs, not just those published through Blogger. Results can be viewed and filtered by date.
 * Google Books (was Print) – search engine for the full text of printed books. Google scans and stores in its digital database. The content that is displayed depends on the arrangement with the publishers, ranging from short extracts to entire books.
 * Google Custom Search – allows a user to create a customized search experience for his/her own website. Renamed from Google Co-op, which in turn replaced Google Free Search.
-* Directory[tpl]anchor|Google Directory[/tpl] – navigation directory, specifically for Chinese users.
+* Directory – navigation directory, specifically for Chinese users.
 * Experimental Search – options for testing new interfaces whilst searching with Google, including Timeline views and keyboard shortcuts.
 * Google Finance – searchable US business news, opinion, and financial data. Features include company-specific pages, blog search, interactive charts, executives information, discussion groups and a portfolio.
 * Google Groups – web and email discussion service and Usenet archive. Users can join a group, make a group, publish posts, track their favorite topics, write a set of group web pages updatable by members and share group files.   In January, 2007, version 3 of Google Groups was released. New features include the ability to create customised pages and share files.
@@ -33,7 +33,7 @@ These products must be accessed via a web browser:
 * Product Search (was Froogle): price engine that searches online stores, including auctions, for products.
 * Google Scholar – search engine for the full text of scholarly literature across an array of publishing formats and scholarly fields. Today, the index includes virtually all peer-reviewed journals available online.
 * SMS – mobile phone short message service offered by Google in several countries, including the USA, Japan, Canada, India, Pakistan and China and formerly the UK, Germany and Spain. It allows  search queries to be sent as a text message. The results are sent as a reply, with no premium charge for the service.
-* Suggest[tpl]anchor|Suggest[/tpl] : auto-completion in search results while typing to give popular searches.
+* Suggest : auto-completion in search results while typing to give popular searches.
 * Google Video – video search engine and online store for clips internally submitted by companies and the general public. Google's main video partnerships include agreements with CBS, NHL and the NBA. Also searches videos posted on YouTube, Metacafe, Daily Motion, and other popular video hosting sites.
 * Voice Local Search – non-premium phone service for searching and contacting local businesses
 * Web History (was Google Search History, Personalized Search) – web page tracking, which records Google searches, Web pages, images, videos, music and more. It also includes Bookmarks, search trends and item recommendations.  Google released Search History in April 2005, when it began to record browsing history,"From lost to found" later expanding and renaming the service to Web History in April 2007."Your slice of the web"
@@ -61,7 +61,7 @@ These products must be accessed via a web browser:
 * Blogger – weblog publishing tool. Users can create custom, hosted blogs with features such as photo publishing, comments, group blogs, blogger profiles and mobile-based posting with little technical knowledge.
 * Google Bookmarks – free online bookmark storage service, available to Google Account holdersBookmarks Google help launched on October 10, 2005.Google Targets Del.icio.us by Michael Arrington in TechCrunch on October 11, 2005 (retrieved on January 20, 2011)
 * Boutiques http://www.google.com/support/boutiques/ – personalized shopping experience that lets users find and  discover fashion goods.
-* Google Business Solutions – collection of services offered by Google specifically directed at webmasters and businesses.[tpl]cite web|url=http://www.google.com/services/|title=Google Business Solutions|publisher=Google Inc.|accessdate=20 February 2010[/tpl] Products included are Feedburner, Google AdWords, Google AdSense, Google Analytics, Google Enterprise Search solutions, Google Apps, Google Checkout, Google Local Business Center, Google Merchant Center, Google Trusted Stores, Postini, Google Webmaster Central, Google Ad Manager, Google Maps and Earth Solutions, Google Website Optimizer, Google Site Search, and Google Friend Connect.
+* Google Business Solutions – collection of services offered by Google specifically directed at webmasters and businesses. Products included are Feedburner, Google AdWords, Google AdSense, Google Analytics, Google Enterprise Search solutions, Google Apps, Google Checkout, Google Local Business Center, Google Merchant Center, Google Trusted Stores, Postini, Google Webmaster Central, Google Ad Manager, Google Maps and Earth Solutions, Google Website Optimizer, Google Site Search, and Google Friend Connect.
 * Google Calendar – free online calendar, includes Gmail integration, calendar sharing, and a unique "quick add" function that allows inserting events using natural language input. It is similar to those offered by Yahoo! and Windows Live.
 * Google Docs – document, spreadsheet and presentation application, with document collaboration and publishing capabilities.
 * Google Drive – an online backup service.
@@ -144,7 +144,7 @@ These products must be accessed via a web browser:
 * Google Toolbar – web browser toolbar with features such as a Google Search box, pop-up blocker and ability for website owners to create buttons. (Supports Internet Explorer.)
 * Visigami – image search application screen saver that searches files from Google Images, Picasa and Flickr. (Supports Mac OS X Leopard.)
 
-== Mobile applications[tpl]anchor|Mobile[/tpl][tpl]anchor|Google Mobile[/tpl] ==
+== Mobile applications ==
 
 === Mobile web applications ===
 
@@ -174,7 +174,7 @@ Some of these products must be downloaded and run from a mobile device.
 * Google Goggles – downloadable application from Google Labs that uses image recognition to trigger searches based on pictures taken with a device's built-in camera; taking pictures of things (examples: famous landmark, product barcode) causes searches for information on them.Google Goggles (Supports Android, iOS).
 * Listen – downloadable application from Google Labs for subscribing to and streaming podcasts and Web audio. (Supports Android, Mobile).
 * Maps – mobile application to view maps on mobile devices. Lets users find addresses and plot directions. Teamed with a GPS, it can use user geolocation and show current location on the map. Users can also share current locations with friends through Google Latitude. The device must have either a specific application to use Google maps or any phone with a properly configured Java Virtual Machine. (Supports Android, BlackBerry, Windows Mobile, iOS, Symbian, Palm OS, Palm WebOS, and J2ME).
-* Google Music [tpl]anchor|Music[/tpl][tpl]anchor|Google Music[/tpl] –  online music store which started operations on 16 November 2011.Google will launch iTunes music store competitor with upgrade to Android: 'Google Music' service will form part of new version of Android operating system designed specifically for tablet devices 2011-02-16 Music is now available for free. (in U.S. only)About Music Beta by Google
+* Google Music  –  online music store which started operations on 16 November 2011.Google will launch iTunes music store competitor with upgrade to Android: 'Google Music' service will form part of new version of Android operating system designed specifically for tablet devices 2011-02-16 Music is now available for free. (in U.S. only)About Music Beta by Google
 * Reader – downloadable RSS application that supports unread counts, friends, sharing, liking, and starring.The Android Google Reader app is here!  (Supports Android).
 * Shopper – downloadable application that makes shopping easier and smarter. (Supports Android, iOS)
 * Sky Map – augmented reality program displaying a star map which is scrolled by moving the phone. (Supports Android, Mobile).
@@ -182,7 +182,7 @@ Some of these products must be downloaded and run from a mobile device.
 * Talk – VoIP and text application for smartphones. The Android version is text only and lacks the VoIP function of BlackBerry version.  (Supports Android, BlackBerry, iOS).
 * Translate – allows users to translate conversations instantly. (Supports Android, iOS)
 * Google Voice app – downloadable application for accessing Google Voice functions on selected devices. It is currently available for users around the world. (Supports Android, Blackberry, iPhone).
-* Yinyue (Music) (Google China) – [tpl]anchor|Yinyue[/tpl][tpl]anchor|Google Yinyue[/tpl] site containing links to a large archive of Chinese pop music (principally Cantopop and Mandopop), including audio streaming over Google's own player, legal lyric downloads, and in most cases legal MP3 downloads. The archive is provided by Top100.cn (i.e., this service does not search the whole Internet) and is available in mainland China only.
+* Yinyue (Music) (Google China) –  site containing links to a large archive of Chinese pop music (principally Cantopop and Mandopop), including audio streaming over Google's own player, legal lyric downloads, and in most cases legal MP3 downloads. The archive is provided by Top100.cn (i.e., this service does not search the whole Internet) and is available in mainland China only.
 * YouTube app – downloadable application to view YouTube videos on selected devices.
 * YouTube Remote – A downloadable application to view YouTube videos, it lets users browse and play videos, control television volume and essentially do everything the YouTube Leanback product supports, but from their mobile handset.New Android App ControlsYouTube on Your TV (Supports Android).
 
@@ -245,7 +245,7 @@ Applications that have been retired by Google, either because of integration wit
 * Google PowerMeter – free energy monitoring tool that allows you to view your home's energy consumption from anywhere online. Discontinued September 16, 2011.
 * Public Service Search – Non-commercial organization service, which included Google Site Search, traffic reports and unlimited search queries. Discontinued in February 2007; replaced by Google Custom Search.
 * Real Estate – Real estate listings in Google Maps, launched in July 2009 and discontinued February 10, 2011."Retiring Real Estate on Google Maps" Official Google Blog.
-* Rebang (Google China) – Google China's search trend site, similar to Google Zeitgeist. [tpl]As of|2010[/tpl], part of Google Labs.About Google Rebang Service有关Google中国产品的更新情况：“在中国，热榜和生活这两个产品没有受到中国用户的广泛欢迎，因此，我们决定关闭这两个产品。”
+* Rebang (Google China) – Google China's search trend site, similar to Google Zeitgeist. , part of Google Labs.About Google Rebang Service有关Google中国产品的更新情况：“在中国，热榜和生活这两个产品没有受到中国用户的广泛欢迎，因此，我们决定关闭这两个产品。”
 * Related Links – automatically brought fresh, dynamic and interesting content links to any website. Webmasters could place these units on their site to provide visitors with links to useful information related to the site's content, including relevant videos, news, searches, and pages. Discontinued on April 30, 2007.
 * Google_Maps#Google_Ride_Finder – Taxi, limousine and shuttle search service, using real time position of vehicles in 14 US cities. Used the Google Maps interface and cooperated with any car service that wished to participate. Discontinued as of October 2009.
 * SearchMash – Search engine to "test innovative user interfaces." Aside from its privacy policy and terms of service, no Google branding existed on the site. Discontinued on November 24, 2008.
@@ -296,7 +296,7 @@ Applications that are no longer in development, and scheduled to be discontinued
 
 == External links ==
 
-* [tpl]official website|www.google.com[/tpl]
+* 
 * Official blog
 * Official Google history
 * About.com reviews of Google products

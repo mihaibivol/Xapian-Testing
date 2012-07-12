@@ -1,7 +1,7 @@
 
 The WNR3500L (also known as the WNR3500U) is an 802.11b/g/n wireless network router created by NETGEAR. It was officially launched in the autumn of 2009.  The WNR3500L runs open source Linux firmware and supports the installation of third party packages such as DD-WRT and Tomato.
 
-==Hardware[tpl]cite web|url=http://www.myopenrouter.com/article/13860/WNR3500L-Open-Source-Guide-Resources/|title= NETGEAR WNR3500L Open Source Wireless N (Draft) Router Open Source Guide & Resources|accessdate=10 May 2010[/tpl]==
+==Hardware==
 
 Version 1:
 *Broadcom BCM4718 453 MHz SoC
@@ -31,13 +31,13 @@ Version 2:
 == Features ==
 
 Version 1:
-*Supports installation of  Tomato firmware, DD-WRT and a custom version of OpenWrt[tpl]cite web|url=http://www.myopenrouter.com/download/list?cat=52|title=myopenrouter[/tpl]
+*Supports installation of  Tomato firmware, DD-WRT and a custom version of OpenWrt
 *Supports Wi-Fi Protected Setup (WPS)
 *Automatically detects ISP type, exposed host (DMZ), MAC address authentication, URL content filtering, logs and email alerts of internet activity
 *Static & dynamic routing with TCP/IP, VPN pass-through (IPsec, L2TP), NAT, PPTP, PPPoE, DHCP (client & server)
 * Supports IPv6, including automatic 6to4 tunnel (since firmware 1.2.2.30)
 Version 2:
-*Supports installation of  Tomato firmware (Shibby and Toastman varieties) and DD-WRT [tpl]cite web|url=http://www.myopenrouter.com/download/list?cat=73|title=3500Lv2 at myopenrouter[/tpl]
+*Supports installation of  Tomato firmware (Shibby and Toastman varieties) and DD-WRT 
 
 == Applications ==
 

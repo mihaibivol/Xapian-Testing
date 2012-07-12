@@ -1,5 +1,5 @@
 
-PeerBlock is a Free and open source software firewall application. PeerBlock is the successor to PeerGuardian (which is only actively maintained in Linux[tpl]cite web |url=http://www.peerblock.com/docs/faq#peerblock_vs_pg2|title=What is PeerBlock's relationship with the old PeerGuardian program?|accessdate=July 18, 2010[/tpl]). It blocks incoming and outgoing connections to Internet IP addresses that are included on blocklists accessible over the Internet which may be selected by the user, but also any addresses manually specified by the user. PeerBlock mainly works in tandem with the blocklist provider iblocklist.com.
+PeerBlock is a Free and open source software firewall application. PeerBlock is the successor to PeerGuardian (which is only actively maintained in Linux). It blocks incoming and outgoing connections to Internet IP addresses that are included on blocklists accessible over the Internet which may be selected by the user, but also any addresses manually specified by the user. PeerBlock mainly works in tandem with the blocklist provider iblocklist.com.
 
 ==Development==
 
@@ -14,9 +14,9 @@ PeerBlock has multiple features in the latest version of the program. These incl
 
 ==External links==
 
-*[tpl]Official website|http://www.peerblock.com/[/tpl]
-*[tpl]SourceForge|peerblock|PeerBlock[/tpl]
-*[tpl]Google Code|peerblock|PeerBlock[/tpl]
+*
+*
+*
 * #peerblock on freenode
 *PeerBlock Helps You Surf the Web in Secret, PC World, 6 November 2009
 

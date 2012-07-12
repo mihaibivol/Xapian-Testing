@@ -1,7 +1,7 @@
 
 PrimoPDF is a freeware program that creates a PDF file from Microsoft Windows documents. It works as a virtual printer. It does not present the user with advertisements.[ref]Anne Steyer Phelps, ActivePDF PrimoPDF, PC Today Software Reviews, July 2004 • Vol.2 Issue 7
 Page(s) 82 in print issue[/ref] PrimoPDF is developed by the same company that develops the commercial Nitro PDF software.
-PrimoPDF requires the Microsoft .NET Framework 2.0.  When the program runs, it connects with www.primopdf.com each time it prints.  This can be stopped with a firewall, or by disabling automatic updates within the program settings. It uses the Ghostscript file format converter and RedMon printer redirection software.[tpl]cite web | url =http://www.primopdf.com/primopdf.zip | title =PrimoPDF Source Code | year =2010 | publisher =Nitro PDF Pty. Ltd.  | format =Zip | accessdate =2010-04-12 [/tpl]
+PrimoPDF requires the Microsoft .NET Framework 2.0.  When the program runs, it connects with www.primopdf.com each time it prints.  This can be stopped with a firewall, or by disabling automatic updates within the program settings. It uses the Ghostscript file format converter and RedMon printer redirection software.
 According to its documentation, PrimoPDF has the following features:
 * Consistent PDF creation. Use PrimoPDF’s creation profiles to produce the same kind of PDF file every time. Profiles include Screen, eBook, Print, Prepress, and Custom.
 * Append PDF files. Combine each newly created PDF file into the one PDF.
@@ -21,5 +21,5 @@ According to its documentation, PrimoPDF has the following features:
 
 == External links ==
 
-*[tpl]official|http://www.primopdf.com/[/tpl]
+*
 

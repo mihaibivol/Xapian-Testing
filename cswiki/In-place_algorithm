@@ -15,7 +15,7 @@ Unfortunately, this requires O(n) extra space to create the array b, and allocat
       '''for''' i '''from''' 0 '''to''' floor(n/2)
           swap(a[i], a[n-i])
 As another example, there are a number of sorting algorithms that can rearrange arrays into sorted order in-place, including: Bubble sort, Comb sort, Selection sort, Insertion sort, Heapsort, Shell sort.
-Quicksort is commonly described as an in-place algorithm[tpl]Citation needed|date=November 2010[/tpl], but is not in fact one. Most implementations require O(log n) space to support its divide and conquer recursion.
+Quicksort is commonly described as an in-place algorithm, but is not in fact one. Most implementations require O(log n) space to support its divide and conquer recursion.
 Most selection algorithms are also in-place, although some considerably rearrange the input
 array in the process of finding the final, constant-sized result.
 Some text manipulation algorithms such as trim and reverse may be done in-place.

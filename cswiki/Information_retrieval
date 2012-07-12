@@ -4,7 +4,7 @@ Automated information retrieval systems are used to reduce what has been called 
 
 == History ==
 
-The idea of using computers to search for relevant pieces of information was popularized in the article As We May Think by Vannevar Bush in 1945.[tpl]cite journal |last=Singhal |first=Amit |title=Modern Information Retrieval: A Brief Overview |journal=Bulletin of the IEEE Computer Society Technical Committee on Data Engineering |volume=24 |issue=4 |pages=35–43 |year =2001 |url=http://singhal.info/ieee2001.pdf [/tpl] The first automated information retrieval systems were introduced in the 1950s and 1960s. By 1970 several different techniques had been shown to perform well on small text corpora such as the Cranfield collection (several thousand documents). Large-scale retrieval systems, such as the Lockheed Dialog system, came into use early in the 1970s.
+The idea of using computers to search for relevant pieces of information was popularized in the article As We May Think by Vannevar Bush in 1945. The first automated information retrieval systems were introduced in the 1950s and 1960s. By 1970 several different techniques had been shown to perform well on small text corpora such as the Cranfield collection (several thousand documents). Large-scale retrieval systems, such as the Lockheed Dialog system, came into use early in the 1970s.
 In 1992, the US Department of Defense along with the National Institute of Standards and Technology (NIST), cosponsored the Text Retrieval Conference (TREC) as part of the TIPSTER text program. The aim of this was to look into the information retrieval community by supplying the infrastructure that was needed for evaluation of text retrieval methodologies on a very large text collection. This catalyzed research on methods that scale to huge corpora. The introduction of web search engines has boosted the need for very large scale retrieval systems even further.
 The use of digital methods for storing and retrieving information has led to the phenomenon of digital obsolescence, where a digital resource ceases to be readable because the physical media, the reader required to read the media, the hardware, or the software that runs on it, is no longer available. The information is initially easier to retrieve than if it were on paper, but is then effectively lost.
 
@@ -22,13 +22,13 @@ The use of digital methods for storing and retrieving information has led to the
 *:: 1947: Hans Peter Luhn (research engineer at IBM since 1941) began work on a mechanized punch card-based system for searching chemical compounds.
 *: 1950s: Growing concern in the US for a "science gap" with the USSR motivated, encouraged funding and provided a backdrop for mechanized literature searching systems (Allen Kent et al.) and the invention of citation indexing (Eugene Garfield).
 *: 1950: The term "information retrieval" appears to have been coined by Calvin Mooers.Mooers, Calvin N.; Theory Digital Handling Non-numerical Information (Zator Technical Bulletin No. 48) 5, cited in "information, n.". OED Online. December 2011. Oxford University Press.
-*: 1951: Philip Bagley conducted the earliest experiment in computerized document retrieval in a master thesis at MIT.[tpl]cite book |last=Doyle |first=Lauren |last2=Becker |first2=Joseph |title=Information Retrieval and Processing |publisher=Melville |year=1975 |pages=410 pp. |isbn=0-471-22151-1 [/tpl]
+*: 1951: Philip Bagley conducted the earliest experiment in computerized document retrieval in a master thesis at MIT.
 *: 1955: Allen Kent joined Case Western Reserve University, and eventually became associate director of the Center for Documentation and Communications Research. That same year, Kent and colleagues published a paper in American Documentation describing the precision and recall measures as well as detailing a proposed "framework" for evaluating an IR system which included statistical sampling methods for determining the number of relevant documents not retrieved.
 *: 1958: International Conference on Scientific Information Washington DC included consideration of IR systems as a solution to problems identified. See: Proceedings of the International Conference on Scientific Information, 1958 (National Academy of Sciences, Washington, DC, 1959)
 *: 1959: Hans Peter Luhn published "Auto-encoding of documents for information retrieval."
 * 1960s:
 *: early 1960s: Gerard Salton began work on IR at Harvard, later moved to Cornell.
-*: 1960: Melvin Earl (Bill) Maron and John Lary Kuhns[tpl]cite journal |title=An Historical Note on the Origins of Probabilistic Indexing |last=Maron | first=Melvin E. |journal=Information Processing and Management |volume=44 |year=2008 |pages=971–972 |url=http://yunus.hacettepe.edu.tr/~tonta/courses/spring2008/bby703/maron-on-probabilistic%20indexing-2008.pdf |doi=10.1016/j.ipm.2007.02.012 |issue=2 [/tpl] published "On relevance, probabilistic indexing, and information retrieval" in the Journal of the ACM 7(3):216–244, July 1960.
+*: 1960: Melvin Earl (Bill) Maron and John Lary Kuhns published "On relevance, probabilistic indexing, and information retrieval" in the Journal of the ACM 7(3):216–244, July 1960.
 *: 1962:
 *:* Cyril W. Cleverdon published early findings of the Cranfield studies, developing a model for IR system evaluation. See: Cyril W. Cleverdon, "Report on the Testing and Analysis of an Investigation into the Comparative Efficiency of Indexing Systems". Cranfield Collection of Aeronautics, Cranfield, England, 1962.
 *:* Kent published Information Analysis and Retrieval.
@@ -70,14 +70,14 @@ The use of digital methods for storing and retrieving information has led to the
 *: 1989: First World Wide Web proposals by Tim Berners-Lee at CERN.
 * 1990s
 *: 1992: First TREC conference.
-*: 1997: Publication of Korfhage's Information Storage and Retrieval[tpl]cite book |last=Korfhage |first=Robert R. |title=Information Storage and Retrieval |publisher=Wiley |year=1997 |pages=368 pp. |isbn=978-0-471-14338-3 |url=http://www.wiley.com/WileyCDA/WileyTitle/productCd-0471143383,descCd-authorInfo.html [/tpl] with emphasis on visualization and multi-reference point systems.
+*: 1997: Publication of Korfhage's Information Storage and Retrieval with emphasis on visualization and multi-reference point systems.
 *: late 1990s: Web search engines implementation of many features formerly found only in experimental IR systems. Search engines become the most common and maybe best instantiation of IR models, research, and implementation.
 
 == Overview ==
 
 An information retrieval process begins when a user enters a query into the system. Queries are formal statements of information needs, for example search strings in web search engines. In information retrieval a query does not uniquely identify a single object in the collection. Instead, several objects may match the query, perhaps with different degrees of relevancy.
-An object is an entity that is represented by information in a database. User queries are matched against the database information. Depending on the application the data objects may be, for example, text documents, images,[tpl]cite journal |first=Abby A. |last=Goodrum |title=Image Information Retrieval: An Overview of Current Research |journal=Informing Science |volume=3 |number=2 |year=2000 [/tpl] audio,[tpl]cite journal |first=Jonathan |last=Foote |title=An overview of audio information retrieval |journal=Multimedia Systems |year=1999 |publisher=Springer [/tpl] mind maps[tpl]cite document |first=Jöran |last=Beel |first2=Bela |last2=Gipp |first3=Jan-Olaf |last3=Stiller |contribution=Information Retrieval On Mind Maps - What Could It Be Good For? |contribution-url=http://www.sciplore.org/publications_en.php |title=Proceedings of the 5th International Conference on Collaborative Computing: Networking, Applications and Worksharing (CollaborateCom'09) |year=2009 |publisher=IEEE |place=Washington, DC [/tpl] or videos. Often the documents themselves are not kept or stored directly in the IR system, but are instead represented in the system by document surrogates or metadata.
-Most IR systems compute a numeric score on how well each object in the database matches the query, and rank the objects according to this value. The top ranking objects are then shown to the user. The process may then be iterated if the user wishes to refine the query.[tpl]cite book |last=Frakes |first=William B. |title=Information Retrieval Data Structures & Algorithms |publisher=Prentice-Hall, Inc. |year=1992 |isbn=0-13-463837-9 |url=http://www.scribd.com/doc/13742235/Information-Retrieval-Data-Structures-Algorithms-William-B-Frakes [/tpl]
+An object is an entity that is represented by information in a database. User queries are matched against the database information. Depending on the application the data objects may be, for example, text documents, images, or videos. Often the documents themselves are not kept or stored directly in the IR system, but are instead represented in the system by document surrogates or metadata.
+Most IR systems compute a numeric score on how well each object in the database matches the query, and rank the objects according to this value. The top ranking objects are then shown to the user. The process may then be iterated if the user wishes to refine the query.
 
 == Performance and correctness measures ==
 
@@ -108,7 +108,7 @@ The weighted harmonic mean of precision and recall, the traditional F-measure or
 
 This integral is in practice replaced with a finite sum over every position in the ranked sequence of documents:
 This finite sum is equivalent to:
-Average precision is also sometimes referred to geometrically as the area under the precision-recall curve.[tpl]Citation needed|date=August 2011[/tpl]
+Average precision is also sometimes referred to geometrically as the area under the precision-recall curve.
 
 === R-Precision ===
 

@@ -1,5 +1,5 @@
 
-WebP (pronounced "weppy")[tpl]web cite|url=http://code.google.com/speed/webp/|title=WebP Home ("Did you know? WebP is pronounced "weppy". /(wĕpˈē)/ ")|accessdate=2010-08-02[/tpl] is an image format that employs both lossy and lossless compression. It is developed by Google, based on technology acquired with the purchase of On2 Technologies.
+WebP (pronounced "weppy") is an image format that employs both lossy and lossless compression. It is developed by Google, based on technology acquired with the purchase of On2 Technologies.
 As a derivative of the video format VP8, it is a sister project to the multimedia container format WebM. WebP related software is released under a BSD license.
 The format was first announced in 2010 and is supposed to be a new open standard for lossily-compressed true-color graphics on the web, thereby being presented as a direct competitor to the older JPEG scheme, to which it is meant to compare favorably with the production of smaller files for comparable image quality. On October 3, 2011 they announced WebP support for animation, ICC profile, XMP metadata and tiling (compositing very large images from max. 16384×16384 tiles).WebP-Mux (RIFF based container) framework On November 18, 2011 they introduced lossless compression and support for transparency (alpha channel) in both the lossless and lossy modes. According to Google's measurements, a PNG to WebP conversion results in a 45% reduction in file size when starting with PNGs found on the web, and a 28% reduction in size compared to PNGs that are re-compressed with pngcrush and pngout.Google Code blog: Lossless and transparency encoding in WebP 
 
@@ -30,7 +30,7 @@ In September 2010, Jason Garrett-Glaser, a developer of the x264 encoder, gave s
 
 == External links ==
 
-* [tpl]Official website|http://code.google.com/speed/webp/[/tpl]
+* 
 * Windows codec
 * WebP for .NET
 * Bugzilla@Mozilla: 600919 - (WebP) Implement WebP image support

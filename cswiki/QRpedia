@@ -1,33 +1,33 @@
 
-QRpedia is a mobile Web based system which uses QR codes to deliver Wikipedia articles to users, in their preferred language.[tpl]cite web|url=http://shkspr.mobi/blog/index.php/2011/04/introducing-qrpedia/|title=Introducing QRpedia|last=Eden|first=Terence|date=2011-04-03|accessdate=25 August 2011[/tpl][tpl]cite web|url=http://www.childrensmuseum.org/Childrens-Museum-Indianapolis-Creates-New-Learning-Opportunities-through-Wikipedian-in-Residence|title=The Children's Museum of Indianapolis Creates New Learning Opportunities through Wikipedian-in-Residence|last=Anon|date=2011-08-19|publisher=The Children's Museum of Indianapolis|accessdate=25 August 2011[/tpl][tpl]cite book|last1=Johnson|first1=L.|last2=Adams|first2=S.|title= The Technology Outlook for UK Tertiary Education 2011-201|url=http://www.nmc.org/pdf/2011-Technology-Outlook-UK.pdf|series=NMC Horizon Report Regional Analyses|year=2011|publisher=The New Media Consortium|location=Austin, Texas|isbn=978-0-615-38209-8[/tpl] QR codes can easily be generated to link directly to any Uniform Resource Identifier (URI), but the QRpedia system adds further functionality.
+QRpedia is a mobile Web based system which uses QR codes to deliver Wikipedia articles to users, in their preferred language. QR codes can easily be generated to link directly to any Uniform Resource Identifier (URI), but the QRpedia system adds further functionality.
 QRpedia was conceived by Roger Bamkin, then chair of Wikimedia UK, coded by Terence Eden, and unveiled in April 2011. It is currently in use at institutions including museums in the United Kingdom, United States and Spain. The project's source code is freely reusable under the MIT License.
 
 == Process ==
 
-When a user scans a QRpedia QR code on their mobile device, the device decodes the QR code into a Uniform Resource Locator (URL) using the domain name "qrwp.org" and whose path (final part) is the title of a Wikipedia article, and sends a request for the article specified in the URL to the QRpedia web server.[tpl]citation needed|date=February 2012[/tpl] It also transmits the language setting of the device.[tpl]cite web|url=http://midea.nmc.org/2011/06/qrpedia/|title=Going Multilingual with QRpedia|last=Byrd Phillips|first=Lori|date=2011-06-15|publisher=Marcus Institute for Digital Education in the Arts |accessdate=25 August 2011[/tpl]
+When a user scans a QRpedia QR code on their mobile device, the device decodes the QR code into a Uniform Resource Locator (URL) using the domain name "qrwp.org" and whose path (final part) is the title of a Wikipedia article, and sends a request for the article specified in the URL to the QRpedia web server.
 The QRpedia server then uses Wikipedia's API to determine whether there is a version of the specified Wikipedia article in the language used by the device, and if so, returns it in a mobile-friendly format. If there is no version of the article available in the preferred language, then the QRpedia server offers a choice of the available languages, or a Google translation.
-In this way, one QRcode can deliver the same article in many languages, even when the museum is unable to make its own translations. QRpedia also records usage statistics.[tpl]cite web|url=http://qrwp.org/stats.php?path=QRpedia|title=QRpedia Statistics (example)|accessdate=12 December 2011[/tpl]
+In this way, one QRcode can deliver the same article in many languages, even when the museum is unable to make its own translations. QRpedia also records usage statistics.
 
 == Origins ==
 
-QRpedia was conceived by Roger Bamkin,[tpl]cite web|url=http://outreach.wikimedia.org/wiki/GLAM/Newsletter/February_2011/Contents/Derby|title=Three days of Action - QR codes at Derby Museum and Art Gallery|last=Bamkin|first=Roger|work=Wikimedia Foundation|accessdate=17 February 2012[/tpl] then chair of Wikimedia UK,[tpl]cite web|url=http://uk.wikimedia.org/wiki/Board|title=Board|publisher=Wikimedia UK|accessdate=25 August 2011[/tpl] and Terence Eden, a mobile web consultant, and was unveiled on 9 April 2011[tpl]cite web|url=http://en.wikipedia.org/wiki/Wikipedia:GLAM/Derby/QR_code_experiment|title=Wikipedia:GLAM/Derby/QR code experiment|last=Various|work=Wikipedia|accessdate=25 August 2011[/tpl] at Derby Museum and Art Gallery's Backstage Pass event,[tpl]cite web|url=http://www.imperica.com/features/quiet-realities|title=Quiet Realities|last=Anon|date=2011-05-21|work=Imperica|accessdate=25 August 2011[/tpl] part of the GLAM/Derby collaboration between the museum and Wikipedia,[tpl]cite web|url=http://uk.wikimedia.org/wiki/Derby_Backstage_Pass|title=Derby Backstage Pass|last=Various|publisher=Wikimedia UK|accessdate=25 August 2011[/tpl] during which over 1,200 Wikipedia articles, in a number of languages, were also created.Roger Bamkin, interviewed on BBC Radio Derby by Phil Trow, 2011-08-30 The project's name is a portmanteau word, combining the initials "QR" from "QR (Quick Response) code" and "pedia" from "Wikipedia".[tpl]cite web|url=http://shkspr.mobi/blog/index.php/2011/11/qrpedia-in-russia/|title=QRpedia in Russia|last=Eden|first=Terence|date=2011-11-03|accessdate=25 November 2011[/tpl]
-The project's source code is freely reusable under the MIT License.[tpl]cite web|url=http://code.google.com/p/qrwp/|title=qrwp — QR Redirection to Wikipedia|work=Google Project Hosting|accessdate=25 August 2011[/tpl]
+QRpedia was conceived by Roger Bamkin,
+The project's source code is freely reusable under the MIT License.
 
 == Implementations ==
 
 Though created in the United Kingdom, QRpedia can be used in any location where the user's phone has a data signal (or with a scanner that remembers URLs until a signal is available) and, as of March 2012, is in use at:
 * Children's Chapel, St James' Church, Sydney
-* The Children's Museum of Indianapolis, United States[tpl]cite web|url=http://blog.childrensmuseum.org/blog/wikipedian-in-residence/qr-codes-wikipedia-qrpedia|title=QR codes + Wikipedia = QRpedia|publisher=The Children's Museum of Indianapolis|last=Byrd Phillips|first=Lori|date=2011-07-29|accessdate=25 August 2011[/tpl]
+* The Children's Museum of Indianapolis, United States
 * Derby Museum and Art Gallery, England
 * Estonian Sports Museum
 * Galleries of Justice Museum
-* Fundació Joan Miró, Spain[tpl]cite web|url=http://theglamwikiexperience.blogspot.com/2011/05/qrpedia-codes-at-fundacio-joan-miro.html|title=QRpedia Codes at Fundació Joan Miró|last=Hinojo|first=Alex|date=2011-05-11|work=The GLAM-Wiki Experience|accessdate=25 August 2011[/tpl] including a travelling exhibit shown at The Tate
-* The National Archives, United Kingdom [tpl]cite web|url=http://www.nationalarchives.gov.uk/news/620.htm|title=New collaboration between Wikimedia UK and The National Archives | The National Archives|date=2011-09-15|publisher=The National Archives (United Kingdom)|accessdate=16 September 2011[/tpl][tpl]cite web|url=http://shkspr.mobi/blog/index.php/2011/09/national-archives-and-qrpedia/|title=National Archives and QRpedia|last=Eden|first=Terence|date=2011-09-18|accessdate=18 September 2011[/tpl]
-* The National Museum of Computing (UK)[tpl]cite web|url=http://www.smartukproject.co.uk/archives/1750|title=Become an instant expert with a little help from your mobile|date=2012-02-02|publisher=Smart UK Project |accessdate=2 February 2012[/tpl]
-* Sofia Zoo, Bulgaria[tpl]cite web|url=http://bg.wikipedia.org/wiki/%D0%A3:%D0%97%D0%9E%D0%9E|title=Уикипедия:Сътрудничество/Софийски зоопарк|work=Wikipedia|language=bg|accessdate=14 February 2012[/tpl]
-* The Welsh town of Monmouth, as part of Wikipedia's MonmouthpediA project.[tpl]cite web|url=http://www.monmouth-today.co.uk/news.cfm?id=7508&headline=Monmouth%20to%20be%20Wales'%20first%20WiFi%20town|title=Monmouth to be Wales' first WiFi town|date=2012-02-29|work=Monmouth Today|accessdate=1 March 2012[/tpl][tpl]cite web|url=http://digitalanalog.in/2012/05/21/monmouth-a-town-full-of-qr-codes-leading-to-wikipedia/ |title=Wikipedia Town, A Town Full of QR Codes Leading to Wikipedia | DigitalAnalog - An Online Publication for Creativity + Code |publisher=Digitalanalog.in |date=2012-05-21 |accessdate=2012-06-19[/tpl]
+* Fundació Joan Miró, Spain including a travelling exhibit shown at The Tate
+* The National Archives, United Kingdom 
+* The National Museum of Computing (UK)
+* Sofia Zoo, Bulgaria
+* The Welsh town of Monmouth, as part of Wikipedia's MonmouthpediA project.
 * St Paul's Church, Birmingham
-QRpedia also has uses outside of such institutions. For example, the Occupy movement uses it on campaign posters.[tpl]cite web|url=http://wedontmakedemands.org/posters.php|title=We Don't Make Demands: Posters|date=2011-12-02|accessdate=2 December 2011[/tpl]
+QRpedia also has uses outside of such institutions. For example, the Occupy movement uses it on campaign posters.
 
 == Awards ==
 
@@ -40,6 +40,6 @@ In January 2012, QRpedia was one of four projects (from 79 entrants) declared th
 * QRpedia
 * QRpedia statistics stem for other articles
 * Qrpedia project on GoogleCode
-* [tpl]twitter|QRpedia[/tpl]
-* [tpl]outreachwiki|GLAM/QR codes|QRpedia[/tpl]
+* 
+* 
 

@@ -7,10 +7,10 @@ Application of SPPs enables subwavelength optics in microscopy and lithography b
 
 *
 
-*[tpl]NIST-PD|article=Three-Dimensional Plasmonic  Metamaterials |url=http://www.nist.gov/cnst/nrg/3d_plasmonic_metamaterials.cfm[/tpl][/ref][ref]
+*[/ref][ref]
 
-</ref><ref name=w-barnes>[tpl]cite journal|last1=Barnes|first1=William L.|last2=Dereux|first2=Alain|last3=Ebbesen|first3=Thomas W.|title=Surface plasmon subwavelength optics|doi=10.1038/nature01937|pmid=12917696|year=2003|page=824|issue=6950|volume=424|journal=Nature|url=http://access.ex.ac.uk/research/emag/wlb/nature_2003_424_824.pdf|bibcode = 2003Natur.424..824B [/tpl] 
-*[tpl]cite journal |last1=Huidobro |first1=Paloma A. |last2=Nesterov |first2=Maxim L. |last3=Martín-Moreno |first3=Luis |last4=García-Vidal |first4=Francisco J. |doi=10.1021/nl100800c |title=Transformation Optics for Plasmonics |pmid=20465271 |year=2010 |page=1985 |issue=6 |volume=10 |journal=Nano Letters|url=http://www.uam.es/gruposinv/nanophot/Web_grupo_archivos/papers/huidobro_june2010.pdf|bibcode = 2010NanoL..10.1985H [/tpl] Free PDF download for these peer reviewed articles.*PDF from arxiv.org - Transformation Optics for Plasmonics. 15 pages.[/ref]
+</ref><ref name=w-barnes> 
+* Free PDF download for these peer reviewed articles.*PDF from arxiv.org - Transformation Optics for Plasmonics. 15 pages.[/ref]
 
 ==Experimental approaches==
 
@@ -21,7 +21,7 @@ Current research is focused on the design, fabrication, and experimental charact
 In addition to building functional devices based on SPPs, it appears feasible to exploit the dispersion characteristics of SPPs traveling in confined metallo-dielectric spaces to create photonic materials with artificially tailored bulk optical characteristics, otherwise known as metamaterials.[ref]
 
  
-*[tpl]NIST-PD|article=Nanoplasmonics|url=http://www.nist.gov/cnst/nrg/nanoplasmonics.cfm[/tpl][/ref]
+*[/ref]
 
 ==See also==
 
@@ -32,8 +32,8 @@ In addition to building functional devices based on SPPs, it appears feasible to
 
 ==Further reading==
 
-*[tpl]cite journal|last1=Ebbesen|doi=10.1038/35570|first1=T. W.|last2=Lezec|first2=H. J.|last3=Ghaemi|first3=H. F.|last4=Thio|first4=T.|last5=Wolff|first5=P. A.|title=Extraordinary optical transmission through sub-wavelength hole arrays|year=1998|page=667|volume=391|journal=Nature|url=http://arep.med.harvard.edu/pdf/Ebbsen98.pdf|bibcode = 1998Natur.391..667E|issue=6668[/tpl]
-*[tpl]cite journal|last1=Hendry|doi=10.1103/PhysRevLett.100.123901|first1=E.|last2=Garcia-Vidal|first2=F.|last3=Martin-Moreno|first3=L.|last4=Rivas|first4=J.|last5=Bonn|first5=M.|last6=Hibbins|first6=A.|last7=Lockyear|first7=M.|title=Optical Control over Surface-Plasmon-Polariton-Assisted THz Transmission through a Slit Aperture|pmid=18517865|year=2008|page=123901|issue=12|volume=100|journal=Physical Review Letters |url=http://shannon.ex.ac.uk/research/emag/pubs/pdf/Hendry_PRL_2008.pdf|bibcode=2008PhRvL.100l3901H[/tpl] Free PDF download.
+*
+* Free PDF download.
 *
  Free PDF download.
 *

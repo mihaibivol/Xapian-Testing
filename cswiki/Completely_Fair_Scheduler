@@ -2,7 +2,7 @@
 The Completely Fair Scheduler is the name of a task scheduler which was merged into the 2.6.23 release of the Linux kernel. It handles CPU resource allocation for executing processes, and aims to maximize overall CPU utilization while also maximizing interactive performance. 
 Con Kolivas's work with CPU scheduling, most significantly his implementation of "fair scheduling" named Rotating Staircase Deadline, inspired Ingo Molnár to develop his CFS, as a replacement for the earlier O(1) scheduler, crediting Kolivas in his announcement.[ref]
 </ref>
-In contrast to the previous O(1) scheduler used in older Linux 2.6 kernels, the CFS scheduler implementation is not based on run queues. Instead, a red-black tree implements a "timeline" of future task execution. Additionally, the scheduler uses nanosecond granularity accounting, the atomic units by which an individual process' share of the CPU was allocated (thus making redundant the previous notion of timeslices). This precise knowledge also means that no specific heuristics are required to determine the interactivity of a process, for example.[tpl]cite web| last=Andrews | first=Jeremy | date=2007-04-18 | url=http://kerneltrap.org/node/8059 | title=Linux: The Completely Fair Scheduler | publisher=KernelTrap[/tpl]
+In contrast to the previous O(1) scheduler used in older Linux 2.6 kernels, the CFS scheduler implementation is not based on run queues. Instead, a red-black tree implements a "timeline" of future task execution. Additionally, the scheduler uses nanosecond granularity accounting, the atomic units by which an individual process' share of the CPU was allocated (thus making redundant the previous notion of timeslices). This precise knowledge also means that no specific heuristics are required to determine the interactivity of a process, for example.
 Like the old O(1) scheduler, CFS uses a concept called "sleeper fairness", which considers sleeping or waiting tasks equivalent to those on the runqueue. This means that interactive tasks which spend most of their time waiting for user input or other events get a comparable share of CPU time when they need it.
 
 ==Algorithm==
@@ -12,7 +12,7 @@ If the task spends a lot of its time sleeping, then its spent time value is low 
 
 ==OS background==
 
-From Molnar's description, CFS is an implementation of a well-studied, classic scheduling algorithm called fair queuing.[tpl]Citation needed|date=November 2007[/tpl]
+From Molnar's description, CFS is an implementation of a well-studied, classic scheduling algorithm called fair queuing.
 Originally invented for packet networks, fair queuing had been previously applied to CPU scheduling under the name stride scheduling.  However, CFS uses different terminology than normally applied to fair queuing. "Service error" (the amount in which a process's obtained CPU share differs from its expected CPU share) is called "wait_runtime" in Linux's implementation, and the term "queue virtual time" (QVT) was given the name "fair_clock".
 The fair queuing CFS scheduler has a scheduling complexity of O(log N), where N is the number of tasks in the runqueue. Choosing a task can be done in constant time, but reinserting a task after it has run requires O(log N) operations, because the runqueue is implemented as a red-black tree.
 CFS is the first implementation of a fair queuing process scheduler widely used in a general-purpose operating system.Efﬁcient and Scalable Multiprocessor Fair Scheduling Using Distributed Weighted Round-Robin
@@ -41,6 +41,6 @@ Linus confirmed this indirectly in his other post,http://marc.info/?l=linux-kern
 
 ==External links==
 
-* [tpl]cite web| last=Corbet | first=Jonathan | date=2007-04-17 | url=http://lwn.net/Articles/230574/ | title=Schedulers: The Plot Thickens | publisher=LWN.net[/tpl]
-* [tpl]cite web| last=Corbet | first=J. | date=2007-07-02 | url=http://lwn.net/Articles/240474/ | title=CFS Group Scheduling | publisher=LWN.net[/tpl]
+* 
+* 
 

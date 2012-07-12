@@ -3,19 +3,19 @@ Instant indexing is a marketing term that denotes a feature offered by select In
 
 ==Delayed inclusion==
 
-Certain search engine services may require an extended period of time for inclusion, which is seen as a delay and a frustration by website administrators who wish to have their websites appear in search engine results[tpl]Fact|date=February 2007[/tpl]. 
-Delayed inclusion may due to the size of the index that the service must maintain or due to corporate, political or social policies[tpl]Fact|date=February 2007[/tpl]. Some services only index content collected by a crawler program which does not allow for manual adding of content to index[tpl]Fact|date=February 2007[/tpl].
+Certain search engine services may require an extended period of time for inclusion, which is seen as a delay and a frustration by website administrators who wish to have their websites appear in search engine results. 
+Delayed inclusion may due to the size of the index that the service must maintain or due to corporate, political or social policies.
 
 ==Criticisms==
 
-A criticism of instant indexing is that certain services filter results manually or via algorithms that prevent instant inclusion to avoid inclusion of content that violates the service's policies.[tpl]Fact|date=February 2007[/tpl]
+A criticism of instant indexing is that certain services filter results manually or via algorithms that prevent instant inclusion to avoid inclusion of content that violates the service's policies.
 Instant indexing impacts the timeliness of the content included in the index. Given the manner in which many crawlers operate in the case of Internet search engines, websites are only visited if a some other website links to them. Unlinked web sites are never visited (see invisible web) by the crawler because it cannot reach the website during its traversal. It is assumed that unlinked websites are less authoritative and less popular, and therefore of less quality. Over time, if a website is popular or authoritative, it is assumed that other websites will eventually link to it. If a search engine service provides instant indexing, it bypasses this quality control mechanism by not requiring incoming links. This infers that the search engine's service produces lower quality results.
 Select search services that offer such a service typically also offer paid inclusion, also referred to as inorganic search. This may reduce the quality of search results.
 
 ==External links==
 
-* [tpl]cite web | url = http://www.web-cite.com/search_marketing/000078.html | title = Don't Blink: Instant Indexing? | publisher = Web-Cite Exposure | date = 2003-03-26 | accessdate = 2006-09-23 |archiveurl = http://web.archive.org/web/20060427184004/http://www.web-cite.com/search_marketing/000078.html  |archivedate = 2006-04-27[/tpl]
-* [tpl]cite web | url = http://www.earthstation9.com/index.html?us_searc.htm | title = The Wonderful World of Search Engines and Web Directories — A Search Engine Guide | author = Stan Daniloski | publisher = Earth Station 9 | date = 2004-09-17 | accessdate = 2006-09-23[/tpl]
+* 
+* 
 
 == See also ==
 

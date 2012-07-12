@@ -1,5 +1,5 @@
 
-In probability and statistics, decoupling is a reduction of a sample statistic to an average of the statistic evaluated on several independent sequences of the random variable. This sum, conditioned on all but one of the independent sequences becomes a sum of independent random variables. Decoupling is used in the study of U statistics, where decoupling should not be confused with Hoeffding's decomposition, however.[tpl]cite book|author=Victor H. de la Peña and Evariste Giné|title=Decoupling: From Dependence to Independence|publisher=Springer Verlag|year=1999|isbn=978-0-387-98616-6 [/tpl] (Such "decoupling" is unrelated to the use of "couplings" in the study of stochastic processes.)
+In probability and statistics, decoupling is a reduction of a sample statistic to an average of the statistic evaluated on several independent sequences of the random variable. This sum, conditioned on all but one of the independent sequences becomes a sum of independent random variables. Decoupling is used in the study of U statistics, where decoupling should not be confused with Hoeffding's decomposition, however. (Such "decoupling" is unrelated to the use of "couplings" in the study of stochastic processes.)
 
 == References ==
 

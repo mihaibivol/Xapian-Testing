@@ -12,7 +12,7 @@ Before the introduction of CMPI, each CIM server implementation had its own spec
 
 ==Standards development==
 
-The original input to the CMPI standard was submitted by IBM to The Open Group in 2003. Along with the submission, an implementation was conducted as part of the SBLIM project.[tpl]cite web | url = http://www.opengroup.org/sophocles/show_mail.tpl?CALLER=show_archive.tpl&source=L&listname=wbemsource&id=413 | title = OpenGroup wbemsource mailing list: CMPI Based Instrumentation Available | year = 2003 | accessdate = 2009-04-23[/tpl]
+The original input to the CMPI standard was submitted by IBM to The Open Group in 2003. Along with the submission, an implementation was conducted as part of the SBLIM project.
 In late 2004, CMPI V1.0 was released by The Open Group as a Technical Standard.
 The current version of CMPI is V2.0 and was released in late 2006.
 

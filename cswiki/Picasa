@@ -6,13 +6,13 @@ Native applications for Windows XP, Windows Vista, Windows 7 and Mac OS X (Intel
 
 ===Windows===
 
-Currently, the latest major version of Picasa is 3.9, which supports Windows XP, Windows Vista and Windows 7, and has Google+ integration for users of that service.[tpl]cite web|url=http://support.google.com/picasa/bin/answer.py?hl=en&answer=39500|title=New features In Picasa 3.9|accessdate=2012-03-12[/tpl] Version 3.9 also removed integration with Picasa Web Albums for users of Google+.Google+ Photos Replaces Picasa Web in the Navigation Bar.
+Currently, the latest major version of Picasa is 3.9, which supports Windows XP, Windows Vista and Windows 7, and has Google+ integration for users of that service. Version 3.9 also removed integration with Picasa Web Albums for users of Google+.Google+ Photos Replaces Picasa Web in the Navigation Bar.
 
 ===Linux===
 
-Picasa for Windows could be successfully installed and used under Linux through the use of Picasa 3.0 and Wine.[tpl]cite web|url=http://www.webupd8.org/2010/04/how-to-install-picasa-36-in-ubuntu.html|title=Using Picasa 3.8 in Linux|publisher=Webupd8.org|date=2010-04-10|accessdate=2011-12-10[/tpl] Linux users can use other programs to upload to Picasa Web Albums, including Gwenview, digiKam, and Shotwell. 
-Since June 2006, Linux versions have become available as free downloads for most distributions of the Linux operating system. It is not a native Linux program but an adapted Windows version that uses the Wine libraries.[tpl]cite web|url=http://support.google.com/picasa/bin/answer.py?hl=en&answer=112056|title=About Picasa for Linux|publisher=Picasa.google.com|date=2011-09-27|accessdate=2011-12-10[/tpl] Google has announced that there will be no Linux version for 3.5.[tpl]cite web|last=Claburn |first=Thomas|url=http://www.informationweek.com/news/internet/google/showArticle.jhtml?articleID=220100440|title=Google Releases Picasa 3.5|publisher=Informationweek.com|date=2009-09-22|accessdate=2011-12-10[/tpl] Currently, Google has only officially offered Picasa 3.0 Beta for Linux.
-On April 20, 2012 Google announced that they were deprecating Picasa for Linux and will no longer maintain it on that operating system.[tpl]cite web|url=http://googleblog.blogspot.co.uk/2012/04/spring-cleaning-in-spring.html |title=Spring-cleaning ... in spring!|publisher=Google Official Blog|date=2012-04-20|accessdate=2012-04-23[/tpl]
+Picasa for Windows could be successfully installed and used under Linux through the use of Picasa 3.0 and Wine. Linux users can use other programs to upload to Picasa Web Albums, including Gwenview, digiKam, and Shotwell. 
+Since June 2006, Linux versions have become available as free downloads for most distributions of the Linux operating system. It is not a native Linux program but an adapted Windows version that uses the Wine libraries. Currently, Google has only officially offered Picasa 3.0 Beta for Linux.
+On April 20, 2012 Google announced that they were deprecating Picasa for Linux and will no longer maintain it on that operating system.
 
 ===Mac OS X===
 
@@ -31,8 +31,8 @@ According to Picasa Readme, Picasa can parse Extensible Metadata Platform (XMP) 
 
 ====Searching====
 
-Picasa has a search bar that is always visible when viewing the library. Searches are live, so that displayed items are filtered as you type. The search bar will search filenames, captions, tags, folder names, and other metadata.[tpl]cite web|url=http://support.google.com/picasa/bin/answer.py?hl=en&answer=19859|title=Search and Locate: Search by keyword, filter, or color|accessdate=2009-11-12[/tpl]
-Picasa also has an experimental feature that allows searching for images that contain certain colors with the "color:" operator.[tpl]cite web|url=http://malektips.com/picasa-photo-color-search-red-green-blue.html|title=Feeling Blue? Search for Photos Matching Your Mood[/tpl]
+Picasa has a search bar that is always visible when viewing the library. Searches are live, so that displayed items are filtered as you type. The search bar will search filenames, captions, tags, folder names, and other metadata.
+Picasa also has an experimental feature that allows searching for images that contain certain colors with the "color:" operator.
 
 ===Viewing===
 
@@ -42,12 +42,12 @@ Picasa has no separate view window. There is only an "edit view" with a viewing 
 
 In Picasa 2 and earlier versions, changes to pictures made in Picasa overwrite the original file, but a backup version of the original is saved in a hidden folder named "Originals" in the same folder as the original picture (.picasaoriginals on Mac OSX).
 In Picasa 3, changes to pictures made in Picasa are saved to a hidden file picasa.ini in the same folder as the original picture. This allows multiple edits to be performed without altering the original image. Viewing the picture in Picasa or using the Picasa Photo Viewer will apply modifications on the fly, whereas viewing through other programs (such as Windows XP's Photo and Fax Viewer) will display the original image. Changes can also be made permanent using the "Save" function, where the original file is backed up in a hidden folder .picasaoriginals located in the same folder as the original picture and the modified version is written in its place.
-Further reading: Manual section "Saving photos" on picasa.google.com.[tpl]cite web|url=http://support.google.com/picasa/bin/answer.py?hl=en&answer=11021|title=Saving photos - Picasa and Picasa Web Albums Help|publisher=Picasa.google.com|date=2011-09-27|accessdate=2011-12-10[/tpl]
+Further reading: Manual section "Saving photos" on picasa.google.com.
 
 ===Face recognition===
 
-On August 15, 2006, Google announced it had acquired Neven Vision, whose technology can be used to search for features within photos such as people or buildings. Google applied this technology for face recognition, and this functionality was launched on Picasa Web Albums on September 2, 2008.[tpl]cite web|url=http://googleblog.blogspot.com/2008/09/introducing-picasa-30-and-big-changes.html|title=Introducing Picasa 3.0 (and big changes for Picasa Web Albums)[/tpl]
-Neven Vision incorporates several patents[tpl]cite web|url=http://www.searchenginejournal.com/google-neven-vision-image-recognition/3728/|title=Google, Neven Vision & Image Recognition[/tpl] specifically centered around face recognition from digital photo and video images.
+On August 15, 2006, Google announced it had acquired Neven Vision, whose technology can be used to search for features within photos such as people or buildings. Google applied this technology for face recognition, and this functionality was launched on Picasa Web Albums on September 2, 2008.
+Neven Vision incorporates several patents specifically centered around face recognition from digital photo and video images.
 
 ===Geotagging===
 
@@ -60,17 +60,17 @@ Since version 3.5 of Picasa, Google Earth is not needed. Geotagging may be done 
 
 Picasa Web Albums (PWA) is a photo sharing web site from Google, often compared to Flickr and similar sites.
 It allows users with accounts at Google to store and share 1 GB of large photos for free. Storage is unlimited for photos 2048x2048 pixels or smaller for Google+ users, and for photos 800x800 for everyone else. Videos less than 15 minutes long also don't count towards the limit. After the limit is reached, photos are automatically resized.Free storage limits - Picasa and Picasa Web Albums Help, Support.google.com.
-Users may upload pictures through a variety of ways: via the PWA web interface on supported browsers,Creating New Albums: Upload using Picasa Web Albums, Picasa Help. Picasa 2.5 or later[tpl]cite web|url=http://googlesystem.blogspot.com/2006/06/picasa-web-albums.html|title=Picasa Web Albums|publisher=Googlesystem.blogspot.com|date=2006-06-13|accessdate=2011-12-10[/tpl] on Microsoft Windows, using the Exporter for iPhoto, the Aperture to Picasa Web Albums plug-in, Uploader on Mac OS X,[tpl]cite web|url=http://picasa.google.com/mac_tools.html|title=Web Albums Uploader|publisher=Picasa.google.com|accessdate=2011-12-10[/tpl] F-Spot on Linux, or through WAManager in the Amiga-like OS MorphOS. In both free and paid accounts, the actual resolution of the photo is maintained, even though a smaller resolution photo may be displayed by the web interface.
-In Picasa 3 versions of the software, using the 'original size' upload option, pixel size remains the same, but JPEG compression is increased significantly during upload to PWA. As JPEG is a "lossy" format, some picture information (and quality) is lost. Picasa 3.6 added an option to preserve original JPEG quality.[tpl]cite web|last=Leng|first=Susanna|url=http://googlephotos.blogspot.com/2009/12/picasa-36-now-with-collaborative-albums.html|title=Picasa 3.6: Now with collaborative albums|publisher=Googlephotos.blogspot.com|date=2009-12-08|accessdate=2011-12-10[/tpl]
+Users may upload pictures through a variety of ways: via the PWA web interface on supported browsers,Creating New Albums: Upload using Picasa Web Albums, Picasa Help. Picasa 2.5 or later F-Spot on Linux, or through WAManager in the Amiga-like OS MorphOS. In both free and paid accounts, the actual resolution of the photo is maintained, even though a smaller resolution photo may be displayed by the web interface.
+In Picasa 3 versions of the software, using the 'original size' upload option, pixel size remains the same, but JPEG compression is increased significantly during upload to PWA. As JPEG is a "lossy" format, some picture information (and quality) is lost. Picasa 3.6 added an option to preserve original JPEG quality.
 PWA uses an "unlisted number" approach for URLs for private photo albums. This enables a user to email a private album's URL to anyone, and the recipient can view the album without having to create a user account. This is done via an "authentication key" that must be appended to the URL for the album to be shown. The Picasa Help files say that private albums are not searchable by anyone except the user. Another visibility option named "sign-in required to view" is available. This makes the album viewable only to those with whom the album is explicitly shared.
-Ads are shown on the free Picasa Web Albums accounts. The Terms of Service[tpl]cite web|url=http://picasa.google.com/policy.html|title=Picasa: Terms of Service|publisher=Picasa.google.com|accessdate=2011-12-10[/tpl] permit Google to use the uploaded photos to display on their website or via RSS feeds, and also for promoting Google services royalty-free. Additionally, the terms permit Google to allow other companies with which they are affiliated to use the uploaded pictures to provide syndicated services. This allowance is perpetual and cannot be revoked by the owner of the photos.
-Picasa Web Albums was first leaked on June 6, 2006.[tpl]cite web|url=http://blogoscoped.com/archive/2006-06-07-n12.html|title=Google Picasa Web Albums Coming?|publisher=Blogoscoped.com|date=2007-01-25|accessdate=2011-12-10[/tpl] When introduced, it came with 250 MB free space. On March 7, 2007, that was upgraded to 1 GB. As stated above, storage is now unlimited for small and resized photos. Users can also rent additional storage space (shared between Google services such as Gmail, Google Drive and Picasa Web Albums) from 25 GB to 16 TB.[tpl]cite web|url=https://www.google.com/settings/storage/?hl=en|title=Buy page for storage for Picasa Web Albums, Gmail and Google|publisher=Picasa.google.com|accessdate=2012-05-19[/tpl]
+Ads are shown on the free Picasa Web Albums accounts. The Terms of Service permit Google to use the uploaded photos to display on their website or via RSS feeds, and also for promoting Google services royalty-free. Additionally, the terms permit Google to allow other companies with which they are affiliated to use the uploaded pictures to provide syndicated services. This allowance is perpetual and cannot be revoked by the owner of the photos.
+Picasa Web Albums was first leaked on June 6, 2006.
 
 ===Hello===
 
 Hello by Google's Picasa was a free computer program that enabled users to send images across the Internet and publish them to their blogs. It was similar to an instant messaging program because it allowed users to send text, but Hello focused on digital photographs. Users can opt to view the same pictures as their friends in real-time. One of the advantages claimed at the website is that photos could be shared through firewalls.
 Hello's service was canceled at the end of 2006, and users were instructed to try the Picasa 'Blog This' functionality for uploading pictures to their blogs.
-According to the official website,[tpl]cite web|url=http://www.hello.com/|title=Hello|accessdate=2010-11-23|archiveurl=http://web.archive.org/web/20090204034907/http://hello.com/|archivedate=2008-05-10[/tpl] the Hello project was shut down on May 15, 2008.
+According to the official website, the Hello project was shut down on May 15, 2008.
 
 ==See also==
 
@@ -89,7 +89,7 @@ According to the official website,[tpl]cite web|url=http://www.hello.com/|title=
 ==External links ==
 
 *Picasa client for Windows phone 7, allows you to manage picasa accounts/albums/photos and upload photos from phone directly to the Picasa web site.
-*[tpl]official website|http://picasa.google.com/[/tpl].
+*.
 *Picasa Release Notes.
 *Anvo-it.de, "AvPicFaceXmpTagger",  allows you to store Picasa face recognition data inside JPEG pictures, the program fetches that data and stores it as XMP-MP meta tags inside the JPEG pictures.
 

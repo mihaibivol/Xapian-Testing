@@ -76,10 +76,10 @@ Here is an example of Inform source code that makes use of the Inform library. T
 
 === Notable games developed in Inform 6 or earlier versions ===
 
-* Curses, by Graham Nelson (1993), the first game ever written in the Inform programming language. Considered one of the first "modern" games to meet the high standards set by Infocom's best titles.[tpl]cite web | author = Alan De Smet | date = 2006-03-14 | url = http://www.highprogrammer.com/alan/rants/reviews/video_games/if/curses.html | title = Curses (Interactive Fiction Reviews) | accessdate = 2006-11-01 [/tpl]
+* Curses, by Graham Nelson (1993), the first game ever written in the Inform programming language. Considered one of the first "modern" games to meet the high standards set by Infocom's best titles.
 * So Far, by Andrew Plotkin (1996), the first XYZZY Award for Best Game winner in 1996.
 * Zork: The Undiscovered Underground (1997), written by Marc Blank & Michael Berlyn, programmed by Gerry Kevin Wilson. Given away free by Activision to promote the release of Zork Grand Inquisitor.
-* Anchorhead, by Michael S. Gentry (1998) is a highly rated horror story inspired by H. P. Lovecraft's Cthulhu Mythos.Of the 1219 games rated at "Interactive Fiction Ratings", Anchorhead was the highest rated game as of January 4, 2007. ([tpl]cite web | url = http://www.carouselchain.com/if/statistics.php | title = IF Rating Stats | accessdate = 2007-01-04 [/tpl])
+* Anchorhead, by Michael S. Gentry (1998) is a highly rated horror story inspired by H. P. Lovecraft's Cthulhu Mythos.Of the 1219 games rated at "Interactive Fiction Ratings", Anchorhead was the highest rated game as of January 4, 2007. ()
 * Photopia, by Adam Cadre (1998), the first almost entirely puzzle-free game. Won the annual Interactive Fiction Competition in 1998.
 * Varicella by Adam Cadre (1999). It won four XYZZY Awards in 1999 including the XYZZY Award for Best Game, and had a scholarly essay written about it.[ref]
 
@@ -105,7 +105,7 @@ Inform 7 was named Natural Inform for a brief period of time, but was later rena
 
 Inform 7 comes with an integrated development environment (IDE) for Mac OS X, Microsoft Windows and Linux.  The Mac OS X IDE was developed by Andrew Hunter.  The Microsoft Windows IDE was developed by David Kinder. The Linux IDE (known as GNOME Inform) was developed by Philip Chimento
 The Inform 7 IDE includes a text editor for editing Inform 7 source code.  Like many other programming editors it features syntax highlighting.  It marks quoted strings in one color.  Headings of organizational sections (Volumes, Books, Chapters, Parts, and Sections) are bolded and made larger.  Comments are set in a different color and made slightly smaller.
-The IDE includes a built-in Z-code interpreter.  The Mac OS X IDE's interpreter is based on the Zoom interpreter by Andrew Hunter, with contributions from Jesse McGrew[tpl]Citation needed|date=April 2008[/tpl].  The Microsoft Windows IDE's interpreter is based on WinFrotz.
+The IDE includes a built-in Z-code interpreter.  The Mac OS X IDE's interpreter is based on the Zoom interpreter by Andrew Hunter, with contributions from Jesse McGrew.  The Microsoft Windows IDE's interpreter is based on WinFrotz.
 As a developer tests the game in the built-in interpreter, progress is tracked in the "skein" and "transcript" views of the IDE.  The skein tracks player commands as a tree of branching possibilities.  Any branch of the tree can be quickly re-followed, making it possible to retry different paths in a game under development without replaying the same portions of the game.  Paths can also be annotated with notes and marked as solutions, which can be exported as text walkthroughs.  The transcript, on the other hand, tracks both player commands and the game's responses.  Correct responses from the game can be marked as "blessed."  On replaying a transcript or a branch of the skein, variations from the blessed version will be highlighted, which can help the developer find errors.
 The IDE also provides various indices into the program under development.  The code is shown as a class hierarchy, a traditional IF map, a book-like table of contents, and in other forms.  Clicking items in the index jumps to the relevant source code.
 The IDE presents two side-by-side panes for working in.  Each pane can contain the source code being worked on, the current status of compilation, the skein, the transcript, the indices of the source code, a running version of the game, documentation for Inform 7 or any installed extensions to it, or settings.  The concept is to imitate an author's manuscript book by presenting two "facing pages" instead of a multitude of separate windows.
@@ -146,7 +146,7 @@ On March 1, 2006, Short announced the release of three further games:[ref]
 </ref>
 Bronze (an example of a traditional puzzle-intensive game) and Damnatio Memoriae (a follow-up to her award-winning Inform 6 game Savoir-Faire) were joined by Graham Nelson's The Reliques of Tolti-Aph (2006). When the Inform 7 public beta was announced on April 30, 2006, six "worked examples" of medium to large scale works were made available along with their source code, including the three games previously released on March 1.
 Emily Short's Floatpoint was the first Inform 7 game to take first place in the Interactive Fiction Competition.
-It also won 2006 XYZZY awards for Best Setting and Best NPCs.[tpl]cite web | url=http://www.xyzzynews.com/2006winners.html | title=XYZZY Awards: Winning Games of 2006 | accessdate=2007-05-12[/tpl] Rendition, by nespresso (2007), is a political art experiment in the form of a text adventure game. Its approach to tragedy has been discussed academically by both the Association of Computing Machinery and Cambridge University.
+It also won 2006 XYZZY awards for Best Setting and Best NPCs. Rendition, by nespresso (2007), is a political art experiment in the form of a text adventure game. Its approach to tragedy has been discussed academically by both the Association of Computing Machinery and Cambridge University.
 
 == See also ==
 
@@ -171,7 +171,7 @@ It also won 2006 XYZZY awards for Best Setting and Best NPCs.[tpl]cite web | url
 * Inform 6 - Official web site
 * Inform 6 FAQ at Roger Firth's IF Pages provides details on programming in Inform 6.
 * Inform 7 - Official web site.
-* [tpl]dmoz|Games/Video_Games/Adventure/Text_Adventures/Design_and_Development/Authoring_Systems/Inform[/tpl]
+* 
 * The Interactive Fiction Archive provides many Inform tools, examples, and library files.
 * PlayFic is a web-based interface for creating and sharing new games using Inform 7.
 

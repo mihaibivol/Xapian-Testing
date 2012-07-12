@@ -2,11 +2,11 @@
 UsiXML (USer Interface eXtensible Markup Language) is an XML-based markup language for defining user interfaces on computers.
 UsiXML is a specification language for user interface design. It allows the designer to describe a user interface at different levels of abstraction. In other words you can specify a UI in terms of functionality (task analysis), object it manipulates, or, in a more concrete way, you can draw user interfaces.
 The UsiXML language is currently being submitted for a standardisation plan to the W3C.
-Another work with the same purpose is UIML.[tpl]cite web| url = http://www.uiml.org/|title = UIML.org|accessdate = 2006-07-21[/tpl]
+Another work with the same purpose is UIML.
 
 == Tool support ==
 
-There are plenty of tools that can be found for UsiXML.[tpl]cite web| url = http://www.usixml.org/|title = UsiXML.org|accessdate = 2007-01-21[/tpl]
+There are plenty of tools that can be found for UsiXML.
 They include: a translator from UsiXML specification to Flash (FlashiXML), a tool for drawing/sketching user interfaces (SketchiXML), a tool for task analysis (idealXML).
 
 == References ==

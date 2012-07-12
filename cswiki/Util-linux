@@ -1,5 +1,5 @@
 
-util-linux (with lower case 'u') is a standard package of the Linux operating system.  A fork, util-linux-ng—with ng meaning "next generation"—was created when development stalled,[tpl]cite web|title=|url=https://lkml.org/lkml/2006/12/18/19|date=18 Dec 2006[/tpl] but [tpl]As of|2011|01|lc=on[/tpl] has been renamed back to util-linux, and is the official version of the package.[tpl]cite web|title=|url=https://lkml.org/lkml/2010/12/1/464|date=1 Dec 2010[/tpl]
+util-linux (with lower case 'u') is a standard package of the Linux operating system.  A fork, util-linux-ng—with ng meaning "next generation"—was created when development stalled,
 It includes the following utilities:
 *addpart
 *agetty

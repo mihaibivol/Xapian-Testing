@@ -175,12 +175,12 @@ This is called a pessimistic estimator.
 
 == References ==
 
-* [tpl]Citation | title= Randomized rounding: A technique for provably good algorithms and algorithmic proofs| first1 = Prabhakar| last1 = Raghavan |authorlink1=Prabhakar Raghavan | first2=Clark D.|last2 =Tompson|journal=Combinatorica|volume=7|issue=4|year=1987|pages=365–374|doi=10.1007/BF02579324[/tpl].
-* [tpl]Citation | title= Probabilistic construction of deterministic algorithms: approximating packing integer programs | first = Prabhakar | last = Raghavan | authorlink=Prabhakar Raghavan | journal=Journal of Computer and System Sciences | volume=37|issue=2|pages=130–143|year = 1988 | doi = 10.1016/0022-0000(88)90003-7[/tpl].
+* .
+* .
 
 ==Further reading==
 
-* [tpl]citation|last=Althöfer|first=Ingo|title=On sparse approximations to randomized strategies and convex combinations|journal=Linear Algebra and its Applications|volume=199|year=1994|pages=339–355|mr=1274423|ref=harv|doi=10.1016/0024-3795(94)90357-3[/tpl]
-* [tpl]citation|last1=Hofmeister|first1=Thomas|last2=Lefmann|Hanno|title=Computing sparse approximations deterministically|journal=Linear Algebra and its Applications|volume=240|year=1996|pages=9–19|mr=1387283|ref=harv[/tpl]
-* [tpl]citation|last1=Lipton|first1=Richard J.|last2=Young|first2=Neal E.|chapter=Simple strategies for large zero-sum games with applications to complexity theory|title =STOC '94: Proceedings of the twenty-sixth annual ACM symposium on theory of computing|year=1994|isbn=0-89791-663-8|pages=734–740|location=Montreal, Quebec, Canada|doi=10.1145/195058.195447|publisher =ACM|address=New York, NY|ref=harv[/tpl]
+* 
+* 
+* 
 

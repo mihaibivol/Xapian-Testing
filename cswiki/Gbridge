@@ -3,7 +3,7 @@ Gbridge is an extension to Google's Gtalk network service. It automatically form
 
 == Features ==
 
-Gbridge has built in several features on top of VPN:[tpl]cite web | url = http://gbridge.com/ | title = Gbridge | accessdate = 2008-08-20[/tpl]
+Gbridge has built in several features on top of VPN:
 *  SecureShare: Share a file or folder on one of your computer, so you can access them from other computer. Or you can grant your friends' access to those files.
 *  AutoSync: Automatically synchronize folders between computers.
 *  LiveBrowse The remote shared folder can be browsed without having been synced. Gbridge automatically generates thumbnails and slideshow for picture files. Some types of media files, e.g. mp3, wma, flv, wmv, rm, midi, swf, can be played online.
@@ -15,19 +15,19 @@ Since Gbridge implements these features on top of its custom made VPN, it allows
 
 == Performance ==
 
-Gbridge claims to establish direct link between computers even if behind NAT by some forms of UDP hole punching.[tpl]cite web | url = http://www.gbridge.com/faq.php#r_na40 | title = Gbridge FAQ | accessdate = 2008-08-20[/tpl] But when the direct link is impossible, it would relay the encrypted data through gbridge server. That would have an impact on its network performance. It is also noticed that the AutoSync traffic are never relayed.
+Gbridge claims to establish direct link between computers even if behind NAT by some forms of UDP hole punching. But when the direct link is impossible, it would relay the encrypted data through gbridge server. That would have an impact on its network performance. It is also noticed that the AutoSync traffic are never relayed.
 The LiveBrowse feature works reasonably well for picture heavy folders and for mp3 online play over standard DSL. The flv online play is a little choppy sometimes because the bitrate of most flv files are very close to the uplink speed limit of a standard DSL (300kbit/s).
 
 == Security ==
 
-Gbridge requires you to provide your Google ID and password for authentication into Google network which could be a security concern for some people. Gbridge claims the Google ID/password will never be sent to Gbridge server, but only sent to Google Gtalk server in encrypted form.[tpl]cite web | url = http://www.gbridge.com/faq.php#sp20 | title = Gbridge FAQ | accessdate = 2008-08-21[/tpl] Gbridge suggests you to create a new Google ID/password that can be used exclusively for Gbridge if you have concern about it, but that new account would not have your existing Gtalk friends readily available.
+Gbridge requires you to provide your Google ID and password for authentication into Google network which could be a security concern for some people. Gbridge claims the Google ID/password will never be sent to Gbridge server, but only sent to Google Gtalk server in encrypted form. Gbridge suggests you to create a new Google ID/password that can be used exclusively for Gbridge if you have concern about it, but that new account would not have your existing Gtalk friends readily available.
 Gbridge claims all the data on the wire are AES encrypted.
 
 == Limitation ==
 
 Gbridge claims that there is no limitation of the number of shared folders, no limitation of the number of files within one shared folder. There is no maximum file size limitation either. Gbridge Gbridge 100% free VPN connection 100% free VPN connection with no limitation. 
 Currently Gbridge is only work for Windows platform. It is uncertain whether Linux support is planned for a future release.
-A compatibility issue was previously reported by some[tpl]by whom|date=November 2011[/tpl] who attempted installing the VPN driver on Windows 7 x64 OS. However, for Windows 7 Enterprise x64 OS, the VPN, file sharing, sync, remote desktop, and VNC all work fine.[tpl]citation needed|date=November 2011[/tpl]
+A compatibility issue was previously reported by some
 
 == User Interface ==
 

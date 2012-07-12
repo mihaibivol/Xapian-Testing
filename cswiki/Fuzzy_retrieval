@@ -5,7 +5,7 @@ Fuzzy retrieval techniques are based on the Extended Boolean model and the Fuzzy
 
 In fuzzy-set theory, an element has a varying degree of membership, say dA, to a given set A instead of the traditional membership choice (is an element/is not an element).
 
-In MMM[tpl]citation | last=Fox | first=E. A. | coauthors=S. Sharat | year=1986 | title=A Comparison of Two Methods for Soft Boolean Interpretation in Information Retrieval | publisher=Technical Report TR-86-1, Virginia Tech, Department of Computer Science[/tpl] each index term has a fuzzy set associated with it. A document's weight with respect to an index term A is considered to be the degree of membership of the document in the fuzzy set associated with A. The degree of membership for union and intersection are defined as follows in Fuzzy set theory:
+In MMM each index term has a fuzzy set associated with it. A document's weight with respect to an index term A is considered to be the degree of membership of the document in the fuzzy set associated with A. The degree of membership for union and intersection are defined as follows in Fuzzy set theory:
 
 According to this, documents that should be retrieved for a query of the form A or B, should be in the fuzzy set associated with the union of the two sets A and B. Similarly, the documents that should be retrieved for a query of the form A and B, should be in the fuzzy set associated with the intersection of the two sets. Hence, it is possible to define the similarity of a document to the or query to be max(dA, dB) and the similarity of the document to the and query to be min(dA, dB). The MMM model tries to soften the Boolean operators by considering the query-document similarity to be a linear combination of the min and max document weights.
 Given a document D with index-term weights dA1, dA2, ..., dAn for terms A1, A2, ..., An, and the queries:
@@ -17,11 +17,11 @@ SlM(Qor, D) = Cor1 * max(dA1, dA2, ..., dAn) + Cor2 * min(dA1, dA2, ..., dAn)
 
 SlM(Qand, D) = Cand1 * min(dA1, dA2, ..., dAn) + Cand2 * max(dA1, dA2 ..., dAn)
 where Cor1, Cor2 are "softness" coefficients for the or operator, and Cand1, Cand2 are softness coefficients for the and operator. Since we would like to give the maximum of the document weights more importance while considering an or query and the minimum more importance while considering an and query, generally we have Cor1 > Cor2 and Cand1 > Cand2. For simplicity it is generally assumed that Cor1 = 1 - Cor2 and Cand1 = 1 - Cand2.
-Lee and Fox[tpl]citation | last=Lee | first=W. C. | coauthors=E. A. Fox | year=1988 | title=Experimental Comparison of Schemes for Interpreting Boolean Queries[/tpl] experiments indicate that the best performance usually occurs with Cand1 in the range 0.8 and with Cor1 > 0.2. In general, the computational cost of MMM is low, and retrieval effectiveness is much better than with the Standard Boolean model.
+Lee and Fox experiments indicate that the best performance usually occurs with Cand1 in the range 0.8 and with Cor1 > 0.2. In general, the computational cost of MMM is low, and retrieval effectiveness is much better than with the Standard Boolean model.
 
 ==Paice model==
 
-The Paice model[tpl]citation | last=Paice | first=C. P. | year=1984 | title=Soft Evaluation of Boolean Search Queries in Information Retrieval Systems | publisher=Information Technology, Res. Dev. Applications, 3(1), 33-42 [/tpl] is a general extension to the MMM model. In comparison to the MMM model that considers only the minimum and maximum weights for the index terms, the Paice model incorporates all of the term weights when calculating the similarity:
+The Paice model is a general extension to the MMM model. In comparison to the MMM model that considers only the minimum and maximum weights for the index terms, the Paice model incorporates all of the term weights when calculating the similarity:
 where r is a constant coefficient and wdi is arranged in ascending order for and queries and descending order for or queries. When n = 2 the Paice model shows the same behavior as the MMM model.
 The experiments of Lee and Fox have shown that setting the r to 1.0 for and queries and 0.7 for or queries gives good retrieval effectiveness. The computational cost for this model is higher than that for the MMM model. This is because the MMM model only requires the determination of min or max of a set of term weights each time an and or or clause is considered, which can be done in O(n). The Paice model requires the term weights to be sorted in ascending or descending order, depending on whether an and clause or an or clause is being considered. This requires at least an 0(n log n) sorting algorithm. A good deal of floating point calculation is needed too.
 
@@ -32,11 +32,11 @@ These are very good improvements over the Standard model. MMM is very close to P
 
 ==Recent work==
 
-Recently Kang ''et al..[tpl]citation | title=Fuzzy Information Retrieval Indexed by Concept Identification | url=http://www.springerlink.com/content/ac96v4qf4f8adatp/ | last=Kang | first=Bo-Yeong | coauthors=Dae-Won Kim, Hae-Jung Kim | publisher=Springer Berlin / Heidelberg | year=2005[/tpl] have devised a fuzzy retrieval system indexed by concept identification.
+Recently Kang ''et al.. have devised a fuzzy retrieval system indexed by concept identification.
 If we look at documents on a pure Tf-idf approach, even eliminating stop words, there will be words more relevant to the topic of the document than others and they will have the same weight because they have the same term frequency. If we take into account the user intent on a query we can better weight the terms of a document. Each term can be identified as a concept in a certain lexical chain that translates the importance of that concept for that document.
 
 They report improvements over Paice and P-norm on the average precision and recall for the Top-5 retrieved documents.
-Zadrozny[tpl]citation | title=Fuzzy information retrieval model revisited | doi=10.1016/j.fss.2009.02.012 | first=Sławomir | last=Zadrozny | coauthors=Nowacka, Katarzyna | year=2009 | publisher=Elsevier North-Holland, Inc.[/tpl] revisited the fuzzy information retrieval model. He further extends the fuzzy extended Boolean model by:
+Zadrozny revisited the fuzzy information retrieval model. He further extends the fuzzy extended Boolean model by:
 * assuming linguistic terms as importance weights of keywords also in documents
 * taking into account the uncertainty concerning the representation of documents and queries
 * interpreting the linguistic terms in the representation of documents and queries as well as their matching in terms of the Zadeh’s fuzzy logic (calculus of linguistic statements)
@@ -49,7 +49,7 @@ The proposed model makes it possible to grasp both imprecision and uncertainty c
 
 ==Further reading==
 
-* [tpl]citation | title=Information Retrieval: Algorithms and Data structures; Extended Boolean model | last=Fox | first=E. | coauthors=S. Betrabet , M. Koushik , W. Lee | year=1992 | publisher=Prentice-Hall, Inc. | url=http://www.scribd.com/doc/13742235/Information-Retrieval-Data-Structures-Algorithms-William-B-Frakes[/tpl]
+* 
 
 ==References==
 

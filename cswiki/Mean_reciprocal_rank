@@ -1,5 +1,5 @@
 
-Mean reciprocal rank is a statistic for evaluating any process that produces a list of possible responses to a query, ordered by probability of correctness. The reciprocal rank of a query response is the multiplicative inverse of the rank of the first correct answer. The mean reciprocal rank is the average of the reciprocal ranks of results for a sample of queries Q[tpl]cite conference | title=Proceedings of the 8th Text Retrieval Conference | booktitle=TREC-8 Question Answering Track Report | author=E.M. Voorhees |year=1999 | pages=77–82[/tpl]:
+Mean reciprocal rank is a statistic for evaluating any process that produces a list of possible responses to a query, ordered by probability of correctness. The reciprocal rank of a query response is the multiplicative inverse of the rank of the first correct answer. The mean reciprocal rank is the average of the reciprocal ranks of results for a sample of queries Q:
 The reciprocal value of the mean reciprocal rank corresponds to the harmonic mean of the ranks.
 
 == Example ==
@@ -9,7 +9,7 @@ Given those three samples, we could calculate the mean reciprocal rank as (1/3 
 This basic definition does not specify what to do if...
 # none of the proposed results are correct (use mean reciprocal rank 0), or if
 # there are multiple correct answers in the list. Consider using mean average precision (MAP).
-See also Information retrieval and Question answering.[tpl]cite conference | title=Evaluating web-based question answering systems | booktitle=Proceedings of LREC | author=D. R. Radev, H. Qi, H. Wu, W. Fan |year=2002 [/tpl]
+See also Information retrieval and Question answering.
 
 ==References==
 

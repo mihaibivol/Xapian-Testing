@@ -18,7 +18,7 @@ The content based approach exploits semantic connections between documents and p
 
 ==Example: PubMed==
 
-The PubMed[ref][tpl]cite journal |author=Kim W, Aronson AR, Wilbur WJ |title=Automatic MeSH term assignment and quality assessment |journal=Proc AMIA Symp |pages=319–23 |year=2001 |pmid=11825203 |pmc=2243528 [/tpl]
+The PubMed[ref]
 [/ref] form interface features the "related articles" search which works through a comparison of words from the documents' title, abstract, and MeSH terms using a word-weighted algorithm. Computation
 
 == References ==

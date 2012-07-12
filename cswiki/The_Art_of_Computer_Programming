@@ -4,9 +4,9 @@ Knuth began the project, originally conceived as a single book with twelve chapt
 
 ==History==
 
-After winning a Westinghouse Talent Search scholarship, Knuth enrolled at the Case Institute of Technology (now Case Western Reserve University), where his performance was so outstanding that the faculty voted to award him a master of science upon his completion of the baccalaureate degree. During his summer vacations, Knuth was hired to write compilers, earning more in his summer months than did full professors all year.[tpl]citation needed|date=June 2012[/tpl] Such exploits made Knuth a topic of discussion among the mathematics department, which included Richard S. Varga.
+After winning a Westinghouse Talent Search scholarship, Knuth enrolled at the Case Institute of Technology (now Case Western Reserve University), where his performance was so outstanding that the faculty voted to award him a master of science upon his completion of the baccalaureate degree. During his summer vacations, Knuth was hired to write compilers, earning more in his summer months than did full professors all year. Such exploits made Knuth a topic of discussion among the mathematics department, which included Richard S. Varga.
 Knuth started to write a book about compiler design in 1962, and soon realized that the scope of the book needed to be much larger.  In June 1965, Knuth finished the first draft of what was originally planned to be a single volume of twelve chapters. His hand-written first-draft manuscript (completed in 1966) was 3,000 pages long: he had assumed that about five hand-written pages would translate into one printed page, but his publisher said instead that about 1½ hand-written pages translated to one printed page. This meant the book would be approximately 2,000 pages in length. The publisher was nervous about accepting such a project from a graduate student. At this point, Knuth received support from Richard S. Varga, who was the scientific advisor to the publisher. Varga was visiting Olga Taussky-Todd and John Todd at Caltech. With Varga's enthusiastic endorsement, the publisher accepted Knuth's expanded plans. In its expanded version, the book would be published in seven volumes, each with just one or two chapters.[ref]
-[tpl]Cite book | chapter = Donald Knuth | author = Donald J. Albers | title = Mathematical People: Profiles and Interviews | publisher = A K Peters | edition = 2 | year = 2008 | isbn = 1-56881-340-6 | editors =  Donald J. Albers, Gerald L. Alexanderson | postscript = [tpl]inconsistent citations[/tpl] [/tpl]
+
 [/ref] Due to the growth in the material, the plan for Volume 4 has since expanded to include Volumes 4A, 4B, 4C, and possibly more.
 In 1976, Knuth prepared a second edition of Volume 2, requiring it to be typeset again, but the style of type used in the first edition (called hot type) was no longer available.  In 1977, he decided to spend a few months working up something more suitable.  Eight years later, he returned with TeX, which is currently used for all volumes.
 The famous offer of a reward check worth "one hexadecimal dollar" (100HEX base 16 cents, in decimal, is $2.56) for any errors found, and the correction of these errors in subsequent printings, has contributed to the highly polished and still-authoritative nature of the work, long after its first publication. Another characteristic of the volumes is the variation in the difficulty of the exercises. The level of difficulty ranges from "warm-up" exercises to unsolved research problems, providing a challenge for any reader. Knuth's dedication is also famous:
@@ -18,7 +18,7 @@ Some readers are put off by the use of assembly language, but Knuth considers th
 
 ==Critical response==
 
-American Scientist has included this work among “100 or so Books that shaped a Century of Science”, referring to the 20th century,[tpl]Cite journal |first= Philip |last=Morrison |authorlink=Philip Morrison|first2=Phylis |last2=Morrison |url=http://www.americanscientist.org/bookshelf/pub/100-or-so-books-that-shaped-a-century-of-science|title=100 or so Books that shaped a Century of Science |volume=87 |issue=6 |journal=American Scientist |year=1999 |month=November–December |publisher=Sigma Xi, The Scientific Research Society |accessdate=2008-01-11 |postscript=  [/tpl] and within the computer science community it is regarded as the first and still the best comprehensive treatment of its subject. Covers of the third edition of Volume 1 quote Bill Gates as saying, “If you think you're a really good programmer… read (Knuth's) Art of Computer Programming… You should definitely send me a résumé if you can read the whole thing." 
+American Scientist has included this work among “100 or so Books that shaped a Century of Science”, referring to the 20th century, and within the computer science community it is regarded as the first and still the best comprehensive treatment of its subject. Covers of the third edition of Volume 1 quote Bill Gates as saying, “If you think you're a really good programmer… read (Knuth's) Art of Computer Programming… You should definitely send me a résumé if you can read the whole thing." 
  ''[[The New York Times]]'' referred to it as “the profession's defining treatise”.<ref name="lohr">
 [/ref]
 
@@ -205,8 +205,8 @@ American Scientist has included this work among “100 or so Books that shaped a
 **Chapter 7 – Combinatorial Searching (cont'd)
 ***7.2. Generating all possibilities (cont'd)
 ****7.2.2. Basic backtrack
-*****7.2.2.1. Dancing links[tpl]Citation needed|date=April 2012[/tpl]
-*****7.2.2.2. Satisfiability[tpl]Citation needed|date=April 2012[/tpl]
+*****7.2.2.1. Dancing links
+*****7.2.2.2. Satisfiability
 ****7.2.3. Efficient backtracking
 ***7.3. Shortest paths
 ***7.4. Graph algorithms
@@ -229,7 +229,7 @@ American Scientist has included this work among “100 or so Books that shaped a
 ***7.9. Herculean tasks (aka NP-hard problems)
 ***7.10. Near-optimization
 **Chapter 8 – Recursion
-*Volume 5 – Syntactic Algorithms ([tpl]as of|2011|lc=on[/tpl], estimated in 2020)
+*Volume 5 – Syntactic Algorithms (, estimated in 2020)
 **Chapter 9 – Lexical scanning (includes also string search and data compression)
 **Chapter 10 – Parsing techniques
 
@@ -258,7 +258,7 @@ These volumes were superseded by newer editions and are in order by date.
 
 ====Fascicles====
 
-Volume 4[tpl]'s[/tpl] fascicles 0–4 were revised and published as Volume 4A.
+Volume 4 fascicles 0–4 were revised and published as Volume 4A.
 *Volume 4, Fascicle 0: Introduction to combinatorial algorithms and Boolean functions, (Addison-Wesley Professional, April 28, 2008) vi+240pp, ISBN 0-321-53496-4
 *Volume 4, Fascicle 1: Bitwise tricks & techniques;  Binary decision diagrams (Addison-Wesley Professional, March 27, 2009) viii+260pp, ISBN 0-321-58050-8
 *Volume 4, Fascicle 2: Generating All tuples and permutations, (Addison-Wesley, February 14, 2005) v+127pp, ISBN 0-201-85393-0
@@ -275,8 +275,8 @@ Volume 4[tpl]'s[/tpl] fascicles 0–4 were revised and published as Volume 4A.
 
 ==References==
 
-* [tpl]cite book |title=Portraits in Silicon |first=Robert |last=Slater |year=1987 |publisher=MIT Press |isbn=0-262-19262-4 [/tpl]
-* [tpl]cite book |title=Out of Their Minds: The Lives and Discoveries of 15 Great Computer Scientists |first=Dennis |last=Shasha |coauthors=Cathy Lazere |year=1995 |publisher=Copernicus |isbn=0-387-97992-1 [/tpl]
+* 
+* 
 
 ==External links==
 

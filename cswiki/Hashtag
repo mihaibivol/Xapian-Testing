@@ -5,9 +5,9 @@ Searching for the string #Wikipedia will cause this word to appear in the search
 
 ==Origin==
 
-Hashtags first appeared and were used within IRC networks to label groups and topics. They are also used to mark individual messages as relevant to a particular group, and to mark individual messages as belonging to a particular topic or "channel".https://en.wikipedia.org/w/index.php?title=Hashtag&action=submit Generally channels / topics, that are available across an entire IRC network, are prepended with a hash symbol '#' (as opposed to those local to a server use an ampersand '&'). Hashtags' popularity grew concurrently with the rise and popularity of Twitter. It inspired Chris Messina to propose a similar system to be used on Twitter to tag topics of interest on the microblogging network. [tpl]cite news | url=http://www.nytimes.com/2011/06/12/fashion/hashtags-a-new-way-for-tweets-cultural-studies.html?_r=1&pagewanted=all | title=Twitter’s Secret Handshake | work=The New York Times | date=June 10, 2011 | accessdate=July 26, 2011 | author=Parker, Ashley[/tpl] He posted the alleged first post on Twitter to include what would become the "hashtag": 
-[tpl]cquote |1=how do you feel about using # (pound) for groups. As in  #barcamp msg? |author = Chris Messina |source = ("factoryjoe"), August 23, 2007[tpl]cite web|url = https://twitter.com/#!/factoryjoe/statuses/223115412|title = Twitter post|author = Chris Messina ("factoryjoe")|date = August 23, 2007 3:25 PM[/tpl] |width  = 50% |align  = center [/tpl]
-The first high-profile application of the hashtag was by San Diego, California resident Nate Ritter,[tpl]cite web|url = http://blog.perfectspace.com/2007/10/23/helping-people-everywhere-through-the-san-diego-fires/ | title=Helping People Everywhere Through the San Diego Fires | author=Nate Ritter|date = October 23, 2007[/tpl] who included #sandiegofire in his frequent posts on the October 2007 California wildfires hitting San Diego County. Internationally, the hashtag became a practice of writing style for Twitter posts during the 2009–2010 Iranian election protests, as both English and Farsi-language hashtags became useful for Twitter users inside and outside of Iran.
+Hashtags first appeared and were used within IRC networks to label groups and topics. They are also used to mark individual messages as relevant to a particular group, and to mark individual messages as belonging to a particular topic or "channel".https://en.wikipedia.org/w/index.php?title=Hashtag&action=submit Generally channels / topics, that are available across an entire IRC network, are prepended with a hash symbol '#' (as opposed to those local to a server use an ampersand '&'). Hashtags' popularity grew concurrently with the rise and popularity of Twitter. It inspired Chris Messina to propose a similar system to be used on Twitter to tag topics of interest on the microblogging network.  He posted the alleged first post on Twitter to include what would become the "hashtag": 
+
+The first high-profile application of the hashtag was by San Diego, California resident Nate Ritter, who included #sandiegofire in his frequent posts on the October 2007 California wildfires hitting San Diego County. Internationally, the hashtag became a practice of writing style for Twitter posts during the 2009–2010 Iranian election protests, as both English and Farsi-language hashtags became useful for Twitter users inside and outside of Iran.
 Beginning July 1, 2009, Twitter began to hyperlink all hashtags to search results containing all recent posts mentioning either the hashtag or the standard spelling of such words, provided that such words are written in the same order of characters. This was accentuated in 2010 with the introduction of "Trending Topics" on the Twitter front page, as highly-trafficked hashtags are featured as Trending Topics.
 
 ==Function==
@@ -18,14 +18,14 @@ Hashtags also function as beacons in order for users to find and "follow" (subsc
 
 ==Use outside of social networking websites==
 
-The feature has been added to other, non-short-message-oriented services, such as the user comment systems on YouTube and Gawker Media; in the case of the latter, hashtags for blog comments and directly-submitted comments are used to maintain a more constant rate of user activity even when paid employees are not logged into the website.[tpl]cite web|url = http://gawker.com/5382267/anarchy-in-the-machine-welcome-to-gawkers-open-forums|title = Anarchy in the Machine: Welcome to Gawker's Open Forums|author = Gabriel Snyder|publisher = Gawker|date = Oct 15, 2009[/tpl][tpl]Cite web|url = http://www.niemanlab.org/2009/10/got-a-tip-gawker-media-opens-tag-pages-to-masses-expecting-chaos/|title = Got a #tip? Gawker Media opens tag pages to masses, expecting "chaos"|author = Zachary M. Seward|publisher = Nieman Journalism Lab|date = Oct. 15, 2009 / 8 a.m.[/tpl] Real-time search aggregators such as the former Google Real-Time Search also support hashtags in syndicated posts, meaning that hashtags inserted into Twitter posts can be hyperlinked to incoming posts falling under that same hashtag; this has further enabled a view of the "river" of Twitter posts which can result from search terms or hashtags.
+The feature has been added to other, non-short-message-oriented services, such as the user comment systems on YouTube and Gawker Media; in the case of the latter, hashtags for blog comments and directly-submitted comments are used to maintain a more constant rate of user activity even when paid employees are not logged into the website. Real-time search aggregators such as the former Google Real-Time Search also support hashtags in syndicated posts, meaning that hashtags inserted into Twitter posts can be hyperlinked to incoming posts falling under that same hashtag; this has further enabled a view of the "river" of Twitter posts which can result from search terms or hashtags.
 
 ===Websites that support hashtags===
 
 * Diaspora software and social network
 * All Gawker Media websites
 * Google+
-* Orkut[tpl]cite web|url = http://en.blog.orkut.com/2012/02/hashtags-in-orkut-communities.html|title = Hashtags in Orkut communities|date = Monday, February 06, 2012, 6:11 PM|publisher = Orkut|author = Marco Wisniewski[/tpl]
+* Orkut
 * Tumblr
 * Twitter (since 2009)
 * YouTube (2009–2011)
@@ -38,7 +38,7 @@ The feature has been added to other, non-short-message-oriented services, such a
 
 ===Memes===
 
-One phenomenon specific to the Twitter system are micro-memes, which are emergent topics for which a hashtag is created, used widely for a few days, then disappears.[tpl]cite conference | author = Jeff Huang, Katherine M. Thornton, Efthimis N. Efthimiadis | year = 2010 | title = Conversational Tagging in Twitter | booktitle = Proceedings of the 21st ACM Conference on Hypertext and Hypermedia (HT '10) | url =http://jeffhuang.com/Final_TwitterTagging_HT10.pdf [/tpl] These hashtags also show up in a number of trending topics websites, including Twitter's own front page. 
+One phenomenon specific to the Twitter system are micro-memes, which are emergent topics for which a hashtag is created, used widely for a few days, then disappears. These hashtags also show up in a number of trending topics websites, including Twitter's own front page. 
 Definitions for some hashtags are available at hashtag.org. Other sites, such as Hashable, have adopted the hashtag to use for other reasons.
 
 ===Promotion===
@@ -58,7 +58,7 @@ Political protests and campaigns in the early 2010s, such as #OccupyWallStreet a
 
 ====Consumer complaints====
 
-Hashtags are often used by consumers on social media platforms in order to complain about the customer service experience with large companies.  The term "bashtag" has been created to describe situations in which a corporate social media hashtag is used to criticise the company or to tell other about poor customer service. For example, in January of 2012, McDonald's created the #McDStories hashtag so customers could share positive experiences about the restaurant chain. The marketing effort was cancelled after just two hours when McDonald's received numerous complaint tweets rather than the positive stories they were expecting. [tpl]cite news | first = Alexis | last = Akwagyiram | title = Are Twitter and Facebook changing the way we complain? | date = 17 May 2012 | url = http://www.bbc.co.uk/news/uk-18081651 | work = BBC News | accessdate = 2012-06-12[/tpl]
+Hashtags are often used by consumers on social media platforms in order to complain about the customer service experience with large companies.  The term "bashtag" has been created to describe situations in which a corporate social media hashtag is used to criticise the company or to tell other about poor customer service. For example, in January of 2012, McDonald's created the #McDStories hashtag so customers could share positive experiences about the restaurant chain. The marketing effort was cancelled after just two hours when McDonald's received numerous complaint tweets rather than the positive stories they were expecting. 
 
 ===Expression===
 

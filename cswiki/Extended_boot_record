@@ -11,7 +11,7 @@ EBRs have essentially the same structure as the MBR; except only the first two e
 The IBM Boot Manager (included with OS/2 operating systems and some early versions of Partition Magic), adds at least one 9-byte entry (starting at offset 0x18A) to each EBR sector. The entry consists of a flag value byte (indicating if the partition is on the IBM Boot Manager menu) followed by an 8-byte ASCII string which is the name to be used on the menu. If the partition is not included on the boot menu (such as data only partitions), the flag byte is zero; in which case, the following 8-byte field may contain an ASCII representation of that partition's starting sector number (in hexadecimal).
 The partition type of an extended partition is 0x05 (CHS addressing) or 0x0F (LBA addressing). Linux supports the concept of a second extended partition chain with type 0x85 — this type is hidden (unknown) for other operating systems supporting only one chain.
 The CHS addresses of a partition are hard to interpret without knowledge of the (virtual) disk geometry, because CHS to LBA translations are based on the number of heads and the number of sectors per track. However, the given LBA start address and the given partition size in sectors permit to calculate a disk geometry matching the given CHS addresses where that is at all possible. CHS addressing with 24 bits always uses 6 bits for up to 63 sectors per track (1…63), and INT 13h disk access generally uses 8 bits for up to 256 heads (0…255), leaving 10 bits for up to 1024 cylinders (0…1023). ATA CHS addresses always use 4 bits for up to 16 heads (0…15), this leaves 14 bits for up to 16383 cylinders (16383+1=2**14) in ATA-5 24 bits CHS address translations. 
-:[tpl]see|cylinder-head-sector[/tpl]
+:
 
 === Values ===
 
@@ -33,7 +33,7 @@ Also, on some systems, a large gap of unused space may exist between the end of 
 
 Linux and similar operating systems designate IDE hard disks as /dev/hda for the first hard disk, /dev/hdb for the second hard disk, and so on. Likewise SCSI hard disks are identified as /dev/sda for the first SCSI disk, etc. 
 The up to four partitions defined in the master boot record are designated as /dev/hda1 … /dev/hda4 for /dev/hda. The fifth partition in this scheme, e.g., /dev/hda5, corresponds to the first logical drive. The sixth partition /dev/hda6 would then correspond to the second logical drive, or in other words, the extended partition containers are not counted. Only the outermost extended partition defined in the MBR (one of /dev/hda1 … /dev/hda4) has a name in this scheme.
-:[tpl]see|Device_file#Naming_conventions[/tpl]
+:
 
 == Examples ==
 

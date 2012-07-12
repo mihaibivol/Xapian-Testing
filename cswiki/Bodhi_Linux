@@ -1,10 +1,10 @@
 
-Bodhi Linux is a lightweight Linux distribution based on Ubuntu, that uses the Enlightenment window manager.[tpl]cite web |url=http://www.techdrivein.com/2011/01/bodhi-linux-review-incredibly-good.html |author=Manuel Jose |publisher=Tech Drive-in |title=Bodhi Linux Review |accessdate=2011-05-06[/tpl] The philosophy for the distribution is to provide a minimal base system so that users can populate it with the software they want. Thus, by default it only includes software that is essential to most Linux users, including a file browser, a web browser and a terminal emulator. It does not include software or features that its developers deem as unnecessary. To make populating systems with software easy, Bodhi Linux developers maintain an online database of lightweight software that can be installed in one click via apturl.
-In addition to the standard version of Bodhi Linux, which is for Intel-compatible processors, there is an alpha release version for tablet devices with ARM processors, based on Debian. [tpl]cite web |url=http://distrowatch.com/weekly.php?issue=20110704 |publisher=distrowatch.com |author=Jesse Smith |title=DistroWatch Weekly |accessdate=2011-07-05[/tpl]
+Bodhi Linux is a lightweight Linux distribution based on Ubuntu, that uses the Enlightenment window manager. The philosophy for the distribution is to provide a minimal base system so that users can populate it with the software they want. Thus, by default it only includes software that is essential to most Linux users, including a file browser, a web browser and a terminal emulator. It does not include software or features that its developers deem as unnecessary. To make populating systems with software easy, Bodhi Linux developers maintain an online database of lightweight software that can be installed in one click via apturl.
+In addition to the standard version of Bodhi Linux, which is for Intel-compatible processors, there is an alpha release version for tablet devices with ARM processors, based on Debian. 
 
 == Performance ==
 
-System requirements include 128 MB RAM, 1.5 GB hard disk space, and a 300 MHz processor.[tpl]cite web |url=http://desktoplinuxreviews.com/2011/04/14/bodhi-1-0/2/ |publisher=desktoplinuxreviews.com |author=Jim Lynch |title=Bodhi Linux 1.0 |accessdate=2011-05-06[/tpl] By using Enlightenment DR17, Bodhi provides rich desktop effects and animations that do not require high end computer hardware.[tpl]cite web |url=http://www.omgubuntu.co.uk/2010/11/bodhi-linux-review/ |publisher=OMG! Ubuntu! |author=Joey Sneddon |title=Bodhi Linux may just be your favorite new lightweight distro |accessdate=2011-05-06[/tpl] An independent test showed that GIMP started up in 4.7 seconds on Bodhi Linux and 11.1 seconds on Ubuntu.[tpl]cite web |url=http://www.techrepublic.com/blog/opensource/bodhi-linux-e17-and-ubuntu-make-a-great-combination/2339 |publisher=Techrepublic |author=Jack Wallen |title=Bodhi Linux: E17 and Ubuntu make a great combination  |accessdate=2011-05-12[/tpl] The Enlightenment window manager, as well as the tools developed specifically for Bodhi Linux, were written in the C programming language.[tpl]cite web |url=http://www.techrepublic.com/blog/opensource/bodhi-linux-interview-with-jeff-hoogland/2354 |publisher=Techrepublic |author=Jack Wallen |title=Bodhi Linux: Interview with Jeff Hoogland |accessdate=2011-05-12[/tpl]
+System requirements include 128 MB RAM, 1.5 GB hard disk space, and a 300 MHz processor.
 
 ==See also==
 
@@ -19,5 +19,5 @@ System requirements include 128 MB RAM, 1.5 GB hard disk space, and a 300 MHz
 
 == External links ==
 
-* [tpl]Official website|http://bodhilinux.com/ [/tpl]
+* 
 

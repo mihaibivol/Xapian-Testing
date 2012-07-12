@@ -1,14 +1,14 @@
 
-The Open Mashup Alliance (OMA) is a non-profit consortium that promotes the adoption of mashup solutions in the enterprise through the evolution of enterprise mashup standards like  EMML.[tpl]cite web|title=Open Mashup Alliance FAQs |url=http://www.openmashup.org/faq[/tpl]  Enterprise mashup usage is expected to grow tenfold in the next five years.[tpl]when|see WP:RELTIME|date=December 2011[/tpl][tpl]cite web|title=Enterprise mashup market to increase tenfold over next five years |url=http://blogs.zdnet.com/service-oriented/?p=2942[/tpl] The initial members of the OMA include some large technology companies such as Adobe Systems, Hewlett-Packard, and Intel, and some major technology users such as Bank of America and Capgemini.
-According to information technology industry analyst Dion Hinchcliffe,[tpl]cite web|title=Creating a unified model for enterprise mashups |url=http://blogs.zdnet.com/Hinchcliffe/?p=872[/tpl] "Ultimately, the OMA creates a standardized approach to enterprise mashups that creates an open and vibrant market for competing runtimes, mashups, and an array of important aftermarket services such as development/testing tools, management and administration appliances, governance frameworks, education, professional services, and so on."
+The Open Mashup Alliance (OMA) is a non-profit consortium that promotes the adoption of mashup solutions in the enterprise through the evolution of enterprise mashup standards like  EMML. The initial members of the OMA include some large technology companies such as Adobe Systems, Hewlett-Packard, and Intel, and some major technology users such as Bank of America and Capgemini.
+According to information technology industry analyst Dion Hinchcliffe, "Ultimately, the OMA creates a standardized approach to enterprise mashups that creates an open and vibrant market for competing runtimes, mashups, and an array of important aftermarket services such as development/testing tools, management and administration appliances, governance frameworks, education, professional services, and so on."
 
 ==Specification development==
 
 The initial focus of the OMA is developing EMML, which is a declarative mashup domain-specific language (DSL) aimed at creating enterprise mashups.
 The EMML language provides a comprehensive set of high-level mashup-domain vocabulary to consume and mash variety of Web data-sources in diverse ways. EMML provides a uniform syntax to invoke heterogeneous service styles: REST, WSDL, RSS/ATOM, RDBMS, and POJO. EMML also provides ability to mix and match diverse data-formats: XML, JSON, JDBC, JavaObjects, and primitive types.
-The OMA Web site provides the EMML specification,[tpl]cite web | title = OMA Download Agreement Page | url = http://www.openmashup.org/download/agreement.html[/tpl] the EMML schema,[tpl]cite web | title = EMML Schema | url = http://www.openmashup.org/schemas/v1.0/EMMLSpec.xsd[/tpl] a reference runtime implementation capable of running EMML scripts, sample EMML mashup scripts, and technical documentation.[tpl]cite web | title = EMML Technical Documentation | url = http://www.openmashup.org/omadocs/v1.0/index.html[/tpl]
-The OMA is developing EMML under a Creative Commons Attribution No Derivatives license.[tpl]cite web | title = OMA FAQs | url = http://www.openmashup.org/faq/#3[/tpl]  The license means that EMML users are allowed copy and distribute EMML. However, EMML can not be altered by users and the ownership of EMML by the OMA must be made clear in any redistribution.[tpl]cite web | title = Creative Commons Attribution No Derivatives License Overview | url = http://creativecommons.org/licenses/by-nd/3.0/[/tpl]
-The eventual objective of the OMA is to submit the EMML specification and any other OMA specifications to a recognized industry standards body.[tpl]cite web | title = Enterprise mashup proponents start organizing | url = http://blogs.zdnet.com/service-oriented/?p=2972[/tpl]
+The OMA Web site provides the EMML specification,
+The OMA is developing EMML under a Creative Commons Attribution No Derivatives license.
+The eventual objective of the OMA is to submit the EMML specification and any other OMA specifications to a recognized industry standards body.
 
 ==See also==
 
@@ -51,6 +51,6 @@ The eventual objective of the OMA is to submit the EMML specification and any ot
 *EMML reference runtime implementation download
 *EMML Documentation
 *Open Mashup Alliance Interest Group
-*[tpl]Twitter|openmashup|Open Mashup Alliance[/tpl]
+*
 *EMML resources on ZDNet
 

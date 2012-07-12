@@ -1,5 +1,5 @@
 
-XPS Annotator is document management software for Microsoft Windows that allows users to view, annotate, convert, sign and print XPS documents.[tpl]cite web |url=http://download.cnet.com/XPS-Annotator/3000-10743_4-10912169.html |title=XPS Annotator - Free software downloads and software reviews |work=Download.com |publisher=CNET |accessdate=12 November 2010[/tpl][tpl]cite web |url=http://www.xpsdev.com/xps-annotator |title=XPS Annotator |publisher=xpsdev.com |accessdate=14 January 2010[/tpl] Software was first released in 12 March 2009 (version 1.0).[tpl]cite web |url=http://www.xpsdev.com/xps-annotator-changelog |title=XPS Annotator Changelog |publisher=xpsdev.com |accessdate=14 January 2010[/tpl] It is created by Danang Probo Sayekti[tpl]cite web |url=http://download.cnet.com/windows/danang-probo-sayekti/3260-20_4-6314175.html |title=Danang Probo Sayekti - Software Publisher Profile |work=Download.com |publisher=CNET |accessdate=14 January 2010[/tpl] of Indonesia, Magelang.
+XPS Annotator is document management software for Microsoft Windows that allows users to view, annotate, convert, sign and print XPS documents. of Indonesia, Magelang.
 
 ==Features==
 
@@ -7,24 +7,24 @@ In earlier versions, the installer using the Windows Installer, and from version
 
 ===Annotating XPSs===
 
-XPS Annotator has the ability to add annotations to the Open XML Paper Specification (XPS) documents. Like PDF document, the XPS document also supports the annotation feature.[tpl]cite web |url=http://blogs.msdn.com/xps/archive/2006/02/24/538384.aspx |title=XPS Team Blog - XML Paper Specification and the Open Packaging Conventions |work=Microsoft Developer Network blog |publisher=Microsoft Corporation |date=24 February 2006 |accessdate=14 January 2010[/tpl] However, annotations features found on the XPS document is still limited. The XPS annotations itself can include many types of content such as typed text, handwritten notes, or Web links.
+XPS Annotator has the ability to add annotations to the Open XML Paper Specification (XPS) documents. Like PDF document, the XPS document also supports the annotation feature. However, annotations features found on the XPS document is still limited. The XPS annotations itself can include many types of content such as typed text, handwritten notes, or Web links.
 There are three options users can add: highlight annotations, text annotations and ink annotations.
 * Highlight annotations: allows user to highlighting lines of text or paragraphs.
 * Text annotations and ink annotations: user can adding text notes or ink notes.
 
 ===Signing XPSs===
 
-XPS Annotator also support digital signatures.[tpl]cite web |url=http://www.softpedia.com/get/Office-tools/Other-Office-Tools/XPS-Annotator.shtml |title=Download XPS Annotator 1.22 |work=Softpedia.com |publisher=Softpedia |accessdate=24 February 2010[/tpl] User can digitally signed or encrypted the XPS document for security or authentication, and the supported security certificate is X.509.
+XPS Annotator also support digital signatures. User can digitally signed or encrypted the XPS document for security or authentication, and the supported security certificate is X.509.
 
 ===Converting XPSs===
 
-The existence of the converter to convert XPS documents to image files. XPS Annotator currently supports conversion of XPS documents into several popular image formats including PNG, JPEG, BMP, GIF and TIFF.[tpl]cite web |url=http://www.softpedia.com/progChangelog/XPS-Annotator-Changelog-123294.html |title=XPS Annotator Changelog - Softpedia |work=Softpedia.com |publisher=Softpedia |accessdate=16 January 2010[/tpl]
+The existence of the converter to convert XPS documents to image files. XPS Annotator currently supports conversion of XPS documents into several popular image formats including PNG, JPEG, BMP, GIF and TIFF.
 
 ===Other features===
 
 * Ability to print the annotations.
 * Can adding document properties.
-* Hyperlink support.[tpl]cite web |url=http://www.xpsdev.com/xps-annotator-changelog |title=XPS Annotator Changelog |publisher=xpsdev.com |accessdate=24 February 2010[/tpl]
+* Hyperlink support.
 * Support general operations such as print, save, zoom, text search, copy and paste.
 
 ===Critical reception===

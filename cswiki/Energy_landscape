@@ -2,7 +2,7 @@
 In physics, an energy landscape is a mapping of all possible conformations of a molecular entity, or the spatial positions of interacting molecules in a system, and their corresponding energy levels, typically Gibbs free energy, on a two- or three-dimensional Cartesian coordinate system.  
 In mathematical terms, an energy landscape can be defined as a pair (X, f) consisting of a topological space X representing the physical states or parameters of a system together with a continuous function  f:  X → R representing the energies associated to these states or parameters such that the image of f represents a hypersurface in Rn.
 The term is useful when examining protein folding; while a protein can theoretically exist in a nearly infinite number of conformations along its energy landscape, in reality proteins fold (or "relax") into secondary and tertiary structures that possess the lowest possible free energy.  The key concept in the energy landscape approach to protein folding is the folding funnel hypothesis.
-In glassing models, the local minima of an energy landscape correspond to metastable low temperature states of a thermodynamic system.[tpl]cite book |last=Wales |first=David J. |title=Energy Landscapes |publisher=Cambridge University Press |year=2003 |page=68 |isbn=0-521-81415-4 |url=http://books.google.com/books?id=YQrB6s3LALEC [/tpl]
+In glassing models, the local minima of an energy landscape correspond to metastable low temperature states of a thermodynamic system.
 
 ==References==
 

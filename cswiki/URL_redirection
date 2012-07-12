@@ -41,12 +41,12 @@ Post/Redirect/Get (PRG) is a web development design pattern that prevents some d
 === Manipulating search engines ===
 
 Some years ago, redirect techniques were used to fool search engines.  For example, one page could show popular search terms to search engines but redirect the visitors to a different target page.  There are also cases where redirects have been used to "steal" the page rank of one popular page and use it for a different page, usually involving the 302 HTTP status code of "moved temporarily."Google's serious hijack problemStop 302 Redirects and Scrapers from Hijacking Web Page PR - Page Rank
-Search engine providers noticed the problem and took appropriate actions [tpl]Citation needed|date=August 2009[/tpl].  Usually, sites that employ such techniques to manipulate search engines are punished automatically by reducing their ranking or by excluding them from the search index.
+Search engine providers noticed the problem and took appropriate actions .  Usually, sites that employ such techniques to manipulate search engines are punished automatically by reducing their ranking or by excluding them from the search index.
 As a result, today, such manipulations usually result in less rather than more site exposure.
 
 === Manipulating visitors ===
 
-URL redirection is sometimes used as a part of phishing attacks that confuse visitors about which web site they are visiting [tpl]Citation needed|date=January 2010[/tpl]. Because modern browsers always show the real URL in the address bar, the threat is lessened. However, redirects can also take you to sites that will otherwise attempt to attack in other ways. For example, a redirect might take a user to a site that would attempt to trick them into downloading antivirus software and ironically installing a trojan of some sort instead.
+URL redirection is sometimes used as a part of phishing attacks that confuse visitors about which web site they are visiting . Because modern browsers always show the real URL in the address bar, the threat is lessened. However, redirects can also take you to sites that will otherwise attempt to attack in other ways. For example, a redirect might take a user to a site that would attempt to trick them into downloading antivirus software and ironically installing a trojan of some sort instead.
 
 === Removing referer information ===
 
@@ -147,7 +147,7 @@ A major drawback of some URL redirection services is the use of delay pages, or 
 
 ==== History ====
 
-The first redirect services took advantage of top-level domains (TLD) such as ".to" (Tonga), ".at" (Austria) and ".is" (Iceland). Their goal was to make memorable URLs. The first mainstream redirect service was V3.com that boasted 4 million users at its peak in 2000.  V3.com success was attributed to having a wide variety of short memorable domains including "r.im", "go.to", "i.am", "come.to" and "start.at".  V3.com was acquired by FortuneCity.com, a large free web hosting company, in early 1999.  In 2001 emerged .tk (Tokelau) as a TLD used for memorable names.[tpl]cite news| url=http://news.bbc.co.uk/2/hi/technology/6991719.stm | work=BBC News | title=Net gains for tiny Pacific nation | date=2007-09-14 | accessdate=2010-05-27[/tpl] As the sales price of top level domains started falling from $70.00 per year to less than $10.00, use of redirection services declined.
+The first redirect services took advantage of top-level domains (TLD) such as ".to" (Tonga), ".at" (Austria) and ".is" (Iceland). Their goal was to make memorable URLs. The first mainstream redirect service was V3.com that boasted 4 million users at its peak in 2000.  V3.com success was attributed to having a wide variety of short memorable domains including "r.im", "go.to", "i.am", "come.to" and "start.at".  V3.com was acquired by FortuneCity.com, a large free web hosting company, in early 1999.  In 2001 emerged .tk (Tokelau) as a TLD used for memorable names. As the sales price of top level domains started falling from $70.00 per year to less than $10.00, use of redirection services declined.
 With the launch of TinyURL in 2002 a new kind of redirecting service was born, namely URL shortening. Their goal was to make long URLs short, to be able to post them on internet forums. Since 2006, with the 140 character limit on the extremely popular Twitter service, these short URL services have been heavily used.
 
 === Referrer Masking ===

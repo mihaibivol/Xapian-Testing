@@ -9,10 +9,10 @@ These constraints may mean that an algorithm produces an approximate answer base
 ==History==
 
 Though streaming algorithms had already been studied by Munro and
-Paterson[tpl]Harvtxt|Munro|Paterson|1980[/tpl] as well as Flajolet and
-Martin,[tpl]Harvtxt|Flajolet|Martin|1985[/tpl] the field of streaming
+Paterson as well as Flajolet and
+Martin, the field of streaming
 algorithms was first formalized and popularized in a paper by Noga Alon,
-Yossi Matias, and Mario Szegedy.[tpl]Harvtxt|Alon|Matias|Szegedy|1996[/tpl] 
+Yossi Matias, and Mario Szegedy. 
 For this paper, the authors later won the Gödel Prize in 2005 "for their foundational
 contribution to streaming algorithms." There has since been a large body
 of work centered around data streaming algorithms that spans a diverse
@@ -29,7 +29,7 @@ Much of the streaming literature is concerned with computing statistics on
 frequency distributions that are too large to be stored. For this class of
 presented to it in a stream. The goal of these algorithms is to compute
 common models for updating such streams, called the "cash register" and
-"turnstile" models.name="turnstile">[tpl]harvtxt|Gilbert|Kotidis|Muthukrishnan|Strauss|2001[/tpl][/ref]
+"turnstile" models.name="turnstile">[/ref]
 (only unit insertions are permitted).
 Several papers also consider the "sliding window" model. In this model,
 the function of interest is computing over a fixed-size window in the
@@ -57,7 +57,7 @@ These algorithms have many similarities with online algorithms since they both r
 Streaming algorithms have several applications in networking such as
 monitoring network links for elephant flows, counting the number of
 distinct flows, estimating the distribution of flow sizes, and so
-on.[tpl]Harvtxt|Xu|2007[/tpl] They also have applications in
+on. They also have applications in
 databases, such as estimating the size of a join.
 
 ==Some streaming problems==
@@ -85,7 +85,7 @@ notable algorithms are:
 ===Counting distinct elements===
 
 Counting the number of distinct elements in a stream (sometimes called the
-The first algorithm for it was proposed by Flajolet and Martin. In 2010, D. Kane, J. Nelson and D. Woodruff found an optimal algorithm for this problem.[tpl]Harvtxt|Kane|Nelson|Woodruff|2010[/tpl] It uses O(ε^2 + log d) space, with O(1) worst-case update and reporting times, as well as universal hash functions and a r-wise independent hash family where r = Ω(log(1/ε)/ log log(1/ε)) (so Ω(2.4) for 1% error) ..
+The first algorithm for it was proposed by Flajolet and Martin. In 2010, D. Kane, J. Nelson and D. Woodruff found an optimal algorithm for this problem. It uses O(ε^2 + log d) space, with O(1) worst-case update and reporting times, as well as universal hash functions and a r-wise independent hash family where r = Ω(log(1/ε)/ log log(1/ε)) (so Ω(2.4) for 1% error) ..
 
 ===Entropy===
 

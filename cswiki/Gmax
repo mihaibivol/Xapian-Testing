@@ -16,7 +16,7 @@ As of October 16, 2005 AutoDesk Media and Entertainment has discontinued and no 
 
 ==Software license agreement==
 
-There has been some debate as to whether exporting Quake 3 models for use with a game other than Quake 3 is a violation of the gmax software license agreement (or EULA). Product manager Paul Perreault has publicly stated that "gmax is a tool to create 3d content—what you create with gmax is your business, not ours." He continues, "Discreet is not opposed to exporting data from gmax—provided Discreet is the decision maker about what formats are supported."[tpl]Cite web |url=http://www.turbosquid.com/Forum/Index.cfm/stgAct/PostList/intThreadID/8525 |title=Discreet Position on gmax exporter |accessdate=2008-07-23 |date=2001-11-28[/tpl] Export to the Quake 3 model format is officially supported by Discreet. Therefore using gmax to create and export models to the .md3 format does not appear to be a violation of the terms of the gmax EULA.
+There has been some debate as to whether exporting Quake 3 models for use with a game other than Quake 3 is a violation of the gmax software license agreement (or EULA). Product manager Paul Perreault has publicly stated that "gmax is a tool to create 3d content—what you create with gmax is your business, not ours." He continues, "Discreet is not opposed to exporting data from gmax—provided Discreet is the decision maker about what formats are supported." Export to the Quake 3 model format is officially supported by Discreet. Therefore using gmax to create and export models to the .md3 format does not appear to be a violation of the terms of the gmax EULA.
 
 == See also ==
 

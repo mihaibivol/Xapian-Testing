@@ -27,11 +27,11 @@ Arithmetic expressions involving operations such as additions, subtractions, mul
 
 ===Mathematical details===
 
-Let [tpl]Unicode|𝔻[/tpl] denote the space of distribution functions on the real numbers [tpl]Unicode|ℝ[/tpl], i.e., [tpl]Unicode|𝔻[/tpl] = {D | D : [tpl]Unicode|ℝ[/tpl] → 0,1, D(x) ≤ D(y) whenever x 2, i1 ≤ i2, i1, i2 ∈ [tpl]Unicode|ℝ[/tpl]}.  Then a p-box is a quintuple [tpl]{overbar|F[/tpl], F, m, v, F}, where [tpl]overbar|F[/tpl], F ∈ [tpl]Unicode|𝔻[/tpl], while m, v ∈ [tpl]Unicode|𝕀[/tpl], and F ⊆ [tpl]Unicode|𝔻[/tpl].  This quintuple denotes the set of distribution functions F ∈ [tpl]Unicode|𝔻[/tpl] matching the following constraints: 
+Let  matching the following constraints: 
 If F is a distribution function and B is a p-box, the notation F ∈ B means that F is an 
 element of B = {B1, B2, m1,m2, 
 v1,v2, B}, that is,
-B2(x) ≤ F(x) ≤ B1(x), for all x ∈ [tpl]Unicode|ℝ[/tpl],
+B2(x) ≤ F(x) ≤ B1(x), for all x ∈ ,
 E(F) ∈ m1,m2,
 V(F) ∈ v1,v2, and
 F ∈ B.  We sometimes say F is inside B.
@@ -40,8 +40,8 @@ encoded in the two distribution functions that constitute the edges of the p-box
 representing the p-box {B1, B2, −∞,∞, 0,∞, 𝔻} 
 can be denoted more compactly as B2.  This notation harkens to 
 that of intervals on the real line, except that the endpoints are distributions rather than points.
-The notation X ~ F denotes the fact that X∈[tpl]Unicode|ℝ[/tpl] is a random variable governed by the 
-distribution function F, that is, F = F(x):[tpl]Unicode|ℝ[/tpl]→0,1:x→Pr(X≤x).
+The notation X ~ F denotes the fact that X∈ is a random variable governed by the 
+distribution function F, that is, F = F(x):→0,1:x→Pr(X≤x).
 Let us generalize the tilde notation for use with p-boxes.  We will write 
 X ~ B
 to mean that X is a random variable whose distribution function is unknown except that it is inside B.
@@ -50,7 +50,7 @@ X ~ F ∈ B
 can be contracted to X ~ B without mentioning the distribution function explicitly.
 If X and Y are independent random variables with distributions F and G
 respectively, then X + Y = Z ~ H given by
-:H(z) = ∫ z=x+y F(x) G(y) dz  =  ∫ [tpl]su|p=∞|b=-∞[/tpl] F(x) G(z − x) dx = F * G. 
+:H(z) = ∫ z=x+y F(x) G(y) dz  =  ∫  F(x) G(z − x) dx = F * G. 
 This operation is called a convolution on F and G.  The analogous operation on 
 p-boxes is straightforward for sums.
 Suppose 
@@ -126,9 +126,9 @@ PBA belongs to a class of methods that use imprecise probabilities to simultaneo
 
 ==Additional references==
 
-* [tpl]cite book | last1 = Bernardini | first1 = Alberto | last2 = Tonon | first2 = Fulvio | title = Bounding Uncertainty in Civil Engineering: Theoretical Background | publisher = Springer | location = Berlin | year = 2010 | isbn = 3-642-11189-0 [/tpl]
-* [tpl]cite book | last = Ferson | first = Scott | title = RAMAS Risk Calc 4.0 Software : Risk Assessment with Uncertain Numbers | publisher = Lewis Publishers | location = Boca Raton, Florida | year = 2002 | isbn = 1-56670-576-2 [/tpl]
-* [tpl]cite book | last1 = Oberkampf | first1 = William L. | last2 = Roy | first2 = Christopher J. | title = Verification and Validation in Scientific Computing | publisher = Cambridge University Press | location = New York | year = 2010 | isbn = 0-521-11360-1 [/tpl]
+* 
+* 
+* 
 
 ==External links==
 

@@ -16,8 +16,8 @@ Pegasus Mail for Windows can be used as a standalone mail client using POP3 or I
 
 === Criticism of features ===
 
-Pegasus Mail pioneered many features now taken for granted with other email clients, such as filtering and simultaneous access to multiple POP3 and IMAP4 accounts,Pegasus manual explains how to access POP3 and IMAP and preview pane and continues to out-perform many other email clients.[tpl]citation needed|date=December 2011[/tpl] However, the free distribution of Microsoft Outlook Express or later email client as a standard part of Microsoft Windows since Windows 98, and, the distribution of Microsoft Outlook initially free of charge with PC magazines, and then as an integral part of Microsoft Office, from 1997 dealt a significant blow to the market share of Pegasus Mail and other email clients, from which many never fully recovered.
-Also, with the widespread distribution of Microsoft Outlook, user expectations of the range of features a program incorporating an email client should offer (Outlook's email, newsgroups, calendar, etc., eventually as part of an integrated suite) did not fulfill new users' expectations, regardless of the features of the email client proper.[tpl]citation needed|date=December 2011[/tpl] Trends in interface design have also changed throughout the years, and Pegasus Mail has not followed those changes, still having essentially the same user interface it had in its first Windows version, with very few later additions (such as the "preview window" mode).
+Pegasus Mail pioneered many features now taken for granted with other email clients, such as filtering and simultaneous access to multiple POP3 and IMAP4 accounts,Pegasus manual explains how to access POP3 and IMAP and preview pane and continues to out-perform many other email clients. However, the free distribution of Microsoft Outlook Express or later email client as a standard part of Microsoft Windows since Windows 98, and, the distribution of Microsoft Outlook initially free of charge with PC magazines, and then as an integral part of Microsoft Office, from 1997 dealt a significant blow to the market share of Pegasus Mail and other email clients, from which many never fully recovered.
+Also, with the widespread distribution of Microsoft Outlook, user expectations of the range of features a program incorporating an email client should offer (Outlook's email, newsgroups, calendar, etc., eventually as part of an integrated suite) did not fulfill new users' expectations, regardless of the features of the email client proper. Trends in interface design have also changed throughout the years, and Pegasus Mail has not followed those changes, still having essentially the same user interface it had in its first Windows version, with very few later additions (such as the "preview window" mode).
 Pegasus was initially a text-mode application for networks, handling both internal and Internet mail, often operating in conjunction with the Mercury mail transport. Pegasus Mail for stand-alone machines was initially developed at a time when the typical email user had to be somewhat more knowledgeable of the way computers, the Internet and particularly email operate than most of today's users have to be, as PCs and the Internet have become more widespread, reached a broader audience and adapted themselves to those new users' needs. At the time Pegasus Mail was first conceived, its extensive array of features coupled with a simple user interface provided an ideal mix for most users' needs. As years went by it was seen as departing from the de-facto standard, and lacking features expected by the typical user.
 
 == Advanced features ==
@@ -30,7 +30,7 @@ Pegasus Mail's takes an "old-fashioned" approach with advantages for knowledgeab
 * the ability to delete attachments without deleting the message's text body, or to delete the HTML version of a message while keeping the plain-text version, or vice versa, saving disk space;
 * easy access to a message, including all headers, in raw form, which is difficult or impossible in some other clients;
 * a "tree view" of the structure of a multipart message with all its sections and attachments, giving access to view or save any of the parts separately.
-The drop in usage and funding slowed development, and features that were initially to be included in version 4 were not implemented. Some of these features are scheduled for inclusion in version 5[tpl]Citation needed|date=January 2012[/tpl].
+The drop in usage and funding slowed development, and features that were initially to be included in version 4 were not implemented. Some of these features are scheduled for inclusion in version 5.
 
 == Development status of Pegasus Mail ==
 
@@ -55,7 +55,7 @@ From February 2009, Pegasus Mail has had its own Wiki, used as an on-line knowle
 
 === Linux and Pegasus Mail ===
 
-There is no Linux version of Pegasus Mail. Pegasus runs under Linux using the Wine Windows emulator. SSL e-mail access in Pegasus Mail under Wine did not work as such [tpl]As of|2012|1|lc=1[/tpl] due to an error in the Wine Cryptlib. Secure operation was possible using Stunnel, and work on use of OpenSSL and other matters which were expected to provide full secure functionality were in progress.
+There is no Linux version of Pegasus Mail. Pegasus runs under Linux using the Wine Windows emulator. SSL e-mail access in Pegasus Mail under Wine did not work as such  due to an error in the Wine Cryptlib. Secure operation was possible using Stunnel, and work on use of OpenSSL and other matters which were expected to provide full secure functionality were in progress.
 
 == See also ==
 
@@ -65,7 +65,7 @@ There is no Linux version of Pegasus Mail. Pegasus runs under Linux using the Wi
 
 == Further reading ==
 
-* [tpl]cite book |last= Kocmoud |first= David J. |authorlink= |coauthors= J. Matthew Pierce, Michael O. Stegman |title= Pegasus Mail for Windows: How to Make Your E-Mail Fly |year= 1996 |publisher= Prentice Hall |location= |isbn= 978-0-13-261900-4 [/tpl]
+* 
 
 == Notes and references ==
 

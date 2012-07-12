@@ -20,9 +20,9 @@ The Binary Independence Model was introduced by Yu and Salton. The name Binary I
 
 ==Recent work==
 
-Wu et al.[tpl]cite | url=http://doi.acm.org/10.1145/1076034.1076179 | title=A retrospective study of probabilistic context-based retrieval | year=2005 | author=H. C. Wu | coauthors=R. W. P. Luk, K. F. Wong, K. L. Kwok, W. J. Li[/tpl] proposed a new probabilistic retrieval model which weights terms according to their contexts in documents. The term weighting function they used is similar to the language model and the binary independence model.
-Roelleke et al.[tpl]cite | title=Probabilistic Logical Modelling of the Binary Independence Retrieval model | url=http://www.dcs.qmul.ac.uk/~thor/papers/2007/Roelleke&Wang:ICTIR:2007.pdf | author=Thomas Roelleke | coauthors=Jun Wang | year=2007[/tpl] investigates the probabilistic relational implementations of BIM under the use of probabilistic relational algebra for the integration of Information Retrieval in databases.
-This work surges as a result of the interest shown by Surajit et al.[tpl]cite | author=Surajit Chaudhuri | coauthors=Gautam Das, Vagelis Hristidis, Gerhard Weikum | title=Probabilistic information retrieval approach for ranking of database query results | url=http://doi.acm.org/10.1145/1166074.1166085 | year=2006[/tpl] in applying the knowledge of probabilistic models for information retrieval in structured data, to investigate the problem of ranking the answers to a database query when many tuples are returned.
+Wu et al. proposed a new probabilistic retrieval model which weights terms according to their contexts in documents. The term weighting function they used is similar to the language model and the binary independence model.
+Roelleke et al. investigates the probabilistic relational implementations of BIM under the use of probabilistic relational algebra for the integration of Information Retrieval in databases.
+This work surges as a result of the interest shown by Surajit et al. in applying the knowledge of probabilistic models for information retrieval in structured data, to investigate the problem of ranking the answers to a database query when many tuples are returned.
 
 == See also ==
 
@@ -30,8 +30,8 @@ This work surges as a result of the interest shown by Surajit et al.[tpl]cite | 
 
 ==Further reading==
 
-* [tpl]cite | url=http://nlp.stanford.edu/IR-book/html/htmledition/irbook.html | title=Introduction to Information Retrieval | author=Christopher D. Manning | coauthors=Prabhakar Raghavan & Hinrich Schütze | publisher=Cambridge University Press | year=2008[/tpl]
-* [tpl]cite | url=http://www.ir.uwaterloo.ca/book/ | title=Information Retrieval: Implementing and Evaluating Search Engines | author=Stefan Büttcher | coauthors=Charles L. A. Clarke & Gordon V. Cormack | publisher=MIT Press | year=2010[/tpl]
+* 
+* 
 
 ==References==
 

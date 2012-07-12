@@ -51,7 +51,7 @@ Some lemmatisation algorithms are stochastic in that, given a word which may bel
 
 ===n-gram analysis===
 
-Some stemming techniques use the n-gram context of a word to choose the correct stem for a word.[tpl]cn|date=December 2011[/tpl]
+Some stemming techniques use the n-gram context of a word to choose the correct stem for a word.
 
 ===Hybrid approaches===
 

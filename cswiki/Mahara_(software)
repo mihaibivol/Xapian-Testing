@@ -1,5 +1,5 @@
 
-Mahara is an open source ePortfolio and social networking web application created by the government of New Zealand[tpl]citation needed|date=January 2011[/tpl]. It provides users with tools to create and maintain a digital portfolio of their learning, and social networking features to allow users to interact with each other.
+Mahara is an open source ePortfolio and social networking web application created by the government of New Zealand. It provides users with tools to create and maintain a digital portfolio of their learning, and social networking features to allow users to interact with each other.
 Mahara provides users with blogs, a resume builder, a file manager and a view creator - a tool to help users create arrangements of their content in a particular way for others to see.
 Mahara supports the Leap2A specification for importing and exporting data, allowing a user to take their content with them from one Mahara installation and import it into anotherhttp://wiki.mahara.org/Developer_Area/Import//Export. Limited interoperability exists between Mahara and other systems supporting the Leap2A standard alsohttp://wiki.mahara.org/Developer_Area/Import//Export/Interoperability.
 

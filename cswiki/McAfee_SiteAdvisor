@@ -1,5 +1,5 @@
 
-SiteAdvisor is a service that reports on the safety of web sites by crawling the web and testing the sites it finds for malware and spam. The service was originally developed by SiteAdvisor, Inc, an MIT startup[tpl]cite web| title = McAfee acquires MIT startup SiteAdvisor at Digital...| url = http://labnol.blogspot.com/2006/04/safe-surfing-mcafee-acquires-mit.html [/tpl] first introduced at CodeCon on February 10, 2006[tpl]cite web| title = CodeCon 2006 Program | url = http://www.codecon.org/2006/program.html [/tpl] and later acquired by McAfee[tpl]cite web| last = Dixon | first = Chris| title = Taking SiteAdvisor to the Next Level | date=  2006-09-05 | url = http://blog.siteadvisor.com/2006/04/taking_siteadvisor_to_the_next.shtml | accessdate = 2006-09-05 |archiveurl = http://web.archive.org/web/20060523015507/http://blog.siteadvisor.com/2006/04/taking_siteadvisor_to_the_next.shtml  |archivedate = 2006-05-23[/tpl] on April 5, 2006. Since its founding, it has received criticism for its improper rating of some sites, and more importantly the length of time it takes to resolve complaints. 
+SiteAdvisor is a service that reports on the safety of web sites by crawling the web and testing the sites it finds for malware and spam. The service was originally developed by SiteAdvisor, Inc, an MIT startup on April 5, 2006. Since its founding, it has received criticism for its improper rating of some sites, and more importantly the length of time it takes to resolve complaints. 
 
 ==SiteAdvisor Plus==
 
@@ -47,7 +47,7 @@ This program 'certifies' a web site so that it can show the McAfee certified log
 
 ==TrustedSource==
 
-McAfee SiteAdvisor now makes use of the TrustedSource website reputation organisation, to act as something like a 'cloud' intelligence software to get the most up-to-date information on websites as possible, very similar to McAfee's Active Protection(Artemis) system.[tpl]Citation needed|date=October 2010[/tpl] The details of this system are not known.
+McAfee SiteAdvisor now makes use of the TrustedSource website reputation organisation, to act as something like a 'cloud' intelligence software to get the most up-to-date information on websites as possible, very similar to McAfee's Active Protection(Artemis) system. The details of this system are not known.
 
 ==Awards==
 
@@ -65,7 +65,7 @@ McAfee SiteAdvisor now makes use of the TrustedSource website reputation organis
 
 ==External links==
 
-* [tpl]official|http://www.siteadvisor.com/[/tpl]
+* 
 ** Safe report example (Wikipedia)
 ** Cautionary report example (whenu.com)
 ** Warning report example (sify-antispyware.co.cc)

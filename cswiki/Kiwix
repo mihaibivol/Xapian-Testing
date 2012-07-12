@@ -1,14 +1,14 @@
 
 Kiwix is a free program used to view Wikipedia offline, meaning it does not use an Internet connection. This is done by reading the content of the project stored in a file of the ZIM format, which contains the compressed contents of articles. It is possible to read any Wikimedia project, although it was originally designed only for Wikipedia.
 The software is designed for computers without Internet access, and in particular, schools in developing countries, where accessing the Internet is more difficult or costly. Kiwix has designed a version specifically for the organization SOS Children's with this use in mind.
-Kiwix uses the Mozilla framework and is available in more than 80 languages. It has full text search, tabbed navigation and possibility to export articles to PDF and HTML.[tpl]cite web |url=http://sourceforge.net/projects/kiwix/ |title=Kiwix |publisher=SourceForge |accessdate=22 March 2012[/tpl]
+Kiwix uses the Mozilla framework and is available in more than 80 languages. It has full text search, tabbed navigation and possibility to export articles to PDF and HTML.
 
 ==References==
 
 ==External links==
 
-* [tpl]official website|http://www.kiwix.org/[/tpl]
-* [tpl]SourceForge|kiwix[/tpl]
+* 
+* 
 * RSS/Atom Planet
 * Kiwix's microblog feed
 

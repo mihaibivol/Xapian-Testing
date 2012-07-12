@@ -16,7 +16,7 @@ As of October 15, 2009, BleachBit was more active than 99.972% of projects  on S
 * Shredding files and wiping unallocated disk space to minimize data remanence.
 * Wiping unallocated disk space to improve compression ratio for disk image backups.
 * Shredding any file selected by the user.
-* Vacuuming Firefox's SQLite database which suffers fragmentation.  No other system cleaner features vacuuming.[tpl]citation needed|date=February 2012[/tpl]
+* Vacuuming Firefox's SQLite database which suffers fragmentation.  No other system cleaner features vacuuming.
 * Command line interface for scripting automation and headless operation.
 * Translated to 32 languages.http://bleachbit.sourceforge.net/features
 

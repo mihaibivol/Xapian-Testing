@@ -1,7 +1,7 @@
 
 The Digital Living Network Alliance (DLNA) is a non-profit collaborative trade organization established by Sony in June 2003, that is responsible for defining interoperability guidelines to enable sharing of digital media between consumer devices such as computers, printers, cameras, cell phones, and other multimedia devices.  These guidelines are built upon existing public standards, but the guidelines themselves are private (available for a fee).  These guidelines specify a set of restricted ways of using the standards in order to achieve interoperability.http://gxben.wordpress.com/2008/08/24/why-do-i-hate-dlna-protocol-so-much/
-DLNA uses Universal Plug and Play (UPnP) for media management, discovery and control.[tpl]Citation |archiveurl=http://web.archive.org/web/20110630143952/http://www.dlna.org/about_us/about/DLNA_Whitepaper.pdf |archivedate=2011-06-30 |url=http://www.dlna.org/about_us/about/DLNA_Whitepaper.pdf |publisher=DLNA |title=DLNA for HD Video Streaming in Home Networking Environments[/tpl]  UPnP defines the types of device that DLNA supports ("server", "renderer", "controller") and the mechanisms for accessing media over a network.  The DLNA guidelines then apply a layer of restrictions over the types of media file format, encodings and resolutions that a device must support.
-Alliance members have stated that the common goal of using standards-based technology is to make it easier for consumers to use and share their digital photos, music and videos. As of January 2011,[tpl]cite web|url=http://www.iptv-news.com/iptv_news/january_2011_2/installed_base_of_dlna_devices_exceeds_440mn |title=Installed base of DLNA devices exceeds 440mn |publisher=IPTV news |date=2008-09-25 |accessdate=2011-03-02[/tpl] over 9,000 different devices have obtained "DLNA Certified" status, indicated by a logo on their packaging and confirming their interoperability with other devices.[tpl]cite web|url=http://www.sony.net/SonyInfo/technology/technology/theme/dlna_02.html |title=“The DLNA Certified Logo Program” |publisher=Sony.net |date= |accessdate=2011-03-02[/tpl] It is estimated that more than 440 million DLNA-certified devices, from digital cameras to game consoles and TVs, have been installed in users' homes.[tpl]cite web|url=http://www.eeherald.com/section/news/nws201101245.html |title=440 million DLNA-certified devices installed in 2010 says ABI |publisher=Eeherald.com |date=2011-01-25 |accessdate=2011-03-02[/tpl]
+DLNA uses Universal Plug and Play (UPnP) for media management, discovery and control.  UPnP defines the types of device that DLNA supports ("server", "renderer", "controller") and the mechanisms for accessing media over a network.  The DLNA guidelines then apply a layer of restrictions over the types of media file format, encodings and resolutions that a device must support.
+Alliance members have stated that the common goal of using standards-based technology is to make it easier for consumers to use and share their digital photos, music and videos. As of January 2011,
 
 ==History==
 
@@ -9,7 +9,7 @@ Sony established the DLNA in June 2003 as the Digital Home Working Group, changi
 
 ==Specification==
 
-The DLNA Certified Device Classes are separated as follows:[tpl]cite web|url=http://www.dlna.org/digital_living/devices/ |title=Certified® Device Classes |publisher=DLNA |date= |archiveurl=http://web.archive.org/web/20101222205822/http://www.dlna.org/digital_living/devices/ |archivedate=2010-12-22 |accessdate=2011-03-02[/tpl]
+The DLNA Certified Device Classes are separated as follows:
 Home Network Devices:
 * Digital Media Server (DMS): These devices store content and make it available to networked digital media players (DMP) and digital media renderers (DMR). Examples include PCs and network-attached storage (NAS) devices.
 * Digital Media Player (DMP): These devices find content on digital media servers (DMS) and provide playback and rendering capabilities. Examples include TVs, stereos and home theaters, wireless monitors and game consoles.
@@ -26,11 +26,11 @@ Mobile Handheld Devices
 Home Infrastructure Devices
 * Mobile Network Connectivity Function (M-NCF): These devices provide a bridge between mobile handheld device network connectivity and home network connectivity.
 * Media Interoperability Unit (MIU):These devices provide content transformation between required media formats for home network and mobile handheld devices.
-The specification uses DTCP-IP as "link protection" for copyright-protected commercial content between one device to another.[tpl]cite web|url=http://www.dlna.org/about_us/roadmap/DLNA_Whitepaper.pdf |title=page 4, Table 1 |format=PDF |date= |accessdate=2011-03-02[/tpl]
+The specification uses DTCP-IP as "link protection" for copyright-protected commercial content between one device to another.
 
 ==Member companies==
 
-As of June 2011, there are 26 promoter members and 199 contributor members. The promoter members are:[tpl]cite web|author=Aaron-GS |url=http://forums.bestbuy.com/t5/Latest-Greatest/Connected-Digital-Living/ba-p/15997 |title=BBY - Connected Digital Living - Best Buy Community |publisher=Forums.bestbuy.com |date=2009-02-26 |accessdate=2011-03-02[/tpl] ACCESS, AT&T Labs, Awox, Broadcom, Cisco Systems, Comcast, DIRECTV, Dolby Laboratories, Ericsson, Hewlett-Packard, Huawei, Intel, LG Electronics, Microsoft, Motorola, Nokia, Panasonic, Promise Technology, Qualcomm, Samsung Electronics, Sharp Corporation, Sony Electronics, Technicolor, and Verizon. 
+As of June 2011, there are 26 promoter members and 199 contributor members. The promoter members are: ACCESS, AT&T Labs, Awox, Broadcom, Cisco Systems, Comcast, DIRECTV, Dolby Laboratories, Ericsson, Hewlett-Packard, Huawei, Intel, LG Electronics, Microsoft, Motorola, Nokia, Panasonic, Promise Technology, Qualcomm, Samsung Electronics, Sharp Corporation, Sony Electronics, Technicolor, and Verizon. 
 Apple Inc. is not a member. Apple uses its own Digital Audio Access Protocol instead of DLNA's UPnP protocols.
 DLNA is run by a board of directors consisting of 9 members. There are 8 permanent representatives from the following companies: Broadcom, Intel, Microsoft, Nokia, Panasonic, Samsung Electronics, Sony Electronics, Technicolor and one elected representative selected by the promoter members.
 The board of directors oversees the activity of the four following committees:
@@ -43,62 +43,62 @@ The board of directors oversees the activity of the four following committees:
 
 ===DLNA-certified devices===
 
-There are over nine thousand products on the market that are DLNA Certified.[tpl]cite web|url=http://www.connectedworldmag.com/latestNews.aspx?id=NEWS110113094319013 |title=Connected World magazine | DLNA Empowers the Connected Consumer |publisher=Connectedworldmag.com |date=2011-01-14 |accessdate=2011-03-02[/tpl] This includes TVs, DVD and Blu-ray players, games consoles, digital media players, photo frames, cameras, NAS devices, PCs, mobile handsets, and more.[tpl]cite web|url=http://www.instat.com/abstract.asp?id=99&SKU=IN1004647RC |title=UPnP and DLNA—Standardizing the Networked Home |publisher=Instat.com |date= |accessdate=2011-03-02[/tpl] Predictions have been made as to how many DLNA Certified products are shipping:
-“According to a study from ABI Research, nearly 200 million such products shipped in 2008; that number will rise to more than 300 million in 2012, and the growth curve accelerates even faster in the years that follow.”[tpl]cite web|url=http://www.abiresearch.com/press/3237-More+than+300+Million+DLNA-Certified+Consumer+Electronics+Devices+to+Ship+in+2012 |title=More than 300 Million DLNA-Certified Consumer Electronics Devices to Ship in 2012 | Press Release |publisher=ABI Research |date= |accessdate=2011-03-02[/tpl]
+There are over nine thousand products on the market that are DLNA Certified. Predictions have been made as to how many DLNA Certified products are shipping:
+“According to a study from ABI Research, nearly 200 million such products shipped in 2008; that number will rise to more than 300 million in 2012, and the growth curve accelerates even faster in the years that follow.”
 Consumers can see if their product is certified by looking for a DLNA logo on the device or by verifying certification through the DLNA Product Search.
 
 ===DLNA technology components===
 
 As the past president of DLNA pointed out to the Register in March 2009:http://www.theregister.co.uk/2009/03/02/iomega_not_dlna_compliant/
 "The vendors of software are allowed to claim that their software is a DLNA Technology Component if the software has gone through certification testing on a device and the device has been granted DLNA Certification. DLNA Technology Components are not marketed to the consumer but only to industry."
-DLNA Interoperability Guidelines allow manufacturers to participate in the growing marketplace of networked devices and are separated into the below sections of key technology components.[tpl]cite web|url=http://www.dlna.org/industry/certification/guidelines |title=The DLNA Networked Device Interoperability Guidelines |publisher=DLNA |date= |accessdate=2011-03-02[/tpl]
-* Network and Connectivity[tpl]cite web|url=http://www.dlna.org/industry/why_dlna/key_components/network/ |title=Network and Connectivity |publisher=DLNA |date= |accessdate=2011-03-02[/tpl]
-* Device and Service Discovery and Control[tpl]cite web|url=http://www.dlna.org/industry/why_dlna/key_components/device_discovery/ |title=Device and Service Discovery and Control |publisher=DLNA |date= |accessdate=2011-03-02[/tpl]
-* Media Format and Transport Model[tpl]cite web|url=http://www.dlna.org/industry/why_dlna/key_components/media_format/ |title=Media Format and Transport Model |publisher=DLNA |date= |accessdate=2011-03-02[/tpl]
-* Media Management, Distribution and Control[tpl]cite web|url=http://www.dlna.org/industry/why_dlna/key_components/media_mgmt/ |title=Media Management, Distribution, and Control |publisher=DLNA |date= |accessdate=2011-03-02[/tpl]
-* Digital Rights Management and Content Protection[tpl]cite web|url=http://www.dlna.org/industry/why_dlna/key_components/drm/ |title=Digital Rights Management and Content Protection |publisher=DLNA |date= |accessdate=2011-03-02[/tpl]
-* Manageability[tpl]cite web|url=http://www.dlna.org/industry/why_dlna/key_components/manageability/ |title=Manageability |publisher=DLNA |date= |accessdate=2011-03-02[/tpl]
+DLNA Interoperability Guidelines allow manufacturers to participate in the growing marketplace of networked devices and are separated into the below sections of key technology components.
+* Network and Connectivity
+* Device and Service Discovery and Control
+* Media Format and Transport Model
+* Media Management, Distribution and Control
+* Digital Rights Management and Content Protection
+* Manageability
 
 ===DLNA-certified software===
 
-In early 2011, DLNA began a Software Certification program in order to make it easier for consumers to share their digital media across a broader range of products. DLNA is certifying software that is sold directly to consumers through retailers, websites and mobile application stores. With DLNA Certified software, consumers can upgrade products from within their home networks that may not be DLNA Certified and bring them into their personal DLNA ecosystems. This helps in bringing content such as videos, photos and music stored on DLNA Certified devices to a larger selection of consumer electronics, mobile and PC products.[tpl]cite web|url=http://www.abiresearch.com/press/3599-Increasing+DLNA+Software+Certification+Will+Propel+the+Adoption+and+Connection+of+Devices+within+the+Home+Network?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed:+AbiresearchPressReleasesFeed+%28ABIResearch+P|title=Increasing DLNA Software Certification Will Propel the Adoption and Connection of Devices within the Home Network[/tpl]
+In early 2011, DLNA began a Software Certification program in order to make it easier for consumers to share their digital media across a broader range of products. DLNA is certifying software that is sold directly to consumers through retailers, websites and mobile application stores. With DLNA Certified software, consumers can upgrade products from within their home networks that may not be DLNA Certified and bring them into their personal DLNA ecosystems. This helps in bringing content such as videos, photos and music stored on DLNA Certified devices to a larger selection of consumer electronics, mobile and PC products.
 
 ===DLNA-certified products===
 
 Below are some examples of DLNA Certified Products, however this is not a comprehensive list of all devices.
-* 2player[tpl]cite web|url=http://two-play.com/2player.htm |title=2Player - The Network Music Player for Windows Home Networks |publisher=Two-play.com |date= |accessdate=2011-03-02[/tpl] is a controller, and player, with download support (DMC, DMP, M-DMD), for Android devices.
+* 2player is a controller, and player, with download support (DMC, DMP, M-DMD), for Android devices.
 * AllShare™ is Samsung Electronics trademark name which includes DLNA as well as other related features.
-* ArcSoft TotalMedia 3.5.[tpl]cite web|author=ArcSoft Inc. |url=http://www.arcsoft.com/public/software_title.asp?ProductID=15 |title=ArcSoft Inc. — World-Leading Multimedia Software Provider |publisher=Arcsoft.com |date= |accessdate=2011-03-02[/tpl] Appears to be just a DMS.
-* AwoX mediaCTRL for iPhone[tpl]cite web|author=Remote |url=http://itunes.apple.com/fr/app/mediactrl/id381302199?mt=8 |title=mediaCTRL pour iPhone, iPod touch et iPad sur l’iTunes App Store |publisher=Itunes.apple.com |date= |accessdate=2011-03-02[/tpl] is a commercial controller with upload and push controller (DMC +UP+ +PU+). It is based on AwoX DLNA Technology component software development kits.[tpl]cite web|url=http://www.awox.com/middleware_technologies.php |title=AwoX Network Media Solutions - OEM/ODM Modules and Embedded Technologies for the Digital Home |publisher=Awox.com |date= |accessdate=2011-03-02[/tpl]
-* Coherencecoherence.beebits.net is a complete UPnP python framework including a DMS, a DMR,[tpl]cite web|url=http://coherence.beebits.net/wiki/Cadre |title=Cadre - Coherence - a DLNA/UPnP Framework for the Digital Living - Trac |publisher=Coherence.beebits.net |date= |accessdate=2011-03-02[/tpl] and a DMC.
-* CyberLink SoftDMA 2.[tpl]cite web|url=http://www.cyberlink.com/products/softdma/overview_en_US.html |title=SoftDMA 2 – Media Player for the Digital Home |publisher=Cyberlink.com |date= |accessdate=2011-03-02[/tpl] Appears to be just a DMP.
-* iMediaShare [tpl]cite web|url=http://www.bianor.com/ims/ |title=Mobile Media Sharing - Free iPhone & Android Media Server :: iMediaShare |publisher=Bianor.com |date= |accessdate=2011-03-02[/tpl] is a smartphone application that supports Media Server specifications of UPnP/AV.
+* ArcSoft TotalMedia 3.5. Appears to be just a DMS.
+* AwoX mediaCTRL for iPhone
+* Coherencecoherence.beebits.net is a complete UPnP python framework including a DMS, a DMR, and a DMC.
+* CyberLink SoftDMA 2. Appears to be just a DMP.
+* iMediaShare  is a smartphone application that supports Media Server specifications of UPnP/AV.
 * ZappoTV is a controlpoint that acts as a mobile media center for certain DLNA Renderers.
 * J. River Media Center A multi-faceted media player/organizer with a DLNA/UPnP server, controller, and renderer, including conversion.
-* LinuxMCE as a complete free solution has Fuppes integrated, but plans to switch to MediaTomb.[tpl]cite web|url=http://wiki.linuxmce.org/index.php/Dlna#LMCE_implementation_status |title=Dlna - LinuxMCE wiki |publisher=Wiki.linuxmce.org |date=2009-07-17 |accessdate=2011-03-02[/tpl]
+* LinuxMCE as a complete free solution has Fuppes integrated, but plans to switch to MediaTomb.
 * Plex, a free and open source (GPL) software media player and entertainment hub for digital media, available for Mac OS X, Microsoft Windows, Linux, as well as mobile clients for iOS (including Apple TV (2nd generation) onwards), Android, and Windows Phone.
-* tubeCore a free Windows Media Center Media Receiver plugin that provides a DLNA compliant user interface to DLNA Media Servers.[tpl]cite web|url=http://tubecentric.tv/tubecore |title=tubeCore |publisher=tubeCentric.tv |date=2011-02-11 |accessdate=2011-03-24[/tpl]
+* tubeCore a free Windows Media Center Media Receiver plugin that provides a DLNA compliant user interface to DLNA Media Servers.
 * Windows Media Connect and therefore Windows Media Player 11 support DLNA.
 * Windows Media Player 12 (bundled with Windows 7) supports all DLNA roles.
-* XBMC a free and open source (GPL) software media player and entertainment hub for digital media available for Linux, Mac OS X, Microsoft Windows, as well as the original Xbox game console.[tpl]cite web|url=http://wiki.xbmc.org/?title=UPnP_Sharing#DLNA_compliance_in_XBMC |title=reportedly supports DLNA |publisher=Wiki.xbmc.org |date=2006-07-10 |accessdate=2011-03-02[/tpl] 
+* XBMC a free and open source (GPL) software media player and entertainment hub for digital media available for Linux, Mac OS X, Microsoft Windows, as well as the original Xbox game console. 
 * Nokia N9 shares multimedia including music, pictures or videos.
 * Nokia Lumia 610/710/800/900 shares multimedia including music, pictures or videos.
 * Samsung Galaxy S II shares multimedia including music, pictures or videos. 
 * Nero MediaHome 4, a commercial media server for Windows with realtime transcoding and live TV streaming functionality. Free Trial version is available. 
 Servers
 * Asset UPnP/DLNA, Free Audio specific UPnP/DLNA server for Windows & Windows Home Server. Features album art, audio WAVE/LPCM transcoding from a huge range of audio codecs, ReplayGain support for streamed audio. Customizable browse tree.
-* CyberLink Media Server 2.[tpl]cite web|url=http://www.cyberlink.com/products/cyberlink-media-server/overview_en_US.html |title=Media Server 2 – Media Server Software for the Digital Home |publisher=Cyberlink.com |date= |accessdate=2011-03-02[/tpl] Appears to be just a DMS.
-* Jamcast,[tpl]cite web|url=http://www.sdstechnologies.com |title=Jamcast - Home Page |publisher=Sdstechnologies.com |date=2010-11-23 |accessdate=2011-03-02[/tpl] a DLNA compliant media server for Windows that is capable of streaming any audio playing on the PC to DLNA devices.
-* Mezzmo [tpl]cite web|author=Conceiva Pty. Ltd. |url=http://www.mezzmo.com |title=The Ultimate DLNA Home Entertainment Software |publisher=Mezzmo |date= |accessdate=2011-03-02[/tpl] is a feature-packed UPnP/DLNA media server with on-the-fly transcoding and media organizing features.
-* PlayOn from MediaMall.[tpl]cite web|url=http://www.playon.tv/playon |title=PlayOn Digital Media Server | PlayOn |publisher=Playon.tv |date= |accessdate=2011-03-02[/tpl] Appears to be a DMS, also capable of serving streamed internet media such as Netflix, Hulu, YouTube, CNN, ESPN.
-* PS3 Media Server.[tpl]cite web|url=http://code.google.com/p/ps3mediaserver/ |title=ps3mediaserver - Project Hosting on Google Code |publisher=Code.google.com |date= |accessdate=2011-03-02[/tpl] An open source (GPLv2) DLNA compliant UPnP Media Server for the PS3, written in Java, with the purpose of streaming or transcoding any kind of media files, with minimum configuration.
+* CyberLink Media Server 2. Appears to be just a DMS.
+* Jamcast, a DLNA compliant media server for Windows that is capable of streaming any audio playing on the PC to DLNA devices.
+* Mezzmo  is a feature-packed UPnP/DLNA media server with on-the-fly transcoding and media organizing features.
+* PlayOn from MediaMall. Appears to be a DMS, also capable of serving streamed internet media such as Netflix, Hulu, YouTube, CNN, ESPN.
+* PS3 Media Server. An open source (GPLv2) DLNA compliant UPnP Media Server for the PS3, written in Java, with the purpose of streaming or transcoding any kind of media files, with minimum configuration.
 * Serviio is a free DLNA media server and works with any DLNA compliant device (TV, PlayStation 3, etc.) and some other (Xbox 360).  It is updated frequently.
 * TwonkyMedia server runs on PC, Mac, Linux and Android and enables media sharing of local and online media among a large variety of devices.
-* TVMOBiLi [tpl]cite web|url=http://www.tvmobili.com/ |title=A Shareware DLNA Media Server For Mac, Windows, and Linux |publisher=Tvmobili.com |date= |accessdate=2011-03-02[/tpl] - A shareware DLNA/UPnP Media Server for Windows, Mac OS X and Linux. Appears to be just a DMS.
-* TVersity, a free UPnP MediaServer with strong device support and on-the-fly transcoding.[tpl]cite web|url=http://tversity.com/ |title=Home |publisher=TVersity |date=2007-06-17 |accessdate=2011-03-02[/tpl] Appears to be just a DMS.[tpl]cite web|url=http://tversity.com/support/devices/ |title=Supported Devices |publisher=TVersity |date= |accessdate=2011-03-02[/tpl]
-* Wild Media Server[tpl]cite web|url=http://www.wildmediaserver.com |title=Wild Media Server |publisher=Wild Media Server |date= |accessdate=2011-03-02[/tpl] (UPnP, DLNA, HTTP)], a media server for Windows, Wine (Linux), CrossOver Mac (MAC OS), individual device settings, transcoding, subtitles, restricted device access to folders, Internet-Radio, Internet-Television, Digital Video Broadcasting (DVB), etc.  It provides a lot of features, however, it is very expensive because you have to purchase a license for each client "MAC Address" instead of for each device.
+* TVMOBiLi  - A shareware DLNA/UPnP Media Server for Windows, Mac OS X and Linux. Appears to be just a DMS.
+* TVersity, a free UPnP MediaServer with strong device support and on-the-fly transcoding.
+* Wild Media Server (UPnP, DLNA, HTTP)], a media server for Windows, Wine (Linux), CrossOver Mac (MAC OS), individual device settings, transcoding, subtitles, restricted device access to folders, Internet-Radio, Internet-Television, Digital Video Broadcasting (DVB), etc.  It provides a lot of features, however, it is very expensive because you have to purchase a license for each client "MAC Address" instead of for each device.
 * Coherence is a framework written in Python to enable applications access to digital living network resources. As a stand alone application it can act as a UPnP/DLNA media server, in combination with a supported client as a media renderer.
-* AllShare[tpl]cite web|url=http://www.samsung.com/global/allshare/pcsw/|title=AllShare download |publisher=Samsung |date= |accessdate=2012-01-30[/tpl] (UPnP, DLNA)], a media server for Windows. Clients are also available for mobile Android devices. Works well with Samsung TV's.
+* AllShare (UPnP, DLNA)], a media server for Windows. Clients are also available for mobile Android devices. Works well with Samsung TV's.
 
 ==See also==
 

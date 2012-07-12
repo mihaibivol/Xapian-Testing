@@ -3,12 +3,12 @@ VMS Mosaic is a GUI web browser for use on the OpenVMS operating system.
 
 ==Description==
 
-VMS Mosaic is one of the two remaining direct descendants (see also Mosaic-CK) of NCSA Mosaic (the first popular graphical web browser[tpl]cite web |url=http://www.livinginternet.com/w/wi_mosaic.htm |title=Mosaic -- The First Global Web Browser |last=Andreessen |first=Marc |accessdate=2007-11-02[/tpl]) which are still being actively developed [tpl]citation needed|date=April 2010|reason=HP has started using SeaMonkey as their CSWB[/tpl]. VMS Mosaic is supported on VAX, Alpha, and Itanium systems.[tpl]cite web |url=http://h71000.www7.hp.com/freeware/freeware80/mosaic40/freeware_readme.txt |year=2006 |title= Mosaic 4.0 freeware_readme.txt |publisher=Hewlett-Packard Development Company, L.P |accessdate=2007-11-02[/tpl] It is a non-commercial (freeware) browser whose use is covered by various licenses including the original NCSA license.
-The current release (version 4.2[tpl]cite web |url=http://www.openvms.org/stories.php?story=07/09/03/1740114 |title=OpenVMS.org - OpenVMS Community Portal (VMS Mosaic V4.2) |publisher=OpenVMS.org |year=2007 |accessdate=2007-11-02[/tpl]) supports HTML V4.0, secure connections via OpenSSL, cookies, and various image formats including GIF, JPEG, PNG, BMP, TGA, TIFF, and JPEG 2000. It does not support Java, JavaScript or style sheets.
+VMS Mosaic is one of the two remaining direct descendants (see also Mosaic-CK) of NCSA Mosaic (the first popular graphical web browser It is a non-commercial (freeware) browser whose use is covered by various licenses including the original NCSA license.
+The current release (version 4.2) supports HTML V4.0, secure connections via OpenSSL, cookies, and various image formats including GIF, JPEG, PNG, BMP, TGA, TIFF, and JPEG 2000. It does not support Java, JavaScript or style sheets.
 
 ==History==
 
-Bjorn S. Nilsson ported NCSA Mosaic 1.2 to VMS in the summer of 1993.[tpl]cite web |url=ftp://ftp.ncsa.uiuc.edu/Web/Mosaic/Contrib/README.VMS |title=README.VMS |year=1993 |publisher=National Center for Supercomputing Applications |first=Bjorn |last=Nilsson |accessdate=2007-11-02[/tpl] When NCSA stopped development of NCSA Mosaic at version 2.7b5 in January 1997, several small groups of software developers continued work on Mosaic. Two of the resulting browsers were VMS Mosaic and mMosaic.[tpl]cite web |url=http://www.w3.org/AudioVideo/9610_Workshop/paper05/paper05.html |title=W3C mMosaic |last=dauphin |first=Gilles |publisher=World Wide Web Consortium |year=1996 |accessdate=2007-11-02[/tpl] Although work on mMosaic stopped in 2004, much of its HTML engine has been incorporated into VMS Mosaic.NCSA and VMS Mosaic Version Information
+Bjorn S. Nilsson ported NCSA Mosaic 1.2 to VMS in the summer of 1993. Although work on mMosaic stopped in 2004, much of its HTML engine has been incorporated into VMS Mosaic.NCSA and VMS Mosaic Version Information
 
 == See also ==
 

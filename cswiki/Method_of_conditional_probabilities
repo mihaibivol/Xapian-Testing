@@ -1,8 +1,8 @@
 
 In mathematics and computer science, the probabilistic method is used to prove the existence of mathematical objects with desired combinatorial properties. The proofs are probabilistic — they work by showing that a random object, chosen from some probability distribution, has the desired properties with positive probability. Consequently, they are nonconstructive — they don't explicitly describe an efficient method for computing the desired objects.
 The method of conditional probabilities 
-[tpl]harv|Erdös|Selfridge|1973[/tpl], 
-[tpl]harv|Spencer|1987[/tpl], 
+, 
+, 
 converts such a proof, in a "very precise sense", 
 into an efficient deterministic algorithm,
 one that is guaranteed to compute an object with the desired properties.
@@ -19,7 +19,7 @@ underlying the proof.
 
 == Overview ==
 
-[tpl]harv|Raghavan|1988[/tpl]  gives this description:
+  gives this description:
 :We first show the existence of a provably good approximate solution using the probabilistic method... then show that the probabilistic existence proof can be converted, in a very precise sense, into a deterministic approximation algorithm.
 (Raghavan is discussing the method in the context of randomized rounding, 
 but it works with the probabilistic method in general.)

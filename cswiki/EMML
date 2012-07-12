@@ -1,21 +1,21 @@
 
-EMML, or Enterprise Mashup Markup Language, is an XML markup language for creating enterprise mashups, which are software applications that consume and mash data from variety of sources, often performing logical or mathematical operations as well as presenting data. Mashed data produced by enterprise mashups are presented in graphical user interfaces as mashlets, widgets, or gadgets. EMML can also be considered a declarative mashup Domain Specific Language (DSL). A mashup DSL eliminates the need for complex, time-consuming, and repeatable procedural programming logic to create enterprise mashups. EMML also provides a declarative language for creating visual tools for enterprise mashups.  EMML is an open language specification that is promoted by the Open Mashup Alliance (see below), with the eventual objective of submitting the specification to a recognized industry standards body.[tpl]cite web | title = Enterprise mashup proponents start organizing | url = http://blogs.zdnet.com/service-oriented/?p=2972[/tpl] The language is free-to-use, including technologies that embed or use it.[tpl]cite web | title = OMA FAQs | url = http://www.openmashup.org/faq/#4[/tpl]
-[tpl]cquote|I’ve personally examined EMML and can attest that it’s a clean powerful design that includes potent capabilities such as declarative data transformation, advanced procedural logic, parallelism, meta-data and much more.|200px||Dion Hinchcliffe, Industry Analyst[tpl]cite web|title=Creating a unified model for enterprise mashups|url=http://blogs.zdnet.com/Hinchcliffe/?p=872[/tpl][/tpl]
-The primary benefits of EMML are mashup design portability and interoperability of mashup solutions.[tpl]cite web | title = OMA FAQs | url = http://www.openmashup.org/faq/#2[/tpl] These benefits are expected to accelerate the adoption of enterprise mashups by creating transferable skills for software developers and reducing vendor lock-in. The introduction of EMML is expected to help accelerate the trend toward the integration of Web-based applications and Service-oriented architecture (SOA) technologies.[tpl]cite web | title = Where Is The Future of SOA Headed? Where The Web Goes | url = http://www.ebizq.net/blogs/enterprise/2009/09/where_is_soa_heading_where_the.php[/tpl] Bank of America was a high-profile early supporter of EMML.[tpl]cite web | title = Why Bank of America Joined the Open Mashup Alliance | url = http://adtmag.com/articles/2009/09/25/why-bank-of-america-joined-open-mashup-alliance.aspx[/tpl] Other prominent early supporters included Hewlett-Packard, Capgemini, Adobe Systems, and Intel.
+EMML, or Enterprise Mashup Markup Language, is an XML markup language for creating enterprise mashups, which are software applications that consume and mash data from variety of sources, often performing logical or mathematical operations as well as presenting data. Mashed data produced by enterprise mashups are presented in graphical user interfaces as mashlets, widgets, or gadgets. EMML can also be considered a declarative mashup Domain Specific Language (DSL). A mashup DSL eliminates the need for complex, time-consuming, and repeatable procedural programming logic to create enterprise mashups. EMML also provides a declarative language for creating visual tools for enterprise mashups.  EMML is an open language specification that is promoted by the Open Mashup Alliance (see below), with the eventual objective of submitting the specification to a recognized industry standards body.
+
+The primary benefits of EMML are mashup design portability and interoperability of mashup solutions. Other prominent early supporters included Hewlett-Packard, Capgemini, Adobe Systems, and Intel.
 
 ==EMML History==
 
-Raj Krishnamurthy (Chief Architect at JackBe Corporation) and Deepak Alur (VP Engineering at JackBe Corporation) started working on EMML in 2006. Their objective was to enable user-oriented and user-enabled mashups by creating what was then a new type of middleware called an Enterprise Mashup Platform. Raj Krishnamurthy became the chief language designer and implementer of EMML and also led the team to create an Eclipse-based EMML IDE called Mashup Studio.[tpl]cite web | title = JackBe announces free enterprise mashup software | url = http://www.ebizq.net/news/10503.html[/tpl] This work evolved into the EMML reference implementation that was donated to the Open Mashup Alliance. Raj Krishnamurthy continues to be one of the key contributors to EMML through the Open Mashup Alliance.
+Raj Krishnamurthy (Chief Architect at JackBe Corporation) and Deepak Alur (VP Engineering at JackBe Corporation) started working on EMML in 2006. Their objective was to enable user-oriented and user-enabled mashups by creating what was then a new type of middleware called an Enterprise Mashup Platform. Raj Krishnamurthy became the chief language designer and implementer of EMML and also led the team to create an Eclipse-based EMML IDE called Mashup Studio. This work evolved into the EMML reference implementation that was donated to the Open Mashup Alliance. Raj Krishnamurthy continues to be one of the key contributors to EMML through the Open Mashup Alliance.
 
 ==EMML and Open Mashup Alliance==
 
-The Open Mashup Alliance  (OMA) was launched to promote enterprise mashup interoperability and portability. The OMA is developing EMML as an industry specification that is available under a Creative Commons Attribution No Derivatives license.[tpl]cite web | title = OMA FAQs | url = http://www.openmashup.org/faq/#3[/tpl]  The license means that EMML users are allowed to copy and distribute EMML. However, EMML can not be modified by users and the ownership of EMML by the OMA must be made clear in any redistribution.[tpl]cite web | title = Creative Commons Attribution No Derivatives License Overview | url = http://creativecommons.org/licenses/by-nd/3.0/[/tpl] The OMA Web site provides the EMML specification [tpl]cite web | title = OMA Download Agreement Page | url = http://www.openmashup.org/download/agreement.html[/tpl], the EMML schema[tpl]cite web | title = EMML Schema | url = http://www.openmashup.org/schemas/v1.0/EMMLSpec.xsd[/tpl], a reference runtime implementation capable of running EMML scripts, sample EMML mashup scripts, and technical documentation.[tpl]cite web | title = EMML Technical Documentation | url = http://www.openmashup.org/omadocs/v1.0/index.html[/tpl]
+The Open Mashup Alliance  (OMA) was launched to promote enterprise mashup interoperability and portability. The OMA is developing EMML as an industry specification that is available under a Creative Commons Attribution No Derivatives license.
 The eventual objective of the OMA is to submit the EMML specification and any other OMA specifications to a recognized industry standards body.
 
 ==EMML Features==
 
 EMML language provides a rich set of high-level mashup-domain vocabulary to consume and mash a variety of Web data-sources in flexible ways.  EMML provides a uniform syntax to invoke heterogeneous service styles: REST, WSDL, RSS/ATOM, RDBMS, and POJO. The EMML language also provides ability to mix diverse data formats: XML, JSON, JDBC, JavaObjects, and primitive types. 
-High-level EMML language features include[tpl]cite web | title = EMML Technical Documentation | url = http://www.openmashup.org/omadocs/v1.0/index.html/[/tpl]:
+High-level EMML language features include:
 * Filter and sort data coming from heterogeneous services
 * Join data across heterogeneous services and data formats   
 * Group and aggregate data using assorted functions
@@ -29,42 +29,42 @@ EMML is primarily a XML-based declarative language, but also provides ability to
 
 === Directinvoke statement===
 
-directinvoke[tpl]cite web | title = EMML Documentation Directinvoke chapter | url = http://www.openmashup.org/omadocs/v1.0/emml/directinvokeRefCmd.html[/tpl] provides ability to invoke and consume a variety of data services.  These data services may be REST, RSS/ATOM, or SOAP services. directinvoke also supports Web clipping by allowing HTML pages to be specified as service endpoints. HTTP GET, POST, PUT, and DELETE protocols are supported in directinvoke. HTTP Header and cookie support is also available thus providing capability to consume a wide variety of REST/SOAP Web services. It is possible to use directinvoke with a proxy server.
+directinvoke provides ability to invoke and consume a variety of data services.  These data services may be REST, RSS/ATOM, or SOAP services. directinvoke also supports Web clipping by allowing HTML pages to be specified as service endpoints. HTTP GET, POST, PUT, and DELETE protocols are supported in directinvoke. HTTP Header and cookie support is also available thus providing capability to consume a wide variety of REST/SOAP Web services. It is possible to use directinvoke with a proxy server.
 Code sample of passing attributes as parameters to a service:
 
 === Filter statement ===
 
-The filter[tpl]cite web | title = EMML Documentation Filter chapter | url =http://www.openmashup.org/omadocs/v1.0/emml/filterRefCmd.html[/tpl] statement filters the content of a variable using an XPath expression and places the result in a new variable.
+The filter statement filters the content of a variable using an XPath expression and places the result in a new variable.
 Code sample for filtering west-coast customers using region data-item:
 
 === Sort statement ===
 
-The sort[tpl]cite web | title = EMML Documentation Sort chapter | url =http://www.openmashup.org/omadocs/v1.0/emml/sortRefCmd.html[/tpl] statement sorts the content of a document-type variable or variable fragment based on key expressions and places the result in another variable.
+The sort statement sorts the content of a document-type variable or variable fragment based on key expressions and places the result in another variable.
 Code sample that sorts tickets based on created date and customer:
 
 === Groupby statement ===
 
-groupby[tpl]cite web | title = EMML Documentation Groupby chapter | url =http://www.openmashup.org/omadocs/v1.0/emml/groupRefCmd.html[/tpl] provides the ability to group and aggregate data sets. Standard XPath aggregation operations can be used and there is an extension mechanism for adding user-defined functions. Nested Grouping of hierarchical data sets are also supported. There is a Having clause to filter Group attributes.
+groupby provides the ability to group and aggregate data sets. Standard XPath aggregation operations can be used and there is an extension mechanism for adding user-defined functions. Nested Grouping of hierarchical data sets are also supported. There is a Having clause to filter Group attributes.
 Code sample that groups books by genre and computes total copies for each genre:
 
 === Merge statement ===
 
-merge[tpl]cite web | title = EMML Documentation Merge chapter | url =http://www.openmashup.org/omadocs/v1.0/emml/mergeRefCmd.html[/tpl] provides ability to combine various data sources including RSS/ATOM feeds, XML,  JSON payload formats. The merge feature is similar to SQL UNION functionality but merges hierarchical document structures.
+merge provides ability to combine various data sources including RSS/ATOM feeds, XML,  JSON payload formats. The merge feature is similar to SQL UNION functionality but merges hierarchical document structures.
 Code sample that merges Yahoo! News, Financial News, and Reuters feeds:
 
 === Annotate statement ===
 
-annotate[tpl]cite web | title = EMML Documentation Annotate chapter | url =http://www.openmashup.org/omadocs/v1.0/emml/annotateRefCmd.html[/tpl] provides ability to enrich the semantic meaning of source service data with microformat-like elements/attributes. These data annotations can be used by mashlets or gadgets to provide richer visual user interfaces.
+annotate provides ability to enrich the semantic meaning of source service data with microformat-like elements/attributes. These data annotations can be used by mashlets or gadgets to provide richer visual user interfaces.
 Code sample for annotating vendor payload with geo-coordinates:
 
 === Join statement ===
 
-The join[tpl]cite web | title = EMML Documentation Join chapter | url =http://www.openmashup.org/omadocs/v1.0/emml/joinRefCmd.html[/tpl] statement defines how disparate, hierarchical data formats are joined and is comparable to inner joins for relational databases.
+The join statement defines how disparate, hierarchical data formats are joined and is comparable to inner joins for relational databases.
 Code sample where output variable contains a  element with a repeating set of  children, which are the repeating items. Each  contains a  child with data from the variable named movies and  and  children with data from the variable named reviews:
 
 === Scripting in EMML ===
 
-EMML is a declarative language, but provides programmatic scripting[tpl]cite web | title = EMML Documentation Scripting chapter | url =http://www.openmashup.org/omadocs/v1.0/emml/scriptRefCmd.html[/tpl] extensions for performing complex mashup logic. JavaScript, JRuby, Groovy, POJO, XQuery scripting environments are supported. Data flows seamlessly between EMML and scripting environments. 
+EMML is a declarative language, but provides programmatic scripting extensions for performing complex mashup logic. JavaScript, JRuby, Groovy, POJO, XQuery scripting environments are supported. Data flows seamlessly between EMML and scripting environments. 
 Code sample where JavaScript snippet is used to extract authentication token that is required for subsequent calls  "result" variable that gets propagated to JavaScript environment:
 
 ==See also==
@@ -95,5 +95,5 @@ Code sample where JavaScript snippet is used to extract authentication token tha
 *EMML Documentation
 *Open Mashup Alliance/EMML Interest Group
 *Open Mashup Alliance Home page
-*[tpl]Twitter|openmashup|Open Mashup Alliance[/tpl]
+*
 

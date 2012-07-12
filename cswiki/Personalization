@@ -4,7 +4,7 @@ Personalization involves using technology to accommodate the differences between
 ==Definition==
 
 A good definition of personalization is the following:
-Personalization technology enables the dynamic insertion, customization or suggestion of content in any format that is relevant to the individual user, based on the user’s implicit behaviour and preferences, and explicitly given details.[tpl]cite web|last=Doman|first=James|title=What is the definition of "personalization"?|url=http://www.quora.com/What-is-the-definition-of-personalization|publisher=Quora|accessdate=19 March 2012[/tpl] 
+Personalization technology enables the dynamic insertion, customization or suggestion of content in any format that is relevant to the individual user, based on the user’s implicit behaviour and preferences, and explicitly given details. 
 This can be dissected as:
 "Personalization technology enables the dynamic insertion, customization or suggestion of content" – personalization doesn’t just have to be product recommendations: it can also include inserting any content like images or text (e.g. displaying a golf-orientated banner for a returning golf supplies buyer), or customizing content that is already there (e.g. “Hi Joe, we’ve got some great movie suggestions for you!”).
 “…in any format” – it isn’t restricted to the web. It can be implemented for any medium or touchpoint, such as emails, apps, instore kiosks, etc.
@@ -32,7 +32,7 @@ Internet activist Eli Pariser has documented that search engines like Google and
 
 ==Digital media==
 
-Another aspect of personalization is the increasing prevalence of open data on the Web. Many companies make their data available on the Web via APIs, web services, and open data standards.[tpl]cite news| url=http://www.guardian.co.uk/news/datablog/2010/apr/02/ordnance-survey-open-data | location=London | work=The Guardian | first1=Chris | last1=Thorpe | first2=Simon | last2=Rogers | title=Ordnance Survey opendata maps: what does it actually include? | date=2 April 2010[/tpl] Ordnance Survey Open Data This data is structured to allow it to be inter-connected and re-used by third parties.Google Opens Up Data Centre for Third Party Web Applications
+Another aspect of personalization is the increasing prevalence of open data on the Web. Many companies make their data available on the Web via APIs, web services, and open data standards. Ordnance Survey Open Data This data is structured to allow it to be inter-connected and re-used by third parties.Google Opens Up Data Centre for Third Party Web Applications
 Data available from a user’s personal social graph can be accessed by third-party application software to be suited to fit the personalized web page or information appliance.
 Current open data standards on the Web include:
 # DataPortability

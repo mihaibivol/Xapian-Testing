@@ -312,7 +312,7 @@ The following is a list of algorithms along with one-line descriptions for each.
 ** Finite difference method
 * Runge–Kutta methods
 ** Euler integration
-* Verlet integration ([tpl]IPA-fr|vɛʁˈlɛ[/tpl]): integrate Newton's equations of motion
+* Verlet integration (): integrate Newton's equations of motion
 
 ==== Elementary and special functions====
 
@@ -522,7 +522,7 @@ The following is a list of algorithms along with one-line descriptions for each.
 ** Variational method
 *** Ritz method
 * N-body problems
-** Barnes–Hut simulation: Solves the n-body problem in an approximate way that has the order [tpl]math|O(n log n)[/tpl] instead of [tpl]math|O(n2)[/tpl] as in a direct-sum simulation.
+** Barnes–Hut simulation: Solves the n-body problem in an approximate way that has the order  as in a direct-sum simulation.
 ** Fast multipole method (FMM): speeds up the calculation of long-ranged forces
 * Rainflow-counting algorithm: Reduces a complex stress history to a count of elementary stress-reversals for use in fatigue analysis
 * Sweep and prune: a broad phase algorithm used during collision detection to limit the number of pairs of solids that need to be checked for collision

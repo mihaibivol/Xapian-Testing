@@ -8,7 +8,7 @@ The focus of this page is provide details about each feature, but not teach usag
 
 ==General features==
 
-The Google search engine has many features, intended as intuitively obvious to users, to make it more functional. Google is one of the top ten most-visited websites today.[tpl]cite web |url=http://www.alexa.com/site/ds/top_sites?ts_mode=global&lang=none |title=Top 500 |accessdate=2008-04-15 |publisher=Alexa[/tpl] Some of its features include a definition link for most searches, including dictionary words, a list of how many results matched the search, links to other searches (e.g. if words were misspelled, it gives a link to the search results for the correct spellings), and many more.
+The Google search engine has many features, intended as intuitively obvious to users, to make it more functional. Google is one of the top ten most-visited websites today. Some of its features include a definition link for most searches, including dictionary words, a list of how many results matched the search, links to other searches (e.g. if words were misspelled, it gives a link to the search results for the correct spellings), and many more.
 
 ===Search syntax===
 
@@ -25,11 +25,11 @@ Google applies query expansion to the submitted search query, transforming it in
 ==="I'm Feeling Lucky"===
 
 Google's homepage includes a button labeled "I'm Feeling Lucky".  When a user clicks on the button the user will be taken directly to the first search result, bypassing the search engine results page.  The thought is that, if a user is "feeling lucky", the search engine will return the perfect match the first time without having to page through the search results. 
-According to a study by Tom Chavez of "Rapt", this feature costs Google $110 million a year as 1% of all searches use this feature and bypass all advertising.[tpl]cite web | title=""I'm feeling lucky" button costs Google $110 million per year" | year=2007 | publisher=Valleywag | url=http://valleywag.com/tech/google/im-feeling-lucky-button-costs-google-110-million-per-year-324927.php | accessdate=2008-01-19[/tpl]
+According to a study by Tom Chavez of "Rapt", this feature costs Google $110 million a year as 1% of all searches use this feature and bypass all advertising.
 
 === Rich Snippets ===
 
-On 12 May 2009, Google announced that they would be parsing the hCard, hReview and hProduct microformats, and using them to populate search result pages with what they called "Rich Snippets".[tpl]cite web|url=http://googlewebmastercentral.blogspot.com/2009/05/introducing-rich-snippets.html|title=Introducing Rich Snippets|last=Goel|first=Kavi|coauthors=Ramanathan V. Guha, Othar Hansson|date=2009-05-12|work=Google Webmaster Central Blog|publisher=Google|accessdate=2009-05-25[/tpl]
+On 12 May 2009, Google announced that they would be parsing the hCard, hReview and hProduct microformats, and using them to populate search result pages with what they called "Rich Snippets".
 
 ===Special features===
 
@@ -53,7 +53,7 @@ Besides the main search-engine feature of searching for text, Google Search has 
 * currency conversion – A money or currency converter can be selected, by typing the names or currency codes (listed by ISO 4217): 6789 Euro in USD; 150 GBP in USD; 5000 Yen in USD; 5000 Yuan in lira (the U.S. dollar can be USD or "US$" or "$", while Canadian is CAD, etc.).
 * dictionary lookup – A definition for a word or phrase can be found, by entering "define" plus the word(s) to look up (such as: Define philosophy)
 * maps – Some related maps can be displayed, by typing in the name or U.S. ZIP code of a location and the word "map" (such as: New York map; Kansas map; or Paris map).
-* movie showtimes - Reviews or film showtimes can be listed for any movies playing nearby, by typing "movies" or the name of any current film into the search box. If a specific location was saved on a previous search, the top search result will display show times for nearby theaters for that movie. These listings however are sometimes totally incorrect and there is no way to ask Google to correct them; for example, on 07/25 2009, for the El Capitan Theatre, google showtimes lists Up, but according to the El Capitan website, the only movie playing that day is G-Force.[tpl]Citation needed|date=March 2012[/tpl]
+* movie showtimes - Reviews or film showtimes can be listed for any movies playing nearby, by typing "movies" or the name of any current film into the search box. If a specific location was saved on a previous search, the top search result will display show times for nearby theaters for that movie. These listings however are sometimes totally incorrect and there is no way to ask Google to correct them; for example, on 07/25 2009, for the El Capitan Theatre, google showtimes lists Up, but according to the El Capitan website, the only movie playing that day is G-Force.
 * public data - Trends for population (or unemployment rates) can be found for U.S. states and counties, by typing "population" or "unemployment rate" followed by a state or county name.
 * real estate and housing - Home listings in a given area can be displayed, using the trigger words "housing", "home", or "real estate" followed by the name of a city or U.S. zip code.
 * travel data and airports - The flight status for arriving or departing U.S. flights can be displayed by typing in the name of the airline and the flight number into the search box (such as: American airlines 18). Delays at a specific airport can also be viewed (by typing the name of the city or three-letter airport code plus word "airport").
@@ -95,8 +95,8 @@ Some searches will give a 403 Forbidden error with the text:
  "We're sorry...
 :     ... but your query looks similar to automated requests from a computer virus or spyware application. To protect our users, we can't process your request right now.
 :     We'll restore your access as quickly as possible, so try again soon. In the meantime, if you suspect that your computer or network has been infected, you might want to run a virus checker or spyware remover to make sure that your systems are free of viruses and other spurious software.
-:     We apologize for the inconvenience, and hope we'll see you again on Google."sometimes followed by a CAPTCHA prompt.[tpl]cite web | url=http://www.google.com/support/bin/answer.py?answer=15661 | title=Google error page | accessdate=2008-12-31[/tpl]
-The screen was first reported in 2005, and was a response to the heavy use of Google by search engine optimization companies to check on ranks of sites they were optimizing. The message may also be triggered by high volumes of different searches from a single IP address. Google apparently uses the Google cookie as part of its determination of refusing service. The error usually occurs after the 11th page in your google search. The block is generally removed after a day.[tpl]Citation needed|date=October 2007[/tpl]
+:     We apologize for the inconvenience, and hope we'll see you again on Google."sometimes followed by a CAPTCHA prompt.
+The screen was first reported in 2005, and was a response to the heavy use of Google by search engine optimization companies to check on ranks of sites they were optimizing. The message may also be triggered by high volumes of different searches from a single IP address. Google apparently uses the Google cookie as part of its determination of refusing service. The error usually occurs after the 11th page in your google search. The block is generally removed after a day.
 
 ==See also==
 
@@ -111,7 +111,7 @@ The screen was first reported in 2005, and was a response to the heavy use of Go
 * How to Do Everything with Google by Fritz Schneider, Nancy Blachman, and Eric Fredricksen (McGraw-Hill Osborne Media, 2003). ISBN 0-07-223174-2
 * Google Power by Chris Sherman (McGraw-Hill Osborne Media, 2005). ISBN 0-07-225787-3
 * SEO for Google  by Paul Bliss - an eBook that describes in precise detail the methods needed to get your site top rankings in Google for your keywords.
-* [tpl]cite journal |last=Barroso |first=Luiz Andre |authorlink= |coauthors=Dean, Jeffrey; Hölzle, Urs |year=2003 |month= |title=Web Search for a Planet: The Google Cluster Architecture |journal=IEEE micro |volume=23 |issue=2 |pages=22–28 |doi=10.1109/MM.2003.1196112 |url= |accessdate= |quote= [/tpl]
+* 
 
 ==External links==
 

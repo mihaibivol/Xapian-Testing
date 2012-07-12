@@ -1,6 +1,6 @@
 
-The Yager's OWA (ordered weighted averaging) operators[tpl]cite journal|last=Yager|first=R.R|title=On ordered weighted averaging aggregation operators in multi-criteria decision making|journal=IEEE Transactions on Systems, Man and Cybernetics|year=1988|volume=18|pages=183–190[/tpl]  have been widely used to aggregate the crisp values in decision making schemes (such as multi-criteria decision making, multi-expert decisin making, multi-criteria multi-expert decision making)[tpl]cite book|last=Yager|first=R. R. and Kacprzyk, J|title=The Ordered Weighted Averaging Operators: Theory and Applications|year=1997|publisher=Kluwer: Norwell, MA[/tpl][tpl]cite book|last=Yager|first=R.R, Kacprzyk, J. and Beliakov, G|title=Recent Developments in the Ordered Weighted Averaging Operators-Theory and Practice|year=2011|publisher=Springer[/tpl]. It is widely accepted that fuzzy sets[tpl]cite journal|last=Zadeh|first=L.A|title=Fuzzy sets|journal=Information and Control |year=1965|volume=8 |pages=338–353|doi=10.1016/S0019-9958(65)90241-X[/tpl] are more suitable for representing preferences of criteria in decision making. But fuzzy sets are not crisp values, how can we aggregate fuzzy sets in OWA mechanism? 
-The type-1 OWA operators[tpl]cite journal|last=Zhou|first=S. M.|coauthors=F. Chiclana, R. I. John and J. M. Garibaldi|title=Type-1 OWA operators for aggregating uncertain information with uncertain weights induced by type-2 linguistic quantifiers|journal=Fuzzy Sets and Systems|year=2008|volume=159|issue=24|pages=3281–3296|doi=10.1016/j.fss.2008.06.018[/tpl][tpl]cite journal|last=Zhou|first=S. M.|coauthors=F. Chiclana, R. I. John and J. M. Garibaldi|title=Alpha-level aggregation: a practical approach to type-1 OWA operation for aggregating uncertain information with applications to breast cancer treatments|journal=IEEE Transactions on Knowledge and Data Engineering|year=2011|volume=23|issue=10|pages=1455–1468|doi=10.1109/TKDE.2010.191[/tpl]  have been proposed for this purpose. So the type-1 OWA operators provides us with a new technique for directly aggregating uncertain information with uncertain weights via OWA mechanism in soft decision making and data mining, where these uncertain objects are modelled by fuzzy sets.
+The Yager's OWA (ordered weighted averaging) operators are more suitable for representing preferences of criteria in decision making. But fuzzy sets are not crisp values, how can we aggregate fuzzy sets in OWA mechanism? 
+The type-1 OWA operators  have been proposed for this purpose. So the type-1 OWA operators provides us with a new technique for directly aggregating uncertain information with uncertain weights via OWA mechanism in soft decision making and data mining, where these uncertain objects are modelled by fuzzy sets.
 
 ==Definitions==
 
@@ -22,14 +22,14 @@ A fast method has been presented to solve two programming problem so that the ty
 ==Special Cases of Type-1 OWA Operators==
 
 * Any OWA operators, like maximum, minimum, mean operators;
-* Join operators of (type-1) fuzzy sets[tpl]cite journal|last=Mizumoto|first=M.|coauthors=K. Tanaka|title=Some Properties of fuzzy sets of type 2|journal=Information and Control|year=1976|volume=31|pages=312–40[/tpl][tpl]cite journal|last=Zadeh|first=L. A.|title=The concept of a linguistic variable and its application to approximate reasoning-1|journal=Information Sciences|year=1975|volume=8|pages=199–249[/tpl], i.e., fuzzy maximum operators;  
+* Join operators of (type-1) fuzzy sets, i.e., fuzzy maximum operators;  
 * Meet operators of (type-1) fuzzy sets, i.e., fuzzy minimum operators;
-* Join-like operators of (type-1) fuzzy sets[tpl]cite journal|last=Zhou|first=S. M.|coauthors=F. Chiclana, R. I. John, and J. M. Garibaldi|title=Fuzzificcation of the OWA Operators in Aggregating Uncertain Information|journal=R. R. Yager, J. Kacprzyk and G. Beliakov (ed): Recent Developments in the Ordered Weighted Averaging Operators-Theory and Practice|year=2011|volume=Springer|pages=91–109|doi=10.1007/978-3-642-17910-5_5[/tpl]; 
+* Join-like operators of (type-1) fuzzy sets; 
 * Meet-like operators of (type-1) fuzzy sets.
 
 ==Generalizations==
 
-Type-2 OWA operators[tpl]cite journal|last=Zhou|first=S.M.|coauthors=R. I. John, F. Chiclana and J. M. Garibaldi|title=On aggregating uncertain information by type-2 OWA operators for soft decision making|journal=International Journal of Intelligent Systems|year=2010|volume=25|issue=6|pages=540–558|doi=10.1002/int.20420[/tpl] have been suggested to aggregate the type-2 fuzzy sets for soft decision making.
+Type-2 OWA operators have been suggested to aggregate the type-2 fuzzy sets for soft decision making.
 
 == References ==
 

@@ -15,7 +15,7 @@ by David A. Wheeler
 == Google's stance ==
 
 From 2006 until 2010, Google Code only accepted projects licensed only under the following licenses:[ref]
-[tpl]cite web | author=Ed Burnette | title=Google says no to license proliferation | url=http://www.zdnet.com/blog/burnette/google-says-no-to-license-proliferation/192 | date=2006-11-02 | accessdate=2010-09-11 | archiveurl=http://web.archive.org/web/20070224072515/http://blogs.zdnet.com/Burnette/?p=192 | archivedate=2007-02-24 [/tpl][/ref]
+[/ref]
 * Apache License 2.0
 * Artistic License/GPL (often used by the Perl community)
 * GNU General Public License 3.0
@@ -25,16 +25,16 @@ From 2006 until 2010, Google Code only accepted projects licensed only under the
 * New BSD License
 * Mozilla Public License 1.1
 * Eclipse Public License
-In 2008, Google started to recommend the Apache License or version 3 of the GPL (GPLv3).[tpl]cite web | author=Greg Stein | authorlink = Greg Stein  | title=Standing Against License Proliferation | url=http://google-opensource.blogspot.com/2008/05/standing-against-license-proliferation.html | date=2009-05-28 | accessdate=2010-09-11 | archiveurl=http://web.archive.org/web/20080601023839/http://google-opensource.blogspot.com/2008/05/standing-against-license-proliferation.html | archivedate=2008-06-01 [/tpl]
-2010, Google reversed these restrictions, and announced that it would require that projects hosted on Google Code be licensed under an OSI-approved license (see #OSI's stance below).[tpl]cite web | author=Chris DiBona | authorlink = Chris DiBona  | title=License Evolution and Hosting Projects on Code.Google.Com | url=http://googlecode.blogspot.com/2010/09/license-evolution-and-hosting-projects.html | date=2010-09-10 | accessdate=2010-09-11[/tpl]
+In 2008, Google started to recommend the Apache License or version 3 of the GPL (GPLv3).
+2010, Google reversed these restrictions, and announced that it would require that projects hosted on Google Code be licensed under an OSI-approved license (see #OSI's stance below).
 
 == OSI's stance ==
 
-Open Source Initiative (OSI) consider themselves the keepers of what licenses can be called open source. They maintain a list of licenses that are OSI Approved Licenses, and early in their history, contributed some to license proliferation by assisting in the production and approving vanity licenses.   Indeed, some[tpl]Who|date=September 2009[/tpl] including Mark Shuttleworth argue that the OSI is largely responsible for the license proliferation problem by continuing to accept new licenses. The OSI  License Proliferation Project has prepared a  License Proliferation Report.
+Open Source Initiative (OSI) consider themselves the keepers of what licenses can be called open source. They maintain a list of licenses that are OSI Approved Licenses, and early in their history, contributed some to license proliferation by assisting in the production and approving vanity licenses.   Indeed, some including Mark Shuttleworth argue that the OSI is largely responsible for the license proliferation problem by continuing to accept new licenses. The OSI  License Proliferation Project has prepared a  License Proliferation Report.
 
 == FSF's stance ==
 
-Richard Stallman, president of FSF, and Bradley M. Kuhn, former Executive Director, have argued against license proliferation since 2000, when they instituted the FSF license list, which urges developers to license their software under GPL compatible free software license(s), though multiple GPL-incompatible free software licenses are listed with a comment stating that there is no problem using and/or working on a piece of software already under the licenses in question while also urging readers of the list not to use those licenses on software they write.The earliest archived version of the license list reflects this position. [tpl]cite news | author=Bradley M. Kuhn | authorlink=Bradley M. Kuhn | title=Various Licenses and Comments about Them | url=http://www.gnu.org/philosophy/license-list.html | publisher=Free Software Foundation | pages= 37–39 | date=2000-08-15 | accessdate=2000-08-15 | archiveurl=http://web.archive.org/web/20000815065020/http://www.gnu.org/philosophy/license-list.html | archivedate=2008-07-04 [/tpl]
+Richard Stallman, president of FSF, and Bradley M. Kuhn, former Executive Director, have argued against license proliferation since 2000, when they instituted the FSF license list, which urges developers to license their software under GPL compatible free software license(s), though multiple GPL-incompatible free software licenses are listed with a comment stating that there is no problem using and/or working on a piece of software already under the licenses in question while also urging readers of the list not to use those licenses on software they write.The earliest archived version of the license list reflects this position. 
 
 == FSFE's stance ==
 

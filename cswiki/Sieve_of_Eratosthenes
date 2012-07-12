@@ -1,5 +1,5 @@
 
-In mathematics, the sieve of Eratosthenes ([tpl]lang-el|κόσκινον Ἐρατοσθένους[/tpl]), one of a number of prime number sieves, is a simple, ancient algorithm for finding all prime numbers up to any given limit. It does so by iteratively marking as composite (i.e. not prime) the multiples of each prime, starting with the multiples of 2.Horsley, Rev. Samuel, F. R. S., "[tpl]lang|el|Κόσκινον Ερατοσθένους[/tpl]  or, The Sieve of Eratosthenes. Being an Account of His Method of Finding All the Prime Numbers," Philosophical Transactions (1683–1775), Vol. 62. (1772), pp. 327–347.
+In mathematics, the sieve of Eratosthenes (  or, The Sieve of Eratosthenes. Being an Account of His Method of Finding All the Prime Numbers," Philosophical Transactions (1683–1775), Vol. 62. (1772), pp. 327–347.
 The multiples of a given prime are generated starting from that prime, as a sequence of numbers  with the same difference, equal to that prime, between consecutive numbers. This is the sieve's key distinction from using trial division to sequentially test each candidate number for divisibility by each prime.
 The sieve of Eratosthenes is one of the most efficient ways to find all of the smaller primes (below 10 million or so).The Prime Glossary: "The Sieve of Eratosthenes", http://primes.utm.edu/glossary/page.php?sort=SieveOfEratosthenes, references 16. November 2008. It is named after Eratosthenes of Cyrene, an ancient Greek mathematician; although none of his works have survived, the sieve was described and attributed to Eratosthenes in the Introduction to Arithmetic by Nicomachus.Nicomachus, Introduction to Arithmetic, I, 13. http://www.archive.org/stream/nicomachigerasen00nicouoft#page/29/mode/1up
 
@@ -17,7 +17,7 @@ Another refinement is to initially list odd numbers only, (3, 5, ..., n), and co
 
 ===Incremental sieve===
 
-An incremental formulation of the sieveO'Neill, Melissa E., "The Genuine Sieve of Eratosthenes", Journal of Functional Programming, Published online by Cambridge University Press 9 October 2008 [tpl]doi|10.1017/S0956796808007004[/tpl], pp. 10, 11 (contains two incremental sieves in Haskell: a priority-queue–based one by O'Neill and a list–based, by Richard Bird). generates primes indefinitely (i.e. without an upper bound) by interleaving the generation of primes with the generation of their multiples (so that primes can be found in gaps between the multiples), where the multiples of each prime p are generated directly, by counting up from the square of the prime in increments of p (or 2p for odd primes).
+An incremental formulation of the sieveO'Neill, Melissa E., "The Genuine Sieve of Eratosthenes", Journal of Functional Programming, Published online by Cambridge University Press 9 October 2008 , pp. 10, 11 (contains two incremental sieves in Haskell: a priority-queue–based one by O'Neill and a list–based, by Richard Bird). generates primes indefinitely (i.e. without an upper bound) by interleaving the generation of primes with the generation of their multiples (so that primes can be found in gaps between the multiples), where the multiples of each prime p are generated directly, by counting up from the square of the prime in increments of p (or 2p for odd primes).
 
 ===Trial division===
 
@@ -49,13 +49,13 @@ In pseudocode:[ref]
  Let ''A'' be an array of Boolean values, indexed by integers 2 to ''n'',
  initially all set to '''true'''.
  &nbsp;
- '''for''' ''i'' = 2, 3, 4, ..., [tpl]math|''[tpl]sqrt|n[/tpl]''[/tpl] :
+ '''for''' ''i'' = 2, 3, 4, ...,  :
    '''if''' ''A''[''i''] is '''true''':
      '''for''' ''j'' = ''i<sup>2</sup>'', ''i<sup>2</sup>+i'', ''i<sup>2</sup>+2i'', ..., ''n'':
        ''A''[''j''] := '''false'''
  &nbsp;
  Now all ''i'' such that ''A''[''i''] is '''true''' are prime.
-Large ranges may not fit entirely in memory. In these cases it is necessary to use a segmented sieve where only portions of the range are sieved at a time.Crandall & Pomerance, Prime Numbers: A Computational Perspective, second edition, Springer: 2005, pp. 121–124.  For ranges with upper limit [tpl]math|n[/tpl] so large that the sieving primes below [tpl]math||[tpl]sqrt|n[/tpl][/tpl], as required by the sieve of Eratosthenes, can't fit in memory, a slower but much more space-efficient sieve like that of Sorenson can be used instead.J. Sorenson, The pseudosquares prime sieve, Proceedings of the 7th International Symposium on Algorithmic Number Theory. (ANTS-VII, 2006).
+Large ranges may not fit entirely in memory. In these cases it is necessary to use a segmented sieve where only portions of the range are sieved at a time.Crandall & Pomerance, Prime Numbers: A Computational Perspective, second edition, Springer: 2005, pp. 121–124.  For ranges with upper limit , as required by the sieve of Eratosthenes, can't fit in memory, a slower but much more space-efficient sieve like that of Sorenson can be used instead.J. Sorenson, The pseudosquares prime sieve, Proceedings of the 7th International Symposium on Algorithmic Number Theory. (ANTS-VII, 2006).
 
 ==Arithmetic progressions==
 
@@ -63,7 +63,7 @@ The sieve may be used to find primes in arithmetic progressions.J. C. Morehead, 
 
 ==Euler's sieve==
 
-Euler's proof of the zeta product formula contains a version of the sieve of Eratosthenes in which each composite number is eliminated exactly once.[tpl]citation needed|date=August 2011[/tpl] It, too, starts with a list of numbers from 2 to n in order. On each step the first element is identified as the next prime and the results of multiplying this prime with each element of the list are marked in the list for subsequent deletion. The initial element and the marked elements are then removed from the working sequence, and the process is repeated:
+Euler's proof of the zeta product formula contains a version of the sieve of Eratosthenes in which each composite number is eliminated exactly once. It, too, starts with a list of numbers from 2 to n in order. On each step the first element is identified as the next prime and the results of multiplying this prime with each element of the list are marked in the list for subsequent deletion. The initial element and the marked elements are then removed from the working sequence, and the process is repeated:
  [2] (3) 5  7  <u>9</u>  11  13 <u>15</u> 17 19 <u>21</u> 23 25 <u>27</u> 29 31 <u>33</u> 35 37 <u>39</u> 41 43 <u>45</u> 47 49 <u>51</u> 53 55 <u>57</u> 59 61 <u>63</u> 65 67 <u>69</u> 71 73 <u>75</u> 77 79  ...
  [3]    (5) 7     11  13    17 19    23 <u>25</u>    29 31    <u>35</u> 37    41 43    47 49    53 <u>55</u>    59 61    <u>65</u> 67    71 73    77 79  ...
  [4]       (7)    11  13    17 19    23       29 31       37    41 43    47 <u>49</u>    53       59 61       67    71 73    <u>77</u> 79  ...
@@ -71,7 +71,7 @@ Euler's proof of the zeta product formula contains a version of the sieve of Era
  [...]
 Here the example is shown starting from odds, after the first step of the algorithm. Thus on kth step all the remaining multiples of the kth prime are removed from the list, which will thereafter contain only numbers coprime with the first k primes (cf. wheel factorization), so that the list will start with the next prime, and all the numbers in it below the square of its first element will be prime too.
 Thus when generating a bounded sequence of primes, when the next identified prime exceeds the square root of the upper limit, all the remaining numbers in the list are prime. In the example given above that is achieved on identifying 11 as next prime, giving a list of all primes less than or equal to 80.
-Note that numbers that will be discarded by some step are still used while marking the multiples, e.g. for the multiples of 3 it is [tpl]math|1=3 · 3 = 9[/tpl], [tpl]math|1=3 · 5 = 15[/tpl], [tpl]math|1=3 · 7 = 21[/tpl], [tpl]math|1=3 · 9 = 27[/tpl], ..., [tpl]math|1=3 · 15 = 45[/tpl], ... .
+Note that numbers that will be discarded by some step are still used while marking the multiples, e.g. for the multiples of 3 it is , ... .
 
 ==See also==
 

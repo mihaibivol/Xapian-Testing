@@ -1,42 +1,42 @@
 
 The Extended Boolean Model was described in a Communications of the ACM article appearing in 1983, by Gerard Salton, Edward A. Fox, and Harry Wu. The goal of the Extended Boolean Model is to overcome the drawbacks of the Boolean model that has been used in information retrieval. The Boolean model doesn't consider term weights in queries, and the result set of a Boolean query is often either too small or too big. The idea of the extended model is to make use of partial matching and term weights as in the vector space model. It combines the characteristics of the Vector Space Model with the properties of Boolean algebra and ranks the similarity between queries and documents. This way a document may be somewhat relevant if it matches some of the queried terms and will be returned as a result, whereas in the Standard Boolean model it wasn't.[ref]	
-[tpl]cite | url=http://portal.acm.org/citation.cfm?id=358466 | last=Salton | first=Gerard | coauthors=Edward A. Fox, Harry Wu | title=Extended Boolean information retrieval | publisher=Communications of the ACM, Volume 26,  Issue 11 | date=1983 [/tpl][/ref]
+[/ref]
 Thus, the extended Boolean model can be considered as a generalization of both the Boolean and vector space models; those two are special cases if suitable settings and definitions are employed. Further, research has shown effectiveness improves relative to that for Boolean query processing.  Other research has shown that relevance feedback and query expansion can be integrated with extended Boolean query processing.
 
 ==Definitions==
 
 In the Extended Boolean model, a document is represented as a vector (similarly to in the vector model). Each i dimension corresponds to a separate term associated with the document.
-The weight of term [tpl]math|Kx[/tpl] associated with document [tpl]math|dj[/tpl] is measured by its normalized Term frequency and can be defined as:
-where [tpl]math|Idfx[/tpl] is inverse document frequency.
-The weight vector associated with document [tpl]math|dj[/tpl] can be represented as:
+The weight of term  is measured by its normalized Term frequency and can be defined as:
+where  is inverse document frequency.
+The weight vector associated with document  can be represented as:
 
 ==The 2 Dimensions Example==
 
-Considering the space composed of two terms [tpl]math|Kx[/tpl] and [tpl]math|Ky[/tpl] only, the corresponding term weights are [tpl]math|w1[/tpl] and [tpl]math|w2[/tpl].Lusheng Wang  Thus, for query [tpl]math|qor [tpl]=[/tpl] (Kx ∨ Ky)[/tpl], we can calculate the similarity with the following formula:
-For query [tpl]math|qand [tpl]=[/tpl] (Kx ∧ Ky)[/tpl], we can use:
+Considering the space composed of two terms , we can calculate the similarity with the following formula:
+For query , we can use:
 
 ==Generalizing the idea and P-norms==
 
 We can generalize the previous 2D extended Boolean model example to higher t-dimensional space using Euclidean distances. 
-This can be done using P-norms which extends the notion of distance to include p-distances, where [tpl]math|1 ≤ p ≤ ∞[/tpl] is a new parameter.[tpl] cite | last=Garcia | first= Dr. E. | url=http://www.miislita.com/term-vector/term-vector-6-boolean-model.html | title=The Extended Boolean Model - Weighted Queries: Term Weights, p-Norm Queries and Multiconcept Types. Boolean OR Extended? AND that is the Query [/tpl]
+This can be done using P-norms which extends the notion of distance to include p-distances, where 
 *A generalized conjunctive query is given by:
 *A generalized disjunctive query is given by:
 
 ==Examples==
 
-Consider the query [tpl]math|q [tpl]=[/tpl] (K1 ∧ K2) ∨ K3[/tpl]. The similarity between query [tpl]math|q[/tpl] and document [tpl]math|d[/tpl] can be computed using the formula:
+Consider the query  can be computed using the formula:
 
 ==Improvements over the Standard Boolean Model==
 
-Lee and Fox[tpl]cite | last=Lee | first=W. C. | coauthors=E. A. Fox | date=1988 | title=Experimental Comparison of Schemes for Interpreting Boolean Queries[/tpl] compared the Standard and Extended Boolean models with three test collections, CISI, CACM and INSPEC.
+Lee and Fox compared the Standard and Extended Boolean models with three test collections, CISI, CACM and INSPEC.
 Using P-norms they obtained an average precision improvement of 79%, 106% and 210% over the Standard model, for the CISI, CACM and INSPEC collections, respectively.The P-norm model is computationally expensive because of the number of exponentiation operations that it requires but it achieves much better results than the Standard model and even Fuzzy retrieval techniques. The Standard Boolean model is still the most efficient.
 
 ==Further reading==
 
 * Adaptive Feedback Methods in an Extended Boolean Model  by Dr.Jongpill Choi
 * Interpolation of the extended Boolean retrieval model 
-* [tpl]cite | title=Information Retrieval: Algorithms and Data structures; Extended Boolean model | last=Fox | first=E. | coauthors=S. Betrabet , M. Koushik , W. Lee | date=1992 | publisher=Prentice-Hall, Inc. | url=http://www.scribd.com/doc/13742235/Information-Retrieval-Data-Structures-Algorithms-William-B-Frakes[/tpl]
-* [tpl]cite | title=Experiments with Automatic Query Formulation in the Extended Boolean Model | url=http://www.springerlink.com/content/tk1t141253257613/ | first= Lucie | last= Skorkovská | coauthors=Pavel Ircing | date=2009 | publisher= Springer Berlin / Heidelberg[/tpl]
+* 
+* 
 
 ==See also==
 

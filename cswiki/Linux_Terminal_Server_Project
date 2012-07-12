@@ -1,6 +1,6 @@
 
 Linux Terminal Server Project (LTSP) is a free and open source terminal server for Linux that allows many people to simultaneously use the same computer. Applications run on the server with a terminal known as a thin client (also known as an X terminal) handling input and output. Generally, terminals are low-powered, lack a hard disk and are quieter and more reliable than desktop computers because they do not have any moving parts.
-This technology is becoming popular in schools as it allows the school to provide pupils access to computers without purchasing or upgrading expensive desktop machines.[tpl]Citation needed|date=January 2009[/tpl] Improving access to computers becomes less costly as "new" thin client machines can be older computers that are no longer suitable for running a full desktop OS. By extending the useful life of obsolescent computers, costs can be cut. Even a relatively slow CPU with as little as 128MB of RAM can deliver excellent performance as a thin client. In addition, the use of centralized computing resources means that more performance can be gained for less money through upgrades to a single server rather than across a fleet of computers. 
+This technology is becoming popular in schools as it allows the school to provide pupils access to computers without purchasing or upgrading expensive desktop machines. Improving access to computers becomes less costly as "new" thin client machines can be older computers that are no longer suitable for running a full desktop OS. By extending the useful life of obsolescent computers, costs can be cut. Even a relatively slow CPU with as little as 128MB of RAM can deliver excellent performance as a thin client. In addition, the use of centralized computing resources means that more performance can be gained for less money through upgrades to a single server rather than across a fleet of computers. 
 By converting existing computers into thin clients, an educational institution can also gain more control over how their students are using computing resources as all of the user sessions can be monitored on the server. See Epoptes (A Lab Management Tool).
 In its current form (v5.x), LTSP relies on distributions to integrate the LTSP architecture into their respective products. In the v4.x series, LTSP was an add-on package to any distribution. Several distributions integrate LTSP either into their mainline (Ubuntu, Debian) or as a separate product, such as Edubuntu (Ubuntu), K12LTSP (CentOS) and Skolelinux (Debian), KIWI-LTSP (SUSE). LTSP is a registered trademark of DisklessWorkstations.com, LLC.
 The founder and project leader of LTSP is Jim McQuillan, and LTSP is distributed under the terms of the GNU General Public License.
@@ -14,7 +14,7 @@ The founder and project leader of LTSP is Jim McQuillan, and LTSP is distributed
 
 == Scalability ==
 
-Initially, the MILLE-Xterm project, funded by Canadian public agencies and school districts in the province of Quebec, created a version of LTSP integrating four subprojects: a portal (based on uportal), an open-source middleware stack, a CD with free software for Windows/Mac and, finally, MILLE-Xterm itself. The MILLE-Xterm project's goal was to provide a scalable infrastructure for massive X-Terminal deployment.[tpl]Citation needed|date=March 2009[/tpl]
+Initially, the MILLE-Xterm project, funded by Canadian public agencies and school districts in the province of Quebec, created a version of LTSP integrating four subprojects: a portal (based on uportal), an open-source middleware stack, a CD with free software for Windows/Mac and, finally, MILLE-Xterm itself. The MILLE-Xterm project's goal was to provide a scalable infrastructure for massive X-Terminal deployment.
 MILLE means Modèle d'Infrastructure Logiciel Libre en Éducation (Free Software Infrastructure Model for Education) and is targeted at educational institutions.
 As of 2009, MILLE-Xterm was integrated back into the LTSP as LTSP-cluster, a project specializing in the large scale deployment of LTSP. One of the main differences between LTSP and LTSP-cluster is the integration of a web-based central control center that replaces the traditional "one configuration file per thin client" as is the method of client customization through LTSP's lts.conf file in the main LTSP. LTSP-cluser allows organizations to centrally manage thousands of thin clients and their parameters from a central location.
 In LTSP-cluster high-availability and high-performance thin-clients are specified through the optional use of redundant components. Services that can be load-balanced and made highly-available are:
@@ -47,7 +47,7 @@ LTSP is unique in offering the ability for a computer to mount it's root filesys
 
 ==External links==
 
-* [tpl]Official website|http://www.ltsp.org/[/tpl]
+* 
 * LTSP Cluster official website
 * DisklessWorkstations.com
 

@@ -1,6 +1,6 @@
 
-PONIE is an acronym for Perl On New Internal Engine. The PONIE Project existed from 2003 until 2006 and was to be a bridge between Perl 5 and Perl 6. It was an effort to rewrite the Perl 5 interpreter to run on Parrot, the Perl 6 virtual machine. The goal was to ensure the future of the millions of lines of Perl 5 code at thousands of companies around the world.[tpl]citation | title = OSCON 4.4: Inside Ponie, the Bridge from Perl 5 to Perl 6 | date = Monday August 8, 2005 8:52PM | author =  Geoff Broadwell | url = http://www.oreillynet.com/onlamp/blog/2005/08/oscon_44_inside_ponie_the_brid.html | publisher = O'Reilly ONLamp Blog [/tpl]
-The PONIE project ended in 2006 and is no longer being actively developed.  Some of the improvements made to the Perl 5 interpreter as part of PONIE were folded into that project.[tpl]citation | title = Ponie has been put out to pasture | author = Jesse Vincent | date = August 23, 2006 10:40 PM | url = http://news.perlfoundation.org/2006/08/ponie_has_been_put_out_to_past.html | publisher = The Perl Foundation [/tpl]
+PONIE is an acronym for Perl On New Internal Engine. The PONIE Project existed from 2003 until 2006 and was to be a bridge between Perl 5 and Perl 6. It was an effort to rewrite the Perl 5 interpreter to run on Parrot, the Perl 6 virtual machine. The goal was to ensure the future of the millions of lines of Perl 5 code at thousands of companies around the world.
+The PONIE project ended in 2006 and is no longer being actively developed.  Some of the improvements made to the Perl 5 interpreter as part of PONIE were folded into that project.
 
 == References ==
 

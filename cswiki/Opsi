@@ -1,10 +1,10 @@
 
  
-Opsi (open PC server integration) is a software distribution and management system for Microsoft Windows clients, based on GNU/Linux servers.  Opsi is developed and maintained by uib GmbH from Mainz, Germany. The main parts of Opsi are Open Source licensed under the GNU General Public License[tpl]Citation | url = http://www.opsi.org/license/ | publisher = Opsi | title = License[/tpl]..
+Opsi (open PC server integration) is a software distribution and management system for Microsoft Windows clients, based on GNU/Linux servers.  Opsi is developed and maintained by uib GmbH from Mainz, Germany. The main parts of Opsi are Open Source licensed under the GNU General Public License..
 
 == Features ==
 
-The key features[tpl]Citation | url = http://www.opsi.org/features/ | publisher = Opsi | title = Features[/tpl]. of opsi are:
+The key features. of opsi are:
 * Automated operating system installation (OS deployment)
 * Software distribution
 * Patch management
@@ -27,7 +27,7 @@ The mechanism of the software deployment can also be used to deploy software pat
 
 == Inventory (hardware and software) ==
 
-The hard- and software inventory also uses the opsi-client-agent. The hardware information is collected via calls to   WMI while the software information is gathered from the registry. The inventory data are sent back to the opsi-server by a web service. The inventory data may imported via a web service to a CMDB e.g. in OTRS.[tpl]Citation | url = http://www.cape-it.de/product-kix4otrs.html | publisher = Cape IT | title = Product | contribution = Kix44OTRS | place = DE[/tpl].
+The hard- and software inventory also uses the opsi-client-agent. The hardware information is collected via calls to   WMI while the software information is gathered from the registry. The inventory data are sent back to the opsi-server by a web service. The inventory data may imported via a web service to a CMDB e.g. in OTRS..
 
 == License management / Software Asset Management ==
 
@@ -43,7 +43,7 @@ The opsi-server provides the following services:
 
 == Management interface ==
 
-For managing opsi a graphical user interface[tpl]Citation | url = http://www.opsi.org/screenshots/ | publisher = Opsi | title = Screenshots[/tpl]. is available as an application or as a browser Applet.  Management is also possible with a command line tool or via web service[tpl]Citation | url = http://download.uib.de/opsi_stable/doc/opsi-manual-stable-en.pdf | publisher = UIB | place = DE | title = Opsi manual, stable | format = PDF | chapter = opsi-admin[/tpl]..
+For managing opsi a graphical user interface..
 
 == License ==
 
@@ -51,12 +51,12 @@ The opsi core features are Open Source according to the GNU General Public Licen
 
 == Co-funding projects ==
 
-Even though opsi is open source, there are some components which are not for free at the moment. These components are developed in a co-funding project. This means, that these parts are only available for those customers who paid a contribution to the cost of development. As soon as the development of a co-funding project is refinanced, the component will be part of the free opsi-version and can be used free of charge. It will be open source (as long as not prevented caused by technical reasons). The first of these co-funding Projects was the opsi support for Windows Vista/Windows 7. It was completed on 1st of February 2008 and is free of charge since 1st of March 2010.  The source code was divided from the not yet paid parts and is open source since since 30th of November 2010.  At the moment (January 2011) there are three co-funding projects: Treeview builds hierarchical groups of clients to manage; MySQL as backend for all data; and the license management module.  The main focus of co-funding projects is to create software once for a pool of purchasers who share the cost and make it open source as soon as it paid in full[tpl]Citation | url = http://uib.de/en/opsi_cofunding/ | publisher = UIB | place = DE | title = Opsi cofunding[/tpl].[tpl]Citation | url = http://www.opsi.org/statistics/cofunding%20opsiclientd/ | publisher = Opsi | title = Statistics | contribution = Cofunding OpsiClientD[/tpl]..
+Even though opsi is open source, there are some components which are not for free at the moment. These components are developed in a co-funding project. This means, that these parts are only available for those customers who paid a contribution to the cost of development. As soon as the development of a co-funding project is refinanced, the component will be part of the free opsi-version and can be used free of charge. It will be open source (as long as not prevented caused by technical reasons). The first of these co-funding Projects was the opsi support for Windows Vista/Windows 7. It was completed on 1st of February 2008 and is free of charge since 1st of March 2010.  The source code was divided from the not yet paid parts and is open source since since 30th of November 2010.  At the moment (January 2011) there are three co-funding projects: Treeview builds hierarchical groups of clients to manage; MySQL as backend for all data; and the license management module.  The main focus of co-funding projects is to create software once for a pool of purchasers who share the cost and make it open source as soon as it paid in full..
 
 ==References and sources==
 
 == External links ==
 
-* [tpl]URL | http://opsi.org | Opsi[/tpl]
-* [tpl]Citation | url = http://www.linux-magazine.com/Issues/2009/108/Opsi | contribution = Opsi | title = Linux Magazine | year = 2009 | issue = 108[/tpl]
+* 
+* 
 

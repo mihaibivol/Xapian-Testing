@@ -1,8 +1,8 @@
 
-Birks' Law [tpl]cite journal|last=Birks|first=J.B.|journal=Proc. Phys. Soc.|year=1951|volume=A64|pages=874[/tpl][tpl]cite book|last=Birks|first=J.B.|title=The Theory and Practice of Scintillation Counting|year=1964|publisher=Pergamon|location=London[/tpl] is an empirical formula for the light yield per path length as a function of the energy loss per path length for a particle traversing a scintillator, and gives a relation that is not linear at high loss rates. The relation is:
+Birks' Law  is an empirical formula for the light yield per path length as a function of the energy loss per path length for a particle traversing a scintillator, and gives a relation that is not linear at high loss rates. The relation is:
 1.26-2.07 MeV/g cm^2 for polyvinyltoluene-based scintillators  
 Birks speculated that the loss of linearity is due to recombination and quenching effects between the excited molecules and
-the surrounding substrate.  Birks' Law has mostly been tested for organic scintillators.  Its applicability to inorganic scintillators is debated.  A good discussion can be found at [tpl]cite web|last=Johnson|first=Kurtis|title=Particle Detectors at Accelerators: Organic scintillators|url=http://pdg.lbl.gov/2011/reviews/rpp2011-rev-particle-detectors-accel.pdf[/tpl]
+the surrounding substrate.  Birks' Law has mostly been tested for organic scintillators.  Its applicability to inorganic scintillators is debated.  A good discussion can be found at 
 
 ==References==
 

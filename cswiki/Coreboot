@@ -5,7 +5,7 @@ Coreboot (formerly known as LinuxBIOS) is a free software project, endorsed by t
 
 The coreboot project was started in the winter of 1999 in the Advanced Computing Laboratory at Los Alamos National Laboratory (LANL).coreboot FAQ: Who is working on coreboot?
 The goal was a BIOS that would start fast and handle errors intelligently.Anton Borisov: The Open Source BIOS is Ten. An interview with the coreboot developers. The H, 2009.
-It is licensed under the terms of the GNU General Public License (GPL). Main contributors have been LANL, AMD, coresystems GmbH and Linux Networx, Inc, as well as motherboard vendors MSI, Gigabyte and Tyan, by offering coreboot next to their standard BIOS or providing specifications of the hardware interfaces for some of their recent motherboards. However, Tyan seems to have ceased support of coreboot.[tpl]Citation needed|date=January 2008[/tpl]
+It is licensed under the terms of the GNU General Public License (GPL). Main contributors have been LANL, AMD, coresystems GmbH and Linux Networx, Inc, as well as motherboard vendors MSI, Gigabyte and Tyan, by offering coreboot next to their standard BIOS or providing specifications of the hardware interfaces for some of their recent motherboards. However, Tyan seems to have ceased support of coreboot.
 Google partly sponsors the coreboot project.Google Sponsors the LinuxBIOS project CME Group, a cluster of futures exchanges, began supporting the coreboot project in 2009.CME Group Dives Into Coreboot
 Code from Das U-Boot was assimilated to enable support for the ARM architecturehttp://blogs.coreboot.org/blog/2011/06/05/gsoc2011week-1-analysis-of-u-boot-arm-boot-code/.
 
@@ -19,7 +19,7 @@ From that initial development on AMD Geode based platforms, coreboot support has
 Coreboot usually loads a Linux kernel, but it can load any other stand-alone ELF executable, such as Etherboot, which can boot Linux over a network, or SeaBIOSSeaBIOS (previously known as LegacyBIOS) is an open-source legacy BIOS implementation, which can load Linux, Microsoft Windows 2000 and later, and *BSD (previously, Windows 2000/XP and OpenBSD support was provided by ADLOcoreboot Add-on Layer (ADLO)SEBOS, Security Enhanced Bootloader for Operating Systems, Phase 2 , adding PC BIOS Services to coreboot via Bochs BIOS (Link noted to be defunct on 18 July 2008. See SEBOS page archived on archive.org Archived copy of SEBOS Phase 2)).
 Coreboot can also load almost any operating system from any supported device, such as Myrinet, Quadrics, or SCI cluster interconnects. Some OSes (such as Windows 2000/XP/Vista/7 and *BSD) require legacy BIOS functions which are provided by SeaBIOS.
 A unique feature of coreboot is that the x86 version runs in 32-bit mode after executing only ten instructionscoreboot v3 early startup code (almost all other x86 BIOSes run exclusively in 16-bit mode).  This is similar to the modern UEFI firmware, which is used on Intel-based Macintosh computers and other newer PC hardware.
-Coreboot can boot other kernels, or pass control to a boot loader to boot a kernel/image instead. It can also boot a Plan 9 from Bell Labs kernel directly [tpl]clarify|reason=Implies booting of plan 9 differs from "other kernels" but it is not clear how|date=May 2011[/tpl]. A coreboot-capable version of GNU GRUB 2 exists.
+Coreboot can boot other kernels, or pass control to a boot loader to boot a kernel/image instead. It can also boot a Plan 9 from Bell Labs kernel directly . A coreboot-capable version of GNU GRUB 2 exists.
 By default, coreboot does not provide BIOS call services. A payload called SeaBIOS can be used to provide BIOS calls and thus allow coreboot to load operating systems that require those services, however most modern operating systems access hardware in another manner and only use BIOS calls during early initialization and as a fallback mechanism.
 
 ==Developing and debugging coreboot==
@@ -61,5 +61,5 @@ With newer x86 processors, the processor cache can be used as RAM until DRAM is 
 
 == External links ==
 
-* [tpl]Official|http://www.coreboot.org/[/tpl]
+* 
 

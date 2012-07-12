@@ -8,12 +8,12 @@ After opening the exported file, the only thing LuxRender will do is render the 
 
 ==History==
 
-LuxRender is based on PBRT, a physically based ray tracing program. Although very capable and well structured, PBRT focuses on academic use and is not easily usable by digital artists. As PBRT is licensed under the  GPL, it was possible to start a new program based on PBRT's source code. With the blessings of the original authors, a small group of programmers took this step in September 2007. The new program was named LuxRender and was to focus on artistic use. Since its initial stage, the program has attracted interest of various programmers around the world.[tpl]cite web |url=http://www.luxrender.net/en_GB/authors_contributors|title=Authors|accessdate=2008-06-30|publisher=LuxRender[/tpl]
-On 24 June 2008, the first official release was announced.[tpl]cite web |url=http://www.blendernation.com/2008/06/30/luxrender-05-released/|title=LuxRender 0.5 released|accessdate=2008-06-30|publisher=BlenderNation|date=2008-06-30[/tpl] This was the first release that is considered to be usable for the general public.
+LuxRender is based on PBRT, a physically based ray tracing program. Although very capable and well structured, PBRT focuses on academic use and is not easily usable by digital artists. As PBRT is licensed under the  GPL, it was possible to start a new program based on PBRT's source code. With the blessings of the original authors, a small group of programmers took this step in September 2007. The new program was named LuxRender and was to focus on artistic use. Since its initial stage, the program has attracted interest of various programmers around the world.
+On 24 June 2008, the first official release was announced. This was the first release that is considered to be usable for the general public.
 
 ==Features==
 
-The main features of LuxRender as of version 0.8 include[tpl]Cite web | title = LuxRender v0.8 final Release  | date = 5 June 2011  | url = http://www.luxrender.net/forum/viewtopic.php?f=12&t=6315  | accessdate = 9 June 2011[/tpl]:
+The main features of LuxRender as of version 0.8 include:
 *Biased and unbiased rendering: Users can choose between physical accuracy (unbiased) and speed (biased).
 *Full  spectral rendering: Instead of the RGB colour spectrum, full spectra are used for internal calculations.
 *Hierarchical  procedural and image based  texture system: Procedural and image based textures can be mixed in various ways, making it possible to create complex materials.
@@ -34,7 +34,7 @@ The main features of LuxRender as of version 0.8 include[tpl]Cite web | title = 
 
 ==Planned/Implemented Features==
 
-The new features of LuxRender for version 0.9 include[tpl]Cite web | title = LuxRender v0.9 Development Release(s)  | date = 3 November 2011  | url = http://www.luxrender.net/forum/viewtopic.php?f=30&t=7360  | accessdate = 9 November 2011[/tpl]:
+The new features of LuxRender for version 0.9 include:
 *Improved speeds for Hybrid Path GPU Rendering: The Path GPU Rendering Engine have various speed and stability improvements.
 *New Hybrid Bidirectional Rendering: A GPU Accelerated version of the LuxRender Bi-Directional Path Tracer is in development. However, it does not currently support all of LuxRender's traditional Bi-Directional Path tracing features yet.
 *Networking: Improvements to LuxRender's networking mode.

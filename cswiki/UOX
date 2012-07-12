@@ -15,7 +15,7 @@ Created during the beta testing of Ultima Online in 1996 or 1997, the first vers
 
 ===UOX2===
 
-The second version was by Marcus Rating (aka Cironian), who rewrote UOX [tpl]Harv|Alnes|2003[/tpl]. UOX2 was also single-player [tpl]Harv|Pelel|2005[/tpl].  This version was also closed-source.
+The second version was by Marcus Rating (aka Cironian), who rewrote UOX .  This version was also closed-source.
 
 ===UOX3===
 
@@ -24,7 +24,7 @@ UOX has spent the majority of its lifetime in its third version. Originally re-w
 ==== Early development ====
 
 Originally decentralized, early development of UOX3 (circa 1998) was done by many individuals with no version control and little synchronization or quality checks.  This led to what is often termed "spaghetti code", stability issues, and bugs.  Yet, even so, the original creator, Marcus Rating, was opposed to centralizing development:
-: "Anyway, and I should have probably said this earlier: I do not think that centralizing the development of UOX, as it is obviously happening, is a good idea. It was always wonderful to see how a lot of people just added their favorite features to UOX without having to think if someone else was working on the code too. Yes, it does lead to bugs sometimes, but actually UOX is still in a pre-alpha state, where no one should care about stability issues. Also, I do not think a revision control system is really necessary, if people just give a bit of an advance announcement before releasing things and remember to document all changes in the update.txt. (Yes, I have to remember that myself too)" [tpl]Harv|Rating|1998[/tpl]
+: "Anyway, and I should have probably said this earlier: I do not think that centralizing the development of UOX, as it is obviously happening, is a good idea. It was always wonderful to see how a lot of people just added their favorite features to UOX without having to think if someone else was working on the code too. Yes, it does lead to bugs sometimes, but actually UOX is still in a pre-alpha state, where no one should care about stability issues. Also, I do not think a revision control system is really necessary, if people just give a bit of an advance announcement before releasing things and remember to document all changes in the update.txt. (Yes, I have to remember that myself too)" 
 That choice and the resulting code base has often been one of the primary criticisms of the project (see: criticism).  These issues have caused some to choose to create branches of the code (see: branches), and still others to create new emulators entirely.
 
 ==== Recent development ====
@@ -61,9 +61,9 @@ Branching took place when an individual or group decided they wanted to make cha
 
 == References ==
 
-* [tpl]Citation | surname=Alnes | given=G. | title=UOX3.org Frequently Asked Questions | year=2003 | url=http://www.uox3.org/faq.shtml [/tpl]. Retrieved Dec. 6, 2005.
-* [tpl]Citation | surname=Pelel | Given= | title=pelel » uox2 | year=2005 | url=http://pelel.wikispaces.com/uox2 [/tpl]. Retrieved Dec. 6, 2005.
-* [tpl]Citation | surname=Rating | given=M. | title=Ultima Offline eXperiment | year=1998 | url=http://uox.stratics.com/ [/tpl]
+* . Retrieved Dec. 6, 2005.
+* . Retrieved Dec. 6, 2005.
+* 
 
 == External links ==
 

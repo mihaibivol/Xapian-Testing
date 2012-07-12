@@ -1,6 +1,6 @@
 
 Sequerome is a web-based Sequence profiling tool for integrating the results of a BLAST sequence-alignment report with external research tools and servers that perform advanced sequence manipulations, and allowing the user to record the steps of such an analysis. Sequerome is a web based Java tool that acts as a front-end to BLAST queries and provides simplified access to web-distributed resources for protein and nucleic acid analysis. 
-Since its inception in 2005, the tool has been featured in Science"A Bigger BLAST", NetWatch, Science VOL 309, 23 Sep 2005, p-1971 [tpl]doi|10.1126/science.309.5743.1971b[/tpl],"Seq and Find" and officially linked to many bioinformatics portals around the globe.
+Since its inception in 2005, the tool has been featured in Science"A Bigger BLAST", NetWatch, Science VOL 309, 23 Sep 2005, p-1971 ,"Seq and Find" and officially linked to many bioinformatics portals around the globe.
 
 ==Description==
 
@@ -29,7 +29,7 @@ The "post-genomics" era has given rise to a range of web based tools and softwar
 
 ==References==
 
-* "A Bigger BLAST", NetWatch, Science VOL 309, 23 Sep 2005, p-1971 [tpl]doi|10.1126/science.309.5743.1971b[/tpl]
+* "A Bigger BLAST", NetWatch, Science VOL 309, 23 Sep 2005, p-1971 
 * "Seq and Find", WebWatch feature,  Biotechniques, Volume 39, Number 5: pp 629 
 * "A web based interface facilitating sequence to structure analysis of BLAST alignment reports", Biotechniques Volume 39, Number 2: pp 186–188
 

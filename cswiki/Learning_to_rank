@@ -114,7 +114,7 @@ A partial list of published learning-to-rank algorithms is shown below with year
 |-
 | 2007 || RankRLS || 2 pairwise ||
 Regularized least-squares based ranking. The work is extended in
-[tpl]Citation|last=Pahikkala|first=Tapio|coauthors=Tsivtsivadze, Evgeni, Airola, Antti, Järvinen, Jouni, Boberg, Jorma|title=An efficient algorithm for learning to rank from preference graphs|journal=Machine Learning|year=2009|volume=75|issue=1|pages=129–165|doi=10.1007/s10994-008-5097-z|postscript=.[/tpl] to learning to rank from general preference graphs.
+ to learning to rank from general preference graphs.
 |-
 | 2007 || SVMmap || 3 listwise ||
 |-
@@ -150,13 +150,13 @@ Note: as most supervised learning algorithms can be applied to pointwise case, o
 
 == History ==
 
-C. Manning et al.[tpl]citation |author=Manning C.,  Raghavan P. and Schütze H. |title=Introduction to Information Retrieval |publisher=Cambridge University Press |year=2008[/tpl]. Sections 7.4 and 15.5 trace earliest works on learning to rank problem to papers in late 1980s and early 1990s. They suggest that these early works achieved limited results in their time due to little available training data and poor machine learning techniques.
+C. Manning et al.. Sections 7.4 and 15.5 trace earliest works on learning to rank problem to papers in late 1980s and early 1990s. They suggest that these early works achieved limited results in their time due to little available training data and poor machine learning techniques.
 In mid-1990s Berkeley researchers used logistic regression to train a successful ranking function at TREC conference.
 Several conferences, such as NIPS, SIGIR and ICML had workshops devoted to the learning-to-rank problem since mid-2000s, and this has stimulated much of academic research.
 
 === Practical usage by search engines ===
 
-Commercial web search engines began using machine learned ranking systems since 2000s. One of the first search engines to start using it was AltaVista (later its technology was acquired by Overture, and then Yahoo), which launched a gradient boosting-trained ranking function in April 2003.Jan O. Pedersen. The MLR Story[tpl]US Patent|7197497[/tpl]
+Commercial web search engines began using machine learned ranking systems since 2000s. One of the first search engines to start using it was AltaVista (later its technology was acquired by Overture, and then Yahoo), which launched a gradient boosting-trained ranking function in April 2003.Jan O. Pedersen. The MLR Story
 Bing's search is said to be powered by RankNet algorithm,Bing Search Blog: User Needs, Features and the Science behind Bing which was invented at Microsoft Research in 2005.
 In November 2009 a Russian search engine Yandex announcedYandex corporate blog entry about new ranking model "Snezhinsk" (in Russian) that it had significantly increased its search quality due to deployment of a new proprietary MatrixNet algorithm, a variant of gradient boosting method which uses oblivious decision trees.The algorithm wasn't disclosed, but a few details were made public in http://download.yandex.ru/company/experience/GDD/Zadnie_algoritmy_Karpovich.pdf and http://download.yandex.ru/company/experience/searchconf/Searchconf_Algoritm_MatrixNet_Gulin.pdf. Recently they have also sponsored a machine-learned ranking competition "Internet Mathematics 2009"Yandex's Internet Mathematics 2009 competition page based on their own search engine's production data. Yahoo has announced a similar competition in 2010.Yahoo Learning to Rank Challenge
 As of 2008, Google's Peter Norvig denied that their search engine exclusively relies on machine-learned ranking.[ref]

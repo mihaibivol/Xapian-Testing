@@ -1,5 +1,5 @@
 
-This page is about proof of O(log*n) Amortized Time Raimund Seidel, Micha Sharir. "Top-down analysis of path compression", SIAM J. Computing 34(3):515–525, 2005 of Union Find[tpl]cite journal |last1=Tarjan |first1=Robert Endre |year=1975 |title=Efficiency of a Good But Not Linear Set Union Algorithm |journal=Journal of the ACM |volume=22 |issue=2 |pages=215–225 |url=http://portal.acm.org/citation.cfm?id=321884 |doi=10.1145/321879.321884 [/tpl][tpl]cite journal |last1=Hopcroft |first1=J. E. |last2=Ullman |first2=J. D. |year=1973 |title=Set Merging Algorithms |journal=SIAM Journal on Computing |volume=2 |issue=4 |pages=294–303 |doi=10.1137/0202024[/tpl]Robert E. Tarjan and Jan van Leeuwen. Worst-case analysis of set union algorithms. Journal of the ACM, 31(2):245–281, 1984.
+This page is about proof of O(log*n) Amortized Time Raimund Seidel, Micha Sharir. "Top-down analysis of path compression", SIAM J. Computing 34(3):515–525, 2005 of Union FindRobert E. Tarjan and Jan van Leeuwen. Worst-case analysis of set union algorithms. Journal of the ACM, 31(2):245–281, 1984.
 Statement: if m operations, either Union or Find, are applied on n elements, the total run time is O(m\log*n).
 
 ==Proof==

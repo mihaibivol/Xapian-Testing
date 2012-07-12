@@ -1,5 +1,5 @@
 
-PCI-X, short for PCI-eXtended, is a computer bus and expansion card standard that enhances the 32-bit PCI Local Bus for higher bandwidth demanded by servers.  It is a double-wide version of PCI, running at up to four times the clock speed, but is otherwise similar in electrical implementation and uses the same protocol.[tpl]cite web|url=http://www.pcisig.com/news_room/faqs/faq_20/|title=PCI-SIG — FAQ — PCI-X 2.0|accessdate=2008-02-17[/tpl] It has been replaced in modern designs[tpl]Citation needed|date=September 2011[/tpl] by the similar-sounding PCI Express, with a completely different connector and a very different logical design, being a single narrow but fast serial connection instead of a number of slower connections in parallel.
+PCI-X, short for PCI-eXtended, is a computer bus and expansion card standard that enhances the 32-bit PCI Local Bus for higher bandwidth demanded by servers.  It is a double-wide version of PCI, running at up to four times the clock speed, but is otherwise similar in electrical implementation and uses the same protocol. by the similar-sounding PCI Express, with a completely different connector and a very different logical design, being a single narrow but fast serial connection instead of a number of slower connections in parallel.
 There is also a 64-bit PCI specification electrically different but with the same connector as PCI-X.
 
 ==Background==
@@ -33,7 +33,7 @@ The 64-bit PCI connector can be distinguished from 32-bit by being longer, and f
 All PCI-X cards or slots have a 64-bit implementation and vary as follows:
 *Cards
 **66 MHz (added in Rev. 1.0)
-**100 MHz (implemented by a 133 MHz adapter on some servers)[tpl]Wayback|url=http://www.it-enquirer.com/main/ite/more/pci_xpci_express/|title=PCI-X vs. PCI-Express|date=20080211092502[/tpl]
+**100 MHz (implemented by a 133 MHz adapter on some servers)
 **133 MHz (added in Rev. 1.0)
 **266 MHz (added in Rev. 2.0)
 **533 MHz (added in Rev. 2.0)

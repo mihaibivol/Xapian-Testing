@@ -4,8 +4,8 @@ It does not support directories, and only allows contiguous allocation for files
 
 ==Implementations==
 
-Besides the UnixWare support, Martin Hinner wrote a bfs kernel module for Linux that supports it.[tpl]cite web | url=http://martin.hinner.info/fs/bfs/ | title=UnixWare boot filesystem for Linux | author=Martin Hinner | date=1999 | publisher=Martin Hinner | accessdate=2008-12-21 [/tpl]
-He documented the file system layout as part of the process.[tpl]cite web | url=http://martin.hinner.info/fs/bfs/bfs-structure.html | title=The BFS filesystem structure | author=Martin Hinner | date=1999 | publisher=Martin Hinner | accessdate=2008-12-21 [/tpl]
+Besides the UnixWare support, Martin Hinner wrote a bfs kernel module for Linux that supports it.
+He documented the file system layout as part of the process.
 
 ==References==
 

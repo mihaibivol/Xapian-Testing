@@ -12,7 +12,7 @@ DCG originates from an earlier, more primitive, measure called Cumulative Gain.
 
 === Discounted Cumulative Gain ===
 
-There has not been shown any theoretically sound justification for using a logarithmic reduction factor[tpl]cite book | title=Search Engines: Information Retrieval in Practice | author=B. Croft, D. Metzler, and T. Strohman |date=2009 | publisher=''Addison Wesley"[/tpl] other than the fact that it produces a smooth reduction. An alternative formulation of DCGhttp://learningtorankchallenge.yahoo.com/instructions.php places stronger emphasis on retrieving relevant documents:
+There has not been shown any theoretically sound justification for using a logarithmic reduction factor other than the fact that it produces a smooth reduction. An alternative formulation of DCGhttp://learningtorankchallenge.yahoo.com/instructions.php places stronger emphasis on retrieving relevant documents:
 
 === Normalized DCG ===
 

@@ -1,25 +1,25 @@
 
-GlobaLeaks is an open source sofware system intended to enable anonymous whistle-blowing.[tpl]cite web| last = 28th Chaos Communication Congress | title = Workshops/GlobaLeaks | url = http://events.ccc.de/congress/2011/wiki/Workshops/GlobaLeaks | accessdate=21 January 2012[/tpl] The GlobaLeaks organization, in addition to developing a whistle-blowing software suite, aims to promote whistleblowing to the public.[tpl]cite web| last = 28th Chaos Communication Congress | date = 28 December 2011 | title = Social Hacking with GlobaLeaks | url = https://github.com/globaleaks/advocacy/blob/master/Social-Hacking-28C3.pdf | accessdate=21 January 2012[/tpl]
+GlobaLeaks is an open source sofware system intended to enable anonymous whistle-blowing.
 
 ==History==
 
-A prototype was announced on 6 September 2011[tpl]cite mailing list | last = Filastò | first = Arturo | title = Globaleaks demo of the Prototype online! | mailinglist = Full Disclosure | date=6 September 2011 | url = http://archives.seul.org/or/dev/Sep-2002/msg00019.html | accessdate=21 January 2012 [/tpl] as an alpha release.[tpl]cite web| last = GlobaLeaks | title = GlobaLeaks – Open Source Whistleblowing Framework | url = http://thedailyattack.com/2011/09/06/globaleaks-open-source-whistleblowing-framework/ | accessdate=21 January 2012[/tpl]
+A prototype was announced on 6 September 2011
 
 ==Model==
 
-Globaleaks does not publish to the public. The organization invites anyone to install their software on their own computers, thus making it a node in a distributed private anonymous network. Whereas Wikileaks uses a centralized data distribution system similar Napster's, Globaleaks uses a shared download distribution system similar to BitTorrent's.[tpl]cite web |url= http://www.forbes.com/sites/andygreenberg/2011/01/26/globaleaks-wants-to-be-the-bittorrent-to-wikileaks-napster/ |title=GlobaLeaks Wants To Be The Bittorrent To WikiLeaks' Napster |first=Andy |last=Greenberg |work=Forbes |year=26 January 2011|accessdate=21 January 2012[/tpl]
+Globaleaks does not publish to the public. The organization invites anyone to install their software on their own computers, thus making it a node in a distributed private anonymous network. Whereas Wikileaks uses a centralized data distribution system similar Napster's, Globaleaks uses a shared download distribution system similar to BitTorrent's.
 
 ==Operation==
 
-A GlobaLeaks node utilizes Tor Hidden Services and Tor2web.[tpl]cite web| last = 28th Chaos Communication Congress | title = Workshops/GlobaLeaks | url = http://events.ccc.de/congress/2011/wiki/Workshops/GlobaLeaks | accessdate=21 January 2012[/tpl]
+A GlobaLeaks node utilizes Tor Hidden Services and Tor2web.
 
 ==Organization==
 
-GlobaLeaks is an independent organization made up of a globally distributed group of software developers.[tpl]cite web| last = GlobaLeaks | title = GlobaLeaks – Open Source Whistleblowing Framework | url = http://thedailyattack.com/2011/09/06/globaleaks-open-source-whistleblowing-framework/ | accessdate=21 January 2012[/tpl]
+GlobaLeaks is an independent organization made up of a globally distributed group of software developers.
 
 ==References==
 
 ==External links==
 
-*[tpl]official|http://globaleaks.org/[/tpl]
+*
 

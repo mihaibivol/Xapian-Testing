@@ -1,5 +1,5 @@
 
-Uncertain inference was first described by Rijsbergen[tpl]cite | author=C. J. van Rijsbergen | title=A non-classical logic for information retrieval | publisher=The Computer Journal | pages=481–485 | year=1986[/tpl] as a way to formally define a query and document relationship in Information retrieval. This formalization is a logical implication with an attached measure of uncertainty.
+Uncertain inference was first described by Rijsbergen as a way to formally define a query and document relationship in Information retrieval. This formalization is a logical implication with an attached measure of uncertainty.
 
 ==Definitions==
 
@@ -19,7 +19,7 @@ where A, B and C are query assertions, then for a document D we want the probabi
 
 ==Further work==
 
-Croft and Krovetz[tpl]cite | title=Interactive retrieval office documents | url=http://doi.acm.org/10.1145/45410.45435 | author=W. B. Croft | coauthors=R. Krovetz | year=1988 [/tpl] applied uncertain inference to an information retrieval system for office documents they called OFFICER. In office documents the independence assumption is valid since the query will focus on their individual attributes. Besides analysing the content of documents one can also query about the author, size, topic or collection for example. They devised methods to compare document and query attributes, infer their plausibility and combine it into an overall rating for each document. Besides that uncertainty of document and query contents also had to be addressed.
+Croft and Krovetz applied uncertain inference to an information retrieval system for office documents they called OFFICER. In office documents the independence assumption is valid since the query will focus on their individual attributes. Besides analysing the content of documents one can also query about the author, size, topic or collection for example. They devised methods to compare document and query attributes, infer their plausibility and combine it into an overall rating for each document. Besides that uncertainty of document and query contents also had to be addressed.
 Probabilistic logic networks is a system for performing uncertain inference; crisp true/false truth values are replaced not only by a probability, but also by a confidence level, indicating the certitude of the probability.
 Markov logic networks allow uncertain inference to be performed; uncertainties are computed using the maximum entropy principle, in analogy to the way that Markov chains describe the uncertainty of finite state machines.
 

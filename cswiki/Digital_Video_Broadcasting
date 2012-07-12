@@ -1,5 +1,5 @@
 
-Digital Video Broadcasting (DVB) is a suite of internationally accepted open standards for digital television. DVB standards are maintained by the DVB Project, an international industry consortium with more than 270 members, and they are published by a Joint Technical Committee (JTC) of European Telecommunications Standards Institute (ETSI), European Committee for Electrotechnical Standardization (CENELEC) and European Broadcasting Union (EBU). The interaction of the DVB sub-standards is described in the DVB Cookbook.[tpl]cite web |url=http://broadcasting.ru/pdf-standard-specifications/cookbook/dvb-cook/a020r1.pdf |title=Digital Video Broadcasting (DVB); A Guideline for the Use of DVB Specifications and Standards |format=PDF |accessdate=2008-08-30[/tpl] Many aspects of DVB are patented, including elements of the MPEG video coding and audio coding.
+Digital Video Broadcasting (DVB) is a suite of internationally accepted open standards for digital television. DVB standards are maintained by the DVB Project, an international industry consortium with more than 270 members, and they are published by a Joint Technical Committee (JTC) of European Telecommunications Standards Institute (ETSI), European Committee for Electrotechnical Standardization (CENELEC) and European Broadcasting Union (EBU). The interaction of the DVB sub-standards is described in the DVB Cookbook. Many aspects of DVB are patented, including elements of the MPEG video coding and audio coding.
 
 == Transmission ==
 
@@ -12,7 +12,7 @@ DVB systems distribute data using a variety of approaches, including:
 * Microwave: using DTT (DVB-MT), the MMDS (DVB-MC), and/or MVDS standards (DVB-MS)
 These standards define the physical layer and data link layer of the distribution system. Devices interact with the physical layer via a synchronous parallel interface (SPI), synchronous serial interface (SSI), or asynchronous serial interface (ASI). All data is transmitted in MPEG transport streams with some additional constraints (DVB-MPEG). A standard for temporally-compressed distribution to mobile devices (DVB-H) was published in November 2004.
 These distribution systems differ mainly in the modulation schemes used and error correcting codes used, due to the different technical constraints. DVB-S (SHF) uses QPSK, 8PSK or 16-QAM. DVB-S2 uses QPSK, 8PSK, 16APSK or 32APSK, at the broadcasters decision. QPSK and 8PSK are the only versions regularly used. DVB-C (VHF/UHF) uses QAM: 16-QAM, 32-QAM, 64-QAM, 128-QAM or 256-QAM. Lastly, DVB-T (VHF/UHF) uses 16-QAM or 64-QAM (or QPSK) in combination with COFDM and can support hierarchical modulation.
-The DVB-T2 specification was approved by the DVB Steering Board in June 2008 and sent to ETSI for adoption as a formal standard. ETSI adopted the standard on September 9, 2009.[tpl]cite web |url=http://webapp.etsi.org/workProgram/Report_Schedule.asp?WKI_ID=28396 |title=Work Programme: Details of 'DEN/JTC-DVB-228' Work Item Schedule |publisher=ETSI |accessdate=2010-08-29[/tpl]
+The DVB-T2 specification was approved by the DVB Steering Board in June 2008 and sent to ETSI for adoption as a formal standard. ETSI adopted the standard on September 9, 2009.
 The DVB-T2 standard gives more robust TV reception and increases the possible bit rate by over 30% for single transmitters (as in the UK) and should increase the max. bit rate by over 50% in large single-frequency networks (as in Germany, Sweden).
 DVB has established a 3D TV group (CM-3DTV) to identify "what kind of 3D-TV solution does the market want and need, and how can DVB play an active part in the creation of that solution?". The CM-3DTV group held a DVB 3D-TV Kick-off Workshop in Geneva on January 25, 2010, followed by the first CM-3DTV meeting the next day.http://www.dvb.org/news_events/news/dvb-3d-tv-workshop/index.xml
 DVB now defines a new standard for 3D video broadcast: DVB 3D-TV.
@@ -26,7 +26,7 @@ Older technologies such as teletext (DVB-TXT) and vertical blanking interval dat
 
 The conditional access system (DVB-CA) defines a Common Scrambling Algorithm (DVB-CSA) and a physical Common Interface (DVB-CI) for accessing scrambled content. DVB-CA providers develop their wholly proprietary conditional access systems with reference to these specifications. Multiple simultaneous CA systems can be assigned to a scrambled DVB program stream providing operational and commercial flexibility for the service provider.
 DVB is also developing a Content Protection and Copy Management system for protecting content after it has been received (DVB-CPCM), which is intended to allow flexible use of recorded content on a home network or beyond, while preventing unconstrained sharing on the Internet. DVB-CPCM has been the source of much controversy in the popular press and
-It is said that CPCM is the DVB's answer to the failed American Broadcast Flag.[tpl]cite web |url=http://www.eff.org/IP/DVB/dvb_critique.php |title=Europe's Broadcast Flag |publisher=Electronic Frontier Foundation |date=2005-09-29 |accessdate=2007-08-15[/tpl]
+It is said that CPCM is the DVB's answer to the failed American Broadcast Flag.
 DVB transports include metadata called Service Information (DVB-SI, ETSI EN 300 468, ETSI TR 101 211) that links the various elementary streams into coherent programs and provides human-readable descriptions for electronic program guides as well as for automatic searching and filtering.
 Recently, DVB has adopted a profile of the metadata defined by the TV-Anytime Forum (DVB-TVA, ETSI TS 102323). This is an XML Schema based technology and the DVB profile is tailored for enhanced Personal Digital Recorders. DVB lately also started an activity to develop a service for IPTV (DVB-IPI, ETSI TR 102033, ETSI TS 102034, ETSI TS 102814) which also includes metadata definitions for a broadband content guide (DVB-BCG, ETSI TS 102 539).
 
@@ -47,11 +47,11 @@ In Europe, as well as in Australia, South Africa and India, DVB is used througho
 
 ====Kenya====
 
-DVB-T broadcasts were launched by the President of Kenya, Mwai Kibaki on the 9th of December 2009. Broadcasts are using H.264, with the University of Nairobi supplying the decoders. Kenya is part of the Southern African Development Community (SADC) which has now adopted DVB-T2 across all its member countries.  Kenya has also been broadcasting DVB-H since July 2009, available on selected Nokia and ZTE handsets on the Safaricom network.[tpl]cite web |url=http://www.nation.co.ke/News/-/1056/819994/-/vnlh64/-/ |title=Digital TV a reality in Kenya |publisher=Nation Media |accessdate=2009-12-09[/tpl]
+DVB-T broadcasts were launched by the President of Kenya, Mwai Kibaki on the 9th of December 2009. Broadcasts are using H.264, with the University of Nairobi supplying the decoders. Kenya is part of the Southern African Development Community (SADC) which has now adopted DVB-T2 across all its member countries.  Kenya has also been broadcasting DVB-H since July 2009, available on selected Nokia and ZTE handsets on the Safaricom network.
 
 ====South Africa====
 
-In late 2010 the South African cabinet endorsed a decision by a Southern African Development Community (SADC) task team to adopt the DVB-T2 standard.[tpl]cite web |url=http://www.fin24.com/Economy/SA-to-adopt-European-TV-standard-report-20110104 |title=SA to adopt European TV standard: report |publisher=24.com |accessdate=2011-01-18[/tpl]
+In late 2010 the South African cabinet endorsed a decision by a Southern African Development Community (SADC) task team to adopt the DVB-T2 standard.
 
 ===Asia===
 

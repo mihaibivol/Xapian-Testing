@@ -2,7 +2,7 @@
 : PEAP is also an acronym for Personal Egress Air Packs.
 The Protected Extensible Authentication Protocol, also known as Protected EAP or simply PEAP, is a protocol that encapsulates the Extensible Authentication Protocol (EAP) within an encrypted and authenticated Transport Layer Security (TLS) tunnel.Microsoft's PEAP version 0, draft-kamath-pppext-peapv0-00, §1.1Protected EAP Protocol (PEAP) Version 2, draft-josefsson-pppext-eap-tls-eap-10, abstractProtected EAP Protocol (PEAP) Version 2, draft-josefsson-pppext-eap-tls-eap-10, §1 The purpose was to correct deficiencies in EAP; EAP assumed a protected communication channel, such as that provided by physical security, so facilities for protection of the EAP conversation were not provided.Protected EAP Protocol (PEAP) Version 2, draft-josefsson-pppext-eap-tls-eap-07, §1
 PEAP was jointly developed by Cisco Systems, Microsoft, and RSA Security. PEAPv0 was the version included with Microsoft Windows XP and was nominally defined in draft-kamath-pppext-peapv0-00. PEAPv1 and PEAPv2 were defined in different versions of draft-josefsson-pppext-eap-tls-eap. PEAPv1 was defined in draft-josefsson-pppext-eap-tls-eap-00 through draft-josefsson-pppext-eap-tls-eap-05,Protected EAP Protocol (PEAP), draft-josefsson-pppext-eap-tls-eap-05, §2.3 and PEAPv2 was defined in versions beginning with draft-josefsson-pppext-eap-tls-eap-06.Protected EAP Protocol (PEAP), draft-josefsson-pppext-eap-tls-eap-06, §2.3
-The protocol only specifies chaining multiple EAP mechanisms and not any specific method.Protected EAP Protocol (PEAP) Version 2, draft-josefsson-pppext-eap-tls-eap-10, §2 However, use of the EAP-MSCHAPv2 and EAP-GTC methods are the most commonly supported.[tpl]Citation needed|date=April 2010[/tpl]
+The protocol only specifies chaining multiple EAP mechanisms and not any specific method.Protected EAP Protocol (PEAP) Version 2, draft-josefsson-pppext-eap-tls-eap-10, §2 However, use of the EAP-MSCHAPv2 and EAP-GTC methods are the most commonly supported.
 
 ==Overview==
 
@@ -25,9 +25,9 @@ A CA certificate must be used at each client to authenticate the server to each 
 == PEAPv1 with EAP-GTC ==
 
 PEAPv1/EAP-GTC was created by Cisco to provide interoperability with existing token card and directory based authentication systems via a protected channel.  Even though Microsoft co-invented the PEAP standard, Microsoft never added support for PEAPv1 in general, which means PEAPv1/EAP-GTC has no native Windows OS support. Since Cisco has typically recommended lightweight EAP protocols such as LEAP and EAP-FAST protocols instead of PEAP, PEAP has not been as widely adopted as some had hoped.  
-With no interest from Microsoft to support PEAPv1 and no promotion from Cisco, PEAPv1 authentication is rarely used.[tpl]when|date=April 2010[/tpl]
+With no interest from Microsoft to support PEAPv1 and no promotion from Cisco, PEAPv1 authentication is rarely used.
 Even in Windows 7, released in late 2009, Microsoft has not added support for any other authentication system other than MSCHAPv2.
-[tpl]As of|2010[/tpl], there are very few operating systems with native support for this EAP protocol. Nokia E66 and later mobile phones ship with a version of Symbian which includes EAP-GTC support.
+, there are very few operating systems with native support for this EAP protocol. Nokia E66 and later mobile phones ship with a version of Symbian which includes EAP-GTC support.
 
 ==References==
 

@@ -13,7 +13,7 @@ The usage of the term 'Mathematical physics' is sometimes idiosyncratic. Certain
 === Mathematically rigorous physics ===
 
 The term  'mathematical'  physics is also sometimes used in a special sense, to denote research aimed at studying and solving problems inspired by physics within a mathematically rigorous framework.  Mathematical physics in this sense covers a very broad area of topics with the common feature that they blend pure mathematics and physics. Although related to theoretical physics, 'mathematical' physics in this sense emphasizes the mathematical rigour of the same type as found in mathematics. On the other hand, theoretical physics emphasizes the links to observations and experimental physics which often requires theoretical physicists (and mathematical physicists in the more general sense) to use heuristic, intuitive, and approximate arguments. Such arguments are not considered rigorous by mathematicians. Arguably, rigorous mathematical physics is closer to mathematics, and theoretical physics is closer to physics. This also has an institutional side: Many  mathematical physicists are members of mathematics departments.
-Such mathematical physicists primarily expand and elucidate physical theories. Because of the required rigor, these researchers often deal with questions that theoretical physicists have considered to already be solved. However, they can sometimes show (but neither commonly nor easily) that the previous solution was incorrect.[tpl]example needed[/tpl]
+Such mathematical physicists primarily expand and elucidate physical theories. Because of the required rigor, these researchers often deal with questions that theoretical physicists have considered to already be solved. However, they can sometimes show (but neither commonly nor easily) that the previous solution was incorrect.
 The field has concentrated in four main areas:
 # quantum field theory, especially the precise construction of models;
 # statistical mechanics, especially the theory of phase transitions; and
@@ -43,56 +43,56 @@ Later important contributors to twentieth century mathematical physics include  
 
 == References ==
 
-*[tpl]Citation |last=Zalsow |first=Eric |year=2005 |title=Physmatics |arxiv=physics/0506153|bibcode = 2005physics...6153Z [/tpl]
+*
 
 == Further reading ==
 
 ===The Classics===
 
-:*[tpl]citation |first1 = Ralph |last1 = Abraham |author1-link = Ralph Abraham |first2 = Jerrold E. |last2 = Marsden |author2-link = Jerrold E. Marsden |title = 'Foundations of mechanics: a mathematical exposition of classical mechanics with an introduction to the qualitative theory of dynamical systems' |edition = 2nd |place = Providence, RI. |publisher = AMS Chelsea Pub. |year = 2008 |isbn = 978-0-8218-4438-0[/tpl]
-:*[tpl]citation |first1 = Vladimir I. |last1 = Arnold |author-link = Vladimir Arnold |first2 = K. |last2 = Vogtmann |first3 = A. (tr.) |last3 = Weinstein |title = 'Mathematical methods of classical mechanics / metody klassicheskoĭ mekhaniki' |edition = 2nd |place = New York, NY. |publisher =  Springer-Verlag |year = 1997 |isbn = 0-387-96890-3[/tpl]
-:*[tpl]citation |first1 = Richard |last1 = Courant |author1-link = Richard Courant |first2 = David |last2 = Hilbert |author2-link = David Hilbert |title =  Methods of mathematical physics |place = New York, NY. |publisher = Interscience Publishers |year = 1989[/tpl]
-:*[tpl]citation |first1 = James |last1 = Glimm |author1-link = James Glimm |first2 = Arthur |last2 = Jaffe |author2-link =  Arthur Jaffe |title =  'Quantum physics: a functional integral point of view' |edition = 2nd |place = New York, NY. |publisher =  Springer-Verlag |year = 1987 |isbn = 0-387-96477-0[/tpl] (pbk.)
-:*[tpl]citation |first = Rudolf |last = Haag |author-link = Rudolf Haag |title =  'Local quantum physics: fields, particles, algebras' |edition = 2nd rev. & enl. |place = Berlin, Germany ; New York, NY. |publisher = Springer-Verlag |year = 1996 |isbn = 3-540-61049-9[/tpl] (softcover)
+:*
+:*
+:*
+:* (pbk.)
+:* (softcover)
 :*
 
-:*[tpl]citation |first = Tosio |last = Kato  |title = 'Perturbation theory for linear operators' |edition = 2nd repr. |place = Berlin, Germany |publisher =  Springer-Verlag |year = 1995 |isbn = 3-540-58661-X[/tpl] (This is a reprint of the second (1980) edition of this title.)
-:*[tpl]citation |first1 = Henry |last1  = Margenau |author-link = Henry Margenau |first2 = George Moseley |last2 = Murphy |title = 'The mathematics of physics and chemistry' |edition = 2nd repr. |place =  Huntington, NY. |publisher = R. E. Krieger Pub. Co. |year = 1976 |isbn = 0-88275-423-8[/tpl] (This is a reprint of the 1956 second edition.)
+:* (This is a reprint of the second (1980) edition of this title.)
+:* (This is a reprint of the 1956 second edition.)
 :*
   (This is a reprint of the original (1953) edition of this title.)
-:*[tpl]citation |first1 = John |last1 = von Neumann |author-link = John von Neumann |first2 = Robert T. (tr.) |last2 = Beyer |title = 'Mathematical foundations of quantum mechanics' |place = Princeton, NJ. |publisher = Princeton University Press |year = 1955[/tpl]
-:*[tpl]citation |first1 = Michael C. |last1 = Reed |first2 = Barry |last2 = Simon |author2-link = Barry Simon |title = 'Methods of modern mathematical physics (4 vol.)' |place = New York. {NY.] |publisher = Academic Press |year = 1972–1977 |isbn = 0-12-585001-8[/tpl]
-:*[tpl]citation |first = Edward Charles |last = Titchmarsh |author-link = E. C. Titchmarsh |title = 'The theory of functions' |edition = 2nd |place = London, England |publisher = Oxford University Press |year = 1939[/tpl] (This tome was reprinted in 1985.)
-:*[tpl]citation |first1 = Walter E. |last1 = Thirring |author-link = Walter Thirring |first2 = Evans M. (tr.) |last2 = Harrell |title =  'A course in mathematical physics / der mathematischen Physik (4 vol.)' |place = New York, NY. |publisher =  Springer-Verlag |year = 1978–1983[/tpl]
-:*[tpl]citation |first1 = Hermann |last1 = Weyl |author1-link = Hermann Weyl |first2 = H. P. (tr.) |last2 = Robertson |title = 'The theory of groups and quantum mechanics / und Quantenmechanik' |place = London, England |publisher = Methuen & Co. |year = 1931[/tpl]
-:*[tpl]citation |unused_data = edition= 4th |first1 = Edmund Taylor |last1 = Whittaker |author1-link = E. T. Whittaker  |first2 = George Neville |last2 = Watson  |author2-link = G. N. Watson |title =  'A course of modern analysis: an introduction to the general theory of infinite processes and of analytic functions, with an account of the principal transcendental functions' |edition = 1st AMS |place = Cambridge |publisher = Cambridge University Press |publication-date = 1927 |isbn = 978-0-521-58807-2[/tpl]
+:*
+:*
+:* (This tome was reprinted in 1985.)
+:*
+:*
+:*
 
 ===Textbooks for undergraduate studies===
 
-:*[tpl]citation |first1 = George B. |last1 = Arfken |first2 = Hans J. |last2 = Weber  |title = 'Mathematical methods for physicists' |edition = 4th |place = San Diego, CA. |publisher =  Academic Press |year = 1995 |isbn = 0-12-059816-7[/tpl] (pbk.)
-:*[tpl]citation |first = Mary L. |last = Boas |author1-link = Mary L. Boas |title = 'Mathematical Methods in the Physical Sciences' |edition = 3rd |place = Hoboken, NJ. |publisher =  John Wiley & Sons |year = 2006 |isbn = 978-0-471-19826-0[/tpl]
-:*[tpl]citation |first = Eugene |last = Butkov |title = 'Mathematical physics' |place = Reading, Mass. |publisher = Addison-Wesley |year = 1968[/tpl]
-:*[tpl]citation |first1 = Harold |last1 = Jeffreys |author1-link = Harold Jeffreys  |first2 = Bertha |last2 = Swirles Jeffreys |author2-link = Bertha Swirles |title = 'Methods of mathematical physics' |edition = 3rd rev. |place = Cambridge, England |publisher = Cambridge University Press |year = 1956[/tpl]
-:*[tpl]citation |first1 = Bruce R. |last1 = Kusse |title = 'Mathematical Physics: Applied Mathematics for Scientists and Engineers' |edition = 2nd |place = Germany |publisher = Wiley-VCH |year = 2006| isbn = 3-527-40672-7[/tpl]
-:* [tpl]Citation | author=Joos, Georg; Freeman, Ira M. | title=Theoretical Physics | publisher=Dover Publications | year=1987 | isbn=0-486-65227-0[/tpl]
-:*[tpl]citation |first1 =  Jon |last1 = Mathews  |first2 =  Robert L. |last2 = Walker |title =  'Mathematical methods of physics' |edition = 2nd |place = New York, NY. |publisher = W. A. Benjamin |year = 1970  |isbn =  0-8053-7002-1[/tpl]
-:* [tpl]Citation | author=Menzel, Donald Howard | title=Mathematical Physics | publisher=Dover Publications | year=1961 | isbn=0-486-60056-4[/tpl]
-:*[tpl]citation |first = Ivar |last = Stakgold |title = 'Boundary value problems of mathematical physics (2 vol.)' |place = Philadelphia, PA. |publisher =  Society for Industrial and Applied Mathematics |year = c.2000 |isbn = 0-89871-456-7[/tpl] (set : pbk.)
+:* (pbk.)
+:*
+:*
+:*
+:*
+:* 
+:*
+:* 
+:* (set : pbk.)
 
 ===Textbooks for graduate studies===
 
-:*[tpl]citation |first = Sadri |last = Hassani  |title = 'Mathematical Physics: A Modern Introduction to Its Foundations' |place = Berlin, Germany |publisher =  Springer-Verlag |year = 1999 |isbn = 0-387-98579-4 [/tpl]
-:*[tpl]cite book |authorlink=Michael C. Reed |first=M. |last=Reed |authorlink2=Barry Simon |first2=B. |last2=Simon |title=Methods of Mathematical Physics |others=Vol 1-4 |publisher=Academic Press |year=1972-1977 |isbn= [/tpl]
-:*[tpl]cite book |authorlink=Gerald Teschl |first=G. |last=Teschl |title=Mathematical Methods in Quantum Mechanics; With Applications to Schrödinger Operators |publisher=American Mathematical Society |location=Providence |year=2009 |url=http://www.mat.univie.ac.at/~gerald/ftp/book-schroe/|isbn=978-0-8218-4660-5[/tpl]
+:*
+:*
+:*
 
 ===Other specialised subareas===
 
-:*[tpl]citation |first1 = Jamil |last1 = Aslam  |first2 =  Faheem |last2 = Hussain |title = 'Mathematical physics' Proceedings of the 12th Regional Conference], Islamabad, Pakistan, 27 March – 1 April 2006 |url = http://www.worldscibooks.com/physics/6405.html |place = Singapore |publisher = World Scientific |year = 2007 |isbn = 978-981-270-591-4[/tpl]
-:*[tpl]citation |first1 = John C. |last1 = Baez |author-link = John Baez |first2 = Javier P. |last2 = Muniain |title = 'Gauge fields, knots, and gravity' |place = Singapore ; River Edge, NJ. |publisher =  World Scientific |year = 1994 |isbn = 981-02-2034-0[/tpl] (pbk.)
+:*
+:* (pbk.)
 :*
  (pbk.)
-:*[tpl]citation |first = Andrei D. |last = Polyanin |title = 'Handbook of linear partial differential equations for engineers and scientists' |place = Boca Raton, FL. |publisher =  Chapman & Hall / CRC Press |year = 2002 |isbn = 1-58488-299-9[/tpl]
-:*[tpl]citation |first1 = Alexei D. |last1 = Polyanin |first2 = Valentin F. |last2 = Zaitsev |title = 'Handbook of nonlinear partial differential equations' |place = Boca Raton, FL. |publisher =  Chapman & Hall / CRC Press |year = 2004 |isbn = 1-58488-355-3[/tpl]
-:*[tpl]citation |first = Peter |last = Szekeres |title = 'A course in modern mathematical physics: groups, Hilbert space and differential geometry' |place = Cambridge, England; New York, NY. |publisher = Cambridge University Press |year = 2004 |isbn = 0-521-53645-6[/tpl] (pbk.)
-:*[tpl]citation |first = Francisco J |last = Yndurain |title = 'Theoretical and Mathematical Physics. The Theory of Quark and Gluon Interactions' |publisher = Springer |year = 2006 |isbn = 978354033209[tpl]Please check ISBN|reason=Invalid length.[/tpl]I[/tpl] (pbk.)
+:*
+:*
+:* (pbk.)
+:* (pbk.)
 

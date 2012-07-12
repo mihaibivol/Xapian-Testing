@@ -5,11 +5,11 @@ It is developed by the openSUSE Project and used to create openSUSE Linux but ca
 == Usage and documentation ==
 
 KIWI has a large amount of documentation available, organized in 'cook books' which guide new users through the process of creating increasingly complicated KIWI images.
-Basic usage requires the installation of a number of tools besides KIWI, most notably for virtualization.[tpl]citation|url=http://en.opensuse.org/SDB:KIWI_Cookbook_Start_Cooking|title=Getting started with KIWI[/tpl] KIWI is a command line tool and has no Graphical user interface.
+Basic usage requires the installation of a number of tools besides KIWI, most notably for virtualization. KIWI is a command line tool and has no Graphical user interface.
 
 == KIWI in use ==
 
-KIWI is used by a variety of organizations in a variety of places. Besides SUSE Linux and the openSUSE Project, IBM has a product using KIWI [tpl]citation|url=http://www-01.ibm.com/software/data/infosphere/smart-analytics-system/5710/|title=IBM system using KIWI[/tpl] and DELL employs it as well.[tpl]citation|url=http://en.community.dell.com/dell-blogs/enterprise/b/tech-center/archive/2010/09/13/live-image-creation-with-kiwi.aspx|title=Dell using KIWI[/tpl]
+KIWI is used by a variety of organizations in a variety of places. Besides SUSE Linux and the openSUSE Project, IBM has a product using KIWI 
 
 ===SUSE Studio===
 

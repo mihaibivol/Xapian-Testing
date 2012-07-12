@@ -11,7 +11,7 @@ As of August, 2004, nothing from the Exec Shield projects attempt to enforce mem
 
 == History ==
 
-Exec Shield was developed by various people at Red Hat; the first patch was released by Ingo Molnar of Red Hat and first released in May 2003. It is part of Fedora Core 1 through 6 and Red Hat Enterprise Linux 3 (Update 3) and 4.[tpl]cite web|url=http://docs.fedoraproject.org/release-notes/fc1/x86/ |title=Fedora Core 1 Release Notes |accessdate=2007-10-18 |date=2003-11 |work=Red Hat, Inc. |archiveurl=http://web.archive.org/web/20031202145058/http://fedora.redhat.com/docs/release-notes/ |archivedate=2003-12-02 [/tpl][tpl]cite web|url=http://www.redhat.com/f/pdf/rhel/WHP0006US_Execshield.pdf |title=New Security Enhancements in Red Hat Enterprise Linux v.3, update 3 |accessdate=2007-10-18 |last=van de Ven |first=Arjan |date=2004-08 |format=PDF |work=Red Hat, Inc. |archiveurl=http://web.archive.org/web/20050512030425/http://www.redhat.com/f/pdf/rhel/WHP0006US_Execshield.pdf |archivedate=2005-05-12 [/tpl] Other people involved include Jakub Jelínek, Ulrich Drepper, Richard Henderson, Arjan van de Ven.
+Exec Shield was developed by various people at Red Hat; the first patch was released by Ingo Molnar of Red Hat and first released in May 2003. It is part of Fedora Core 1 through 6 and Red Hat Enterprise Linux 3 (Update 3) and 4. Other people involved include Jakub Jelínek, Ulrich Drepper, Richard Henderson, Arjan van de Ven.
 
 == See also ==
 

@@ -1,16 +1,16 @@
 
-Gizmo5 (formerly known as Gizmo Project and SIPphone) was a Voice over Internet Protocol communications network and a proprietary freeware soft phone for that network. On November 12, 2009, Google announced that it had acquired Gizmo5.[tpl]cite web |url=http://googlevoiceblog.blogspot.com/2009/11/google-welcomes-gizmo5.html |title=Google welcomes Gizmo5 |publisher=Google Voice Blog |accessdate=2009-11-12[/tpl] On March 4, 2011, Google announced that the service would be discontinued as of April 3, 2011.http://www.google.com/gizmo5/
-The Gizmo5 network used open standards for call management, Session Initiation Protocol (SIP) and Extensible Messaging and Presence Protocol (XMPP).[tpl]cite web|url=http://www.theregister.co.uk/2005/07/05/project_gizmo_voip/|title=Project Gizmo challenges Skype|last=Lock|first=Tony |date=July 5, 2005|publisher=The Register|accessdate=2009-04-17[/tpl] However, the Gizmo5 client application was proprietary software and used several proprietary codecs, including GIPS and Internet Speech Audio Codec (iSAC).
+Gizmo5 (formerly known as Gizmo Project and SIPphone) was a Voice over Internet Protocol communications network and a proprietary freeware soft phone for that network. On November 12, 2009, Google announced that it had acquired Gizmo5. On March 4, 2011, Google announced that the service would be discontinued as of April 3, 2011.http://www.google.com/gizmo5/
+The Gizmo5 network used open standards for call management, Session Initiation Protocol (SIP) and Extensible Messaging and Presence Protocol (XMPP). However, the Gizmo5 client application was proprietary software and used several proprietary codecs, including GIPS and Internet Speech Audio Codec (iSAC).
 
 == History ==
 
-Gizmo Project was founded by Michael Robertson and his company SIPphone.[tpl]cite web|url=http://www.voipplanet.com/reviews/article.php/3607481|title=Softphones Reviewed: Gizmo Project|last=Stevenson|first=Ted|date=May 19, 2006|publisher=Voip Planet|accessdate=2008-09-15[/tpl] 
-On November 12, 2009, Google announced that it had acquired Gizmo5 for a reported $30 million in cash. Prior to this acquisition, Gizmo5 had a working relationship with GrandCentral (now Google Voice) for years.[tpl]Citation needed|date=November 2009[/tpl] Upon announcement, Gizmo5 suspended new signups until a Google relaunch.[tpl]cite web |url=http://www.googlevoicesecrets.com/its-official-google-acquires-gizmo5 |title=It's Official - Google Acquires Gizmo5! |author=Kovitz, Steven |date=14 November 2009 |publisher=Google Voice Secrets |accessdate=2009-11-15[/tpl] Google was also dogfooding a Google Voice desktop client based on Gizmo5, branded as Gizmo5 by Google.[tpl]cite web|url=http://techcrunch.com/2010/07/01/exclusive-video-of-unreleased-google-voice-desktop-app/|title=Exclusive Video Of Unreleased Google Voice Desktop App|last=Arrington|first=Michael|date=July 1, 2010|publisher=Tech Crunch|accessdate=2010-08-16[/tpl]
-On April 3, 2011 Google shut down [tpl]cite web|title=Google.com/Gizmo5|url=http://www.google.com/gizmo5/[/tpl] Gizmo5 and recommended users to use Google Talk as an alternative.
+Gizmo Project was founded by Michael Robertson and his company SIPphone. 
+On November 12, 2009, Google announced that it had acquired Gizmo5 for a reported $30 million in cash. Prior to this acquisition, Gizmo5 had a working relationship with GrandCentral (now Google Voice) for years.
+On April 3, 2011 Google shut down  Gizmo5 and recommended users to use Google Talk as an alternative.
 
 == Technology ==
 
-Gizmo5 was based on the Session Initiation Protocol and could interoperate with other SIP-based networks directly, including the public switched telephone network. The latter required the Gizmo5 service features CallOut and CallIn. CallOut was available at a fee, whereas CallIn and calls to other VoIP users were generally free of cost. Gizmo5 also used encryption (Secure Real-time Transport Protocol) for network calls and worked well with Phil Zimmermann's Zfone[tpl]cite web|url=http://zfoneproject.com/getstarted.html|title=The Zfone Project - Getting Started with Zfone|accessdate=2008-11-16[/tpl] security features.[tpl]Citation needed|date=October 2009[/tpl]
+Gizmo5 was based on the Session Initiation Protocol and could interoperate with other SIP-based networks directly, including the public switched telephone network. The latter required the Gizmo5 service features CallOut and CallIn. CallOut was available at a fee, whereas CallIn and calls to other VoIP users were generally free of cost. Gizmo5 also used encryption (Secure Real-time Transport Protocol) for network calls and worked well with Phil Zimmermann's Zfone
 Gizmo5 supported the following Codecs:
 * GSM — fixed bit rate, not loss tolerant, narrow band (8khz sampling rate)
 * PCMA — fixed bit rate (8 kHz sampling rate)
@@ -22,18 +22,18 @@ Gizmo5 supported the following Codecs:
 * iPCM — fixed bit rate, loss tolerant, wideband
 Version 4.0 of the Gizmo5 softphone offered video calls. Gizmo5 also offered smartphone version.
 As of July 20, 2009, Gizmo5 was the only SIP service that could be used with Google Voice directly (without requiring a U.S. based phone number).
-The text chat function of Gizmo5 utilized the Extensible Messaging and Presence Protocol (XMPP) protocol.[tpl]cite web|url=http://jk3.us/2005/09/16/gizmos-jabber-server/|title=Gizmo's Jabber Server|last=Knight|first=Jay|date=September 16, 2005|publisher=Jay Knight|accessdate=2009-01-15[/tpl] Users were addressed by an identification string in the format of username@chat.gizmoproject.com.
+The text chat function of Gizmo5 utilized the Extensible Messaging and Presence Protocol (XMPP) protocol. Users were addressed by an identification string in the format of username@chat.gizmoproject.com.
 An earlier incarnation of the service was PhoneGaim, a free software VoIP system based on the Pidgin instant messaging software and the SIP protocol handling of the Linphone VoIP software, but restricted to using (only) the SIPphone service. It is available under the GNU General Public License and sponsored by Linspire.
 
 == Service features ==
 
-Gizmo5 supported outbound caller line identification in the United States.[tpl]cite web|url=http://support.gizmoproject.com/index.php?_m=knowledgebase&_a=viewarticle&kbarticleid=104|title=Gizmo5 Knowledgebase|date=September 27, 2005|publisher=Gizmo5|accessdate=2008-09-15[/tpl]
-Gizmo5 provided a free voicemail service.[tpl]cite web|url=http://support.gizmo5.com/index.php?_m=knowledgebase&_a=viewarticle&kbarticleid=73|title=Gizmo5 Knowledgebase|publisher=Gizmo5|accessdate=2009-09-05[/tpl]
-Gizmo5 allowed paying subscribers of LiveJournal to place voiceposts if they are unable to use the voicepost telephone lines provided by the website.[tpl]cite web|url=http://voipservices.tmcnet.com/feature/articles/3141-livejournal-adds-gizmo-letting-users-make-free-voip.htm|title=LiveJournal Adds Gizmo, Letting Users Make Free VoIP Calls |last=Barnard|first=Patrick|date=October 17, 2006 |publisher=TMCNet|accessdate=2008-09-15[/tpl]
+Gizmo5 supported outbound caller line identification in the United States.
+Gizmo5 provided a free voicemail service.
+Gizmo5 allowed paying subscribers of LiveJournal to place voiceposts if they are unable to use the voicepost telephone lines provided by the website.
 
 == Mobile phone support ==
 
-The Gizmo5 mobile phone application used the phone's carrier voice network for all calls. The service called the phone numbers of both parties and bridged the call. On mobile phones that support SIP applications, calls may be placed over WiFi or 3G. In the case of WiFi, calls to Gizmo5 users were free, and calls to the public switched telephone network were charged Gizmo5 Call Out credit. On 3G, additional costs would apply depending on the user's data plan.[tpl]Citation needed|date=September 2008[/tpl]
+The Gizmo5 mobile phone application used the phone's carrier voice network for all calls. The service called the phone numbers of both parties and bridged the call. On mobile phones that support SIP applications, calls may be placed over WiFi or 3G. In the case of WiFi, calls to Gizmo5 users were free, and calls to the public switched telephone network were charged Gizmo5 Call Out credit. On 3G, additional costs would apply depending on the user's data plan.
 
 == Gmail==
 
@@ -45,7 +45,7 @@ On Fri, Mar 4, 2011, subscribers received the following message from Gizmo5, ind
 :"Gizmo5 is writing to let you know that we will no longer be providing service starting on April 3, 2011. A week from today, March 11, 2011, you will no longer be able to add credit to your account.
 :Although the standalone Gizmo5 client will no longer be available, we have since launched the ability to call phones from within Gmail at even more affordable rates.
 :If you purchased calling credit and have a balance remaining in your account, you can request a refund by logging in to http://my.gizmo5.com. If you are in the United States, you can instead choose to transfer your credit to a Google Voice account, so it can be used for calling from Google Voice or Gmail. If you don’t have a Google Voice account, please create one so that we can transfer your credit.
-:''Please request a call credit transfer or refund by April 3, 2011. If you don't request a call credit transfer or refund by this date, we will automatically refund your remaining call credit via the payment method you originally used to purchase the credit...."[tpl]citation needed|date=September 2011[/tpl]
+:''Please request a call credit transfer or refund by April 3, 2011. If you don't request a call credit transfer or refund by this date, we will automatically refund your remaining call credit via the payment method you originally used to purchase the credit...."
 There was no indication made if the service would be revived in another form, or if there would be similar functionality added to any of Google's current telephony offerings. On April 4, around midnight for most users, service was finally cut.
 
 == See also ==

@@ -1,22 +1,22 @@
 
-[tpl]lowercase[/tpl]
 
-doPDF is a freeware Portable Document Format (PDF) printer developed by Softland, that allows any program that can print to create a PDF file. The resolution of the created PDF files can be set manually, or done automatically.[tpl]Cite web|url = http://www.download.com/doPDF-Free-PDF-Converter/3000-10743_4-10648880.html|title = Get basic print-to-PDF features |accessdate = 2009-06-04|last = Rosenblatt |first = Seth|authorlink = |year = 2009|month = February[/tpl][tpl]Cite web|url = http://www.komando.com/downloads/category.aspx?id=3173|title =  An easy way to do PDFs|accessdate = 2009-12-01|last = The Kim Komando Show|authorlink = |year = 2009[/tpl]
+
+doPDF is a freeware Portable Document Format (PDF) printer developed by Softland, that allows any program that can print to create a PDF file. The resolution of the created PDF files can be set manually, or done automatically.
 
 ==Features==
 
-Softland doPDF is a freeware application that is licenced for commercial and personal use. It supports 32-bit and 64-bit Windows 7, Vista, XP, and Windows Server 2000, 2003 and 2008 operating systems.[tpl]Cite web|url = http://www.dopdf.com/|title = doPDF 6.2 free PDF converter|accessdate = 2009-06-03|last = Softland|authorlink = |year = 2009[/tpl]
+Softland doPDF is a freeware application that is licenced for commercial and personal use. It supports 32-bit and 64-bit Windows 7, Vista, XP, and Windows Server 2000, 2003 and 2008 operating systems.
 The application allows custom resolution settings from 72 to 2400 dpi and predefined and custom page sizes. PDFs created from text remain searchable in any of the 20 languages supported.
 doPDF does not use Ghostscript or .NET and therefore is self-contained. It has a very small download file size, which was 1.73 MB in doPDF version 6.3.311 and 2.98 MB in version 7.0.321. Softland claims that doPDF in use "Barely uses any computer resources - compared to other free PDF converters, doPDF barely uses any memory or CPU resources when doing the actual conversion to PDF."
 Once installed doPDF is accessed by selecting doPDF from the print menu of any application that can print. The application then asks the user where to save the document, prints it as a PDF file and opens it in the user's default PDF viewer.
 Writing on Download.com, reviewer Seth Rosenblatt said of doPDF 6.2.301:
-The company released version 7 of this application in early December 2009. This new updated version includes complete compatibility with Windows 7 as well as support for Type 1 fonts. Instead of embedding the full font file, doPDF 7 embeds only font subsets, making the resulting PDF file smaller.[tpl]Cite web|url = http://www.dopdf.com/forum/topic/major-update-dopdf-version-7-is-here|title = doPDF version 7 is here|accessdate = 2009-12-03|last = Softland|authorlink = |year = 2009|month = December[/tpl]
+The company released version 7 of this application in early December 2009. This new updated version includes complete compatibility with Windows 7 as well as support for Type 1 fonts. Instead of embedding the full font file, doPDF 7 embeds only font subsets, making the resulting PDF file smaller.
 
 ==Awards and recognition==
 
-*doPDF was BetaNews Editor's Pick[tpl]Cite web|url = http://fileforum.betanews.com/detail/doPDF/1171636577/1|title = doPDF 6.3.311|accessdate = 2009-12-01|last = Betanews|authorlink = |year = 2009|month = November[/tpl]
-*Download of the day for 7 March 2007 at LifeHacker[tpl]Cite web|url = http://lifehacker.com/software/downloads/download-of-the-day-dopdf-windows-242311.php|title = Download of the Day: doPDF (Windows)|accessdate = 2009-12-01|last = Pash|first = Adam|authorlink = |year = 2007|month = March[/tpl]
-*Softpedia Pick rated at 4.2/5 Very Good[tpl]Cite web|url = http://www.softpedia.com/get/Office-tools/PDF/doPDF.shtml|title = doPDF 6.3 Build 311|accessdate = 2009-12-15|last = Softpedia|authorlink = |year = 2009|month = November[/tpl]
+*doPDF was BetaNews Editor's Pick
+*Download of the day for 7 March 2007 at LifeHacker
+*Softpedia Pick rated at 4.2/5 Very Good
 
 ==See also==
 
@@ -26,5 +26,5 @@ The company released version 7 of this application in early December 2009. This 
 
 ==External links==
 
-* [tpl]Official website|1=www.dopdf.com[/tpl]
+* 
 

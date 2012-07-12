@@ -20,8 +20,8 @@ Files and directories are encapsulated in a DSM-CC object carousel in several la
 
 == Carousel Management ==
 
-Carousel complexity can increase dramatically based on various factors such as the content type or the content filling algorithm.  Generally the content of a transmission carousel is dynamic, based on a multitude of variables, such as duration of the carousel transmission [tpl]cite web |url=http://www.google.com/patents?id=0nqAAAAAEBAJ&dq=7240286 |title=US Patent 7,240,286 |accessdate=2008-05-13 |author=Yamaguchi et al. |date=2007-07-03[/tpl], and is either determined by some type of algorithm or management utility.  
-Concepts such as embedded carousels are well-known and in use.  This is when the main transmission carousel has a particular piece of content dynamically changing itself based on a sub-carousel content provider.[tpl]cite web |url=http://www.google.com/patents?id=5jqGAAAAEBAJ&dq=2003/0154203 |title=US Patent Application Publication 2003/0154203 |accessdate=2008-05-13 |author=Morris et al. |date=2003-08-04[/tpl]
+Carousel complexity can increase dramatically based on various factors such as the content type or the content filling algorithm.  Generally the content of a transmission carousel is dynamic, based on a multitude of variables, such as duration of the carousel transmission , and is either determined by some type of algorithm or management utility.  
+Concepts such as embedded carousels are well-known and in use.  This is when the main transmission carousel has a particular piece of content dynamically changing itself based on a sub-carousel content provider.
 
 ==References==
 

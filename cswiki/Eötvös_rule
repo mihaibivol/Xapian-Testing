@@ -8,7 +8,7 @@ The Eötvös rule also gives a relation of the surface tension behaviour of diff
 
 == The Eötvös rule ==
 
-If V is the molar volume and Tc the critical temperature of a liquid the surface tension γ is given by[tpl]cite web|url=http://www.nikhef.nl/~h73/kn1c/praktikum/phywe/LEP/Experim/1_4_05.pdf|title=Surface Tension by the Ring Method (Du Nouy Method)|accessdate=2007-09-08|publisher=PHYWE|format=pdf[/tpl]
+If V is the molar volume and Tc the critical temperature of a liquid the surface tension γ is given by
 where k is a constant valid for all liquids. The Eötvös constant has a value of 2.1×10−7 J/(K·mol−2/3).
 More precise values can be gained when considering that the line normally passes the temperature axis 6 K before the critical point:
 The molar volume V is given by the molar mass M and the density ρ
@@ -21,7 +21,7 @@ For water, the following equation is valid between 0 and 100 °C.
 
 == Historical ==
 
-As student Eötvös started to research surface tension and developed a new method for its determination. The Eötvös rule was first found phenomenological and published in 1886.[tpl]cite journal|first=L. |last=Eötvös |journal=Annalen der Physik |year=1886 |volume=27 |page=448[/tpl] Cited in: [tpl]cite journal|last=Palit|first=Santi R.|title=Thermodynamic Interpretation of the Eötvös Constant|journal=Nature|year=1956|volume=177|issue=4521|pages=1180–1180|doi=10.1038/1771180a0|bibcode = 1956Natur.177.1180P [/tpl] In 1893 William Ramsay and Shields showed an improved version considering that the line normally passes the temperature axis 6 K before the critical point. John Lennard-Jones and Corner published (1940) a derivation of the equation by means of statistical mechanics. In 1945 E. A. Guggenheim gave a further improved variant of the equation.
+As student Eötvös started to research surface tension and developed a new method for its determination. The Eötvös rule was first found phenomenological and published in 1886. In 1893 William Ramsay and Shields showed an improved version considering that the line normally passes the temperature axis 6 K before the critical point. John Lennard-Jones and Corner published (1940) a derivation of the equation by means of statistical mechanics. In 1945 E. A. Guggenheim gave a further improved variant of the equation.
 
 ==References==
 

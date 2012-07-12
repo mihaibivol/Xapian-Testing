@@ -8,7 +8,7 @@ X := X XOR Y
 Y := Y XOR X
 X := X XOR Y
 The algorithm typically corresponds to three machine code instructions. Since XOR is a commutative operation, X XOR Y can be replaced with Y XOR X in any of the lines. When coded in assembly language, this commutativity is often exercised in the second line:
-In the above System/370 assembly code sample, R1 and R2 are distinct registers, and each XR operation leaves its result in the register named in the first argument. Using x86 assembly, values X and Y are in registers eax and ebx (respectively), and [tpl]code|xor|2=asm[/tpl] places the result of the operation in the first register.
+In the above System/370 assembly code sample, R1 and R2 are distinct registers, and each XR operation leaves its result in the register named in the first argument. Using x86 assembly, values X and Y are in registers eax and ebx (respectively), and  places the result of the operation in the first register.
 However, the algorithm fails if x and y use the same storage location, since the value stored in that location will be zeroed out by the first XOR instruction, and then remain zero; it will not be "swapped with itself". (Note that this is not the same as if x and y have the same values.  The trouble only comes when x and y use the same storage location, in which case their values must already be equal.)
 
 ==Proof of correctness==

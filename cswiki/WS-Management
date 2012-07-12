@@ -7,9 +7,9 @@ The specification is quite rich, supporting much more than get/set of simple var
 ==Implementations and application support==
 
 * Microsoft has implemented the WS-Management standard in Windows Remote Management 1.1 (WinRM), available for Windows XP, Windows Server 2003, Windows Vista and Windows Server 2008.
-* Using WS-Management (WinRM 2.0), Windows PowerShell 2.0 allows scripts and cmdlets to be invoked on a remote machine or a large set of remote machines.[tpl]cite web | url = http://blogs.msdn.com/powershell/archive/2007/11/06/what-s-new-in-ctp-of-powershell-2-0.aspx | title = What's New in CTP of PowerShell 2.0 | accessdate = 2007-12-12[/tpl]
-* Novell is working to develop an open source implementation of the WS-Management specification for SUSE Linux Enterprise.[tpl]cite web | url = http://www.novell.com/news/press/microsoft_and_novell_announce_technical_collaboration_for_customers | title = Microsoft and Novell Announce Technical Collaboration for Customers | accessdate = 2007-12-12[/tpl]
-* WinRM 2.0 for Windows XP and Windows Server 2003 was released on Oct 26, 2009.[tpl]cite web | url = http://www.microsoft.com/downloads/details.aspx?FamilyID=60cb5b6c-6532-45e0-ab0f-a94ae9ababf5 | title = Windows Management Framework Core for Windows XP | accessdate = 2009-10-28[/tpl]
+* Using WS-Management (WinRM 2.0), Windows PowerShell 2.0 allows scripts and cmdlets to be invoked on a remote machine or a large set of remote machines.
+* Novell is working to develop an open source implementation of the WS-Management specification for SUSE Linux Enterprise.
+* WinRM 2.0 for Windows XP and Windows Server 2003 was released on Oct 26, 2009.
 * A European research project (ITEA 2 programme, a strategic pan-European programme for advanced pre-competitive R&D in Software-intensive Systems and Services), named SODA (Service Oriented Device and Delivery Architecture) developed several implementations of WS-Managament in ANSI C, Java, and for OSGi. These implementations are specifically targeted to be used with an open web service protocol stack named DPWS (Devices Profile for Web Services), and were optimized to be integrated in micro-devices with only 100kB of memory. These implementations are open source, and source code is available on the SOA4D forge.
 
 ==References==

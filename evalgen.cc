@@ -183,8 +183,22 @@ print_snippet(string snippet, string query, int queryno, int snippetno)
     snippet = html_highlight(snippet, query_termlist, "", "");
     cout << snippet << endl;
     cout << " <br/> " << endl;
-    cout << "<input type=\"text\" name=\"" << queryno
-	 << "_" << snippetno << "\"> <br/> <br/>";
+    string radio_str1("<input type=\"radio\" name=\"");
+    string radio_str2("\" value=\"");
+    string radio_str3("\"/> ");
+    string radio_str3_checked("\" checked/> ");
+    cout << radio_str1 << queryno << "_" << snippetno
+	 << radio_str2 << 1 << radio_str3 << 1;
+    cout << radio_str1 << queryno << "_" << snippetno
+	 << radio_str2 << 2 << radio_str3 << 2;
+    cout << radio_str1 << queryno << "_" << snippetno
+	 << radio_str2 << 3 << radio_str3_checked << 3;
+    cout << radio_str1 << queryno << "_" << snippetno
+	 << radio_str2 << 4 << radio_str3 << 4;
+    cout << radio_str1 << queryno << "_" << snippetno
+	 << radio_str2 << 5 << radio_str3 << 5;
+    cout << " <br/> " << endl;
+    cout << " <br/> " << endl;
 }
 
 void
@@ -200,7 +214,6 @@ test_file(
     int queryno = 0;
     while (!file.eof()) {
 	file.getline(buff, BUFF_LEN);
-	++queryno;
 	string query_s(buff);
 	cout << "<h3> Query:" << query_s << "</h3>";
 
@@ -239,6 +252,7 @@ test_file(
 	    for (unsigned int rm_dn = 5; rm_dn <= 15; rm_dn += 10) {
 		snipper.set_rm_docno(rm_dn);
 		snipper.set_mset(matches);
+		++queryno;
 		for (int i = 0; i < 3; i++) {
 		    snipper.set_smoothing_coef(alphavals[i]);
 		    for (int j = 0; j < 3; j++) {

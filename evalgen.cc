@@ -166,7 +166,8 @@ html_highlight(const string &s, const string &list,
 }
 
 void
-print_snippet(string snippet, string query, int queryno, int snippetno)
+print_snippet(ofstream& html_out, string snippet, string query,
+	      int queryno, int snippetno)
 {
     string query_termlist;
     Xapian::Stem stemmer("english");
@@ -182,24 +183,24 @@ print_snippet(string snippet, string query, int queryno, int snippetno)
 	query_termlist += *it + "\t";
 
     snippet = html_highlight(snippet, query_termlist, "", "");
-    cout << snippet << endl;
-    cout << " <br/> " << endl;
+    html_out << snippet << endl;
+    html_out << " <br/> " << endl;
     string radio_str1("<input type=\"radio\" name=\"");
     string radio_str2("\" value=\"");
     string radio_str3("\"/> ");
     string radio_str3_checked("\" checked/> ");
-    cout << radio_str1 << queryno << "_" << snippetno
+    html_out << radio_str1 << queryno << "_" << snippetno
 	 << radio_str2 << 1 << radio_str3 << 1;
-    cout << radio_str1 << queryno << "_" << snippetno
+    html_out << radio_str1 << queryno << "_" << snippetno
 	 << radio_str2 << 2 << radio_str3 << 2;
-    cout << radio_str1 << queryno << "_" << snippetno
+    html_out << radio_str1 << queryno << "_" << snippetno
 	 << radio_str2 << 3 << radio_str3_checked << 3;
-    cout << radio_str1 << queryno << "_" << snippetno
+    html_out << radio_str1 << queryno << "_" << snippetno
 	 << radio_str2 << 4 << radio_str3 << 4;
-    cout << radio_str1 << queryno << "_" << snippetno
+    html_out << radio_str1 << queryno << "_" << snippetno
 	 << radio_str2 << 5 << radio_str3 << 5;
-    cout << " <br/> " << endl;
-    cout << " <br/> " << endl;
+    html_out << " <br/> " << endl;
+    html_out << " <br/> " << endl;
 }
 
 void
@@ -208,7 +209,8 @@ test_file(
 	Xapian::QueryParser &	    qp,
 	Xapian::Enquire &	    enquire,
 	vector<string>&		    data,
-	vector<string>&		    form_ids)
+	vector<string>&		    form_ids,
+	ofstream&		    html_out)
 {
     ifstream file(filename);
     char buff[BUFF_LEN];
@@ -218,7 +220,7 @@ test_file(
     while (!file.eof()) {
 	file.getline(buff, BUFF_LEN);
 	string query_s(buff);
-	cout << "<h3> Query:" << query_s << "</h3>";
+	html_out << "<h3> Query:" << query_s << "</h3>";
 
 	Xapian::Query query = qp.parse_query(query_s);
 	enquire.set_query(query);
@@ -248,10 +250,11 @@ test_file(
 	    double alphavals[] = {.3, .5, .7};
 	    unsigned int ws[] = {10, 30, 50};
 
-	    cout << "<a href=http://en.wikipedia.org/wiki/" << url
+	    html_out << "<a href=http://en.wikipedia.org/wiki/" << url
 		 << "> <b> From:" << url << "</b> </a> <br/> " << endl;
 
-	    int snippetno = 0;	
+	    int snippetno = 0;
+
 	    for (unsigned int rm_dn = 5; rm_dn <= 15; rm_dn += 10) {
 		snipper.set_rm_docno(rm_dn);
 		snipper.set_mset(matches);
@@ -266,7 +269,7 @@ test_file(
 			form_ids.push_back(id.str());
 
 			string snippet = snipper.generate_snippet(gen_text);
-			print_snippet(snippet, query_s, queryno, snippetno);
+			print_snippet(html_out, snippet, query_s, queryno, snippetno);
 		    }
 		}
 	    }
@@ -276,58 +279,68 @@ test_file(
 }
 
 void
-print_php_script(const vector<string>& data, const vector<string>& form_ids)
+print_php_script(ofstream& php_out, const vector<string>& data,
+		 const vector<string>& form_ids)
 {
-    cout << "<?php" << endl;
-    cout << "if(isset($_POST[\"submit\"])) {" << endl;
+    php_out << "<?php" << endl;
+    php_out << "if(isset($_POST[\"submit\"])) {" << endl;
 
     // Open file.
-    cout << "\t$filename = $_POST[\"username\"] . \".txt\";" << endl;
-    cout << "\t$file = fopen($filename, 'w') or die(\"Error\");" << endl;
+    php_out << "\t$filename = $_POST[\"username\"] . \".txt\";" << endl;
+    php_out << "\tif (ctype_alnum($_POST[\"username\"]) == FALSE) {\n"
+	       "\t\techo \"Enter alphanumeric username!\";\n"
+	       "\t\texit();\n"
+	       "\t}\n";
+    php_out << "\tif (@stat($filename) != FALSE) {\n"
+	       "\t\techo \"Username taken, Try other username!\";\n"
+	       "\t\texit();\n"
+	       "\t}\n";
+    php_out << "\t$file = fopen($filename, 'w') or die(\"Error\");" << endl;
 
     // Write data.
     for (unsigned int i = 0; i < data.size(); i++) {
-	cout << "\t$info = $_POST[\"" << form_ids[i] << "\"];" << endl;
+	php_out << "\t$info = $_POST[\"" << form_ids[i] << "\"];" << endl;
 
 	string doc_info = data[i] + "\\n" + form_ids[i] + "\\n";
-	cout << "\tfwrite($file,\"" << doc_info << "\");" << endl;
-	cout << "\t$info = $info . \"\\n\";" << endl;
-	cout << "\tfwrite($file, $info);" << endl;
+	php_out << "\tfwrite($file,\"" << doc_info << "\");" << endl;
+	php_out << "\t$info = $info . \"\\n\";" << endl;
+	php_out << "\tfwrite($file, $info);" << endl;
     }
-    cout << "\tfclose($file);" << endl;
-    cout << "}" << endl;
-    cout << "?>";
+    php_out << "\tfclose($file);" << endl;
+    php_out << "echo \"Thanks!\";" << endl;
+    php_out << "}" << endl;
+    php_out << "?>";
 }
 
 void
-print_html_bra()
+print_html_bra(ofstream& html_out, const char* php_file)
 {
-    cout << "<!DOCTYPE html>"
+    html_out << "<!DOCTYPE html>"
 	    "<html>"
 	    "<head>"
 	    "<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\">"
 	    "<title>Snippet assessor</title>"
 	    "</head>"
 	    "<body>";
-    cout << "<form action=\"\" method=\"post\">";
-    cout << "<h3> Name </h3>";
-    cout << "<input type=\"text\" name=\"username\">";
+    html_out << "<form action=\"" << php_file << "\" method=\"post\">";
+    html_out << "<h3> Name </h3>";
+    html_out << "<input type=\"text\" name=\"username\">";
 }
 
 void
-print_html_ket()
+print_html_ket(ofstream& html_out)
 {
-    cout << "<input type=\"submit\" name=\"submit\" value=\"submit\">"
+    html_out << "<input type=\"submit\" name=\"submit\" value=\"submit\">"
 	    "</form>";
-    cout << "</body> </html>";
+    html_out << "</body> </html>";
 }
 
 int
 main(int argc, char **argv)
 {
     try {
-        // We require at least two command line arguments.
-        if (argc < 3) {
+        // We require at least 5 command line arguments.
+        if (argc < 5) {
 	    int rc = 1;
 	    if (argv[1]) {
 		if (strcmp(argv[1], "--version") == 0) {
@@ -338,7 +351,7 @@ main(int argc, char **argv)
 		    rc = 0;
 		}
 	    }
-	    cout << "Usage: " << argv[0] << " PATH_TO_DATABASE QUERYFILE" << endl;
+	    cout << "Usage: " << argv[0] << " PATH_TO_DATABASE QUERYFILE HTML_FILE PHP_FILE" << endl;
 	    exit(rc);
 	}
 
@@ -348,6 +361,9 @@ main(int argc, char **argv)
 	// Start an enquire session.
 	Xapian::Enquire enquire(db);
 
+	ofstream html_out(argv[3]);
+	ofstream php_out(argv[4]);
+
 	// Set query parser.
 	Xapian::QueryParser qp;
 	Xapian::Stem stemmer("english");
@@ -356,10 +372,10 @@ main(int argc, char **argv)
 	qp.set_stemming_strategy(Xapian::QueryParser::STEM_SOME);
 	vector<string> data;
 	vector<string> form_ids;
-	print_html_bra();
-	test_file(argv[2], qp, enquire, data, form_ids);
-	print_html_ket();
-	print_php_script(data, form_ids);
+	print_html_bra(html_out, argv[4]);
+	test_file(argv[2], qp, enquire, data, form_ids, html_out);
+	print_html_ket(html_out);
+	print_php_script(php_out, data, form_ids);
     } catch (const Xapian::Error &e) {
         cout << e.get_description() << endl;
         exit(1);

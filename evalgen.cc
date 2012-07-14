@@ -225,7 +225,7 @@ test_file(
 	Xapian::Query query = qp.parse_query(query_s);
 	enquire.set_query(query);
 	// Find the top 15 results for the query.
-	Xapian::MSet matches = enquire.get_mset(0, 15);
+	Xapian::MSet matches = enquire.get_mset(0, 10);
 
 	Xapian::Snipper snipper;
 	Xapian::Stem stemmer("english");
@@ -240,6 +240,7 @@ test_file(
 	    string url = gen_text.substr(5, gen_text.find('\n') - 5);
 	    string sample_mark("sample=");
 	    string type_mark("type=");
+	    queryno++;
 
 	    size_t sample_pos = gen_text.find(sample_mark) + sample_mark.size();
 	    gen_text.erase(gen_text.begin(), gen_text.begin() + sample_pos);
@@ -247,31 +248,26 @@ test_file(
 	    size_t type_pos = gen_text.rfind(type_mark);
 	    gen_text.erase(gen_text.begin() + type_pos, gen_text.end());
 
-	    double alphavals[] = {.3, .5, .7};
-	    unsigned int ws[] = {10, 30, 50};
-
 	    html_out << "<a href=http://en.wikipedia.org/wiki/" << url
 		 << "> <b> From:" << url << "</b> </a> <br/> " << endl;
 
 	    int snippetno = 0;
+	    int dn[6] =	    {10,  5,  5,  5, 10, 10};
+	    int ws[6] =	    {10, 10, 10, 20, 20, 20};
+	    double sc[6] =  {.5, .5, .9, .5, .5, .9};
 
-	    for (unsigned int rm_dn = 5; rm_dn <= 15; rm_dn += 10) {
-		snipper.set_rm_docno(rm_dn);
+	    for (unsigned int i = 0; i < 6; i++) {
+		snipper.set_rm_docno(dn[i]);
 		snipper.set_mset(matches);
-		++queryno;
-		for (int i = 0; i < 3; i++) {
-		    snipper.set_smoothing_coef(alphavals[i]);
-		    for (int j = 0; j < 3; j++) {
-			snipper.set_window_size(ws[j]);
-			data.push_back(query_s + "\\n" + url);
-			stringstream id;
-			id << queryno << "_" << ++snippetno;
-			form_ids.push_back(id.str());
+		snipper.set_smoothing_coef(sc[i]);
+		snipper.set_window_size(ws[i]);
+		data.push_back(query_s + "\\n" + url);
+		stringstream id;
+		id << queryno << "_" << ++snippetno;
+		form_ids.push_back(id.str());
 
-			string snippet = snipper.generate_snippet(gen_text);
-			print_snippet(html_out, snippet, query_s, queryno, snippetno);
-		    }
-		}
+		string snippet = snipper.generate_snippet(gen_text);
+		print_snippet(html_out, snippet, query_s, queryno, snippetno);
 	    }
 	}
     }

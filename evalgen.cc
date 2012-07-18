@@ -253,7 +253,7 @@ test_file(
 
 	    int snippetno = 0;
 	    int dn[6] =	    {10,  5,  5,  5, 10, 10};
-	    int ws[6] =	    {10, 10, 10, 20, 20, 20};
+	    int ws[6] =	    {10, 30, 10, 20, 40, 20};
 	    double sc[6] =  {.5, .5, .9, .5, .5, .9};
 
 	    for (unsigned int i = 0; i < 6; i++) {

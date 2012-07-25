@@ -38,9 +38,9 @@ test_file(
 	snipper.set_stemmer(stemmer);
 	snipper.set_mset(matches);
 
-	int dn[6] =	{10,  5,  5,  5, 10, 10};
-	int ws[6] =	{10, 30, 10, 20, 40, 20};
-	double sc[6] =  {.5, .5, .9, .5, .5, .9};
+	int dn[9] =	{10,  5,  5,  5, 10, 10,  5, 10, 15};
+	int ws[9] =	{10, 30, 10, 20, 40, 20, 25, 25, 25};
+	double sc[9] =  {.5, .5, .9, .5, .5, .9, .5, .5, .5};
 
 	snipper.set_rm_docno(dn[variation_index]);
 	snipper.set_mset(matches);

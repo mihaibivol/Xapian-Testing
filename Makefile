@@ -1,13 +1,16 @@
+CFLAGS=-O3 -Wall
+LDFLAGS=-I$(INCLUDE_PATH) -L$(LIBRARY_PATH) -lxapian-1.3
+
 all: snippettest evalgen paramvariations
 
 snippettest: snippettest.cc
-	g++ snippettest.cc -I$(INCLUDE_PATH) -L$(LIBRARY_PATH) -lxapian-1.3 -o snippettest
+	g++ snippettest.cc $(LDFLAGS) $(CFLAGS) -o snippettest
 
 evalgen: evalgen.cc
-	g++ evalgen.cc -I$(INCLUDE_PATH) -L$(LIBRARY_PATH) -lxapian-1.3 -o evalgen
+	g++ evalgen.cc $(LDFLAGS) $(CFLAGS) -o evalgen
 
 paramvariations: paramvariations.cc
-	g++ paramvariations.cc -I$(INCLUDE_PATH) -L$(LIBRARY_PATH) -lxapian-1.3 -o paramvariations
+	g++ paramvariations.cc $(LDFLAGS) $(CFLAGS) -o paramvariations
 
 clean:
-	rm -f snippettest
+	rm -f snippettest evalgen paramvariations

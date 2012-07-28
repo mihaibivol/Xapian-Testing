@@ -64,7 +64,8 @@ test_file(
 
 	    string snippet = snipper.generate_snippet(gen_text);
 	    cout << "Query: \"" << query_s << "\" Document: \""
-		 << url << " Snippet: \"" << snippet << "\"\n";
+		 << url << "\" Snippet: \"" << snippet << "\"\n";
+	    cout << endl;
 	}
     }
     file.close();
